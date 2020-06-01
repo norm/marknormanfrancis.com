@@ -1,0 +1,184 @@
+#!/usr/bin/env python
+
+"""
+Add all photos from an Instagram backup.
+
+Get the backup by signing into Instagram in a browser, then going to
+https://www.instagram.com/download/request/
+
+Eventually Facebook will send you the zip of your Instagram data.
+
+Run this script with the directory as the argument:
+
+    % python script/add_instagram ~/Downloads/instagram_export...
+
+The backup data does not include a reference to the original URL. Nor can you
+tie the comments to the image they are commenting on. I mean, why be helpful,
+right? But I can live with that. I won't lose sleep at failing to preserve
+those links.
+"""
+
+from datetime import datetime
+from hashlib import md5
+import json
+import os
+import sys
+import pytz
+
+import boto3
+import toml
+from django.utils.text import slugify
+
+
+# two duplicates and an error
+ignored = [
+    'photos/201410/ff9f2c686b5b5109b7c6fa9db647c777.jpg',
+    'photos/201412/8cf4d9a24e9855201eec657d44c553be.jpg',
+    'photos/201109/a6529709606f9a2ddb232ed53f27d7bb.jpg',
+]
+
+BUCKET='mnf.m17s.net'
+s3 = boto3.resource('s3')
+media_bucket = s3.Bucket(BUCKET)
+bucket_objects = dict()
+
+instagram_export = sys.argv[1]
+
+
+def main():
+    global bucket_objects
+
+    media = read_media()
+    bucket_objects = get_bucket_content(media_bucket)
+    seen = []
+
+    for photo in media['photos']:
+        if photo['path'] in ignored:
+            continue
+
+        taken = datetime.fromisoformat(photo['taken_at'])
+        if not taken.tzinfo:
+            # why have a timezone, everyone's in San Francisco right?
+            sf_taken = pytz.timezone('America/Los_Angeles').localize(taken)
+            taken = sf_taken.astimezone(pytz.utc)
+        subdir = taken.strftime('%Y/%m/%d')
+        caption = strip_trailing_hashtags(photo['caption'])
+        slug = slugify(caption)
+        if not slug:
+            slug = 'image'
+
+        path = '%s/%s' % (subdir, slug)
+        if path in seen:
+            path = '%s/%s-%s' % (subdir, taken.strftime('%H%M%S'), slug)
+            if path in seen:
+                raise DuplicateError
+
+        source_subdir = '%s/%s' % ('source', subdir)
+        if not os.path.exists(source_subdir):
+            os.makedirs(source_subdir)
+
+        image_destination = '%s.jpg' % path
+        save_image(photo['path'], image_destination)
+
+        metadata = {
+            'published': taken,
+            'title': caption,
+            'image': 'http://%s/%s' % (BUCKET, image_destination),
+            'type': 'instagram',
+        }
+        if 'location' in photo:
+            metadata['location'] = photo['location']
+        if caption != photo['caption']:
+            metadata['original_caption'] = photo['caption']
+
+        tags = get_hashtags(photo['caption'])
+        if tags:
+            metadata['tag'] = sorted(tags)
+
+        toml_file = 'source/%s.toml' % path
+        update_toml(toml_file, metadata)
+
+        seen.append(path)
+
+def update_toml(filename, data):
+    current = ''
+    try:
+        with open(filename, 'r') as handle:
+            current = handle.read()
+    except FileNotFoundError:
+        pass
+
+    if toml.dumps(data) != current:
+        with open(filename, 'w') as toml_handle:
+            toml.dump(data, toml_handle)
+        print('++', filename)
+
+def get_hashtags(text):
+    """
+    Return a set of hashtags found in the text,
+    ignoring shorthand ordinal numbers (eg we're #1!).
+    """
+    tags = set(
+        slugify(word[1:].lower())
+        for word in text.split()
+        if word.startswith('#')
+    )
+    for tag in tags.copy():
+        try:
+            int(tag)
+            tags.remove(tag)
+        except ValueError:
+            pass
+    return tags
+
+def strip_trailing_hashtags(text):
+    """
+    Remove hashtags from the end of a string, but not from the middle.
+    """
+    words = text.split(' ')
+    if words[-1].startswith('#'):
+        while words and words[-1].startswith('#'):
+            del words[-1]
+    return ' '.join(words)
+
+def save_image(source, destination):
+    global bucket_objects
+
+    image_source = '%s/%s' % (instagram_export, source)
+    image_digest = '"%s"' % md5(
+        open(image_source, 'rb').read()
+    ).hexdigest()
+
+    # upload the image unless it matches what is already on S3
+    upload = True
+    try:
+        if image_digest == bucket_objects[destination].e_tag:
+            upload = False
+    except KeyError:
+        pass
+
+    if upload:
+        upload_args = {
+            'Key': destination,
+            'ACL': 'public-read',
+            'Body': open(image_source, 'rb'),
+            'ContentType': 'image/jpeg',
+        }
+        media_bucket.put_object(**upload_args)
+        print('++ s3://%s/%s' % (BUCKET, destination))
+
+def get_bucket_content(bucket):
+    objects = dict()
+    for object in media_bucket.objects.all():
+        objects.update({object.key: object})
+    return objects
+
+def read_media():
+    instagram_export = sys.argv[1]
+    media_json = os.path.join(instagram_export, 'media.json')
+
+    with open(media_json, 'r') as media_handle:
+        return json.load(media_handle)
+
+if __name__ == '__main__':
+    main()
