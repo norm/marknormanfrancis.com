@@ -135,7 +135,13 @@ def strip_trailing_hashtags(text):
     """
     Remove hashtags from the end of a string, but not from the middle.
     """
-    words = text.split(' ')
+    if not text:
+        return ''
+    words = [
+        word 
+        for word in text.split(' ')
+        if word
+    ]
     if words[-1].startswith('#'):
         while words and words[-1].startswith('#'):
             del words[-1]
