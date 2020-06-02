@@ -1,9 +1,9 @@
 {% extends "base_template.html" %}
 
-{% block head_title_text %}Entries tagged {{tag}}{% endblock %}
+{% block head_title_text %}Entries tagged {{tokens.tag}}{% endblock %}
 
 {% block body %}
-  <h1>Entries tagged {{tag}}</h1>
+  <h1>Entries tagged {{tokens.tag}}</h1>
   {% for page in pages %}
     {% if loop.changed(page.published.month) %}
       {% if not loop.first %}
