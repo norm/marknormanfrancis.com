@@ -2,7 +2,20 @@
 
 {% block head_title_text %}marknormanfrancis.com placeholder homepage{% endblock %}
 
+{% block global_rebuilding %}
+  <p id='rebuilding'></p>
+{% endblock %}
+
 {% block body %}
+
+  <div id='body_about'>
+    <strong>Please hold…</strong>
+    <span>
+      This website is being rebuilt,
+      <a href='/about-the-rebuild'>find out more</a>.
+    </span>
+  </div>
+
 
   <h1>Most recent entries</h1>
   {% for page in pages %}

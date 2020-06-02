@@ -20,6 +20,13 @@
       <h1>marknormanfrancis.com</h1>
     </div>
 
+    {% block global_rebuilding %}
+    <p id='rebuilding'>
+      <span>Please hold…</span> rebuild in progress
+      <a href='/about-the-rebuild'>(find out more)</a>
+    </p>
+    {% endblock %}
+
     <div id='navigation'>
       Archives:
       {% for year in global.all_valid_dates %}
