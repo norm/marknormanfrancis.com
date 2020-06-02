@@ -1,0 +1,113 @@
+html, body {
+  background: #fff;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  font-family: Lato, sans-serif;
+}
+
+a {
+  color: #bf6b8d;
+}
+a:visited {
+  color: #7b3c58;
+}
+
+#global {
+  background: #5c7178;
+  color: #fff;
+  padding: 1em 4em 2em;
+}
+#global a {
+  color: #fff;
+}
+#branding {
+  /*padding-bottom: 2em;*/
+}
+#branding h1 {
+  font-family: 'Vollkorn', 'Hoefler Text', 'Georgia';
+  font-weight: 900;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1;
+}
+#navigation ul,
+#navigation li {
+  display: inline-block;
+}
+#navigation li {
+  margin-left: 5px;
+}
+#body, 
+#footer {
+  margin: 1em 4em;
+}
+#body {
+  line-height: 1.4;
+}
+#body {
+  padding-bottom: 3em;
+}
+#body h1, h2, h3 {
+  font-family: 'Vollkorn', 'Hoefler Text', 'Georgia';
+  font-weight: 900;
+}
+
+#footer {
+  margin: 3em 4em 4em;
+  padding-top: 1em;
+  border-top: 1px solid #ddd;
+  color: #aaa;
+}
+#footer p {
+  font-size: 0.8em;
+  margin: 0 2em;
+}
+
+body.about #body p img {
+  float: right;
+  max-width: 50%;
+  /*min-width: 200px;*/
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+body.about #body h2 {
+  clear: right;
+}
+body.instagram #body p.image img {
+  max-width: 100%;
+}
+
+#body_about {
+  display: inline-block;
+  background: #bea13e;
+  line-height: 2;
+  margin: 1em 0 2em;
+}
+#body_about strong {
+  display: inline-block;
+  padding: 0 10px;
+  background: #9f481b;
+  color: #fff;
+}
+#body_about span {
+  padding: 0 30px 0 20px;
+  white-space: nowrap;
+}
+#body_about a {
+  color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+  #global,
+  #footer {
+    padding: 10px 20px;
+  }
+  #body,
+  #footer {
+    margin: 10px 20px;
+  }
+  #footer p {
+    margin: 0;
+  }
+}

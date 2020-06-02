@@ -1,0 +1,39 @@
+{% extends "base_template.html" %}
+
+{% block head_title_text %}marknormanfrancis.com placeholder homepage{% endblock %}
+
+{% block body %}
+
+  <h1>Most recent entries</h1>
+  {% for page in pages %}
+
+    {% if loop.index < 21 %}
+
+    {% if loop.changed(page.published.month) %}
+      {% if not loop.first %}
+          </li>
+        </ul>
+      {% endif %}
+        <li>
+          <h2>{{page.published.strftime('%B %Y')}}</h2>
+          <ul>
+    {% endif %}
+
+          <li>
+            {{page.published.day}}{{page.published.day|ordinal}}
+            {{page.published.strftime('%H:%M')}} <a href='{{page.url}}'>{{page.title}}</a>
+          </li>
+  
+    {% if loop.last %}
+        </ul>
+      </li>
+    {% endif %}
+
+    {% endif %}
+
+  {% endfor %}
+        </ul>
+      </li>
+
+  <p>There are <a href='/archives'>{{pages.count}}</a> total entries.</p>
+{% endblock %}

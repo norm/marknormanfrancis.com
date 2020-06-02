@@ -1,0 +1,16 @@
+{% extends "base_template.html" %}
+
+{% block head_title_text %}All tags{% endblock %}
+
+{% block body %}
+  <h1>All tags</h1>
+  <ul>
+    {% for tag in pages %}
+      <li>
+        <a href='{{ url("tags-tag-index", tag=tag) }}'>
+          {{tag}}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

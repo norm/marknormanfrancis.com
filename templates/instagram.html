@@ -1,0 +1,26 @@
+{% extends "base_template.html" %}
+
+{% block head_title_text %}{{title}}{% endblock %}
+{% block page_class %}instagram{% endblock %}
+
+{% block body %}
+  <h1>{{title}}</h1>
+  <p>
+    Posted to Instagram 
+    {{published.strftime('%d %B, %Y')}}
+      at 
+    {{published.strftime('%-I.%M%p').lower()}}.
+  </p>
+  {% if original_caption %}
+    <p>Original caption: {{original_caption}}</p>
+  {% endif %}
+  <p class='image'><img src='{{image}}' alt=''></p>
+  {% if tag %}
+    <h2>tagged</h2>
+    <ul>
+      {% for t in tag %}
+        <li><a href='{{ url("tags-tag-index", tag=t) }}'>{{t}}</a></li>
+      {% endfor %}    
+    </ul>
+  {% endif %}
+{% endblock %}

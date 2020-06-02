@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>{% block head_title_text %}SET PAGE TITLE{% endblock %}</title>
+  <link rel='stylesheet' href='/site.css'>
+<!--  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Vollkorn:900&amp;text=marknofcis.'> -->
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Vollkorn:900'>
+  <link rel="stylesheet"
+          href='https://fonts.googleapis.com/css?family=Lato:400'>
+<!--  <link href='//fonts.googleapis.com/css?family=Vollkorn:700&amp;text=FMNacikmnors%20' rel='stylesheet' type='text/css' />
+-->
+
+</head>
+<body class='{{page_class}} {% block page_class %}{% endblock %}'>
+
+  <div id='global'>
+    <div id='branding'>
+      <h1>marknormanfrancis.com</h1>
+    </div>
+
+    <div id='navigation'>
+      Archives:
+      {% for year in global.all_valid_dates %}
+        <li>
+          <a href='{{ url("year-index", year=year.year) }}'>
+            {{year.year}}
+          </a>
+        </li>
+      {% endfor %}
+    </div>
+  </div>
+
+
+  <div id='body'>
+    {% block body %}
+      <p>This site is being slowly rebuilt.</p>
+      <img src='http://mnf.m17s.net/2012/07/31/dropping-a-css-knowledge-bomb-on-rujmah.jpg'>
+    {% endblock %}
+  </div>
+
+  <div id='footer'>
+    <p>Copyright © 2006–2020 Mark Norman Francis.</p>
+  </div>
+
+</body>
+</html>
