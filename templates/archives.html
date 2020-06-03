@@ -15,7 +15,7 @@
         {% for month in year.months %}
           <li>
             <a href='{{ url("month-index", year=year.year, month=month.month) }}'>
-              {{year.year}}/{{month.month}}
+              {{month.month|month_name}}
             </a>
           </li>
         {% endfor %}
