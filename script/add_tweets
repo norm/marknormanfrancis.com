@@ -1,0 +1,64 @@
+#!/usr/bin/env python
+
+"""
+Add selected tweets from a list of tweet IDs.
+"""
+
+import os
+import sys
+
+import pytz
+import tweepy
+
+from lib import update_toml
+
+auth = tweepy.OAuthHandler(
+    os.getenv('CONSUMER_KEY'),
+    os.getenv('CONSUMER_SECRET')
+)
+auth.set_access_token(
+    os.getenv('TWITTER_TOKEN'),
+    os.getenv('TOKEN_SECRET')
+)
+twitter = tweepy.API(auth)
+
+
+def main():
+    global twitter
+
+    with open('data/tweet_ids.txt', 'r') as handle:
+        ids = handle.readlines()
+
+    for id in ids:
+        tweet = twitter.get_status(id, tweet_mode='extended')
+        created = tweet.created_at
+        if not created.tzinfo:
+            created = pytz.timezone('UTC').localize(created)
+
+        # FIXME inline links in the text
+        # FIXME hashtags
+        # FIXME quote tweets
+        # FIXME retweets
+        # FIXME threads
+        # FIXME attached images/video
+        # FIXME add original data as attachment
+        post = {
+            'tweet_id': tweet.id_str,
+            'tweet': tweet.full_text,
+            'type': 'tweet',
+            'title': 'Tweet at %s' % created.strftime('%-I:%M%p').lower(),
+            'published': created,
+            'retweeted': tweet.retweet_count,
+            'favourited': tweet.favorite_count,
+            'original_url': 'https://twitter.com/%s/status/%s' % (
+                tweet.author.screen_name,
+                tweet.id_str,
+            ),
+        }
+
+        date = created.strftime('%Y/%m/%d')
+        toml_file = 'source/%s/tweet-%s.toml' % (date, tweet.id_str)
+        update_toml(toml_file, post)
+
+if __name__ == '__main__':
+    main()

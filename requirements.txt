@@ -1,2 +1,4 @@
 flourish
 django
+tweepy
+honcho

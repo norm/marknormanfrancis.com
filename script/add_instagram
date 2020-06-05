@@ -26,9 +26,9 @@ import sys
 import pytz
 
 import boto3
-import toml
 from django.utils.text import slugify
 
+from lib import update_toml
 
 # two duplicates and an error
 ignored = [
@@ -73,10 +73,6 @@ def main():
             if path in seen:
                 raise DuplicateError
 
-        source_subdir = '%s/%s' % ('source', subdir)
-        if not os.path.exists(source_subdir):
-            os.makedirs(source_subdir)
-
         image_destination = '%s.jpg' % path
         save_image(photo['path'], image_destination)
 
@@ -99,19 +95,6 @@ def main():
         update_toml(toml_file, metadata)
 
         seen.append(path)
-
-def update_toml(filename, data):
-    current = ''
-    try:
-        with open(filename, 'r') as handle:
-            current = handle.read()
-    except FileNotFoundError:
-        pass
-
-    if toml.dumps(data) != current:
-        with open(filename, 'w') as toml_handle:
-            toml.dump(data, toml_handle)
-        print('++', filename)
 
 def get_hashtags(text):
     """
