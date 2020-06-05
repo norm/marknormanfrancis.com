@@ -11,6 +11,7 @@ import pytz
 import tweepy
 
 from lib import update_toml
+from lib.bucket import Bucket
 
 auth = tweepy.OAuthHandler(
     os.getenv('CONSUMER_KEY'),
@@ -21,6 +22,8 @@ auth.set_access_token(
     os.getenv('TOKEN_SECRET')
 )
 twitter = tweepy.API(auth)
+BUCKET = 'mnf.m17s.net'
+bucket = Bucket(BUCKET)
 
 
 def main():
@@ -54,9 +57,26 @@ def main():
                 tweet.author.screen_name,
                 tweet.id_str,
             ),
+            'images': [],
         }
 
         date = created.strftime('%Y/%m/%d')
+
+        if 'media' in tweet.entities:
+            for media in tweet.entities['media']:
+                destination = '%s/%s' % (
+                    date,
+                    os.path.basename(media['media_url_https']),
+                )
+                uploaded = bucket.upload_file(
+                    media['media_url_https'],
+                    destination,
+                    check_digest = False,
+                )
+                if uploaded:
+                    print('++', destination)
+            post['images'].append('http://%s/%s' % (BUCKET, destination))
+
         toml_file = 'source/%s/tweet-%s.toml' % (date, tweet.id_str)
         update_toml(toml_file, post)
 

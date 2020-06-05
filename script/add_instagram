@@ -29,6 +29,7 @@ import boto3
 from django.utils.text import slugify
 
 from lib import update_toml
+from lib.bucket import Bucket
 
 # two duplicates and an error
 ignored = [
@@ -38,18 +39,12 @@ ignored = [
 ]
 
 BUCKET='mnf.m17s.net'
-s3 = boto3.resource('s3')
-media_bucket = s3.Bucket(BUCKET)
-bucket_objects = dict()
-
 instagram_export = sys.argv[1]
 
 
 def main():
-    global bucket_objects
-
+    bucket = Bucket(BUCKET)
     media = read_media()
-    bucket_objects = get_bucket_content(media_bucket)
     seen = []
 
     for photo in media['photos']:
@@ -73,13 +68,18 @@ def main():
             if path in seen:
                 raise DuplicateError
 
-        image_destination = '%s.jpg' % path
-        save_image(photo['path'], image_destination)
+        image_path = '%s.jpg' % path
+        uploaded = bucket.upload_file(
+            '%s/%s' % (instagram_export, photo['path']),
+            image_path,
+        )
+        if uploaded:
+            print('++ s3://%s/%s' % (BUCKET, image_path))
 
         metadata = {
             'published': taken,
             'title': caption,
-            'image': 'http://%s/%s' % (BUCKET, image_destination),
+            'image': 'http://%s/%s' % (BUCKET, image_path),
             'type': 'instagram',
         }
         if 'location' in photo:
@@ -130,37 +130,6 @@ def strip_trailing_hashtags(text):
             del words[-1]
     return ' '.join(words)
 
-def save_image(source, destination):
-    global bucket_objects
-
-    image_source = '%s/%s' % (instagram_export, source)
-    image_digest = '"%s"' % md5(
-        open(image_source, 'rb').read()
-    ).hexdigest()
-
-    # upload the image unless it matches what is already on S3
-    upload = True
-    try:
-        if image_digest == bucket_objects[destination].e_tag:
-            upload = False
-    except KeyError:
-        pass
-
-    if upload:
-        upload_args = {
-            'Key': destination,
-            'ACL': 'public-read',
-            'Body': open(image_source, 'rb'),
-            'ContentType': 'image/jpeg',
-        }
-        media_bucket.put_object(**upload_args)
-        print('++ s3://%s/%s' % (BUCKET, destination))
-
-def get_bucket_content(bucket):
-    objects = dict()
-    for object in media_bucket.objects.all():
-        objects.update({object.key: object})
-    return objects
 
 def read_media():
     instagram_export = sys.argv[1]

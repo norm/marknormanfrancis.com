@@ -2,3 +2,4 @@ flourish
 django
 tweepy
 honcho
+requests
