@@ -32,7 +32,9 @@ def main():
     with open('data/tweet_ids.txt', 'r') as handle:
         ids = handle.readlines()
 
-    for id in ids:
+    for line in ids:
+        entry = line.split(maxsplit=1)
+        id = entry[0]
         tweet = twitter.get_status(id, tweet_mode='extended')
         created = tweet.created_at
         if not created.tzinfo:
@@ -45,11 +47,17 @@ def main():
         # FIXME threads
         # FIXME attached images/video
         # FIXME add original data as attachment
+
+        try:
+            title = entry[1].rstrip()
+        except IndexError:
+            title = 'Tweet at %s' % created.strftime('%-I:%M%p').lower()
+
         post = {
             'tweet_id': tweet.id_str,
             'tweet': tweet.full_text,
             'type': 'tweet',
-            'title': 'Tweet at %s' % created.strftime('%-I:%M%p').lower(),
+            'title': title,
             'published': created,
             'retweeted': tweet.retweet_count,
             'favourited': tweet.favorite_count,
