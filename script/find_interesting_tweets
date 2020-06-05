@@ -1,0 +1,114 @@
+#!/usr/bin/env python
+
+"""
+Query your tweets from a Twitter data export to find interesting tweets.
+For some value of interesting that probably means a level of interaction
+from other people.
+
+Download twitter data from https://twitter.com/settings/your_twitter_data 
+"""
+
+
+import argparse
+import os
+import json
+import sys
+
+tweets = {}
+
+def main():
+    global tweets
+
+    parser = argparse.ArgumentParser(
+        description=(
+            'Flag tweets in an archive that are interesting.'
+            'Interesting is a tweet havng more than the specified'
+            'number of likes, retweets, or count of tweets in a thread.'
+        )
+    )
+    parser.add_argument(
+        '-r',
+        metavar='retweets',
+        type=int,
+        default=10,
+        help='more than this many retweets'
+    )
+    parser.add_argument(
+        '-l',
+        metavar='likes',
+        type=int,
+        default=10,
+        help='more than this many likes'
+    )
+    parser.add_argument(
+        '-t',
+        metavar='thread_count',
+        type=int,
+        default=4,
+        help='more than this many tweets in a thread'
+    )
+    parser.add_argument('directory')
+    args = parser.parse_args()
+
+    with open('%s/data/tweet.js' % args.directory, 'r') as handle:
+        tweets_data = handle.read()
+
+    if tweets_data.startswith('window.YTD.tweet.part0'):
+        tweets_data = tweets_data[25:]
+
+    for tweet in json.loads(tweets_data):
+        tweet_id = tweet['tweet']['id']
+        tweets[tweet_id.rjust(25, '0')] = tweet['tweet']
+
+
+    interesting = {}
+    for tweet_id in sorted(tweets):
+        tweet = tweets[tweet_id]
+        thread_count = count_thread(tweet)
+        tweet['thread_count'] = thread_count
+
+        if int(tweet['retweet_count']) > args.r:
+            interesting[tweet_id] = tweet
+        elif int(tweet['favorite_count']) > args.l:
+            interesting[tweet_id] = tweet
+        if thread_count > args.t:
+            interesting[tweet_id] = tweet
+
+    # report only the tail of a thread, not each tweet along the way
+    for tweet_id in interesting.copy():
+        if 'in_reply_to_status_id_str' in interesting[tweet_id]:
+            follow = interesting[tweet_id]['in_reply_to_status_id_str'].rjust(25, '0')
+            try:
+                del(interesting[follow])
+            except KeyError:
+                pass
+
+    for tweet_id in interesting:
+        tweet = interesting[tweet_id]
+        print(
+            '%s %s l:%s rt:%s tc:%s\n%s\n' % (
+                tweet['id'],
+                tweet['created_at'],
+                tweet['favorite_count'],
+                tweet['retweet_count'],
+                tweet['thread_count'],
+                tweet['full_text'],
+            )
+        )
+
+def count_thread(tweet):
+    global tweets
+
+    current = tweet
+    count = 0
+    while 'in_reply_to_status_id_str' in current:
+        follow = current['in_reply_to_status_id_str'].rjust(25, '0')
+        count += 1
+        try:
+            current = tweets[follow]
+        except KeyError:
+            current = {}
+    return count
+
+if __name__ == '__main__':
+    main()
