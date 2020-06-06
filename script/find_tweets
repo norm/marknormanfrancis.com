@@ -126,6 +126,18 @@ def main():
         help='skip tweets that match TEXT (regexp accepted)',
     )
     parser.add_argument(
+        '--total',
+        action='store_true',
+        default=False,
+        help='report the count of matching tweets',
+    )
+    parser.add_argument(
+        '--silent',
+        action='store_true',
+        default=False,
+        help='do not show the matching tweets (implies --total)',
+    )
+    parser.add_argument(
         'directory',
         nargs='?',
         default=os.getenv('TWITTER_EXPORT', None),
@@ -174,6 +186,8 @@ def main():
                     'with the same value'
                 )
                 sys.exit(1)
+    if args.silent:
+        args.total = True
 
     with open('%s/data/tweet.js' % args.directory, 'r') as handle:
         tweets_data = handle.read()
@@ -186,6 +200,7 @@ def main():
         tweets[tweet_id.rjust(25, '0')] = tweet['tweet']
 
     found = {}
+    total = 0
     for tweet_id in sorted(tweets):
         include = True
         tweet = tweets[tweet_id]
@@ -194,6 +209,7 @@ def main():
             tag['text']
             for tag in tweet['entities']['hashtags']
         ]
+        total += 1
 
         if int(tweet['retweet_count']) < args.minimum_retweet:
             include = False
@@ -254,22 +270,32 @@ def main():
             except KeyError:
                 pass
 
-    for tweet_id in found:
-        tweet = found[tweet_id]
+    if not args.silent:
+        for tweet_id in found:
+            tweet = found[tweet_id]
+            print(
+                '== %s %s l:%s rt:%s tc:%s\n%s' % (
+                    tweet['id'],
+                    tweet['created_at'],
+                    tweet['favorite_count'],
+                    tweet['retweet_count'],
+                    tweet['thread_count'],
+                    tweet['full_text'],
+                )
+            )
+            if 'media' in tweet['entities']:
+                for media in tweet['entities']['media']:
+                    print(media['media_url_https'])
+            print('')
+
+    if args.total:
         print(
-            '== %s %s l:%s rt:%s tc:%s\n%s' % (
-                tweet['id'],
-                tweet['created_at'],
-                tweet['favorite_count'],
-                tweet['retweet_count'],
-                tweet['thread_count'],
-                tweet['full_text'],
+            'Matching tweets %s/%s (%.2f%%).' % (
+                len(found),
+                total,
+                (len(found) / total)*100,
             )
         )
-        if 'media' in tweet['entities']:
-            for media in tweet['entities']['media']:
-                print(media['media_url_https'])
-        print('')
 
 def count_thread(tweet):
     global tweets
