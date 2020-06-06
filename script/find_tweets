@@ -10,9 +10,13 @@ Download twitter data from https://twitter.com/settings/your_twitter_data
 
 
 import argparse
+from datetime import datetime, date
+from dateutil import parser as dt_parser
 import os
 import json
 import sys
+
+import pytz
 
 tweets = {}
 
@@ -20,8 +24,10 @@ def main():
     global tweets
 
     parser = argparse.ArgumentParser(
-        description=(
-            'Show matching tweets from a Twitter data export.'
+        description='Show matching tweets from a Twitter data export.',
+        epilog=(
+            'Dates are expected to be ISO formatted, and the before/after '
+            'arguments can include times (eg. 2020-01-01T13:00:00).'
         )
     )
     parser.add_argument(
@@ -89,6 +95,24 @@ def main():
         help='skip tweets that include this hashtag',
     )
     parser.add_argument(
+        '--before',
+        metavar='DATE',
+        type=datetime.fromisoformat,
+        help='tweet must be before DATE'
+    )
+    parser.add_argument(
+        '--after',
+        metavar='DATE',
+        type=datetime.fromisoformat,
+        help='tweet must be on or after DATE'
+    )
+    parser.add_argument(
+        '--date',
+        metavar='DATE',
+        type=date.fromisoformat,
+        help='tweet must be from DATE'
+    )
+    parser.add_argument(
         'directory',
         nargs='?',
         default=os.getenv('TWITTER_EXPORT', None),
@@ -115,6 +139,20 @@ def main():
                     'with the same value'
                 )
                 sys.exit(1)
+    if args.date and (args.before or args.after):
+        print('--date and --before/--after cannot be specified together')
+        sys.exit(1)
+    if args.before and args.after:
+        if args.before <= args.after:
+            print(
+                '--before dates must occur beyond --after dates '
+                'if both are specified'
+            )
+            sys.exit(1)
+    if args.before:
+        args.before = pytz.timezone('UTC').localize(args.before)
+    if args.after:
+        args.after = pytz.timezone('UTC').localize(args.after)
 
     with open('%s/data/tweet.js' % args.directory, 'r') as handle:
         tweets_data = handle.read()
@@ -161,6 +199,15 @@ def main():
             for tag in args.skip_hashtag:
                 if tag in has_tags:
                     include = False
+        if args.before or args.after or args.date:
+            created_at = dt_parser.parse(tweet['created_at'])
+            if args.date:
+                    if args.date != created_at.date():
+                        include = False
+            if args.before and created_at > args.before:
+                include = False
+            if args.after and created_at < args.after:
+                include = False
         if args.media and 'media' not in tweet['entities']:
             include = False
         if args.skip_media and 'media' in tweet['entities']:
