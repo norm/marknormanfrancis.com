@@ -261,14 +261,15 @@ def main():
         if include:
             found[tweet_id] = tweet
 
-    # report only the tail of a thread, not each tweet along the way
-    for tweet_id in found.copy():
-        if 'in_reply_to_status_id_str' in found[tweet_id]:
-            follow = found[tweet_id]['in_reply_to_status_id_str'].rjust(25, '0')
-            try:
-                del(found[follow])
-            except KeyError:
-                pass
+    if args.thread_count:
+        # report only the tail of a thread, not each tweet along the way
+        for tweet_id in found.copy():
+            if 'in_reply_to_status_id_str' in found[tweet_id]:
+                follow = found[tweet_id]['in_reply_to_status_id_str'].rjust(25, '0')
+                try:
+                    del(found[follow])
+                except KeyError:
+                    pass
 
     if not args.silent:
         for tweet_id in found:
