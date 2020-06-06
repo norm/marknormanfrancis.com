@@ -77,6 +77,18 @@ def main():
         help='skip tweets with media attachments',
     )
     parser.add_argument(
+        '--hashtag',
+        action='append',
+        default=[],
+        help='tweet must include this hashtag',
+    )
+    parser.add_argument(
+        '--skip-hashtag',
+        action='append',
+        default=[],
+        help='skip tweets that include this hashtag',
+    )
+    parser.add_argument(
         'directory',
         nargs='?',
         default=os.getenv('TWITTER_EXPORT', None),
@@ -95,6 +107,14 @@ def main():
     if (args.reply or args.reply_to) and args.skip_retweet:
         print('--reply/--reply-to and --skip-reply cannot be specified together')
         sys.exit(1)
+    if args.hashtag and args.skip_hashtag:
+        for tag in args.hashtag:
+            if tag in args.skip_hashtag:
+                print(
+                    '--hashtag and --skip-hashtag cannot be specified '
+                    'with the same value'
+                )
+                sys.exit(1)
 
     with open('%s/data/tweet.js' % args.directory, 'r') as handle:
         tweets_data = handle.read()
@@ -111,6 +131,10 @@ def main():
         include = True
         tweet = tweets[tweet_id]
         tweet['thread_count'] = count_thread(tweet)
+        has_tags = [
+            tag['text']
+            for tag in tweet['entities']['hashtags']
+        ]
 
         if int(tweet['retweet_count']) < args.minimum_retweet:
             include = False
@@ -129,6 +153,14 @@ def main():
         if args.reply_to and \
             not tweet['full_text'].startswith('@%s' % args.reply_to):
                 include = False
+        if args.hashtag:
+            for tag in args.hashtag:
+                if tag not in has_tags:
+                    include = False
+        if args.skip_hashtag:
+            for tag in args.skip_hashtag:
+                if tag in has_tags:
+                    include = False
         if args.media and 'media' not in tweet['entities']:
             include = False
         if args.skip_media and 'media' in tweet['entities']:
