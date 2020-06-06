@@ -15,11 +15,10 @@ This is the source text, scripts, and configuration to build
   Add a TOML source file for every instagram photo in an instagram data
   export. Uploads the images to S3.
 
-* [find_interesting_tweets][find]
+* [find_tweets][find]
 
-  Highlight possibly interesting tweets from a twitter data export
-  (where "interesting" means has some likes, retweets, or is part of a long
-  thread).
+  Find tweets that match given criteria (eg. a number of likes/retweets, has
+  a photo, etc) from a twitter data export.
 
 * [add_tweets][tweets]
 

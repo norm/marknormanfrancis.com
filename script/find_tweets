@@ -21,33 +21,33 @@ def main():
 
     parser = argparse.ArgumentParser(
         description=(
-            'Flag tweets in an archive that are interesting.'
-            'Interesting is a tweet havng more than the specified'
-            'number of likes, retweets, or count of tweets in a thread.'
+            'Show matching tweets from a Twitter data export.'
         )
     )
     parser.add_argument(
-        '-r',
-        metavar='retweets',
+        '--minimum-retweet',
         type=int,
-        default=10,
-        help='more than this many retweets'
+        default=0,
+        help='tweet must have more than this many retweets'
     )
     parser.add_argument(
-        '-l',
-        metavar='likes',
+        '--minimum-like',
         type=int,
-        default=10,
-        help='more than this many likes'
+        default=0,
+        help='tweet must have more than this many likes'
     )
     parser.add_argument(
-        '-t',
-        metavar='thread_count',
+        '--thread-count',
         type=int,
-        default=4,
-        help='more than this many tweets in a thread'
+        default=0,
+        help='tweet must be part of a thread more than this many long'
     )
     parser.add_argument('directory')
+    parser.add_argument(
+        '--media',
+        action='store_true',
+        help='tweet must have media attachments',
+    )
     args = parser.parse_args()
 
     with open('%s/data/tweet.js' % args.directory, 'r') as handle:
@@ -60,33 +60,37 @@ def main():
         tweet_id = tweet['tweet']['id']
         tweets[tweet_id.rjust(25, '0')] = tweet['tweet']
 
-
-    interesting = {}
+    found = {}
     for tweet_id in sorted(tweets):
+        include = True
         tweet = tweets[tweet_id]
-        thread_count = count_thread(tweet)
-        tweet['thread_count'] = thread_count
+        tweet['thread_count'] = count_thread(tweet)
 
-        if int(tweet['retweet_count']) > args.r:
-            interesting[tweet_id] = tweet
-        elif int(tweet['favorite_count']) > args.l:
-            interesting[tweet_id] = tweet
-        if thread_count > args.t:
-            interesting[tweet_id] = tweet
+        if int(tweet['retweet_count']) < args.minimum_retweet:
+            include = False
+        if int(tweet['favorite_count']) < args.minimum_like:
+            include = False
+        if tweet['thread_count'] < args.thread_count:
+            include = False
+        if args.media and 'media' not in tweet['entities']:
+            include = False
+
+        if include:
+            found[tweet_id] = tweet
 
     # report only the tail of a thread, not each tweet along the way
-    for tweet_id in interesting.copy():
-        if 'in_reply_to_status_id_str' in interesting[tweet_id]:
-            follow = interesting[tweet_id]['in_reply_to_status_id_str'].rjust(25, '0')
+    for tweet_id in found.copy():
+        if 'in_reply_to_status_id_str' in found[tweet_id]:
+            follow = found[tweet_id]['in_reply_to_status_id_str'].rjust(25, '0')
             try:
-                del(interesting[follow])
+                del(found[follow])
             except KeyError:
                 pass
 
-    for tweet_id in interesting:
-        tweet = interesting[tweet_id]
+    for tweet_id in found:
+        tweet = found[tweet_id]
         print(
-            '%s %s l:%s rt:%s tc:%s\n%s\n' % (
+            '== %s %s l:%s rt:%s tc:%s\n%s' % (
                 tweet['id'],
                 tweet['created_at'],
                 tweet['favorite_count'],
@@ -95,6 +99,10 @@ def main():
                 tweet['full_text'],
             )
         )
+        if 'media' in tweet['entities']:
+            for media in tweet['entities']['media']:
+                print(media['media_url_https'])
+        print('')
 
 def count_thread(tweet):
     global tweets
