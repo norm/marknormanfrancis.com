@@ -42,13 +42,24 @@ def main():
         default=0,
         help='tweet must be part of a thread more than this many long'
     )
-    parser.add_argument('directory')
     parser.add_argument(
         '--media',
         action='store_true',
         help='tweet must have media attachments',
     )
+    parser.add_argument(
+        'directory',
+        nargs='?',
+        default=os.getenv('TWITTER_EXPORT', None),
+        help=(
+            'directory that contains Twitter data export '
+            '(or set via env in TWITTER_EXPORT)'
+        )
+    )
     args = parser.parse_args()
+    if not args.directory:
+        parser.print_usage()
+        sys.exit(1)
 
     with open('%s/data/tweet.js' % args.directory, 'r') as handle:
         tweets_data = handle.read()
