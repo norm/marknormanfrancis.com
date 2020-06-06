@@ -53,6 +53,20 @@ def main():
         help='tweet cannot be a retweet'
     )
     parser.add_argument(
+        '--reply',
+        action='store_true',
+        help='tweet must be a reply',
+    )
+    parser.add_argument(
+        '--reply-to',
+        help='tweet must be a reply to REPLY_TO',
+    )
+    parser.add_argument(
+        '-r', '--skip-reply',
+        action='store_true',
+        help='skip replies'
+    )
+    parser.add_argument(
         '--media',
         action='store_true',
         help='tweet must have media attachments',
@@ -77,6 +91,9 @@ def main():
         sys.exit(1)
     if args.retweet and args.skip_retweet:
         print('--retweet and --skip-retweet cannot be specified together')
+        sys.exit(1)
+    if (args.reply or args.reply_to) and args.skip_retweet:
+        print('--reply/--reply-to and --skip-reply cannot be specified together')
         sys.exit(1)
 
     with open('%s/data/tweet.js' % args.directory, 'r') as handle:
@@ -105,6 +122,13 @@ def main():
             include = False
         if not tweet['full_text'].startswith('RT @') and args.retweet:
             include = False
+        if args.skip_reply and tweet['full_text'].startswith('@'):
+            include = False
+        if args.reply and not tweet['full_text'].startswith('@'):
+            include = False
+        if args.reply_to and \
+            not tweet['full_text'].startswith('@%s' % args.reply_to):
+                include = False
         if args.media and 'media' not in tweet['entities']:
             include = False
         if args.skip_media and 'media' in tweet['entities']:
