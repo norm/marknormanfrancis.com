@@ -58,6 +58,11 @@ def main():
         help='tweet must have media attachments',
     )
     parser.add_argument(
+        '--skip-media',
+        action='store_true',
+        help='skip tweets with media attachments',
+    )
+    parser.add_argument(
         'directory',
         nargs='?',
         default=os.getenv('TWITTER_EXPORT', None),
@@ -101,6 +106,8 @@ def main():
         if not tweet['full_text'].startswith('RT @') and args.retweet:
             include = False
         if args.media and 'media' not in tweet['entities']:
+            include = False
+        if args.skip_media and 'media' in tweet['entities']:
             include = False
 
         if include:
