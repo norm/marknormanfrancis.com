@@ -14,6 +14,7 @@ from datetime import datetime, date
 from dateutil import parser as dt_parser
 import os
 import json
+import re
 import sys
 
 import pytz
@@ -113,6 +114,18 @@ def main():
         help='tweet must be from DATE'
     )
     parser.add_argument(
+        '--text',
+        action='append',
+        default=[],
+        help='tweet must include TEXT (regexp accepted)',
+    )
+    parser.add_argument(
+        '--skip-text',
+        action='append',
+        default=[],
+        help='skip tweets that match TEXT (regexp accepted)',
+    )
+    parser.add_argument(
         'directory',
         nargs='?',
         default=os.getenv('TWITTER_EXPORT', None),
@@ -153,6 +166,14 @@ def main():
         args.before = pytz.timezone('UTC').localize(args.before)
     if args.after:
         args.after = pytz.timezone('UTC').localize(args.after)
+    if args.text and args.skip_text:
+        for match in args.text:
+            if match in args.skip_text:
+                print(
+                    '--text and --skip-text cannot be specified '
+                    'with the same value'
+                )
+                sys.exit(1)
 
     with open('%s/data/tweet.js' % args.directory, 'r') as handle:
         tweets_data = handle.read()
@@ -212,6 +233,14 @@ def main():
             include = False
         if args.skip_media and 'media' in tweet['entities']:
             include = False
+        if args.text:
+            for match in args.text:
+                if not re.search(match, tweet['full_text']):
+                    include = False
+        if args.skip_text:
+            for match in args.skip_text:
+                if re.search(match, tweet['full_text']):
+                    include = False
 
         if include:
             found[tweet_id] = tweet
