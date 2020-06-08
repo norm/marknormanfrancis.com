@@ -53,12 +53,13 @@ def main():
 
         try:
             title = entry[1].rstrip()
+            slug = slugify(title)
         except IndexError:
             title = 'Tweet at %s' % created.strftime('%-I:%M%p').lower()
+            slug = 'tweet-%s' % tweets[-1].id_str
 
         post = {
             'tweet_id': tweet.id_str,
-            'tweet_markdown': markdown_text,
             'type': 'tweet',
             'title': title,
             'published': created,
@@ -93,9 +94,9 @@ def main():
                     print('++', destination)
             post['images'].append('http://%s/%s' % (BUCKET, destination))
 
-        toml_file = 'source/%s/tweet-%s.toml' % (date, tweet.id_str)
-        content = toml.dumps(post)
-        update_content(toml_file, content)
+        output = '```\n%s```\n\n%s' % (toml.dumps(post), markdown_text)
+        output_file = 'source/%s/%s.markdown' % (date, slug)
+        update_content(output_file, output)
 
 def tweet_to_markdown(tweet):
     sections = []

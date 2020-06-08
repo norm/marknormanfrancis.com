@@ -1,5 +1,5 @@
+```
 tweet_id = "358721135677935616"
-tweet_markdown = "The four stages of CSS:\n\n1. I don’t know CSS.\n2. I know enough CSS to get by.\n3. I _know_ CSS.\n4. Fuck CSS."
 type = "tweet"
 title = "The four stages of CSS"
 published = 2013-07-20T22:52:38Z
@@ -8,3 +8,11 @@ favourited = 408
 original_url = "https://twitter.com/cackhanded/status/358721135677935616"
 images = []
 tag = []
+```
+
+The four stages of CSS:
+
+1. I don’t know CSS.
+2. I know enough CSS to get by.
+3. I _know_ CSS.
+4. Fuck CSS.

@@ -1,5 +1,5 @@
+```
 tweet_id = "959162814970695680"
-tweet_markdown = "Hey Internet, I forgot to mention earlier but I made gumbo today."
 type = "tweet"
 title = "Hey Internet"
 published = 2018-02-01T20:33:30Z
@@ -8,3 +8,6 @@ favourited = 7
 original_url = "https://twitter.com/cackhanded/status/959162814970695680"
 images = []
 tag = []
+```
+
+Hey Internet, I forgot to mention earlier but I made gumbo today.
