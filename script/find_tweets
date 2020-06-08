@@ -251,11 +251,11 @@ def main():
             include = False
         if args.text:
             for match in args.text:
-                if not re.search(match, tweet['full_text']):
+                if not re.search(match, tweet['full_text'], re.IGNORECASE):
                     include = False
         if args.skip_text:
             for match in args.skip_text:
-                if re.search(match, tweet['full_text']):
+                if re.search(match, tweet['full_text'], re.IGNORECASE):
                     include = False
 
         if include:
