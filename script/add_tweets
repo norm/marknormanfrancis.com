@@ -10,6 +10,8 @@ import sys
 import pytz
 import tweepy
 
+from django.utils.text import slugify
+
 from lib import update_toml
 from lib.bucket import Bucket
 
@@ -40,13 +42,14 @@ def main():
         if not created.tzinfo:
             created = pytz.timezone('UTC').localize(created)
 
-        # FIXME inline links in the text
         # FIXME hashtags
         # FIXME quote tweets
         # FIXME retweets
         # FIXME threads
         # FIXME attached images/video
         # FIXME add original data as attachment
+
+        markdown_text = tweet_to_markdown(tweet)
 
         try:
             title = entry[1].rstrip()
@@ -55,7 +58,7 @@ def main():
 
         post = {
             'tweet_id': tweet.id_str,
-            'tweet': tweet.full_text,
+            'tweet_markdown': markdown_text,
             'type': 'tweet',
             'title': title,
             'published': created,
@@ -87,6 +90,45 @@ def main():
 
         toml_file = 'source/%s/tweet-%s.toml' % (date, tweet.id_str)
         update_toml(toml_file, post)
+
+def tweet_to_markdown(tweet):
+    sections = []
+    markdown = ''
+
+    if 'urls' in tweet.entities:
+        for url in tweet.entities['urls']:
+            sections.append(url)
+    if 'user_mentions' in tweet.entities:
+        for mention in tweet.entities['user_mentions']:
+            sections.append(mention)
+    if 'hashtags' in tweet.entities:
+        for tag in tweet.entities['hashtags']:
+            sections.append(tag)
+
+    text_from = 0
+    for section in sorted(sections, key=lambda s: s['indices'][0]):
+        start = section['indices'][0]
+        markdown += tweet.full_text[text_from:start]
+        if 'screen_name' in section:
+            markdown += '[@%s](%s)' % (
+                section['screen_name'],
+                'https://twitter.com/%s' % section['screen_name'],
+            )
+        if 'display_url' in section:
+            markdown += '[`%s`](%s)' % (
+                section['display_url'],
+                section['expanded_url']
+            )
+        if 'text' in section:
+            markdown += '[#%s](/tags/%s/)' % (
+                section['text'],
+                slugify(section['text'])
+            )
+        text_from = section['indices'][1]
+    if text_from < tweet.display_text_range[1]:
+        markdown += tweet.full_text[text_from:tweet.display_text_range[1]]
+    return markdown
+
 
 if __name__ == '__main__':
     main()
