@@ -35,8 +35,8 @@ a:visited {
 #navigation li {
   display: inline-block;
 }
-#navigation li {
-  margin-left: 5px;
+#navigation li + li:before {
+  content: '·';
 }
 #body, 
 #footer {
@@ -85,6 +85,20 @@ body.about #body h2 {
 body.tweet #body p.image img,
 body.instagram #body p.image img {
   max-width: 100%;
+}
+
+body.tweet main blockquote {
+  border: 1px solid #7a7f8f;
+  border-radius: 15px;
+  color: #7a7f8f;
+  padding: 10px;
+  margin: 10px 5em 10px 1em;
+}
+body.tweet main blockquote p {
+  margin: 0;
+}
+body.tweet main blockquote p + p {
+  padding-left: 1em;
 }
 
 #body_about {

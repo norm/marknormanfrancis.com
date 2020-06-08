@@ -48,7 +48,6 @@ def main():
         for tweet in tweets:
             body += tweet_to_markdown(tweet, date)
 
-        # FIXME quote tweets
         # FIXME retweets
         # FIXME attached images/video
         # FIXME add original data as attachment
@@ -124,6 +123,24 @@ def tweet_to_markdown(tweet, image_subdir):
         for tag in tweet.entities['hashtags']:
             sections.append(tag)
 
+    quote = None
+
+    # tweepy really tries my patience at times,
+    # some parts are subscriptable while others are not
+    try:
+        quote_url = tweet.quoted_status_permalink['expanded']
+        quote = '> %s\n> \n> — %s [@%s](%s) %s\n\n' % (
+            tweet.quoted_status.full_text,
+            tweet.quoted_status.user.name,
+            tweet.quoted_status.user.screen_name,
+            tweet.quoted_status_permalink['expanded'],
+            tweet.quoted_status.created_at,
+        )
+    except AttributeError:
+        quote_url = None
+        quote = ''
+        pass
+
     text_from = 0
     for section in sorted(sections, key=lambda s: s['indices'][0]):
         start = section['indices'][0]
@@ -134,10 +151,18 @@ def tweet_to_markdown(tweet, image_subdir):
                 'https://twitter.com/%s' % section['screen_name'],
             )
         if 'display_url' in section:
-            markdown += '[`%s`](%s)' % (
-                section['display_url'],
-                section['expanded_url']
-            )
+            if section['expanded_url'] == quote_url:
+                if tweet.display_text_range[1] <= section['indices'][1]:
+                    # makes this a quote tweet, not just a link to a tweet
+                    # quoted tweet text comes before the tweet text
+                    markdown = quote + markdown
+                else:
+                    markdown += '\n\n' + quote
+            else:
+                markdown += '[`%s`](%s)' % (
+                    section['display_url'],
+                    section['expanded_url']
+                )
         if 'text' in section:
             markdown += '[#%s](/tags/%s/)' % (
                 section['text'],
