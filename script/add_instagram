@@ -81,6 +81,7 @@ def main():
             'title': caption,
             'image': 'http://%s/%s' % (BUCKET, image_path),
             'type': 'instagram',
+            'source': 'instagram',
         }
         if 'location' in photo:
             metadata['location'] = photo['location']

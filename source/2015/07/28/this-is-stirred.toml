@@ -2,5 +2,6 @@ published = 2015-07-28T11:05:18Z
 title = "This is stirred"
 image = "http://mnf.m17s.net/2015/07/28/this-is-stirred.jpg"
 type = "instagram"
+source = "instagram"
 original_caption = "This is stirred #daily #tshirt #new"
 tag = [ "daily", "new", "tshirt",]
