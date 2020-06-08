@@ -42,7 +42,6 @@ def main():
         if not created.tzinfo:
             created = pytz.timezone('UTC').localize(created)
 
-        # FIXME hashtags
         # FIXME quote tweets
         # FIXME retweets
         # FIXME threads
@@ -69,7 +68,12 @@ def main():
                 tweet.id_str,
             ),
             'images': [],
+            'tag': [],
         }
+
+        if 'hashtags' in tweet.entities:
+            for tag in tweet.entities['hashtags']:
+                post['tag'].append(slugify(tag['text']))
 
         date = created.strftime('%Y/%m/%d')
 
