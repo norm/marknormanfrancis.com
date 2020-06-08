@@ -60,25 +60,31 @@ def main():
             title = 'Tweet at %s' % created.strftime('%-I:%M%p').lower()
             slug = 'tweet-%s' % tweets[-1].id_str
 
+        tags = []
+        retweets = 0
+        favourites = 0
+        for tweet in tweets:
+            retweets += int(tweet.retweet_count)
+            favourites += int(tweet.favorite_count)
+            if 'hashtags' in tweet.entities:
+                for tag in tweet.entities['hashtags']:
+                    tags.append(slugify(tag['text']))
+
         post = {
             'tweet_id': tweets[-1].id_str,
             'type': 'tweet',
             'title': title,
             'published': created,
-            'retweets': tweets[-1].retweet_count,
-            'favourites': tweets[-1].favorite_count,
+            'retweets': retweets,
+            'favourites': favourites,
             'source': 'twitter',
             'source_url': 'https://twitter.com/%s/status/%s' % (
                 tweets[-1].author.screen_name,
                 tweets[-1].id_str,
             ),
             'images': [],
-            'tag': [],
+            'tag': tags,
         }
-
-        if 'hashtags' in tweet.entities:
-            for tag in tweet.entities['hashtags']:
-                post['tag'].append(slugify(tag['text']))
 
         if 'media' in tweet.entities:
             for media in tweet.entities['media']:
