@@ -27,8 +27,9 @@ import pytz
 
 import boto3
 from django.utils.text import slugify
+import toml
 
-from lib import update_toml
+from lib import update_content
 from lib.bucket import Bucket
 
 # two duplicates and an error
@@ -93,7 +94,8 @@ def main():
             metadata['tag'] = sorted(tags)
 
         toml_file = 'source/%s.toml' % path
-        update_toml(toml_file, metadata)
+        content = toml.dumps(metadata)
+        update_content(toml_file, content)
 
         seen.append(path)
 

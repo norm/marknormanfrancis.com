@@ -11,8 +11,9 @@ import pytz
 import tweepy
 
 from django.utils.text import slugify
+import toml
 
-from lib import update_toml
+from lib import update_content
 from lib.bucket import Bucket
 
 auth = tweepy.OAuthHandler(
@@ -93,7 +94,8 @@ def main():
             post['images'].append('http://%s/%s' % (BUCKET, destination))
 
         toml_file = 'source/%s/tweet-%s.toml' % (date, tweet.id_str)
-        update_toml(toml_file, post)
+        content = toml.dumps(post)
+        update_content(toml_file, content)
 
 def tweet_to_markdown(tweet):
     sections = []

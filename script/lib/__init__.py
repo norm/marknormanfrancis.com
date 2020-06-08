@@ -1,8 +1,7 @@
 import os
-import toml
 
 
-def update_toml(filename, data):
+def update_content(filename, content):
     subdir = os.path.dirname(filename)
     if not os.path.exists(subdir):
         os.makedirs(subdir)
@@ -14,7 +13,7 @@ def update_toml(filename, data):
     except FileNotFoundError:
         pass
 
-    if toml.dumps(data) != current:
-        with open(filename, 'w') as toml_handle:
-            toml.dump(data, toml_handle)
+    if content != current:
+        with open(filename, 'w') as write_handle:
+            write_handle.write(content)
         print('++', filename)
