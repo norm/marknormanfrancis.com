@@ -16,13 +16,14 @@ import toml
 from lib import update_content
 from lib.bucket import Bucket
 
+
 auth = tweepy.OAuthHandler(
-    os.getenv('CONSUMER_KEY'),
-    os.getenv('CONSUMER_SECRET')
+    os.environ['CONSUMER_KEY'],
+    os.environ['CONSUMER_SECRET'],
 )
 auth.set_access_token(
-    os.getenv('TWITTER_TOKEN'),
-    os.getenv('TOKEN_SECRET')
+    os.environ['ACCESS_TOKEN'],
+    os.environ['ACCESS_TOKEN_SECRET'],
 )
 twitter = tweepy.API(auth)
 BUCKET = 'mnf.m17s.net'
