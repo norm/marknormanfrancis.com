@@ -74,9 +74,24 @@ def main():
         help='skip replies'
     )
     parser.add_argument(
+        '--photo',
+        action='store_true',
+        help='tweet must have photo media attachments',
+    )
+    parser.add_argument(
+        '--gif',
+        action='store_true',
+        help='tweet must have GIF media attachments',
+    )
+    parser.add_argument(
+        '--video',
+        action='store_true',
+        help='tweet must have video media attachments',
+    )
+    parser.add_argument(
         '--media',
         action='store_true',
-        help='tweet must have media attachments',
+        help='tweet must have some kind of media attachment',
     )
     parser.add_argument(
         '--skip-media',
@@ -245,7 +260,13 @@ def main():
                 include = False
             if args.after and created_at < args.after:
                 include = False
-        if args.media and 'media' not in tweet['entities']:
+        if args.photo and not tweet_has_photo(tweet):
+            include = False
+        if args.gif and not tweet_has_gif(tweet):
+            include = False
+        if args.video and not tweet_has_video(tweet):
+            include = False
+        if args.media and not tweet_has_media(tweet):
             include = False
         if args.skip_media and 'media' in tweet['entities']:
             include = False
@@ -284,9 +305,15 @@ def main():
                     tweet['full_text'],
                 )
             )
-            if 'media' in tweet['entities']:
-                for media in tweet['entities']['media']:
-                    print(media['media_url_https'])
+            if 'media' in tweet['extended_entities']:
+                for media in tweet['extended_entities']['media']:
+                    print('%s: %s' % (media['type'], media['media_url_https']))
+                    if media['type'] == 'video':
+                        variant = best_quality(media)
+                        print(variant['url'])
+                    if media['type'] == 'animated_gif':
+                        variant = best_quality(media)
+                        print(variant['url'])
             print('')
 
     if args.total:
@@ -297,6 +324,49 @@ def main():
                 (len(found) / total)*100,
             )
         )
+
+def best_quality(media):
+    bitrate = -1
+    best = {}
+    for variant in media['video_info']['variants']:
+        if 'bitrate' in variant:
+            v_bitrate = int(variant['bitrate'])
+            if v_bitrate > bitrate:
+                bitrate = v_bitrate
+                best = variant
+    return best
+
+def tweet_has_photo(tweet):
+    if 'photo' in tweet_attachment_types(tweet):
+        return True
+    return False
+
+def tweet_has_gif(tweet):
+    if 'animated_gif' in tweet_attachment_types(tweet):
+        return True
+    return False
+
+def tweet_has_video(tweet):
+    if 'video' in tweet_attachment_types(tweet):
+        return True
+    return False
+
+def tweet_has_media(tweet):
+    if tweet_attachment_types(tweet):
+        return True
+    return False
+
+def tweet_attachment_types(tweet):
+    return [
+        a['type']
+        for a in tweet_attachments(tweet)
+    ]
+
+def tweet_attachments(tweet):
+    if 'extended_entities' not in tweet:
+        return []
+    else:
+        return tweet['extended_entities']['media']
 
 def count_thread(tweet):
     global tweets
