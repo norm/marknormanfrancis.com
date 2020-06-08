@@ -12,8 +12,8 @@ tag = []
 
 The four stages of CSS:
 
-1. I don’t know CSS.
-2. I know enough CSS to get by.
-3. I _know_ CSS.
+1. I don’t know CSS.  
+2. I know enough CSS to get by.  
+3. I _know_ CSS.  
 4. Fuck CSS.
 

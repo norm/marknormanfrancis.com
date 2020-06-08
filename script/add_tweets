@@ -127,7 +127,7 @@ def tweet_to_markdown(tweet, image_subdir):
     text_from = 0
     for section in sorted(sections, key=lambda s: s['indices'][0]):
         start = section['indices'][0]
-        markdown += tweet.full_text[text_from:start]
+        markdown += escape_newlines(tweet.full_text[text_from:start])
         if 'screen_name' in section:
             markdown += '[@%s](%s)' % (
                 section['screen_name'],
@@ -145,7 +145,7 @@ def tweet_to_markdown(tweet, image_subdir):
             )
         text_from = section['indices'][1]
     if text_from < tweet.display_text_range[1]:
-        markdown += tweet.full_text[text_from:tweet.display_text_range[1]]
+        markdown += escape_newlines(tweet.full_text[text_from:tweet.display_text_range[1]])
     markdown += '\n\n'
 
     if 'media' in tweet.entities:
@@ -167,6 +167,10 @@ def tweet_to_markdown(tweet, image_subdir):
 
     return markdown
 
+def escape_newlines(text):
+    text = text.replace('\n', '  \n')       # preserve newlines as <br>s
+    text = text.replace('  \n  \n', '\n\n') # return to paragraphs
+    return text
 
 def timestamped(stamp):
     if not stamp.tzinfo:
