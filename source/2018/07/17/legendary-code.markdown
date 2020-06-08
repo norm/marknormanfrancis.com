@@ -3,9 +3,10 @@ tweet_id = "1019216124729352192"
 type = "tweet"
 title = "Legendary code"
 published = 2018-07-17T13:43:54Z
-retweeted = 597
-favourited = 2708
-original_url = "https://twitter.com/cackhanded/status/1019216124729352192"
+retweets = 597
+favourites = 2708
+source = "twitter"
+source_url = "https://twitter.com/cackhanded/status/1019216124729352192"
 images = []
 tag = []
 ```

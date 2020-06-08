@@ -3,9 +3,10 @@ tweet_id = "1185543485555953665"
 type = "tweet"
 title = "Sunbeam"
 published = 2019-10-19T13:09:27Z
-retweeted = 2
-favourited = 5
-original_url = "https://twitter.com/cackhanded/status/1185543485555953665"
+retweets = 2
+favourites = 5
+source = "twitter"
+source_url = "https://twitter.com/cackhanded/status/1185543485555953665"
 images = [ "http://mnf.m17s.net/2019/10/19/EHPlgJKXkAE2oqX.jpg",]
 tag = [ "itsy",]
 ```

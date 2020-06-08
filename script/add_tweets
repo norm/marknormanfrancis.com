@@ -38,18 +38,20 @@ def main():
     for line in ids:
         entry = line.split(maxsplit=1)
         id = entry[0]
-        tweet = twitter.get_status(id, tweet_mode='extended')
-        created = tweet.created_at
-        if not created.tzinfo:
-            created = pytz.timezone('UTC').localize(created)
+        tweets = get_tweets_from_id(id)
+
+        created = timestamped(tweets[0].created_at)
+        updated = timestamped(tweets[-1].created_at)
+        date = created.strftime('%Y/%m/%d')
+
+        body = ''
+        for tweet in tweets:
+            body += tweet_to_markdown(tweet)
 
         # FIXME quote tweets
         # FIXME retweets
-        # FIXME threads
         # FIXME attached images/video
         # FIXME add original data as attachment
-
-        markdown_text = tweet_to_markdown(tweet)
 
         try:
             title = entry[1].rstrip()
@@ -59,15 +61,16 @@ def main():
             slug = 'tweet-%s' % tweets[-1].id_str
 
         post = {
-            'tweet_id': tweet.id_str,
+            'tweet_id': tweets[-1].id_str,
             'type': 'tweet',
             'title': title,
             'published': created,
-            'retweeted': tweet.retweet_count,
-            'favourited': tweet.favorite_count,
-            'original_url': 'https://twitter.com/%s/status/%s' % (
-                tweet.author.screen_name,
-                tweet.id_str,
+            'retweets': tweets[-1].retweet_count,
+            'favourites': tweets[-1].favorite_count,
+            'source': 'twitter',
+            'source_url': 'https://twitter.com/%s/status/%s' % (
+                tweets[-1].author.screen_name,
+                tweets[-1].id_str,
             ),
             'images': [],
             'tag': [],
@@ -76,8 +79,6 @@ def main():
         if 'hashtags' in tweet.entities:
             for tag in tweet.entities['hashtags']:
                 post['tag'].append(slugify(tag['text']))
-
-        date = created.strftime('%Y/%m/%d')
 
         if 'media' in tweet.entities:
             for media in tweet.entities['media']:
@@ -94,9 +95,30 @@ def main():
                     print('++', destination)
             post['images'].append('http://%s/%s' % (BUCKET, destination))
 
-        output = '```\n%s```\n\n%s' % (toml.dumps(post), markdown_text)
+        if created != updated:
+            post['updated'] = updated
+
+        output = '```\n%s```\n\n%s' % (toml.dumps(post), body)
         output_file = 'source/%s/%s.markdown' % (date, slug)
         update_content(output_file, output)
+
+
+def get_tweets_from_id(id):
+    tweets = []
+    tweet = twitter.get_status(id, tweet_mode='extended')
+    tweets.insert(0, tweet)
+    in_reply_to = tweet.in_reply_to_screen_name
+    original_author = tweet.author.screen_name
+
+    while in_reply_to == original_author:
+        tweet = twitter.get_status(
+            tweet.in_reply_to_status_id,
+            tweet_mode='extended',
+        )
+        tweets.insert(0, tweet)
+        in_reply_to = tweet.in_reply_to_screen_name
+    return tweets
+
 
 def tweet_to_markdown(tweet):
     sections = []
@@ -135,6 +157,12 @@ def tweet_to_markdown(tweet):
     if text_from < tweet.display_text_range[1]:
         markdown += tweet.full_text[text_from:tweet.display_text_range[1]]
     return markdown
+
+
+def timestamped(stamp):
+    if not stamp.tzinfo:
+        stamp = pytz.timezone('UTC').localize(stamp)
+    return stamp
 
 
 if __name__ == '__main__':

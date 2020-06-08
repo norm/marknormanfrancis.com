@@ -3,9 +3,10 @@ tweet_id = "959162814970695680"
 type = "tweet"
 title = "Hey Internet"
 published = 2018-02-01T20:33:30Z
-retweeted = 0
-favourited = 7
-original_url = "https://twitter.com/cackhanded/status/959162814970695680"
+retweets = 0
+favourites = 7
+source = "twitter"
+source_url = "https://twitter.com/cackhanded/status/959162814970695680"
 images = []
 tag = []
 ```

@@ -3,9 +3,10 @@ tweet_id = "358721135677935616"
 type = "tweet"
 title = "The four stages of CSS"
 published = 2013-07-20T22:52:38Z
-retweeted = 598
-favourited = 408
-original_url = "https://twitter.com/cackhanded/status/358721135677935616"
+retweets = 598
+favourites = 408
+source = "twitter"
+source_url = "https://twitter.com/cackhanded/status/358721135677935616"
 images = []
 tag = []
 ```
