@@ -7,8 +7,8 @@ retweets = 0
 favourites = 7
 source = "twitter"
 source_url = "https://twitter.com/cackhanded/status/959162814970695680"
-images = []
 tag = []
 ```
 
 Hey Internet, I forgot to mention earlier but I made gumbo today.
+

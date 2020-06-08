@@ -7,7 +7,6 @@ retweets = 598
 favourites = 408
 source = "twitter"
 source_url = "https://twitter.com/cackhanded/status/358721135677935616"
-images = []
 tag = []
 ```
 
@@ -17,3 +16,4 @@ The four stages of CSS:
 2. I know enough CSS to get by.
 3. I _know_ CSS.
 4. Fuck CSS.
+

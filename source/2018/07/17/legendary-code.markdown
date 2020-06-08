@@ -7,8 +7,8 @@ retweets = 597
 favourites = 2708
 source = "twitter"
 source_url = "https://twitter.com/cackhanded/status/1019216124729352192"
-images = []
 tag = []
 ```
 
 Interviewing a developer for whom English wasn’t his first language and he kept calling legacy code “legendary code” and now that’s all I want to write.
+

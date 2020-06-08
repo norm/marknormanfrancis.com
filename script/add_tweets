@@ -46,7 +46,7 @@ def main():
 
         body = ''
         for tweet in tweets:
-            body += tweet_to_markdown(tweet)
+            body += tweet_to_markdown(tweet, date)
 
         # FIXME quote tweets
         # FIXME retweets
@@ -82,24 +82,8 @@ def main():
                 tweets[-1].author.screen_name,
                 tweets[-1].id_str,
             ),
-            'images': [],
             'tag': tags,
         }
-
-        if 'media' in tweet.entities:
-            for media in tweet.entities['media']:
-                destination = '%s/%s' % (
-                    date,
-                    os.path.basename(media['media_url_https']),
-                )
-                uploaded = bucket.upload_file(
-                    media['media_url_https'],
-                    destination,
-                    check_digest = False,
-                )
-                if uploaded:
-                    print('++', destination)
-            post['images'].append('http://%s/%s' % (BUCKET, destination))
 
         if created != updated:
             post['updated'] = updated
@@ -126,7 +110,7 @@ def get_tweets_from_id(id):
     return tweets
 
 
-def tweet_to_markdown(tweet):
+def tweet_to_markdown(tweet, image_subdir):
     sections = []
     markdown = ''
 
@@ -162,6 +146,25 @@ def tweet_to_markdown(tweet):
         text_from = section['indices'][1]
     if text_from < tweet.display_text_range[1]:
         markdown += tweet.full_text[text_from:tweet.display_text_range[1]]
+    markdown += '\n\n'
+
+    if 'media' in tweet.entities:
+        for media in tweet.extended_entities['media']:
+            destination = '%s/%s' % (
+                image_subdir,
+                os.path.basename(media['media_url_https']),
+            )
+            uploaded = bucket.upload_file(
+                media['media_url_https'],
+                destination,
+                check_digest = False,
+            )
+            if uploaded:
+                print('++', destination)
+            markdown += "<p class='image'><img src='%s' alt=''></p>\n\n" % (
+                'http://%s/%s' % (BUCKET, destination)
+            )
+
     return markdown
 
 
