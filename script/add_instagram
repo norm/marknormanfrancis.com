@@ -59,6 +59,8 @@ def main():
             taken = sf_taken.astimezone(pytz.utc)
         subdir = taken.strftime('%Y/%m/%d')
         caption = strip_trailing_hashtags(photo['caption'])
+        if not caption:
+            caption = photo['caption']
         text = ''
         newline = caption.find('\n')
         if newline > 0:
