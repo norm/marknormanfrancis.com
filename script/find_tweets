@@ -74,6 +74,11 @@ def main():
         help='skip replies'
     )
     parser.add_argument(
+        '--link',
+        action = 'store_true',
+        help = 'tweet text must have a link in it',
+    )
+    parser.add_argument(
         '--photo',
         action='store_true',
         help='tweet must have photo media attachments',
@@ -243,6 +248,10 @@ def main():
         if args.reply_to and \
             not tweet['full_text'].startswith('@%s' % args.reply_to):
                 include = False
+        if args.link and not tweet['entities']['urls']:
+            include = False
+        if args.link and len(tweet['entities']['urls']) == 1:
+            include = False
         if args.hashtag:
             for tag in args.hashtag:
                 if tag not in has_tags:
