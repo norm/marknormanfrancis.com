@@ -13,7 +13,7 @@ import tweepy
 from django.utils.text import slugify
 import toml
 
-from lib import update_content
+from lib import update_content, strip_trailing_hashtags, strip_links
 from lib.bucket import Bucket
 
 
@@ -33,14 +33,11 @@ bucket = Bucket(BUCKET)
 def main():
     global twitter
 
-    with open('data/tweet_ids.txt', 'r') as handle:
-        ids = handle.readlines()
+    with open('data/tweet_ids.toml', 'r') as handle:
+        ids = toml.load(handle)
 
-    for line in ids:
-        entry = line.split(maxsplit=1)
-        id = entry[0]
+    for id in ids:
         tweets = get_tweets_from_id(id)
-
         created = timestamped(tweets[0].created_at)
         updated = timestamped(tweets[-1].created_at)
         date = created.strftime('%Y/%m/%d')
@@ -53,14 +50,27 @@ def main():
         # FIXME attached images/video
         # FIXME add original data as attachment
 
-        try:
-            title = entry[1].rstrip()
-            slug = slugify(title)
-        except IndexError:
-            title = 'Tweet at %s' % created.strftime('%-I:%M%p').lower()
-            slug = 'tweet-%s' % tweets[-1].id_str
+        if 'title' in ids[id]:
+            title = ids[id]['title']
+        else:
+            # more than about 10 words and it's not a good title
+            title = tweets[-1].full_text
+            title = strip_links(title)
+            if len(title.split()) > 10:
+                title = 'Tweet at %s' % created.strftime('%-I:%M%p').lower()
 
-        tags = []
+        tags = set(
+            slugify(word[1:].lower())
+            for word in title.split()
+            if word.startswith('#')
+        )
+        if 'tags' in ids[id]:
+            for tag in ids[id]['tags']:
+                tags.add(slugify(tag))
+
+        title = strip_trailing_hashtags(title)
+        slug = slugify(title)
+
         retweets = 0
         favourites = 0
         for tweet in tweets:
@@ -68,7 +78,7 @@ def main():
             favourites += int(tweet.favorite_count)
             if 'hashtags' in tweet.entities:
                 for tag in tweet.entities['hashtags']:
-                    tags.append(slugify(tag['text']))
+                    tags.add(slugify(tag['text']))
 
         post = {
             'tweet_id': tweets[-1].id_str,
