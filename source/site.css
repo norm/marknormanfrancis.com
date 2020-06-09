@@ -4,6 +4,7 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: Lato, sans-serif;
+  font-size: 16px;
 }
 
 a {
@@ -161,6 +162,11 @@ main header dd.tag + dd.tag:before {
   padding: 0 5px 0 2px;
 }
 
+main {
+  max-width: 900px;
+}
+
+
 @media only screen and (max-width: 600px) {
   #global,
   #footer {
@@ -172,5 +178,14 @@ main header dd.tag + dd.tag:before {
   }
   #footer p {
     margin: 0;
+  }
+}
+
+@media only screen and (min-width: 460px) {
+  body {
+    font-size: 19px;
+  }
+  main header dl {
+    font-size: 16px;
   }
 }
