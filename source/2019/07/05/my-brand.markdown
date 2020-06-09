@@ -1,0 +1,25 @@
+```
+tweet_id = "1147087404769193984"
+type = "tweet"
+title = "My brand"
+published = 2019-07-05T10:16:29Z
+retweets = 0
+favourites = 1
+source = "twitter"
+source_url = "https://twitter.com/cackhanded/status/1147087404769193984"
+tag = [ "boozecase", "rum", "angostura",]
+updated = 2019-07-05T10:18:43Z
+```
+
+> In the words of Bill Hicks: "Fuck it, found my brand." https://t.co/wCuBeeHr0e
+> 
+> — Mark Norman Francis [@cackhanded](https://twitter.com/cackhanded/status/628258689061928960) 2015-08-03 17:38:38
+
+Nearly four years ago I got my third bottle of Angostura rum and tweeted this: 
+
+Today I’ve got my sixth. Definitely found my brand. 
+
+(It’s the one on the far right, the No. 1 third edition finished in a first fill Oloroso cask)
+
+<p class='image'><img src='http://mnf.m17s.net/2019/07/05/D-tF6OWW4AAIF0x.jpg' alt=''></p>
+
