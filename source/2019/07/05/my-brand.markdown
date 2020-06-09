@@ -8,6 +8,7 @@ favourites = 1
 source = "twitter"
 source_url = "https://twitter.com/cackhanded/status/1147087404769193984"
 tag = [ "boozecase", "rum", "angostura",]
+thread_tweet_ids = [ 1147086842631729152, 1147087404769193984,]
 ```
 
 > In the words of Bill Hicks: "Fuck it, found my brand." https://t.co/wCuBeeHr0e

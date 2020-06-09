@@ -9,6 +9,7 @@ source = "twitter"
 source_url = "https://twitter.com/cackhanded/status/1144337058191859713"
 tag = []
 updated = 2019-06-27T20:09:50Z
+thread_tweet_ids = [ 1142801601129791490, 1142844242110418945, 1143193378571673605, 1143437434841120768, 1143913667303530497, 1144337058191859713,]
 ```
 
 Off to the hospital to play kidney stone, appendicitis, or hernia.

@@ -9,6 +9,7 @@ source = "twitter"
 source_url = "https://twitter.com/cackhanded/status/1076781091216916480"
 tag = [ "tshirt", "daily",]
 updated = 2018-12-23T10:06:32Z
+thread_tweet_ids = [ 1076780557726556160, 1076781091216916480,]
 ```
 
 Music Band [#daily](/tags/daily/) [#tshirt](/tags/tshirt/) [`norm.hasworn.com/tshirts/music-…`](http://norm.hasworn.com/tshirts/music-band) — this is the first time I've worn this tshirt.

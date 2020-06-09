@@ -102,6 +102,11 @@ def main():
 
         if created != updated:
             post['updated'] = updated
+        if len(tweets) > 1:
+            post['thread_tweet_ids'] = sorted([
+                tweet.id
+                for tweet in tweets
+            ])
 
         output = '```\n%s```\n\n%s' % (toml.dumps(post), body)
         output_file = 'source/%s/%s.markdown' % (date, slug)

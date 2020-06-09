@@ -9,6 +9,7 @@ source = "twitter"
 source_url = "https://twitter.com/cackhanded/status/1030376837845864448"
 tag = [ "breakingmytwitter",]
 updated = 2018-08-17T08:52:36Z
+thread_tweet_ids = [ 1030367880905457664, 1030368530225659904, 1030369212215308288, 1030369739753906176, 1030371287305281536, 1030372323021529088, 1030375368958590976, 1030376409854824448, 1030376837845864448,]
 ```
 
 > We’ve heard feedback (#breakingmytwitter) from our customers about the pain this causes. We’re committed to understanding why people hire 3rd party clients over our own apps, and we’re going to do better with communicating changes
