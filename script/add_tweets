@@ -165,7 +165,7 @@ def tweet_to_markdown(tweet, image_subdir):
     # some parts are subscriptable while others are not
     try:
         quote_url = tweet.quoted_status_permalink['expanded']
-        quote = '> %s\n> \n> — %s [@%s](%s) %s\n\n' % (
+        quote = '> %s\n> \n> — %s [`@%s`](%s) %s\n\n' % (
             tweet.quoted_status.full_text,
             tweet.quoted_status.user.name,
             tweet.quoted_status.user.screen_name,
@@ -185,7 +185,7 @@ def tweet_to_markdown(tweet, image_subdir):
             # ignore @blah at the very start of a tweet
             # it's almost certainly not helpful
             if section['indices'][0] != 0:
-                markdown += '[@%s](%s)' % (
+                markdown += '[`@%s`](%s)' % (
                     section['screen_name'],
                     'https://twitter.com/%s' % section['screen_name'],
                 )

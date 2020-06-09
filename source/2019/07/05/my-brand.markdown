@@ -13,7 +13,7 @@ thread_tweet_ids = [ 1147086842631729152, 1147087404769193984,]
 
 > In the words of Bill Hicks: "Fuck it, found my brand." https://t.co/wCuBeeHr0e
 > 
-> — Mark Norman Francis [@cackhanded](https://twitter.com/cackhanded/status/628258689061928960) 2015-08-03 17:38:38
+> — Mark Norman Francis [`@cackhanded`](https://twitter.com/cackhanded/status/628258689061928960) 2015-08-03 17:38:38
 
 Nearly four years ago I got my third bottle of Angostura rum and tweeted this: 
 
