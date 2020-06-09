@@ -1,0 +1,11 @@
+{% extends "base_template.html" %}
+
+{% block head_title_text %}{{title}}{% endblock %}
+{% block page_class %}tweet{% endblock %}
+
+{% block body %}
+  <main>
+    {% include "_fragment/article_header.html" %}
+    {{body}}
+  </main>
+  {% endblock %}

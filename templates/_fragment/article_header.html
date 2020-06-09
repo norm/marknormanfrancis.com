@@ -1,0 +1,45 @@
+<header>
+  <h1>{{title}}</h1>
+  <dl>
+    <dt>published</dt>
+    <dd>
+      {{published.strftime('%A %d %B, %Y')}}
+        at 
+      {{published.strftime('%-I.%M%p').lower()}}
+    </dd>
+    {% if updated %}
+      <dt>updated</dt>
+      <dd>
+        {{updated.strftime('%A %d %B, %Y')}}
+          at 
+        {{updated.strftime('%-I.%M%p').lower()}}
+      </dd>
+    {% endif %}
+    {% if tag %}
+      <dt class='tag'>tagged</dt>
+      {% for t in tag %}
+        <dd class='tag'><a href='{{ url("tags-tag-index", tag=t) }}'>{{t}}</a></dd>
+      {% endfor %}    
+    {% endif %}
+    {% if source %}
+      <dt>source</dt>
+      <dd>
+        {% if source == 'twitter' %}
+          Originally posted to <a href='{{source_url}}'>Twitter</a>
+        {% elif source == 'instagram' %}
+          Originally posted to Instagram
+        {% endif %}
+      </dd>
+    {% endif %}
+    {% if source == 'twitter' %}
+      {% if retweets %}
+        <dt>retweets</dt>
+        <dd>{{retweets}}</dd>
+      {% endif %}
+      {% if favourites %}
+        <dt>favourites</dt>
+        <dd>{{favourites}}</dd>
+      {% endif %}
+    {% endif %}
+  </dl>
+</header>
