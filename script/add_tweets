@@ -49,13 +49,6 @@ def main():
         date = created.strftime('%Y/%m/%d')
 
         body = ''
-        previous_time = created
-        for tweet in tweets:
-            time = timestamped(tweet.created_at)
-            if time - previous_time > timedelta(hours=1):
-                body += timestamp_header(time, previous_time)
-            previous_time = time
-            body += tweet_to_markdown(tweet, date)
 
         # FIXME retweets
         # FIXME attached images/video
@@ -64,11 +57,13 @@ def main():
         if 'title' in ids[id]:
             title = ids[id]['title']
         else:
-            # more than about 10 words and it's not a good title
             title = tweets[-1].full_text
             title = strip_links(title)
+            title = strip_trailing_hashtags(title)
+            # more than about 10 words and it's not a good title
             if len(title.split()) > 10:
                 title = 'Tweet at %s' % created.strftime('%-I:%M%p').lower()
+        slug = slugify(title)
 
         tags = set(
             slugify(word[1:].lower())
@@ -79,8 +74,20 @@ def main():
             for tag in ids[id]['tags']:
                 tags.add(slugify(tag))
 
-        title = strip_trailing_hashtags(title)
-        slug = slugify(title)
+        if len(tweets) == 1:
+            # strip text before converting to Markdown if the title and
+            # the body will match, so there's no unnecessary repetition
+            text = strip_links(strip_trailing_hashtags(tweets[0].full_text))
+            if text == title:
+                tweets[0].full_text = ''
+
+        previous_time = created
+        for tweet in tweets:
+            time = timestamped(tweet.created_at)
+            if time - previous_time > timedelta(hours=1):
+                body += timestamp_header(time, previous_time)
+            previous_time = time
+            body += tweet_to_markdown(tweet, date)
 
         retweets = 0
         favourites = 0
