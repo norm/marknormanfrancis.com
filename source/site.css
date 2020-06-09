@@ -138,8 +138,8 @@ main header a:visited {
 main header h1 {
   grid-area: h1;
   color: #33484f;
+  margin: 0;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
 }
 main header dl {
   font-size: 14px;
@@ -161,6 +161,13 @@ main header dd.tag {
 main header dd.tag + dd.tag:before {
   content: '·';
   padding: 0 5px 0 2px;
+}
+main header p.published {
+  color: #33484f;
+  font-family: 'Vollkorn', 'Hoefler Text', 'Georgia';
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-size: 14px;
 }
 
 main {
@@ -186,7 +193,8 @@ main {
   body {
     font-size: 19px;
   }
-  main header dl {
+  main header dl,
+  main header p.published {
     font-size: 16px;
   }
 }
