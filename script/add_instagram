@@ -59,6 +59,11 @@ def main():
             taken = sf_taken.astimezone(pytz.utc)
         subdir = taken.strftime('%Y/%m/%d')
         caption = strip_trailing_hashtags(photo['caption'])
+        text = ''
+        newline = caption.find('\n')
+        if newline > 0:
+            text = caption[newline:]
+            caption = caption[:newline]
         slug = slugify(caption)
         if not slug:
             slug = 'image'
@@ -86,6 +91,8 @@ def main():
         }
         if 'location' in photo:
             metadata['location'] = photo['location']
+        if text:
+            metadata['text_markdown'] = text
         if caption != photo['caption']:
             metadata['original_caption'] = photo['caption']
 

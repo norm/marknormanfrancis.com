@@ -6,8 +6,8 @@
 {% block body %}
   <main>
     {% include "_fragment/article_header.html" %}
-    {% if original_caption %}
-      <p>Original caption: {{original_caption}}</p>
+    {% if text %}
+      <p>{{text}}</p>
     {% endif %}
     <p class='image'><img src='{{image}}' alt=''></p>
   </main>
