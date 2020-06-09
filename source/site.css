@@ -1,6 +1,6 @@
 html, body {
-  background: #fff;
-  color: #000;
+  background: #efeeec;
+  color: #1e1b1d;
   padding: 0;
   margin: 0;
   font-family: Lato, sans-serif;
@@ -38,6 +38,7 @@ a:visited {
 }
 #navigation li + li:before {
   content: '·';
+  color: #bfe3d5;
 }
 #body, 
 #footer {
@@ -65,8 +66,8 @@ a:visited {
 #footer {
   margin: 3em 4em 4em;
   padding-top: 1em;
-  border-top: 1px solid #ddd;
-  color: #aaa;
+  border-top: 1px solid #5c7178;
+  color: #5c7178;
 }
 #footer p {
   font-size: 0.8em;
