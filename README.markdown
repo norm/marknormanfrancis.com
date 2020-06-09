@@ -22,7 +22,7 @@ This is the source text, scripts, and configuration to build
 
 * [add_tweets][tweets]
 
-  Add a TOML source file for every tweet listed in `data/tweet_ids.txt`.
+  Add a TOML source file for every tweet listed in `data/tweet_ids.toml`.
 
 Run them with `honcho run script/...` to use environment variables from 
 `.env`. Can be run repeatedly to refresh TOML (eg to update the likes

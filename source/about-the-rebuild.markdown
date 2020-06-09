@@ -56,8 +56,8 @@ And I have more words to write.
     it exists 
 
 * Twitter: (I'm not going to import every single tweet)
-  * ❌ write a script to import a tweet or tweet thread given a tweet ID
-  * ❌ write a script to find previous threads in case they're interesting
+  * ✅ <del>write [a script to import a tweet or tweet thread][tw] given a tweet ID</del>
+  * ✅ <del>write [a script to find previous threads][find] in case they're interesting</del>
 
 * Other data:
   * ❌ write a script to import public github activity
@@ -67,9 +67,13 @@ And I have more words to write.
 
 * ❌ Then do everything else...
   * ❌ Add SSL
+  * ❌ Add logging to the S3 bucket/cloudfront
+  * ❌ Analyse said logs
   * ❌ New post on the minimum amount of terraform needed to get a static site
     on S3 with SSL behind CloudFront
 
 [fl]: https://github.com/norm/flourish
 [wb]: https://web.archive.org/web/20180823220441/http://marknormanfrancis.com/
 [img]: /2012/07/31/dropping-a-css-knowledge-bomb-on-rujmah
+[tw]: https://github.com/norm/marknormanfrancis.com/blob/master/script/add_tweets
+[find]: https://github.com/norm/marknormanfrancis.com/blob/master/script/find_tweets

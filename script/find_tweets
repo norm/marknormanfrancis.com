@@ -305,7 +305,7 @@ def main():
                     tweet['full_text'],
                 )
             )
-            if 'media' in tweet['extended_entities']:
+            if 'extended_entities' in tweet:
                 for media in tweet['extended_entities']['media']:
                     print('%s: %s' % (media['type'], media['media_url_https']))
                     if media['type'] == 'video':
