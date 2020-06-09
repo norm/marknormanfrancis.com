@@ -4,6 +4,7 @@
 Add selected tweets from a list of tweet IDs.
 """
 
+from datetime import timedelta
 import os
 import sys
 
@@ -48,7 +49,12 @@ def main():
         date = created.strftime('%Y/%m/%d')
 
         body = ''
+        previous_time = created
         for tweet in tweets:
+            time = timestamped(tweet.created_at)
+            if time - previous_time > timedelta(hours=1):
+                body += timestamp_header(time, previous_time)
+            previous_time = time
             body += tweet_to_markdown(tweet, date)
 
         # FIXME retweets
@@ -227,6 +233,17 @@ def timestamped(stamp):
     if not stamp.tzinfo:
         stamp = pytz.timezone('UTC').localize(stamp)
     return stamp
+
+def timestamp_header(now, previous):
+    # FIXME 25th, 7pm
+    if now.year != previous.year:
+        return '## %s\n\n' % now.strftime('%A %-d %B %Y, %H:%M')
+    elif now.month != previous.month:
+        return '## %s\n\n' % now.strftime('%A %-d %B, %H:%M')
+    elif now.day != previous.day:
+        return '## %s\n\n' % now.strftime('%A %-d, %H:%M')
+    else:
+        return '## %s\n\n' % now.strftime('%H:%M')
 
 
 if __name__ == '__main__':

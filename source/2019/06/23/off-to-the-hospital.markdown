@@ -14,17 +14,27 @@ thread_tweet_ids = [ 1142801601129791490, 1142844242110418945, 11431933785716736
 
 Off to the hospital to play kidney stone, appendicitis, or hernia.
 
+## 17:17
+
 
 
 <p class='image'><img src='http://mnf.m17s.net/2019/06/23/D9wyxgnXkAEzkkO.jpg' alt=''></p>
+
+## Monday 24, 16:25
 
 If you chose appendix, the doctors agreed with you. I was kept in for an appendectomy.
 
 <p class='image'><img src='http://mnf.m17s.net/2019/06/23/D91wT9HWkAIwQNb.jpg' alt=''></p>
 
+## Tuesday 25, 08:35
+
 However, they were wrong. Still have my appendix, and now they think it’s diverticulitis.
 
+## Wednesday 26, 16:07
+
 After an elevated temperature, so many injections, many drugs (including morphine, mmm) I’ve apparently passed my blood tests and should be released. And then have a follow-up colonoscopy in a few weeks.
+
+## Thursday 27, 20:09
 
 Only had to take 150mg of codeine today so I must be fine now.
 
