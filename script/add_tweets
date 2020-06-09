@@ -38,7 +38,12 @@ def main():
 
     for id in ids:
         tweets = get_tweets_from_id(id, ids[id])
-        created = timestamped(tweets[0].created_at)
+
+        try:
+            created = ids[id]['published']
+        except KeyError:
+            created = timestamped(tweets[0].created_at)
+
         updated = timestamped(tweets[-1].created_at)
         date = created.strftime('%Y/%m/%d')
 

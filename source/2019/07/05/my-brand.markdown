@@ -2,13 +2,12 @@
 tweet_id = "1147087404769193984"
 type = "tweet"
 title = "My brand"
-published = 2019-07-05T10:16:29Z
+published = 2019-07-05T10:18:43Z
 retweets = 0
 favourites = 1
 source = "twitter"
 source_url = "https://twitter.com/cackhanded/status/1147087404769193984"
 tag = [ "boozecase", "rum", "angostura",]
-updated = 2019-07-05T10:18:43Z
 ```
 
 > In the words of Bill Hicks: "Fuck it, found my brand." https://t.co/wCuBeeHr0e
