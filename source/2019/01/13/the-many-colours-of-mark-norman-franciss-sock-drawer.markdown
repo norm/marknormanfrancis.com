@@ -7,7 +7,7 @@ retweets = 1
 favourites = 4
 source = "twitter"
 source_url = "https://twitter.com/cackhanded/status/1084458534757109760"
-tag = [ "socks", "rainbow",]
+tag = [ "rainbow", "socks",]
 ```
 
 

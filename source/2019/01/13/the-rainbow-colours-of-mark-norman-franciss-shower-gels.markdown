@@ -7,7 +7,7 @@ retweets = 0
 favourites = 2
 source = "twitter"
 source_url = "https://twitter.com/cackhanded/status/1084462633321943043"
-tag = [ "showergel", "rainbow",]
+tag = [ "rainbow", "showergel",]
 ```
 
 

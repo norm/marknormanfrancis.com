@@ -7,7 +7,7 @@ retweets = 0
 favourites = 1
 source = "twitter"
 source_url = "https://twitter.com/cackhanded/status/1147087404769193984"
-tag = [ "boozecase", "rum", "angostura",]
+tag = [ "angostura", "boozecase", "rum",]
 thread_tweet_ids = [ 1147086842631729152, 1147087404769193984,]
 ```
 

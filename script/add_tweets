@@ -110,7 +110,7 @@ def main():
                 tweets[-1].author.screen_name,
                 tweets[-1].id_str,
             ),
-            'tag': tags,
+            'tag': sorted(tags),
         }
 
         if created != updated:
