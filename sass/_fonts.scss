@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:900) screen;
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900) screen;
+
+@mixin headline_font {
+    font-family: 'Vollkorn', 'Hoefler Text', 'Georgia', serif;
+    font-weight: 900;
+}
+@mixin body_font {
+    font-family: 'Lato', 'Helvetica', 'Helmet', sans-serif;
+    font-weight: 400;
+}
+@mixin small_body_font {
+    font-size: 14px;
+
+    @include larger_width {
+        font-size: 16px;
+    }
+}
+@mixin body_font_bold {
+    font-weight: 900;
+}
+
+
+html, body {
+    @include body_font;
+    font-size: 16px;
+    line-height: 1.4;
+
+    @include larger_width {
+        font-size: 19px;
+    }
+}
+
+#body h1, h2, h3 {
+    @include headline_font;
+}

@@ -1,0 +1,10 @@
+// Last part of the page.
+
+#footer {
+    color: $nevada;
+    border-top: 1px solid $nevada;
+
+    p {
+        @include small_body_font;
+    }
+}

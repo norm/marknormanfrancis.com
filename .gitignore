@@ -1,4 +1,6 @@
+.env
 output/
+css/
 source.bak/
 
 *.pyc

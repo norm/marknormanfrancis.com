@@ -1,0 +1,15 @@
+// The "about" page type.
+
+body.about {
+    #body p img {
+        max-width: 100%;
+        display: block;
+        margin-bottom: 20px;
+
+        @include larger_width {
+            float: right;
+            max-width: 50%;
+            margin-left: 20px;
+        }
+    }
+}

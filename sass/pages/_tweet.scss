@@ -1,0 +1,22 @@
+// The "tweet" page type.
+
+body.tweet {
+    #body p.image img {
+        max-width: 100%;
+    }
+
+    main blockquote {
+        border: 1px solid #7a7f8f;
+        border-radius: 15px;
+        color: #7a7f8f;
+        padding: 10px;
+        margin: 10px 5em 10px 1em;
+
+        p {
+            margin: 0;
+        }
+        p + p {
+            padding-left: 1em;
+        }
+    }
+}

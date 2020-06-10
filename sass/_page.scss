@@ -1,0 +1,45 @@
+// Page layout.
+
+$side_indent: 20px;
+$side_indent_larger: 60px;
+
+@mixin larger_width {
+    @media only screen and (min-width: 640px) {
+        @content;
+    }
+}
+
+@mixin contain-floated-children {
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 900px;
+}
+
+
+#masthead {
+    padding: 10px $side_indent;
+
+    @include larger_width {
+        padding: 20px $side_indent_larger;
+    }
+}
+
+#body,
+#footer {
+    margin: 0 $side_indent 2em;
+
+    @include larger_width {
+        margin: 1em $side_indent_larger 3em;
+    }
+}

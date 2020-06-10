@@ -1,0 +1,93 @@
+// The introductory area to an article.
+
+main header {
+    color: $nevada;
+
+    a,
+    h1,
+    p.published {
+        color: $limed_spruce;
+    }
+    a:visited {
+        color: $te_papa_green;
+    }
+
+
+    h1 {
+        line-height: 1;
+    }
+    p.published {
+        @include headline_font;
+    }
+    p.published,
+    dl {
+        @include small_body_font;
+    }
+    dt {
+        @include body_font_bold;
+    }
+
+
+    h1 {
+        margin: 0;
+        margin-top: 0.5em;
+    }
+    p.published {
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+
+
+    // put the H1 below the metadata visually
+    display: grid;
+    grid-template-areas: 'meta' 'h1';
+
+    h1 {
+        grid-area: h1;
+    }
+    dl {
+        grid-area: meta;
+    }
+
+
+    // style the metadata area
+    $metadata_indent: 75px;
+    $metadata_indent_larger: 125px;
+    dl {
+        margin-left: $metadata_indent;
+
+        @include larger_width {
+            margin-left: $metadata_indent_larger;
+        }
+
+        li {
+            @include contain-floated-children;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+    }
+    dt {
+        float: left;
+        clear: left;
+        min-width: $metadata_indent;
+        margin-left: -$metadata_indent;
+
+        @include larger_width {
+            min-width: $metadata_indent_larger;
+            margin-left: -$metadata_indent_larger;
+        }
+    }
+    dd {
+        margin-left: 0;
+
+        &.tag {
+            float: left;
+
+            & + dd.tag:before {
+                content: '·';
+                padding: 0 5px 0 2px;
+            }
+        }
+    }
+}

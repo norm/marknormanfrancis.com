@@ -4,6 +4,34 @@ from flourish.generators import (
     PageGenerator,
 )
 
+from sassutils.builder import build_directory
+from shutil import rmtree
+from os import makedirs
+
+
+class SassGenerator:
+    @classmethod
+    def as_generator(cls):
+        def generator(flourish, url, global_context=None, report=False):
+            self = cls(flourish, url, global_context, report)
+            return self.generate()
+        return generator
+
+    def __init__(self, flourish, url, global_context, report):
+        self.report = report
+
+    def generate(self):
+        files = build_directory(
+            'sass',
+            'output',
+            output_style = 'expanded',
+            strip_extension = True,
+        )
+        for entry in files:
+            file = files[entry]
+            if self.report:
+                print('->', file)
+
 
 class DatedArchive(IndexGenerator):
     order_by = ('published')
@@ -96,5 +124,10 @@ URLS = (
         '/tags/#tag/',
         'tags-tag-index',
         TagIndex.as_generator()
+    ),
+    (
+        '/site.css',    # FIXME does all target files, not only this
+        'css',
+        SassGenerator.as_generator()
     ),
 )

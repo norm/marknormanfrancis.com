@@ -1,0 +1,24 @@
+// The "article" page type.
+
+body.article {
+    #body ol,
+    #body ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin-left: 1.2em;
+            padding-left: 0;
+            list-style-type: outside;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        p + ul,
+        p + ol {
+            margin-bottom: 10px;
+        }
+    }
+}

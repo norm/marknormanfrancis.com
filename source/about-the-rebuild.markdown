@@ -1,7 +1,7 @@
 ```
 title = 'About the rebuild'
 noindex = true
-page_class = 'about'
+page_class = 'about article'
 ```
 
 # About the rebuild

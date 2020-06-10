@@ -1,0 +1,31 @@
+// The rebuilding notices.
+
+#masthead #rebuilding {
+    margin: 0;
+    margin-bottom: 1em;
+
+    @include larger_width {
+        margin-bottom: 2em;
+    }
+}
+
+#body #body_rebuilding {
+    display: inline-block;
+    background: $roti;
+    line-height: 2;
+    margin: 1em 0 2em;
+
+    strong {
+        display: inline-block;
+        padding: 0 10px;
+        background: $cognac;
+        color: #fff;
+    }
+    span {
+        padding: 0 30px 0 20px;
+        white-space: nowrap;
+    }
+    a {
+        color: #000;
+    }
+}

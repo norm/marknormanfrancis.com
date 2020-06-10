@@ -5,20 +5,11 @@
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <title>{% block head_title_text %}SET PAGE TITLE{% endblock %}</title>
   <link rel='stylesheet' href='/site.css'>
-<!--  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Vollkorn:900&amp;text=marknofcis.'> -->
-  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Vollkorn:900'>
-  <link rel="stylesheet"
-          href='https://fonts.googleapis.com/css?family=Lato:400'>
-<!--  <link href='//fonts.googleapis.com/css?family=Vollkorn:700&amp;text=FMNacikmnors%20' rel='stylesheet' type='text/css' />
--->
-
 </head>
 <body class='{{page_class}} {% block page_class %}{% endblock %}'>
 
-  <div id='global'>
-    <div id='branding'>
-      <h1>mark<wbr>norman<wbr>francis<wbr>.com</h1>
-    </div>
+  <div id='masthead'>
+    <h1>mark<wbr>norman<wbr>francis<wbr>.com</h1>
 
     {% block global_rebuilding %}
     <p id='rebuilding'>
@@ -27,8 +18,9 @@
     </p>
     {% endblock %}
 
-    <div id='navigation'>
+    <nav>
       Archives:
+      <ul>
       {% for year in global.all_valid_dates %}
         <li>
           <a href='{{ url("year-index", year=year.year) }}'>
@@ -36,7 +28,8 @@
           </a>
         </li>
       {% endfor %}
-    </div>
+      </ul>
+    </nav>
   </div>
 
 

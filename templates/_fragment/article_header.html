@@ -15,10 +15,12 @@
       </dd>
     {% endif %}
     {% if tag %}
-      <dt class='tag'>tagged</dt>
-      {% for t in tag %}
-        <dd class='tag'><a href='{{ url("tags-tag-index", tag=t) }}'>{{t}}</a></dd>
-      {% endfor %}    
+      <li>
+        <dt class='tag'>tagged</dt>
+        {% for t in tag %}
+          <dd class='tag'><a href='{{ url("tags-tag-index", tag=t) }}'>{{t}}</a></dd>
+        {% endfor %}
+      </li>
     {% endif %}
     {% if source %}
       <dt>source</dt>

@@ -1,0 +1,26 @@
+$skeptic: #bfe3d5;
+$nevada: #5c7178;
+$limed_spruce: #33484f;
+$te_papa_green: #1e333a;
+
+$roti: #bea13e;
+$cognac: #9f481b;
+$desert_storm: #efeeec;
+$eerie_black: #1e1b1d;
+
+$pearly_purple: #bf6b8d;
+$cosmic: #7b3c58;
+
+
+html, body {
+    background: $desert_storm;
+    color: $eerie_black;
+}
+
+a {
+    color: $pearly_purple;
+
+    &:visited {
+        color: $cosmic;
+    }
+}
