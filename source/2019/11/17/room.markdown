@@ -11,7 +11,5 @@ source_url = "https://twitter.com/norms_ps4/status/1196052560446144512"
 tag = [ "controlremedy", "ps4share",]
 ```
 
-Room [#ControlRemedy](/tags/controlremedy/) [#PS4share](/tags/ps4share/)
-
 <p class='image'><img src='http://mnf.m17s.net/2019/11/17/EJk7dqNXkAMiqpu.jpg' alt=''></p>
 

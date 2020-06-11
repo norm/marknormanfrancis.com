@@ -11,7 +11,5 @@ source_url = "https://twitter.com/norms_ps4/status/1070407715472728064"
 tag = [ "ps4share", "reddeadredemption2",]
 ```
 
-Broken train [#RedDeadRedemption2](/tags/reddeadredemption2/) [#PS4share](/tags/ps4share/)
-
 <p class='image'><img src='http://mnf.m17s.net/2018/12/05/DtraJG-W4AcsdHz.jpg' alt=''></p>
 

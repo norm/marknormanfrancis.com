@@ -68,7 +68,12 @@ def main():
             title = strip_trailing_hashtags(title)
             # more than about 10 words and it's not a good title
             if len(title.split()) > 10:
-                title = 'Tweet at %s' % created.strftime('%-I:%M%p').lower()
+                title = 'Tweet at %s' % created.strftime('%H:%M:%S').lower()
+            # zero words and it's also not a good title
+            if len(title.split()) == 0:
+                title = 'Untitled tweet at %s' % \
+                    created.strftime('%H:%M:%S').lower()
+                tags.add('fixme')
         slug = slugify(title)
 
         tags.update(
@@ -83,8 +88,10 @@ def main():
         if len(tweets) == 1:
             # strip text before converting to Markdown if the title and
             # the body will match, so there's no unnecessary repetition
-            text = strip_links(strip_trailing_hashtags(tweets[0].full_text))
+            text = strip_trailing_hashtags(strip_links(tweets[0].full_text))
             if text == title:
+                tweets[0].full_text = ''
+            if text == '':
                 tweets[0].full_text = ''
 
         previous_time = created
@@ -196,39 +203,40 @@ def tweet_to_markdown(tweet, image_subdir):
         pass
 
     text_from = 0
-    for section in sorted(sections, key=lambda s: s['indices'][0]):
-        start = section['indices'][0]
-        markdown += escape_newlines(tweet.full_text[text_from:start])
-        if 'screen_name' in section:
-            # ignore @blah at the very start of a tweet
-            # it's almost certainly not helpful
-            if section['indices'][0] != 0:
-                markdown += '[`@%s`](%s)' % (
-                    section['screen_name'],
-                    'https://twitter.com/%s' % section['screen_name'],
-                )
-        if 'display_url' in section:
-            if section['expanded_url'] == quote_url:
-                if tweet.display_text_range[1] <= section['indices'][1]:
-                    # makes this a quote tweet, not just a link to a tweet
-                    # quoted tweet text comes before the tweet text
-                    markdown = quote + markdown
+    if tweet.full_text:
+        for section in sorted(sections, key=lambda s: s['indices'][0]):
+            start = section['indices'][0]
+            markdown += escape_newlines(tweet.full_text[text_from:start])
+            if 'screen_name' in section:
+                # ignore @blah at the very start of a tweet
+                # it's almost certainly not helpful
+                if section['indices'][0] != 0:
+                    markdown += '[`@%s`](%s)' % (
+                        section['screen_name'],
+                        'https://twitter.com/%s' % section['screen_name'],
+                    )
+            if 'display_url' in section:
+                if section['expanded_url'] == quote_url:
+                    if tweet.display_text_range[1] <= section['indices'][1]:
+                        # makes this a quote tweet, not just a link to a tweet
+                        # quoted tweet text comes before the tweet text
+                        markdown = quote + markdown
+                    else:
+                        markdown += '\n\n' + quote
                 else:
-                    markdown += '\n\n' + quote
-            else:
-                markdown += '[`%s`](%s)' % (
-                    section['display_url'],
-                    section['expanded_url']
+                    markdown += '[`%s`](%s)' % (
+                        section['display_url'],
+                        section['expanded_url']
+                    )
+            if 'text' in section:
+                markdown += '[#%s](/tags/%s/)' % (
+                    section['text'],
+                    slugify(section['text'])
                 )
-        if 'text' in section:
-            markdown += '[#%s](/tags/%s/)' % (
-                section['text'],
-                slugify(section['text'])
-            )
-        text_from = section['indices'][1]
-    if text_from < tweet.display_text_range[1]:
-        markdown += escape_newlines(tweet.full_text[text_from:tweet.display_text_range[1]])
-    markdown += '\n\n'
+            text_from = section['indices'][1]
+        if text_from < tweet.display_text_range[1]:
+            markdown += escape_newlines(tweet.full_text[text_from:tweet.display_text_range[1]])
+        markdown += '\n\n'
 
     if 'media' in tweet.entities:
         for media in tweet.extended_entities['media']:

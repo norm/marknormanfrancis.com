@@ -11,7 +11,5 @@ source_url = "https://twitter.com/norms_ps4/status/1058662744608722945"
 tag = [ "ps4share", "reddeadredemption2",]
 ```
 
-Reverend Swanson [#RedDeadRedemption](/tags/reddeadredemption/) [#PS4share](/tags/ps4share/)
-
 <p class='image'><img src='http://mnf.m17s.net/2018/11/03/DrEgJ68WwAEFFZy.jpg' alt=''></p>
 

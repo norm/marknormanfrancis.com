@@ -11,7 +11,5 @@ source_url = "https://twitter.com/norms_ps4/status/1042518268139978753"
 tag = [ "survivingmars",]
 ```
 
-Trigon [#SurvivingMars](/tags/survivingmars/)
-
 <p class='image'><img src='http://mnf.m17s.net/2018/09/19/DnfE1scWwAAOaeL.jpg' alt=''></p>
 

@@ -11,7 +11,5 @@ source_url = "https://twitter.com/norms_ps4/status/1071099487265964034"
 tag = [ "ps4share", "reddeadredemption2",]
 ```
 
-Last of the gunslingers [#RedDeadRedemption2](/tags/reddeadredemption2/) [#PS4share](/tags/ps4share/)
-
 <p class='image'><img src='http://mnf.m17s.net/2018/12/07/Dt1PTlYX4AMmIj7.jpg' alt=''></p>
 

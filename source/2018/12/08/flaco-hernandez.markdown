@@ -11,7 +11,5 @@ source_url = "https://twitter.com/norms_ps4/status/1071337947193069568"
 tag = [ "ps4share", "reddeadredemption2",]
 ```
 
-Flaco Hernandez [#RedDeadRedemption2](/tags/reddeadredemption2/) [#PS4share](/tags/ps4share/)
-
 <p class='image'><img src='http://mnf.m17s.net/2018/12/08/Dt4oLwrWsAEwhJL.jpg' alt=''></p>
 

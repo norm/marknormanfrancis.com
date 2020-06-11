@@ -11,7 +11,5 @@ source_url = "https://twitter.com/norms_ps4/status/1164613520052408320"
 tag = [ "ps4share", "survivingmars",]
 ```
 
-Come survive Mars they said... [#SurvivingMars](/tags/survivingmars/) [#PS4share](/tags/ps4share/)
-
 <p class='image'><img src='http://mnf.m17s.net/2019/08/22/ECmJ0q6WsAg26Bm.jpg' alt=''></p>
 

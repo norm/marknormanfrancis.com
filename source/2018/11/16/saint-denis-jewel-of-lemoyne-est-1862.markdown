@@ -11,7 +11,5 @@ source_url = "https://twitter.com/norms_ps4/status/1063485481973964811"
 tag = [ "ps4share", "reddeadredemption2",]
 ```
 
-Saint Denis, jewel of Lemoyne est. 1862 [#RedDeadRedemption2](/tags/reddeadredemption2/) [#PS4share](/tags/ps4share/)
-
 <p class='image'><img src='http://mnf.m17s.net/2018/11/16/DsJCaHCW0AEe_3n.jpg' alt=''></p>
 

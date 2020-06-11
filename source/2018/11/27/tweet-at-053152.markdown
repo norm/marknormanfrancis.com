@@ -1,7 +1,7 @@
 ```
 tweet_id = "1067289884250046464"
 type = "tweet"
-title = "Tweet at 5:31am"
+title = "Tweet at 05:31:52"
 published = 2018-11-27T05:31:52Z
 retweets = 0
 favourites = 1

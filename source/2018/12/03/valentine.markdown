@@ -11,7 +11,5 @@ source_url = "https://twitter.com/norms_ps4/status/1069685659554734080"
 tag = [ "ps4share", "reddeadredemption2",]
 ```
 
-Valentine [#RedDeadRedemption2](/tags/reddeadredemption2/) [#PS4share](/tags/ps4share/)
-
 <p class='image'><img src='http://mnf.m17s.net/2018/12/03/DthJb7NWsAIo7jU.jpg' alt=''></p>
 

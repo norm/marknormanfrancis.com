@@ -11,7 +11,5 @@ source_url = "https://twitter.com/norms_ps4/status/1064200563355762689"
 tag = [ "ps4share", "reddeadredemption2",]
 ```
 
-Calumet Ravine [#RedDeadRedemption2](/tags/reddeadredemption2/) [#PS4share](/tags/ps4share/)
-
 <p class='image'><img src='http://mnf.m17s.net/2018/11/18/DsTMxTiX4AI7tAr.jpg' alt=''></p>
 

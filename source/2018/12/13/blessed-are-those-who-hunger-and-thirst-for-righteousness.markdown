@@ -11,7 +11,5 @@ source_url = "https://twitter.com/norms_ps4/status/1073325661182418946"
 tag = [ "ps4share", "reddeadredemption2",]
 ```
 
-Blessed are those who hunger and thirst for righteousness [#RedDeadRedemption2](/tags/reddeadredemption2/) [#PS4share](/tags/ps4share/)
-
 <p class='image'><img src='http://mnf.m17s.net/2018/12/13/DuU3_6gWsAADnVO.jpg' alt=''></p>
 

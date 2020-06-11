@@ -11,7 +11,5 @@ source_url = "https://twitter.com/norms_ps4/status/1067152727157936129"
 tag = [ "ps4share", "reddeadredemption2",]
 ```
 
-Shell [#RedDeadRedemption2](/tags/reddeadredemption2/) [#PS4share](/tags/ps4share/)
-
 <p class='image'><img src='http://mnf.m17s.net/2018/11/26/Ds9Jv0GXoAA0tKs.jpg' alt=''></p>
 

@@ -11,7 +11,5 @@ source_url = "https://twitter.com/norms_ps4/status/1073325255568121856"
 tag = [ "ps4share", "reddeadredemption2",]
 ```
 
-Revenge is a dish best served cold [#RedDeadRedemption2](/tags/reddeadredemption2/) [#PS4share](/tags/ps4share/)
-
 <p class='image'><img src='http://mnf.m17s.net/2018/12/13/DuU3oSfW0AIe3VQ.jpg' alt=''></p>
 

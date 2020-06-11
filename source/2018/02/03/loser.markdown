@@ -11,7 +11,5 @@ source_url = "https://twitter.com/norms_ps4/status/959877638587322368"
 tag = [ "gtav",]
 ```
 
-Loser. [#gtav](/tags/gtav/)
-
 <p class='image'><img src='http://mnf.m17s.net/2018/02/03/DVIrnzjXcAAQfox.jpg' alt=''></p>
 
