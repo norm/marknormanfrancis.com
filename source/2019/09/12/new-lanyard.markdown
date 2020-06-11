@@ -6,6 +6,7 @@ published = 2019-09-12T10:48:10Z
 retweets = 0
 favourites = 1
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1172099577446580224"
 tag = [ "rainbow",]
 ```

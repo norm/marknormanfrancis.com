@@ -6,6 +6,7 @@ published = 2018-04-12T04:47:46Z
 retweets = 0
 favourites = 8
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/984293801287147520"
 tag = []
 updated = 2018-04-12T04:55:04Z

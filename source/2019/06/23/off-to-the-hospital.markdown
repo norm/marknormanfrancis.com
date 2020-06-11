@@ -6,6 +6,7 @@ published = 2019-06-23T14:28:28Z
 retweets = 3
 favourites = 37
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1144337058191859713"
 tag = []
 updated = 2019-06-27T20:09:50Z

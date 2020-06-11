@@ -6,6 +6,7 @@ published = 2018-02-17T08:08:08Z
 retweets = 1
 favourites = 6
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/964775118105907201"
 tag = [ "boozecase", "scapa", "whisky",]
 updated = 2018-02-17T08:14:47Z

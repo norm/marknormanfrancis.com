@@ -6,6 +6,7 @@ published = 2018-11-21T21:48:47Z
 retweets = 0
 favourites = 3
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1065361408811048963"
 tag = [ "rubberduck",]
 ```

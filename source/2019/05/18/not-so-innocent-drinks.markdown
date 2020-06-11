@@ -6,6 +6,7 @@ published = 2019-05-18T13:01:54Z
 retweets = 1
 favourites = 11
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1129733850362515458"
 tag = [ "eurovision",]
 ```

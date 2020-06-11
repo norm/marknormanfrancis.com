@@ -6,6 +6,7 @@ published = 2019-07-05T15:51:43Z
 retweets = 4
 favourites = 82
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1147747469708726272"
 tag = [ "itsy", "roxy",]
 updated = 2019-07-07T06:01:35Z

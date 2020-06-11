@@ -6,11 +6,10 @@ published = 2019-01-13T14:33:57Z
 retweets = 1
 favourites = 4
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1084458534757109760"
 tag = [ "rainbow", "socks",]
 ```
-
-
 
 <p class='image'><img src='http://mnf.m17s.net/2019/01/13/DwzFRsGWwAIUtXz.jpg' alt=''></p>
 

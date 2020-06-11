@@ -6,6 +6,7 @@ published = 2012-12-23T12:46:39Z
 retweets = 0
 favourites = 3
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/282829573358510080"
 tag = [ "techsmas",]
 ```

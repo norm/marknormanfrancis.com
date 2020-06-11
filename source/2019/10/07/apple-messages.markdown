@@ -6,6 +6,7 @@ published = 2019-10-07T17:08:12Z
 retweets = 0
 favourites = 0
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1181254913772400640"
 tag = [ "my-name-is",]
 ```

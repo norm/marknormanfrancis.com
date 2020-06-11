@@ -6,6 +6,7 @@ published = 2018-12-23T10:04:25Z
 retweets = 0
 favourites = 12
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1076781091216916480"
 tag = [ "daily", "tshirt",]
 updated = 2018-12-23T10:06:32Z

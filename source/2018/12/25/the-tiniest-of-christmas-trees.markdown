@@ -6,6 +6,7 @@ published = 2018-12-25T09:02:07Z
 retweets = 2
 favourites = 4
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1077489658165112833"
 tag = [ "christmas",]
 ```

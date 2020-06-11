@@ -6,6 +6,7 @@ published = 2018-10-23T18:53:27Z
 retweets = 0
 favourites = 3
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1054808033224806400"
 tag = [ "christmas", "rainbow",]
 ```

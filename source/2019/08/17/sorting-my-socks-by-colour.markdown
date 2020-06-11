@@ -6,6 +6,7 @@ published = 2019-08-17T10:38:00Z
 retweets = 1
 favourites = 11
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1162689759954853889"
 tag = [ "rainbow", "socks",]
 updated = 2019-08-17T11:36:55Z

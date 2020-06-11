@@ -6,6 +6,7 @@ published = 2019-11-02T18:18:18Z
 retweets = 0
 favourites = 3
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1190694638350471169"
 tag = [ "board-games", "boozecase", "fettercairn", "whisky",]
 ```

@@ -6,6 +6,7 @@ published = 2019-11-03T08:25:17Z
 retweets = 0
 favourites = 2
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1190907787875934208"
 tag = [ "itsy",]
 ```

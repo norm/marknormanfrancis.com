@@ -6,6 +6,7 @@ published = 2019-02-17T08:37:16Z
 retweets = 1
 favourites = 5
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1097052348319449089"
 tag = [ "boozecase", "game-of-thrones", "whisky",]
 ```

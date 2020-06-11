@@ -6,6 +6,7 @@ published = 2018-08-17T08:17:00Z
 retweets = 23
 favourites = 56
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1030376837845864448"
 tag = [ "breakingmytwitter",]
 updated = 2018-08-17T08:52:36Z

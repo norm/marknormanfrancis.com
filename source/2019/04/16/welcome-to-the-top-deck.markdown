@@ -6,6 +6,7 @@ published = 2019-04-16T06:19:54Z
 retweets = 2
 favourites = 9
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1118036273942413312"
 tag = [ "travel-animals",]
 ```

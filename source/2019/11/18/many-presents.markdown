@@ -6,6 +6,7 @@ published = 2019-11-18T15:43:15Z
 retweets = 0
 favourites = 3
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1196453823549788162"
 tag = [ "boozecase", "scapa",]
 ```

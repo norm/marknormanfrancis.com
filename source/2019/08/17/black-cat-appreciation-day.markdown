@@ -6,6 +6,7 @@ published = 2019-08-17T08:35:47Z
 retweets = 1
 favourites = 12
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1162644178502934529"
 tag = [ "blackcatappreciationday",]
 ```

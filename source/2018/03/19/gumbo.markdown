@@ -6,6 +6,7 @@ published = 2018-03-19T17:54:11Z
 retweets = 0
 favourites = 3
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/975792563994152961"
 tag = [ "gumbo",]
 ```

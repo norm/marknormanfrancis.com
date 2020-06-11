@@ -6,6 +6,7 @@ published = 2019-06-10T07:50:18Z
 retweets = 0
 favourites = 9
 source = "twitter"
+twitter_account = "cackhanded"
 source_url = "https://twitter.com/cackhanded/status/1137990355062853632"
 tag = [ "hickies", "lifewithoutlaces", "rainbow",]
 ```
