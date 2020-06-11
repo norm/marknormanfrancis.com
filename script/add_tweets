@@ -7,6 +7,7 @@ Add selected tweets from a list of tweet IDs.
 from datetime import timedelta
 import os
 import sys
+import time
 
 import pytz
 import tweepy
@@ -138,7 +139,14 @@ def main():
 
 def get_tweets_from_id(id, extra):
     tweets = []
-    tweet = twitter.get_status(id, tweet_mode='extended')
+    while True:
+        try:
+            tweet = twitter.get_status(id, tweet_mode='extended')
+            break
+        except tweepy.error.RateLimitError:
+            print('   hit rate limit, sleeping')
+            # FIXME use the rate limit endpoint to work out how long to sleep
+            time.sleep(60)
     tweets.insert(0, tweet)
     in_reply_to = tweet.in_reply_to_screen_name
     original_author = tweet.author.screen_name
