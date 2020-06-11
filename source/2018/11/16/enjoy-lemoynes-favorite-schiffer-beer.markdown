@@ -1,7 +1,7 @@
 ```
 tweet_id = "1063483454187335681"
 type = "tweet"
-title = "Enjoy Lemoyne's favourite seltzer!"
+title = "Enjoy Lemoyne's Favorite! Schiffer beer"
 published = 2018-11-16T17:26:28Z
 retweets = 0
 favourites = 0

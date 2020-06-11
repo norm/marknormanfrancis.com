@@ -203,6 +203,7 @@ tags = [ 'reddeadredemption2', ]
 remove_tags = [ 'reddeadredemption', ]
 
 [1059171149257605120]
+title = "Arthur Morgan"
 
 [1060243042190417921]
 
@@ -231,6 +232,7 @@ remove_tags = [ 'reddeadredemption', ]
 [1060993716100440064]
 
 [1060994197581414400]
+title = "Gazebo"
 
 [1060994372991377409]
 
@@ -295,6 +297,7 @@ remove_tags = [ 'reddeadredemption', ]
 [1063482914476830720]
 
 [1063483454187335681]
+title = "Enjoy Lemoyne's Favorite! Schiffer beer"
 
 [1063483766474240000]
 
@@ -341,6 +344,7 @@ remove_tags = [ 'reddeadredemption', ]
 [1064126811716620288]
 
 [1064127086254796800]
+title = "Lucky's desk"
 
 [1064127492485758977]
 
@@ -367,6 +371,7 @@ remove_tags = [ 'reddeadredemption', ]
 [1064639840241766401]
 
 [1064956953514913803]
+title = "Rocks"
 
 [1064957195958267905]
 
@@ -421,10 +426,12 @@ remove_tags = [ 'reddeadredemption', ]
 [1066263451817967617]
 
 [1066264197498093568]
+title = "Modelling bug"
 
 [1066264579204882432]
 
 [1066264967316422659]
+title = "Invisible horse"
 
 [1066265190038159361]
 
@@ -651,6 +658,7 @@ remove_tags = [ 'reddeadredemption', ]
 [1119710934291947520]
 
 [1164613064760672258]
+tags = [ 'platinum', ]
 
 [1164613520052408320]
 
