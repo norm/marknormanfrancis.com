@@ -58,6 +58,7 @@ And I have more words to write.
 * Twitter: (I'm not going to import every single tweet)
   * ✅ <del>write [a script to import a tweet or tweet thread][tw] given a tweet ID</del>
   * ✅ <del>write [a script to find previous threads][find] in case they're interesting</del>
+  * ✅ <del>import tweets from my [`@norms_ps4`][ps4] account</del>
 
 * Other data:
   * ❌ write a script to import public github activity
@@ -77,3 +78,4 @@ And I have more words to write.
 [img]: /2012/07/31/dropping-a-css-knowledge-bomb-on-rujmah
 [tw]: https://github.com/norm/marknormanfrancis.com/blob/master/script/add_tweets
 [find]: https://github.com/norm/marknormanfrancis.com/blob/master/script/find_tweets
+[ps4]: https://twitter.com/norms_ps4
