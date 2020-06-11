@@ -57,6 +57,8 @@ def main():
         # FIXME attached images/video
         # FIXME add original data as attachment
 
+        tags = set()
+
         if 'title' in ids[id]:
             title = ids[id]['title']
         else:
@@ -68,14 +70,14 @@ def main():
                 title = 'Tweet at %s' % created.strftime('%-I:%M%p').lower()
         slug = slugify(title)
 
-        tags = set(
+        tags.update(
             slugify(word[1:].lower())
             for word in title.split()
             if word.startswith('#')
         )
         if 'tags' in ids[id]:
             for tag in ids[id]['tags']:
-                tags.add(slugify(tag))
+                tags.add(tag)
 
         if len(tweets) == 1:
             # strip text before converting to Markdown if the title and
@@ -100,6 +102,10 @@ def main():
             if 'hashtags' in tweet.entities:
                 for tag in tweet.entities['hashtags']:
                     tags.add(slugify(tag['text']))
+
+        if 'remove_tags' in ids[id]:
+            for tag in ids[id]['remove_tags']:
+                tags.remove(tag)
 
         post = {
             'tweet_id': tweets[-1].id_str,

@@ -8,7 +8,7 @@ favourites = 0
 source = "twitter"
 twitter_account = "norms_ps4"
 source_url = "https://twitter.com/norms_ps4/status/1057744968205434886"
-tag = [ "ps4share", "reddeadredemption",]
+tag = [ "ps4share", "reddeadredemption2",]
 ```
 
 Fort Riggs [#RedDeadRedemption](/tags/reddeadredemption/) [#PS4share](/tags/ps4share/)

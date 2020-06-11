@@ -8,7 +8,7 @@ favourites = 0
 source = "twitter"
 twitter_account = "norms_ps4"
 source_url = "https://twitter.com/norms_ps4/status/1057749124999725062"
-tag = [ "ps4share", "reddeadredemption",]
+tag = [ "ps4share", "reddeadredemption2",]
 ```
 
 Telegraph pole [alt] [#RedDeadRedemption](/tags/reddeadredemption/) [#PS4share](/tags/ps4share/)

@@ -8,7 +8,7 @@ favourites = 0
 source = "twitter"
 twitter_account = "norms_ps4"
 source_url = "https://twitter.com/norms_ps4/status/1059056044507385856"
-tag = [ "ps4share", "reddeadredemption",]
+tag = [ "ps4share", "reddeadredemption2",]
 ```
 
 Rhodes station [#RedDeadRedemption](/tags/reddeadredemption/) [#PS4share](/tags/ps4share/)
