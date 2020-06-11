@@ -34,7 +34,10 @@ bucket = Bucket(BUCKET)
 def main():
     global twitter
 
-    with open('data/tweet_ids.toml', 'r') as handle:
+    account = sys.argv[1]
+    ids_toml = 'data/%s.toml' % account
+
+    with open(ids_toml, 'r') as handle:
         ids = toml.load(handle)
 
     for id in ids:
@@ -106,6 +109,7 @@ def main():
             'retweets': retweets,
             'favourites': favourites,
             'source': 'twitter',
+            'twitter_account': account,
             'source_url': 'https://twitter.com/%s/status/%s' % (
                 tweets[-1].author.screen_name,
                 tweets[-1].id_str,

@@ -27,6 +27,10 @@
       <dd>
         {% if source == 'twitter' %}
           Originally posted to <a href='{{source_url}}'>Twitter</a>
+          {% if twitter_account != 'cackhanded' %}
+            by
+            <a href='https://twitter.com/{{twitter_account}}'>@{{twitter_account}}</a>
+          {% endif %}
         {% elif source == 'instagram' %}
           Originally posted to Instagram
         {% endif %}
