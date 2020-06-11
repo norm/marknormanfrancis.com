@@ -42,6 +42,8 @@ def main():
         ids = toml.load(handle)
 
     for id in ids:
+        if 'ignore' in ids[id]:
+            continue
         tweets = get_tweets_from_id(id, ids[id])
 
         try:
