@@ -89,12 +89,18 @@ def main():
 
         if len(tweets) == 1:
             # strip text before converting to Markdown if the title and
-            # the body will match, so there's no unnecessary repetition
+            # the body will match, so there's no unnecessary repetition,
+            # except if it is a quoted tweet (we still want the quote to appear)
             text = strip_trailing_hashtags(strip_links(tweets[0].full_text))
             if text == title:
                 tweets[0].full_text = ''
             if text == '':
                 tweets[0].full_text = ''
+            try:
+                _ = tweets[0].quoted_status
+                tweets[0].full_text = ' '
+            except AttributeError:
+                pass
 
         previous_time = created
         for tweet in tweets:
