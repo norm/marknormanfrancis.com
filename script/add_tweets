@@ -7,6 +7,7 @@ Add selected tweets from a list of tweet IDs.
 from datetime import timedelta
 import os
 import sys
+import time
 
 import pytz
 import tweepy
@@ -34,10 +35,15 @@ bucket = Bucket(BUCKET)
 def main():
     global twitter
 
-    with open('data/tweet_ids.toml', 'r') as handle:
+    account = sys.argv[1]
+    ids_toml = 'data/%s.toml' % account
+
+    with open(ids_toml, 'r') as handle:
         ids = toml.load(handle)
 
     for id in ids:
+        if 'ignore' in ids[id]:
+            continue
         tweets = get_tweets_from_id(id, ids[id])
 
         try:
@@ -54,6 +60,8 @@ def main():
         # FIXME attached images/video
         # FIXME add original data as attachment
 
+        tags = set()
+
         if 'title' in ids[id]:
             title = ids[id]['title']
         else:
@@ -62,23 +70,30 @@ def main():
             title = strip_trailing_hashtags(title)
             # more than about 10 words and it's not a good title
             if len(title.split()) > 10:
-                title = 'Tweet at %s' % created.strftime('%-I:%M%p').lower()
+                title = 'Tweet at %s' % created.strftime('%H:%M:%S').lower()
+            # zero words and it's also not a good title
+            if len(title.split()) == 0:
+                title = 'Untitled tweet at %s' % \
+                    created.strftime('%H:%M:%S').lower()
+                tags.add('fixme')
         slug = slugify(title)
 
-        tags = set(
+        tags.update(
             slugify(word[1:].lower())
             for word in title.split()
             if word.startswith('#')
         )
         if 'tags' in ids[id]:
             for tag in ids[id]['tags']:
-                tags.add(slugify(tag))
+                tags.add(tag)
 
         if len(tweets) == 1:
             # strip text before converting to Markdown if the title and
             # the body will match, so there's no unnecessary repetition
-            text = strip_links(strip_trailing_hashtags(tweets[0].full_text))
+            text = strip_trailing_hashtags(strip_links(tweets[0].full_text))
             if text == title:
+                tweets[0].full_text = ''
+            if text == '':
                 tweets[0].full_text = ''
 
         previous_time = created
@@ -98,6 +113,10 @@ def main():
                 for tag in tweet.entities['hashtags']:
                     tags.add(slugify(tag['text']))
 
+        if 'remove_tags' in ids[id]:
+            for tag in ids[id]['remove_tags']:
+                tags.remove(tag)
+
         post = {
             'tweet_id': tweets[-1].id_str,
             'type': 'tweet',
@@ -106,6 +125,7 @@ def main():
             'retweets': retweets,
             'favourites': favourites,
             'source': 'twitter',
+            'twitter_account': account,
             'source_url': 'https://twitter.com/%s/status/%s' % (
                 tweets[-1].author.screen_name,
                 tweets[-1].id_str,
@@ -128,7 +148,14 @@ def main():
 
 def get_tweets_from_id(id, extra):
     tweets = []
-    tweet = twitter.get_status(id, tweet_mode='extended')
+    while True:
+        try:
+            tweet = twitter.get_status(id, tweet_mode='extended')
+            break
+        except tweepy.error.RateLimitError:
+            print('   hit rate limit, sleeping')
+            # FIXME use the rate limit endpoint to work out how long to sleep
+            time.sleep(60)
     tweets.insert(0, tweet)
     in_reply_to = tweet.in_reply_to_screen_name
     original_author = tweet.author.screen_name
@@ -178,39 +205,40 @@ def tweet_to_markdown(tweet, image_subdir):
         pass
 
     text_from = 0
-    for section in sorted(sections, key=lambda s: s['indices'][0]):
-        start = section['indices'][0]
-        markdown += escape_newlines(tweet.full_text[text_from:start])
-        if 'screen_name' in section:
-            # ignore @blah at the very start of a tweet
-            # it's almost certainly not helpful
-            if section['indices'][0] != 0:
-                markdown += '[`@%s`](%s)' % (
-                    section['screen_name'],
-                    'https://twitter.com/%s' % section['screen_name'],
-                )
-        if 'display_url' in section:
-            if section['expanded_url'] == quote_url:
-                if tweet.display_text_range[1] <= section['indices'][1]:
-                    # makes this a quote tweet, not just a link to a tweet
-                    # quoted tweet text comes before the tweet text
-                    markdown = quote + markdown
+    if tweet.full_text:
+        for section in sorted(sections, key=lambda s: s['indices'][0]):
+            start = section['indices'][0]
+            markdown += escape_newlines(tweet.full_text[text_from:start])
+            if 'screen_name' in section:
+                # ignore @blah at the very start of a tweet
+                # it's almost certainly not helpful
+                if section['indices'][0] != 0:
+                    markdown += '[`@%s`](%s)' % (
+                        section['screen_name'],
+                        'https://twitter.com/%s' % section['screen_name'],
+                    )
+            if 'display_url' in section:
+                if section['expanded_url'] == quote_url:
+                    if tweet.display_text_range[1] <= section['indices'][1]:
+                        # makes this a quote tweet, not just a link to a tweet
+                        # quoted tweet text comes before the tweet text
+                        markdown = quote + markdown
+                    else:
+                        markdown += '\n\n' + quote
                 else:
-                    markdown += '\n\n' + quote
-            else:
-                markdown += '[`%s`](%s)' % (
-                    section['display_url'],
-                    section['expanded_url']
+                    markdown += '[`%s`](%s)' % (
+                        section['display_url'],
+                        section['expanded_url']
+                    )
+            if 'text' in section:
+                markdown += '[#%s](/tags/%s/)' % (
+                    section['text'],
+                    slugify(section['text'])
                 )
-        if 'text' in section:
-            markdown += '[#%s](/tags/%s/)' % (
-                section['text'],
-                slugify(section['text'])
-            )
-        text_from = section['indices'][1]
-    if text_from < tweet.display_text_range[1]:
-        markdown += escape_newlines(tweet.full_text[text_from:tweet.display_text_range[1]])
-    markdown += '\n\n'
+            text_from = section['indices'][1]
+        if text_from < tweet.display_text_range[1]:
+            markdown += escape_newlines(tweet.full_text[text_from:tweet.display_text_range[1]])
+        markdown += '\n\n'
 
     if 'media' in tweet.entities:
         for media in tweet.extended_entities['media']:
