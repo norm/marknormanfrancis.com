@@ -4,4 +4,4 @@ image = "http://mnf.m17s.net/2012/07/31/dropping-a-css-knowledge-bomb-on-rujmah.
 type = "instagram"
 source = "instagram"
 original_caption = "Dropping a CSS knowledge bomb on @rujmah #whiteboard"
-tag = [ "whiteboard",]
+tag = [ 'css', 'whiteboard', ]

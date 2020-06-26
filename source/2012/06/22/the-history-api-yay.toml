@@ -3,3 +3,4 @@ title = "The History API! Yay!"
 image = "http://mnf.m17s.net/2012/06/22/the-history-api-yay.jpg"
 type = "instagram"
 source = "instagram"
+tag = [ 'javascript', 'whiteboard', ]
