@@ -1,0 +1,130 @@
+# publishing details
+type = 'recipe'
+title = 'Chicken and chorizo gumbo recipe'
+published = 2020-06-26T10:00:00Z
+tag = [ 'recipe', 'chicken', 'chorizo', 'gumbo', ]
+
+
+# recipe extra fields
+main_photo = 'http://mnf.m17s.net/recipes/chicken-and-chorizo-gumbo/hero.jpg'
+time = { cook = 90 }
+description_markdown = '''
+
+This would probably be frowned upon in New Orleans. You see, I don't start
+with a roux.
+
+If something is a little burned, then all I can taste is that. And every gumbo
+I've had that's got a strong roux base just tastes of burned to me. So my
+gumbo is more like a soup.
+
+'''
+
+# recipe.json as toml
+# -------------------
+schema = 'http://horse.bad/#recipe'
+name = 'Chicken and chorizo gumbo'
+serves = '8 to 12 people'
+
+
+[[ingredients]]
+name = 'onion'
+quantity = 2
+prep = 'roughly chopped'
+
+[[ingredients]]
+name = 'celery stick'
+quantity = 4
+prep = 'roughly chopped'
+
+[[ingredients]]
+name = 'green pepper'
+quantity = 2
+prep = 'roughly chopped'
+
+[[ingredients]]
+name = 'chicken breast'
+quantity = { amount = 800, unit = 'g' }
+
+[[ingredients]]
+name = 'chorizo'
+quantity = { amount = 200, unit = 'g' }
+
+[[ingredients]]
+name = 'tinned chopped tomato'
+quantity = { amount = 800, unit = 'g' }
+
+[[ingredients]]
+name = 'chicken stock'
+quantity = { amount = 1000, unit = 'ml' }
+
+[[ingredients]]
+name = 'cajun spice'
+quantity = { amount = 6, unit = 'tbsp' }
+
+[[ingredients]]
+name = 'okra'
+quantity = { amount = 400, unit = 'g' }
+
+[[ingredients]]
+name = 'white long grain rice'
+quantity = { amount = 500, unit = 'g' }
+
+
+[[steps]]
+task = '''
+Cook the chorizo, then slice into bite-size pieces.
+'''
+
+[[steps]]
+task = '''
+Brown the chicken in a frying pan, then break it into bite-size pieces.
+'''
+
+[[steps]]
+task = '''
+Heat oil in a saucepan and cook the onion, celery and pepper until softened.
+'''
+
+[[steps]]
+task = '''
+Add the cooked chicken, then add the cajun spice. Stir well,
+and cook for 5 minutes.
+'''
+
+[[steps]]
+task = '''
+Add the tomatoes and chorizo, stir well, and cook for 5 minutes.
+'''
+
+[[steps]]
+task = '''
+Add the chicken stock and bring the saucepan to the boil,
+stirring frequently.
+'''
+
+[[steps]]
+task = '''
+Reduce the saucepan to a simmer, and cook for 20 minutes.
+'''
+
+[[steps]]
+task = '''
+During these 20 minutes, prepare the okra. Remove the top and
+bottom, and slice into 1cm rounds.
+'''
+
+[[steps]]
+task = '''
+After the 20 minutes, add the okra and return the gumbo to a
+simmer. Cook for a further 30 minutes.
+'''
+
+[[steps]]
+task = '''
+During these 30 minutes, cook the rice.
+'''
+
+[[steps]]
+task = '''
+Serve the gumbo over the rice.
+'''

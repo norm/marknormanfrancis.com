@@ -1,0 +1,60 @@
+{% extends "base_template.html" %}
+
+{% block head_title_text %}{{title}}{% endblock %}
+{% block page_class %}recipe{% endblock %}
+
+{% block body %}
+  <main>
+    {% include "_fragment/article_header.html" %}
+
+    {% if main_photo %}
+    <p class='image hero'><img src='{{main_photo}}' alt=''></p>
+    {% endif %}
+
+    <dl>
+      {% if serves %}
+      <dt>serves</dt>
+      <dd>{{serves}}</dd>
+      {% endif %}
+      {% if time.prep %}
+        <dt>to prep</dt>
+        <dd>{{time.prep}} minutes</dd>
+      {% endif %}
+      {% if time.cook %}
+        <dt>to cook</dt>
+        <dd>{{time.cook}} minutes</dd>
+      {% endif %}
+    </dl>
+
+    {% if introduction %}
+      <h2>Introduction</h2>
+      {{introduction}}
+    {% endif %}
+
+    <h2>Ingredients</h2>
+    <ul>
+      {% for ingredient in ingredients %}
+        <li>
+          {% if ingredient.quantity %}
+            {% if ingredient.quantity.unit %}
+              {{ingredient.quantity.amount}} {{ingredient.quantity.unit}}
+            {% else %}
+              {{ingredient.quantity}}
+            {% endif %}
+          {% endif %}
+          {{ingredient.name}}
+          {% if ingredient.prep %}
+             {{ingredient.prep}}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+
+    <h2>Steps</h2>
+    <ol>
+      {% for step in steps %}
+        <li>{{step.task}}</li>
+      {% endfor %}
+    </ol>
+  </main>
+{% endblock %}
