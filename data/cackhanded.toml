@@ -1,202 +1,204 @@
-['282829573358510080']
+[282829573358510080]
 title = "Uploaded my Techsmas pictures"
 
-['358721135677935616']
+[358721135677935616]
 title = "The four stages of CSS"
 
-['425232036513972224']
+[425232036513972224]
 title = "Boozecase"
-tags = [ 'boozecase', ]
+tags = [ "boozecase",]
 
-['756494816347840512']
+[756494816347840512]
 title = "A+ would retweet"
 
-['786875109608914944']
+[786875109608914944]
 title = "New headphones"
-tags = [ 'headphones', ]
+tags = [ "headphones",]
 
-['959162814970695680']
+[959162814970695680]
 title = "Hey Internet"
-tags = [ 'gumbo', ]
+tags = [ "gumbo",]
 
-['961565790758727681']
+[961565790758727681]
 title = "Trapped under cat"
 
-['964775118105907201']
+[964775118105907201]
 title = "Whisky, Me"
-tags = [ 'whisky', 'boozecase', 'scapa', ]
+tags = [ "whisky", "boozecase", "scapa",]
 
-['965504349601521664']
+[965504349601521664]
 title = "Pin commandments"
 
-['968826110233505792']
+[968826110233505792]
 title = "Snow selfie"
-tags = [ 'selfie', 'me', ]
+tags = [ "selfie", "me",]
 
-['975792563994152961']
+[975792563994152961]
 title = "Gumbo"
-tags = [ 'gumbo', ]
+tags = [ "gumbo",]
 
-['977180401277067264']
+[977180401277067264]
 
-['984293801287147520']
+[984293801287147520]
 title = "Canada wins"
 # bad quote formatting
 tags = [ 'fixme', ]
 
-['1000335378501591040']
+[1000335378501591040]
 title = "One last headboop"
-tags = [ 'thomas', ]
+tags = [ "thomas",]
 
-['1019216124729352192']
+[1019216124729352192]
 title = "Legendary code"
 
-['1030376837845864448']
+[1030376837845864448]
 title = "Breaking my Twitter"
 
-['1036546528545054720']
+[1036546528545054720]
 title = "The roots of /dev/fort"
-tags = [ 'devfort', ]
+tags = [ "devfort",]
 
-['1054808033224806400']
+[1054808033224806400]
 title = "Rainbow Christmas"
-tags = [ 'rainbow', 'christmas', ]
+tags = [ "rainbow", "christmas",]
 
-['1060908754152161282']
-tags = [ 'boozecase', 'whisky', 'rum', 'gin' ]
+[1060908754152161282]
+tags = [ "boozecase", "whisky", "rum", "gin",]
 
-['1062607589459066881']
+[1062607589459066881]
 
-['1065361408811048963']
+[1065361408811048963]
 title = "Duckragette"
-tags = [ 'rubberduck', ]
+tags = [ "rubberduck",]
 
-['1076781091216916480']
+[1076781091216916480]
 title = "How do you do, fellow kids?"
-stop_at = '1076780557726556160'
+stop_at = "1076780557726556160"
 
-['1077489658165112833']
+[1077489658165112833]
 title = "The tiniest of Christmas trees"
-tags = [ 'christmas', ]
+tags = [ "christmas",]
 
-['1078251692574101504']
+[1078251692574101504]
 title = "Socks"
-tags = [ 'socks', 'rainbow', ]
+tags = [ "socks", "rainbow",]
 
-['1084458534757109760']
-tags = [ 'socks', 'rainbow', ]
+[1084458534757109760]
+tags = [ "socks", "rainbow",]
 
-['1084462633321943043']
-tags = [ 'showergel', 'rainbow', ]
+[1084462633321943043]
+tags = [ "showergel", "rainbow",]
 
-['1097052348319449089']
+[1097052348319449089]
 title = "Whiskies"
-tags = [ 'boozecase', 'whisky', 'game-of-thrones', ]
+tags = [ "boozecase", "whisky", "game-of-thrones",]
 
-['1111207042482614274']
+[1111207042482614274]
 title = "This is for no-one"
 
-['1111598753247563776']
+[1111598753247563776]
 
-['1112790397674250240']
+[1112790397674250240]
 title = "Bullseye"
-tags = [ 'axe-throwing', ]
+tags = [ "axe-throwing",]
 
-['1118036273942413312']
+[1118036273942413312]
 title = "Welcome to the top deck"
-tags = [ 'travel-animals', ]
+tags = [ "travel-animals",]
 
-['1129733850362515458']
+[1129733850362515458]
 title = "Not so Innocent drinks"
 
-['1137990355062853632']
+[1137990355062853632]
 title = "Rainbow 'laces'"
-tags = [ 'rainbow', ]
+tags = [ "rainbow",]
 
-['1141679472690831361']
+[1141679472690831361]
 title = "Signature mixers"
 
-['1144337058191859713']
+[1144337058191859713]
 title = "Off to the hospital"
 
-['1147087404769193984']
-title = 'My brand'
-stop_at = '1147086842631729152'
+[1147087404769193984]
+title = "My brand"
+stop_at = "1147086842631729152"
 published = 2019-07-05T10:18:43Z
-tags = [ 'boozecase', 'rum', 'angostura', ]
+tags = [ "boozecase", "rum", "angostura",]
 
-['1147747469708726272']
+[1147747469708726272]
 title = "Itsy and Roxy"
-# change the misspellings of itsy
-tags = [ 'fixme', ]
 
-['1148868679083409408']
+[1148868679083409408]
 title = "Vauxhall pride"
-tags = [ 'pride', 'tfl', 'rainbow', ]
+tags = [ "pride", "tfl", "rainbow",]
 
-['1158622426919591936']
+[1158622426919591936]
 title = "My commute has changed for the better"
 
-['1158682050938986497']
+[1158682050938986497]
 title = "Still wrong"
-tags = [ 'my-name-is', ]
+tags = [ "my-name-is",]
 
-['1158752061334278144']
+[1158752061334278144]
 title = "A Norman door"
 
-['1161179178491883520']
+[1161179178491883520]
 
-['1161630264466034688']
+[1161630264466034688]
 
-['1161946462584000513']
+[1161946462584000513]
 title = "Collars"
 
-['1162644178502934529']
+[1162644178502934529]
 title = "Black cat appreciation day"
 
-['1162689759954853889']
+[1162689759954853889]
 title = "Sorting my socks by colour"
-tags = [ 'socks', 'rainbow', ]
+tags = [ "socks", "rainbow",]
 
-['1168121794844344325']
+[1168121794844344325]
 title = "Lunch delayed"
-tags = [ 'itsy', ]
+tags = [ "itsy",]
 
-['1170338576774701056']
-tags = [ 'board-games', ]
+[1170338576774701056]
+tags = [ "board-games",]
 
-['1172099577446580224']
+[1172099577446580224]
 title = "New lanyard"
-tags = [ 'rainbow', ]
+tags = [ "rainbow",]
 
-['1179648591276773376']
+[1179648591276773376]
 title = "Act casual"
 
-['1181254913772400640']
+[1181254913772400640]
 title = "Apple Messages"
-tags = [ 'my-name-is', ]
+tags = [ "my-name-is",]
 
-['1185543485555953665']
+[1185543485555953665]
 
-['1187017937284149250']
+[1187017937284149250]
 
-['1190694638350471169']
+[1190694638350471169]
 title = "Fettercairn 12"
-tags = [ 'boozecase', 'board-games', 'whisky', 'fettercairn', ]
+tags = [ "boozecase", "board-games", "whisky", "fettercairn",]
 
-['1190907787875934208']
+[1190907787875934208]
 title = "Snooze central"
-tags = [ 'itsy', ]
+tags = [ "itsy",]
 
-['1192534358202167296']
+[1192534358202167296]
 
-['1193178625840955392']
+[1193178625840955392]
 title = "Overflowy"
-tags = [ 'boozecase', 'whisky', 'rum', 'gin', ]
+tags = [ "boozecase", "whisky", "rum", "gin",]
 
-['1196453823549788162']
+[1196453823549788162]
 title = "Many presents"
-tags = [ 'boozecase', 'scapa', ]
+tags = [ "boozecase", "scapa",]
 
-['1274059505773547522']
+[1274059505773547522]
 title = "My week in poker chips"
+
+[1276514849204457473]
+tag = [ "weekchips",]
+title = "Chips for Week 26, 2020"

@@ -1,0 +1,76 @@
+#!/usr/bin/env python
+
+"""
+Add a single tweet.
+"""
+
+import argparse
+import sys
+
+import toml
+
+from lib.twitter import Twitter
+
+
+def main():
+    twitter = Twitter()
+
+    parser = argparse.ArgumentParser(
+        description = 'Add a new tweet/thread.',
+    )
+    parser.add_argument(
+        'tweet',
+        help = 'URL or ID for the tweet to add',
+    )
+    parser.add_argument(
+        '--account',
+        help = 'Masquerade tweet as being from ACCOUNT',
+    )
+    parser.add_argument(
+        '--title',
+        help = 'Use this TITLE for the new source'
+    )
+    parser.add_argument(
+        '--stop-at',
+        help = 'Use this tweet ID as the entrypoint to the thread'
+    )
+    parser.add_argument(
+        '--published',
+        help = 'Use this instead of the tweet timestamp',
+    )
+    parser.add_argument(
+        '--tag',
+        action='append',
+        help = 'Add tag to the new source',
+    )
+    args = parser.parse_args()
+    if not args.tweet.isdigit():
+        url = args.tweet
+        args.tweet = url.split('/')[5]
+        args.account = url.split('/')[3]
+
+    tweet = twitter.get_tweet(args.tweet)
+
+    ids_toml = 'data/%s.toml' % args.account
+    with open(ids_toml, 'r') as handle:
+        ids = toml.load(handle)
+
+    metadata = {}
+    if args.tag:
+        metadata['tag'] = args.tag
+    if args.title:
+        metadata['title'] = args.title
+    if args.stop_at:
+        metadata['stop_at'] = args.stop_at
+    if args.published:
+        metadata['published'] = args.published
+
+    ids[args.tweet] = metadata
+    with open(ids_toml, 'w') as write_handle:
+        toml.dump(ids, write_handle)
+
+    twitter.create_source_from_tweet(args.tweet, ids[args.tweet])
+
+
+if __name__ == '__main__':
+    main()
