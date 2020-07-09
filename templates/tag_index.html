@@ -7,7 +7,7 @@
   <ul>
     {% for tag in pages %}
       <li>
-        <a href='{{ url("tags-tag-index", tag=tag) }}'>
+        <a href='{{ path("tags-tag-index", tag=tag) }}'>
           {{tag}}
         </a>
       </li>

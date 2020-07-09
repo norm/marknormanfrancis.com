@@ -34,7 +34,7 @@
 
           <li>
             {{page.published.day}}{{page.published.day|ordinal}}
-            {{page.published.strftime('%H:%M')}} <a href='{{page.url}}'>{{page.title}}</a>
+            {{page.published.strftime('%H:%M')}} <a href='{{page.path}}'>{{page.title}}</a>
           </li>
   
     {% if loop.last %}

@@ -1,26 +1,25 @@
 {% extends "base_template.html" %}
 
+{% block head_title_text %}Archives{% endblock %}
+
 {% block body %}
 
   <h1>Archives</h1>
 
-  {% for year in global.all_valid_dates %}
-    <li>
-      <h2>
-      <a href='{{ url("year-index", year=year.year) }}'>
-        {{year.year}}
-      </a>
-      </h2>
-      <ul>
-        {% for month in year.months %}
-          <li>
-            <a href='{{ url("month-index", year=year.year, month=month.month) }}'>
-              {{month.month|month_name}}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </li>
-  {% endfor %}
+  <ol>
+    {% for year in global.publication_dates %}
+      {% with y=year.year.year %}
+        <h2><a href='{{ path("year-index", year=y) }}'>{{y}}</a></h2>
+        <ul>
+          {% for month in year.months %}
+            <li>
+              <a href='{{ path("month-index", year=y, month=month.month.month) }}'
+                  >{{month.month.strftime('%B')}}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endwith %}
+    {% endfor %}
+  </ol>
 
 {% endblock body %}

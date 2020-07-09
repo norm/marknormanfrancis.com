@@ -1,43 +1,11 @@
+from flourish import filters
 from flourish import helpers
-from flourish.generators import (
-    IndexGenerator,
-    PageGenerator,
-)
-
-from sassutils.builder import build_directory
-from shutil import rmtree
-from os import makedirs
+from flourish.generators import base
+from flourish.generators import calendar
+from flourish.generators import sass
 
 
-class SassGenerator:
-    @classmethod
-    def as_generator(cls):
-        def generator(flourish, url, global_context=None, report=False):
-            self = cls(flourish, url, global_context, report)
-            return self.generate()
-        return generator
-
-    def __init__(self, flourish, url, global_context, report):
-        self.report = report
-
-    def generate(self):
-        files = build_directory(
-            'sass',
-            'output',
-            output_style = 'expanded',
-            strip_extension = True,
-        )
-        for entry in files:
-            file = files[entry]
-            if self.report:
-                print('->', file)
-
-
-class DatedArchive(IndexGenerator):
-    order_by = ('published')
-
-
-class AllTagsIndex(IndexGenerator):
+class AllTagsIndex(base.IndexGenerator):
     template_name = 'tag_index.html'
 
     def get_objects(self, tokens):
@@ -49,85 +17,73 @@ class AllTagsIndex(IndexGenerator):
         self.source_objects = sorted(tags)
 
 
-class YearIndex(DatedArchive):
-    template_name = 'year.html'
+class MostRecentFirstMixin:
+    order_by = '-published'
 
 
-class MonthIndex(DatedArchive):
-    template_name = 'month.html'
-
-
-class DayIndex(DatedArchive):
-    template_name = 'day.html'
-
-
-class TagIndex(DatedArchive):
+class TagIndex(MostRecentFirstMixin, base.IndexGenerator):
     template_name = 'tag.html'
 
 
-class Homepage(IndexGenerator):
-    order_by = ('-published')
+class Homepage(MostRecentFirstMixin, base.IndexGenerator):
     template_name = 'homepage.html'
     sources_exclude = {'noindex': True}
     # limit = 20
 
 
-class Archives(IndexGenerator):
+class Archives(base.IndexGenerator):
     template_name = 'archives.html'
 
 
 def global_context(self):
     return {
-        'all_valid_dates': helpers.all_valid_dates(self.flourish),
+        'all_valid_dates': helpers.publication_range(self),
+        'publication_dates': self.publication_dates,
     }
 
 GLOBAL_CONTEXT = global_context
 
+TEMPLATE_FILTERS = {
+    'ordinal': filters.ordinal,
+    'month_name': filters.month_name,
+}
 
-SOURCE_URL = (
-    '/#slug',
-    PageGenerator.as_generator(),
-)
 
-URLS = (
-    (
-        '/',
-        'homepage',
-        Homepage.as_generator(),
+PATHS = (
+    sass.SassGenerator(
+        path = '/css/#sass_source.css',
+        name = 'css',
     ),
-    (
-        '/archives',
-        'archives',
-        Archives.as_generator(),
+    Homepage(
+        path = '/',
+        name = 'homepage',
     ),
-    (
-        '/#year/',
-        'year-index',
-        YearIndex.as_generator()
+    Archives(
+        path = '/archives',
+        name = 'archives',
     ),
-    (
-        '/#year/#month/',
-        'month-index',
-        MonthIndex.as_generator()
+    calendar.CalendarYearGenerator(
+        path = '/#year/',
+        name = 'year-index',
     ),
-    (
-        '/#year/#month/#day/',
-        'day-index',
-        DayIndex.as_generator()
+    calendar.CalendarMonthGenerator(
+        path = '/#year/#month/',
+        name = 'month-index',
     ),
-    (
-        '/tags/',
-        'tags-index',
-        AllTagsIndex.as_generator()
+    calendar.CalendarDayGenerator(
+        path = '/#year/#month/#day/',
+        name = 'day-index',
     ),
-    (
-        '/tags/#tag/',
-        'tags-tag-index',
-        TagIndex.as_generator()
+    AllTagsIndex(
+        path = '/tags/',
+        name = 'tags-index',
     ),
-    (
-        '/site.css',    # FIXME does all target files, not only this
-        'css',
-        SassGenerator.as_generator()
+    TagIndex(
+        path = '/tags/#tag/',
+        name = 'tags-tag-index',
+    ),
+    base.SourceGenerator(
+        path = '/#slug',
+        name = 'source',
     ),
 )

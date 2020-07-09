@@ -4,7 +4,7 @@
   <meta charset="utf8">
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <title>{% block head_title_text %}SET PAGE TITLE{% endblock %}</title>
-  <link rel='stylesheet' href='/site.css'>
+  <link rel='stylesheet' href='/css/site.css'>
 </head>
 <body class='{{page_class}} {% block page_class %}{% endblock %}'>
 
@@ -21,12 +21,12 @@
     <nav>
       Archives:
       <ul>
-      {% for year in global.all_valid_dates %}
-        <li>
-          <a href='{{ url("year-index", year=year.year) }}'>
-            {{year.year}}
-          </a>
-        </li>
+      {% for date in global.publication_dates %}
+        {% with year=date.year.year %}
+          <li>
+            <a href='{{ path("year-index", year=year) }}'>{{year}}</a>
+          </li>
+        {% endwith %}
       {% endfor %}
       </ul>
     </nav>

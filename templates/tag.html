@@ -16,7 +16,7 @@
     {% endif %}
 
           <li>
-            {{page.published.strftime('%dth %H:%M')}} <a href='{{page.url}}'>{{page.title}}</a>
+            {{page.published.strftime('%dth %H:%M')}} <a href='{{page.path}}'>{{page.title}}</a>
           </li>
   
     {% if loop.last %}

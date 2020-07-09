@@ -3,7 +3,7 @@
 {% block head_title_text %}{% endblock %}
 
 {% block body %}
-  <h1>Entries for {{pages[0].published.strftime('%B %Y')}}</h1>
+  <h1>Entries for {{month.strftime('%B %Y')}}</h1>
   {% for page in pages %}
 
     {% if loop.changed(page.published.day) %}
@@ -12,13 +12,13 @@
         </ul>
       {% endif %}
         <li>
-          <h2><a href='{{ url("day-index", year=page.published.strftime("%Y"), month=page.published.strftime("%m"), day=page.published.strftime("%d")) }}'>{{page.published.day}}{{page.published.day|ordinal}}</a></h2>
+          <h2><a href='{{ path("day-index", year=page.published.strftime("%Y"), month=page.published.strftime("%m"), day=page.published.strftime("%d")) }}'>{{page.published.day}}{{page.published.day|ordinal}}</a></h2>
           <ul>
     {% endif %}
 
           <li>
             {{page.published.strftime('%H:%M:%S')}}
-            <a href='{{page.url}}'>{{page.title}}</a>
+            <a href='{{page.path}}'>{{page.title}}</a>
           </li>
 
     {% if loop.last %}

@@ -18,7 +18,7 @@
       <li>
         <dt class='tag'>tagged</dt>
         {% for t in tag %}
-          <dd class='tag'><a href='{{ url("tags-tag-index", tag=t) }}'>{{t}}</a></dd>
+          <dd class='tag'><a href='{{ path("tags-tag-index", tag=t) }}'>{{t}}</a></dd>
         {% endfor %}
       </li>
     {% endif %}
