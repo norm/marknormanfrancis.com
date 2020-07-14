@@ -1,12 +1,37 @@
-@import url(https://fonts.googleapis.com/css?family=Vollkorn:900) screen;
-@import url(https://fonts.googleapis.com/css?family=Lato:400,900) screen;
+@mixin google_font($family, $weights) {
+    @import url("https://fonts.googleapis.com/css?family=#{$family}:#{$weights}&subset=latin") screen;
+}
+
+@include google_font('Assistant',   '400,700');
+@include google_font('Vollkorn',    '900,i900');
+// @include google_font('Lato',        '400,700,i400,i700');
+@include google_font('PT Serif',    '400,700,i400,i700');
 
 @mixin headline_font {
-    font-family: 'Vollkorn', 'Hoefler Text', 'Georgia', serif;
+    font-family: 
+        'Vollkorn',
+        'Hoefler Text',
+        'Georgia',
+        serif;
     font-weight: 900;
 }
 @mixin body_font {
-    font-family: 'Lato', 'Helvetica', 'Helmet', sans-serif;
+    font-family: 
+        'Assistant',
+        // 'Lato',
+        'Helvetica',
+        'Helmet',
+        sans-serif;
+    font-weight: 400;
+}
+@mixin copy_font {
+    font-family: 
+        'PT Serif',
+        // 'Assistant',
+        // 'Lato',
+        'Helvetica',
+        'Helmet',
+        sans-serif;
     font-weight: 400;
 }
 @mixin small_body_font {
@@ -17,7 +42,7 @@
     }
 }
 @mixin body_font_bold {
-    font-weight: 900;
+    font-weight: 700;
 }
 
 
@@ -33,4 +58,8 @@ html, body {
 
 #body h1, h2, h3 {
     @include headline_font;
+}
+
+main {
+    @include copy_font;
 }

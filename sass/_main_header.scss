@@ -1,6 +1,7 @@
 // The introductory area to an article.
 
 main header {
+    @include body_font;
     color: $nevada;
 
     a,
@@ -17,7 +18,7 @@ main header {
         line-height: 1;
     }
     p.published {
-        @include headline_font;
+        @include body_font_bold;
     }
     p.published,
     dl {
