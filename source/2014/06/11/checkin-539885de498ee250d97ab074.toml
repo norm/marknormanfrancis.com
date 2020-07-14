@@ -1,0 +1,42 @@
+published = 2014-06-11T17:37:50Z
+title = "Checked in at The Green Man"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/cb89147168acb7d6eefd4cb27160fbcf120fe1e9e4514666d0c0a2302dc8356d.png"
+local_timestamp = 2014-06-11T18:37:50Z
+
+[data]
+id = "539885de498ee250d97ab074"
+createdAt = 1402504670
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4bbb21d3b35776b00292cb01"
+name = "The Green Man"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "308 Edgware Rd, Paddington"
+lat = 51.5203502
+lng = -0.1703521
+postalCode = "W2 1DY"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "308 Edgware Rd, Paddington", "London", "Greater London", "W2 1DY",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.5203502
+lng = -0.1703521
+

@@ -1,0 +1,44 @@
+published = 2016-09-17T13:56:28Z
+title = "Checked in at Mercure Box Hill Burford Bridge Hotel"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/c1635bc734db713fe12bb992bb40ce62e3fd5c441582b6e1b146ffa3eae9f494.png"
+local_timestamp = 2016-09-17T14:56:28Z
+
+[data]
+id = "57dd3d7c498eb557dc4c1db8"
+createdAt = 1474116988
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4b9df7eaf964a520afc436e3"
+name = "Mercure Box Hill Burford Bridge Hotel"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1fa931735"
+name = "Hotel"
+pluralName = "Hotels"
+shortName = "Hotel"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/hotel_"
+suffix = ".png"
+
+[data.venue.location]
+address = "At the Foot of Box Hill"
+lat = 51.254682
+lng = -0.321781
+postalCode = "RH5 6BX"
+cc = "GB"
+city = "Dorking"
+state = "Surrey"
+country = "United Kingdom"
+formattedAddress = [ "At the Foot of Box Hill", "Dorking", "Surrey", "RH5 6BX",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.254682
+lng = -0.321781
+
+[data.venue.venuePage]
+id = "120264508"

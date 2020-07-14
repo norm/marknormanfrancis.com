@@ -1,6 +1,7 @@
 .env
-output/
 css/
+data/foursquare.json
+output/
 source.bak/
 
 *.pyc

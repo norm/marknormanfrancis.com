@@ -1,0 +1,41 @@
+published = 2017-02-02T20:25:37Z
+title = "Checked in at The Glasshouse Stores"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/70212544f2f1cb769254c1c687b1eef18e9e51960952b96c0b7a4515d386eef6.png"
+
+[data]
+id = "589395c19f2583145b59a8e5"
+createdAt = 1486067137
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ace3996f964a5202fcf20e3"
+name = "The Glasshouse Stores"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "55 Brewer St"
+lat = 51.51155913901862
+lng = -0.13542548580365932
+postalCode = "W1F 9UJ"
+cc = "GB"
+city = "Soho"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "55 Brewer St", "Soho", "Greater London", "W1F 9UJ",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51155913901862
+lng = -0.13542548580365932
+

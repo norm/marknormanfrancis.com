@@ -1,0 +1,44 @@
+published = 2016-04-08T15:22:01Z
+title = "Checked in at G Worrall & Son Ltd"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/46cdc0b180f7e4b3958892c138b57fa799646b12492b022b669dc60b2c93ad6c.png"
+local_timestamp = 2016-04-08T16:22:01Z
+
+[data]
+id = "5707be89498ebe5603dfaaff"
+createdAt = 1460125321
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "55ce2a90498e851caab4d297"
+name = "G Worrall & Son Ltd"
+[[data.venue.categories]]
+id = "52f2ab2ebcbc57f1066b8b1e"
+name = "Locksmith"
+pluralName = "Locksmiths"
+shortName = "Locksmith"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "174 Great Suffolk St"
+lat = 51.5004265
+lng = -0.09783209999999999
+postalCode = "SE1 1PE"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "174 Great Suffolk St", "London", "Greater London", "SE1 1PE",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.5004265
+lng = -0.09783209999999999
+
+[data.venue.venuePage]
+id = "138793038"

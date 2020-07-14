@@ -1,0 +1,42 @@
+published = 2015-10-01T14:15:27Z
+title = "Checked in at Sloane Square"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/dc340d6edfcd1aa717457abc6712f0a2e9dba73ccc2979e46564edfc9543facc.png"
+local_timestamp = 2015-10-01T15:15:27Z
+
+[data]
+id = "560d31ef498e1377ff4bbfda"
+createdAt = 1443705327
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ad771a8f964a520890a21e3"
+name = "Sloane Square"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d164941735"
+name = "Plaza"
+pluralName = "Plazas"
+shortName = "Plaza"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Sloane Sq"
+lat = 51.492499698989036
+lng = -0.15743494033813477
+postalCode = "SW1W 8EG"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Sloane Sq", "London", "Greater London", "SW1W 8EG",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.492499698989036
+lng = -0.15743494033813477
+

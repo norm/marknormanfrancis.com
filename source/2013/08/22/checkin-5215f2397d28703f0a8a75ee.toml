@@ -1,0 +1,42 @@
+published = 2013-08-22T12:12:57Z
+title = "Checked in at Pinocchio Il Ristorante"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/42ec608d09527fe0b84a39d7a818189b8bb9d1a9a68a81785850b39c2573c0ec.png"
+local_timestamp = 2013-08-22T13:12:57Z
+
+[data]
+id = "5215f2397d28703f0a8a75ee"
+createdAt = 1377169977
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4d83b2c3f974cbffe8ccecab"
+name = "Pinocchio Il Ristorante"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d110941735"
+name = "Italian Restaurant"
+pluralName = "Italian Restaurants"
+shortName = "Italian"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/italian_"
+suffix = ".png"
+
+[data.venue.location]
+address = "61 Westgate Rd"
+lat = 54.97006775884568
+lng = -1.6174273011020108
+postalCode = "NE 1 1"
+cc = "GB"
+city = "Newcastle upon Tyne"
+state = "Newcastle upon Tyne"
+country = "United Kingdom"
+formattedAddress = [ "61 Westgate Rd", "Newcastle upon Tyne", "NE 1 1",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 54.97006775884568
+lng = -1.6174273011020108
+

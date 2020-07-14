@@ -1,0 +1,45 @@
+published = 2016-06-16T19:43:56Z
+title = "Checked in at The Chilli Pickle"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/d484cb44b7406b5aa70f2022375eaea375d361f2ece9fd76708c9e1dd13b43cd.png"
+local_timestamp = 2016-06-16T20:43:56Z
+
+[data]
+id = "5762f36c498eeba032611b71"
+createdAt = 1466102636
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4d7ce5dbea35236a18f56023"
+name = "The Chilli Pickle"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d10f941735"
+name = "Indian Restaurant"
+pluralName = "Indian Restaurants"
+shortName = "Indian"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/indian_"
+suffix = ".png"
+
+[data.venue.location]
+address = "17 Jubilee St"
+crossStreet = "in MyHotel"
+lat = 50.82465528124147
+lng = -0.13871977832242446
+postalCode = "BN1 1GE"
+cc = "GB"
+city = "Brighton"
+state = "East Sussex"
+country = "United Kingdom"
+formattedAddress = [ "17 Jubilee St (in MyHotel)", "Brighton", "East Sussex", "BN1 1GE",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 50.82465528124147
+lng = -0.13871977832242446
+
+[data.venue.venuePage]
+id = "33348019"

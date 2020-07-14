@@ -1,0 +1,45 @@
+published = 2017-04-13T21:01:20Z
+title = "Checked in at McDonald's"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/cc6870c04a898df2434b3b8477aaf998aa24493cc11261b875d52570dd64ee56.png"
+local_timestamp = 2017-04-13T22:01:20Z
+
+[data]
+id = "58efd910a2c00b100b45a416"
+createdAt = 1492113680
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "55367c0d498e612e8e23956e"
+name = "McDonald's"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16e941735"
+name = "Fast Food Restaurant"
+pluralName = "Fast Food Restaurants"
+shortName = "Fast Food"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/fastfood_"
+suffix = ".png"
+
+[data.venue.location]
+address = "84-86 Charing Cross Road"
+crossStreet = "Shaftesbury Ave"
+lat = 51.51367626
+lng = -0.12914698
+postalCode = "WC2H 8AA"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "84-86 Charing Cross Road (Shaftesbury Ave)", "London", "Greater London", "WC2H 8AA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51367626
+lng = -0.12914698
+
+[data.venue.venuePage]
+id = "555728861"

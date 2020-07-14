@@ -1,0 +1,44 @@
+published = 2012-03-09T21:12:20Z
+title = "Checked in at Neal Kocurek Exhibit Hall"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/5430b2fad19746d1aa1d8a4922b5df273066b332efa1e487728ed33f47f79a7c.png"
+local_timestamp = 2012-03-09T15:12:20Z
+
+[data]
+id = "4f5a7234e4b086681a2ebca6"
+createdAt = 1331327540
+type = "checkin"
+timeZoneOffset = -360
+
+[data.venue]
+id = "4dc05ce3cda12687c8493b30"
+name = "Neal Kocurek Exhibit Hall"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1ff931735"
+name = "Convention Center"
+pluralName = "Convention Centers"
+shortName = "Convention Center"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/conventioncenter_"
+suffix = ".png"
+
+[data.venue.location]
+address = "499 E 4th St."
+crossStreet = "The Austin Convention Center"
+lat = 30.264856754148838
+lng = -97.73916911495729
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "499 E 4th St. (The Austin Convention Center)", "Austin, TX 78701", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.264856754148838
+lng = -97.73916911495729
+

@@ -1,0 +1,42 @@
+published = 2016-06-28T16:15:33Z
+title = "Checked in at Hixter Bankside"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/b4b7aff022937f90618d357ee95c089b4b34bdb6d2945a033c48f46dde8976f5.png"
+local_timestamp = 2016-06-28T17:15:33Z
+
+[data]
+id = "57729495498e23bf5e90478f"
+createdAt = 1467126933
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "53e3c30b498e6cb1fd05ad83"
+name = "Hixter Bankside"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1cc941735"
+name = "Steakhouse"
+pluralName = "Steakhouses"
+shortName = "Steakhouse"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
+suffix = ".png"
+
+[data.venue.location]
+address = "16 Great Guildford St"
+lat = 51.504942941472756
+lng = -0.09747835031943054
+postalCode = "SE1 0HS"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "16 Great Guildford St", "London", "Greater London", "SE1 0HS",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.504942941472756
+lng = -0.09747835031943054
+

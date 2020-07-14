@@ -1,0 +1,42 @@
+published = 2014-07-22T14:20:31Z
+title = "Checked in at 10 Eastbourne Terrace"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/497c659456b9e6141f58ee80b13a0318dd27ed8d100f87dd5133bac98b0106ea.png"
+local_timestamp = 2014-07-22T15:20:31Z
+
+[data]
+id = "53ce651f11d299510cc3e3a0"
+createdAt = 1406035231
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4c7667df2db5236a368ebf79"
+name = "10 Eastbourne Terrace"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d124941735"
+name = "Office"
+pluralName = "Offices"
+shortName = "Office"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "10 Eastbourne Ter."
+lat = 51.51698679309479
+lng = -0.1798373239774433
+postalCode = "W2 6LG"
+cc = "GB"
+city = "Paddington"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "10 Eastbourne Ter.", "Paddington", "Greater London", "W2 6LG",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51698679309479
+lng = -0.1798373239774433
+

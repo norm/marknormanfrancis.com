@@ -1,0 +1,41 @@
+published = 2015-12-27T16:49:55Z
+title = "Checked in at Byron"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/6c1484d12a024cfc6b867f04114bae33a4e2654c52ce32fb27d637f9fd229faa.png"
+
+[data]
+id = "568016b3498edf96721c944a"
+createdAt = 1451234995
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4b263d52f964a520767924e3"
+name = "Byron"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16c941735"
+name = "Burger Joint"
+pluralName = "Burger Joints"
+shortName = "Burgers"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
+suffix = ".png"
+
+[data.venue.location]
+address = "97-99 Wardour St"
+lat = 51.51284257648777
+lng = -0.13374605034778142
+postalCode = "W1F 0UD"
+cc = "GB"
+city = "Soho"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "97-99 Wardour St", "Soho", "Greater London", "W1F 0UD",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51284257648777
+lng = -0.13374605034778142
+

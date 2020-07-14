@@ -1,0 +1,42 @@
+published = 2013-10-05T07:34:18Z
+title = "Checked in at Glasgow Queen Street Railway Station (GLQ)"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/59e3e401ae13e40e5629c0e9db268b6d549e5de00de0696fa852d81621435152.png"
+local_timestamp = 2013-10-05T08:34:18Z
+
+[data]
+id = "524fb2ea498ec2e279c8f378"
+createdAt = 1380954858
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4b129de2f964a5205f8b23e3"
+name = "Glasgow Queen Street Railway Station (GLQ)"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d129951735"
+name = "Train Station"
+pluralName = "Train Stations"
+shortName = "Train Station"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
+suffix = ".png"
+
+[data.venue.location]
+address = "North Hanover St"
+lat = 55.86232779650771
+lng = -4.251414013916401
+postalCode = "G1 2AF"
+cc = "GB"
+city = "Glasgow"
+state = "Glasgow City"
+country = "United Kingdom"
+formattedAddress = [ "North Hanover St", "Glasgow", "Glasgow City", "G1 2AF",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 55.86232779650771
+lng = -4.251414013916401
+

@@ -1,0 +1,43 @@
+published = 2011-05-19T09:13:29Z
+title = "Checked in at Trafalgar Square"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/f893943d4d330f475a1c2ea909c67f581412b8690eeaeccc389781b7a14c2c0a.png"
+local_timestamp = 2011-05-19T10:13:29Z
+
+[data]
+id = "4dd4d129d1649f0f04962d2d"
+createdAt = 1305792809
+type = "checkin"
+timeZoneOffset = 60
+shout = "Once again the bus \"terminates here\" before the advertised destination. #TfL #87"
+
+[data.venue]
+id = "4ac518cef964a520f9a520e3"
+name = "Trafalgar Square"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d164941735"
+name = "Plaza"
+pluralName = "Plazas"
+shortName = "Plaza"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Trafalgar Sq"
+lat = 51.507987
+lng = -0.128048
+postalCode = "WC2N 5DX"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Trafalgar Sq", "London", "Greater London", "WC2N 5DX",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.507987
+lng = -0.128048
+

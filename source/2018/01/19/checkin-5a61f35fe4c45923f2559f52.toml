@@ -1,0 +1,41 @@
+published = 2018-01-19T13:32:15Z
+title = "Checked in at Blue River Cafe"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/0e5e6dbcf04adc75cb4f5089c443eeeec0341b02af1347884e6cdf245a06689a.png"
+
+[data]
+id = "5a61f35fe4c45923f2559f52"
+createdAt = 1516368735
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4dd3c3b01f6e5374d6e0c65d"
+name = "Blue River Cafe"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16d941735"
+name = "Café"
+pluralName = "Cafés"
+shortName = "Café"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/cafe_"
+suffix = ".png"
+
+[data.venue.location]
+address = "44 Northdown St"
+lat = 51.5325560201116
+lng = -0.11971688119355492
+postalCode = "N1 9BP"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "44 Northdown St", "London", "Greater London", "N1 9BP",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.5325560201116
+lng = -0.11971688119355492
+

@@ -1,0 +1,43 @@
+published = 2016-09-19T13:28:24Z
+title = "Checked in at The Diner"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/6e7e16ed93e1439594bdd39cb7e63cdcaed92fd00477fdfcbd20f5a6dad99fdc.png"
+local_timestamp = 2016-09-19T14:28:24Z
+
+[data]
+id = "57dfd9e8498e5dadb97eede6"
+createdAt = 1474288104
+type = "checkin"
+timeZoneOffset = 60
+shout = "with S-J"
+
+[data.venue]
+id = "570f8b64498eb37edb210204"
+name = "The Diner"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d14e941735"
+name = "American Restaurant"
+pluralName = "American Restaurants"
+shortName = "American"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "397 Strand"
+lat = 51.5103038615743
+lng = -0.1219361680054412
+postalCode = "WC2R 0LX"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "397 Strand", "London", "Greater London", "WC2R 0LX",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.5103038615743
+lng = -0.1219361680054412
+

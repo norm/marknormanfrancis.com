@@ -1,0 +1,57 @@
+published = 2012-07-10T19:36:00Z
+title = "Checked in at Vue for The Amazing Spider-Man"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca76b9d411cb172ec6e.png"
+local_timestamp = 2012-07-10T20:36:00Z
+
+[data]
+id = "4ffc7610e4b027f6fed53694"
+createdAt = 1341945360
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4b5b426bf964a5202cef28e3"
+name = "Vue"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d180941735"
+name = "Multiplex"
+pluralName = "Multiplexes"
+shortName = "Cineplex"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.event]
+id = "4febe61e2eed672aad8c5e78"
+name = "The Amazing Spider-Man"
+[[data.event.categories]]
+id = "4dfb90c6bd413dd705e8f897"
+name = "Movie"
+pluralName = "Movies"
+shortName = "Movie"
+primary = true
+
+[data.event.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Fulham Broadway Retail Centre"
+crossStreet = "Fulham Rd"
+lat = 51.480300183123965
+lng = -0.19445343443224616
+postalCode = "SW6 1BW"
+cc = "GB"
+city = "Fulham Broadway"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Fulham Broadway Retail Centre (Fulham Rd)", "Fulham Broadway", "Greater London", "SW6 1BW",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.480300183123965
+lng = -0.19445343443224616
+

@@ -1,0 +1,42 @@
+published = 2012-01-13T15:19:59Z
+title = "Checked in at British Museum"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/fcfcee4eea11a1c0a2ad4fe56584edb53a53fd964b1e926e04691c354e159d61.png"
+
+[data]
+id = "4f104b9fe4b038020164e1c4"
+createdAt = 1326467999
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ac518d2f964a5203da720e3"
+name = "British Museum"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d190941735"
+name = "History Museum"
+pluralName = "History Museums"
+shortName = "History Museum"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_history_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Great Russell St"
+crossStreet = "btwn Montague & Bloomsbury St"
+lat = 51.51900874337275
+lng = -0.12643718771869317
+postalCode = "WC1B 3DG"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Great Russell St (btwn Montague & Bloomsbury St)", "London", "Greater London", "WC1B 3DG",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51900874337275
+lng = -0.12643718771869317
+

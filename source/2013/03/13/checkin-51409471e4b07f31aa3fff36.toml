@@ -1,0 +1,39 @@
+published = 2013-03-13T15:00:01Z
+title = "Checked in at Braye Beach Hotel Alderney"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/f5d07fbb7a850bb8a4534bf25fa6bdbca4bde0a2713594cf958ca87015b8e380.png"
+
+[data]
+id = "51409471e4b07f31aa3fff36"
+createdAt = 1363186801
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4be1f9df8dd062b51fc23e3c"
+name = "Braye Beach Hotel Alderney"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1fa931735"
+name = "Hotel"
+pluralName = "Hotels"
+shortName = "Hotel"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/hotel_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Braye Beach"
+lat = 49.722814
+lng = -2.199754
+cc = "GG"
+city = "Alderney"
+country = "Guernsey"
+formattedAddress = [ "Braye Beach", "Alderney", "Guernsey",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 49.722814
+lng = -2.199754
+

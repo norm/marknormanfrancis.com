@@ -1,0 +1,42 @@
+published = 2016-04-03T12:38:57Z
+title = "Checked in at Boots Opticians"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/b9e7e3d1eefe652073d3eb6bfbfcb6fa02457f0f4c38be716856e295b5253106.png"
+local_timestamp = 2016-04-03T13:38:57Z
+
+[data]
+id = "570100d1498ed5f128d5d932"
+createdAt = 1459683537
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "53232363498eff1bc9159566"
+name = "Boots Opticians"
+[[data.venue.categories]]
+id = "4d954afda243a5684865b473"
+name = "Optical Shop"
+pluralName = "Optical Shops"
+shortName = "Optical"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/medical_opticalshop_"
+suffix = ".png"
+
+[data.venue.location]
+address = "28 Southside Shopping Centre, Wandsworth"
+lat = 51.4557723
+lng = -0.193994
+postalCode = "SW18 4TE"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "28 Southside Shopping Centre, Wandsworth", "London", "Greater London", "SW18 4TE",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.4557723
+lng = -0.193994
+

@@ -1,0 +1,42 @@
+published = 2013-09-06T09:30:14Z
+title = "Checked in at Brighton Dome"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/bceb4f69a96265ab316bad343321070dce29c9059f1f5b737297801c3b2eae4d.png"
+local_timestamp = 2013-09-06T10:30:14Z
+
+[data]
+id = "5229929611d2d7ac484cd261"
+createdAt = 1378456214
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4b058848f964a52036bc22e3"
+name = "Brighton Dome"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d173941735"
+name = "Auditorium"
+pluralName = "Auditoriums"
+shortName = "Auditorium"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/auditorium_"
+suffix = ".png"
+
+[data.venue.location]
+address = "29 New Rd"
+lat = 50.82372693193621
+lng = -0.13826212771924487
+postalCode = "BN1 1UG"
+cc = "GB"
+city = "Brighton"
+state = "East Sussex"
+country = "United Kingdom"
+formattedAddress = [ "29 New Rd", "Brighton", "East Sussex", "BN1 1UG",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 50.82372693193621
+lng = -0.13826212771924487
+

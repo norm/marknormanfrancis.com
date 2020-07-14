@@ -1,0 +1,45 @@
+published = 2011-09-19T12:39:09Z
+title = "Checked in at Ben's Canteen"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/8786cc8f23b6720448e74633ef0438050c094c88455907a329f3acd83d3f5430.png"
+local_timestamp = 2011-09-19T13:39:09Z
+
+[data]
+id = "4e7729dd1495be5171dcd3dd"
+createdAt = 1316432349
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4e21bf1d81dc35f05c53adc4"
+name = "Ben's Canteen"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16d941735"
+name = "Café"
+pluralName = "Cafés"
+shortName = "Café"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/cafe_"
+suffix = ".png"
+
+[data.venue.location]
+address = "140 St John's Hill"
+crossStreet = "Harbut Road"
+lat = 51.46020517921923
+lng = -0.17781998556890502
+postalCode = "SW11 1SL"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "140 St John's Hill (Harbut Road)", "London", "Greater London", "SW11 1SL",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.46020517921923
+lng = -0.17781998556890502
+
+[data.venue.venuePage]
+id = "53087674"

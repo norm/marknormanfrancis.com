@@ -1,0 +1,42 @@
+published = 2016-08-03T22:41:26Z
+title = "Checked in at Kebab Feast"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/e643e9b7b392dfc1b384818615f11b549c28d2c1ecc02787d22451c15106f58e.png"
+local_timestamp = 2016-08-03T23:41:26Z
+
+[data]
+id = "57a26506498e76cdbd8ad66d"
+createdAt = 1470260486
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4bec4d8e49430f47d68d07d2"
+name = "Kebab Feast"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d115941735"
+name = "Middle Eastern Restaurant"
+pluralName = "Middle Eastern Restaurants"
+shortName = "Middle Eastern"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/middleeastern_"
+suffix = ".png"
+
+[data.venue.location]
+address = "1 St. John's Hill"
+lat = 51.463686265680266
+lng = -0.1683527594537605
+postalCode = "SW11 1TN"
+cc = "GB"
+city = "Clapham"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "1 St. John's Hill", "Clapham", "Greater London", "SW11 1TN",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.463686265680266
+lng = -0.1683527594537605
+

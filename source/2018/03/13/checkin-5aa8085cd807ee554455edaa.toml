@@ -1,0 +1,40 @@
+published = 2018-03-13T17:20:28Z
+title = "Checked in at Fifty 9"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/a45a8bea974e0d7e43cc7f11294c88afe6ae37bbb62dfbc5218c21d92cf60ff5.png"
+
+[data]
+id = "5aa8085cd807ee554455edaa"
+createdAt = 1520961628
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "5633c8a4498e0c1d8d7f8cab"
+name = "Fifty 9"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d116941735"
+name = "Bar"
+pluralName = "Bars"
+shortName = "Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "59 Berkley Square"
+lat = 51.509116345925335
+lng = -0.14471587125373195
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "59 Berkley Square", "London", "Greater London",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.509116345925335
+lng = -0.14471587125373195
+

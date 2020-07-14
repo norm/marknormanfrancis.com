@@ -1,0 +1,46 @@
+published = 2018-11-14T19:17:11Z
+title = "Checked in at Gielgud Theatre for Company"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/8e6f2d1bcdaaef2baeb3dfe44df12c2a6ffe592264d3818d4530cbafc0850162.png"
+
+[data]
+id = "5bec74b7c53093002cc3f7a8"
+createdAt = 1542223031
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ac518e8f964a520b4ab20e3"
+name = "Gielgud Theatre"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d137941735"
+name = "Theater"
+pluralName = "Theaters"
+shortName = "Theater"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
+suffix = ".png"
+
+[data.event]
+id = "5b5f8a01af2c3c5e65fbc1cf"
+name = "Company"
+categories = []
+
+[data.venue.location]
+address = "Shaftesbury Ave"
+lat = 51.51184403647759
+lng = -0.13313716297366793
+postalCode = "W1D 6AR"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Shaftesbury Ave", "London", "Greater London", "W1D 6AR",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51184403647759
+lng = -0.13313716297366793
+

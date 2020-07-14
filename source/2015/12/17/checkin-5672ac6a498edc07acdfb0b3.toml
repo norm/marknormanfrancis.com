@@ -1,0 +1,36 @@
+published = 2015-12-17T12:36:58Z
+title = "Checked in at Porton Down Science Park"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/e585b4fd9a9e5d49971add4c66a06e913fa9c1838b3f9c3e2c174d80b5d735c6.png"
+
+[data]
+id = "5672ac6a498edc07acdfb0b3"
+createdAt = 1450355818
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4d92dc6eb053b60c011782cb"
+name = "Porton Down Science Park"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d130941735"
+name = "Building"
+pluralName = "Buildings"
+shortName = "Building"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/default_"
+suffix = ".png"
+
+[data.venue.location]
+lat = 51.129811449505134
+lng = -1.710925512097233
+cc = "GB"
+country = "United Kingdom"
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.129811449505134
+lng = -1.710925512097233
+

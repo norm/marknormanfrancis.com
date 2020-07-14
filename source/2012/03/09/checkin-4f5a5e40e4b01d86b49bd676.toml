@@ -1,0 +1,46 @@
+published = 2012-03-09T19:47:12Z
+title = "Checked in at Radisson Hotel & Suites Austin Downtown"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/8e539e318c01bf6ff4348cb3b429d0e33798d740a7b0fbd976f40f35d733525f.png"
+local_timestamp = 2012-03-09T13:47:12Z
+
+[data]
+id = "4f5a5e40e4b01d86b49bd676"
+createdAt = 1331322432
+type = "checkin"
+timeZoneOffset = -360
+
+[data.venue]
+id = "44109f99f964a520bd301fe3"
+name = "Radisson Hotel & Suites Austin Downtown"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1fa931735"
+name = "Hotel"
+pluralName = "Hotels"
+shortName = "Hotel"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/hotel_"
+suffix = ".png"
+
+[data.venue.location]
+address = "111 E Cesar Chavez St"
+crossStreet = "at Congress Ave"
+lat = 30.262734
+lng = -97.744
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "111 E Cesar Chavez St (at Congress Ave)", "Austin, TX 78701", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.262734
+lng = -97.744
+
+[data.venue.venuePage]
+id = "469183711"

@@ -1,0 +1,42 @@
+published = 2016-12-12T12:10:58Z
+title = "Checked in at The Grill On The Market (Blackhouse)"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/f2f6e7cbb9d0ec83a748f3c450b4fc23fd5fceb57a2c300e1278c57612d70727.png"
+
+[data]
+id = "584e93d21ac00464b8b72af9"
+createdAt = 1481544658
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "5033c9a6e4b0a6a992eec8c4"
+name = "The Grill On The Market (Blackhouse)"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1cc941735"
+name = "Steakhouse"
+pluralName = "Steakhouses"
+shortName = "Steakhouse"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
+suffix = ".png"
+
+[data.venue.location]
+address = "2-3 West Smithfield"
+lat = 51.51853981183359
+lng = -0.10239807579141617
+postalCode = "EC1A 9JX"
+cc = "GB"
+city = "Smithfield"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "2-3 West Smithfield", "Smithfield", "Greater London", "EC1A 9JX",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51853981183359
+lng = -0.10239807579141617
+

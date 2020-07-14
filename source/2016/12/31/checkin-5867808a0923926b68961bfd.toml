@@ -1,0 +1,45 @@
+published = 2016-12-31T09:55:22Z
+title = "Checked in at M&S Foodhall"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/514630b149678af7f0e77a6ec815b562bc8b6735d2bf14cacaa3d36033b8de79.png"
+
+[data]
+id = "5867808a0923926b68961bfd"
+createdAt = 1483178122
+type = "checkin"
+timeZoneOffset = 0
+shout = "with S-J"
+
+[data.venue]
+id = "4d066dd954d0236aaf3cf9d5"
+name = "M&S Foodhall"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d118951735"
+name = "Grocery Store"
+pluralName = "Grocery Stores"
+shortName = "Grocery Store"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_"
+suffix = ".png"
+
+[data.venue.location]
+address = "45 St Johns Rd"
+lat = 51.462169633319625
+lng = -0.1673632971039552
+postalCode = "SW11 1QP"
+cc = "GB"
+neighborhood = "Northcote"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "45 St Johns Rd", "London", "Greater London", "SW11 1QP",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.462169633319625
+lng = -0.1673632971039552
+
+[data.venue.venuePage]
+id = "571364309"

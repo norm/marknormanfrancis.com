@@ -1,0 +1,42 @@
+published = 2014-02-08T13:23:51Z
+title = "Checked in at Big Al's Burger Bar"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/7ae17c61c97634229a7b1dbc68c33fbc5313f59411498005158c740abeca9156.png"
+local_timestamp = 2014-02-08T14:23:51Z
+
+[data]
+id = "52f62fe711d23311d7106e81"
+createdAt = 1391865831
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "50352fbbe4b002981d14da61"
+name = "Big Al's Burger Bar"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16c941735"
+name = "Burger Joint"
+pluralName = "Burger Joints"
+shortName = "Burgers"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Carrer de Francesc Gumà, 21"
+lat = 41.238362937351454
+lng = 1.8100649013916867
+postalCode = "08870"
+cc = "ES"
+city = "Sitges"
+state = "Catalonia"
+country = "Spain"
+formattedAddress = [ "Carrer de Francesc Gumà, 21", "08870 Sitges Cataluña", "España",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 41.238362937351454
+lng = 1.8100649013916867
+

@@ -1,0 +1,45 @@
+published = 2011-07-17T19:23:20Z
+title = "Checked in at Cineworld"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/1dd1af2421c5dccd68e4e93d06374e0258f08ba235d6ef25251d4e5dc0616c89.png"
+local_timestamp = 2011-07-17T20:23:20Z
+
+[data]
+id = "4e232898ae6015b212b757a2"
+createdAt = 1310927000
+type = "checkin"
+timeZoneOffset = 60
+shout = "Harry Potter and the Deathly Hallows part 2."
+
+[data.venue]
+id = "4adb5f4af964a520912621e3"
+name = "Cineworld"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d180941735"
+name = "Multiplex"
+pluralName = "Multiplexes"
+shortName = "Cineplex"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Southside Shopping Centre"
+crossStreet = "High St"
+lat = 51.4541378290051
+lng = -0.19308159316362275
+postalCode = "SW18 4TF"
+cc = "GB"
+neighborhood = "Wandsworth Town"
+city = "Wandsworth"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Southside Shopping Centre (High St)", "Wandsworth", "Greater London", "SW18 4TF",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.4541378290051
+lng = -0.19308159316362275
+

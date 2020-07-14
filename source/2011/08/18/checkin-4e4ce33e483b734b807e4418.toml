@@ -1,0 +1,42 @@
+published = 2011-08-18T11:02:38Z
+title = "Checked in at Victoria Tower"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/9c3245100c20a6bdf71071aeb6e4af17c6466f1373a83bc36d2f69d28c83acbc.png"
+local_timestamp = 2011-08-18T12:02:38Z
+
+[data]
+id = "4e4ce33e483b734b807e4418"
+createdAt = 1313661758
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4e4ce3126284776ee127a63e"
+name = "Victoria Tower"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d12d941735"
+name = "Monument / Landmark"
+pluralName = "Monuments / Landmarks"
+shortName = "Landmark"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/government_monument_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Old Palace Yard"
+lat = 51.497941974997026
+lng = -0.12560880620259124
+postalCode = "SW1A 0AA"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Old Palace Yard", "London", "Greater London", "SW1A 0AA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.497941974997026
+lng = -0.12560880620259124
+

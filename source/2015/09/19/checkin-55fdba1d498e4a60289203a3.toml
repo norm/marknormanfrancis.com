@@ -1,0 +1,42 @@
+published = 2015-09-19T20:40:13Z
+title = "Checked in at Prince of Wales Theatre"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/11082b31cccce453cb2f5a056aaf21d4615eab4a3ce010f1b7c9351f781da271.png"
+local_timestamp = 2015-09-19T21:40:13Z
+
+[data]
+id = "55fdba1d498e4a60289203a3"
+createdAt = 1442691613
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4bad16def964a520792c3be3"
+name = "Prince of Wales Theatre"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d137941735"
+name = "Theater"
+pluralName = "Theaters"
+shortName = "Theater"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "31 Coventry St"
+lat = 51.5101318705419
+lng = -0.13159433168326976
+postalCode = "W1D 6AS"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "31 Coventry St", "London", "Greater London", "W1D 6AS",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.5101318705419
+lng = -0.13159433168326976
+

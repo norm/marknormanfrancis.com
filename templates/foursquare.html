@@ -1,0 +1,21 @@
+{% extends "base_template.html" %}
+
+{% block head_title_text %}{{title}}{% endblock %}
+{% block page_class %}foursquare{% endblock %}
+
+{% block body %}
+  <main>
+    {% include "_fragment/article_header.html" %}
+
+    <figure>
+      <a href='{{map}}'><img src='{{map}}' alt=''></a>
+      <figcaption>
+        {{ data.venue.location.formattedAddress|join(', ') }}
+      </figcaption>
+    </figure>
+
+    {% if data.shout %}
+      <p>{{data.shout}}</p>
+    {% endif %}
+  </main>
+{% endblock %}

@@ -1,0 +1,373 @@
+private_venues = true
+
+exceptions = [
+    '51f25aca498ef8884ccd6783',     # first visit, rasp coke
+    '52809d9f11d28e425d6452ec',     # anecdote
+]
+
+checkins = [
+    '52ff704e11d207f8ddebff99',     # spurious?
+]
+
+[venue_ids]
+# unremarkable travel
+4ac518f6f964a52052af20e3 = {}   # Victoria VIC
+4acd8e7df964a52044cc20e3 = {}   # Waterloo WAT
+4ace295ff964a520ccce20e3 = {}   # Clapham Junction CLJ
+4ad3a45df964a5205be520e3 = {}   # Wandsworth Town WNT
+4ad42c99f964a52062e720e3 = {}   # Fulham Broadway
+4ae1eb62f964a520be8821e3 = {}   # Vauxhall Bus Station
+4b1028a6f964a5203e6a23e3 = {}   # Embankment Pier
+4b596121f964a520908628e3 = {}   # Bus Stop H
+4b6fd579f964a520c3fd2ce3 = {}   # Post Office
+4b92768ff964a5206dfb33e3 = {}   # Bankside Pier
+4b9e6f8bf964a52091e336e3 = {}   # Blackfriars Millennium Pier
+4b9f465ff964a520931a37e3 = {}   # Platform 9, Clapham Junction CLJ
+4ba12171f964a520c29a37e3 = {}   # Platform 13, Clapham Junction CLJ
+4bd69ccfcfa7b7139cd827da = {}   # East Putney
+4c0ce9597189c928961ed6b6 = {}   # Whitehall Gardens
+4d63e81c61dda1439b652318 = {}   # Platform 5, York YRK
+4d81de66c8bdb1f7a2c8d1c2 = {}   # Bus Stop W
+4dfb03be149557de37abe147 = {}   # Marcilly Road Bus Stop
+4e0b4d036284a62b5bbff3a1 = {}   # Parliament Square
+4e1dc85945ddc696bb3d14b8 = {}   # Royal Mail Depot
+4e751ceb52b1c8e5194ff06f = {}   # Platform 1, Newcastle NCL
+570e8ddb498ee5f152486fcd = {}   # Plantation Wharf Pier
+582202bda8383d505bd6de9f = {}   # Blackfriars Pier
+
+# unremarkable daily life
+4ba7300af964a520f28439e3 = {}   # St John's Therapy Centre
+4dfb81e0fa7641d78dd845e9 = {}   # The Olde Pharmacy
+4e67a36e18a8bf0571b00620 = {}   # Clarke Pharmacy
+
+# unremarkable workplaces
+4d7777000bae236a70bd6914 = { show_first = true }    # Artfinder
+4c7667df2db5236a368ebf79 = { show_first = true }    # 10 Eastbourne Terrace
+4eb2cc5777c814d925d45c4c = { show_first = true }    # GDS
+5315d11d498efbe787083a20 = { show_first = true }    # myHealthPal
+54e48ab8498e0e161ef14a62 = { show_first = true }    # Metal Box Factory
+4f5dc4d7e4b0695cbc3efdea = { show_first = true }    # Money Advice Service
+4c0768050ed3c9283d7f797d = {}   # 120 Holborn
+5098dd72e4b0200008305596 = { show_first = true }    # Annalect
+
+# unremarkable shopping
+4ad8ca4af964a520a81421e3 = {}   # Waitrose
+4b97ec98f964a520c11f35e3 = {}   # Waitrose
+4b9ba5d7f964a520871636e3 = {}   # Southside
+4bd18b28462cb7135854da07 = {}   # WHSmith
+4de21523ae60e7f3abe6f0e1 = {}   # Sainsbury's Local
+5602d62e498eabcd192751c2 = {}   # Doddle
+4b191cbaf964a52021d823e3 = {}   # Marks and Spencer
+58885c94fc73d43a0e1aa2a9 = {}   # Co-op Food
+
+# somewhat remarkable but repetitive travel  
+45f05745f964a520bf431fe3 = { once_daily = true }    # Hampton Inn, Austin TX
+440da323f964a52092301fe3 = {}   # Austin Convention Center
+
+
+# ------- working in Holborn -------------------------------------------------
+[venue_ids.4b55c376f964a520e4ee27e3]    # Abokado
+time = [ 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.4b570000f964a520582228e3]    # Japanese Canteen
+time = [ 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.4b5b2169f964a5204fe528e3]    # Lowlander Grand Cafe
+time = [ 'lunch' ]
+before = 2014-04-01
+show_first = true
+
+[venue_ids.4b8685f9f964a520e48d31e3]    # Café Rouge
+time = [ 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.4b9641b2f964a520a6c234e3]    # Café Verona
+time = [ 'breakfast', 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.4ba6419bf964a520b23f39e3]    # Covent Garden Market
+time = [ 'lunch' ]
+before = 2014-04-01
+show_first = true
+
+[venue_ids.4b4610f2f964a5204d1526e3]    # Eat Kingsway
+time = [ 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.4bb49fd0c4d8b7132a352b81]    # Eat High Holborn
+time = [ 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.4c022880cbd876b0cdf7f043]    # Don Quixote Cafe
+time = [ 'breakfast', 'lunch' ]
+before = 2014-04-01
+show_first = true
+
+[venue_ids.4c051045f56c2d7f720d1f66]    # Byron Wellington St
+time = [ 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.4c12314d82a3c9b61536f9f8]    # Il Panino
+time = [ 'breakfast', 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.4cf655b1e308236aa685e5ac]    # Adobo
+time = [ 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.4da6d92890a00b5184000ddf]    # Chilango
+time = [ 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.4eab817c0cd6a81e7cca80da]    # Byron St Giles High St
+time = [ 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.4f730570e4b05b6a68a07e1d]    # The Diner Covent Garden
+time = [ 'lunch' ]
+before = 2014-04-01
+show_first = true
+
+[venue_ids.4acdd8cbf964a5203acd20e3]    # Fleet River Bakery
+time = [ 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.511cd870e4b0eaa09eeef83c]    # Covent Garden
+time = [ 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.50f7facfe4b0e7d0c692cd95]    # Wagamama Kingsway
+time = [ 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.4b6ae601f964a520dce52be3]    # Little Venice Cafe
+time = [ 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.4ac518d6f964a52021a820e3]    # Wagamama, nr British Museum
+time = [ 'lunch' ]
+before = 2014-04-01
+
+[venue_ids.516094748302afa746c58951]    # Five Guys Leicester Square
+time = [ 'lunch' ]
+before = 2014-04-01
+show_first = true
+
+
+# ------- working in Euston --------------------------------------------------
+[venue_ids.4e5ccce2d4c0c4d5697a06f1]    # Cafe Zilly
+time = [ 'breakfast', 'lunch' ]
+after = 2014-04-01
+before = 2014-07-11
+
+[venue_ids.4f0c8296e4b04487f9991f03]    # The Union
+time = [ 'lunch' ]
+after = 2014-04-01
+before = 2014-07-11
+
+[venue_ids.4b0edaebf964a520f05b23e3]    # Smugglers Tavern
+time = [ 'lunch' ]
+after = 2014-04-01
+before = 2014-07-11
+
+[venue_ids.4bed416991380f471f989f18]    # Wasabi
+time = [ 'lunch' ]
+after = 2014-04-01
+before = 2014-07-11
+
+[venue_ids.4ad4e254f964a5206bfc20e3]    # Mother Mash
+time = [ 'lunch' ]
+after = 2014-04-01
+before = 2014-07-11
+
+[venue_ids.4b9ba021f964a520911436e3]    # Brazilian Gourmet
+time = [ 'lunch' ]
+after = 2014-04-01
+before = 2014-07-11
+
+
+# ------- working in Paddington ----------------------------------------------
+[venue_ids.4acf309bf964a520abd220e3]    # Sheldon Square
+time = [ 'lunch' ]
+after = 2014-07-21
+before = 2015-04-01
+
+[venue_ids.52d6814411d2b71dbf0e4c9d]    # Poncho 8
+time = [ 'lunch' ]
+after = 2014-07-21
+before = 2015-04-01
+
+[venue_ids.4fbf7938e4b066c645415606]    # São Vicente Café
+time = [ 'breakfast', 'lunch' ]
+after = 2014-07-21
+before = 2015-04-01
+
+[venue_ids.4b5dd991f964a520a06f29e3]    # The Union Bar & Grill
+time = [ 'lunch' ]
+after = 2014-07-21
+before = 2015-04-01
+
+[venue_ids.4e12296ac65b4a49f313b2c8]    # Sussex Fish Bar
+time = [ 'lunch' ]
+after = 2014-07-21
+before = 2015-04-01
+
+[venue_ids.514c0468e4b0ee6e0843a55a]    # Barburrito
+time = [ 'lunch' ]
+after = 2014-07-21
+before = 2015-04-01
+
+[venue_ids.5319b699498e3fb40b0fbbc0]    # Beany Green Coffee
+time = [ 'lunch' ]
+after = 2014-07-21
+before = 2015-04-01
+
+[venue_ids.4b82e9adf964a520c4ec30e3]    # Bizzarro
+time = [ 'lunch' ]
+after = 2014-07-21
+before = 2015-04-01
+
+
+# ------- working in Bankside ------------------------------------------------
+[venue_ids.5224e75c11d2d0ee53b46a53]    # Olley's
+time = [ 'lunch' ]
+after = 2015-11-01
+before = 2016-04-30
+
+[venue_ids.566848dc498e975491e61f10]    # Union Viet
+time = [ 'lunch' ]
+after = 2015-11-01
+before = 2016-04-30
+
+[venue_ids.55c4afc9498e370994cdd1dd]    # Tonkotsu
+time = [ 'lunch' ]
+after = 2015-11-01
+before = 2016-04-30
+
+[venue_ids.4aeb0894f964a5205fbd21e3]    # Tortilla
+time = [ 'lunch' ]
+after = 2015-11-01
+before = 2016-04-30
+
+[venue_ids.4bcc40e3cc8cd13a098ec0cf]    # Cafe Relaxo
+time = [ 'breakfast', 'lunch' ]
+after = 2015-11-01
+before = 2016-04-30
+
+[venue_ids.550abd89498e78525ed53af2]    # Too Many Cooks Cafe
+time = [ 'breakfast', 'lunch' ]
+after = 2015-11-01
+before = 2016-04-30
+
+[venue_ids.4ba3c58af964a520875d38e3]    # Wagamama Borough Market
+time = [ 'breakfast', 'lunch' ]
+after = 2015-11-01
+before = 2016-04-30
+
+
+# ------- working in Victoria ------------------------------------------------
+[venue_ids.4c84b19e74d7b60c2c2395d8]    # Strutton Ground Market
+time = [ 'breakfast', 'lunch' ]
+after = 2016-07-01
+before = 2016-08-30
+
+[venue_ids.5719c45e498e465e2e33602e]    # Munich Cricket Club
+time = [ 'lunch' ]
+after = 2016-07-01
+before = 2016-08-10
+
+[venue_ids.52c9c91f498e32efeefe8556]    # Leon
+time = [ 'lunch' ]
+after = 2016-07-01
+before = 2016-08-10
+
+
+# ------- working in Chancery Lane -------------------------------------------
+[venue_ids.4c6a71f28e7c0f474a1ee20f]    # Cooper's
+time = [ 'breakfast', 'lunch' ]
+after = 2016-08-01
+before = 2017-09-30
+
+[venue_ids.4b7d4059f964a520bab42fe3]    # M&S Simply Food
+time = [ 'breakfast', 'lunch' ]
+after = 2016-08-01
+before = 2017-09-30
+
+[venue_ids.4ac518c3f964a52043a420e3]    # Cittie of Yorke
+time = [ 'lunch' ]
+after = 2016-08-01
+before = 2017-09-30
+
+[venue_ids.4b194142f964a520fcd923e3]    # Sir Christopher Hatton
+time = [ 'lunch' ]
+after = 2016-08-01
+before = 2017-09-30
+
+[venue_ids.5048c09ae4b0c23df1c208b5]    # pod
+time = [ 'lunch' ]
+after = 2016-08-01
+before = 2017-09-30
+
+[venue_ids.57a97ab4498e8b30160b15f4]    # Coco di Mama
+time = [ 'lunch' ]
+after = 2016-08-01
+before = 2017-09-30
+
+[venue_ids.4b02d2f8f964a520204a22e3]    # EAT
+time = [ 'lunch' ]
+after = 2016-08-01
+before = 2017-09-30
+
+[venue_ids.4ff6f6b4e4b0903668230348]    # Greggs
+time = [ 'lunch' ]
+after = 2016-08-01
+before = 2017-09-30
+
+[venue_ids.5257f1c511d2881fbbcd12c6]    # Chilango
+time = [ 'lunch' ]
+after = 2016-08-01
+before = 2017-09-30
+
+[venue_ids.4ae04992f964a5207a7e21e3]    # Sainsbury's Local
+time = [ 'breakfast', 'lunch' ]
+after = 2016-08-01
+before = 2017-09-30
+
+[venue_ids.4dfb3db3c65b729732b37f5f]    # EAT
+time = [ 'lunch' ]
+after = 2016-08-01
+before = 2017-09-30
+
+[venue_ids.4ac518eef964a5201fad20e3]    # Leather Lane market
+time = [ 'lunch' ]
+after = 2016-08-01
+before = 2017-09-30
+
+[venue_ids.4c6d1e24c7edb713a5d213e7]    # Pret a Manger
+time = [ 'lunch' ]
+after = 2016-08-01
+before = 2017-09-30
+
+
+# ------- working in Kings Cross ---------------------------------------------
+[venue_ids.4e550500091a4fa585f13c9c]    # Pret a Manger
+time = [ 'breakfast', 'lunch' ]
+after = 2018-02-18
+before = 2019-07-31
+
+[venue_ids.55cb4626498e3b8e8286b70c]    # Chozen Noodle
+time = [ 'breakfast', 'lunch' ]
+after = 2018-02-18
+before = 2019-07-31
+
+[venue_ids.52ac40b211d287ee0ddb7520]    # Honest Burgers
+time = [ 'breakfast', 'lunch' ]
+after = 2018-02-18
+before = 2019-07-31
+
+[venue_ids.5a67339d345cbe565942fd68]    # Ekachai
+time = [ 'breakfast', 'lunch' ]
+after = 2018-02-18
+before = 2019-07-31

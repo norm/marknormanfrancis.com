@@ -1,0 +1,35 @@
+published = 2012-03-10T19:20:53Z
+title = "Checked in at The Ghost Of LEGO Corner Past"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/dabb178e45cbdb7e2eb9319c3dfd1cbe2060a9419228bd47124eb9eb25271b3d.png"
+local_timestamp = 2012-03-10T13:20:53Z
+
+[data]
+id = "4f5ba995e4b053fd67ea9ff2"
+createdAt = 1331407253
+type = "checkin"
+timeZoneOffset = -360
+
+[data.venue]
+id = "4f5b7864e4b09a78bf6557f7"
+name = "The Ghost Of LEGO Corner Past"
+closed = true
+[[data.venue.categories]]
+id = "4deefb944765f83613cdba6e"
+name = "Historic Site"
+pluralName = "Historic Sites"
+shortName = "Historic Site"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_"
+suffix = ".png"
+
+[data.venue.location]
+lat = 30.265123916359077
+lng = -97.73971548669063
+cc = "US"
+state = "Texas"
+country = "United States"
+formattedAddress = [ "Texas", "United States",]

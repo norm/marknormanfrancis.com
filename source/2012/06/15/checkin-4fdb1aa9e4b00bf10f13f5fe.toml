@@ -1,0 +1,43 @@
+published = 2012-06-15T12:21:13Z
+title = "Checked in at Truckles of Pied Bull Yard"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/ba3839267c5ab6930a23faea017c623f86d3fad42d57f467ea07af61075b34f1.png"
+local_timestamp = 2012-06-15T13:21:13Z
+
+[data]
+id = "4fdb1aa9e4b00bf10f13f5fe"
+createdAt = 1339759273
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4db056401e729fcc563ddf8a"
+name = "Truckles of Pied Bull Yard"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d123941735"
+name = "Wine Bar"
+pluralName = "Wine Bars"
+shortName = "Wine Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/winery_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Bury Place"
+lat = 51.51868539878162
+lng = -0.12417586645685515
+postalCode = "WC1A 2JR"
+cc = "GB"
+neighborhood = "Bloomsbury, London, Greater London"
+city = "Bloomsbury"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Bury Place", "Bloomsbury", "Greater London", "WC1A 2JR",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51868539878162
+lng = -0.12417586645685515
+

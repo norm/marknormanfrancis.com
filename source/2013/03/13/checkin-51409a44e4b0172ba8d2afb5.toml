@@ -1,0 +1,39 @@
+published = 2013-03-13T15:24:52Z
+title = "Checked in at Alderney Airport (ACI)"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/75da6a9668d522f75881e00cebeff7eb4cbbf4866e478bf76b52b3df1581e905.png"
+
+[data]
+id = "51409a44e4b0172ba8d2afb5"
+createdAt = 1363188292
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4c6927c1c946e21e025ae98e"
+name = "Alderney Airport (ACI)"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1ed931735"
+name = "Airport"
+pluralName = "Airports"
+shortName = "Airport"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/airport_"
+suffix = ".png"
+
+[data.venue.location]
+lat = 49.708690049172866
+lng = -2.2148224092320605
+cc = "GG"
+city = "Alderney"
+state = "Channel Islands"
+country = "Guernsey"
+formattedAddress = [ "Alderney", "Guernsey",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 49.708690049172866
+lng = -2.2148224092320605
+

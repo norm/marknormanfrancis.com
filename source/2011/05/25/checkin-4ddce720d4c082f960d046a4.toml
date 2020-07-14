@@ -1,0 +1,42 @@
+published = 2011-05-25T12:25:20Z
+title = "Checked in at Lincoln's Inn Fields"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/24a170fe75cb49128e93fef5ea26f23b693077cc809df25c9d864c28e3758192.png"
+local_timestamp = 2011-05-25T13:25:20Z
+
+[data]
+id = "4ddce720d4c082f960d046a4"
+createdAt = 1306322720
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ad862b4f964a520291121e3"
+name = "Lincoln's Inn Fields"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d163941735"
+name = "Park"
+pluralName = "Parks"
+shortName = "Park"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Lincoln's Inn Fields"
+lat = 51.51611390655047
+lng = -0.11655807495117188
+postalCode = "WC2A 3ED"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Lincoln's Inn Fields", "London", "Greater London", "WC2A 3ED",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51611390655047
+lng = -0.11655807495117188
+

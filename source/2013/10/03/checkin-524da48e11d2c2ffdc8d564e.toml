@@ -1,0 +1,43 @@
+published = 2013-10-03T18:08:30Z
+title = "Checked in at The Old Monk"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/1428e0cfb0410fa70e0b278ee644b44099bc60e11d939dc48fdb34b8009ccdd6.png"
+local_timestamp = 2013-10-03T19:08:30Z
+
+[data]
+id = "524da48e11d2c2ffdc8d564e"
+createdAt = 1380820110
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4afc4b7bf964a520372122e3"
+name = "The Old Monk"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Strutton Ground, Westminster"
+lat = 51.49790368831087
+lng = -0.13412721058865637
+postalCode = "SW1H 0HW"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Strutton Ground, Westminster", "London", "Greater London", "SW1H 0HW",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.49790368831087
+lng = -0.13412721058865637
+

@@ -1,0 +1,36 @@
+published = 2017-02-23T17:53:18Z
+title = "Checked in at Imperial Wharf"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/e0d317b4e45e42cb135310c4cfb147ae8a1e33e48f263e728ae0c6fb3d0ded5d.png"
+
+[data]
+id = "58af218e424f9340a09d8056"
+createdAt = 1487872398
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4eda6a1db8f7fcd0404c5cc2"
+name = "Imperial Wharf"
+[[data.venue.categories]]
+id = "4d954b06a243a5684965b473"
+name = "Residential Building (Apartment / Condo)"
+pluralName = "Residential Buildings (Apartments / Condos)"
+shortName = "Residential"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/apartment_"
+suffix = ".png"
+
+[data.venue.location]
+lat = 51.473430080201425
+lng = -0.1828286286326379
+cc = "GB"
+country = "United Kingdom"
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.473430080201425
+lng = -0.1828286286326379
+

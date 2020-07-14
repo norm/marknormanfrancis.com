@@ -1,0 +1,43 @@
+published = 2013-10-18T12:54:09Z
+title = "Checked in at Gaby's Deli"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/1ad0b4c9d98b8835c26c65dc534f2f6618bca6e5e7ccb2a486e5fa272ee9b9b2.png"
+local_timestamp = 2013-10-18T13:54:09Z
+
+[data]
+id = "5261216111d247d02a790e90"
+createdAt = 1382097249
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4b701728f964a520af062de3"
+name = "Gaby's Deli"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d146941735"
+name = "Deli / Bodega"
+pluralName = "Delis / Bodegas"
+shortName = "Deli / Bodega"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/deli_"
+suffix = ".png"
+
+[data.venue.location]
+address = "30 Charing Cross Rd"
+lat = 51.51100461062148
+lng = -0.12837694815582176
+postalCode = "WC2H 0DE"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "30 Charing Cross Rd", "London", "Greater London", "WC2H 0DE",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51100461062148
+lng = -0.12837694815582176
+

@@ -1,0 +1,56 @@
+published = 2016-12-18T18:01:46Z
+title = "Checked in at Eventim Apollo for Tomb Raider - Live In Concert"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/73f87c095441f6f7c4ef7036332b1b78bbb147dd7b071252b387a627f04e57e7.png"
+
+[data]
+id = "5856cf0a18fd2b429a125eea"
+createdAt = 1482084106
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ae19e32f964a520708621e3"
+name = "Eventim Apollo"
+[[data.venue.categories]]
+id = "5032792091d4c4b30a586d5c"
+name = "Concert Hall"
+pluralName = "Concert Halls"
+shortName = "Concert Hall"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
+suffix = ".png"
+
+[data.event]
+id = "583e1d31ce593d30cb1f1c90"
+name = "Tomb Raider - Live In Concert"
+[[data.event.categories]]
+id = "4e0a4b91bd41eda0d6092f89"
+name = "Concert"
+pluralName = "Concerts"
+shortName = "Concert"
+primary = true
+
+[data.event.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
+suffix = ".png"
+
+[data.venue.location]
+address = "45 Queen Caroline St"
+lat = 51.49118747845862
+lng = -0.22468370488266876
+postalCode = "W6 9QH"
+cc = "GB"
+neighborhood = "Hammersmith Broadway"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "45 Queen Caroline St", "London", "Greater London", "W6 9QH",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.49118747845862
+lng = -0.22468370488266876
+

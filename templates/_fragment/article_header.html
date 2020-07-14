@@ -14,6 +14,14 @@
         {{updated.strftime('%-I.%M%p').lower()}}
       </dd>
     {% endif %}
+    {% if local_timestamp %}
+      <dt>local time</dt>
+      <dd>
+        {{local_timestamp.strftime('%A %d %B, %Y')}}
+          at 
+        {{local_timestamp.strftime('%-I.%M%p').lower()}}
+      </dd>
+    {% endif %}
     {% if tag %}
       <li>
         <dt class='tag'>tagged</dt>
@@ -33,6 +41,8 @@
           {% endif %}
         {% elif source == 'instagram' %}
           Originally posted to Instagram
+        {% else %}
+          {{source}}
         {% endif %}
       </dd>
     {% endif %}
@@ -50,6 +60,16 @@
       {% if location %}
         <dt>location</dt>
         <dd>{{location}}</dd>
+      {% endif %}
+    {% endif %}
+    {% if type == 'foursquare' %}
+      <dt>venue id</dt>
+      <dd>{{data.venue.id}}</dd>
+      {% if data.event %}
+        {% for category in data.event.categories %}
+          <dt>category</dt>
+          <dd>{{category.name}}</dd>
+        {% endfor %}
       {% endif %}
     {% endif %}
   </dl>

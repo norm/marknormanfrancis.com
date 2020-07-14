@@ -1,0 +1,42 @@
+published = 2012-08-02T09:20:37Z
+title = "Checked in at St Thomas' Hospital"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/ad0796bd9d45d9e3676d845a05e7297c8af2a5325a9b6b24c0bf7e0fa7eb141e.png"
+local_timestamp = 2012-08-02T10:20:37Z
+
+[data]
+id = "501a3855e4b023c91dacb851"
+createdAt = 1343895637
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ac518f6f964a5205eaf20e3"
+name = "St Thomas' Hospital"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d196941735"
+name = "Hospital"
+pluralName = "Hospitals"
+shortName = "Hospital"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/medical_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Westminster Bridge Rd"
+lat = 51.49971047720161
+lng = -0.11890384052741654
+postalCode = "SE1 7EH"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Westminster Bridge Rd", "London", "Greater London", "SE1 7EH",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.49971047720161
+lng = -0.11890384052741654
+

@@ -1,0 +1,43 @@
+published = 2016-07-01T13:54:04Z
+title = "Checked in at Union Viet"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/42a962e2fc83b5ade20e30fbed9c24ad18581369f9caa9ee4a04eb7e4defb475.png"
+local_timestamp = 2016-07-01T14:54:04Z
+
+[data]
+id = "577667ec498ef142f8b552da"
+createdAt = 1467377644
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "566848dc498e975491e61f10"
+name = "Union Viet"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d14a941735"
+name = "Vietnamese Restaurant"
+pluralName = "Vietnamese Restaurants"
+shortName = "Vietnamese"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/vietnamese_"
+suffix = ".png"
+
+[data.venue.location]
+address = "120 Union St"
+lat = 51.503824256487
+lng = -0.0984608033345371
+postalCode = "SE1 0FR"
+cc = "GB"
+neighborhood = "Southwark"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "120 Union St", "London", "Greater London", "SE1 0FR",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.503824256487
+lng = -0.0984608033345371
+

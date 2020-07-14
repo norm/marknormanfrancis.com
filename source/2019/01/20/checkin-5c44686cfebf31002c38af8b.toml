@@ -1,0 +1,41 @@
+published = 2019-01-20T12:24:12Z
+title = "Checked in at Kerridge’s Bar & Grill"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/3f52687a78131f9a53e769cc0201dfd6ac078c9f6391ca913557141f1c119886.png"
+
+[data]
+id = "5c44686cfebf31002c38af8b"
+createdAt = 1547987052
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "5bb51d8a1acf11002c3943f1"
+name = "Kerridge’s Bar & Grill"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1c4941735"
+name = "Restaurant"
+pluralName = "Restaurants"
+shortName = "Restaurant"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "10 Northumberland Ave"
+lat = 51.506728
+lng = -0.12452
+postalCode = "WC2N 5AE"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "10 Northumberland Ave", "London", "Greater London", "WC2N 5AE",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.506728
+lng = -0.12452
+

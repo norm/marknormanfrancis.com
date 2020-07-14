@@ -1,0 +1,37 @@
+published = 2018-04-17T08:08:31Z
+title = "Checked in at Deli-licous"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/770c578ca73ed1d70f2038214e699bd2c547a1eb4ffb8241cf5d23f20312a9ae.png"
+local_timestamp = 2018-04-17T09:08:31Z
+
+[data]
+id = "5ad59d6fc0af57002c663ba9"
+createdAt = 1523948911
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "558fc457498eabb61dc0e868"
+name = "Deli-licous"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d146941735"
+name = "Deli / Bodega"
+pluralName = "Delis / Bodegas"
+shortName = "Deli / Bodega"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/deli_"
+suffix = ".png"
+
+[data.venue.location]
+lat = 51.53112651093481
+lng = -0.11940456168913886
+cc = "GB"
+country = "United Kingdom"
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.53112651093481
+lng = -0.11940456168913886
+

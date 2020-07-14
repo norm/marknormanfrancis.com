@@ -1,0 +1,43 @@
+published = 2015-05-12T20:16:19Z
+title = "Checked in at Savoy Theatre"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/5a23f8960eaf14663f61a8896293cbe74f62dea20892c3b75c48d7373af56bfd.png"
+local_timestamp = 2015-05-12T21:16:19Z
+
+[data]
+id = "55525183498e681cd51e5b7f"
+createdAt = 1431458179
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ac518e7f964a5205bab20e3"
+name = "Savoy Theatre"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d137941735"
+name = "Theater"
+pluralName = "Theaters"
+shortName = "Theater"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Savoy Ct"
+crossStreet = "The Strand"
+lat = 51.50994444810864
+lng = -0.12086423016972793
+postalCode = "WC2R 0ET"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Savoy Ct (The Strand)", "London", "Greater London", "WC2R 0ET",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50994444810864
+lng = -0.12086423016972793
+

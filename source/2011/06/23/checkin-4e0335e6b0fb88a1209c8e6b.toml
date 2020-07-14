@@ -1,0 +1,43 @@
+published = 2011-06-23T13:47:34Z
+title = "Checked in at Lowlander Grand Cafe"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/bc6d7f9693fa781988d3dcba0a66c45bd7d523fb290dfbb0fc6b8b7ded15077a.png"
+local_timestamp = 2011-06-23T14:47:34Z
+
+[data]
+id = "4e0335e6b0fb88a1209c8e6b"
+createdAt = 1308833254
+type = "checkin"
+timeZoneOffset = 60
+shout = "Steak frites. Nom."
+
+[data.venue]
+id = "4b5b2169f964a5204fe528e3"
+name = "Lowlander Grand Cafe"
+[[data.venue.categories]]
+id = "56aa371ce4b08b9a8d57356c"
+name = "Beer Bar"
+pluralName = "Beer Bars"
+shortName = "Beer Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "36 Drury Ln"
+lat = 51.51490679847883
+lng = -0.1223824150685712
+postalCode = "WC2B 5RR"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "36 Drury Ln", "London", "Greater London", "WC2B 5RR",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51490679847883
+lng = -0.1223824150685712
+

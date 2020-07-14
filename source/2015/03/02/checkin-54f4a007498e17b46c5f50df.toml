@@ -1,0 +1,41 @@
+published = 2015-03-02T17:38:15Z
+title = "Checked in at Massimo"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/75d5c801bb086ad568aadf9f73973aaa4bb4460119933afda6d012ad8b689576.png"
+
+[data]
+id = "54f4a007498e17b46c5f50df"
+createdAt = 1425317895
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4e364b7945dd1c42bf27d4c1"
+name = "Massimo"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d110941735"
+name = "Italian Restaurant"
+pluralName = "Italian Restaurants"
+shortName = "Italian"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/italian_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Corinthia Hotel, Whitehall Place"
+lat = 51.506915440144006
+lng = -0.12469790867522312
+postalCode = "SW1A 2BD"
+cc = "GB"
+city = "London"
+country = "United Kingdom"
+formattedAddress = [ "Corinthia Hotel, Whitehall Place", "London", "SW1A 2BD",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.506915440144006
+lng = -0.12469790867522312
+

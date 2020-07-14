@@ -1,0 +1,41 @@
+published = 2018-01-05T13:16:57Z
+title = "Checked in at The Chandos"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/5bcedf010d1e07859572082bc1411c47fa6e9f07331b8fcbf477d79d9c01b565.png"
+
+[data]
+id = "5a4f7ac93362737aa4217c89"
+createdAt = 1515158217
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ac518bcf964a5208fa220e3"
+name = "The Chandos"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "29 St Martin's Ln"
+lat = 51.50945424181542
+lng = -0.1267533864065878
+postalCode = "WC2N 4ER"
+cc = "GB"
+city = "Charing Cross"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "29 St Martin's Ln", "Charing Cross", "Greater London", "WC2N 4ER",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50945424181542
+lng = -0.1267533864065878
+

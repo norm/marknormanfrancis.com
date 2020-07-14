@@ -1,0 +1,42 @@
+published = 2017-10-13T07:59:07Z
+title = "Checked in at Terrace Cafeteria"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/288599addfde042304fb5472bfdde1af6b5a8dc7ce5b9ab9a78fe56f8b82e803.png"
+local_timestamp = 2017-10-13T08:59:07Z
+
+[data]
+id = "59e0643b12f0a944654e9c78"
+createdAt = 1507877947
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4e73423db0fb38bb72cc3383"
+name = "Terrace Cafeteria"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d128941735"
+name = "Cafeteria"
+pluralName = "Cafeterias"
+shortName = "Cafeteria"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/education/cafeteria_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Parliament Sq"
+lat = 51.49985947698187
+lng = -0.12381381373037453
+postalCode = "SW1 0AA"
+cc = "GB"
+city = "City of Westminster"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Parliament Sq", "City of Westminster", "Greater London", "SW1 0AA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.49985947698187
+lng = -0.12381381373037453
+

@@ -1,0 +1,42 @@
+published = 2013-07-20T11:56:56Z
+title = "Checked in at Indigo at The O2"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/2bfff1117537fe411655b6f61d424d91f9bc59366a659d5bb77d5fe04fec2652.png"
+local_timestamp = 2013-07-20T12:56:56Z
+
+[data]
+id = "51ea6cf8498ee1f3db766730"
+createdAt = 1374317816
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ac518e9f964a520d6ab20e3"
+name = "Indigo at The O2"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1e5931735"
+name = "Music Venue"
+pluralName = "Music Venues"
+shortName = "Music Venue"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Millennium Way"
+lat = 51.50243171467326
+lng = 0.004662030529332039
+postalCode = "SE10 OAX"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Millennium Way", "London", "Greater London", "SE10 OAX",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50243171467326
+lng = 0.004662030529332039
+

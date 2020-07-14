@@ -1,0 +1,43 @@
+published = 2012-05-31T13:50:26Z
+title = "Checked in at Cybercandy"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/2665fc632772d1154e33693f5bb26d639c8b6ab06d7fbdba11c0def239ae0a7f.png"
+local_timestamp = 2012-05-31T14:50:26Z
+
+[data]
+id = "4fc76912e4b00c1861f42475"
+createdAt = 1338468626
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ac518f4f964a52004af20e3"
+name = "Cybercandy"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d117951735"
+name = "Candy Store"
+pluralName = "Candy Stores"
+shortName = "Candy Store"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/candystore_"
+suffix = ".png"
+
+[data.venue.location]
+address = "3 Garrick St"
+lat = 51.511339961908995
+lng = -0.12569904327392578
+postalCode = "WC2E 9BF"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "3 Garrick St", "London", "Greater London", "WC2E 9BF",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.511339961908995
+lng = -0.12569904327392578
+

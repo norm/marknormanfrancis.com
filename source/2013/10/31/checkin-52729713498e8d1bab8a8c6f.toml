@@ -1,0 +1,41 @@
+published = 2013-10-31T17:44:51Z
+title = "Checked in at Apple Covent Garden"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/f35050eaa06c74ee888d6f79f363f42f7054b643af4c1c0fa97740df9a7af7f3.png"
+
+[data]
+id = "52729713498e8d1bab8a8c6f"
+createdAt = 1383241491
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4c48305e96abd13aa25e7301"
+name = "Apple Covent Garden"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d122951735"
+name = "Electronics Store"
+pluralName = "Electronics Stores"
+shortName = "Electronics"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/technology_"
+suffix = ".png"
+
+[data.venue.location]
+address = "No. 1-7 The Piazza"
+lat = 51.512214
+lng = -0.123568
+postalCode = "WC2E 8HB"
+cc = "GB"
+neighborhood = "Covent Garden"
+city = "London"
+country = "United Kingdom"
+formattedAddress = [ "No. 1-7 The Piazza", "London", "WC2E 8HB",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.512214
+lng = -0.123568
+

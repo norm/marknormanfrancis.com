@@ -1,0 +1,45 @@
+published = 2012-03-15T18:21:58Z
+title = "Checked in at Maggie Mae's"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/36b219443c8fae7e5e8a1d16ba742e1fb67167875dbc8b043576ef46acb224dc.png"
+local_timestamp = 2012-03-15T13:21:58Z
+
+[data]
+id = "4f623346e4b08711dbc63da6"
+createdAt = 1331835718
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "40b13b00f964a520c5f31ee3"
+name = "Maggie Mae's"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d116941735"
+name = "Bar"
+pluralName = "Bars"
+shortName = "Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "323 E 6th St"
+crossStreet = "at Trinity"
+lat = 30.267099365967386
+lng = -97.73976190730701
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "323 E 6th St (at Trinity)", "Austin, TX 78701", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.267099365967386
+lng = -97.73976190730701
+
+[data.venue.venuePage]
+id = "71132947"

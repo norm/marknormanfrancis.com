@@ -1,0 +1,43 @@
+published = 2018-09-11T18:49:15Z
+title = "Checked in at Beef & Brew"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/f9508cdc56cfe41fda28c90e7029cc7de429428b05a2a57dcec368e8b15274a9.png"
+local_timestamp = 2018-09-11T19:49:15Z
+
+[data]
+id = "5b98001ba35f460025c6fd9b"
+createdAt = 1536688155
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "5b5654c6ad910e002ce40a0f"
+name = "Beef & Brew"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1cc941735"
+name = "Steakhouse"
+pluralName = "Steakhouses"
+shortName = "Steakhouse"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
+suffix = ".png"
+
+[data.venue.location]
+address = "33 Downham Rd"
+lat = 51.53905070059246
+lng = -0.07858009954691066
+postalCode = "N1 5AA"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "33 Downham Rd", "Haggerston", "Greater London", "N1 5AA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.53905070059246
+lng = -0.07858009954691066
+

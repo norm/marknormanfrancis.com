@@ -1,0 +1,41 @@
+published = 2017-01-19T12:23:21Z
+title = "Checked in at Lipman & Sons"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/546f2e16d5865f48fd467fd4c087428e1722f720415c067f6d6e8eb85205b47b.png"
+
+[data]
+id = "5880afb9e6160c5ba7b45989"
+createdAt = 1484828601
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4e32a35652b151d5686ed9d7"
+name = "Lipman & Sons"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d106951735"
+name = "Men's Store"
+pluralName = "Men's Stores"
+shortName = "Men's Store"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/apparel_men_"
+suffix = ".png"
+
+[data.venue.location]
+address = "44 Fleet Street"
+lat = 51.51813009837631
+lng = -0.11089669909839199
+postalCode = "EC4Y 1BN"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "44 Fleet Street", "London", "Greater London", "EC4Y 1BN",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51813009837631
+lng = -0.11089669909839199
+

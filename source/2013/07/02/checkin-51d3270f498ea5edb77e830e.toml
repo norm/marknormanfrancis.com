@@ -1,0 +1,57 @@
+published = 2013-07-02T20:16:31Z
+title = "Checked in at Odeon for Much Ado About Nothing"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/2079087a31b2f9e4e0bf9604dc643f37e41831038fbba8f0fbbdda5a29e89e3d.png"
+local_timestamp = 2013-07-02T21:16:31Z
+
+[data]
+id = "51d3270f498ea5edb77e830e"
+createdAt = 1372792591
+type = "checkin"
+timeZoneOffset = 60
+shout = "So much ado."
+
+[data.venue]
+id = "4f4d1c12e4b03af9605dcbcb"
+name = "Odeon"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d17f941735"
+name = "Movie Theater"
+pluralName = "Movie Theaters"
+shortName = "Movie Theater"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.event]
+id = "51b695080b6bb5651d30004f"
+name = "Much Ado About Nothing"
+[[data.event.categories]]
+id = "4dfb90c6bd413dd705e8f897"
+name = "Movie"
+pluralName = "Movies"
+shortName = "Movie"
+primary = true
+
+[data.event.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "11/18 Panton Street"
+lat = 51.509557268547674
+lng = -0.1312026643252011
+postalCode = "SW1Y 4DP"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "11/18 Panton Street", "London", "Greater London", "SW1Y 4DP",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.509557268547674
+lng = -0.1312026643252011
+

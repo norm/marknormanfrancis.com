@@ -1,0 +1,43 @@
+published = 2012-03-12T01:16:51Z
+title = "Checked in at Friends Bar"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/f424b9ee3473f99ee65a81dca87b1ad7a5d48c64fa607fdecb441f72ca74cc7b.png"
+local_timestamp = 2012-03-11T20:16:51Z
+
+[data]
+id = "4f5d4e83e4b07fef023f8d6b"
+createdAt = 1331515011
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "42accc80f964a5204e251fe3"
+name = "Friends Bar"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d116941735"
+name = "Bar"
+pluralName = "Bars"
+shortName = "Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "208 E 6th St"
+crossStreet = "at Brazos"
+lat = 30.267585843715676
+lng = -97.74098413599067
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "208 E 6th St (at Brazos)", "Austin, TX 78701", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.267585843715676
+lng = -97.74098413599067
+

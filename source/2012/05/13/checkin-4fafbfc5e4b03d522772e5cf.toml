@@ -1,0 +1,57 @@
+published = 2012-05-13T15:05:57Z
+title = "Checked in at Vue for The Cabin in the Woods"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/bd1b68f92c26b74e8068354b2aad7de40b6a7b5bb5aa5ec244eba6eefdf38741.png"
+local_timestamp = 2012-05-13T16:05:57Z
+
+[data]
+id = "4fafbfc5e4b03d522772e5cf"
+createdAt = 1336917957
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ac518e9f964a520c4ab20e3"
+name = "Vue"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d180941735"
+name = "Multiplex"
+pluralName = "Multiplexes"
+shortName = "Cineplex"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.event]
+id = "4f865e404fdee54399127ff9"
+name = "The Cabin in the Woods"
+[[data.event.categories]]
+id = "4dfb90c6bd413dd705e8f897"
+name = "Movie"
+pluralName = "Movies"
+shortName = "Movie"
+primary = true
+
+[data.event.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "3 Cranbourn St"
+crossStreet = "Leicester Sq"
+lat = 51.51133864587725
+lng = -0.12931733306303878
+postalCode = "WC2H 7AL"
+cc = "GB"
+city = "Leicester Square"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "3 Cranbourn St (Leicester Sq)", "Leicester Square", "Greater London", "WC2H 7AL",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51133864587725
+lng = -0.12931733306303878
+

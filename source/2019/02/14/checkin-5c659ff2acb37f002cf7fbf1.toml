@@ -1,0 +1,42 @@
+published = 2019-02-14T17:05:54Z
+title = "Checked in at Royal Festival Hall"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/5f472f6a53f79ddd3e84aeec1d0f5579ca0228bc6edcbad471ed804f31bd4a42.png"
+
+[data]
+id = "5c659ff2acb37f002cf7fbf1"
+createdAt = 1550163954
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4b0bf426f964a5200e3523e3"
+name = "Royal Festival Hall"
+[[data.venue.categories]]
+id = "5032792091d4c4b30a586d5c"
+name = "Concert Hall"
+pluralName = "Concert Halls"
+shortName = "Concert Hall"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Belvedere Rd"
+lat = 51.50583775382899
+lng = -0.11666729376884177
+postalCode = "SE1 8XX"
+cc = "GB"
+neighborhood = "London"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Belvedere Rd", "London", "Greater London", "SE1 8XX",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50583775382899
+lng = -0.11666729376884177
+

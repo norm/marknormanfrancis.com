@@ -1,0 +1,42 @@
+published = 2013-10-11T21:53:33Z
+title = "Checked in at The Arrol"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/c14fe17b0d8673c4dbd0922b78582551858bc36e095957c0c15ecd8ffcf3d2b4.png"
+local_timestamp = 2013-10-11T22:53:33Z
+
+[data]
+id = "5258654d498eeefea0fead0d"
+createdAt = 1381524813
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4bb4f0ef0ef1c9b607a5f412"
+name = "The Arrol"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d116941735"
+name = "Bar"
+pluralName = "Bars"
+shortName = "Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Glasgow Central Station"
+lat = 55.85982242578784
+lng = -4.257887094051364
+postalCode = "G1 3SL"
+cc = "GB"
+city = "Glasgow"
+state = "Glasgow City"
+country = "United Kingdom"
+formattedAddress = [ "Glasgow Central Station", "Glasgow", "Glasgow City", "G1 3SL",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 55.85982242578784
+lng = -4.257887094051364
+

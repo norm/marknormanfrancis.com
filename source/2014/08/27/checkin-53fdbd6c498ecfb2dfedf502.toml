@@ -1,0 +1,43 @@
+published = 2014-08-27T12:13:48Z
+title = "Checked in at Il Gusto"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/0bc50c003bfd0f483c2fe49403162df299af3ad74422ab1e12969ecf68cf0388.png"
+local_timestamp = 2014-08-27T13:13:48Z
+
+[data]
+id = "53fdbd6c498ecfb2dfedf502"
+createdAt = 1409138028
+type = "checkin"
+timeZoneOffset = 60
+shout = "Lunch with Meri"
+
+[data.venue]
+id = "4c82468fd8086dcbbd937452"
+name = "Il Gusto"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d110941735"
+name = "Italian Restaurant"
+pluralName = "Italian Restaurants"
+shortName = "Italian"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/italian_"
+suffix = ".png"
+
+[data.venue.location]
+address = "11 Craven Rd"
+lat = 51.51499991187685
+lng = -0.1767730022251498
+postalCode = "W2 3BP"
+cc = "GB"
+city = "Paddington"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "11 Craven Rd", "Paddington", "Greater London", "W2 3BP",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51499991187685
+lng = -0.1767730022251498
+

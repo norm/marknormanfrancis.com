@@ -1,0 +1,42 @@
+published = 2018-06-12T13:20:24Z
+title = "Checked in at Coco di Mama"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/9e8a4d07031a2ba1d642403e3a42fa7b5957e6bd4df849a0a97e7cefb9fc4f2e.png"
+local_timestamp = 2018-06-12T14:20:24Z
+
+[data]
+id = "5b1fba88f79faa002c31ca2d"
+createdAt = 1528806024
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "564b2826498e3e535d3299a5"
+name = "Coco di Mama"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d110941735"
+name = "Italian Restaurant"
+pluralName = "Italian Restaurants"
+shortName = "Italian"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/italian_"
+suffix = ".png"
+
+[data.venue.location]
+address = "100 Southwark St"
+lat = 51.50560382157377
+lng = -0.09896429221147683
+postalCode = "SE1 0FD"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "100 Southwark St", "London", "Greater London", "SE1 0FD",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50560382157377
+lng = -0.09896429221147683
+

@@ -1,0 +1,45 @@
+published = 2012-03-15T00:47:10Z
+title = "Checked in at The Mohawk"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/f626517dec2a95020154737c4e30535ccf6c42fe99fb49930c62b40dc937795c.png"
+local_timestamp = 2012-03-14T19:47:10Z
+
+[data]
+id = "4f613c0ee4b071dd72fb0d1b"
+createdAt = 1331772430
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "45f4fde8f964a52001441fe3"
+name = "The Mohawk"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1e9931735"
+name = "Rock Club"
+pluralName = "Rock Clubs"
+shortName = "Rock Club"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_rockclub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "912 Red River St"
+crossStreet = "at E 10th St."
+lat = 30.270000592044763
+lng = -97.7359316400037
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "912 Red River St (at E 10th St.)", "Austin, TX 78701", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.270000592044763
+lng = -97.7359316400037
+
+[data.venue.venuePage]
+id = "90537252"

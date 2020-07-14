@@ -1,0 +1,42 @@
+published = 2013-06-05T15:57:44Z
+title = "Checked in at Ministry of Justice"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/149a68a74a4ae522b34ae03cfd6e8e51cdfb6342e8771fb506dd8cfe0f967587.png"
+local_timestamp = 2013-06-05T16:57:44Z
+
+[data]
+id = "51af51e8498ef95b00749542"
+createdAt = 1370444264
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ad8537bf964a520061121e3"
+name = "Ministry of Justice"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d126941735"
+name = "Government Building"
+pluralName = "Government Buildings"
+shortName = "Government"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/government_"
+suffix = ".png"
+
+[data.venue.location]
+address = "102 Petty France"
+lat = 51.49975273549248
+lng = -0.13459202574046736
+postalCode = "SW1H 9AJ"
+cc = "GB"
+city = "Greater London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "102 Petty France", "Greater London", "SW1H 9AJ",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.49975273549248
+lng = -0.13459202574046736
+

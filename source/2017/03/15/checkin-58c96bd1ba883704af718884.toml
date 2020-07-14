@@ -1,0 +1,44 @@
+published = 2017-03-15T16:29:05Z
+title = "Checked in at M&S Simply Food"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/39f3dea8dc995307f1257100a329695e906808c5c1c56f3708da7ff79c094304.png"
+
+[data]
+id = "58c96bd1ba883704af718884"
+createdAt = 1489595345
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4b7d4059f964a520bab42fe3"
+name = "M&S Simply Food"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d118951735"
+name = "Grocery Store"
+pluralName = "Grocery Stores"
+shortName = "Grocery Store"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_"
+suffix = ".png"
+
+[data.venue.location]
+address = "323-324 High Holborn"
+crossStreet = "Heron House"
+lat = 51.51812117
+lng = -0.11231016
+postalCode = "WC1V 7PD"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "323-324 High Holborn (Heron House)", "London", "Greater London", "WC1V 7PD",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51812117
+lng = -0.11231016
+
+[data.venue.venuePage]
+id = "568864893"

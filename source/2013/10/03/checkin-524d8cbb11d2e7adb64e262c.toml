@@ -1,0 +1,43 @@
+published = 2013-10-03T16:26:51Z
+title = "Checked in at Cafe Zest"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/aea76ba31a15d18197da07cf6a4a1562d1ff32d56eef785a85e8e8a489a412d8.png"
+local_timestamp = 2013-10-03T17:26:51Z
+
+[data]
+id = "524d8cbb11d2e7adb64e262c"
+createdAt = 1380814011
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4b5c4cd8f964a520282a29e3"
+name = "Cafe Zest"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16d941735"
+name = "Café"
+pluralName = "Cafés"
+shortName = "Café"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/cafe_"
+suffix = ".png"
+
+[data.venue.location]
+address = "2nd Floor, House of Fraser"
+crossStreet = "101 Victoria Street"
+lat = 51.497425584596726
+lng = -0.1359764723109375
+postalCode = "SW1E 6QX"
+cc = "GB"
+city = "Victoria"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "2nd Floor, House of Fraser (101 Victoria Street)", "Victoria", "Greater London", "SW1E 6QX",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.497425584596726
+lng = -0.1359764723109375
+

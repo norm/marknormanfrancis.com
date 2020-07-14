@@ -1,0 +1,43 @@
+published = 2013-09-28T21:37:59Z
+title = "Checked in at The Harrison"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/602562fbee371ef21fc0a489286e9fb5be6fd77a74bb54585948091eadf32d7c.png"
+local_timestamp = 2013-09-28T22:37:59Z
+
+[data]
+id = "52473e2711d2ad8b93b0bc80"
+createdAt = 1380400679
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4bbb8d4451b89c74d05b862a"
+name = "The Harrison"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "28 Harrison St"
+crossStreet = "at Seaford St"
+lat = 51.5276888786253
+lng = -0.12040450474986167
+postalCode = "WC1H 8JF"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "28 Harrison St (at Seaford St)", "Camden", "Greater London", "WC1H 8JF",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.5276888786253
+lng = -0.12040450474986167
+

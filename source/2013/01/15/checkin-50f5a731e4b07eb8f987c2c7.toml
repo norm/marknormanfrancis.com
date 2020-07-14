@@ -1,0 +1,41 @@
+published = 2013-01-15T19:00:01Z
+title = "Checked in at Homebase"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/715c33a43d632d8524068720684b13a8b05ba451609ec30f562e54281d9f85ad.png"
+
+[data]
+id = "50f5a731e4b07eb8f987c2c7"
+createdAt = 1358276401
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4c9dd3db2fb1a1437a1ee440"
+name = "Homebase"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d112951735"
+name = "Hardware Store"
+pluralName = "Hardware Stores"
+shortName = "Hardware"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/hardware_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Swandon Way"
+lat = 51.46140512616345
+lng = -0.18854321277348793
+postalCode = "SW18 1EW"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Swandon Way", "London", "Greater London", "SW18 1EW",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.46140512616345
+lng = -0.18854321277348793
+

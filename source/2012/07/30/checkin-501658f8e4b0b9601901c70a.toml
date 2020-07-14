@@ -1,0 +1,44 @@
+published = 2012-07-30T10:50:48Z
+title = "Checked in at ExCeL London"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/40876e910e4921a2ffcfeda93cb5de22008b746a52ee44346ab27da1ba04e5fa.png"
+local_timestamp = 2012-07-30T11:50:48Z
+
+[data]
+id = "501658f8e4b0b9601901c70a"
+createdAt = 1343641848
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ac518f7f964a520a3af20e3"
+name = "ExCeL London"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1ff931735"
+name = "Convention Center"
+pluralName = "Convention Centers"
+shortName = "Convention Center"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/conventioncenter_"
+suffix = ".png"
+
+[data.venue.location]
+address = "One Western Gateway"
+crossStreet = "Royal Victoria Dock"
+lat = 51.508355157735856
+lng = 0.028731822967529293
+postalCode = "E16 1XL"
+cc = "GB"
+neighborhood = "Custom House, London, Greater London"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "One Western Gateway (Royal Victoria Dock)", "London", "Greater London", "E16 1XL",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.508355157735856
+lng = 0.028731822967529293
+

@@ -1,0 +1,42 @@
+published = 2014-07-11T11:49:18Z
+title = "Checked in at Honey & Co"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/5b1cd55577ce207a123eb81ba85468619154e00fd9125f7d437d27239c04bf2e.png"
+local_timestamp = 2014-07-11T12:49:18Z
+
+[data]
+id = "53bfc12e11d2ee31ff7134ba"
+createdAt = 1405075758
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ff40fdee4b0f3316162b393"
+name = "Honey & Co"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d115941735"
+name = "Middle Eastern Restaurant"
+pluralName = "Middle Eastern Restaurants"
+shortName = "Middle Eastern"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/middleeastern_"
+suffix = ".png"
+
+[data.venue.location]
+address = "25 Warren St"
+lat = 51.523754
+lng = -0.1408314
+postalCode = "W1T 5LZ"
+cc = "GB"
+city = "City of Westminster"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "25 Warren St", "City of Westminster", "Greater London", "W1T 5LZ",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.523754
+lng = -0.1408314
+

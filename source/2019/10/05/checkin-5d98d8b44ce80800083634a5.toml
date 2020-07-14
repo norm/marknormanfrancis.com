@@ -1,0 +1,42 @@
+published = 2019-10-05T18:53:56Z
+title = "Checked in at Antipode"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/7a3d6cd065b08cfa97eec652d5fb319cb5fbb496eb893a83d7aad2cd0fec60fb.png"
+local_timestamp = 2019-10-05T19:53:56Z
+
+[data]
+id = "5d98d8b44ce80800083634a5"
+createdAt = 1570298036
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "53e4c4af498ede6d8edfbeb4"
+name = "Antipode"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1e0931735"
+name = "Coffee Shop"
+pluralName = "Coffee Shops"
+shortName = "Coffee Shop"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_"
+suffix = ".png"
+
+[data.venue.location]
+address = "28 Fulham Palace Rd"
+lat = 51.49100564126093
+lng = -0.22380964106515958
+postalCode = "W6 9PH"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "28 Fulham Palace Rd", "London", "Greater London", "W6 9PH",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.49100564126093
+lng = -0.22380964106515958
+

@@ -1,0 +1,43 @@
+published = 2013-07-30T11:56:49Z
+title = "Checked in at HM Land Registry"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/a53b8859b3d27730c05ec2be14fa0b16e8532c10b6b843963b81765ddfbb0861.png"
+local_timestamp = 2013-07-30T12:56:49Z
+
+[data]
+id = "51f79bf1498ed847e1755b99"
+createdAt = 1375181809
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "50a159a3183f5a6bbd8907bb"
+name = "HM Land Registry"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d126941735"
+name = "Government Building"
+pluralName = "Government Buildings"
+shortName = "Government"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/government_"
+suffix = ".png"
+
+[data.venue.location]
+address = "55 Butts Road"
+lat = 52.397627096552405
+lng = -1.5731477737426758
+postalCode = "CV1 3BH"
+cc = "GB"
+neighborhood = "Coventry"
+city = "Coventry"
+state = "Coventry"
+country = "United Kingdom"
+formattedAddress = [ "55 Butts Road", "Coventry", "CV1 3BH",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 52.397627096552405
+lng = -1.5731477737426758
+

@@ -1,0 +1,41 @@
+published = 2016-12-31T09:55:41Z
+title = "Checked in at Greggs"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/f7cacb823b8c96d9dc5c0b080e09cd9a2eb1ae8d0a8656e453019f5fcf6256c0.png"
+
+[data]
+id = "5867809d76b8b22d3770405d"
+createdAt = 1483178141
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4d99be432bd6f04d6eba8450"
+name = "Greggs"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16a941735"
+name = "Bakery"
+pluralName = "Bakeries"
+shortName = "Bakery"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/bakery_"
+suffix = ".png"
+
+[data.venue.location]
+address = "22 St Johns Rd"
+lat = 51.46324454973122
+lng = -0.16764650148620225
+postalCode = "SW11 1PN"
+cc = "GB"
+city = "Clapham Junction"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "22 St Johns Rd", "Clapham Junction", "Greater London", "SW11 1PN",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.46324454973122
+lng = -0.16764650148620225
+

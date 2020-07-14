@@ -1,0 +1,42 @@
+published = 2016-10-12T12:16:06Z
+title = "Checked in at Wedge Issue"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/f152f178ea0f9c65204bbf96b3813256e207f18c2a5998fb4b26f4dddd776129.png"
+local_timestamp = 2016-10-12T13:16:06Z
+
+[data]
+id = "57fe1b76498e3530385fd86e"
+createdAt = 1476270966
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "5672f211498e586245c1723f"
+name = "Wedge Issue"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1ca941735"
+name = "Pizza Place"
+pluralName = "Pizza Places"
+shortName = "Pizza"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/pizza_"
+suffix = ".png"
+
+[data.venue.location]
+address = "91-95 Clerkenwell Rd"
+lat = 51.52203194568345
+lng = -0.11083271661279977
+postalCode = "EC1R 5BX"
+cc = "GB"
+city = "London"
+country = "United Kingdom"
+formattedAddress = [ "91-95 Clerkenwell Rd", "London", "EC1R 5BX",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.52203194568345
+lng = -0.11083271661279977
+

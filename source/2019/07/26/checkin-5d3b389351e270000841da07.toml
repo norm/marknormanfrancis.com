@@ -1,0 +1,42 @@
+published = 2019-07-26T18:29:55Z
+title = "Checked in at Cloudy Bay Bar"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/942b080c0c6dabe8f1c70097ce7580775b8b461d5aac635926689261ecf5bae2.png"
+local_timestamp = 2019-07-26T19:29:55Z
+
+[data]
+id = "5d3b389351e270000841da07"
+createdAt = 1564162195
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4f0f2317e4b0254b4e75f9d6"
+name = "Cloudy Bay Bar"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1ce941735"
+name = "Seafood Restaurant"
+pluralName = "Seafood Restaurants"
+shortName = "Seafood"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/seafood_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Kensington Gore"
+lat = 51.50108788726932
+lng = -0.17689666104985088
+cc = "GB"
+neighborhood = "Knightsbridge and Belgravia"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Kensington Gore", "London", "Greater London",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50108788726932
+lng = -0.17689666104985088
+

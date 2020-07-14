@@ -1,0 +1,43 @@
+published = 2013-09-23T23:35:20Z
+title = "Checked in at The Green"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/b2905b2974cf35c7efaa0a11f3fb98f25a05f0eeadb087a109c0e05c8b9d8fc0.png"
+local_timestamp = 2013-09-24T00:35:20Z
+
+[data]
+id = "5240c22811d22e34cca20e5d"
+createdAt = 1379975720
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4bd2d758046076b0e7a87471"
+name = "The Green"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d155941735"
+name = "Gastropub"
+pluralName = "Gastropubs"
+shortName = "Gastropub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/gastropub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Whitemare Pool"
+lat = 54.94557890192485
+lng = -1.5193960773681925
+postalCode = "NE10 8YB"
+cc = "GB"
+neighborhood = "A real ale pub that is a haven for both wine and ale lovers.  The Green has a rich full history. Beginning its life as a pub, then the Dixie Landers music hall, nowadays it is a stylish bar, serving excellent good quality meals with a range that allows everyone to satisfy their cravings. The Green also hosts a large outdoor covered terrace. Perfectly placed just off the A19 White Mare Pool junction – a handy spot to enjoy a handsome choice of beers and wines."
+city = "Gateshead"
+state = "Gateshead"
+country = "United Kingdom"
+formattedAddress = [ "Whitemare Pool", "Gateshead", "NE10 8YB",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 54.94557890192485
+lng = -1.5193960773681925
+

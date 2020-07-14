@@ -1,0 +1,41 @@
+published = 2017-03-24T19:02:37Z
+title = "Checked in at Doggett's Coat & Badge"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/579445020144bad6b1d101d1d8db6f8925e18d08d99e2df352841d7c745b6997.png"
+
+[data]
+id = "58d56d4decb67e1dbc2e76f4"
+createdAt = 1490382157
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4c07de0d708c2d7f0da0ca63"
+name = "Doggett's Coat & Badge"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "1 Blackfriars Br"
+lat = 51.508654028327804
+lng = -0.10476049220794895
+postalCode = "SE1 9UD"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "1 Blackfriars Br", "London", "Greater London", "SE1 9UD",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.508654028327804
+lng = -0.10476049220794895
+

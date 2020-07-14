@@ -1,0 +1,42 @@
+published = 2015-11-24T17:23:46Z
+title = "Checked in at The Anchor & Hope"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/ac5ad5e3be65e783131a2c2a8f14a4a73da3c20516b53fa6905061cbfa2665f6.png"
+
+[data]
+id = "56549d22498e20a68e1d7670"
+createdAt = 1448385826
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ac518c3f964a52030a420e3"
+name = "The Anchor & Hope"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d155941735"
+name = "Gastropub"
+pluralName = "Gastropubs"
+shortName = "Gastropub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/gastropub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "36 The Cut"
+crossStreet = "Waterloo"
+lat = 51.50338372931985
+lng = -0.10643927677545802
+postalCode = "SE1 8LP"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "36 The Cut (Waterloo)", "London", "Greater London", "SE1 8LP",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50338372931985
+lng = -0.10643927677545802
+

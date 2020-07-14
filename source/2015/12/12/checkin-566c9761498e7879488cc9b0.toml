@@ -1,0 +1,41 @@
+published = 2015-12-12T21:53:37Z
+title = "Checked in at West Byfleet Social Club"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/5f28327b1fab10184952392ff2b5696d043ead6d4142683467553924d090573d.png"
+
+[data]
+id = "566c9761498e7879488cc9b0"
+createdAt = 1449957217
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4d4de59a72eba1438c604912"
+name = "West Byfleet Social Club"
+[[data.venue.categories]]
+id = "52e81612bcbc57f1066b7a33"
+name = "Social Club"
+pluralName = "Social Clubs"
+shortName = "Social Club"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "40-45 Station Approach"
+lat = 51.3393666355483
+lng = -0.504393758185695
+postalCode = "KT14 6NE"
+cc = "GB"
+city = "Woking"
+state = "Surrey"
+country = "United Kingdom"
+formattedAddress = [ "40-45 Station Approach", "Woking", "Surrey", "KT14 6NE",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.3393666355483
+lng = -0.504393758185695
+

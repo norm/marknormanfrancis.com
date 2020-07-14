@@ -1,0 +1,41 @@
+published = 2013-01-09T18:54:20Z
+title = "Checked in at Byron"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/a52fd25739e825a9817e7f834b8d7d35fc817cc611bede2484cf1c69c6d8f334.png"
+
+[data]
+id = "50edbcdce4b071057f08f328"
+createdAt = 1357757660
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4b52060ef964a520076227e3"
+name = "Byron"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16c941735"
+name = "Burger Joint"
+pluralName = "Burger Joints"
+shortName = "Burgers"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
+suffix = ".png"
+
+[data.venue.location]
+address = "300 King's Rd"
+lat = 51.485884199515496
+lng = -0.17324414492372853
+postalCode = "SW3 5UH"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "300 King's Rd", "London", "Greater London", "SW3 5UH",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.485884199515496
+lng = -0.17324414492372853
+

@@ -1,0 +1,39 @@
+published = 2011-09-23T19:07:19Z
+title = "Checked in at The Newton Arms"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/e0f0aaf2fcd0d43dda09b951d46012ff207fc6bf630af37eaf624efbb3c2167d.png"
+local_timestamp = 2011-09-23T20:07:19Z
+
+[data]
+id = "4e7ccad7ae60476c0b059a11"
+createdAt = 1316801239
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4acf6ff1f964a520a5d320e3"
+name = "The Newton Arms"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "33 Newton St"
+crossStreet = "at Parker St"
+lat = 51.516225
+lng = -0.12087
+postalCode = "WC2B 5EL"
+cc = "GB"
+city = "Holborn"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "33 Newton St (at Parker St)", "Holborn", "Greater London", "WC2B 5EL",]

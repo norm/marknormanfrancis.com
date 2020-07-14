@@ -1,0 +1,42 @@
+published = 2013-06-15T18:32:18Z
+title = "Checked in at Elizabeth Street Vet"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/87d4eae95eb22da42761cdae61c8ceca15a6c24aa63207f361bac8e86d141ba2.png"
+local_timestamp = 2013-06-15T19:32:18Z
+
+[data]
+id = "51bca522498ee562226a4ab8"
+createdAt = 1371317538
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4b12b93df964a520de8c23e3"
+name = "Elizabeth Street Vet"
+[[data.venue.categories]]
+id = "4d954af4a243a5684765b473"
+name = "Veterinarian"
+pluralName = "Veterinarians"
+shortName = "Veterinarians"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/medical_veterinarian_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Elizabeth Street Vet"
+lat = 51.493578328337165
+lng = -0.15063257766375227
+postalCode = "SW1"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Elizabeth Street Vet", "London", "Greater London", "SW1",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.493578328337165
+lng = -0.15063257766375227
+

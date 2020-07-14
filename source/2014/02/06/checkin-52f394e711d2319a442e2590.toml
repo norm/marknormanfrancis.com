@@ -1,0 +1,42 @@
+published = 2014-02-06T13:57:59Z
+title = "Checked in at HELIX Restaurant"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/5cf69f45aa0cc51e8f5ddd138205d845b73d275541688cc4f2d6b188003ea954.png"
+
+[data]
+id = "52f394e711d2319a442e2590"
+createdAt = 1391695079
+type = "checkin"
+timeZoneOffset = 0
+shout = "THE VIEW, IT BLINDS US PRECIOUS"
+
+[data.venue]
+id = "4c40b626af052d7f883b7c79"
+name = "HELIX Restaurant"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1c4941735"
+name = "Restaurant"
+pluralName = "Restaurants"
+shortName = "Restaurant"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "30 St Mary Axe"
+lat = 51.514487831810285
+lng = -0.08036044975007965
+postalCode = "EC3A 8EP"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "30 St Mary Axe", "London", "Greater London", "EC3A 8EP",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.514487831810285
+lng = -0.08036044975007965
+

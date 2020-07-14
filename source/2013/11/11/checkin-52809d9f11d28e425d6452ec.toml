@@ -1,0 +1,42 @@
+published = 2013-11-11T09:04:31Z
+title = "Checked in at East Putney London Underground Station"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/7f63ef1a6a67f512a51859f4fd6f1b29a5936afbb66d7d180e62c25081dcee0f.png"
+
+[data]
+id = "52809d9f11d28e425d6452ec"
+createdAt = 1384160671
+type = "checkin"
+timeZoneOffset = 0
+shout = "I haven't been here in over twenty years. Then every day this week."
+
+[data.venue]
+id = "4bd69ccfcfa7b7139cd827da"
+name = "East Putney London Underground Station"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1fd931735"
+name = "Metro Station"
+pluralName = "Metro Stations"
+shortName = "Metro"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/subway_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Upper Richmond Rd"
+lat = 51.458831637316656
+lng = -0.2111995486416949
+postalCode = "SW15 6SN"
+cc = "GB"
+city = "Putney"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Upper Richmond Rd", "Putney", "Greater London", "SW15 6SN",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.458831637316656
+lng = -0.2111995486416949
+

@@ -1,0 +1,43 @@
+published = 2012-03-11T19:34:35Z
+title = "Checked in at foursquare court"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/39e7a1fb8479f48a605487ecef83eb0141cb6f4b960cc136eb54f17d0dba0d86.png"
+local_timestamp = 2012-03-11T14:34:35Z
+
+[data]
+id = "4f5cfe4be4b0090c0afcd8d9"
+createdAt = 1331494475
+type = "checkin"
+timeZoneOffset = -300
+shout = "Hey Dens."
+
+[data.venue]
+id = "4f562abe7beb6fa36272a1ef"
+name = "foursquare court"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1e7941735"
+name = "Playground"
+pluralName = "Playgrounds"
+shortName = "Playground"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/playground_"
+suffix = ".png"
+
+[data.venue.location]
+address = "318 E 5th St."
+crossStreet = "at Trinity St."
+lat = 30.266332336206055
+lng = -97.73982524871825
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "318 E 5th St. (at Trinity St.)", "Austin, TX 78701", "United States",]
+
+[data.venue.venuePage]
+id = "38465280"

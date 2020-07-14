@@ -1,0 +1,42 @@
+published = 2014-07-23T17:55:01Z
+title = "Checked in at Tinseltown"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/12535038b6658b657e5a0083948643f36f7c28319581cc1187aad189e1cc1061.png"
+local_timestamp = 2014-07-23T18:55:01Z
+
+[data]
+id = "53cfe8e511d20b5158c44aa3"
+createdAt = 1406134501
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4d14ea7f8312236a6f5c4eba"
+name = "Tinseltown"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d147941735"
+name = "Diner"
+pluralName = "Diners"
+shortName = "Diner"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/diner_"
+suffix = ".png"
+
+[data.venue.location]
+address = "57 Westbourne Grove"
+lat = 51.51551584212549
+lng = -0.19077610042585136
+postalCode = "W2 4UA"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "57 Westbourne Grove", "London", "Greater London", "W2 4UA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51551584212549
+lng = -0.19077610042585136
+

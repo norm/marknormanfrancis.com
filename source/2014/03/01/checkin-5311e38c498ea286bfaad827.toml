@@ -1,0 +1,41 @@
+published = 2014-03-01T13:41:32Z
+title = "Checked in at Carlisle Railway Station (CAR)"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/e9ac81baaf7d9d39a0c81d4d2f97408b3f721011a5c35110b3b3cb23a2863e5b.png"
+
+[data]
+id = "5311e38c498ea286bfaad827"
+createdAt = 1393681292
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "506999613d7cfe42e733a6e0"
+name = "Carlisle Railway Station (CAR)"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d129951735"
+name = "Train Station"
+pluralName = "Train Stations"
+shortName = "Train Station"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Court Square"
+lat = 54.89079631655386
+lng = -2.9331299607847634
+postalCode = "CA1 1QZ"
+cc = "GB"
+city = "Carlisle"
+state = "Cumbria"
+country = "United Kingdom"
+formattedAddress = [ "Court Square", "Carlisle", "Cumbria", "CA1 1QZ",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 54.89079631655386
+lng = -2.9331299607847634
+

@@ -1,0 +1,42 @@
+published = 2013-10-18T17:28:14Z
+title = "Checked in at O2"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/66251ec47c8e78d45afae17d169c8abc893f257aadfa3609074d3a5c2662d819.png"
+local_timestamp = 2013-10-18T18:28:14Z
+
+[data]
+id = "5261619e11d22a80d2e7abaa"
+createdAt = 1382113694
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4c41c946d7fad13a5f0308da"
+name = "O2"
+[[data.venue.categories]]
+id = "4f04afc02fb6e1c99f3db0bc"
+name = "Mobile Phone Shop"
+pluralName = "Mobile Phone Shops"
+shortName = "Mobile Phones"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/mobilephoneshop_"
+suffix = ".png"
+
+[data.venue.location]
+address = "26 St Johns Rd"
+lat = 51.463116442890005
+lng = -0.1677489380138112
+postalCode = "SW11 1PW"
+cc = "GB"
+city = "Clapham Junction"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "26 St Johns Rd", "Clapham Junction", "Greater London", "SW11 1PW",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.463116442890005
+lng = -0.1677489380138112
+

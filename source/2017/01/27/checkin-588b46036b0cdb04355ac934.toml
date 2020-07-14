@@ -1,0 +1,44 @@
+published = 2017-01-27T13:07:15Z
+title = "Checked in at Kingdom of Sweets"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/5c17ac1e3d74ee2d7229161446a13fcedb0b152f15f03da7a639f3a15a567564.png"
+
+[data]
+id = "588b46036b0cdb04355ac934"
+createdAt = 1485522435
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4e454a8714959d51c152dd32"
+name = "Kingdom of Sweets"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d117951735"
+name = "Candy Store"
+pluralName = "Candy Stores"
+shortName = "Candy Store"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/candystore_"
+suffix = ".png"
+
+[data.venue.location]
+address = "85 Oxford St"
+lat = 51.51613010226398
+lng = -0.13396555282710776
+postalCode = "W1D 2EY"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "85 Oxford St", "London", "Greater London", "W1D 2EY",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51613010226398
+lng = -0.13396555282710776
+
+[data.venue.venuePage]
+id = "126682289"

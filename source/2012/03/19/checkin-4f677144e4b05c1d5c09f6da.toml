@@ -1,0 +1,43 @@
+published = 2012-03-19T17:47:48Z
+title = "Checked in at Gate 18"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/1d3c4da16694dfc34e049ffc8c6d936d95a934b3b280ea3a8275d23ef0748021.png"
+local_timestamp = 2012-03-19T12:47:48Z
+
+[data]
+id = "4f677144e4b05c1d5c09f6da"
+createdAt = 1332179268
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "4ba4fc6df964a52078cc38e3"
+name = "Gate 18"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1f0931735"
+name = "Airport Gate"
+pluralName = "Airport Gates"
+shortName = "Gate"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/airport_gate_"
+suffix = ".png"
+
+[data.venue.location]
+address = "at Barbara Jordan Terminal"
+crossStreet = "AUS Airport"
+lat = 30.20227243654922
+lng = -97.66965718653736
+postalCode = "78719"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "at Barbara Jordan Terminal (AUS Airport)", "Austin, TX 78719", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.20227243654922
+lng = -97.66965718653736
+

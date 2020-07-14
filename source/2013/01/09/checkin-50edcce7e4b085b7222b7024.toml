@@ -1,0 +1,56 @@
+published = 2013-01-09T20:02:47Z
+title = "Checked in at Cineworld for Skyfall"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/10f1165d57e79d3b7ece85b532232dd0d4ae9b3f19e41288787d5126e0af0bca.png"
+
+[data]
+id = "50edcce7e4b085b7222b7024"
+createdAt = 1357761767
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ac518e9f964a520c2ab20e3"
+name = "Cineworld"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d17f941735"
+name = "Movie Theater"
+pluralName = "Movie Theaters"
+shortName = "Movie Theater"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.event]
+id = "508614c67e276e9c38f723b7"
+name = "Skyfall"
+[[data.event.categories]]
+id = "4dfb90c6bd413dd705e8f897"
+name = "Movie"
+pluralName = "Movies"
+shortName = "Movie"
+primary = true
+
+[data.event.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "279 Kings Rd"
+lat = 51.4853
+lng = -0.1731
+postalCode = "SW3 5EW"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "279 Kings Rd", "Chelsea", "Greater London", "SW3 5EW",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.4853
+lng = -0.1731
+

@@ -1,0 +1,43 @@
+published = 2012-03-11T15:50:54Z
+title = "Checked in at Vimeo Theater for A Conversation with Seth MacFarlane"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/57dbae2739ef57dbdde1375e187d0fc517ccd58195b9f8befc3365d1304416d1.png"
+local_timestamp = 2012-03-11T10:50:54Z
+
+[data]
+id = "4f5cc9dee4b053fd68eb74c0"
+createdAt = 1331481054
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "4d6e9cd5451c41bd01042845"
+name = "Vimeo Theater"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d17f941735"
+name = "Movie Theater"
+pluralName = "Movie Theaters"
+shortName = "Movie Theater"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.event]
+id = "4f3eefc233bd83343748bbe5"
+name = "A Conversation with Seth MacFarlane"
+categories = []
+
+[data.venue.location]
+address = "501 East 4th St"
+lat = 30.263708738213236
+lng = -97.74007620044877
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "501 East 4th St", "Austin, TX 78701", "United States",]

@@ -1,0 +1,59 @@
+published = 2012-03-16T16:16:19Z
+title = "Checked in at Mellow Johnny's for Pickwick"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/ddb6238451e13b6277f151fbddc9606556b4c15d311858fb40d405bb7c708871.png"
+local_timestamp = 2012-03-16T11:16:19Z
+
+[data]
+id = "4f636753e4b04d4b149567a0"
+createdAt = 1331914579
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "4a6b3dabf964a52041ce1fe3"
+name = "Mellow Johnny's"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d115951735"
+name = "Bike Shop"
+pluralName = "Bike Shops"
+shortName = "Bike Shop"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_"
+suffix = ".png"
+
+[data.event]
+id = "4f60b20333bd16d5c3aafcac"
+name = "Pickwick"
+[[data.event.categories]]
+id = "4e0a4b91bd41eda0d6092f89"
+name = "Concert"
+pluralName = "Concerts"
+shortName = "Concert"
+primary = true
+
+[data.event.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
+suffix = ".png"
+
+[data.venue.location]
+address = "400 Nueces St"
+crossStreet = "at W 4th St."
+lat = 30.26801173877598
+lng = -97.74927408354883
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "400 Nueces St (at W 4th St.)", "Austin, TX 78701", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.26801173877598
+lng = -97.74927408354883
+
+[data.venue.venuePage]
+id = "42204191"

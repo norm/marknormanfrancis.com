@@ -1,0 +1,43 @@
+published = 2013-10-04T15:56:44Z
+title = "Checked in at New Row Coffee"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/79483b792592f1b35b8c69d5c76e7b5fd6827de8d604bb633e9d1fa99f008e2f.png"
+local_timestamp = 2013-10-04T16:56:44Z
+
+[data]
+id = "524ed72c498e39e2045231be"
+createdAt = 1380898604
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ea816d27ee5c76518d5c1a7"
+name = "New Row Coffee"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1e0931735"
+name = "Coffee Shop"
+pluralName = "Coffee Shops"
+shortName = "Coffee Shop"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_"
+suffix = ".png"
+
+[data.venue.location]
+address = "24 New Row"
+lat = 51.511184
+lng = -0.126491
+postalCode = "WC2N 4LA"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "24 New Row", "London", "Greater London", "WC2N 4LA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.511184
+lng = -0.126491
+

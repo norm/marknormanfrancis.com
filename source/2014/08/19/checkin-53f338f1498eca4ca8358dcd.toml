@@ -1,0 +1,42 @@
+published = 2014-08-19T12:45:53Z
+title = "Checked in at The Savannah"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/aa389a29fa83a5c34426728003e4b36ba928a4fd1138fa72d6d567401ef2a418.png"
+local_timestamp = 2014-08-19T13:45:53Z
+
+[data]
+id = "53f338f1498eca4ca8358dcd"
+createdAt = 1408448753
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "5217844711d2a273f9b837d8"
+name = "The Savannah"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1f5941735"
+name = "Gourmet Shop"
+pluralName = "Gourmet Shops"
+shortName = "Gourmet"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/food_gourmet_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Paddington Station (District, Circle and Bakerloo lines)"
+lat = 51.51627414216749
+lng = -0.17659664154052732
+postalCode = "W2 1HQ"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Paddington Station (District, Circle and Bakerloo lines)", "London", "Greater London", "W2 1HQ",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51627414216749
+lng = -0.17659664154052732
+

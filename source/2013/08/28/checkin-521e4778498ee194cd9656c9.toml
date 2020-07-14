@@ -1,0 +1,44 @@
+published = 2013-08-28T19:54:48Z
+title = "Checked in at Steers"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/50447051c9b539b4ac367269748a303419c4c8bcd5d1f261a6f208e5e4aca79c.png"
+local_timestamp = 2013-08-28T20:54:48Z
+
+[data]
+id = "521e4778498ee194cd9656c9"
+createdAt = 1377716088
+type = "checkin"
+timeZoneOffset = 60
+shout = "with S-J"
+
+[data.venue]
+id = "51d7ff93498e78da5a23956d"
+name = "Steers"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16c941735"
+name = "Burger Joint"
+pluralName = "Burger Joints"
+shortName = "Burgers"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
+suffix = ".png"
+
+[data.venue.location]
+address = "313 Lavender Hill"
+lat = 51.46394363383635
+lng = -0.16716893873592797
+postalCode = "Sw11 1ln"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "313 Lavender Hill", "London", "Greater London", "Sw11 1ln",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.46394363383635
+lng = -0.16716893873592797
+

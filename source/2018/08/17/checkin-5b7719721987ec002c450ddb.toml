@@ -1,0 +1,44 @@
+published = 2018-08-17T19:52:34Z
+title = "Checked in at Aster"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/ed85ac8017c5e843719024df1e641cf5e4f9feb501631160939ee20b4eff8a06.png"
+local_timestamp = 2018-08-17T20:52:34Z
+
+[data]
+id = "5b7719721987ec002c450ddb"
+createdAt = 1534531954
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "588ba3324988da58528f4d9a"
+name = "Aster"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1c6941735"
+name = "Scandinavian Restaurant"
+pluralName = "Scandinavian Restaurants"
+shortName = "Scandinavian"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/scandinavian_"
+suffix = ".png"
+
+[data.venue.location]
+address = "150 Victoria Street"
+lat = 51.49669557706258
+lng = -0.143225356717805
+postalCode = "SW1E 5LB"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "150 Victoria Street", "London", "Greater London", "SW1E 5LB",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.49669557706258
+lng = -0.143225356717805
+
+[data.venue.venuePage]
+id = "475707791"

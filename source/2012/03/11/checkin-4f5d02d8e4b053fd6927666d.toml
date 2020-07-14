@@ -1,0 +1,45 @@
+published = 2012-03-11T19:54:00Z
+title = "Checked in at Shakespeare's Pub"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/81874b12a548c23766dcd48e7667975773b3ab70dc743667eb35f2452ea7118f.png"
+local_timestamp = 2012-03-11T14:54:00Z
+
+[data]
+id = "4f5d02d8e4b053fd6927666d"
+createdAt = 1331495640
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "40b13b00f964a520e4f31ee3"
+name = "Shakespeare's Pub"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "314 E 6th St"
+crossStreet = "at San Jacinto Blvd"
+lat = 30.26745937419012
+lng = -97.73983958387846
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "314 E 6th St (at San Jacinto Blvd)", "Austin, TX 78701", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.26745937419012
+lng = -97.73983958387846
+
+[data.venue.venuePage]
+id = "49728720"

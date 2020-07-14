@@ -1,0 +1,43 @@
+published = 2012-03-13T23:58:05Z
+title = "Checked in at Iron Works BBQ"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/75e42e3620e405c50020baa8c56ac8f29065114d2bedf30392889f2eb4c70aeb.png"
+local_timestamp = 2012-03-13T18:58:05Z
+
+[data]
+id = "4f5fdf0de4b048e1006b74dd"
+createdAt = 1331683085
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "45f19148f964a520cf431fe3"
+name = "Iron Works BBQ"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1df931735"
+name = "BBQ Joint"
+pluralName = "BBQ Joints"
+shortName = "BBQ"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/bbqalt_"
+suffix = ".png"
+
+[data.venue.location]
+address = "100 Red River St"
+crossStreet = "at E Cesar Chavez St"
+lat = 30.26194518814984
+lng = -97.7388792026269
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "100 Red River St (at E Cesar Chavez St)", "Austin, TX 78701", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.26194518814984
+lng = -97.7388792026269
+

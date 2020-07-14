@@ -1,0 +1,44 @@
+published = 2011-09-19T15:50:04Z
+title = "Checked in at Cineworld"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/1dd1af2421c5dccd68e4e93d06374e0258f08ba235d6ef25251d4e5dc0616c89.png"
+local_timestamp = 2011-09-19T16:50:04Z
+
+[data]
+id = "4e77569cd22d80eb34071db4"
+createdAt = 1316443804
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4adb5f4af964a520912621e3"
+name = "Cineworld"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d180941735"
+name = "Multiplex"
+pluralName = "Multiplexes"
+shortName = "Cineplex"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Southside Shopping Centre"
+crossStreet = "High St"
+lat = 51.4541378290051
+lng = -0.19308159316362275
+postalCode = "SW18 4TF"
+cc = "GB"
+neighborhood = "Wandsworth Town"
+city = "Wandsworth"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Southside Shopping Centre (High St)", "Wandsworth", "Greater London", "SW18 4TF",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.4541378290051
+lng = -0.19308159316362275
+

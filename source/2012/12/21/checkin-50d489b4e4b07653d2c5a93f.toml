@@ -1,0 +1,41 @@
+published = 2012-12-21T16:09:24Z
+title = "Checked in at The Crown & Anchor"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/460b048d3f0b8df21aeeb7c51d2f69a4f5ec40544af1c61386a75cb6cdab1870.png"
+
+[data]
+id = "50d489b4e4b07653d2c5a93f"
+createdAt = 1356106164
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ad8c1c7f964a520651421e3"
+name = "The Crown & Anchor"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "22 Neal St"
+lat = 51.513923141432
+lng = -0.12505206872654423
+postalCode = "WC2H 9PS"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "22 Neal St", "London", "Greater London", "WC2H 9PS",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.513923141432
+lng = -0.12505206872654423
+

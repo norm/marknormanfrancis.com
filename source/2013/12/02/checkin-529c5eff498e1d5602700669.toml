@@ -1,0 +1,38 @@
+published = 2013-12-02T10:20:47Z
+title = "Checked in at London St Pancras International Railway Station (STP)"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/73119022f94ee9c336c88346b7005db9919f46c6d97454a42d0067eda362ffd1.png"
+
+[data]
+id = "529c5eff498e1d5602700669"
+createdAt = 1385979647
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ac518f7f964a520c6af20e3"
+name = "London St Pancras International Railway Station (STP)"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d129951735"
+name = "Train Station"
+pluralName = "Train Stations"
+shortName = "Train Station"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Pancras Rd"
+crossStreet = "Euston Rd"
+lat = 51.531981871826716
+lng = -0.1260864512862284
+postalCode = "NW1 2QP"
+cc = "GB"
+neighborhood = "St. Pancras and Somers Town"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Pancras Rd (Euston Rd)", "London", "Greater London", "NW1 2QP",]

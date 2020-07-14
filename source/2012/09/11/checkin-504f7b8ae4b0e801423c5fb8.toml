@@ -1,0 +1,39 @@
+published = 2012-09-11T18:57:30Z
+title = "Checked in at The Marquis Of Granby"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/3d88d892a630503ca3a3e73b10df3bef7379563056b80aaf4f3f6cc0d9a057ca.png"
+local_timestamp = 2012-09-11T19:57:30Z
+
+[data]
+id = "504f7b8ae4b0e801423c5fb8"
+createdAt = 1347386250
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ad9c921f964a520da1a21e3"
+name = "The Marquis Of Granby"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "142 Shaftesbury Ave."
+crossStreet = "Charing Cross Rd."
+lat = 51.51333153247833
+lng = -0.129055
+postalCode = "WC2H 8HJ"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "142 Shaftesbury Ave. (Charing Cross Rd.)", "London", "Greater London", "WC2H 8HJ",]

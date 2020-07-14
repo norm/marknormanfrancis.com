@@ -1,0 +1,43 @@
+published = 2018-04-30T17:31:25Z
+title = "Checked in at Byron"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/ad6ba8ea121d6dc01c0ab20a58a3eb6c1c9a1d720d49613b6ead6035514f0441.png"
+local_timestamp = 2018-04-30T18:31:25Z
+
+[data]
+id = "5ae744dda42362002c7ee122"
+createdAt = 1525105885
+type = "checkin"
+timeZoneOffset = 60
+shout = "with S-J"
+
+[data.venue]
+id = "4d9ff9351ef7594157b9ec0f"
+name = "Byron"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16c941735"
+name = "Burger Joint"
+pluralName = "Burger Joints"
+shortName = "Burgers"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
+suffix = ".png"
+
+[data.venue.location]
+address = "11 Haymarket"
+lat = 51.5088708918852
+lng = -0.13169854232785383
+postalCode = "SW1Y 4BP"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "11 Haymarket", "London", "Greater London", "SW1Y 4BP",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.5088708918852
+lng = -0.13169854232785383
+

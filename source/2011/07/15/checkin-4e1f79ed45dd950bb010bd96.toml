@@ -1,0 +1,44 @@
+published = 2011-07-15T00:21:17Z
+title = "Checked in at Bourne & Hollingsworth"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/44a468d2087a92842438c7d5a38f6e3ef4bbb5b42222cebda1a6a10c11f25c1f.png"
+local_timestamp = 2011-07-15T01:21:17Z
+
+[data]
+id = "4e1f79ed45dd950bb010bd96"
+createdAt = 1310685677
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4acf7d7ff964a5200cd420e3"
+name = "Bourne & Hollingsworth"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11e941735"
+name = "Cocktail Bar"
+pluralName = "Cocktail Bars"
+shortName = "Cocktail"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_"
+suffix = ".png"
+
+[data.venue.location]
+address = "28 Rathbone Pl"
+crossStreet = "at Charlotte St"
+lat = 51.517941674704
+lng = -0.1343104332171103
+postalCode = "W1T 1JF"
+cc = "GB"
+neighborhood = "Fitzrovia, London, Greater London"
+city = "Fitzrovia"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "28 Rathbone Pl (at Charlotte St)", "Fitzrovia", "Greater London", "W1T 1JF",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.517941674704
+lng = -0.1343104332171103
+

@@ -1,0 +1,41 @@
+published = 2013-01-20T11:51:03Z
+title = "Checked in at Galvin at Windows"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/30c2b77a135f0ba7308dbf9e03b7f00d09471d53f98d634aaade6500f5452956.png"
+
+[data]
+id = "50fbda27e4b0b74eb1532ada"
+createdAt = 1358682663
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "50ca02c7245f2d4aa8c2ca06"
+name = "Galvin at Windows"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d10c941735"
+name = "French Restaurant"
+pluralName = "French Restaurants"
+shortName = "French"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/french_"
+suffix = ".png"
+
+[data.venue.location]
+address = "22 Park Ln"
+lat = 51.50548243580125
+lng = -0.15021631853984455
+postalCode = "W1K 1BE"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "22 Park Ln", "London", "Greater London", "W1K 1BE",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50548243580125
+lng = -0.15021631853984455
+

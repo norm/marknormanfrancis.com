@@ -1,0 +1,43 @@
+published = 2012-10-19T17:11:43Z
+title = "Checked in at Old Nick"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/2e79808d29cdef05f92391f17acc138be23de4366c90ea7a205692cf47445517.png"
+local_timestamp = 2012-10-19T18:11:43Z
+
+[data]
+id = "50817bbfe4b05bd7ede4de2d"
+createdAt = 1350663103
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4bb4d383aaf4ef3bfe3b5156"
+name = "Old Nick"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "21-22 Sandland St"
+crossStreet = "btwn. Bedford Row & Red Lion St"
+lat = 51.518892222659424
+lng = -0.11623309602945274
+postalCode = "WC1R 4PZ"
+cc = "GB"
+city = "Holborn"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "21-22 Sandland St (btwn. Bedford Row & Red Lion St)", "Holborn", "Greater London", "WC1R 4PZ",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.518892222659424
+lng = -0.11623309602945274
+

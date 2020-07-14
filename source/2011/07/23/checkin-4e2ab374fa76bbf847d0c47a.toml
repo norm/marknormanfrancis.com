@@ -1,0 +1,37 @@
+published = 2011-07-23T12:41:40Z
+title = "Checked in at Manningtree Beer Festival"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/a530025253c0d1d19a29817637be6d7ceefabec5284ae2050eaea30fca4d8a42.png"
+local_timestamp = 2011-07-23T13:41:40Z
+
+[data]
+id = "4e2ab374fa76bbf847d0c47a"
+createdAt = 1311421300
+type = "checkin"
+timeZoneOffset = 60
+shout = "Cider. Cheating?"
+
+[data.venue]
+id = "4e2ab349c65bcaf400262b4c"
+name = "Manningtree Beer Festival"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d117941735"
+name = "Beer Garden"
+pluralName = "Beer Gardens"
+shortName = "Beer Garden"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/beergarden_"
+suffix = ".png"
+
+[data.venue.location]
+lat = 51.945684
+lng = 1.066438
+cc = "GB"
+city = "Manningtree"
+state = "Essex"
+country = "United Kingdom"
+formattedAddress = [ "Manningtree", "Essex",]

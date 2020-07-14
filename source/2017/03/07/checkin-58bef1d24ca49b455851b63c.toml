@@ -1,0 +1,45 @@
+published = 2017-03-07T17:45:54Z
+title = "Checked in at Gazette Brasserie"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/a679b2951946a73e76a877a291a21eedb671ae0a756619977d13e6a58003690f.png"
+
+[data]
+id = "58bef1d24ca49b455851b63c"
+createdAt = 1488908754
+type = "checkin"
+timeZoneOffset = 0
+shout = "with S-J"
+
+[data.venue]
+id = "4b4c98cef964a52027b726e3"
+name = "Gazette Brasserie"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d10c941735"
+name = "French Restaurant"
+pluralName = "French Restaurants"
+shortName = "French"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/french_"
+suffix = ".png"
+
+[data.venue.location]
+address = "79 Sherwood Court"
+crossStreet = "Chatfield Road"
+lat = 51.46577532944461
+lng = -0.1825154916498469
+postalCode = "SW11 3UY"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "79 Sherwood Court (Chatfield Road)", "London", "Greater London", "SW11 3UY",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.46577532944461
+lng = -0.1825154916498469
+
+[data.venue.venuePage]
+id = "67681261"

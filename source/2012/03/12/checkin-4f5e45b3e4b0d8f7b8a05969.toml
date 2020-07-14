@@ -1,0 +1,39 @@
+published = 2012-03-12T18:51:31Z
+title = "Checked in at Gumbo's Louisiana Style Cafe"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/2e336e1dd2fbcab4fb5086820b48345090950f97d735e986fa5f349bbc8798a4.png"
+local_timestamp = 2012-03-12T13:51:31Z
+
+[data]
+id = "4f5e45b3e4b0d8f7b8a05969"
+createdAt = 1331578291
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "4a1dbbfbf964a520917b1fe3"
+name = "Gumbo's Louisiana Style Cafe"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d17a941735"
+name = "Cajun / Creole Restaurant"
+pluralName = "Cajun / Creole Restaurants"
+shortName = "Cajun / Creole"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/cajun_"
+suffix = ".png"
+
+[data.venue.location]
+address = "710 Colorado St"
+crossStreet = "at W. 8th St."
+lat = 30.270012032565912
+lng = -97.74355612214798
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "710 Colorado St (at W. 8th St.)", "Austin, TX 78701", "United States",]

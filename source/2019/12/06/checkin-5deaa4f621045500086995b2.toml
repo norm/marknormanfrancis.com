@@ -1,0 +1,40 @@
+published = 2019-12-06T18:59:02Z
+title = "Checked in at 28-50"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/cda8edbd8dd629bd15049ba46b4e2cd5ac2824f33eb725b955cb5a8cc2cf859a.png"
+
+[data]
+id = "5deaa4f621045500086995b2"
+createdAt = 1575658742
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "5c4b4dde12138400394fd5cf"
+name = "28-50"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1c4941735"
+name = "Restaurant"
+pluralName = "Restaurants"
+shortName = "Restaurant"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
+suffix = ".png"
+
+[data.venue.location]
+lat = 51.516324
+lng = -0.150286
+postalCode = "W1U 2SQ"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "London", "Greater London", "W1U 2SQ",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.516324
+lng = -0.150286
+

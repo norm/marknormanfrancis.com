@@ -1,0 +1,37 @@
+published = 2013-02-25T16:04:20Z
+title = "Checked in at London Paddington Railway Station (PAD)"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/80a916c4b0acab9b5bf6272a86dc422f2bcc77d706325839069806a60782d070.png"
+
+[data]
+id = "512b8b84e4b0522e6a2c3e9d"
+createdAt = 1361808260
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ae83e74f964a5204bae21e3"
+name = "London Paddington Railway Station (PAD)"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d129951735"
+name = "Train Station"
+pluralName = "Train Stations"
+shortName = "Train Station"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Praed St"
+crossStreet = "London St"
+lat = 51.51709056161456
+lng = -0.17756291637710533
+postalCode = "W2 1HQ"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Praed St (London St)", "London", "Greater London", "W2 1HQ",]

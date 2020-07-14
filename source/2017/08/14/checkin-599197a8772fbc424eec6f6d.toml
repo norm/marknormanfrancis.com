@@ -1,0 +1,44 @@
+published = 2017-08-14T13:29:28Z
+title = "Checked in at M&S Simply Food"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/29f9fcb906e93c2ad1f1e1b4cbb86ae311bc553de7f35d17dc3f34e1f51e3d78.png"
+local_timestamp = 2017-08-14T14:29:28Z
+
+[data]
+id = "599197a8772fbc424eec6f6d"
+createdAt = 1502713768
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4d9f5f9a0ea841bd6265dbd7"
+name = "M&S Simply Food"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d118951735"
+name = "Grocery Store"
+pluralName = "Grocery Stores"
+shortName = "Grocery Store"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_"
+suffix = ".png"
+
+[data.venue.location]
+address = "289-291 Fulham Road"
+lat = 51.48721821
+lng = -0.1786305
+postalCode = "SW10 9PZ"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "289-291 Fulham Road", "London", "Greater London", "SW10 9PZ",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.48721821
+lng = -0.1786305
+
+[data.venue.venuePage]
+id = "572059832"

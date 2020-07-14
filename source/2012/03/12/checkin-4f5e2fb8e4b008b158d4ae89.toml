@@ -1,0 +1,49 @@
+published = 2012-03-12T17:17:44Z
+title = "Checked in at The Driskill for Get Excited and Make Things with Science"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/5d27da78bce25daa6af312988fb527caee276951f61628e885606f1fcf540fda.png"
+local_timestamp = 2012-03-12T12:17:44Z
+
+[data]
+id = "4f5e2fb8e4b008b158d4ae89"
+createdAt = 1331572664
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "40b13b00f964a5209bf31ee3"
+name = "The Driskill"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1fa931735"
+name = "Hotel"
+pluralName = "Hotels"
+shortName = "Hotel"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/hotel_"
+suffix = ".png"
+
+[data.event]
+id = "4f4d213633bdaa8e358779db"
+name = "Get Excited and Make Things with Science"
+categories = []
+
+[data.venue.location]
+address = "604 Brazos Street"
+lat = 30.267840741798675
+lng = -97.74171498680151
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "604 Brazos Street", "Austin, TX 78701", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.267840741798675
+lng = -97.74171498680151
+
+[data.venue.venuePage]
+id = "33112216"

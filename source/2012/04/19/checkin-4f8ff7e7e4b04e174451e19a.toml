@@ -1,0 +1,41 @@
+published = 2012-04-19T12:32:55Z
+title = "Checked in at Covent Garden"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/601426d38133b1dcefe1cb5a9fccd82630ac6a8bb3df2342626a60f79bf01802.png"
+local_timestamp = 2012-04-19T13:32:55Z
+
+[data]
+id = "4f8ff7e7e4b04e174451e19a"
+createdAt = 1334835175
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4c52b7a4b6dabe9a24d2bb13"
+name = "Covent Garden"
+[[data.venue.categories]]
+id = "4f2a25ac4b909258e854f55f"
+name = "Neighborhood"
+pluralName = "Neighborhoods"
+shortName = "Neighborhood"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_"
+suffix = ".png"
+
+[data.venue.location]
+lat = 51.511958
+lng = -0.122729
+postalCode = "W C2E"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "London", "Greater London", "W C2E",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.511958
+lng = -0.122729
+

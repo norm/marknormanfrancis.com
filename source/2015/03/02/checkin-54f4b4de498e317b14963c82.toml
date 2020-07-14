@@ -1,0 +1,42 @@
+published = 2015-03-02T19:07:10Z
+title = "Checked in at Playhouse Theatre"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/3a533aee1a774e684150458affc93ccb75122e68bce488fe335a65c9d5392702.png"
+
+[data]
+id = "54f4b4de498e317b14963c82"
+createdAt = 1425323230
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4e398c75887777123dd458e9"
+name = "Playhouse Theatre"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d137941735"
+name = "Theater"
+pluralName = "Theaters"
+shortName = "Theater"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Northumberland Ave"
+crossStreet = "Craven St"
+lat = 51.50679820142435
+lng = -0.12347881509881982
+postalCode = "WC2N 5DE"
+cc = "GB"
+city = "City of Westminster"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Northumberland Ave (Craven St)", "City of Westminster", "Greater London", "WC2N 5DE",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50679820142435
+lng = -0.12347881509881982
+

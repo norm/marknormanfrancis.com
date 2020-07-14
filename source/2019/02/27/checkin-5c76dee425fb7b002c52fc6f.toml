@@ -1,0 +1,40 @@
+published = 2019-02-27T19:03:00Z
+title = "Checked in at Strangers' Dining Room"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/d78043a0df1d4ddc66867eb5ab81e638b9e2c0cc788ee10dd726c687dc4e44a6.png"
+
+[data]
+id = "5c76dee425fb7b002c52fc6f"
+createdAt = 1551294180
+type = "checkin"
+timeZoneOffset = 0
+shout = "with S-J"
+
+[data.venue]
+id = "4f4d16cbe4b0cb12b8c75d09"
+name = "Strangers' Dining Room"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d126941735"
+name = "Government Building"
+pluralName = "Government Buildings"
+shortName = "Government"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/government_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Palace of Westminster"
+lat = 51.501178212438795
+lng = -0.12372681753630818
+postalCode = "SW1A 0AA"
+cc = "GB"
+country = "United Kingdom"
+formattedAddress = [ "Palace of Westminster", "SW1A 0AA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.501178212438795
+lng = -0.12372681753630818
+

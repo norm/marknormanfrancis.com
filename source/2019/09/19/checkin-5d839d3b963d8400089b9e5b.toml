@@ -1,0 +1,56 @@
+published = 2019-09-19T16:22:35Z
+title = "Checked in at Odeon for It Chapter Two"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/5f5f5850effcc88bdbd4b9b85ab245a5ac83fe43a3da28ee1d2db5bed6b083e9.png"
+local_timestamp = 2019-09-19T17:22:35Z
+
+[data]
+id = "5d839d3b963d8400089b9e5b"
+createdAt = 1568906555
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ace3394f964a52007cf20e3"
+name = "Odeon"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d180941735"
+name = "Multiplex"
+pluralName = "Multiplexes"
+shortName = "Cineplex"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.event]
+id = "5d587fec29054900081f3e67"
+name = "It Chapter Two"
+[[data.event.categories]]
+id = "4dfb90c6bd413dd705e8f897"
+name = "Movie"
+pluralName = "Movies"
+shortName = "Movie"
+primary = true
+
+[data.event.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "26 Putney High Street, Putney"
+lat = 51.4654531256952
+lng = -0.21453276686474965
+postalCode = "SW15 1SN"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "26 Putney High Street, Putney", "London", "Greater London", "SW15 1SN",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.4654531256952
+lng = -0.21453276686474965
+

@@ -1,0 +1,44 @@
+published = 2011-05-13T09:17:45Z
+title = "Checked in at Don Quixote Cafe"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/6c277c31997a8c6df301c59c1470a325f0a84413695f3635deb77b0f2ebe4383.png"
+local_timestamp = 2011-05-13T10:17:45Z
+
+[data]
+id = "4dcce929183899ddfaab2998"
+createdAt = 1305274665
+type = "checkin"
+timeZoneOffset = 60
+shout = "Sausage in a soft roll, breakfast of champions."
+
+[data.venue]
+id = "4c022880cbd876b0cdf7f043"
+name = "Don Quixote Cafe"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16d941735"
+name = "Café"
+pluralName = "Cafés"
+shortName = "Café"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/cafe_"
+suffix = ".png"
+
+[data.venue.location]
+address = "101 Kingsway"
+lat = 51.51642323258827
+lng = -0.11970194503394978
+postalCode = "WC2B 6QU"
+cc = "GB"
+city = "Holborn"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "101 Kingsway", "Holborn", "Greater London", "WC2B 6QU",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51642323258827
+lng = -0.11970194503394978
+

@@ -1,0 +1,56 @@
+published = 2016-12-14T14:08:28Z
+title = "Checked in at Vue for Fantastic Beasts and Where to Find Them"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca76b9d411cb172ec6e.png"
+
+[data]
+id = "5851525c424f932ac88ccdd0"
+createdAt = 1481724508
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4b5b426bf964a5202cef28e3"
+name = "Vue"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d180941735"
+name = "Multiplex"
+pluralName = "Multiplexes"
+shortName = "Cineplex"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.event]
+id = "5806ffdb38fac4c1decf25da"
+name = "Fantastic Beasts and Where to Find Them"
+[[data.event.categories]]
+id = "4dfb90c6bd413dd705e8f897"
+name = "Movie"
+pluralName = "Movies"
+shortName = "Movie"
+primary = true
+
+[data.event.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Fulham Broadway Retail Centre"
+crossStreet = "Fulham Rd"
+lat = 51.480300183123965
+lng = -0.19445343443224616
+postalCode = "SW6 1BW"
+cc = "GB"
+city = "Fulham Broadway"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Fulham Broadway Retail Centre (Fulham Rd)", "Fulham Broadway", "Greater London", "SW6 1BW",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.480300183123965
+lng = -0.19445343443224616
+

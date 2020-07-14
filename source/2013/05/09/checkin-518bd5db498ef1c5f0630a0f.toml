@@ -1,0 +1,43 @@
+published = 2013-05-09T17:59:07Z
+title = "Checked in at Flat Iron"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/e1d2f1bd2b20c5dc2dba838312e483bd70dfa106bd069b306f5ee346ef3d9d25.png"
+local_timestamp = 2013-05-09T18:59:07Z
+
+[data]
+id = "518bd5db498ef1c5f0630a0f"
+createdAt = 1368118747
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "50b91cf3e4b07e5a14f8432a"
+name = "Flat Iron"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1cc941735"
+name = "Steakhouse"
+pluralName = "Steakhouses"
+shortName = "Steakhouse"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
+suffix = ".png"
+
+[data.venue.location]
+address = "17 Beak St"
+lat = 51.512064616195936
+lng = -0.1383386652417904
+postalCode = "W1F 9RW"
+cc = "GB"
+neighborhood = "Soho, London, Greater London"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "17 Beak St", "London", "Greater London", "W1F 9RW",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.512064616195936
+lng = -0.1383386652417904
+

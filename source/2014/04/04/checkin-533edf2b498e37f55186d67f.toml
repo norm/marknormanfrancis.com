@@ -1,0 +1,42 @@
+published = 2014-04-04T17:34:51Z
+title = "Checked in at The Albany"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/0cbd4e107abd1f24c1fe69d56a3831c8f5ab37a76a30b3b5e6ccc7ff50c0f22d.png"
+local_timestamp = 2014-04-04T18:34:51Z
+
+[data]
+id = "533edf2b498e37f55186d67f"
+createdAt = 1396629291
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4c424d876c1a952116c8b96a"
+name = "The Albany"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "240 Great Portland St"
+lat = 51.523384961525345
+lng = -0.14408980903500312
+postalCode = "W1W 5QU"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "240 Great Portland St", "London", "Greater London", "W1W 5QU",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.523384961525345
+lng = -0.14408980903500312
+

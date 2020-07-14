@@ -1,0 +1,43 @@
+published = 2012-09-21T12:15:07Z
+title = "Checked in at Becks Cafe"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/752493602a14b5b7d2cc0059817986a6a2717aaaf88d09d7f0808403ae0771ec.png"
+local_timestamp = 2012-09-21T13:15:07Z
+
+[data]
+id = "505c4c3be4b027df9b60a6b3"
+createdAt = 1348226107
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4c7ffd8cd8086dcbf3bb5f52"
+name = "Becks Cafe"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16d941735"
+name = "Café"
+pluralName = "Cafés"
+shortName = "Café"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/cafe_"
+suffix = ".png"
+
+[data.venue.location]
+address = "28 Red Lion St"
+lat = 51.51967
+lng = -0.117121
+postalCode = "WC1R 4PS"
+cc = "GB"
+neighborhood = "Holborn and Covent Garden"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "28 Red Lion St", "London", "Greater London", "WC1R 4PS",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51967
+lng = -0.117121
+

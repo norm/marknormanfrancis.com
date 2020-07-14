@@ -1,0 +1,43 @@
+published = 2013-08-07T14:44:56Z
+title = "Checked in at The Centurion"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/c584bb80ca3650459a2097319e66030eccccaa11eab262115c96127a64ec7fb7.png"
+local_timestamp = 2013-08-07T15:44:56Z
+
+[data]
+id = "52024f58498e88b58eb29b03"
+createdAt = 1375883096
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4bd5f69acfa7b7134fc426da"
+name = "The Centurion"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d116941735"
+name = "Bar"
+pluralName = "Bars"
+shortName = "Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Neville St"
+lat = 54.969117518006406
+lng = -1.616408320082125
+postalCode = "NE1 5DG"
+cc = "GB"
+neighborhood = "Grainger"
+city = "Newcastle upon Tyne"
+state = "Newcastle upon Tyne"
+country = "United Kingdom"
+formattedAddress = [ "Neville St", "Newcastle upon Tyne", "NE1 5DG",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 54.969117518006406
+lng = -1.616408320082125
+
