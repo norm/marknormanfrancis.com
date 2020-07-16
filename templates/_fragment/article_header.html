@@ -46,5 +46,11 @@
         <dd>{{favourites}}</dd>
       {% endif %}
     {% endif %}
+    {% if source == 'instagram' %}
+      {% if location %}
+        <dt>location</dt>
+        <dd>{{location}}</dd>
+      {% endif %}
+    {% endif %}
   </dl>
 </header>
