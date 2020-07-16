@@ -68,6 +68,7 @@ def main():
     ids[args.tweet] = metadata
     with open(ids_toml, 'w') as write_handle:
         toml.dump(ids, write_handle)
+        print('--', ids_toml)
 
     twitter.create_source_from_tweet(args.tweet, ids[args.tweet])
 
