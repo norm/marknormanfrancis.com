@@ -305,7 +305,7 @@ def main():
         for tweet_id in found:
             tweet = found[tweet_id]
             print(
-                '== %s %s l:%s rt:%s tc:%s\n%s' % (
+                '== https://twitter.com/cackhanded/status/%s %s l:%s rt:%s tc:%s\n%s' % (
                     tweet['id'],
                     tweet['created_at'],
                     tweet['favorite_count'],
