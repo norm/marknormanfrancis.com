@@ -1,0 +1,48 @@
+published = 2012-03-08T02:17:31Z
+title = "Checked in at Stubb's Bar-B-Q"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/f8dad35778f5b5b72e95200dcbbd874016069288e134534092eca1ee8aa83404.png"
+local_timestamp = 2012-03-07T20:17:31Z
+
+[data]
+id = "4f5816bbe4b0e48a874e0de6"
+createdAt = 1331173051
+type = "checkin"
+timeZoneOffset = -360
+
+[data.venue]
+id = "40fb0f00f964a520fc0a1fe3"
+name = "Stubb's Bar-B-Q"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1df931735"
+name = "BBQ Joint"
+pluralName = "BBQ Joints"
+shortName = "BBQ"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/bbqalt_"
+suffix = ".png"
+
+[data.venue.location]
+address = "801 Red River St"
+crossStreet = "at E 8th St"
+lat = 30.268516074327795
+lng = -97.73625580828983
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "801 Red River St (at E 8th St)", "Austin, TX 78701", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.268516074327795
+lng = -97.73625580828983
+
+[[data.venue.location.labeledLatLngs]]
+label = "entrance"
+lat = 30.268785
+lng = -97.735674
+

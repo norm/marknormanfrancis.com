@@ -1,0 +1,45 @@
+published = 2012-03-10T00:23:46Z
+title = "Checked in at Moonshine Patio Bar & Grill"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/b4aaa8fa8ea1b6f85be61f46546fa5ef1738c01f9ab71905a7dada69fe52aec1.png"
+local_timestamp = 2012-03-09T18:23:46Z
+
+[data]
+id = "4f5a9f12e4b0d8f7b54de9da"
+createdAt = 1331339026
+type = "checkin"
+timeZoneOffset = -360
+
+[data.venue]
+id = "43598100f964a520eb281fe3"
+name = "Moonshine Patio Bar & Grill"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d14e941735"
+name = "American Restaurant"
+pluralName = "American Restaurants"
+shortName = "American"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "303 Red River St"
+crossStreet = "at E 3rd St"
+lat = 30.26382713847388
+lng = -97.73813238370305
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "303 Red River St (at E 3rd St)", "Austin, TX 78701", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.26382713847388
+lng = -97.73813238370305
+
+[data.venue.venuePage]
+id = "495258869"

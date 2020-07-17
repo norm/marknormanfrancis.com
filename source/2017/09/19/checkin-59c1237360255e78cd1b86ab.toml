@@ -1,0 +1,44 @@
+published = 2017-09-19T15:02:27Z
+title = "Checked in at Tate Modern Restaurant"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/7579bfcfa87f086d210890fb8ccc3e4d3d970ecbe67edeab3a7d86ab67b7e0b4.png"
+local_timestamp = 2017-09-19T16:02:27Z
+
+[data]
+id = "59c1237360255e78cd1b86ab"
+createdAt = 1505829747
+type = "checkin"
+timeZoneOffset = 60
+shout = "with S-J"
+
+[data.venue]
+id = "4ac518e3f964a520c4aa20e3"
+name = "Tate Modern Restaurant"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1c4941735"
+name = "Restaurant"
+pluralName = "Restaurants"
+shortName = "Restaurant"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "53 Bankside"
+crossStreet = "Blavatnik Building, Level 9"
+lat = 51.50752712372034
+lng = -0.09994983673095703
+postalCode = "SE1 9TG"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "53 Bankside (Blavatnik Building, Level 9)", "London", "Greater London", "SE1 9TG",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50752712372034
+lng = -0.09994983673095703
+

@@ -1,0 +1,42 @@
+published = 2016-10-17T12:21:18Z
+title = "Checked in at Wasabi"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/6829a95dc22ba6fa8365b93a65bc34c3a97f7d1d615c8789f0538e6da608e5ec.png"
+local_timestamp = 2016-10-17T13:21:18Z
+
+[data]
+id = "5804b42e498e917406c2b2ac"
+createdAt = 1476703278
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4b2a3766f964a5202ba624e3"
+name = "Wasabi"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1d2941735"
+name = "Sushi Restaurant"
+pluralName = "Sushi Restaurants"
+shortName = "Sushi"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/sushi_"
+suffix = ".png"
+
+[data.venue.location]
+address = "14-18 Holborn"
+lat = 51.518164
+lng = -0.110263
+postalCode = "EC1N 2LE"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "14-18 Holborn", "London", "Greater London", "EC1N 2LE",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.518164
+lng = -0.110263
+

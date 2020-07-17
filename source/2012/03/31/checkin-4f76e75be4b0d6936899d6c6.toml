@@ -1,0 +1,43 @@
+published = 2012-03-31T12:15:39Z
+title = "Checked in at All Creatures"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/b678c239274b655fd52ea000c56cf110133260c45963156690646c7fb50534cc.png"
+local_timestamp = 2012-03-31T13:15:39Z
+
+[data]
+id = "4f76e75be4b0d6936899d6c6"
+createdAt = 1333192539
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4e7784dc62e1263517538811"
+name = "All Creatures"
+[[data.venue.categories]]
+id = "4d954af4a243a5684765b473"
+name = "Veterinarian"
+pluralName = "Veterinarians"
+shortName = "Veterinarians"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/medical_veterinarian_"
+suffix = ".png"
+
+[data.venue.location]
+address = "85, Lavender Hill"
+lat = 51.465764155533996
+lng = -0.1547272894313776
+postalCode = "SW11 5QL"
+cc = "GB"
+neighborhood = "Battersea"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "85, Lavender Hill", "London", "Greater London", "SW11 5QL",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.465764155533996
+lng = -0.1547272894313776
+

@@ -1,0 +1,42 @@
+published = 2017-01-31T17:48:30Z
+title = "Checked in at Channel 4"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/cc475fbabe71af1c08f62e076a6088fe5ac387564a9395357903526e3966be6b.png"
+
+[data]
+id = "5890cdee9343e060718b8309"
+createdAt = 1485884910
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4acf008af964a5203fd220e3"
+name = "Channel 4"
+[[data.venue.categories]]
+id = "52e81612bcbc57f1066b7a31"
+name = "TV Station"
+pluralName = "TV Stations"
+shortName = "TV Station"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "124-126 Horseferry Rd"
+crossStreet = "Chadwick St"
+lat = 51.49604572644675
+lng = -0.13308646464283383
+postalCode = "SW1P 2TX"
+cc = "GB"
+city = "City of Westminster"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "124-126 Horseferry Rd (Chadwick St)", "City of Westminster", "Greater London", "SW1P 2TX",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.49604572644675
+lng = -0.13308646464283383
+

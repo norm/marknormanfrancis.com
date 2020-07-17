@@ -1,0 +1,43 @@
+published = 2012-03-19T23:18:45Z
+title = "Checked in at Gate E7"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/64d5ed473a582756a5bd5eca1c51da5cb4b00778d274084f5f12d9f615ae821e.png"
+local_timestamp = 2012-03-19T18:18:45Z
+
+[data]
+id = "4f67bed5e4b081e6aebd2943"
+createdAt = 1332199125
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "4c233b7afbe5c9b6f90d9b21"
+name = "Gate E7"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1f0931735"
+name = "Airport Gate"
+pluralName = "Airport Gates"
+shortName = "Gate"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/airport_gate_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Terminal E"
+crossStreet = "IAH Airport"
+lat = 29.984394099507025
+lng = -95.33522060178193
+postalCode = "77032"
+cc = "US"
+city = "Houston"
+state = "TX"
+country = "United States"
+formattedAddress = [ "Terminal E (IAH Airport)", "Houston, TX 77032", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 29.984394099507025
+lng = -95.33522060178193
+

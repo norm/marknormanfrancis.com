@@ -1,0 +1,42 @@
+published = 2013-09-21T15:39:45Z
+title = "Checked in at The Royal George"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/2159e55f79b04f35a48f8feeee3f367d7c58a027479846c9f38e8f779ee92bc4.png"
+local_timestamp = 2013-09-21T16:39:45Z
+
+[data]
+id = "523dafb111d2ba092715d01c"
+createdAt = 1379774385
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ac518c7f964a5203ca520e3"
+name = "The Royal George"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d116941735"
+name = "Bar"
+pluralName = "Bars"
+shortName = "Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "133 Charing Cross Rd"
+lat = 51.51530129788344
+lng = -0.13044072861856648
+postalCode = "WC2H 0EA"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "133 Charing Cross Rd", "London", "Greater London", "WC2H 0EA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51530129788344
+lng = -0.13044072861856648
+

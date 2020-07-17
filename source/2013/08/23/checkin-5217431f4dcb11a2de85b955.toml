@@ -1,0 +1,43 @@
+published = 2013-08-23T12:10:23Z
+title = "Checked in at Waitrose & Partners"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/54c488ad56b97daea0a9dc3056d540f830663a44315bbe70ea2fc8b36a5a3321.png"
+local_timestamp = 2013-08-23T13:10:23Z
+
+[data]
+id = "5217431f4dcb11a2de85b955"
+createdAt = 1377256223
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4b4dfc87f964a52025dd26e3"
+name = "Waitrose & Partners"
+[[data.venue.categories]]
+id = "52f2ab2ebcbc57f1066b8b46"
+name = "Supermarket"
+pluralName = "Supermarkets"
+shortName = "Supermarket"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_"
+suffix = ".png"
+
+[data.venue.location]
+address = "7-11 St Georges Way"
+lat = 54.975182
+lng = -1.615635
+postalCode = "NE1 7JD"
+cc = "GB"
+neighborhood = "Grainger Town"
+city = "Newcastle upon Tyne"
+state = "Newcastle upon Tyne"
+country = "United Kingdom"
+formattedAddress = [ "7-11 St Georges Way", "Newcastle upon Tyne", "NE1 7JD",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 54.975182
+lng = -1.615635
+

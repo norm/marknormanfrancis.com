@@ -1,0 +1,41 @@
+published = 2017-02-02T18:50:57Z
+title = "Checked in at Byron"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/851a316c98c66bb04c868a3cc4cba52c4decc6b9e4212b20bd4a839462c16c75.png"
+
+[data]
+id = "58937f91d2433206afa86a21"
+createdAt = 1486061457
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "518a3e67454abf0e49562df8"
+name = "Byron"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16c941735"
+name = "Burger Joint"
+pluralName = "Burger Joints"
+shortName = "Burgers"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
+suffix = ".png"
+
+[data.venue.location]
+address = "16-18 Beak St"
+lat = 51.511993413061354
+lng = -0.13820660662031514
+postalCode = "W1F 9RD"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "16-18 Beak St", "London", "Greater London", "W1F 9RD",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.511993413061354
+lng = -0.13820660662031514
+

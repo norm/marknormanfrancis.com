@@ -1,0 +1,42 @@
+published = 2018-04-24T18:55:08Z
+title = "Checked in at Goodman Steak House Restaurant"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/628b965745668eee9f251e3267b614fe0c156a4b104445e7708a7042019dbc7a.png"
+local_timestamp = 2018-04-24T19:55:08Z
+
+[data]
+id = "5adf6f7cbfc6d0002cf46e2f"
+createdAt = 1524592508
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4c5190663940be9a0f2c0f09"
+name = "Goodman Steak House Restaurant"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1cc941735"
+name = "Steakhouse"
+pluralName = "Steakhouses"
+shortName = "Steakhouse"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
+suffix = ".png"
+
+[data.venue.location]
+address = "11 Old Jewry"
+lat = 51.51439802733941
+lng = -0.09074537518056014
+postalCode = "EC2R 8DU"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "11 Old Jewry", "London", "Greater London", "EC2R 8DU",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51439802733941
+lng = -0.09074537518056014
+

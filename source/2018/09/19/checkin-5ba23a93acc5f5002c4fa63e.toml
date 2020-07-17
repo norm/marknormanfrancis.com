@@ -1,0 +1,42 @@
+published = 2018-09-19T13:01:23Z
+title = "Checked in at London House"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/20c39086d04cec4702c6b8b72351063d1d24c5087a71842b3b39b849100cf5a2.png"
+local_timestamp = 2018-09-19T14:01:23Z
+
+[data]
+id = "5ba23a93acc5f5002c4fa63e"
+createdAt = 1537358483
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "52eb78ae11d2c981bc33680a"
+name = "London House"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1c4941735"
+name = "Restaurant"
+pluralName = "Restaurants"
+shortName = "Restaurant"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "7-9 Battersea Sq"
+lat = 51.47513879843118
+lng = -0.17514484609337505
+postalCode = "SW11 3RA"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "7-9 Battersea Sq", "London", "Greater London", "SW11 3RA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.47513879843118
+lng = -0.17514484609337505
+

@@ -1,0 +1,42 @@
+published = 2013-07-26T12:17:30Z
+title = "Checked in at Five Guys"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/be868f4499ae590d35f1eb7505b1da26d3494cfcd06c726376b2d7a6a562be09.png"
+local_timestamp = 2013-07-26T13:17:30Z
+
+[data]
+id = "51f25aca498ef8884ccd6783"
+createdAt = 1374837450
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "516094748302afa746c58951"
+name = "Five Guys"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16c941735"
+name = "Burger Joint"
+pluralName = "Burger Joints"
+shortName = "Burgers"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
+suffix = ".png"
+
+[data.venue.location]
+address = "1-3 Long Acre, Covent Garden"
+lat = 51.51184006601175
+lng = -0.12672658836061146
+postalCode = "WC2E 9LH"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "1-3 Long Acre, Covent Garden", "London", "Greater London", "WC2E 9LH",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51184006601175
+lng = -0.12672658836061146
+

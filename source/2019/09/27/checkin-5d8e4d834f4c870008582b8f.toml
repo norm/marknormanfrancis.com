@@ -1,0 +1,42 @@
+published = 2019-09-27T18:57:23Z
+title = "Checked in at Vaudeville Theatre"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/e0298a35d9e6ffb656374259b3b4caafe4e690afe0ffaa3a417983ac719b2dff.png"
+local_timestamp = 2019-09-27T19:57:23Z
+
+[data]
+id = "5d8e4d834f4c870008582b8f"
+createdAt = 1569607043
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ac518e7f964a5205fab20e3"
+name = "Vaudeville Theatre"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d137941735"
+name = "Theater"
+pluralName = "Theaters"
+shortName = "Theater"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "404 Strand"
+lat = 51.51012943314585
+lng = -0.12226861116006404
+postalCode = "WC2R 0NH"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "404 Strand", "London", "Greater London", "WC2R 0NH",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51012943314585
+lng = -0.12226861116006404
+

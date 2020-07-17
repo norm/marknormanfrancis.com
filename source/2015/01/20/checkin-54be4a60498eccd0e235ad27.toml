@@ -1,0 +1,41 @@
+published = 2015-01-20T12:30:24Z
+title = "Checked in at Energy Cafe"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/4b5ee1c815f8cfc61b103cf14bff6ff16e6b27da4feb1b460dd2a04d52a9203f.png"
+
+[data]
+id = "54be4a60498eccd0e235ad27"
+createdAt = 1421757024
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4eaa7bbe61af01ea2a5cba12"
+name = "Energy Cafe"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16d941735"
+name = "Café"
+pluralName = "Cafés"
+shortName = "Café"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/cafe_"
+suffix = ".png"
+
+[data.venue.location]
+address = "The Science Museum"
+lat = 51.49736412147604
+lng = -0.17482168245158972
+postalCode = "SW7 2DD"
+cc = "GB"
+city = "Queen's Gate"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "The Science Museum", "Queen's Gate", "Greater London", "SW7 2DD",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.49736412147604
+lng = -0.17482168245158972
+

@@ -1,0 +1,42 @@
+published = 2018-05-17T22:30:59Z
+title = "Checked in at The Craft Beer Co."
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/31b17d6917da57ad2a492feeb81bca8917174fef95fa25c4fa18f413fc337e65.png"
+local_timestamp = 2018-05-17T23:30:59Z
+
+[data]
+id = "5afdf49366f3cd002bb85b12"
+createdAt = 1526592659
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "536cd46e11d29fe6210957cf"
+name = "The Craft Beer Co."
+[[data.venue.categories]]
+id = "56aa371ce4b08b9a8d57356c"
+name = "Beer Bar"
+pluralName = "Beer Bars"
+shortName = "Beer Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "168 High Holborn"
+lat = 51.51575827252237
+lng = -0.12619345122012288
+postalCode = "WC1V 7AA"
+cc = "GB"
+city = "Covent Garden"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "168 High Holborn", "Covent Garden", "Greater London", "WC1V 7AA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51575827252237
+lng = -0.12619345122012288
+

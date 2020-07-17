@@ -1,0 +1,41 @@
+published = 2012-12-11T19:44:23Z
+title = "Checked in at Civil Service Club"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/11b8880a40aed36fe8e5ddbbef5898b780d20e14db8d2e81c2dad6ca3df9ac1b.png"
+
+[data]
+id = "50c78d17e4b0053bf97d2ed6"
+createdAt = 1355255063
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4aec3fd4f964a520acc521e3"
+name = "Civil Service Club"
+[[data.venue.categories]]
+id = "52e81612bcbc57f1066b7a33"
+name = "Social Club"
+pluralName = "Social Clubs"
+shortName = "Social Club"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "13-15 Great Scotland Yd"
+lat = 51.50653918302719
+lng = -0.12560912259900278
+postalCode = "SW1A 2HJ"
+cc = "GB"
+city = "Greater London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "13-15 Great Scotland Yd", "Greater London", "SW1A 2HJ",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50653918302719
+lng = -0.12560912259900278
+

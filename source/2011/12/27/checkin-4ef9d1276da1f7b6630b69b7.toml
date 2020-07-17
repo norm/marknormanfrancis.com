@@ -1,0 +1,44 @@
+published = 2011-12-27T14:07:35Z
+title = "Checked in at Peter Jones & Partners"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/48ebaba133387b65669bdc0e507896a9e066071bdcbc27318dde75b8f1ff4b44.png"
+
+[data]
+id = "4ef9d1276da1f7b6630b69b7"
+createdAt = 1324994855
+type = "checkin"
+timeZoneOffset = 0
+shout = "Getting my middle class on."
+
+[data.venue]
+id = "4ac518f3f964a520bfae20e3"
+name = "Peter Jones & Partners"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1f6941735"
+name = "Department Store"
+pluralName = "Department Stores"
+shortName = "Department Store"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/departmentstore_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Sloane Square"
+crossStreet = "King’s Rd"
+lat = 51.49231349481956
+lng = -0.15876665711402893
+postalCode = "SW1W 8EL"
+cc = "GB"
+neighborhood = "Chelsea, London, Greater London"
+city = "Chelsea"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Sloane Square (King’s Rd)", "Chelsea", "Greater London", "SW1W 8EL",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.49231349481956
+lng = -0.15876665711402893
+

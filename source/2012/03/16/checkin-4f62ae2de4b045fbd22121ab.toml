@@ -1,0 +1,55 @@
+published = 2012-03-16T03:06:21Z
+title = "Checked in at Haven for Tenacious D"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/284235ab41e9d049b8a017a858b1169402845099674a461a3b1427e0b4ccbd49.png"
+tag = [ "tenacious-d", "concert",]
+local_timestamp = 2012-03-15T22:06:21Z
+
+[data]
+id = "4f62ae2de4b045fbd22121ab"
+createdAt = 1331867181
+type = "checkin"
+timeZoneOffset = -300
+shout = "Or, as the sign outside read \"Tenacious Fucking D\""
+
+[data.venue]
+id = "4e557937483b7ae46dab321e"
+name = "Haven"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11f941735"
+name = "Nightclub"
+pluralName = "Nightclubs"
+shortName = "Nightclub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/nightclub_"
+suffix = ".png"
+
+[data.event]
+id = "4f5a4fb733bd1478e6e2c63d"
+name = "Tenacious D"
+[[data.event.categories]]
+id = "4e0a4b91bd41eda0d6092f89"
+name = "Concert"
+pluralName = "Concerts"
+shortName = "Concert"
+primary = true
+
+[data.event.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
+suffix = ".png"
+
+[data.venue.location]
+address = "409 Colorado St"
+crossStreet = "5th St."
+lat = 30.266921
+lng = -97.744503
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "409 Colorado St (5th St.)", "Austin, TX 78701", "United States",]

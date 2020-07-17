@@ -1,0 +1,43 @@
+published = 2017-06-16T08:04:51Z
+title = "Checked in at Queen Mary's Hospital"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/c08719fb97c4a5ef6aae72ac93396591c617fa46825cf516370e4502ad3b589d.png"
+local_timestamp = 2017-06-16T09:04:51Z
+
+[data]
+id = "594383132347244090e46d6f"
+createdAt = 1497596691
+type = "checkin"
+timeZoneOffset = 60
+shout = "with S-J"
+
+[data.venue]
+id = "4cd7ca707d4546881137e8ed"
+name = "Queen Mary's Hospital"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d196941735"
+name = "Hospital"
+pluralName = "Hospitals"
+shortName = "Hospital"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/medical_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Roehampton Lane"
+lat = 51.45524038069954
+lng = -0.24214164724660478
+postalCode = "SW15 5PN"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Roehampton Lane", "London", "Greater London", "SW15 5PN",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.45524038069954
+lng = -0.24214164724660478
+

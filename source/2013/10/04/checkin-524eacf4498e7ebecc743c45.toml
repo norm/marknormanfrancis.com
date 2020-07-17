@@ -1,0 +1,43 @@
+published = 2013-10-04T12:56:36Z
+title = "Checked in at The Open Data Institute"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/bb0fc5cfcc41732e96b031497aefe844b35ecce6b01ed9b6d9590ea798ff5fba.png"
+local_timestamp = 2013-10-04T13:56:36Z
+
+[data]
+id = "524eacf4498e7ebecc743c45"
+createdAt = 1380887796
+type = "checkin"
+timeZoneOffset = 60
+shout = "with mnowster"
+
+[data.venue]
+id = "50607ad0d63eb3d73120f058"
+name = "The Open Data Institute"
+[[data.venue.categories]]
+id = "50328a8e91d4c4b30a586d6c"
+name = "Non-Profit"
+pluralName = "Non-Profits"
+shortName = "Non-Profit"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "65 Clifton St"
+lat = 51.52226647700243
+lng = -0.08327597003875642
+postalCode = "EC2A 4JE"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "65 Clifton St", "London", "Greater London", "EC2A 4JE",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.52226647700243
+lng = -0.08327597003875642
+

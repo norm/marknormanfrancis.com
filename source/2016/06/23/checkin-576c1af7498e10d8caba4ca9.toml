@@ -1,0 +1,42 @@
+published = 2016-06-23T18:23:03Z
+title = "Checked in at wagamama"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/0a0aedd14c27ef2d1d2f31a71c4d41540f0a21191c1177ea92cc287522dcb373.png"
+local_timestamp = 2016-06-23T19:23:03Z
+
+[data]
+id = "576c1af7498e10d8caba4ca9"
+createdAt = 1466702583
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4bd07820462cb7137561d807"
+name = "wagamama"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d142941735"
+name = "Asian Restaurant"
+pluralName = "Asian Restaurants"
+shortName = "Asian"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/asian_"
+suffix = ".png"
+
+[data.venue.location]
+address = "riverside level, royal festival hall, southbank"
+lat = 51.5058093
+lng = -0.1174239
+postalCode = "SE1 8XX"
+cc = "GB"
+city = "Waterloo"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "riverside level, royal festival hall, southbank", "Waterloo", "Greater London", "SE1 8XX",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.5058093
+lng = -0.1174239
+

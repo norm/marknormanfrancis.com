@@ -1,0 +1,42 @@
+published = 2012-01-12T18:42:22Z
+title = "Checked in at Duke of York"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/253876d6ec969787e738b4272205ef8267af4eed8a00f259f48c2f762be66087.png"
+
+[data]
+id = "4f0f298ee4b09cff018a1724"
+createdAt = 1326393742
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4b0c0652f964a520d53523e3"
+name = "Duke of York"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "47 Rathbone St"
+crossStreet = "Percy Passage"
+lat = 51.51873642243601
+lng = -0.13568141618908058
+postalCode = "W1T 1NW"
+cc = "GB"
+city = "Fitzrovia"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "47 Rathbone St (Percy Passage)", "Fitzrovia", "Greater London", "W1T 1NW",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51873642243601
+lng = -0.13568141618908058
+

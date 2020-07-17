@@ -1,0 +1,41 @@
+published = 2013-12-27T16:23:01Z
+title = "Checked in at Newcastle Central Railway Station (NCL)"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/8a80322a17295a70119518e4aa367df2857bd0d39156a1aaafc036010522a25a.png"
+
+[data]
+id = "52bda965498e386effcd110f"
+createdAt = 1388161381
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4b549ea0f964a52019c327e3"
+name = "Newcastle Central Railway Station (NCL)"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d129951735"
+name = "Train Station"
+pluralName = "Train Stations"
+shortName = "Train Station"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Neville St"
+lat = 54.96848569794475
+lng = -1.6173415167971168
+postalCode = "NE1 5DL"
+cc = "GB"
+city = "Newcastle upon Tyne"
+state = "Newcastle upon Tyne"
+country = "United Kingdom"
+formattedAddress = [ "Neville St", "Newcastle upon Tyne", "NE1 5DL",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 54.96848569794475
+lng = -1.6173415167971168
+

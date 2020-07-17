@@ -1,0 +1,42 @@
+published = 2014-01-28T12:25:37Z
+title = "Checked in at Patty & Bun"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/1bc554349fc91757a4a394c603c47674592bc8dabc2c790ae7343a239d34cb3f.png"
+
+[data]
+id = "52e7a1c1498e200a24a29921"
+createdAt = 1390911937
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "50b0bb32e4b03c6b1e26d2ae"
+name = "Patty & Bun"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16c941735"
+name = "Burger Joint"
+pluralName = "Burger Joints"
+shortName = "Burgers"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
+suffix = ".png"
+
+[data.venue.location]
+address = "54 James St"
+lat = 51.51575504348827
+lng = -0.1508501172065735
+postalCode = "W1U 1EU"
+cc = "GB"
+neighborhood = "Marylebone"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "54 James St", "London", "Greater London", "W1U 1EU",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51575504348827
+lng = -0.1508501172065735
+

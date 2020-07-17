@@ -1,0 +1,59 @@
+published = 2016-10-16T13:58:24Z
+title = "Checked in at Vue for Miss Saigon: 25th Anniversary Performance"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca76b9d411cb172ec6e.png"
+tag = [ "miss-saigon-25th-anniversary-performance", "movie",]
+local_timestamp = 2016-10-16T14:58:24Z
+
+[data]
+id = "58037970498ed0721cef6683"
+createdAt = 1476622704
+type = "checkin"
+timeZoneOffset = 60
+shout = "with S-J"
+
+[data.venue]
+id = "4b5b426bf964a5202cef28e3"
+name = "Vue"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d180941735"
+name = "Multiplex"
+pluralName = "Multiplexes"
+shortName = "Cineplex"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.event]
+id = "57e0cb08498e08f06dc89f5e"
+name = "Miss Saigon: 25th Anniversary Performance"
+[[data.event.categories]]
+id = "4dfb90c6bd413dd705e8f897"
+name = "Movie"
+pluralName = "Movies"
+shortName = "Movie"
+primary = true
+
+[data.event.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Fulham Broadway Retail Centre"
+crossStreet = "Fulham Rd"
+lat = 51.480300183123965
+lng = -0.19445343443224616
+postalCode = "SW6 1BW"
+cc = "GB"
+city = "Fulham Broadway"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Fulham Broadway Retail Centre (Fulham Rd)", "Fulham Broadway", "Greater London", "SW6 1BW",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.480300183123965
+lng = -0.19445343443224616
+

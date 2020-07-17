@@ -1,0 +1,44 @@
+published = 2015-01-20T11:17:37Z
+title = "Checked in at Science Museum"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/ba271b342d4894b7bedf5f7b21c2814e19ce41c5c91b364263b32c590eaa6d7a.png"
+
+[data]
+id = "54be3951498efeafd83314b6"
+createdAt = 1421752657
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ac518cdf964a520e9a520e3"
+name = "Science Museum"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d191941735"
+name = "Science Museum"
+pluralName = "Science Museums"
+shortName = "Science Museum"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_science_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Exhibition Rd"
+lat = 51.49735805798784
+lng = -0.17443418552973236
+postalCode = "SW7 2DD"
+cc = "GB"
+neighborhood = "South Kensington"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Exhibition Rd", "London", "Greater London", "SW7 2DD",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.49735805798784
+lng = -0.17443418552973236
+
+[data.venue.venuePage]
+id = "44780007"

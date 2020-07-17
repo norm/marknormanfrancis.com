@@ -1,0 +1,41 @@
+published = 2012-10-30T18:30:01Z
+title = "Checked in at Upstairs at the Ritzy"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/f0dde4d47facaf138b4796e18a0aecbd5f5ecc6e448756a689ca055afc3a7e21.png"
+
+[data]
+id = "50901ca9e4b021eeb43f70f5"
+createdAt = 1351621801
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4d3b72ec6de7721e3fe7f849"
+name = "Upstairs at the Ritzy"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1e7931735"
+name = "Jazz Club"
+pluralName = "Jazz Clubs"
+shortName = "Jazz Club"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_jazzclub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Brixton Oval"
+lat = 51.46118667487387
+lng = -0.11512041091918945
+postalCode = "SW2 1JG"
+cc = "GB"
+city = "Brixton"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Brixton Oval", "Brixton", "Greater London", "SW2 1JG",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.46118667487387
+lng = -0.11512041091918945
+

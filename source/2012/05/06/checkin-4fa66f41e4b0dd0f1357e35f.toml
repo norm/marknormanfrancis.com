@@ -1,0 +1,42 @@
+published = 2012-05-06T13:32:01Z
+title = "Checked in at The Royal Standard Pub"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/b66c403a6f056bb06a4706a1863ad168d696d96811019509b5900f971018a1bc.png"
+local_timestamp = 2012-05-06T14:32:01Z
+
+[data]
+id = "4fa66f41e4b0dd0f1357e35f"
+createdAt = 1336307521
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4b86ca7af964a520989d31e3"
+name = "The Royal Standard Pub"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Wandsworth"
+lat = 51.460852335050056
+lng = -0.18535908116037092
+postalCode = "S W18"
+cc = "GB"
+city = "Wandsworth"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Wandsworth", "Wandsworth", "Greater London", "S W18",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.460852335050056
+lng = -0.18535908116037092
+

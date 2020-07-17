@@ -1,0 +1,44 @@
+published = 2012-07-01T09:39:53Z
+title = "Checked in at St Johns Church"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/ef8e97180676275f200c127814bb55ed6c44fd6e7c7db6e65f7f8b83edee0cc8.png"
+photos = [ "http://mnf.m17s.net/2012/07/01/checkin-4ff00cd9e4b036efb41b15a0-0.jpg",]
+local_timestamp = 2012-07-01T10:39:53Z
+
+[data]
+id = "4ff00cd9e4b036efb41b15a0"
+createdAt = 1341131993
+type = "checkin"
+timeZoneOffset = 60
+shout = "\"This isn't about Jesus is it?\" \"They're all about Jesus, Homer.\""
+
+[data.venue]
+id = "4bf8080b5ec320a11ef387d3"
+name = "St Johns Church"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d132941735"
+name = "Church"
+pluralName = "Churches"
+shortName = "Church"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/religious_church_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Camphill Road"
+lat = 51.338209330722755
+lng = -0.5024696999400974
+postalCode = "KT14 6EH"
+cc = "GB"
+city = "West Byfleet"
+state = "Surrey"
+country = "United Kingdom"
+formattedAddress = [ "Camphill Road", "West Byfleet", "Surrey", "KT14 6EH",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.338209330722755
+lng = -0.5024696999400974
+

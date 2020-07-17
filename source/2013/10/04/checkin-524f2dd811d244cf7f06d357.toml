@@ -1,0 +1,44 @@
+published = 2013-10-04T22:06:32Z
+title = "Checked in at The Bree Louise"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/d5800b1db9bf0e897b536737650299bdf00268b130cdf4823c211109ca54c3d5.png"
+local_timestamp = 2013-10-04T23:06:32Z
+
+[data]
+id = "524f2dd811d244cf7f06d357"
+createdAt = 1380920792
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ad85fb3f964a5201f1121e3"
+name = "The Bree Louise"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "69 Coburg St"
+crossStreet = "at Euston St"
+lat = 51.52707723927694
+lng = -0.13543720687818234
+postalCode = "NW1 2HH"
+cc = "GB"
+city = "Euston"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "69 Coburg St (at Euston St)", "Euston", "Greater London", "NW1 2HH",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.52707723927694
+lng = -0.13543720687818234
+

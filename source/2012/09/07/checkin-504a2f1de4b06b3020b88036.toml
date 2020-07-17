@@ -1,0 +1,39 @@
+published = 2012-09-07T18:30:05Z
+title = "Checked in at Brewery Tap"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/a72d38f647da01d11ae210bc74e18128dca0af3704d59d11fb34ada2e4d6c930.png"
+local_timestamp = 2012-09-07T19:30:05Z
+
+[data]
+id = "504a2f1de4b06b3020b88036"
+createdAt = 1347039005
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4f721676e4b00862661f2b42"
+name = "Brewery Tap"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "103 North Rd."
+crossStreet = "at Cheltanham Pl."
+lat = 50.825449
+lng = -0.137123
+postalCode = "BN1 1YW"
+cc = "GB"
+city = "Brighton"
+state = "East Sussex"
+country = "United Kingdom"
+formattedAddress = [ "103 North Rd. (at Cheltanham Pl.)", "Brighton", "East Sussex", "BN1 1YW",]

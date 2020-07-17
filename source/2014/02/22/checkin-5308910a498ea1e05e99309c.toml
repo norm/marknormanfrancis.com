@@ -1,0 +1,42 @@
+published = 2014-02-22T11:59:06Z
+title = "Checked in at Panchos Salsa Bistro Bar"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/5dab94f133d6bb8f7303d392e03eac1f60aa93a8503796580fa62684b42ceef3.png"
+
+[data]
+id = "5308910a498ea1e05e99309c"
+createdAt = 1393070346
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4c025c3b0d0e0f4756fc009a"
+name = "Panchos Salsa Bistro Bar"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1c1941735"
+name = "Mexican Restaurant"
+pluralName = "Mexican Restaurants"
+shortName = "Mexican"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/mexican_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Court Sq."
+lat = 54.891093513688034
+lng = -2.9331186613303406
+postalCode = "CA1 1QX"
+cc = "GB"
+city = "Carlisle"
+state = "Cumbria"
+country = "United Kingdom"
+formattedAddress = [ "Court Sq.", "Carlisle", "Cumbria", "CA1 1QX",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 54.891093513688034
+lng = -2.9331186613303406
+

@@ -1,0 +1,41 @@
+published = 2014-03-25T17:12:31Z
+title = "Checked in at The Crown"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/a0e32d995f048a789ab1b7139c1edca8122900d0f98e0baee7ca4bc60c5b3262.png"
+
+[data]
+id = "5331b8ff498ea4cc1136cbb3"
+createdAt = 1395767551
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4b632853f964a52026672ae3"
+name = "The Crown"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "51 New Oxford St"
+lat = 51.51668702906091
+lng = -0.12631934441640177
+postalCode = "WC1A 1BL"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "51 New Oxford St", "London", "Greater London", "WC1A 1BL",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51668702906091
+lng = -0.12631934441640177
+

@@ -1,0 +1,43 @@
+published = 2011-06-15T16:12:02Z
+title = "Checked in at St George's Hospital"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/99a7dd796ad32d5798c25251b77832fdd4afb43f3670eed1ee2f9d96f7cfc967.png"
+local_timestamp = 2011-06-15T17:12:02Z
+
+[data]
+id = "4df8cbc245dd816eb5a7fa93"
+createdAt = 1308150722
+type = "checkin"
+timeZoneOffset = 60
+shout = "Picking up wifey."
+
+[data.venue]
+id = "4bfcc92b2b83b713ee92a998"
+name = "St George's Hospital"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d196941735"
+name = "Hospital"
+pluralName = "Hospitals"
+shortName = "Hospital"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/medical_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Blackshaw Rd"
+lat = 51.42664125549244
+lng = -0.17449378967285156
+postalCode = "SW17 0QT"
+cc = "GB"
+city = "Tooting"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Blackshaw Rd", "Tooting", "Greater London", "SW17 0QT",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.42664125549244
+lng = -0.17449378967285156
+

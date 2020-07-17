@@ -1,0 +1,54 @@
+published = 2012-03-13T00:14:26Z
+title = "Checked in at Iron Cactus Mexican Restaurant and Margarita Bar"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/1bdadc029ad36e109140c2d2a876c46240b3493494da26f8dcfc3ddce5d387da.png"
+local_timestamp = 2012-03-12T19:14:26Z
+
+[data]
+id = "4f5e9162e4b0908540ec09c5"
+createdAt = 1331597666
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "40b13b00f964a520b1f31ee3"
+name = "Iron Cactus Mexican Restaurant and Margarita Bar"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1c1941735"
+name = "Mexican Restaurant"
+pluralName = "Mexican Restaurants"
+shortName = "Mexican"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/mexican_"
+suffix = ".png"
+
+[data.venue.location]
+address = "606 Trinity St"
+crossStreet = "at E 6th St"
+lat = 30.26734
+lng = -97.73941
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "606 Trinity St (at E 6th St)", "Austin, TX 78701", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.26734
+lng = -97.73941
+
+[data.venue.delivery]
+id = "1582734"
+url = "https://www.grubhub.com/restaurant/iron-cactus-606-trinity-street-austin/1582734?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1582734"
+
+[data.venue.delivery.provider]
+name = "grubhub"
+
+[data.venue.delivery.provider.icon]
+prefix = "https://fastly.4sqi.net/img/general/cap/"
+sizes = [ 40, 50,]
+name = "/delivery_provider_grubhub_20180129.png"

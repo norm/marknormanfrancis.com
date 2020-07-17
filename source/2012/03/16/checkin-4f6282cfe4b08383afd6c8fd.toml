@@ -1,0 +1,58 @@
+published = 2012-03-16T00:01:19Z
+title = "Checked in at Central Presbyterian Church for Fiona Apple"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/37d28b3045f406b258115318c951b8fc246af29d55bd2ff1a3ed46e665a6ebad.png"
+tag = [ "fiona-apple", "concert",]
+local_timestamp = 2012-03-15T19:01:19Z
+
+[data]
+id = "4f6282cfe4b08383afd6c8fd"
+createdAt = 1331856079
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "440fec14f964a520aa301fe3"
+name = "Central Presbyterian Church"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d132941735"
+name = "Church"
+pluralName = "Churches"
+shortName = "Church"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/religious_church_"
+suffix = ".png"
+
+[data.event]
+id = "4f3eeffa33bd83343748c4bf"
+name = "Fiona Apple"
+[[data.event.categories]]
+id = "4e0a4b91bd41eda0d6092f89"
+name = "Concert"
+pluralName = "Concerts"
+shortName = "Concert"
+primary = true
+
+[data.event.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
+suffix = ".png"
+
+[data.venue.location]
+address = "200 E 8th St"
+crossStreet = "Brazos Street"
+lat = 30.269627670249008
+lng = -97.74056422793554
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "200 E 8th St (Brazos Street)", "Austin, TX 78701", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.269627670249008
+lng = -97.74056422793554
+

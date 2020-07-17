@@ -1,0 +1,43 @@
+published = 2011-12-07T12:32:50Z
+title = "Checked in at Wolfe's Bar & Grill"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/4196ab6fbd116dcdac3c40df37dd4a8198a909c2b3783658a7cfec5d9a84cfb6.png"
+
+[data]
+id = "4edf5cf2b6346b119df29c2d"
+createdAt = 1323261170
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ac518c0f964a52073a320e3"
+name = "Wolfe's Bar & Grill"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d116941735"
+name = "Bar"
+pluralName = "Bars"
+shortName = "Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "30 Great Queen Street"
+lat = 51.51537127038622
+lng = -0.12134778478625347
+postalCode = "WC2B 5BB"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "30 Great Queen Street", "London", "Greater London", "WC2B 5BB",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51537127038622
+lng = -0.12134778478625347
+
+[data.venue.venuePage]
+id = "34271781"

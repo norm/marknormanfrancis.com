@@ -1,0 +1,41 @@
+published = 2016-11-17T19:25:41Z
+title = "Checked in at ICCO"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/86493da2efeae3b0c79cbe427cd96859bcf2ef4d5544ac1edd363642ee10587b.png"
+
+[data]
+id = "582e043585518922dde91e60"
+createdAt = 1479410741
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ac5de20f964a52082b220e3"
+name = "ICCO"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1ca941735"
+name = "Pizza Place"
+pluralName = "Pizza Places"
+shortName = "Pizza"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/pizza_"
+suffix = ".png"
+
+[data.venue.location]
+address = "46 Goodge St"
+lat = 51.51941752611462
+lng = -0.13587448821439746
+postalCode = "W1T 4LU"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "46 Goodge St", "London", "Greater London", "W1T 4LU",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51941752611462
+lng = -0.13587448821439746
+

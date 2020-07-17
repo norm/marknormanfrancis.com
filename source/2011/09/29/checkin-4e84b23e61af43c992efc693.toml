@@ -1,0 +1,43 @@
+published = 2011-09-29T19:00:30Z
+title = "Checked in at The Old Crown"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/ca8b569c2552c19c12b511d59e05ddc5f7207ae1e926f9d01889a06911ed27e1.png"
+local_timestamp = 2011-09-29T20:00:30Z
+
+[data]
+id = "4e84b23e61af43c992efc693"
+createdAt = 1317319230
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ad9cbdbf964a520ee1a21e3"
+name = "The Old Crown"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "33 New Oxford St"
+crossStreet = "Museum St"
+lat = 51.51713733766532
+lng = -0.12498354041635684
+postalCode = "WC1A 1BH"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "33 New Oxford St (Museum St)", "London", "Greater London", "WC1A 1BH",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51713733766532
+lng = -0.12498354041635684
+

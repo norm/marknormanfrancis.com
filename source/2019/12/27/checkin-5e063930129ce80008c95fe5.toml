@@ -1,0 +1,41 @@
+published = 2019-12-27T17:02:40Z
+title = "Checked in at Simpson's-in-the-Strand"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/cc4cf5b8c56d0e66399c71227702a922b0bed0304e20dec98f43bd5a610436d7.png"
+
+[data]
+id = "5e063930129ce80008c95fe5"
+createdAt = 1577466160
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ac518baf964a520cda120e3"
+name = "Simpson's-in-the-Strand"
+[[data.venue.categories]]
+id = "52e81612bcbc57f1066b7a05"
+name = "English Restaurant"
+pluralName = "English Restaurants"
+shortName = "English"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "100 Strand"
+lat = 51.5107472552212
+lng = -0.12053281666656593
+postalCode = "WC2R 0EW"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "100 Strand", "London", "Greater London", "WC2R 0EW",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.5107472552212
+lng = -0.12053281666656593
+

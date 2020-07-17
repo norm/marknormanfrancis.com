@@ -1,0 +1,43 @@
+published = 2012-03-02T12:23:36Z
+title = "Checked in at Bea's of Bloomsbury"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/5af22296dc8d8dba061d34852b40bc259e71dadd39ef638d9127a40e6afc04c2.png"
+
+[data]
+id = "4f50bbc8e4b0f1f5fe7a43f2"
+createdAt = 1330691016
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ace12c9f964a52039ce20e3"
+name = "Bea's of Bloomsbury"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1bc941735"
+name = "Cupcake Shop"
+pluralName = "Cupcake Shops"
+shortName = "Cupcakes"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/cupcakes_"
+suffix = ".png"
+
+[data.venue.location]
+address = "44 Theobald's Rd"
+crossStreet = "Jockey's Fields"
+lat = 51.52089961920781
+lng = -0.1160248615630947
+postalCode = "WC1X 8NW"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "44 Theobald's Rd (Jockey's Fields)", "London", "Greater London", "WC1X 8NW",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.52089961920781
+lng = -0.1160248615630947
+

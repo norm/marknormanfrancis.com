@@ -1,0 +1,37 @@
+published = 2012-02-29T12:20:06Z
+title = "Checked in at Union Jacks"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/ce8638af122a8a05c349a72aafa7891e1165c0bc122b9bc064cf58388c36022e.png"
+
+[data]
+id = "4f4e17f6e4b0629e7b3394de"
+createdAt = 1330518006
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4eb05ca27beb08c1a632a2be"
+name = "Union Jacks"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1c4941735"
+name = "Restaurant"
+pluralName = "Restaurants"
+shortName = "Restaurant"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "4 Central St. Giles Piazza"
+lat = 51.51571331504175
+lng = -0.12767314910888672
+postalCode = "WC2H 8AB"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "4 Central St. Giles Piazza", "London", "Greater London", "WC2H 8AB",]

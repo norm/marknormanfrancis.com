@@ -1,0 +1,48 @@
+published = 2012-03-18T18:41:54Z
+title = "Checked in at Tears of Joy Hot Sauce Shop"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/0420847282ecc3f0b29e2386b2b308cd650d5e28be3e9ff8a62be01c01192218.png"
+local_timestamp = 2012-03-18T13:41:54Z
+
+[data]
+id = "4f662c72e4b05c1d5aeeeb84"
+createdAt = 1332096114
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "45fa815af964a52056441fe3"
+name = "Tears of Joy Hot Sauce Shop"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1f9941735"
+name = "Food & Drink Shop"
+pluralName = "Food & Drink Shops"
+shortName = "Food & Drink"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/foodanddrink_"
+suffix = ".png"
+
+[data.venue.location]
+address = "618 E 6th St"
+crossStreet = "Red River"
+lat = 30.26639731486528
+lng = -97.73640777493088
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "618 E 6th St (Red River)", "Austin, TX 78701", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.26639731486528
+lng = -97.73640777493088
+
+[[data.venue.location.labeledLatLngs]]
+label = "entrance"
+lat = 30.266389
+lng = -97.736367
+

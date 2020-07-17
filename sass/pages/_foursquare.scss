@@ -1,0 +1,21 @@
+body.foursquare {
+    #body figure {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 2em;
+
+        img {
+            max-width: 100%;
+        }
+
+        figcaption {
+            @include small_body_font;
+            color: $nevada;
+            text-align: right;
+        }
+    }
+
+    #body p.image img {
+        max-width: 100%;
+    }
+}

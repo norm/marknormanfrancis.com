@@ -1,0 +1,43 @@
+published = 2012-06-20T12:20:44Z
+title = "Checked in at El Mexicana"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/026b71b53a6c72fcba032cbfbe4850fe04a3ce0c7d57be806e389429d4439769.png"
+local_timestamp = 2012-06-20T13:20:44Z
+
+[data]
+id = "4fe1b20ce4b0bb952f4456b0"
+createdAt = 1340191244
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4f8b134bbb3d0cb6b5a0337b"
+name = "El Mexicana"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d153941735"
+name = "Burrito Place"
+pluralName = "Burrito Places"
+shortName = "Burritos"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/burrito_"
+suffix = ".png"
+
+[data.venue.location]
+address = "44 New Oxford St"
+crossStreet = "at Coptic St"
+lat = 51.51706236351265
+lng = -0.12590757046450696
+postalCode = "WC1A 1ES"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "44 New Oxford St (at Coptic St)", "London", "Greater London", "WC1A 1ES",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51706236351265
+lng = -0.12590757046450696
+

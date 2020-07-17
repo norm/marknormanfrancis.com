@@ -1,0 +1,42 @@
+published = 2012-10-05T09:31:48Z
+title = "Checked in at The Guardian"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/c299b035515d7d75a7c7a1b854b0fe764de2aa5d7f403f08bf1465bc9dd27d4b.png"
+local_timestamp = 2012-10-05T10:31:48Z
+
+[data]
+id = "506e9af4e4b0719dc8f11ee3"
+createdAt = 1349425908
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4acf22e9f964a5207fd220e3"
+name = "The Guardian"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d124941735"
+name = "Office"
+pluralName = "Offices"
+shortName = "Office"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "90 York Way"
+lat = 51.5349911234821
+lng = -0.12185811996459961
+postalCode = "N1 9GU"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "90 York Way", "Camden", "Greater London", "N1 9GU",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.5349911234821
+lng = -0.12185811996459961
+

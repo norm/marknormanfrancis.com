@@ -17,7 +17,7 @@ class Bucket(object):
         for object in self.bucket.objects.all():
             self.bucket_objects.update({object.key: object})
 
-    def upload_file(self, source, destination, check_digest=True):
+    def upload_file(self, source, destination, check_digest=True, mimetype=None):
         if not check_digest and destination in self.bucket_objects:
             return False
 
@@ -28,7 +28,8 @@ class Bucket(object):
             content = open(source, 'rb').read()
 
         digest = '"%s"' % md5(content).hexdigest()
-        mimetype, _ = mimetypes.guess_type(source)
+        if not mimetype:
+            mimetype, _ = mimetypes.guess_type(source)
 
         if destination.startswith('/'):
             destination = destination[1:]

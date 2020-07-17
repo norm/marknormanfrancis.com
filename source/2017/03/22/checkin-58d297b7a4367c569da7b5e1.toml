@@ -1,0 +1,42 @@
+published = 2017-03-22T15:26:47Z
+title = "Checked in at JOE & THE JUICE"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/3343befdb5dce761e1707a3bef6a4ee6205f3cf10440389ec333925ac5f6620b.png"
+
+[data]
+id = "58d297b7a4367c569da7b5e1"
+createdAt = 1490196407
+type = "checkin"
+timeZoneOffset = 0
+shout = "with Hadley"
+
+[data.venue]
+id = "59c253a9c8b2fb2b7e00bcfe"
+name = "JOE & THE JUICE"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d112941735"
+name = "Juice Bar"
+pluralName = "Juice Bars"
+shortName = "Juice Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/juicebar_"
+suffix = ".png"
+
+[data.venue.location]
+address = "335 High Holborn"
+lat = 51.51827042826134
+lng = -0.11146236289410422
+postalCode = "WC1V 7PX"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "335 High Holborn", "London", "Greater London", "WC1V 7PX",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51827042826134
+lng = -0.11146236289410422
+

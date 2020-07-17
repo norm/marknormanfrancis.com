@@ -1,0 +1,42 @@
+published = 2016-08-17T12:38:27Z
+title = "Checked in at wagamama"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/954893b07c1e11295f3689e4beb70481b39aeb56ede79cbda631d5de8317a752.png"
+local_timestamp = 2016-08-17T13:38:27Z
+
+[data]
+id = "57b44cb3498e54f76529e248"
+createdAt = 1471433907
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "50f7facfe4b0e7d0c692cd95"
+name = "wagamama"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d142941735"
+name = "Asian Restaurant"
+pluralName = "Asian Restaurants"
+shortName = "Asian"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/asian_"
+suffix = ".png"
+
+[data.venue.location]
+address = "123 kingsway, basement and ground floor, holborn"
+lat = 51.5169422
+lng = -0.120258
+postalCode = "WC2B 6PA"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "123 kingsway, basement and ground floor, holborn", "London", "Greater London", "WC2B 6PA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.5169422
+lng = -0.120258
+

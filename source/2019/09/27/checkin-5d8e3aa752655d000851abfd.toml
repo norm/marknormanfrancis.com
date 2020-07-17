@@ -1,0 +1,43 @@
+published = 2019-09-27T17:36:55Z
+title = "Checked in at Byron"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/03ad46557b670e542b90c9f482170815c22672bba628c0f169a8cd025e8dad4e.png"
+local_timestamp = 2019-09-27T18:36:55Z
+
+[data]
+id = "5d8e3aa752655d000851abfd"
+createdAt = 1569602215
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "53c03404498e933c414bebe8"
+name = "Byron"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16c941735"
+name = "Burger Joint"
+pluralName = "Burger Joints"
+shortName = "Burgers"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
+suffix = ".png"
+
+[data.venue.location]
+address = "409 Strand"
+crossStreet = "Adam St"
+lat = 51.510017744522834
+lng = -0.1224896825783712
+postalCode = "WC2R 0NS"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "409 Strand (Adam St)", "London", "Greater London", "WC2R 0NS",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.510017744522834
+lng = -0.1224896825783712
+

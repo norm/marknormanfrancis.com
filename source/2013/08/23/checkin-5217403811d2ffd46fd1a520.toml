@@ -1,0 +1,43 @@
+published = 2013-08-23T11:58:00Z
+title = "Checked in at John Lewis & Partners"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/e928ccd5e0c85eca8bd724c55aaf57a4acfa01d88ff039bb42b9c599bf710c89.png"
+local_timestamp = 2013-08-23T12:58:00Z
+
+[data]
+id = "5217403811d2ffd46fd1a520"
+createdAt = 1377255480
+type = "checkin"
+timeZoneOffset = 60
+shout = "with S-J"
+
+[data.venue]
+id = "4baccc36f964a5201f0d3be3"
+name = "John Lewis & Partners"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1f6941735"
+name = "Department Store"
+pluralName = "Department Stores"
+shortName = "Department Store"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/departmentstore_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Eldon Square, Percy Street"
+lat = 54.9753445
+lng = -1.6146818
+postalCode = "NE1 7RR"
+cc = "GB"
+city = "Newcastle upon Tyne"
+state = "Newcastle upon Tyne"
+country = "United Kingdom"
+formattedAddress = [ "Eldon Square, Percy Street", "Newcastle upon Tyne", "NE1 7RR",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 54.9753445
+lng = -1.6146818
+

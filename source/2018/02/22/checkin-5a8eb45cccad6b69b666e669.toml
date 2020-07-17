@@ -1,0 +1,41 @@
+published = 2018-02-22T12:15:24Z
+title = "Checked in at Alpino"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/1bec7d800da9202a27e191211f0ff1aa363f2683fae1247449653676658298bc.png"
+
+[data]
+id = "5a8eb45cccad6b69b666e669"
+createdAt = 1519301724
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ad073c4f964a52016d820e3"
+name = "Alpino"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16d941735"
+name = "Café"
+pluralName = "Cafés"
+shortName = "Café"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/cafe_"
+suffix = ".png"
+
+[data.venue.location]
+address = "97 Chapel Market"
+lat = 51.533403911192366
+lng = -0.11091498751125772
+postalCode = "N1 9EY"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "97 Chapel Market", "London", "Greater London", "N1 9EY",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.533403911192366
+lng = -0.11091498751125772
+

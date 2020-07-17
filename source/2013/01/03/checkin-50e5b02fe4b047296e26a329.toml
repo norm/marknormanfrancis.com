@@ -1,0 +1,41 @@
+published = 2013-01-03T16:22:07Z
+title = "Checked in at The Plough Bar & Kitchen"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/f57c7d71beadfd596a3ef6acd6f54376a45e1f90736e8dd15eece16521bf5c33.png"
+
+[data]
+id = "50e5b02fe4b047296e26a329"
+createdAt = 1357230127
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4e596643c65bcd7cbe349118"
+name = "The Plough Bar & Kitchen"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d116941735"
+name = "Bar"
+pluralName = "Bars"
+shortName = "Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "89 St John's Hill"
+lat = 51.461633
+lng = -0.173325
+postalCode = "SW11 1SY"
+cc = "GB"
+city = "Clapham"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "89 St John's Hill", "Clapham", "Greater London", "SW11 1SY",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.461633
+lng = -0.173325
+

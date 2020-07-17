@@ -1,0 +1,42 @@
+published = 2018-05-03T18:39:24Z
+title = "Checked in at Victoria Palace Theatre"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/cd499719da2576f05132cd5ab68beb8eb3b374588ded038a3dd2b23f582aec8b.png"
+local_timestamp = 2018-05-03T19:39:24Z
+
+[data]
+id = "5aeb494ca9e402002c37da52"
+createdAt = 1525369164
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ac518e7f964a52060ab20e3"
+name = "Victoria Palace Theatre"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d137941735"
+name = "Theater"
+pluralName = "Theaters"
+shortName = "Theater"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Victoria St"
+lat = 51.49684195968544
+lng = -0.14220603100411708
+postalCode = "SW1E 5EA"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Victoria St", "London", "Greater London", "SW1E 5EA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.49684195968544
+lng = -0.14220603100411708
+

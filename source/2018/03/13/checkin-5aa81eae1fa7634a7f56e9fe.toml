@@ -1,0 +1,42 @@
+published = 2018-03-13T18:55:42Z
+title = "Checked in at Benares"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/5aed0806b9074c46e7756a3e544009f85b2c62c17b77376cee764bc186b4bccd.png"
+
+[data]
+id = "5aa81eae1fa7634a7f56e9fe"
+createdAt = 1520967342
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ac518bff964a52047a320e3"
+name = "Benares"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d10f941735"
+name = "Indian Restaurant"
+pluralName = "Indian Restaurants"
+shortName = "Indian"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/indian_"
+suffix = ".png"
+
+[data.venue.location]
+address = "12a Berkeley Square House"
+crossStreet = "Berkeley Sq"
+lat = 51.509667239923154
+lng = -0.14523434700718685
+postalCode = "W1J 6BS"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "12a Berkeley Square House (Berkeley Sq)", "London", "Greater London", "W1J 6BS",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.509667239923154
+lng = -0.14523434700718685
+

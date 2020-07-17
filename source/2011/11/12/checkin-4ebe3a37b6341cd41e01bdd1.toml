@@ -1,0 +1,41 @@
+published = 2011-11-12T09:19:51Z
+title = "Checked in at Corporate Services and Westminster Exchange"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/ed46ee7808fb37ae3c9074b36758fdb9efabc83aba99670817b9bcdd39a73a20.png"
+
+[data]
+id = "4ebe3a37b6341cd41e01bdd1"
+createdAt = 1321089591
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4b1e313ff964a520cb1724e3"
+name = "Corporate Services and Westminster Exchange"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d197941735"
+name = "College Administrative Building"
+pluralName = "College Administrative Buildings"
+shortName = "Administrative Building"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/education/administrativebuilding_"
+suffix = ".png"
+
+[data.venue.location]
+address = "University Of Westminster, 101 New Cavendish St"
+lat = 51.52071896556365
+lng = -0.141108649480522
+postalCode = "W1W 6XH"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "University Of Westminster, 101 New Cavendish St", "London", "Greater London", "W1W 6XH",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.52071896556365
+lng = -0.141108649480522
+

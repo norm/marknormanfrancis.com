@@ -1,0 +1,43 @@
+published = 2017-08-31T11:50:54Z
+title = "Checked in at The Lister Hospital"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/bfdd3ce61a9ab65f1baab695039464eb131af47b8b5ddf0bfcc83deb44c36575.png"
+local_timestamp = 2017-08-31T12:50:54Z
+
+[data]
+id = "59a7ea0e4aa3f839354630a8"
+createdAt = 1504176654
+type = "checkin"
+timeZoneOffset = 60
+shout = "with S-J"
+
+[data.venue]
+id = "4b75862cf964a52094112ee3"
+name = "The Lister Hospital"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d196941735"
+name = "Hospital"
+pluralName = "Hospitals"
+shortName = "Hospital"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/medical_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Chelsea Bridge Rd."
+lat = 51.48635073190487
+lng = -0.15035232312606248
+postalCode = "SW1W 8RH"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Chelsea Bridge Rd.", "London", "Greater London", "SW1W 8RH",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.48635073190487
+lng = -0.15035232312606248
+

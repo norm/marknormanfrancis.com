@@ -1,0 +1,42 @@
+published = 2014-04-08T12:27:20Z
+title = "Checked in at African Kitchen Gallery"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/dd033b60f7246d6a784f6d3f0a733437c0f5853754790f0ffb9ffa5f3cc66bd2.png"
+local_timestamp = 2014-04-08T13:27:20Z
+
+[data]
+id = "5343dd18498ee52e38761bf3"
+createdAt = 1396956440
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4d8a531699c2a1cda7518ed7"
+name = "African Kitchen Gallery"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1c8941735"
+name = "African Restaurant"
+pluralName = "African Restaurants"
+shortName = "African"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/african_"
+suffix = ".png"
+
+[data.venue.location]
+address = "102 drummond st"
+lat = 51.52726549669131
+lng = -0.13638556410526123
+postalCode = "nw1 2hn"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "102 drummond st", "London", "Greater London", "nw1 2hn",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.52726549669131
+lng = -0.13638556410526123
+

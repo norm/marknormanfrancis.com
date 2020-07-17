@@ -1,0 +1,42 @@
+published = 2013-06-19T17:48:33Z
+title = "Checked in at Holborn Whippet"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/1018bc5f216176a4c7b7fe1c4c140cafe2924a70c64cd6345a43d5d424844cba.png"
+local_timestamp = 2013-06-19T18:48:33Z
+
+[data]
+id = "51c1e0e1498e8c2d18fd1303"
+createdAt = 1371660513
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4fb67af3e4b014d752c9b6c7"
+name = "Holborn Whippet"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "25-29 Sicilian Ave"
+lat = 51.51871889823023
+lng = -0.12165225753075339
+postalCode = "WC1A 2QH"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "25-29 Sicilian Ave", "London", "Greater London", "WC1A 2QH",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51871889823023
+lng = -0.12165225753075339
+

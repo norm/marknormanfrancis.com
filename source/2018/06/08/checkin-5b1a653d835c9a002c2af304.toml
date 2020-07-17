@@ -1,0 +1,45 @@
+published = 2018-06-08T12:15:09Z
+title = "Checked in at Pizza Union"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/8c4a9dee7190675654c898e9655a237a1842d923d1c92002959dcaf0677e7b3a.png"
+local_timestamp = 2018-06-08T13:15:09Z
+
+[data]
+id = "5b1a653d835c9a002c2af304"
+createdAt = 1528456509
+type = "checkin"
+timeZoneOffset = 60
+shout = "with Ash"
+
+[data.venue]
+id = "5570465a498eb53da6d0e9d4"
+name = "Pizza Union"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1ca941735"
+name = "Pizza Place"
+pluralName = "Pizza Places"
+shortName = "Pizza"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/pizza_"
+suffix = ".png"
+
+[data.venue.location]
+address = "246-250 Pentonville Rd"
+crossStreet = "Kings Cross Rd"
+lat = 51.53098437323851
+lng = -0.11993333707884483
+postalCode = "N1 9JY"
+cc = "GB"
+neighborhood = "Caledonian"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "246-250 Pentonville Rd (Kings Cross Rd)", "London", "Greater London", "N1 9JY",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.53098437323851
+lng = -0.11993333707884483
+

@@ -1,0 +1,36 @@
+published = 2012-02-24T18:24:50Z
+title = "Checked in at West Byfleet Railway Station (WBY)"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/191f69692cf4eb0be350df8a92938eb42a2113c9381e33c7181b5683cf46d281.png"
+
+[data]
+id = "4f47d5f2e4b05259398bd0a4"
+createdAt = 1330107890
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ae000c3f964a520167e21e3"
+name = "West Byfleet Railway Station (WBY)"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d129951735"
+name = "Train Station"
+pluralName = "Train Stations"
+shortName = "Train Station"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Station Approach"
+lat = 51.339540032031465
+lng = -0.5052852630615234
+postalCode = "KT14 6DY"
+cc = "GB"
+city = "West Byfleet"
+state = "Surrey"
+country = "United Kingdom"
+formattedAddress = [ "Station Approach", "West Byfleet", "Surrey", "KT14 6DY",]

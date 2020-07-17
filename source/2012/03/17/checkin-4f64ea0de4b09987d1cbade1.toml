@@ -1,0 +1,45 @@
+published = 2012-03-17T19:46:21Z
+title = "Checked in at Schlotzsky's"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/3dcac064876d82e8df301977750348a0142d69bf8974624084f97eaa73e208c8.png"
+local_timestamp = 2012-03-17T14:46:21Z
+
+[data]
+id = "4f64ea0de4b09987d1cbade1"
+createdAt = 1332013581
+type = "checkin"
+timeZoneOffset = -300
+shout = "Raspberry Coke FTMFW"
+
+[data.venue]
+id = "4b2fbb9cf964a520c2ee24e3"
+name = "Schlotzsky's"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1c5941735"
+name = "Sandwich Place"
+pluralName = "Sandwich Places"
+shortName = "Sandwiches"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/deli_"
+suffix = ".png"
+
+[data.venue.location]
+address = "1915 Guadalupe St"
+crossStreet = "at MLK Blvd."
+lat = 30.28243660126685
+lng = -97.74175020662625
+postalCode = "78705"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "1915 Guadalupe St (at MLK Blvd.)", "Austin, TX 78705", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.28243660126685
+lng = -97.74175020662625
+

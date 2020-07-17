@@ -1,0 +1,42 @@
+published = 2019-12-21T19:42:43Z
+title = "Checked in at The Frog Covent Garden"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/1f3a74ef4e820ff3234c6128bfbc32c117aa3d29831689462cb2cf9623da4894.png"
+
+[data]
+id = "5dfe75b3d70dc10007a4899a"
+createdAt = 1576957363
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "59b6f95a2a7ab60501a5667f"
+name = "The Frog Covent Garden"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1c4941735"
+name = "Restaurant"
+pluralName = "Restaurants"
+shortName = "Restaurant"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "34-38 Southampton St"
+crossStreet = "Maiden Lane"
+lat = 51.51084775182632
+lng = -0.12196040538369123
+postalCode = "WC2E 7HG"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "34-38 Southampton St (Maiden Lane)", "London", "Greater London", "WC2E 7HG",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51084775182632
+lng = -0.12196040538369123
+

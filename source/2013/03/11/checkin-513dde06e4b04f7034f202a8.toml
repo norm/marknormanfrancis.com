@@ -1,0 +1,38 @@
+published = 2013-03-11T13:37:10Z
+title = "Checked in at The Divers' Inn"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/fe3fb23f29fe82b7b63be7943db7de9523f2638485545620a0120046bca6dcfd.png"
+
+[data]
+id = "513dde06e4b04f7034f202a8"
+createdAt = 1363009030
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4db187fd8154905aadc20b19"
+name = "The Divers' Inn"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d116941735"
+name = "Bar"
+pluralName = "Bars"
+shortName = "Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+lat = 49.722633
+lng = -2.199816
+cc = "GG"
+state = "Bailiwick of Guernsey"
+country = "Guernsey"
+formattedAddress = [ "Guernsey",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 49.722633
+lng = -2.199816
+

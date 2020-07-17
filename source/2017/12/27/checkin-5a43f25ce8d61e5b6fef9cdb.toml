@@ -1,0 +1,49 @@
+published = 2017-12-27T19:19:56Z
+title = "Checked in at Theatre Royal, Drury Lane for 42nd Street (Touring)"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/89694e66d1c0404b0cb126aaeebc8677ddf414d8651c9c1e4e195584305bba23.png"
+tag = [ "42nd-street-touring",]
+
+[data]
+id = "5a43f25ce8d61e5b6fef9cdb"
+createdAt = 1514402396
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4b855193f964a520665631e3"
+name = "Theatre Royal, Drury Lane"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d137941735"
+name = "Theater"
+pluralName = "Theaters"
+shortName = "Theater"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
+suffix = ".png"
+
+[data.event]
+id = "5930eb9f6dcf0457e7c44723"
+name = "42nd Street (Touring)"
+categories = []
+
+[data.venue.location]
+address = "Catherine St"
+crossStreet = "at Russell St"
+lat = 51.513066778067355
+lng = -0.12030367354297458
+postalCode = "WC2B 5JF"
+cc = "GB"
+neighborhood = "Covent"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Catherine St (at Russell St)", "London", "Greater London", "WC2B 5JF",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.513066778067355
+lng = -0.12030367354297458
+

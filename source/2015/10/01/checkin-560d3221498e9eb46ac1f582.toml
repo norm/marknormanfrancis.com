@@ -1,0 +1,41 @@
+published = 2015-10-01T14:16:17Z
+title = "Checked in at The Top Floor Restaurant"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/e17ecc9b13bb6e911c4af19dacd2b40fdeafa0534903b3981ad9e1787efaa853.png"
+local_timestamp = 2015-10-01T15:16:17Z
+
+[data]
+id = "560d3221498e9eb46ac1f582"
+createdAt = 1443705377
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "5147302ee4b0c80a44b8f783"
+name = "The Top Floor Restaurant"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1c4941735"
+name = "Restaurant"
+pluralName = "Restaurants"
+shortName = "Restaurant"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Peter Jones"
+lat = 51.49234288284505
+lng = -0.15883016727662103
+cc = "GB"
+city = "Chelsea"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Peter Jones", "Chelsea", "Greater London",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.49234288284505
+lng = -0.15883016727662103
+

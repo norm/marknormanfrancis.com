@@ -1,0 +1,42 @@
+published = 2011-11-14T18:43:09Z
+title = "Checked in at Shooting Star"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/34ec8f228d47e36c19744bc093ce8664077dec3bdd9b090b41656c916b9fc5a5.png"
+
+[data]
+id = "4ec1613d775b98876ee0ed09"
+createdAt = 1321296189
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ad354b7f964a520d3e320e3"
+name = "Shooting Star"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "125-129 Middlesex St."
+lat = 51.51802815037299
+lng = -0.07856020561399264
+postalCode = "E1 7JF"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "125-129 Middlesex St.", "London", "Greater London", "E1 7JF",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51802815037299
+lng = -0.07856020561399264
+

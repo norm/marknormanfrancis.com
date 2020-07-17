@@ -1,0 +1,37 @@
+published = 2011-07-23T10:33:03Z
+title = "Checked in at London Liverpool Street Railway Station (LST)"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/1d3bb73a7fa62e409140ad2f1b3d2cc77da34aaf315dcdd5cecbdcda329cf56c.png"
+local_timestamp = 2011-07-23T11:33:03Z
+
+[data]
+id = "4e2a954fc65bcaf400252559"
+createdAt = 1311413583
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4af47862f964a520d6f221e3"
+name = "London Liverpool Street Railway Station (LST)"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d129951735"
+name = "Train Station"
+pluralName = "Train Stations"
+shortName = "Train Station"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Bishopsgate"
+lat = 51.51800499138578
+lng = -0.0820601492903946
+postalCode = "EC2M 7PY"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Bishopsgate", "London", "Greater London", "EC2M 7PY",]

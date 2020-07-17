@@ -1,0 +1,39 @@
+published = 2013-10-08T23:01:22Z
+title = "Checked in at Glebe Barn Hostel"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/35e75a99c295777b75539fbaf83f0142e8d3d3dec3cf965ca56e43881142490d.png"
+local_timestamp = 2013-10-09T00:01:22Z
+
+[data]
+id = "525480b211d230997c971c49"
+createdAt = 1381269682
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "51ac635e498e444270c55ea8"
+name = "Glebe Barn Hostel"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1f8931735"
+name = "Bed & Breakfast"
+pluralName = "Bed & Breakfasts"
+shortName = "B & B"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/bedandbreakfast_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Isle Of Eigg"
+lat = 56.890104
+lng = -6.133255
+cc = "GB"
+country = "United Kingdom"
+formattedAddress = [ "Isle Of Eigg",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 56.890104
+lng = -6.133255
+

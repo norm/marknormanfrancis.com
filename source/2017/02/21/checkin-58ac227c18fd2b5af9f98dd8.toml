@@ -1,0 +1,42 @@
+published = 2017-02-21T11:20:28Z
+title = "Checked in at Boots"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/8cc230d18f3123f96ec8088483aefe5f9e5ab1272141a080d7bd71fbacf97d89.png"
+
+[data]
+id = "58ac227c18fd2b5af9f98dd8"
+createdAt = 1487676028
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4c235af39a67a5930ddddd87"
+name = "Boots"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d10f951735"
+name = "Pharmacy"
+pluralName = "Pharmacies"
+shortName = "Pharmacy"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/pharmacy_"
+suffix = ".png"
+
+[data.venue.location]
+address = "122 Holborn"
+crossStreet = "at Hatton Garden"
+lat = 51.51803768337566
+lng = -0.10825727116389317
+postalCode = "EC1N 2TD"
+cc = "GB"
+city = "Holborn"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "122 Holborn (at Hatton Garden)", "Holborn", "Greater London", "EC1N 2TD",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51803768337566
+lng = -0.10825727116389317
+

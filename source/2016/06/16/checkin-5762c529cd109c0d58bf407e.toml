@@ -1,0 +1,41 @@
+published = 2016-06-16T16:26:33Z
+title = "Checked in at Bath Arms"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/42883d4f644a1e81e91a849a9a79abda0525eab58915873e6836f34bbd51b891.png"
+local_timestamp = 2016-06-16T17:26:33Z
+
+[data]
+id = "5762c529cd109c0d58bf407e"
+createdAt = 1466090793
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4b058845f964a52065bb22e3"
+name = "Bath Arms"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "3-4 Meeting House Lane"
+lat = 50.82215994049652
+lng = -0.14095820886209934
+postalCode = "BN1 1HB"
+cc = "GB"
+city = "Brighton"
+country = "United Kingdom"
+formattedAddress = [ "3-4 Meeting House Lane", "Brighton", "BN1 1HB",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 50.82215994049652
+lng = -0.14095820886209934
+

@@ -1,0 +1,39 @@
+published = 2012-03-15T02:24:48Z
+title = "Checked in at La Zona Rosa"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/8cc363cf93501e83d6aa68d4ec6dc4e501755002bfd92a7a407a7f5bb3cc312f.png"
+local_timestamp = 2012-03-14T21:24:48Z
+
+[data]
+id = "4f6152f0e4b0f9d47676cfda"
+createdAt = 1331778288
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "40b13b00f964a520bcf31ee3"
+name = "La Zona Rosa"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1e5931735"
+name = "Music Venue"
+pluralName = "Music Venues"
+shortName = "Music Venue"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
+suffix = ".png"
+
+[data.venue.location]
+address = "612 W 4th St"
+crossStreet = "at Rio Grande St."
+lat = 30.267999987606192
+lng = -97.74968353610561
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "612 W 4th St (at Rio Grande St.)", "Austin, TX 78701", "United States",]

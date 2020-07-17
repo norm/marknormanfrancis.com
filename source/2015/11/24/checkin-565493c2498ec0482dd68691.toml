@@ -1,0 +1,43 @@
+published = 2015-11-24T16:43:46Z
+title = "Checked in at Metal Box Factory"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/b60b60fcbe79223d3d0af7af35f05e3100189310815d7c106a01d174f7913fe4.png"
+
+[data]
+id = "565493c2498ec0482dd68691"
+createdAt = 1448383426
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "54e48ab8498e0e161ef14a62"
+name = "Metal Box Factory"
+[[data.venue.categories]]
+id = "56aa371be4b08b9a8d573517"
+name = "Business Center"
+pluralName = "Business Centers"
+shortName = "Business Center"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "30 Great Guildford St"
+lat = 51.50464677641751
+lng = -0.09705656908742265
+postalCode = "SE1 0HS"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "30 Great Guildford St", "London", "Greater London", "SE1 0HS",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50464677641751
+lng = -0.09705656908742265
+
+[data.venue.venuePage]
+id = "516544510"

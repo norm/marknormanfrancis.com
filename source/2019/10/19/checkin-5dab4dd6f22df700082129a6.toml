@@ -1,0 +1,42 @@
+published = 2019-10-19T18:54:30Z
+title = "Checked in at Garrick Theatre"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/19fa561c8ab750fbabbb4fcb3be6d6aa60a4e307898502a54e293a5ad42f8ba6.png"
+local_timestamp = 2019-10-19T19:54:30Z
+
+[data]
+id = "5dab4dd6f22df700082129a6"
+createdAt = 1571507670
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ac518e7f964a52049ab20e3"
+name = "Garrick Theatre"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d137941735"
+name = "Theater"
+pluralName = "Theaters"
+shortName = "Theater"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Charing Cross Rd."
+lat = 51.51004445763588
+lng = -0.1280824570902142
+postalCode = "WC2H 0HH"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Charing Cross Rd.", "London", "Greater London", "WC2H 0HH",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51004445763588
+lng = -0.1280824570902142
+

@@ -1,0 +1,43 @@
+published = 2014-02-08T10:20:58Z
+title = "Checked in at Caffè di Fiore"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/8d12f88ebcb56397c63b4dc5067982e0a9b99aff64b23431308002598d32c679.png"
+local_timestamp = 2014-02-08T11:20:58Z
+
+[data]
+id = "52f6050a498e684da3002041"
+createdAt = 1391854858
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4dfe5cc82271043ca809ce13"
+name = "Caffè di Fiore"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16d941735"
+name = "Café"
+pluralName = "Cafés"
+shortName = "Café"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/cafe_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Terminal 1"
+crossStreet = "Aeroport de Barcelona-El Prat"
+lat = 41.28842691474792
+lng = 2.0726734898908084
+postalCode = "08820"
+cc = "ES"
+city = "El Prat de Llobregat"
+state = "Catalonia"
+country = "Spain"
+formattedAddress = [ "Terminal 1 (Aeroport de Barcelona-El Prat)", "08820 El Prat de Llobregat Cataluña", "España",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 41.28842691474792
+lng = 2.0726734898908084
+

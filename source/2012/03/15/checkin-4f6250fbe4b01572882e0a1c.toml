@@ -1,0 +1,49 @@
+published = 2012-03-15T20:28:43Z
+title = "Checked in at The Grackle for Japan Preview Day Party"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/0fb98610e6a217ff776be2c9ae52dc6ca4a5e392251559b3897c95403aa69906.png"
+tag = [ "japan-preview-day-party",]
+local_timestamp = 2012-03-15T15:28:43Z
+
+[data]
+id = "4f6250fbe4b01572882e0a1c"
+createdAt = 1331843323
+type = "checkin"
+timeZoneOffset = -300
+
+[data.venue]
+id = "4d3678dfedbd3704d5d46ae3"
+name = "The Grackle"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d118941735"
+name = "Dive Bar"
+pluralName = "Dive Bars"
+shortName = "Dive Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/divebar_"
+suffix = ".png"
+
+[data.event]
+id = "4f55aabdaf243dc300d30cf0"
+name = "Japan Preview Day Party"
+categories = []
+
+[data.venue.location]
+address = "1700 E 6th St"
+crossStreet = "at Chalmers"
+lat = 30.262662239226913
+lng = -97.72417333115158
+postalCode = "78702"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "1700 E 6th St (at Chalmers)", "Austin, TX 78702", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.262662239226913
+lng = -97.72417333115158
+

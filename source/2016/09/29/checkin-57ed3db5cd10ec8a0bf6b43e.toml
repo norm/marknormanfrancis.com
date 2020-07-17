@@ -1,0 +1,42 @@
+published = 2016-09-29T17:13:41Z
+title = "Checked in at Cittie of Yorke"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/be7237a7784f4c8b03ef1c73f70f6453a1f99fbb8148397c812d866edb41e9b3.png"
+local_timestamp = 2016-09-29T18:13:41Z
+
+[data]
+id = "57ed3db5cd10ec8a0bf6b43e"
+createdAt = 1475165621
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ac518c3f964a52043a420e3"
+name = "Cittie of Yorke"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "22 High Holborn"
+lat = 51.51862020527331
+lng = -0.11259924995358635
+postalCode = "WC1V 6BN"
+cc = "GB"
+city = "Holborn"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "22 High Holborn", "Holborn", "Greater London", "WC1V 6BN",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51862020527331
+lng = -0.11259924995358635
+

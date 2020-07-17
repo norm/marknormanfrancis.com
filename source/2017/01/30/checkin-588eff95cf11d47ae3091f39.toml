@@ -1,0 +1,41 @@
+published = 2017-01-30T08:55:49Z
+title = "Checked in at Money Advice Service"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/2b5b7bfdc23e2a22affd9bc4f9f5d48a6e3ab2b4121bfc391ae3267b60f3a651.png"
+
+[data]
+id = "588eff95cf11d47ae3091f39"
+createdAt = 1485766549
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4f5dc4d7e4b0695cbc3efdea"
+name = "Money Advice Service"
+[[data.venue.categories]]
+id = "5453de49498eade8af355881"
+name = "Business Service"
+pluralName = "Business Services"
+shortName = "Business Services"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "120 Holborn"
+lat = 51.517977300778846
+lng = -0.10852804842872174
+postalCode = "EC1N 2TD"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "120 Holborn", "London", "Greater London", "EC1N 2TD",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.517977300778846
+lng = -0.10852804842872174
+

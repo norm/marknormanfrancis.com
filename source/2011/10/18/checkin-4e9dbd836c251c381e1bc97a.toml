@@ -1,0 +1,38 @@
+published = 2011-10-18T18:55:15Z
+title = "Checked in at Forward Internet Group"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/4e4d3d51cafbf6bd74079ad225013092b33e76d604e647a2e0505c110eb519e0.png"
+local_timestamp = 2011-10-18T19:55:15Z
+
+[data]
+id = "4e9dbd836c251c381e1bc97a"
+createdAt = 1318960515
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4d9f5951090da093c0b1d4a8"
+name = "Forward Internet Group"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d130941735"
+name = "Building"
+pluralName = "Buildings"
+shortName = "Building"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "19 Mandela St"
+lat = 51.537977802015696
+lng = -0.13690636036280232
+postalCode = "NW1 0DU"
+cc = "GB"
+city = "Camden Town"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "19 Mandela St", "Camden Town", "Greater London", "NW1 0DU",]

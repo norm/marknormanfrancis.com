@@ -1,0 +1,43 @@
+published = 2014-05-01T18:23:11Z
+title = "Checked in at The Euston Tap"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/7598daee40e7276879ea42cd669c417465e0182a88d22c352876f7f8a3745d77.png"
+local_timestamp = 2014-05-01T19:23:11Z
+
+[data]
+id = "536282ff498ea3711aa1b3f4"
+createdAt = 1398964991
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4cd450ca67adf04da9952691"
+name = "The Euston Tap"
+[[data.venue.categories]]
+id = "56aa371ce4b08b9a8d57356c"
+name = "Beer Bar"
+pluralName = "Beer Bars"
+shortName = "Beer Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "190 Euston Rd"
+lat = 51.52696192013927
+lng = -0.13253062963485718
+postalCode = "NW1 2EF"
+cc = "GB"
+neighborhood = "Euston"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "190 Euston Rd", "London", "Greater London", "NW1 2EF",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.52696192013927
+lng = -0.13253062963485718
+

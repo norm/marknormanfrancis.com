@@ -1,0 +1,35 @@
+published = 2013-09-23T10:30:33Z
+title = "Checked in at King's Cross"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/27364d89133eea8d376e105a9f9e4bc6475cd7b21b226f7cf7cd260b4fa975f3.png"
+local_timestamp = 2013-09-23T11:30:33Z
+
+[data]
+id = "52400a39498ec8d8f1e655d4"
+createdAt = 1379928633
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4f60c409e4b0490588514404"
+name = "King's Cross"
+[[data.venue.categories]]
+id = "4f2a25ac4b909258e854f55f"
+name = "Neighborhood"
+pluralName = "Neighborhoods"
+shortName = "Neighborhood"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_"
+suffix = ".png"
+
+[data.venue.location]
+lat = 51.53241410381835
+lng = -0.12505947146648633
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Camden", "Greater London",]

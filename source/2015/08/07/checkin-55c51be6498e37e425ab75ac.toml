@@ -1,0 +1,45 @@
+published = 2015-08-07T21:58:14Z
+title = "Checked in at Royal Albert Hall"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/a8e490b5335fe48dfd504b824130cc5a00c1fad48c4e9e0df2892a2415e02f25.png"
+local_timestamp = 2015-08-07T22:58:14Z
+
+[data]
+id = "55c51be6498e37e425ab75ac"
+createdAt = 1438981094
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ac518e8f964a52075ab20e3"
+name = "Royal Albert Hall"
+[[data.venue.categories]]
+id = "5032792091d4c4b30a586d5c"
+name = "Concert Hall"
+pluralName = "Concert Halls"
+shortName = "Concert Hall"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Kensington Gore"
+lat = 51.50112169476231
+lng = -0.17741730766218888
+postalCode = "SW7 2AP"
+cc = "GB"
+neighborhood = "Kensington"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Kensington Gore", "London", "Greater London", "SW7 2AP",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50112169476231
+lng = -0.17741730766218888
+
+[data.venue.venuePage]
+id = "66554972"

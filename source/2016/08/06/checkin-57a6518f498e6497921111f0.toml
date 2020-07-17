@@ -1,0 +1,42 @@
+published = 2016-08-06T22:07:27Z
+title = "Checked in at McDonald's"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/61e75902e31e1668be593c84f5716d26dae5538c609ddc879e8960e67fe653b5.png"
+local_timestamp = 2016-08-06T23:07:27Z
+
+[data]
+id = "57a6518f498e6497921111f0"
+createdAt = 1470517647
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4b8d96a8f964a520c60233e3"
+name = "McDonald's"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16e941735"
+name = "Fast Food Restaurant"
+pluralName = "Fast Food Restaurants"
+shortName = "Fast Food"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/fastfood_"
+suffix = ".png"
+
+[data.venue.location]
+address = "1 Marl Rd"
+lat = 51.46229384967831
+lng = -0.18675780585555776
+postalCode = "SW18 1JT"
+cc = "GB"
+city = "Wandsworth"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "1 Marl Rd", "Wandsworth", "Greater London", "SW18 1JT",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.46229384967831
+lng = -0.18675780585555776
+

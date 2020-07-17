@@ -1,0 +1,37 @@
+published = 2013-08-22T13:46:11Z
+title = "Checked in at Tranwell Unit"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/312c84ca2a0f04c6dabb3f2050bbd56e96aa5fc40274652ccd9dd53960e32e11.png"
+local_timestamp = 2013-08-22T14:46:11Z
+
+[data]
+id = "5216081311d2f79c12f91b2c"
+createdAt = 1377175571
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "508a5641e4b0b3d62d07731a"
+name = "Tranwell Unit"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d104941735"
+name = "Medical Center"
+pluralName = "Medical Centers"
+shortName = "Medical"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/medical_"
+suffix = ".png"
+
+[data.venue.location]
+lat = 54.940026718312595
+lng = -1.578469840034282
+cc = "GB"
+country = "United Kingdom"
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 54.940026718312595
+lng = -1.578469840034282
+

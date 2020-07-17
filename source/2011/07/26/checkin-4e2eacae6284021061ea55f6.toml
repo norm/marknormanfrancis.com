@@ -1,0 +1,46 @@
+published = 2011-07-26T13:01:50Z
+title = "Checked in at Big Ben (Elizabeth Tower)"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/fa35591ad106b37221929004ac47ab20f2e6abec5f175e58d38f0b1c278ef662.png"
+local_timestamp = 2011-07-26T14:01:50Z
+
+[data]
+id = "4e2eacae6284021061ea55f6"
+createdAt = 1311681710
+type = "checkin"
+timeZoneOffset = 60
+shout = "Actually called the clock tower. But who am I to argue with foursquare?"
+
+[data.venue]
+id = "4ac518cef964a520f6a520e3"
+name = "Big Ben (Elizabeth Tower)"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d12d941735"
+name = "Monument / Landmark"
+pluralName = "Monuments / Landmarks"
+shortName = "Landmark"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/government_monument_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Parliament Sq"
+crossStreet = "Bridge St"
+lat = 51.50062
+lng = -0.124578
+postalCode = "SW1A 0AA"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Parliament Sq (Bridge St)", "London", "Greater London", "SW1A 0AA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50062
+lng = -0.124578
+
+[data.venue.venuePage]
+id = "54926925"

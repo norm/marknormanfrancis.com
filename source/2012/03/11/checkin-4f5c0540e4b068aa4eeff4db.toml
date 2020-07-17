@@ -1,0 +1,45 @@
+published = 2012-03-11T01:52:00Z
+title = "Checked in at Champions Restaurant & Sports Bar"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/fb887484f3e8e317a6760882b02badbba7bda14e683973defc959397f75351ff.png"
+local_timestamp = 2012-03-10T19:52:00Z
+
+[data]
+id = "4f5c0540e4b068aa4eeff4db"
+createdAt = 1331430720
+type = "checkin"
+timeZoneOffset = -360
+
+[data.venue]
+id = "47e29b8af964a520454e1fe3"
+name = "Champions Restaurant & Sports Bar"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11d941735"
+name = "Sports Bar"
+pluralName = "Sports Bars"
+shortName = "Sports Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/sportsbar_"
+suffix = ".png"
+
+[data.venue.location]
+address = "300 E 4th St"
+crossStreet = "at Trinity St"
+lat = 30.2655193
+lng = -97.7402735
+postalCode = "78701"
+cc = "US"
+city = "Austin"
+state = "TX"
+country = "United States"
+formattedAddress = [ "300 E 4th St (at Trinity St)", "Austin, TX 78701", "United States",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 30.2655193
+lng = -97.7402735
+
+[data.venue.venuePage]
+id = "33106632"

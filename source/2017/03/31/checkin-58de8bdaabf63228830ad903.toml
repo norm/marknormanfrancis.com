@@ -1,0 +1,44 @@
+published = 2017-03-31T18:03:22Z
+title = "Checked in at Brady's"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/a4ccc202cbe4553718cfb9b61f3a960e121a7092590d81e97bb4d6d13c52ceae.png"
+local_timestamp = 2017-03-31T19:03:22Z
+
+[data]
+id = "58de8bdaabf63228830ad903"
+createdAt = 1490979802
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "51d856e0498e73f7629946c0"
+name = "Brady's"
+closed = true
+[[data.venue.categories]]
+id = "4edd64a0c7ddd24ca188df1a"
+name = "Fish & Chips Shop"
+pluralName = "Fish & Chips Shops"
+shortName = "Fish & Chips"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/fishandchips_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Dolphin House"
+crossStreet = "Smugglers Way"
+lat = 51.46365672051536
+lng = -0.18827022659086576
+postalCode = "SW18 1DG"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Dolphin House (Smugglers Way)", "London", "Greater London", "SW18 1DG",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.46365672051536
+lng = -0.18827022659086576
+

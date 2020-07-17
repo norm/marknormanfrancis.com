@@ -1,0 +1,42 @@
+published = 2013-10-17T17:13:31Z
+title = "Checked in at The Knights Templar (Wetherspoon)"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/d7220d5996c766a177ed343fde9ea73eabd980d04e3da0a306090ba0ea358a54.png"
+local_timestamp = 2013-10-17T18:13:31Z
+
+[data]
+id = "52600cab11d22aceb130c65c"
+createdAt = 1382026411
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ac518c3f964a52035a420e3"
+name = "The Knights Templar (Wetherspoon)"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "95 Chancery Ln"
+lat = 51.515274441071824
+lng = -0.11185003942275863
+postalCode = "WC2A 1DT"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "95 Chancery Ln", "London", "Greater London", "WC2A 1DT",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.515274441071824
+lng = -0.11185003942275863
+

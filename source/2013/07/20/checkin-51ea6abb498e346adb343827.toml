@@ -1,0 +1,43 @@
+published = 2013-07-20T11:47:23Z
+title = "Checked in at The O2 Arena"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/88b2aa1ef365a8c195a079377c5cb608cbdd77f6637a46653d6f4b03b27824b3.png"
+local_timestamp = 2013-07-20T12:47:23Z
+
+[data]
+id = "51ea6abb498e346adb343827"
+createdAt = 1374317243
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ac518eaf964a52007ac20e3"
+name = "The O2 Arena"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1e5931735"
+name = "Music Venue"
+pluralName = "Music Venues"
+shortName = "Music Venue"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Peninsula Sq"
+crossStreet = "at Millennium Way"
+lat = 51.502827
+lng = 0.003182
+postalCode = "SE10 0DX"
+cc = "GB"
+city = "Greenwich"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Peninsula Sq (at Millennium Way)", "Greenwich", "Greater London", "SE10 0DX",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.502827
+lng = 0.003182
+

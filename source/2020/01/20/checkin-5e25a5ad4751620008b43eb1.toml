@@ -1,0 +1,59 @@
+published = 2020-01-20T13:05:49Z
+title = "Checked in at Cineworld for Jojo Rabbit"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/1dd1af2421c5dccd68e4e93d06374e0258f08ba235d6ef25251d4e5dc0616c89.png"
+tag = [ "jojo-rabbit", "movie",]
+
+[data]
+id = "5e25a5ad4751620008b43eb1"
+createdAt = 1579525549
+type = "checkin"
+timeZoneOffset = 0
+shout = "with S-J"
+
+[data.venue]
+id = "4adb5f4af964a520912621e3"
+name = "Cineworld"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d180941735"
+name = "Multiplex"
+pluralName = "Multiplexes"
+shortName = "Cineplex"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.event]
+id = "5de2ea9dc2f87b000d4089b0"
+name = "Jojo Rabbit"
+[[data.event.categories]]
+id = "4dfb90c6bd413dd705e8f897"
+name = "Movie"
+pluralName = "Movies"
+shortName = "Movie"
+primary = true
+
+[data.event.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Southside Shopping Centre"
+crossStreet = "High St"
+lat = 51.4541378290051
+lng = -0.19308159316362275
+postalCode = "SW18 4TF"
+cc = "GB"
+neighborhood = "Wandsworth Town"
+city = "Wandsworth"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Southside Shopping Centre (High St)", "Wandsworth", "Greater London", "SW18 4TF",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.4541378290051
+lng = -0.19308159316362275
+

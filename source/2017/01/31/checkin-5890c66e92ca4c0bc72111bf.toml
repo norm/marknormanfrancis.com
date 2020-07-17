@@ -1,0 +1,43 @@
+published = 2017-01-31T17:16:30Z
+title = "Checked in at Laughing Halibut"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/dc64d66efe2dd840be00a47e03b61bc8715d8b63060e304768b83a0d822ab2e1.png"
+
+[data]
+id = "5890c66e92ca4c0bc72111bf"
+createdAt = 1485882990
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4bed4c1e6e8c20a1ae1f7061"
+name = "Laughing Halibut"
+closed = true
+[[data.venue.categories]]
+id = "4edd64a0c7ddd24ca188df1a"
+name = "Fish & Chips Shop"
+pluralName = "Fish & Chips Shops"
+shortName = "Fish & Chips"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/fishandchips_"
+suffix = ".png"
+
+[data.venue.location]
+address = "38 Strutton Ground"
+lat = 51.496635
+lng = -0.133882
+postalCode = "SW1P 2HR"
+cc = "GB"
+neighborhood = "Westminster"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "38 Strutton Ground", "London", "Greater London", "SW1P 2HR",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.496635
+lng = -0.133882
+

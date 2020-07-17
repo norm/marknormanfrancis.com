@@ -1,0 +1,42 @@
+published = 2013-09-07T09:55:13Z
+title = "Checked in at King George's Park"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/3f3568be3cf9c73871f26a11533419b607e54ede07273e9bc2fbf6db577b79ab.png"
+local_timestamp = 2013-09-07T10:55:13Z
+
+[data]
+id = "522ae9f111d299ee425553d9"
+createdAt = 1378544113
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ae4c5c6f964a520029e21e3"
+name = "King George's Park"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d163941735"
+name = "Park"
+pluralName = "Parks"
+shortName = "Park"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Burr Rd"
+lat = 51.45276174271085
+lng = -0.194734571066702
+postalCode = "SW18 1HX"
+cc = "GB"
+city = "Wandsworth"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Burr Rd", "Wandsworth", "Greater London", "SW18 1HX",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.45276174271085
+lng = -0.194734571066702
+

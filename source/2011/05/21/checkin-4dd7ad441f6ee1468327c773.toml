@@ -1,0 +1,43 @@
+published = 2011-05-21T13:17:08Z
+title = "Checked in at Browns"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/cf058457cf2263e5ada3c7d8d42ec0a92dbf170de0c03a5b1e5fa136502124b1.png"
+photos = [ "http://mnf.m17s.net/2011/05/21/checkin-4dd7ad441f6ee1468327c773-0.jpg",]
+local_timestamp = 2011-05-21T14:17:08Z
+
+[data]
+id = "4dd7ad441f6ee1468327c773"
+createdAt = 1305980228
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4b64647af964a52098af2ae3"
+name = "Browns"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d116941735"
+name = "Bar"
+pluralName = "Bars"
+shortName = "Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "82 St Martin's Ln"
+lat = 51.51135336947993
+lng = -0.1271948362141733
+postalCode = "WC2N 4AG"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "82 St Martin's Ln", "London", "Greater London", "WC2N 4AG",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51135336947993
+lng = -0.1271948362141733
+

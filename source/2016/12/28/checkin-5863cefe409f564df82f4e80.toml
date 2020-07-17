@@ -1,0 +1,38 @@
+published = 2016-12-28T14:41:02Z
+title = "Checked in at London King's Cross Railway Station (KGX)"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/8001be0a9d69c86d94a645c9601e0acf733d2a63205f47b19792ff364ca32e8b.png"
+
+[data]
+id = "5863cefe409f564df82f4e80"
+createdAt = 1482936062
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4af33684f964a520c7eb21e3"
+name = "London King's Cross Railway Station (KGX)"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d129951735"
+name = "Train Station"
+pluralName = "Train Stations"
+shortName = "Train Station"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Euston Rd"
+crossStreet = "York Way"
+lat = 51.53151679659481
+lng = -0.12410524250500041
+postalCode = "N1 9AL"
+cc = "GB"
+neighborhood = "King's Cross"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Euston Rd (York Way)", "London", "Greater London", "N1 9AL",]

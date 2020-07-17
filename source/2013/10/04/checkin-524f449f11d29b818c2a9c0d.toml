@@ -1,0 +1,42 @@
+published = 2013-10-04T23:43:43Z
+title = "Checked in at Caledonian Sleeper from Euston (EUS) to Aberdeen (ABD), Inverness (INV) and Fort William (FTW)"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/ac0326e853b28f4f0aea6241939aa0644cfb893d1287cdfbcc320152512d3596.png"
+local_timestamp = 2013-10-05T00:43:43Z
+
+[data]
+id = "524f449f11d29b818c2a9c0d"
+createdAt = 1380926623
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "501704cce4b0e28d9a74a0a5"
+name = "Caledonian Sleeper from Euston (EUS) to Aberdeen (ABD), Inverness (INV) and Fort William (FTW)"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d12a951735"
+name = "Train"
+pluralName = "Trains"
+shortName = "Train"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
+suffix = ".png"
+
+[data.venue.location]
+address = "London Euston Railway Station [EUS]"
+lat = 51.529304751718094
+lng = -0.13524770736694336
+postalCode = "NW1"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "London Euston Railway Station [EUS]", "London", "Greater London", "NW1",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.529304751718094
+lng = -0.13524770736694336
+

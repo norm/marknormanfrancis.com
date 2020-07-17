@@ -1,0 +1,321 @@
+#!/usr/bin/env python
+
+"""
+Fetch all Foursquare/Swarm checkins and create source files for each.
+Requires:
+    FOURSQUARE_OAUTH_TOKEN=...
+    GEOAPIFY_KEY=...
+
+To get a 4sq token, follow their instructions to create a dev account, app,
+and then sign in as yourself:
+https://developer.foursquare.com/docs/places-api/authentication/
+
+Geoapify is used for static maps, and they allow caching (which means you can
+stay inside the free tier). Get a key at:
+https://myprojects.geoapify.com/login
+
+Some/all checkins can be ignored with `--ignore .../ignore.toml`. My file is
+at data/ignore_foursquare.toml and has at least one example of each setting.
+"""
+
+import argparse
+from datetime import datetime, time, timedelta
+import hashlib
+import json
+import os
+import sys
+from urllib.parse import urlencode
+
+from django.utils.text import slugify
+import pytz
+import requests
+import toml
+
+from lib import update_content
+from lib.bucket import Bucket
+
+
+def main():
+    bucket = Bucket('mnf.m17s.net')
+
+    parser = argparse.ArgumentParser(
+        description='Add sources from foursquare/swarm checkins',
+    )
+    parser.add_argument(
+        '--private',
+        action='store_true',
+        default=False,
+        help='include private venues (not included by default)',
+    )
+    parser.add_argument(
+        '--write-json',
+        help='write fetched data to this JSON file',
+    )
+    parser.add_argument(
+        '--from-json',
+        help='use data from this JSON file rather than Foursquare API',
+    )
+    parser.add_argument(
+        '--progress',
+        action='store_true',
+        default=False,
+        help='show progress when fetching from Foursquare',
+    )
+    parser.add_argument(
+        '--ignore',
+        help='TOML file of entries to ignore',
+    )
+    parser.add_argument(
+        '--raw',
+        action='store_true',
+        default=False,
+        help='include all foursquare data in the source'
+    )
+    args = parser.parse_args()
+
+    if args.from_json:
+        with open(args.from_json, 'r') as data_handle:
+            checkins = json.load(data_handle)
+    else:
+        checkins = get_all_checkins(args.progress)
+
+    ignored = {}
+    if args.ignore:
+        with open(args.ignore, 'r') as ignore_handle:
+            ignored = toml.load(ignore_handle)
+
+    if args.write_json:
+        with open(args.write_json, 'w') as json_handle:
+            json.dump(checkins, json_handle, indent=4)
+
+    geoapify_key = os.environ['GEOAPIFY_KEY']
+    bucket = Bucket('mnf.m17s.net')
+    venues_last_seen = {}
+
+    for checkin in checkins:
+        venue_id = checkin['venue']['id']
+        tags = []
+        photos = []
+
+        # 4sq gives a UTC timestamp and an offset measured in minutes
+        timestamp = pytz.timezone('UTC').localize(
+            datetime.fromtimestamp(checkin['createdAt'])
+        )
+        local_timestamp = timestamp
+        if 'timeZoneOffset' in checkin:
+            local_timestamp = timestamp + timedelta(
+                minutes = checkin['timeZoneOffset']
+            )
+
+        title = "Checked in at %s" % checkin['venue']['name']
+        if 'event' in checkin:
+            title = '%s for %s' % (title, checkin['event']['name'])
+            tags.append(slugify(checkin['event']['name']))
+            for category in checkin['event']['categories']:
+                tags.append(slugify(category['name']))
+
+        if checkin['type'] != 'checkin':
+            # FIXME
+            import pprint
+            pprint.PrettyPrinter().pprint(checkin)
+            raise UnknownType
+
+        subdir = timestamp.strftime('%Y/%m/%d')
+        slug = 'checkin-%s' % checkin['id']
+        skip = False
+
+        # skip private checkins
+        if 'private' in checkin and checkin['private']:
+            skip = True
+
+        # ignore checkins at specific venues
+        try:
+            # if we're told to ignore it...
+            venue = ignored['venue_ids'][venue_id]
+            if inside_ignore_window(venue, timestamp):
+                skip = True
+
+            # ...except if this checkin is an exception
+            if 'exceptions' in ignored:
+                if checkin['id'] in ignored['exceptions']:
+                    skip = False
+
+            # ...except if we should allow the first checkin of the day
+            if 'once_daily' in venue:
+                if venue_id not in venues_last_seen:
+                    skip = False
+                else:
+                    if timestamp.date() != venues_last_seen[venue_id].date():
+                        skip = False
+
+            # ...except if we should show the very first checkin
+            if 'show_first' in venue and not venue_id in venues_last_seen:
+                skip = False
+        except:
+            pass
+
+        # ignore specific checkins
+        try:
+            if checkin['id'] in ignored['checkins']:
+                skip = True
+        except:
+            pass
+
+        if not args.private or 'private_venues' in ignored:
+            for category in checkin['venue']['categories']:
+                # ignore private venues
+                if 'private' in category['name'].lower():
+                    skip = True
+
+        if checkin['photos']['count'] > 0:
+            for index, photo in enumerate(checkin['photos']['items']):
+                photo_url = '%soriginal%s' % (
+                    photo['prefix'],
+                    photo['suffix'],
+                )
+                upload_path = '%s/%s-%s.jpg' % (subdir, slug, index)
+                uploaded = bucket.upload_file(
+                    photo_url,
+                    upload_path,
+                )
+                if uploaded:
+                    print('++ s3://mnf.m17s.net/%s' % upload_path)
+                photos.append('http://mnf.m17s.net/%s' % upload_path)
+            skip = False
+
+        if skip:
+            continue
+
+        venues_last_seen[venue_id] = timestamp
+
+        # create a map image
+        location = 'lonlat:%s,%s' % (
+            checkin['venue']['location']['lng'],
+            checkin['venue']['location']['lat'],
+        )
+        map_url = 'https://maps.geoapify.com/v1/staticmap?%s' % urlencode({
+                'apiKey': geoapify_key,
+                'style': 'osm-bright',
+                'width': 1600,
+                'height': 900,
+                'format': 'png',
+                'center': location,
+                'zoom': 17,
+                'marker': location + ';size:small;whitecircle:no;color:#7b3c58',
+        })
+        sha1 = hashlib.sha256(str(map_url).encode('utf-8')).hexdigest()
+        path = 'maps/%s.png' % sha1
+
+        uploaded = bucket.upload_file(
+            map_url,
+            path,
+            mimetype = 'image/png',
+            check_digest = False,
+        )
+        if uploaded:
+            print('++ s3://mnf.m17s.net/%s' % path)
+
+        source = {
+            'published': timestamp,
+            'title': title,
+            'type': 'foursquare',
+            'source': 'Foursquare (Swarm)',
+            'map': 'http://mnf.m17s.net/%s' % path,
+        }
+        if tags:
+            source['tag'] = tags
+        if photos:
+            source['photos'] = photos
+        if args.raw:
+            source['data'] = checkin
+        else:
+            source['data'] = {}
+            copy_only_keys = [
+                'id',
+                'createdAt',
+                'venue',
+                'type',
+                'timeZoneOffset',
+                'event',
+                'shout',
+            ]
+            for key in copy_only_keys:
+                try:
+                    source['data'][key] = checkin[key]
+                except KeyError:
+                    pass
+
+        if local_timestamp != timestamp:
+            source['local_timestamp'] = local_timestamp
+
+        toml_file = 'source/%s/%s.toml' % (subdir, slug)
+        update_content(toml_file, toml.dumps(source))
+
+
+def inside_ignore_window(rules, timestamp):
+    day = timestamp.date()
+    clock = timestamp.time()
+
+    if 'time' in rules:
+        time_window = False
+        if 'breakfast' in rules['time'] and during_breakfast(clock):
+            time_window = True
+        if 'lunch' in rules['time'] and during_lunch(clock):
+            time_window = True
+        if not time_window:
+            return False
+    if 'before' in rules and rules['before'] < day:
+        return False
+    if 'after' in rules and rules['after'] > day:
+        return False
+    return True
+
+
+# norm coordinated food time
+def during_breakfast(clock):
+    if clock > time(7, 0, 0) and clock < time(11, 0, 0):
+        return True
+    return False
+
+
+# norm coordinated food time
+def during_lunch(clock):
+    if clock > time(11, 30, 0) and clock < time(14, 30, 0):
+        return True
+    return False
+
+
+def get_all_checkins(progress=False):
+    offset = 0
+    checkins = []
+    oauth_token = os.getenv('FOURSQUARE_OAUTH_TOKEN')
+
+    while True:
+        url = 'https://api.foursquare.com/v2/users/self/checkins?%s' % (
+            urlencode({
+                'limit': 250,
+                'oauth_token': oauth_token,
+                'offset': offset,
+                'v': '20200101',
+            })
+        )
+        response = requests.get(url)
+        data = response.json()
+
+        if len(data['response']['checkins']['items']) == 0:
+            break
+
+        for item in data['response']['checkins']['items']:
+            checkins.append(item)
+
+        offset += 250
+        if progress:
+            print('-- offset %s/%s' % (
+                offset, data['response']['checkins']['count']
+            ))
+
+    return list(reversed(checkins))
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,41 @@
+published = 2014-03-27T13:25:11Z
+title = "Checked in at Hawksmoor Seven Dials"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/b47eb948c6c4b17e648a074275453736d63e1a90ee592f28ad522be7a5929013.png"
+
+[data]
+id = "533426b7498e2417969ad450"
+createdAt = 1395926711
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4cbebbee97bc721eff208167"
+name = "Hawksmoor Seven Dials"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1cc941735"
+name = "Steakhouse"
+pluralName = "Steakhouses"
+shortName = "Steakhouse"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
+suffix = ".png"
+
+[data.venue.location]
+address = "11 Langley St"
+lat = 51.51344656838814
+lng = -0.12587875127792358
+postalCode = "WC2H 9JG"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "11 Langley St", "London", "Greater London", "WC2H 9JG",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51344656838814
+lng = -0.12587875127792358
+

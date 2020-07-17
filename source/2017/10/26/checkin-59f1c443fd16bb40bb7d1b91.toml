@@ -1,0 +1,42 @@
+published = 2017-10-26T12:17:23Z
+title = "Checked in at Dip & Flip"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/76f0d1a0c6ac02751112a1be109bdbe85f5874b743f34d67cc9d6e3ee5b6db5f.png"
+local_timestamp = 2017-10-26T13:17:23Z
+
+[data]
+id = "59f1c443fd16bb40bb7d1b91"
+createdAt = 1509016643
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "5230be9611d20aee1120e962"
+name = "Dip & Flip"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16c941735"
+name = "Burger Joint"
+pluralName = "Burger Joints"
+shortName = "Burgers"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
+suffix = ".png"
+
+[data.venue.location]
+address = "87 Battersea Rise"
+lat = 51.46074851238843
+lng = -0.16750076663451335
+postalCode = "SW11 1HW"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "87 Battersea Rise", "London", "Greater London", "SW11 1HW",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.46074851238843
+lng = -0.16750076663451335
+

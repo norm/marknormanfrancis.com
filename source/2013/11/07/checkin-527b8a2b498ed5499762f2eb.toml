@@ -1,0 +1,43 @@
+published = 2013-11-07T12:40:11Z
+title = "Checked in at FreeState Coffee"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/4d232fd896ea997934c802fa7b0d4724da8115991ed9e69c3f86889e9856c61b.png"
+
+[data]
+id = "527b8a2b498ed5499762f2eb"
+createdAt = 1383828011
+type = "checkin"
+timeZoneOffset = 0
+shout = "with David"
+
+[data.venue]
+id = "512f18fbe4b055a470ec99b5"
+name = "FreeState Coffee"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1e0931735"
+name = "Coffee Shop"
+pluralName = "Coffee Shops"
+shortName = "Coffee Shop"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_"
+suffix = ".png"
+
+[data.venue.location]
+address = "23 Southampton Row"
+lat = 51.51836706389361
+lng = -0.12080859323933744
+postalCode = "WC1B 5HA"
+cc = "GB"
+city = "Bloomsbury"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "23 Southampton Row", "Bloomsbury", "Greater London", "WC1B 5HA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51836706389361
+lng = -0.12080859323933744
+

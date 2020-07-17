@@ -1,0 +1,40 @@
+published = 2016-04-14T12:40:23Z
+title = "Checked in at Borough Market"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/444edbfa39ddd69253904a7f0eddb3226aba5a08c9f9afd3172f1eab0d73014a.png"
+local_timestamp = 2016-04-14T13:40:23Z
+
+[data]
+id = "570f81a7498efb0c166cfbfe"
+createdAt = 1460634023
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ac518eff964a52064ad20e3"
+name = "Borough Market"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1fa941735"
+name = "Farmers Market"
+pluralName = "Farmers Markets"
+shortName = "Farmer's Market"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/food_farmersmarket_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Southwark St"
+lat = 51.50549493508737
+lng = -0.09051835613656832
+postalCode = "SE1 1TL"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Southwark St", "London", "Greater London", "SE1 1TL",]
+
+[data.venue.venuePage]
+id = "32883825"

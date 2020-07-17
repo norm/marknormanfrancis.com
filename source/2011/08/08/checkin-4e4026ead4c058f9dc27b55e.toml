@@ -1,0 +1,43 @@
+published = 2011-08-08T19:11:54Z
+title = "Checked in at The Butcher & Grill"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/7f29fa3f0730897d39eca5d2ef01dbfad73d546282b1f0c5fe7524a86695a648.png"
+local_timestamp = 2011-08-08T20:11:54Z
+
+[data]
+id = "4e4026ead4c058f9dc27b55e"
+createdAt = 1312827114
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ae19d90f964a5206c8621e3"
+name = "The Butcher & Grill"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11d951735"
+name = "Butcher"
+pluralName = "Butchers"
+shortName = "Butcher"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/food_butcher_"
+suffix = ".png"
+
+[data.venue.location]
+address = "39-41 Parkgate Rd"
+lat = 51.479168882741
+lng = -0.1677192979173925
+postalCode = "SW11 4NP"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "39-41 Parkgate Rd", "London", "Greater London", "SW11 4NP",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.479168882741
+lng = -0.1677192979173925
+

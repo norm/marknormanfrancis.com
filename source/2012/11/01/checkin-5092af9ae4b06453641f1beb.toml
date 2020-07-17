@@ -1,0 +1,43 @@
+published = 2012-11-01T17:21:30Z
+title = "Checked in at Ship Tavern"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/02abe0b1856dad6e8cdfa20539a965f65483d0946bce15cb9986176ab78fa6f9.png"
+
+[data]
+id = "5092af9ae4b06453641f1beb"
+createdAt = 1351790490
+type = "checkin"
+timeZoneOffset = 0
+shout = "Ermagerd berze!"
+
+[data.venue]
+id = "4ad20d0cf964a52010df20e3"
+name = "Ship Tavern"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11b941735"
+name = "Pub"
+pluralName = "Pubs"
+shortName = "Pub"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "12 Gate St"
+lat = 51.51720427096293
+lng = -0.11917845474716426
+postalCode = "WC2A 3HP"
+cc = "GB"
+neighborhood = "Holborn and Covent Garden"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "12 Gate St", "London", "Greater London", "WC2A 3HP",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51720427096293
+lng = -0.11917845474716426
+

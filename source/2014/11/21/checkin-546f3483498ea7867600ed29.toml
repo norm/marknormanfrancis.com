@@ -1,0 +1,44 @@
+published = 2014-11-21T12:48:03Z
+title = "Checked in at No. 65 & King"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/f5473cd2ae4297224cb02e1c92749b3697488037ee08493ae851983655a1cf00.png"
+
+[data]
+id = "546f3483498ea7867600ed29"
+createdAt = 1416574083
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "51d817be498e78da5ae61fda"
+name = "No. 65 & King"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d116941735"
+name = "Bar"
+pluralName = "Bars"
+shortName = "Bar"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
+suffix = ".png"
+
+[data.venue.location]
+address = "65 Westbourne Grove"
+lat = 51.51543183104145
+lng = -0.19130660125879803
+postalCode = "W2 4UJ"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "65 Westbourne Grove", "London", "Greater London", "W2 4UJ",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51543183104145
+lng = -0.19130660125879803
+
+[data.venue.venuePage]
+id = "68600947"

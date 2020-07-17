@@ -1,0 +1,42 @@
+published = 2013-06-10T12:51:20Z
+title = "Checked in at Royal College of Surgeons of England"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/1801e28f3920bba3df9a6b1cade45421e1ee17253a058d45eb1aeef2457349aa.png"
+local_timestamp = 2013-06-10T13:51:20Z
+
+[data]
+id = "51b5bdb8498e93a31c88de8e"
+createdAt = 1370865080
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4c39e0173849c928c7ebc1b1"
+name = "Royal College of Surgeons of England"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1b3941735"
+name = "Medical School"
+pluralName = "Medical Schools"
+shortName = "Medical School"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/medical_"
+suffix = ".png"
+
+[data.venue.location]
+address = "35-43 Lincoln's Inn Fields"
+lat = 51.515370975762885
+lng = -0.11623088405724595
+postalCode = "WC2A 3PE"
+cc = "GB"
+city = "Holborn"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "35-43 Lincoln's Inn Fields", "Holborn", "Greater London", "WC2A 3PE",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.515370975762885
+lng = -0.11623088405724595
+

@@ -1,0 +1,41 @@
+published = 2018-03-16T09:03:25Z
+title = "Checked in at 15 Hatfields"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/16bf9cf21873d3e1e44c783dc193e1d9cb7ae5c5bfba5a6f4aaf16b771a2cef7.png"
+
+[data]
+id = "5aab885de1f2282299b149ed"
+createdAt = 1521191005
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "527cc3ce11d29dd660b76e44"
+name = "15 Hatfields"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d171941735"
+name = "Event Space"
+pluralName = "Event Spaces"
+shortName = "Event Space"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/building/eventspace_"
+suffix = ".png"
+
+[data.venue.location]
+address = "15 Hatfields"
+lat = 51.50662650338957
+lng = -0.1071255110224097
+postalCode = "SE1 8DJ"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "15 Hatfields", "London", "Greater London", "SE1 8DJ",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50662650338957
+lng = -0.1071255110224097
+

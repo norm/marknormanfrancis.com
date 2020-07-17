@@ -1,0 +1,43 @@
+published = 2012-06-10T11:55:40Z
+title = "Checked in at Cleavers"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/fea9df2d065997fa31a2d60f033fc650ef166e2346511fb1377f2d656da961cc.png"
+photos = [ "http://mnf.m17s.net/2012/06/10/checkin-4fd47d2ce4b0b20a912280e1-0.jpg",]
+local_timestamp = 2012-06-10T12:55:40Z
+
+[data]
+id = "4fd47d2ce4b0b20a912280e1"
+createdAt = 1339325740
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4d726a303815f04d180d8d67"
+name = "Cleavers"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11d951735"
+name = "Butcher"
+pluralName = "Butchers"
+shortName = "Butcher"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/food_butcher_"
+suffix = ".png"
+
+[data.venue.location]
+address = "537 Old York Road"
+lat = 51.460397357130965
+lng = -0.18854825444231438
+postalCode = "SW18 1TG"
+cc = "GB"
+city = "Wandsworth"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "537 Old York Road", "Wandsworth", "Greater London", "SW18 1TG",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.460397357130965
+lng = -0.18854825444231438
+

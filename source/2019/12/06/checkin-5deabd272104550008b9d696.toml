@@ -1,0 +1,41 @@
+published = 2019-12-06T20:42:15Z
+title = "Checked in at Wyndham's Theatre"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/02c2aad5f406d6605393321defe0e33e8d36603c09a30d231e979749dc685483.png"
+
+[data]
+id = "5deabd272104550008b9d696"
+createdAt = 1575664935
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ac518e9f964a520d1ab20e3"
+name = "Wyndham's Theatre"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d137941735"
+name = "Theater"
+pluralName = "Theaters"
+shortName = "Theater"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Charing Cross Rd"
+lat = 51.51107237943973
+lng = -0.12799029861442937
+postalCode = "WC2H 0DA"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Charing Cross Rd", "London", "Greater London", "WC2H 0DA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51107237943973
+lng = -0.12799029861442937
+

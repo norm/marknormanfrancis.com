@@ -1,0 +1,42 @@
+published = 2015-11-24T20:07:31Z
+title = "Checked in at Scoff & Banter"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/5767e2a3701f64a2852ca2db918af46ee060b30689bc7d3f1e748a6fce85c23d.png"
+
+[data]
+id = "5654c383498e9250456f033a"
+createdAt = 1448395651
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "51cc61f2498e54f84c0712f3"
+name = "Scoff & Banter"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d11e941735"
+name = "Cocktail Bar"
+pluralName = "Cocktail Bars"
+shortName = "Cocktail"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_"
+suffix = ".png"
+
+[data.venue.location]
+address = "20 Mercer St"
+lat = 51.51408381836756
+lng = -0.1269929516245925
+postalCode = "WC2H 9HD"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "20 Mercer St", "London", "Greater London", "WC2H 9HD",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51408381836756
+lng = -0.1269929516245925
+

@@ -1,0 +1,43 @@
+published = 2012-12-03T13:42:00Z
+title = "Checked in at Ed's Easy Diner"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/04f896b00f73faf748909e18b38f5a302f3659e4ca2e4a6f4093f4be34f82145.png"
+
+[data]
+id = "50bcac28e4b0f4ad3e145884"
+createdAt = 1354542120
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "50a15029e4b047228b4adde7"
+name = "Ed's Easy Diner"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d147941735"
+name = "Diner"
+pluralName = "Diners"
+shortName = "Diner"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/diner_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Southside Shopping Centre"
+crossStreet = "First Floor Terrace"
+lat = 51.454666142087135
+lng = -0.19310695571422007
+postalCode = "SW18 4TF"
+cc = "GB"
+city = "Wandsworth"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Southside Shopping Centre (First Floor Terrace)", "Wandsworth", "Greater London", "SW18 4TF",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.454666142087135
+lng = -0.19310695571422007
+

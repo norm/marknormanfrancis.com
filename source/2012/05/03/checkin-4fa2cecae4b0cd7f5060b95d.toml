@@ -1,0 +1,42 @@
+published = 2012-05-03T19:30:34Z
+title = "Checked in at Byron"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/4dcd2c09dcf956511bb9ff0d5c5316087dd82017b9a80604969e0feb3db571cb.png"
+local_timestamp = 2012-05-03T20:30:34Z
+
+[data]
+id = "4fa2cecae4b0cd7f5060b95d"
+createdAt = 1336069834
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4e5fd7da7d8b0179606e87b4"
+name = "Byron"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16c941735"
+name = "Burger Joint"
+pluralName = "Burger Joints"
+shortName = "Burgers"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
+suffix = ".png"
+
+[data.venue.location]
+address = "53 Northcote Rd"
+lat = 51.45931023294493
+lng = -0.1662999604685683
+postalCode = "SW11 1NJ"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "53 Northcote Rd", "London", "Greater London", "SW11 1NJ",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.45931023294493
+lng = -0.1662999604685683
+

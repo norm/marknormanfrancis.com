@@ -1,0 +1,43 @@
+published = 2016-07-16T12:17:20Z
+title = "Checked in at Wandsworth Common"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/45f967effa332eeaf10723cc3018e87c1ad49b6a65a61d464a04eff05d5c0804.png"
+local_timestamp = 2016-07-16T13:17:20Z
+
+[data]
+id = "578a17c0498e7e2132c1318a"
+createdAt = 1468667840
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4ad08489f964a5204fd820e3"
+name = "Wandsworth Common"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d163941735"
+name = "Park"
+pluralName = "Parks"
+shortName = "Park"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Bellevue Rd"
+crossStreet = "Bollingbroke Grv"
+lat = 51.448350545927426
+lng = -0.16784191131591794
+postalCode = "S W18"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Bellevue Rd (Bollingbroke Grv)", "London", "Greater London", "S W18",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.448350545927426
+lng = -0.16784191131591794
+

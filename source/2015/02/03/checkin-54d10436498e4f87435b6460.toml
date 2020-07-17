@@ -1,0 +1,42 @@
+published = 2015-02-03T17:24:06Z
+title = "Checked in at Dishoom"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/1f786e97d9dc8d927ae22a096aea4a9a4f426f35a586d624e97059a5689cc2a2.png"
+
+[data]
+id = "54d10436498e4f87435b6460"
+createdAt = 1422984246
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4c31c371a0ced13a150d146e"
+name = "Dishoom"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d10f941735"
+name = "Indian Restaurant"
+pluralName = "Indian Restaurants"
+shortName = "Indian"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/indian_"
+suffix = ".png"
+
+[data.venue.location]
+address = "12 Upper St Martin’s Ln"
+lat = 51.512383261762814
+lng = -0.12694895267486572
+postalCode = "WC2H 9FB"
+cc = "GB"
+neighborhood = "City of Westminster"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "12 Upper St Martin’s Ln", "London", "Greater London", "WC2H 9FB",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.512383261762814
+lng = -0.12694895267486572
+

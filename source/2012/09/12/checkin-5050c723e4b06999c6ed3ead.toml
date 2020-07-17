@@ -1,0 +1,42 @@
+published = 2012-09-12T18:32:19Z
+title = "Checked in at Byron"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/c764fd179f9b90cfb91608bb4c29ab5e7fe1c3189cf7650c75b5eab16817af7f.png"
+local_timestamp = 2012-09-12T19:32:19Z
+
+[data]
+id = "5050c723e4b06999c6ed3ead"
+createdAt = 1347471139
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4f65e435e4b0bca46389adc4"
+name = "Byron"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16c941735"
+name = "Burger Joint"
+pluralName = "Burger Joints"
+shortName = "Burgers"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
+suffix = ".png"
+
+[data.venue.location]
+address = "41-45 The Cut"
+lat = 51.50309330399268
+lng = -0.10682139938830915
+postalCode = "SE1 8LF"
+cc = "GB"
+city = "Waterloo"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "41-45 The Cut", "Waterloo", "Greater London", "SE1 8LF",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.50309330399268
+lng = -0.10682139938830915
+

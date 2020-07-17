@@ -1,0 +1,42 @@
+published = 2017-09-11T13:03:48Z
+title = "Checked in at Byron"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/3c960e19fcf4eb4a785f8b199daadccb3bfcc6e1869d607db9f2fdcaaa21fc3c.png"
+local_timestamp = 2017-09-11T14:03:48Z
+
+[data]
+id = "59b67ba4f79faa19ff89ac63"
+createdAt = 1505131428
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "51063aac90e735c349fb93bc"
+name = "Byron"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16c941735"
+name = "Burger Joint"
+pluralName = "Burger Joints"
+shortName = "Burgers"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
+suffix = ".png"
+
+[data.venue.location]
+address = "26 Cowcross St"
+lat = 51.52025230336538
+lng = -0.1036815067632233
+postalCode = "EC1M 6DQ"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "26 Cowcross St", "London", "Greater London", "EC1M 6DQ",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.52025230336538
+lng = -0.1036815067632233
+

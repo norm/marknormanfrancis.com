@@ -1,0 +1,43 @@
+published = 2012-05-30T18:18:14Z
+title = "Checked in at Fulham Broadway Shopping Centre"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/3058f657310dee097ca45693edec08947ad26a64de23510b6e22f430ff7843c6.png"
+local_timestamp = 2012-05-30T19:18:14Z
+
+[data]
+id = "4fc65656e4b05effe85e26e7"
+createdAt = 1338398294
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4fc39d06e4b00f359820ec24"
+name = "Fulham Broadway Shopping Centre"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1fd941735"
+name = "Shopping Mall"
+pluralName = "Shopping Malls"
+shortName = "Mall"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/shops/mall_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Fulham Rd"
+lat = 51.480280830700245
+lng = -0.194502270203633
+postalCode = "SW6 1BW"
+cc = "GB"
+neighborhood = "Fulham"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Fulham Rd", "London", "Greater London", "SW6 1BW",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.480280830700245
+lng = -0.194502270203633
+

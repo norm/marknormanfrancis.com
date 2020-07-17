@@ -1,0 +1,41 @@
+published = 2012-11-24T11:25:05Z
+title = "Checked in at University of Westminster"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/9d53ca81718a7a20efce8b472b099d183aa6437f039a63c747a2f42845c6a42b.png"
+
+[data]
+id = "50b0ae91e4b0a74d35167f0e"
+createdAt = 1353756305
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4ed4f4f2f5b975def541bda5"
+name = "University of Westminster"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d1ae941735"
+name = "University"
+pluralName = "Universities"
+shortName = "University"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/education/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "115 New Cavendish St"
+lat = 51.52076535810968
+lng = -0.13996816478288665
+postalCode = "W1W 6UW"
+cc = "GB"
+city = "City of Westminster"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "115 New Cavendish St", "City of Westminster", "Greater London", "W1W 6UW",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.52076535810968
+lng = -0.13996816478288665
+

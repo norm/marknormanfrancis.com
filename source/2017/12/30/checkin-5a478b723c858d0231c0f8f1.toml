@@ -1,0 +1,42 @@
+published = 2017-12-30T12:49:54Z
+title = "Checked in at Vue"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca76b9d411cb172ec6e.png"
+
+[data]
+id = "5a478b723c858d0231c0f8f1"
+createdAt = 1514638194
+type = "checkin"
+timeZoneOffset = 0
+
+[data.venue]
+id = "4b5b426bf964a5202cef28e3"
+name = "Vue"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d180941735"
+name = "Multiplex"
+pluralName = "Multiplexes"
+shortName = "Cineplex"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "Fulham Broadway Retail Centre"
+crossStreet = "Fulham Rd"
+lat = 51.480300183123965
+lng = -0.19445343443224616
+postalCode = "SW6 1BW"
+cc = "GB"
+city = "Fulham Broadway"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "Fulham Broadway Retail Centre (Fulham Rd)", "Fulham Broadway", "Greater London", "SW6 1BW",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.480300183123965
+lng = -0.19445343443224616
+

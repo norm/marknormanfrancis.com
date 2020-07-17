@@ -1,0 +1,44 @@
+published = 2016-10-19T17:06:01Z
+title = "Checked in at Cadogan Pier"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/cb10d9890c9da61c09cdf7cc892e91c1e1082414cbd4b720d3f4af3a1d6974d7.png"
+local_timestamp = 2016-10-19T18:06:01Z
+
+[data]
+id = "580799e9498eae3963126e5e"
+createdAt = 1476893161
+type = "checkin"
+timeZoneOffset = 60
+shout = "Chilling and waiting for high tide to finish"
+
+[data.venue]
+id = "4b783904f964a52095bd2ee3"
+name = "Cadogan Pier"
+[[data.venue.categories]]
+id = "4e74f6cabd41c4836eac4c31"
+name = "Pier"
+pluralName = "Piers"
+shortName = "Piers"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/travel/ferry_pier_"
+suffix = ".png"
+
+[data.venue.location]
+address = "North Side of Thames"
+crossStreet = "Beside Albert Bridge"
+lat = 51.48285779555417
+lng = -0.16654275541088545
+postalCode = "SW3 5RJ"
+cc = "GB"
+city = "Chelsea"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "North Side of Thames (Beside Albert Bridge)", "Chelsea", "Greater London", "SW3 5RJ",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.48285779555417
+lng = -0.16654275541088545
+

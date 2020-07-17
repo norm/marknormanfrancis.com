@@ -1,0 +1,43 @@
+published = 2016-05-19T19:03:39Z
+title = "Checked in at Criterion Theatre"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/6313ef318516e8b4d422bad2a8a6d088313f0ac254b22cdde7255c8371bc5ae4.png"
+local_timestamp = 2016-05-19T20:03:39Z
+
+[data]
+id = "573dfffb498e3713686fdd46"
+createdAt = 1463681019
+type = "checkin"
+timeZoneOffset = 60
+shout = "with S-J"
+
+[data.venue]
+id = "4ac518e7f964a52043ab20e3"
+name = "Criterion Theatre"
+[[data.venue.categories]]
+id = "4bf58dd8d48988d137941735"
+name = "Theater"
+pluralName = "Theaters"
+shortName = "Theater"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
+suffix = ".png"
+
+[data.venue.location]
+address = "2 Jermyn St."
+lat = 51.509963163898696
+lng = -0.13433262642173932
+postalCode = "SW1Y 4XA"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "2 Jermyn St.", "London", "Greater London", "SW1Y 4XA",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.509963163898696
+lng = -0.13433262642173932
+

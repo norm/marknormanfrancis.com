@@ -1,0 +1,44 @@
+published = 2012-10-24T16:08:08Z
+title = "Checked in at Fleet River Bakery"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/002799202605dc7335f1815dcff605f826799021615d3fa7b17cc87ad7df40a0.png"
+local_timestamp = 2012-10-24T17:08:08Z
+
+[data]
+id = "50880458e4b0d0efc6b968ec"
+createdAt = 1351091288
+type = "checkin"
+timeZoneOffset = 60
+
+[data.venue]
+id = "4acdd8cbf964a5203acd20e3"
+name = "Fleet River Bakery"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d16a941735"
+name = "Bakery"
+pluralName = "Bakeries"
+shortName = "Bakery"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/bakery_"
+suffix = ".png"
+
+[data.venue.location]
+address = "71 Lincoln's Inn Fields"
+crossStreet = "Gate St"
+lat = 51.516841006646196
+lng = -0.11893666711283872
+postalCode = "WC2A 3JF"
+cc = "GB"
+city = "London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "71 Lincoln's Inn Fields (Gate St)", "London", "Greater London", "WC2A 3JF",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.516841006646196
+lng = -0.11893666711283872
+

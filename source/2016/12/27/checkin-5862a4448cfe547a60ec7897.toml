@@ -1,0 +1,43 @@
+published = 2016-12-27T17:26:28Z
+title = "Checked in at The Diner"
+type = "foursquare"
+source = "Foursquare (Swarm)"
+map = "http://mnf.m17s.net/maps/8e9080d291f2dd80b7995f96f3c1d1c48a38ead5311dee9e2c9b69a4cc5f544c.png"
+
+[data]
+id = "5862a4448cfe547a60ec7897"
+createdAt = 1482859588
+type = "checkin"
+timeZoneOffset = 0
+shout = "with S-J"
+
+[data.venue]
+id = "4f730570e4b05b6a68a07e1d"
+name = "The Diner"
+closed = true
+[[data.venue.categories]]
+id = "4bf58dd8d48988d14e941735"
+name = "American Restaurant"
+pluralName = "American Restaurants"
+shortName = "American"
+primary = true
+
+[data.venue.categories.icon]
+prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
+suffix = ".png"
+
+[data.venue.location]
+address = "190 Shaftesbury Ave"
+lat = 51.51517757125342
+lng = -0.12691646245055235
+postalCode = "WC2H 8JL"
+cc = "GB"
+city = "Greater London"
+state = "Greater London"
+country = "United Kingdom"
+formattedAddress = [ "190 Shaftesbury Ave", "Greater London", "WC2H 8JL",]
+[[data.venue.location.labeledLatLngs]]
+label = "display"
+lat = 51.51517757125342
+lng = -0.12691646245055235
+
