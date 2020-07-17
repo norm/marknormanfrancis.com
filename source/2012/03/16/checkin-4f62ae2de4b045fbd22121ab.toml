@@ -3,6 +3,7 @@ title = "Checked in at Haven for Tenacious D"
 type = "foursquare"
 source = "Foursquare (Swarm)"
 map = "http://mnf.m17s.net/maps/284235ab41e9d049b8a017a858b1169402845099674a461a3b1427e0b4ccbd49.png"
+tag = [ "tenacious-d", "concert",]
 local_timestamp = 2012-03-15T22:06:21Z
 
 [data]

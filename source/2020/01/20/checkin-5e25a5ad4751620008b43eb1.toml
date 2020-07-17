@@ -3,6 +3,7 @@ title = "Checked in at Cineworld for Jojo Rabbit"
 type = "foursquare"
 source = "Foursquare (Swarm)"
 map = "http://mnf.m17s.net/maps/1dd1af2421c5dccd68e4e93d06374e0258f08ba235d6ef25251d4e5dc0616c89.png"
+tag = [ "jojo-rabbit", "movie",]
 
 [data]
 id = "5e25a5ad4751620008b43eb1"

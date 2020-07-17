@@ -3,6 +3,7 @@ title = "Checked in at Vue for Ghostbusters"
 type = "foursquare"
 source = "Foursquare (Swarm)"
 map = "http://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca76b9d411cb172ec6e.png"
+tag = [ "ghostbusters", "movie",]
 local_timestamp = 2016-07-20T18:31:32Z
 
 [data]

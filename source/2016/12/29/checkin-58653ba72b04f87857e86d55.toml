@@ -3,6 +3,7 @@ title = "Checked in at ODEON Luxe for Rogue One: A Star Wars Story"
 type = "foursquare"
 source = "Foursquare (Swarm)"
 map = "http://mnf.m17s.net/maps/fa2c1885bc6dbee63b961fb3cc58c982f7bf5c86f6bbae8f8042cc033c0b8f3f.png"
+tag = [ "rogue-one-a-star-wars-story", "movie",]
 
 [data]
 id = "58653ba72b04f87857e86d55"

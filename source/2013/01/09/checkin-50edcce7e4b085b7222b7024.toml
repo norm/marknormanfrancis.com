@@ -3,6 +3,7 @@ title = "Checked in at Cineworld for Skyfall"
 type = "foursquare"
 source = "Foursquare (Swarm)"
 map = "http://mnf.m17s.net/maps/10f1165d57e79d3b7ece85b532232dd0d4ae9b3f19e41288787d5126e0af0bca.png"
+tag = [ "skyfall", "movie",]
 
 [data]
 id = "50edcce7e4b085b7222b7024"

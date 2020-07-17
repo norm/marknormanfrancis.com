@@ -3,6 +3,7 @@ title = "Checked in at Royal Albert Hall for Proms"
 type = "foursquare"
 source = "Foursquare (Swarm)"
 map = "http://mnf.m17s.net/maps/a8e490b5335fe48dfd504b824130cc5a00c1fad48c4e9e0df2892a2415e02f25.png"
+tag = [ "proms", "concert",]
 local_timestamp = 2016-08-13T19:20:41Z
 
 [data]

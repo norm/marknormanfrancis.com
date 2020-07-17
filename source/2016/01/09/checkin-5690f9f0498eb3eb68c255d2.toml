@@ -3,6 +3,7 @@ title = "Checked in at ODEON Luxe for Star Wars: The Force Awakens"
 type = "foursquare"
 source = "Foursquare (Swarm)"
 map = "http://mnf.m17s.net/maps/fa2c1885bc6dbee63b961fb3cc58c982f7bf5c86f6bbae8f8042cc033c0b8f3f.png"
+tag = [ "star-wars-the-force-awakens", "movie",]
 
 [data]
 id = "5690f9f0498eb3eb68c255d2"

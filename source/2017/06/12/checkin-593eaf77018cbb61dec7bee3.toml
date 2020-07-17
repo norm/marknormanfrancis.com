@@ -3,6 +3,7 @@ title = "Checked in at Vue for Wonder Woman"
 type = "foursquare"
 source = "Foursquare (Swarm)"
 map = "http://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca76b9d411cb172ec6e.png"
+tag = [ "wonder-woman", "movie",]
 local_timestamp = 2017-06-12T17:12:55Z
 
 [data]

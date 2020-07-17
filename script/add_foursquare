@@ -94,6 +94,7 @@ def main():
 
     for checkin in checkins:
         venue_id = checkin['venue']['id']
+        tags = []
 
         # 4sq gives a UTC timestamp and an offset measured in minutes
         timestamp = pytz.timezone('UTC').localize(
@@ -108,6 +109,9 @@ def main():
         title = "Checked in at %s" % checkin['venue']['name']
         if 'event' in checkin:
             title = '%s for %s' % (title, checkin['event']['name'])
+            tags.append(slugify(checkin['event']['name']))
+            for category in checkin['event']['categories']:
+                tags.append(slugify(category['name']))
 
         if checkin['type'] != 'checkin':
             # FIXME
@@ -199,6 +203,8 @@ def main():
             'source': 'Foursquare (Swarm)',
             'map': 'http://mnf.m17s.net/%s' % path,
         }
+        if tags:
+            source['tag'] = tags
         if args.raw:
             source['data'] = checkin
         else:
