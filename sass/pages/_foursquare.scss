@@ -9,6 +9,7 @@ body.foursquare {
         }
 
         figcaption {
+            @include body_font;
             @include small_body_font;
             color: $nevada;
             text-align: right;
