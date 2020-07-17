@@ -95,6 +95,7 @@ def main():
     for checkin in checkins:
         venue_id = checkin['venue']['id']
         tags = []
+        photos = []
 
         # 4sq gives a UTC timestamp and an offset measured in minutes
         timestamp = pytz.timezone('UTC').localize(
@@ -119,6 +120,8 @@ def main():
             pprint.PrettyPrinter().pprint(checkin)
             raise UnknownType
 
+        subdir = timestamp.strftime('%Y/%m/%d')
+        slug = 'checkin-%s' % checkin['id']
         skip = False
 
         # skip private checkins
@@ -164,6 +167,22 @@ def main():
                 if 'private' in category['name'].lower():
                     skip = True
 
+        if checkin['photos']['count'] > 0:
+            for index, photo in enumerate(checkin['photos']['items']):
+                photo_url = '%soriginal%s' % (
+                    photo['prefix'],
+                    photo['suffix'],
+                )
+                upload_path = '%s/%s-%s.jpg' % (subdir, slug, index)
+                uploaded = bucket.upload_file(
+                    photo_url,
+                    upload_path,
+                )
+                if uploaded:
+                    print('++ s3://mnf.m17s.net/%s' % upload_path)
+                photos.append('http://mnf.m17s.net/%s' % upload_path)
+            skip = False
+
         if skip:
             continue
 
@@ -205,6 +224,8 @@ def main():
         }
         if tags:
             source['tag'] = tags
+        if photos:
+            source['photos'] = photos
         if args.raw:
             source['data'] = checkin
         else:
@@ -226,9 +247,6 @@ def main():
 
         if local_timestamp != timestamp:
             source['local_timestamp'] = local_timestamp
-
-        subdir = timestamp.strftime('%Y/%m/%d')
-        slug = 'checkin-%s' % checkin['id']
 
         toml_file = 'source/%s/%s.toml' % (subdir, slug)
         update_content(toml_file, toml.dumps(source))

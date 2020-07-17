@@ -17,5 +17,10 @@
     {% if data.shout %}
       <p>{{data.shout}}</p>
     {% endif %}
+    {% if photos %}
+      {% for photo in photos %}
+        <p class='image'><img src='{{photo}}' alt=''></p>
+      {% endfor %}
+    {% endif %}
   </main>
 {% endblock %}

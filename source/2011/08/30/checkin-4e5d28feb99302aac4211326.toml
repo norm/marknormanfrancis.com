@@ -3,6 +3,7 @@ title = "Checked in at Steam Bar & Restaurant"
 type = "foursquare"
 source = "Foursquare (Swarm)"
 map = "http://mnf.m17s.net/maps/2436e84525f49387a67e87493e9736a352bd9b273e2cbe0768a934b54ccd2514.png"
+photos = [ "http://mnf.m17s.net/2011/08/30/checkin-4e5d28feb99302aac4211326-0.jpg",]
 local_timestamp = 2011-08-30T20:16:30Z
 
 [data]

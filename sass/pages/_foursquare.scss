@@ -14,4 +14,8 @@ body.foursquare {
             text-align: right;
         }
     }
+
+    #body p.image img {
+        max-width: 100%;
+    }
 }
