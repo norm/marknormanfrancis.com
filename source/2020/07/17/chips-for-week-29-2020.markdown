@@ -1,4 +1,4 @@
-```
+```toml
 tweet_id = "1284175386943852547"
 type = "tweet"
 title = "Chips for Week 29, 2020"
