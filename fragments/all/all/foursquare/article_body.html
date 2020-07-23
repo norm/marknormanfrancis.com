@@ -1,0 +1,15 @@
+<figure>
+  <a href='{{map}}'><img src='{{map}}' alt=''></a>
+  <figcaption>
+    {{ data.venue.location.formattedAddress|join(', ') }}
+  </figcaption>
+</figure>
+
+{% if data.shout %}
+  <p>{{data.shout}}</p>
+{% endif %}
+{% if photos %}
+  {% for photo in photos %}
+    <p class='image'><img src='{{photo}}' alt=''></p>
+  {% endfor %}
+{% endif %}

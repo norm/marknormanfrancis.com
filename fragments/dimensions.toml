@@ -1,0 +1,11 @@
+[generator]
+year-index = "calendar"
+
+
+[source]
+
+[type]
+tweet      = "base_article"
+instagram  = "base_article"
+foursquare = "base_article"
+recipe     = "base_article"

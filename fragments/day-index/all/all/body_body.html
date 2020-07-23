@@ -1,0 +1,8 @@
+<h1>Entries for {{day.strftime('%A, %d %B %Y')}}</h1>
+<ul>
+  {% for page in pages %}
+    <li>
+      {{page.published.strftime('%H:%M:%S')}} <a href='{{page.path}}'>{{page.title}}</a>
+    </li>
+  {% endfor %}
+</ul>

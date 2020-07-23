@@ -1,0 +1,12 @@
+<nav>
+  Archives:
+  <ul>
+  {% for date in global.publication_dates %}
+    {% with year=date.year.year %}
+      <li>
+        <a href='{{ path("year-index", year=year) }}'>{{year}}</a>
+      </li>
+    {% endwith %}
+  {% endfor %}
+  </ul>
+</nav>
