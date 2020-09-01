@@ -1,7 +1,6 @@
 name: Update console tweets
 
 on:
-  push:
   schedule:
     #        mn      hr      dom     mon     dow
     - cron: "30      22      *       *       *"
