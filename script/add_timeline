@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-Create a TOML file of tweet IDs for add_tweets to use.
+Create or update a TOML file of tweet IDs for add_tweets to use.
 
 Usage: add_timeline <screen_name>
 """
@@ -10,39 +10,42 @@ import os
 import sys
 
 import toml
-import tweepy
+
+from lib.twitter import Twitter
 
 
-auth = tweepy.OAuthHandler(
-    os.environ['CONSUMER_KEY'],
-    os.environ['CONSUMER_SECRET'],
-)
-auth.set_access_token(
-    os.environ['ACCESS_TOKEN'],
-    os.environ['ACCESS_TOKEN_SECRET'],
-)
-twitter = tweepy.API(auth)
+twitter = Twitter()
 account = sys.argv[1]
 
+data_file = 'data/%s.toml' % account
 page = 0
 ids = []
-data = {}
+
+# first, read in the file if it exists
+try:
+    with open(data_file, 'r') as handle:
+        tweets = toml.load(handle)
+except FileNotFoundError:
+    tweets = {}
+
+# fetch tweets
 while True:
     page += 1
-    tweets = twitter.user_timeline(
+    timeline = twitter.user_timeline(
         account,
         page = page,
         tweet_mode = 'extended'
     )
-    if len(tweets) == 0:
+    if len(timeline) == 0:
         break
-    for tweet in tweets:
+    for tweet in timeline:
         ids.append(tweet.id_str)
 
 # twitter is most-recent-first, I like least-recent-first in my config file
 for id in reversed(ids):
-    data[id] = {}
+    if id not in tweets:
+        tweets[id] = {}
+        twitter.create_source_from_tweet(id, tweets[id])
 
-filename = 'data/%s.toml' % account
-with open(filename, 'w') as handle:
-    toml.dump(data, handle)
+with open(data_file, 'w') as handle:
+    toml.dump(tweets, handle)

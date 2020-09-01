@@ -1,6 +1,7 @@
-flourish
+boto3
 django
-tweepy
+flourish
 honcho
-requests
 libsass
+requests
+tweepy

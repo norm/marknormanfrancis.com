@@ -50,6 +50,9 @@ class Twitter:
         self._api = tweepy.API(auth)
         self.bucket = Bucket(BUCKET)
 
+    def user_timeline(self, *args, **kwargs):
+        return self._api.user_timeline(*args, **kwargs)
+
     def create_source_from_tweet(self, id, extra):
         tweets = self.get_tweets_from_id(id, extra)
 

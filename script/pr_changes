@@ -1,0 +1,24 @@
+#!/bin/bash
+
+set -eu
+
+branch="${1:-update-}$(date +%s)"
+message="${2:-Update}"
+
+# if there are any changes/new files ...
+if [ -n "$(git status --porcelain)" ]; then
+    # ... commit them to a branch
+    git checkout -b $branch
+    git add -A
+
+    git config user.name "GitHub Actions"
+    git config user.email "actions@users.noreply.github.com"
+    git commit --message "$message"
+
+    git push origin $branch
+
+    # ... issue a PR on that branch
+    gh pr create \
+        --title "$message" \
+        --body ""
+fi
