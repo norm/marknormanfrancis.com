@@ -23,12 +23,13 @@ def main():
         help = 'URL or ID for the tweet to add',
     )
     parser.add_argument(
-        '--account',
-        help = 'Masquerade tweet as being from ACCOUNT',
+        'title',
+        help = 'Use this TITLE for the new source',
+        nargs = '?',
     )
     parser.add_argument(
-        '--title',
-        help = 'Use this TITLE for the new source'
+        '--account',
+        help = 'Masquerade tweet as being from ACCOUNT',
     )
     parser.add_argument(
         '--stop-at',
