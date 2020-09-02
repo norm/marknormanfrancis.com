@@ -41,8 +41,7 @@ tags = [ "gumbo",]
 
 [984293801287147520]
 title = "Canada wins"
-# bad quote formatting
-tags = [ 'fixme', ]
+tags = [ "fixme",]
 
 [1000335378501591040]
 title = "One last headboop"
@@ -250,3 +249,5 @@ title = "Chips for Week 34, 2020"
 
 [1297107256354504704]
 title = "My weekchips markers"
+
+[1300893963344384000]
