@@ -31,9 +31,20 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Rebuild the site
+      - name: Generate CSS
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
-          ./script/rebuild
+          make clean baked_css upload
+
+      - name: Generate site
+        run: |
+          make clean generate
+
+      - name: Upload site
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          make upload
