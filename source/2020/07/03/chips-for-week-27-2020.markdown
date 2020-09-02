@@ -16,7 +16,7 @@ thread_tweet_ids = [ 1279080600008343556, 1279080732225409026, 12790811558039142
 Another week, another [stack of chips](/2020/06/19/my-week-in-poker-chips).
 This week looks like this:
 
-<p class='image'><img src='http://mnf.m17s.net/2020/07/03/EcA1IqMWoAEZo_i.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/07/03/EcA1IqMWoAEZo_i.jpg' alt=''></p>
 
 Strangely thematic and stratified. A couple of hours at the weekend coding
 meant a couple extra chips at the bottom. Monday all coding. Tuesday was a

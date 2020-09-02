@@ -19,13 +19,13 @@ Off to the hospital to play kidney stone, appendicitis, or hernia.
 
 
 
-<p class='image'><img src='http://mnf.m17s.net/2019/06/23/D9wyxgnXkAEzkkO.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/06/23/D9wyxgnXkAEzkkO.jpg' alt=''></p>
 
 ## Monday 24, 16:25
 
 If you chose appendix, the doctors agreed with you. I was kept in for an appendectomy.
 
-<p class='image'><img src='http://mnf.m17s.net/2019/06/23/D91wT9HWkAIwQNb.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/06/23/D91wT9HWkAIwQNb.jpg' alt=''></p>
 
 ## Tuesday 25, 08:35
 

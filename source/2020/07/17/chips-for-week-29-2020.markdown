@@ -16,7 +16,7 @@ thread_tweet_ids = [ 1284175370707775488, 1284175378551123968, 12841753806356889
 Another week, another [stack of chips](/2020/06/19/my-week-in-poker-chips).
 This week’s chips look like this:
 
-<p class='image'><img src='http://mnf.m17s.net/2020/07/17/EdJOspJWAAoiH6r.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/07/17/EdJOspJWAAoiH6r.jpg' alt=''></p>
 
 I spent Sunday morning going through all of my random todo lists, FIXMEs, entries in Things, and so on, to make a more definitive list of the things I might want to work on, rather than doing just what occurs to me on a given day.
 

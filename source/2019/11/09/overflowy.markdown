@@ -21,5 +21,5 @@ A year ago I finished the upgrade of our booze bookcase and tidied up the layout
 
 Now, not so much. It’s a little … overflowy.
 
-<p class='image'><img src='http://mnf.m17s.net/2019/11/09/EI8FnsgXkAEhFL-.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/11/09/EI8FnsgXkAEhFL-.jpg' alt=''></p>
 

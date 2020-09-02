@@ -17,7 +17,7 @@ Continuing the theme of
 [measuring my week in poker chips](/2020/06/19/my-week-in-poker-chips),
 how did this week go?
 
-<p class='image'><img src='http://mnf.m17s.net/2020/06/26/EbcWhUhWoAEBdzW.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/06/26/EbcWhUhWoAEBdzW.jpg' alt=''></p>
 
 Here’s my chips. The week started with a couple of days doing some coding
 scraping and rescraping my [last.fm data](https://www.last.fm/user/mn_francis)

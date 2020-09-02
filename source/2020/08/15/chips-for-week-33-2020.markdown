@@ -16,7 +16,7 @@ thread_tweet_ids = [ 1294576591402668032, 1294576758092595200, 12945774955393638
 Another week, but no [stack of chips](/2020/06/19/my-week-in-poker-chips).
 This is the past week, summed up in one chip:
 
-<p class='image'><img src='http://mnf.m17s.net/2020/08/15/EfdCscZXgAMouUK.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/08/15/EfdCscZXgAMouUK.jpg' alt=''></p>
 
 I spent the week still feeling pretty bad, topped up with the temperature meaning I wouldn’t spend time in my study, and couldn’t think straight even when I did. I’ve basically made a handful of gifs and tried my hand (badly) at video editing.
 

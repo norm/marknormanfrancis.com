@@ -13,5 +13,5 @@ tag = [ "rubberduck",]
 
 On the 100th anniversary of the Qualification of Women Act, [`@bovinemoo`](https://twitter.com/bovinemoo) brought me a lovely gift home from work.
 
-<p class='image'><img src='http://mnf.m17s.net/2018/11/21/Dsjsi7kWsAEC9gZ.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2018/11/21/Dsjsi7kWsAEC9gZ.jpg' alt=''></p>
 

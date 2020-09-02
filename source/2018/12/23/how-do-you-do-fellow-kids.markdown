@@ -15,9 +15,9 @@ thread_tweet_ids = [ 1076780557726556160, 1076781091216916480,]
 
 Music Band [#daily](/tags/daily/) [#tshirt](/tags/tshirt/) [`norm.hasworn.com/tshirts/music-…`](http://norm.hasworn.com/tshirts/music-band) — this is the first time I've worn this tshirt.
 
-<p class='image'><img src='http://mnf.m17s.net/2018/12/23/DvF-NMoXgAEUDOR.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2018/12/23/DvF-NMoXgAEUDOR.jpg' alt=''></p>
 
 How do you do, fellow kids?
 
-<p class='image'><img src='http://mnf.m17s.net/2018/12/23/DvF-r_BX0AATwlj.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2018/12/23/DvF-r_BX0AATwlj.jpg' alt=''></p>
 

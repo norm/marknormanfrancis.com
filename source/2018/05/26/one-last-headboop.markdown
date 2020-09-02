@@ -13,5 +13,5 @@ tag = [ "thomas",]
 
 One last headboop before going to sleep for the last time. Thomas Palmer, 2001–2018. A most excellent cat. Dormit in pace.
 
-<p class='image'><img src='http://mnf.m17s.net/2018/05/26/DeHntasWkAAWJbb.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2018/05/26/DeHntasWkAAWJbb.jpg' alt=''></p>
 

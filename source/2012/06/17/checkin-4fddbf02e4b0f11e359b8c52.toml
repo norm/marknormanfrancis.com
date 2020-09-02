@@ -2,8 +2,8 @@ published = 2012-06-17T12:26:58Z
 title = "Checked in at Cleavers"
 type = "foursquare"
 source = "Foursquare (Swarm)"
-map = "http://mnf.m17s.net/maps/fea9df2d065997fa31a2d60f033fc650ef166e2346511fb1377f2d656da961cc.png"
-photos = [ "http://mnf.m17s.net/2012/06/17/checkin-4fddbf02e4b0f11e359b8c52-0.jpg",]
+map = "https://mnf.m17s.net/maps/fea9df2d065997fa31a2d60f033fc650ef166e2346511fb1377f2d656da961cc.png"
+photos = [ "https://mnf.m17s.net/2012/06/17/checkin-4fddbf02e4b0f11e359b8c52-0.jpg",]
 local_timestamp = 2012-06-17T13:26:58Z
 
 [data]

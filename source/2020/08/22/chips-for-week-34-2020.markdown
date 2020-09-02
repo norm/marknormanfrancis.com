@@ -17,7 +17,7 @@ Another week, and I’m back to
 [stacking chips](/2020/06/19/my-week-in-poker-chips).
 This week’s chips look like this:
 
-<p class='image'><img src='http://mnf.m17s.net/2020/08/22/EgBA1VaWoAADK2X.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/08/22/EgBA1VaWoAADK2X.jpg' alt=''></p>
 
 That’s a lot of pink, which I’ve never used before. I originally had it pegged
 for “writing” imagining there’d be more publishing for my site than I’ve
@@ -29,11 +29,11 @@ After the last couple of weeks of doing little, I needed to get back into the ha
 
 Any programming I want to do right now involves a lot of thinking and solving problems, which I can’t do right now. But it turns out I can focus for hours on editing video without feeling measurably worse. So I’ve been playing around with some captured video game footage.
 
-<p class='image'><img src='http://mnf.m17s.net/2020/08/22/EgBUSUSXYAA0NtE.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/08/22/EgBUSUSXYAA0NtE.jpg' alt=''></p>
 
 Hence, creating instead of writing. I’m still making something, it’s just not precious wordses. I even splurged £40 on a little jog shuttle (and immediately regretted not choosing the £90 one with more buttons, but hey).
 
-<p class='image'><img src='http://mnf.m17s.net/2020/08/22/EgBDUgeXsAEPD6R.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/08/22/EgBDUgeXsAEPD6R.jpg' alt=''></p>
 
 
 So this week I’ve done video editing on some Horizon Zero Dawn footage,

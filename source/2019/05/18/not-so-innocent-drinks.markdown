@@ -13,5 +13,5 @@ tag = [ "eurovision",]
 
 Premixed cocktails for [#Eurovision](/tags/eurovision/). Not so [`@innocent`](https://twitter.com/innocent) drinks.
 
-<p class='image'><img src='http://mnf.m17s.net/2019/05/18/D62e70-XsAA-VcR.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/05/18/D62e70-XsAA-VcR.jpg' alt=''></p>
 

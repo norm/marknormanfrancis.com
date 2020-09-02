@@ -16,7 +16,7 @@ thread_tweet_ids = [ 1286725622371418113, 1286726043659902977, 12867269928770273
 Another week, another [stack of chips](/2020/06/19/my-week-in-poker-chips).
 This week’s chips look like this:
 
-<p class='image'><img src='http://mnf.m17s.net/2020/07/24/EdtegLfWsAIw5x4.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/07/24/EdtegLfWsAIw5x4.jpg' alt=''></p>
 
 I spent the start of the week working on integrating
 [Sectile templating](https://github.com/norm/flourish/commit/c29b1688defaf9b876160a8f9999e4c7e606b8a8)

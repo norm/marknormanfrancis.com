@@ -6,7 +6,7 @@ page_class = 'about article'
 
 # About the rebuild
 
-[![Sketches of how to do CSS on a whiteboard](http://mnf.m17s.net/2012/07/31/dropping-a-css-knowledge-bomb-on-rujmah.jpg)][img] Hello world.
+[![Sketches of how to do CSS on a whiteboard](https://mnf.m17s.net/2012/07/31/dropping-a-css-knowledge-bomb-on-rujmah.jpg)][img] Hello world.
 
 Again.
 
@@ -67,7 +67,7 @@ And I have more words to write.
   * ❌ write a script to import/easily add bookmarks
 
 * ❌ Then do everything else...
-  * ❌ Add SSL
+  * ✅ Add SSL
   * ❌ Add logging to the S3 bucket/cloudfront
   * ❌ Analyse said logs
   * ❌ New post on the minimum amount of terraform needed to get a static site

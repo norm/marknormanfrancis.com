@@ -16,7 +16,7 @@ thread_tweet_ids = [ 1292501974882160642, 1292502138220929025, 12925030096882032
 Another week, another [stack of chips](/2020/06/19/my-week-in-poker-chips).
 This week was pretty dismal:
 
-<p class='image'><img src='http://mnf.m17s.net/2020/08/09/Ee_j1WwXsAAU9Ha.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/08/09/Ee_j1WwXsAAU9Ha.jpg' alt=''></p>
 
 I started the week feeling a bit headachey, and thinking “take some paracetamol, you’ll be fine”. I had no idea. Tuesday I felt worse. Wednesday awful. Thursday the headache went away but was replaced with about the worst vertigo I’ve ever had.
 

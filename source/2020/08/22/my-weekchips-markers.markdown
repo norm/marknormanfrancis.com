@@ -27,5 +27,5 @@ Each colour represents a broad type of activity:
 * **white** represents not doing anything useful; such as sleeping, being ill,
   watching TV…
 
-<p class='image'><img src='http://mnf.m17s.net/2020/08/22/EgBAKkFWoAAOQ0d.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/08/22/EgBAKkFWoAAOQ0d.jpg' alt=''></p>
 

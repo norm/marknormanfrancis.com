@@ -180,7 +180,7 @@ def main():
                 )
                 if uploaded:
                     print('++ s3://mnf.m17s.net/%s' % upload_path)
-                photos.append('http://mnf.m17s.net/%s' % upload_path)
+                photos.append('https://mnf.m17s.net/%s' % upload_path)
             skip = False
 
         if skip:
@@ -220,7 +220,7 @@ def main():
             'title': title,
             'type': 'foursquare',
             'source': 'Foursquare (Swarm)',
-            'map': 'http://mnf.m17s.net/%s' % path,
+            'map': 'https://mnf.m17s.net/%s' % path,
         }
         if tags:
             source['tag'] = tags

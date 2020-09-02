@@ -6,7 +6,7 @@ tag = [ 'recipe', 'chicken', 'chorizo', 'gumbo', ]
 
 
 # recipe extra fields
-main_photo = 'http://mnf.m17s.net/recipes/chicken-and-chorizo-gumbo/hero.jpg'
+main_photo = 'https://mnf.m17s.net/recipes/chicken-and-chorizo-gumbo/hero.jpg'
 time = { cook = 90 }
 description_markdown = '''
 

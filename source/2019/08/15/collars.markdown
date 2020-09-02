@@ -15,7 +15,7 @@ thread_tweet_ids = [ 1161918214143696896, 1161918459573395456, 11619464625840005
 
 While Roxy wears a lavender collar (as featured in Vogue, dontchaknow) Itsy sports a multicoloured collar. It’s a kitten collar because she’s just so teeny despite being about 5 years old.
 
-<p class='image'><img src='http://mnf.m17s.net/2019/08/15/EB_2cl0XoAEfB4y.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/08/15/EB_2cl0XoAEfB4y.jpg' alt=''></p>
 
 Also, that splash of white fur at her throat, how adorable is that?
 
@@ -23,5 +23,5 @@ Also, that splash of white fur at her throat, how adorable is that?
 
 Roxy, her posh collar, and another splash of white fur at the throat
 
-<p class='image'><img src='http://mnf.m17s.net/2019/08/15/ECAQJAIX4AMAUve.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/08/15/ECAQJAIX4AMAUve.jpg' alt=''></p>
 

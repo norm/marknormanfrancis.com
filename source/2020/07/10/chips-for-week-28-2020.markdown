@@ -16,7 +16,7 @@ thread_tweet_ids = [ 1281637070851670018, 1281637393557315596, 12816378675303956
 Another week, another [stack of chips](/2020/06/19/my-week-in-poker-chips).
 This week’s chips look like this:
 
-<p class='image'><img src='http://mnf.m17s.net/2020/07/10/EclKZ8LXsAUiumS.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/07/10/EclKZ8LXsAUiumS.jpg' alt=''></p>
 
 A little bit of coding at the weekend, and a couple of days half coding, half doing other things. I changed how [flourish returns its source objects](https://github.com/norm/flourish/pull/23).
 

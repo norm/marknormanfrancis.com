@@ -16,7 +16,7 @@ thread_tweet_ids = [ 1289237896143110144, 1289238031560347648, 12892390005914214
 Another week, another [stack of chips](/2020/06/19/my-week-in-poker-chips).
 This week’s chips look like this:
 
-<p class='image'><img src='http://mnf.m17s.net/2020/07/31/EeRLJcvXsAEYRWJ.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/07/31/EeRLJcvXsAEYRWJ.jpg' alt=''></p>
 
 As you can see, some solid coding at the start of the week. As I said last week, I made a script to create GIFs from a config file on the command line. I improved it, and wrapped it into the source for [my GIFs site](http://gifs.cackhanded.net) which I redid this week.
 

@@ -15,7 +15,7 @@ tag = [ "my-name-is",]
 
 Add [`@Apple`](https://twitter.com/Apple) Messages on iOS 13 to the list of apps that don’t understand how names work. Doubly disappointing because contacts has done for ever.
 
-<p class='image'><img src='http://mnf.m17s.net/2019/10/07/EGSpE1uXkAIsS_O.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/10/07/EGSpE1uXkAIsS_O.jpg' alt=''></p>
 
-<p class='image'><img src='http://mnf.m17s.net/2019/10/07/EGSpEzNXkAAaG6M.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/10/07/EGSpEzNXkAAaG6M.jpg' alt=''></p>
 

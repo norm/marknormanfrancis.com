@@ -23,5 +23,5 @@ UK’s Government Digital Service has stickers and posters with their sound bite
 
 Having said that, we did have a team tshirt when I worked at GDS, designed by [`@markhurrell`](https://twitter.com/markhurrell) and wrangled by [`@annashipman`](https://twitter.com/annashipman). But we were special.
 
-<p class='image'><img src='http://mnf.m17s.net/2018/04/12/Dajp_ZDWsAAxJZZ.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2018/04/12/Dajp_ZDWsAAxJZZ.jpg' alt=''></p>
 

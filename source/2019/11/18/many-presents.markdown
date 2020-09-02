@@ -13,5 +13,5 @@ tag = [ "boozecase", "scapa",]
 
 Now I have time on my hands I’m doing some tidying up and rearranging in my study. And finding many presents from Previous Norm.
 
-<p class='image'><img src='http://mnf.m17s.net/2019/11/18/EJqoZT2XkAAkNqA.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/11/18/EJqoZT2XkAAkNqA.jpg' alt=''></p>
 

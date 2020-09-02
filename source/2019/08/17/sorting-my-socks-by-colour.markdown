@@ -19,37 +19,37 @@ This could take a while.
 
 This is “blues” organised from most fun (left) to least fun (right). That’s not a gap on the end, just socks that match the duvet cover.
 
-<p class='image'><img src='http://mnf.m17s.net/2019/08/17/ECKmreUX4AEj37F.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKmreUX4AEj37F.jpg' alt=''></p>
 
 Reds and maroons, still most fun to least fun
 
-<p class='image'><img src='http://mnf.m17s.net/2019/08/17/ECKqxHTWwAEtpw0.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKqxHTWwAEtpw0.jpg' alt=''></p>
 
 Oranges (are not the only socks)
 
-<p class='image'><img src='http://mnf.m17s.net/2019/08/17/ECKsg9UW4AEjrxj.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKsg9UW4AEjrxj.jpg' alt=''></p>
 
 Pinks
 
-<p class='image'><img src='http://mnf.m17s.net/2019/08/17/ECKtgyNXkAA0F_E.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKtgyNXkAA0F_E.jpg' alt=''></p>
 
 Greens
 
-<p class='image'><img src='http://mnf.m17s.net/2019/08/17/ECKvKNNXkAAcK-f.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKvKNNXkAAcK-f.jpg' alt=''></p>
 
 Purples
 
-<p class='image'><img src='http://mnf.m17s.net/2019/08/17/ECKvPtYXYAApsRf.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKvPtYXYAApsRf.jpg' alt=''></p>
 
 And yellows.
 
-<p class='image'><img src='http://mnf.m17s.net/2019/08/17/ECKwYSoXkAAGTEM.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKwYSoXkAAGTEM.jpg' alt=''></p>
 
 These are all the result of buying solid colour multipacks from [`@marksandspencer`](https://twitter.com/marksandspencer) over many years.
 
 Now, what can we tell from this set of photos? Other than that I have too many socks of course. (Not kidding, part of this exercise was to put half of each colour into storage.)
 
-<p class='image'><img src='http://mnf.m17s.net/2019/08/17/ECKxpkwX4AM8b2b.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKxpkwX4AM8b2b.jpg' alt=''></p>
 
 Well, we can tell that M&amp;S don’t recycle colours even when producing a new set … EXCEPT for yellow. I have three different sets that are basically the same colour but have different detailing at the elastic.
 

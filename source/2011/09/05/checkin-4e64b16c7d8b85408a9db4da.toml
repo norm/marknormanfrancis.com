@@ -2,8 +2,8 @@ published = 2011-09-05T12:24:28Z
 title = "Checked in at Lowlander Grand Cafe"
 type = "foursquare"
 source = "Foursquare (Swarm)"
-map = "http://mnf.m17s.net/maps/bc6d7f9693fa781988d3dcba0a66c45bd7d523fb290dfbb0fc6b8b7ded15077a.png"
-photos = [ "http://mnf.m17s.net/2011/09/05/checkin-4e64b16c7d8b85408a9db4da-0.jpg",]
+map = "https://mnf.m17s.net/maps/bc6d7f9693fa781988d3dcba0a66c45bd7d523fb290dfbb0fc6b8b7ded15077a.png"
+photos = [ "https://mnf.m17s.net/2011/09/05/checkin-4e64b16c7d8b85408a9db4da-0.jpg",]
 local_timestamp = 2011-09-05T13:24:28Z
 
 [data]

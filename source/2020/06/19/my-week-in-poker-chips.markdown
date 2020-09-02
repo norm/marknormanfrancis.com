@@ -32,7 +32,7 @@ Skylines? And I was sleeping too?
 So I’ve divided the days of the week into five hour-fifteen-ish slots, with
 breaks in between.
 
-<p class='image'><img src='http://mnf.m17s.net/2020/06/19/Ea5bmj5X0AEcHeW.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/06/19/Ea5bmj5X0AEcHeW.jpg' alt=''></p>
 
 The idea being that as each slot comes to an end I make a note of what I was
 doing. And then I can visualise that at the end of the week to see how my week
@@ -48,11 +48,11 @@ detailed log, just a single summary of “coding” or “reading”. Even if it
 
 Here are my markers.
 
-<p class='image'><img src='http://mnf.m17s.net/2020/06/19/Ea5coyVXYAAEcfx.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/06/19/Ea5coyVXYAAEcfx.jpg' alt=''></p>
 
 And here’s how my week went.
 
-<p class='image'><img src='http://mnf.m17s.net/2020/06/19/Ea5cynAX0AAMLgr.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/06/19/Ea5cynAX0AAMLgr.jpg' alt=''></p>
 
 Two days of furious coding, released a new version of
 [flourish](https://github.com/norm/flourish/releases/tag/v0.7). Took a day off
