@@ -72,5 +72,11 @@
         {% endfor %}
       {% endif %}
     {% endif %}
+    {% if type == 'youtube' %}
+      <dt>views</dt><dd>{{views}}</dd>
+      <dt>likes</dt><dd>{{likes}}</dd>
+      <dt>dislikes</dt><dd>{{dislikes}}</dd>
+      <dt>comments</dt><dd>{{comments}}</dd>
+    {% endif %}
   </dl>
 </header>

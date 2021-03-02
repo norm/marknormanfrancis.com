@@ -1,0 +1,7 @@
+#!/usr/bin/env bash -euo pipefail
+
+# Mark Norman Francis channel
+./script/add_youtube_uploads UUhCfyxtJP1e4eO0v7L1CUJw
+
+# Game Show channel
+./script/add_youtube_uploads UUI0KNfM-b2vXKPY4QwJ0_oQ
