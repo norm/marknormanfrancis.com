@@ -43,28 +43,42 @@ while next_token is not None:
         video = req.json()['items'][0]
 
         timestamp = parser.parse(video['snippet']['publishedAt'])
-        source = {
-            'video_id': item['contentDetails']['videoId'],
-            'published': timestamp,
-            'title': video['snippet']['title'].replace(' ', ' '),
-            'type': 'youtube',
-            'source': 'YouTube (%s)' % video['snippet']['channelTitle'],
-            'description': video['snippet']['description'].replace(' ', ' '),
-            'views': video['statistics']['viewCount'],
-            'likes': video['statistics']['likeCount'],
-            'dislikes': video['statistics']['dislikeCount'],
-            'comments': video['statistics']['commentCount'],
-        }
-
-        try:
-            source['thumbnail'] = video['snippet']['thumbnails']['maxres']['url']
-        except KeyError:
-            source['thumbnail'] = video['snippet']['thumbnails']['default']['url']
 
         subdir = timestamp.strftime('%Y/%m/%d')
         slug = slugify(video['snippet']['title'])
         path = '%s/%s' % (subdir, slug)
         toml_file = 'source/%s.toml' % path
+        source = {}
+
+        try:
+            with open(toml_file, 'r') as handle:
+                source = toml.load(handle)
+        except FileNotFoundError:
+            pass
+
+        # if the source file already exists, don't replace any
+        # content except the stats counts
+        if 'video_id' not in source:
+            source = {
+                'video_id': item['contentDetails']['videoId'],
+                'published': timestamp,
+                'title': video['snippet']['title'].replace(' ', ' '),
+                'type': 'youtube',
+                'source': 'YouTube (%s channel)' % video['snippet']['channelTitle'],
+                'description': video['snippet']['description'].replace(' ', ' '),
+            }
+            try:
+                source['thumbnail'] = video['snippet']['thumbnails']['maxres']['url']
+            except KeyError:
+                source['thumbnail'] = video['snippet']['thumbnails']['default']['url']
+
+        source.update({
+            'views': video['statistics']['viewCount'],
+            'likes': video['statistics']['likeCount'],
+            'dislikes': video['statistics']['dislikeCount'],
+            'comments': video['statistics']['commentCount'],
+        })
+
         update_content(toml_file, toml.dumps(source))
 
     try:
