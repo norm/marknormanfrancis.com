@@ -11,13 +11,15 @@ def update_content(filename, content):
         with open(filename, 'r') as handle:
             current = handle.read()
     except FileNotFoundError:
-        pass
+        current = None
 
     if content != current:
         with open(filename, 'w') as write_handle:
             write_handle.write(content)
-        print('++', filename)
-
+        if not current:
+            print('++', filename)
+        else:
+            print('--', filename)
 
 def strip_trailing_hashtags(text):
     """

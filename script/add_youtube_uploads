@@ -1,0 +1,87 @@
+#!/usr/bin/env python
+
+import os
+import sys
+
+from dateutil import parser
+from django.utils.text import slugify
+import requests
+import toml
+
+from lib import update_content
+
+
+def youtube_api_call(action, **kwargs):
+    params = {
+        'key': os.environ['YOUTUBE_KEY'],
+    }
+    params.update(kwargs)
+    return requests.get(
+        'https://youtube.googleapis.com/youtube/v3/%s' % action,
+        params = params,
+        headers = {'Accept': 'application/json'},
+    )
+
+
+next_token=''
+
+while next_token is not None:
+    videos = youtube_api_call(
+            'playlistItems', 
+            part='snippet,contentDetails',
+            pageToken=next_token,
+            maxResults=25,
+            playlistId=sys.argv[1],
+        )
+
+    for item in videos.json()['items']:
+        req = youtube_api_call(
+                'videos',
+                part='snippet,contentDetails,statistics,topicDetails',
+                id=item['contentDetails']['videoId'],
+            )
+        video = req.json()['items'][0]
+
+        timestamp = parser.parse(video['snippet']['publishedAt'])
+
+        subdir = timestamp.strftime('%Y/%m/%d')
+        slug = slugify(video['snippet']['title'])
+        path = '%s/%s' % (subdir, slug)
+        toml_file = 'source/%s.toml' % path
+        source = {}
+
+        try:
+            with open(toml_file, 'r') as handle:
+                source = toml.load(handle)
+        except FileNotFoundError:
+            pass
+
+        # if the source file already exists, don't replace any
+        # content except the stats counts
+        if 'video_id' not in source:
+            source = {
+                'video_id': item['contentDetails']['videoId'],
+                'published': timestamp,
+                'title': video['snippet']['title'].replace(' ', ' '),
+                'type': 'youtube',
+                'source': 'YouTube (%s channel)' % video['snippet']['channelTitle'],
+                'description': video['snippet']['description'].replace(' ', ' '),
+            }
+            try:
+                source['thumbnail'] = video['snippet']['thumbnails']['maxres']['url']
+            except KeyError:
+                source['thumbnail'] = video['snippet']['thumbnails']['default']['url']
+
+        source.update({
+            'views': video['statistics']['viewCount'],
+            'likes': video['statistics']['likeCount'],
+            'dislikes': video['statistics']['dislikeCount'],
+            'comments': video['statistics']['commentCount'],
+        })
+
+        update_content(toml_file, toml.dumps(source))
+
+    try:
+        next_token=videos.json()['nextPageToken']
+    except KeyError:
+        next_token = None
