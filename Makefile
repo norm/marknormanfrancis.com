@@ -13,7 +13,7 @@ generate:
 	@flourish generate -v
 
 upload:
-	@flourish upload
+	@flourish upload --invalidate
 
 publish: stash push rebuild unstash
 

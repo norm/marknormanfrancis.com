@@ -1,6 +1,6 @@
 boto3
 django
-flourish
+flourish>=0.9.3
 honcho
 libsass
 requests
