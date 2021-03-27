@@ -1,0 +1,14 @@
+#!/usr/bin/env bash -euo pipefail
+
+message="${1:-Automated changes}"
+
+git config user.name "GitHub Actions"
+git config user.email "actions@users.noreply.github.com"
+
+# if there are any changes/new files ...
+if [ -n "$(git status --porcelain)" ]; then
+    # ... commit them
+    git add -A
+    git commit --message "$message"
+    git push
+fi
