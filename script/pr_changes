@@ -1,4 +1,4 @@
-#!/usr/bin/env bash -euo pipefail
+#!/usr/bin/env -S bash -euo pipefail
 
 branch="${1:-update-}$(date +%s)"
 message="${2:-Update}"

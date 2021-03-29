@@ -1,4 +1,4 @@
-#!/usr/bin/env bash -euo pipefail
+#!/usr/bin/env -S bash -euo pipefail
 
 message="${1:-Automated changes}"
 
