@@ -61,14 +61,16 @@ And I have more words to write.
   * ✅ <del>import tweets from my [`@norms_ps4`][ps4] account</del>
 
 * Other data:
+  * ✅ <del>write a script to import my YouTube videos</del>
+  * ✅ <del>write a script to import my GIFs</del>
   * ❌ write a script to import public github activity
   * ❌ write a script to import tshirt wearings
   * ❌ write a script to import/easily add movie watching
   * ❌ write a script to import/easily add bookmarks
 
 * ❌ Then do everything else...
-  * ✅ Add SSL
-  * ❌ Add logging to the S3 bucket/cloudfront
+  * ✅ <del>Add SSL</del>
+  * ✅ <del>Add logging to the S3 bucket/cloudfront</del>
   * ❌ Analyse said logs
   * ❌ New post on the minimum amount of terraform needed to get a static site
     on S3 with SSL behind CloudFront

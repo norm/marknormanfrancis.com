@@ -5,3 +5,6 @@
 
 # Game Show channel
 ./script/add_youtube_uploads UUI0KNfM-b2vXKPY4QwJ0_oQ
+
+# gifs.cackhanded.net
+./script/add_gifs
