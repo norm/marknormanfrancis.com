@@ -10,7 +10,8 @@ from django.template.defaultfilters import pluralize
 
 
 EVENTS_URL='https://api.github.com/users/norm/events'
-page=0
+MAX_PAGINATION=10       # this is not an endlessly paginating API
+
 pp = pprint.PrettyPrinter().pprint
 
 
@@ -28,9 +29,9 @@ def compare_url(event):
     )
 
 
-
 day_events = {}
-while page < 10:
+page=0
+while page < MAX_PAGINATION:
     page += 1
     req = requests.get(
         '%s?page=%d' % (EVENTS_URL, page),
