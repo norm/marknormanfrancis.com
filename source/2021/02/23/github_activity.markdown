@@ -9,6 +9,8 @@ type = "github"
 * 09:34 — Pushed 2 commits to `five-levels` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/94c8aab47b457d3c8831bff2b3429c7e16720cf1..4e5ec51c872c1e09bcab522dfdd32c36de190ba3))
   * [Schedule remaining "5 levels of drinking" GIFs](https://github.com/norm/gifs.cackhanded.net/commit/b439dd45d78e9410255446ddcba7677109211742)
   * [Reorder the "5 levels of drinking" GIFs](https://github.com/norm/gifs.cackhanded.net/commit/4e5ec51c872c1e09bcab522dfdd32c36de190ba3)
+* 09:35 — opened [pull request 5](https://github.com/norm/gifs.cackhanded.net/pull/5) on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)
+* 09:37 — merged [pull request 5](https://github.com/norm/gifs.cackhanded.net/pull/5) on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)
 * 09:37 — Pushed 4 commits to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/f1f3570baaef6af0eae1f0cbdd1e4a2a156f8b7d..45358c999a30388d69a7dc9141fa9e0e9f354da3))
   * [Correct slug for the "5 levels of drinking" sketch](https://github.com/norm/gifs.cackhanded.net/commit/7123295d113664184baa50537ac6ab5d0d272312)
   * [Schedule remaining "5 levels of drinking" GIFs](https://github.com/norm/gifs.cackhanded.net/commit/b439dd45d78e9410255446ddcba7677109211742)

@@ -104,7 +104,34 @@ for day in sorted(day_events):
         elif event['type'] == 'PublicEvent':
             update += ''
         elif event['type'] == 'PullRequestEvent':
-            update += ''
+            if event['payload']['action'] == 'opened':
+                update += '* %s — opened [pull request %s](%s) on [`%s`](%s)\n' % (
+                    timestamp.strftime('%H:%M'),
+                    event['payload']['number'],
+                    event['payload']['pull_request']['html_url'],
+                    event['repo']['name'],
+                    api_to_website(event['repo']['url']),
+                )
+            elif event['payload']['action'] == 'closed':
+                if event['payload']['pull_request']['merged_at']:
+                    update += '* %s — merged [pull request %s](%s) on [`%s`](%s)\n' % (
+                        timestamp.strftime('%H:%M'),
+                        event['payload']['number'],
+                        event['payload']['pull_request']['html_url'],
+                        event['repo']['name'],
+                        api_to_website(event['repo']['url']),
+                    )
+                else:
+                    update += '* %s — closed [pull request %s](%s) on [`%s`](%s)\n' % (
+                        timestamp.strftime('%H:%M'),
+                        event['payload']['number'],
+                        event['payload']['pull_request']['html_url'],
+                        event['repo']['name'],
+                        api_to_website(event['repo']['url']),
+                    )
+            else:
+                print(event)
+                raise UnknownEvent
         elif event['type'] == 'PushEvent':
             update += (
                     '* %s — Pushed %d commit%s '
