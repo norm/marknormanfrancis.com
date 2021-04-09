@@ -50,7 +50,11 @@ while page < 10:
                 day_events[day] = []
             day_events[day].append(event)
 
-for day in sorted(day_events):
+for i, day in enumerate(sorted(day_events)):
+    # skip the oldest day (or risk truncating previously whole entries)
+    if i == 0:
+        continue
+
     events = day_events[day]
     events.reverse()
     update = None
