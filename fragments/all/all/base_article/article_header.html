@@ -41,6 +41,8 @@
           {% endif %}
         {% elif source == 'instagram' %}
           Originally posted to Instagram
+        {% elif source_url %}
+          <a href='{{source_url}}'>{{source}}</a>
         {% else %}
           {{source}}
         {% endif %}
