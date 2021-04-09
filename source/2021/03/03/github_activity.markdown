@@ -14,6 +14,7 @@ type = "github"
 * 16:29 — Pushed 2 commits to `main` on [`norm/flourish`](https://github.com/norm/flourish) ([diff](https://github.com/norm/flourish/compare/283aca3ccb2b535f4649606a080e9a884204207b..d8f0d1b3fdd2e9240b30196b5f41adc015f46701))
   * [Issue CloudFront invalidations on upload](https://github.com/norm/flourish/commit/c30d48becb6f593a1843f271bda13543a39cd6f2)
   * [Merge pull request #34 from norm/cloudfront-invalidate](https://github.com/norm/flourish/commit/d8f0d1b3fdd2e9240b30196b5f41adc015f46701)
+* 16:29 — deleted branch cloudfront-invalidate from [`norm/flourish`](https://github.com/norm/flourish)
 * 16:34 — Pushed 2 commits to `main` on [`norm/flourish`](https://github.com/norm/flourish) ([diff](https://github.com/norm/flourish/compare/d8f0d1b3fdd2e9240b30196b5f41adc015f46701..66c0dce4ecb155efd93b73b30470553f68beab47))
   * [0.9.3 has been uploaded to pypi](https://github.com/norm/flourish/commit/5ccdb9f1148e56190e2051939d4543a82eca508f)
   * [Merge pull request #35 from norm/release-093](https://github.com/norm/flourish/commit/66c0dce4ecb155efd93b73b30470553f68beab47)

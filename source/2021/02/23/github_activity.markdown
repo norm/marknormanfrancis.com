@@ -13,6 +13,7 @@ type = "github"
   * [Schedule remaining "5 levels of drinking" GIFs](https://github.com/norm/gifs.cackhanded.net/commit/b439dd45d78e9410255446ddcba7677109211742)
   * [Reorder the "5 levels of drinking" GIFs](https://github.com/norm/gifs.cackhanded.net/commit/4e5ec51c872c1e09bcab522dfdd32c36de190ba3)
   * [Merge pull request #5 from norm/five-levels](https://github.com/norm/gifs.cackhanded.net/commit/45358c999a30388d69a7dc9141fa9e0e9f354da3)
+* 09:37 — deleted branch five-levels from [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)
 * 09:41 — Pushed 2 commits to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/45358c999a30388d69a7dc9141fa9e0e9f354da3..f36d0727c32105c33c6300cfab7b902cd0687d5a))
   * [Use Flourish to not generate future content](https://github.com/norm/gifs.cackhanded.net/commit/0d518879f0a6ebf1fea9acd7ea007d8fa303e632)
   * [Fix publication date](https://github.com/norm/gifs.cackhanded.net/commit/f36d0727c32105c33c6300cfab7b902cd0687d5a)

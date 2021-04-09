@@ -15,3 +15,4 @@ type = "github"
   * [Update bash script style](https://github.com/norm/marknormanfrancis.com/commit/7feddd216c14cdacde150334503e72bca4654ec5)
   * [Update to latest YouTube state](https://github.com/norm/marknormanfrancis.com/commit/4865b13f28c28783e0226204132aaa30f8c828c2)
   * [Merge pull request #68 from norm/add-youtube-videos](https://github.com/norm/marknormanfrancis.com/commit/0a9baa6648d7b52a13d2f582092499e1446b1842)
+* 08:47 — deleted branch add-youtube-videos from [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com)

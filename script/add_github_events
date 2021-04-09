@@ -68,7 +68,15 @@ for day in sorted(day_events):
         if event['type'] == 'CreateEvent':
             update += ''
         elif event['type'] == 'DeleteEvent':
-            update += ''
+            if event['payload']['ref_type'] == 'branch':
+                update += '* %s — deleted branch %s from [`%s`](%s)\n' % (
+                    timestamp.strftime('%H:%M'),
+                    event['payload']['ref'],
+                    event['repo']['name'],
+                    api_to_website(event['repo']['url']),
+                )
+            else:
+                raise UnknownEvent
         elif event['type'] == 'IssueCommentEvent':
             update += ''
         elif event['type'] == 'PublicEvent':

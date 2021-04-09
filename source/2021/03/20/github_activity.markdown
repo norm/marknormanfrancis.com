@@ -14,3 +14,4 @@ type = "github"
   * [Add data for 1968](https://github.com/norm/eurovision_data/commit/41bf9508b84e04d237e3eacb860192e577c618d6)
   * [Add data for 1969](https://github.com/norm/eurovision_data/commit/7a455ef2cbe62ae4e596009a2c3ae360f810206e)
   * [Merge pull request #6 from norm/add-60s](https://github.com/norm/eurovision_data/commit/b73b3c1237b396e6bbca44608a97f808c5249a0f)
+* 09:25 — deleted branch add-60s from [`norm/eurovision_data`](https://github.com/norm/eurovision_data)

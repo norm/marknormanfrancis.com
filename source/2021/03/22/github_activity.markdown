@@ -13,6 +13,8 @@ type = "github"
   * [Don't require unused _site.toml keys](https://github.com/norm/flourish/commit/dd6f0153b858b44f462569e4f29000f093c29477)
   * [Catch obvious errors in the CLI](https://github.com/norm/flourish/commit/b6374356b3437c11f6592acfe87b70138456ef70)
   * [Merge pull request #36 from norm/generator_requirements](https://github.com/norm/flourish/commit/d7a677759d564899bb1864b68fcc3500bb7b4a54)
+* 15:02 — deleted branch generator_requirements from [`norm/flourish`](https://github.com/norm/flourish)
 * 15:12 — Pushed 2 commits to `main` on [`norm/flourish`](https://github.com/norm/flourish) ([diff](https://github.com/norm/flourish/compare/d7a677759d564899bb1864b68fcc3500bb7b4a54..23cd4e4fb79d35678dd0700a8a31f26776dc7221))
   * [Version 0.9.4 has been uploaded to pypi](https://github.com/norm/flourish/commit/700fdf8c4a41860f9e25d1a87d620cfac8de3b1e)
   * [Merge pull request #37 from norm/release-094](https://github.com/norm/flourish/commit/23cd4e4fb79d35678dd0700a8a31f26776dc7221)
+* 15:12 — deleted branch release-094 from [`norm/flourish`](https://github.com/norm/flourish)
