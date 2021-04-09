@@ -117,7 +117,11 @@ for day in sorted(day_events):
                     api_to_website(event['repo']['url']),
                 )
         elif event['type'] == 'PublicEvent':
-            update += ''
+            update += '* %s — made [`%s`](%s) public\n' % (
+                timestamp.strftime('%H:%M'),
+                event['repo']['name'],
+                api_to_website(event['repo']['url']),
+            )
         elif event['type'] == 'PullRequestEvent':
             if event['payload']['action'] == 'opened':
                 update += '* %s — opened [pull request %s](%s) on [`%s`](%s)\n' % (
