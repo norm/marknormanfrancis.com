@@ -151,7 +151,16 @@ for day in sorted(day_events):
                     api_to_website(commit['url']),
                 )
         elif event['type'] == 'ReleaseEvent':
-            update += ''
+            update += (
+                    '* %s — Released [`%s`](%s) '
+                    'on [`%s`](%s)\n'
+                ) % (
+                    timestamp.strftime('%H:%M'),
+                    event['payload']['release']['name'],
+                    event['payload']['release']['html_url'],
+                    event['repo']['name'],
+                    api_to_website(event['repo']['url']),
+                )
         elif event['type'] == 'WatchEvent':
             update += ''
         else:

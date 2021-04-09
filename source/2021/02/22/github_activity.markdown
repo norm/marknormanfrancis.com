@@ -21,6 +21,7 @@ type = "github"
   * [Version 0.9.2 has been uploaded to pypi](https://github.com/norm/flourish/commit/a349d96fdb53261d76b2de4985d3ca57ad34bd99)
   * [Merge pull request #33 from norm/release-092](https://github.com/norm/flourish/commit/283aca3ccb2b535f4649606a080e9a884204207b)
 * 17:27 — created tag `v0.9.2` on [`norm/flourish`](https://github.com/norm/flourish)
+* 17:28 — Released [`v0.9.2`](https://github.com/norm/flourish/releases/tag/v0.9.2) on [`norm/flourish`](https://github.com/norm/flourish)
 * 17:28 — deleted branch release-092 from [`norm/flourish`](https://github.com/norm/flourish)
 * 17:28 — deleted branch master from [`norm/flourish`](https://github.com/norm/flourish)
 * 17:28 — deleted branch release-07 from [`norm/flourish`](https://github.com/norm/flourish)

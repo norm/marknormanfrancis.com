@@ -25,6 +25,7 @@ type = "github"
   * [0.9.3 has been uploaded to pypi](https://github.com/norm/flourish/commit/5ccdb9f1148e56190e2051939d4543a82eca508f)
   * [Merge pull request #35 from norm/release-093](https://github.com/norm/flourish/commit/66c0dce4ecb155efd93b73b30470553f68beab47)
 * 16:34 — created tag `v0.9.3` on [`norm/flourish`](https://github.com/norm/flourish)
+* 16:35 — Released [`v0.9.3`](https://github.com/norm/flourish/releases/tag/v0.9.3) on [`norm/flourish`](https://github.com/norm/flourish)
 * 16:37 — Pushed 1 commit to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/997aa39269bbe9ab19968cc324294d9eb8eb550f..9cb14068c762a030bbca078910750ad53a19b52c))
   * [Issue cloudfront invalidations on upload](https://github.com/norm/gifs.cackhanded.net/commit/9cb14068c762a030bbca078910750ad53a19b52c)
 * 16:41 — Pushed 1 commit to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/9cb14068c762a030bbca078910750ad53a19b52c..d53f9cf8a04423edb2db2776fed3cc0ca4133c9a))

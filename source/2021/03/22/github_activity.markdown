@@ -25,3 +25,4 @@ type = "github"
   * [Merge pull request #37 from norm/release-094](https://github.com/norm/flourish/commit/23cd4e4fb79d35678dd0700a8a31f26776dc7221)
 * 15:12 — deleted branch release-094 from [`norm/flourish`](https://github.com/norm/flourish)
 * 15:13 — created tag `v0.9.4` on [`norm/flourish`](https://github.com/norm/flourish)
+* 15:15 — Released [`v0.9.4`](https://github.com/norm/flourish/releases/tag/v0.9.4) on [`norm/flourish`](https://github.com/norm/flourish)

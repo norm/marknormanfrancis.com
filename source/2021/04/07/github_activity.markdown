@@ -27,5 +27,6 @@ type = "github"
   * [Merge pull request #39 from norm/release-095](https://github.com/norm/flourish/commit/dd2b50a59914341c484da10bc028f63040f7a966)
 * 05:12 — deleted branch release-095 from [`norm/flourish`](https://github.com/norm/flourish)
 * 05:13 — created tag `v0.9.5` on [`norm/flourish`](https://github.com/norm/flourish)
+* 05:13 — Released [`v0.9.5`](https://github.com/norm/flourish/releases/tag/v0.9.5) on [`norm/flourish`](https://github.com/norm/flourish)
 * 05:16 — Pushed 1 commit to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/783df2268a287ae4f9194c46565925e0dc5f0989..1b81bffe05b5dcc1ac048b7f7476503da7d62529))
   * [Update Flourish](https://github.com/norm/gifs.cackhanded.net/commit/1b81bffe05b5dcc1ac048b7f7476503da7d62529)
