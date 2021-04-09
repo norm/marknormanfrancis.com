@@ -1,0 +1,103 @@
+#!/usr/bin/env python
+
+from datetime import datetime
+import requests
+
+from lib import update_content
+from django.template.defaultfilters import pluralize
+
+
+EVENTS_URL='https://api.github.com/users/norm/events'
+page=0
+
+
+def api_to_website(url):
+    url = url.replace('https://api.github.com/', 'https://github.com/')
+    url = url.replace('/repos/', '/')
+    url = url.replace('/commits/', '/commit/')
+    return url
+
+def compare_url(event):
+    return 'https://github.com/%s/compare/%s..%s' % (
+        event['repo']['name'],
+        event['payload']['before'],
+        event['payload']['head'],
+    )
+
+
+
+day_events = {}
+while page < 10:
+    page += 1
+    req = requests.get('%s?page=%d' % (EVENTS_URL, page))
+    events = req.json()
+
+    for event in events:
+        timestamp = datetime.strptime(event['created_at'], '%Y-%m-%dT%H:%M:%SZ')
+        day = timestamp.strftime('%Y/%m/%d')
+        if day not in day_events:
+            day_events[day] = []
+        day_events[day].append(event)
+
+
+for day in sorted(day_events):
+    events = day_events[day]
+    events.reverse()
+    update = None
+
+    for event in events:
+        timestamp = datetime.strptime(
+            event['created_at'],
+            '%Y-%m-%dT%H:%M:%SZ'
+        )
+
+        if not update:
+            update = (
+                    '```\n'
+                    'title = "Github activity on %s"\n'
+                    'published = %s\n'
+                    'source = "api.github.com"\n'
+                    'type = "github"\n'
+                    '```\n'
+                    '\n'
+                ) % (
+                    timestamp.strftime('%A %B %d, %Y'),
+                    timestamp.strftime('%Y-%m-%dT23:59:59Z'),
+                )
+
+        if event['type'] == 'CreateEvent':
+            update += ''
+        elif event['type'] == 'DeleteEvent':
+            update += ''
+        elif event['type'] == 'IssueCommentEvent':
+            update += ''
+        elif event['type'] == 'PublicEvent':
+            update += ''
+        elif event['type'] == 'PullRequestEvent':
+            update += ''
+        elif event['type'] == 'PushEvent':
+            update += (
+                    '* %s — Pushed %d commit%s '
+                    'to `%s` on [`%s`](%s) ([diff](%s))\n'
+                ) % (
+                    timestamp.strftime('%H:%M'),
+                    len(event['payload']['commits']),
+                    pluralize(len(event['payload']['commits'])),
+                    event['payload']['ref'].replace('refs/heads/', ''),
+                    event['repo']['name'],
+                    api_to_website(event['repo']['url']),
+                    compare_url(event),
+                )
+            for commit in event['payload']['commits']:
+                update += '  * [%s](%s)\n' % (
+                    commit['message'].split("\n")[0],
+                    api_to_website(commit['url']),
+                )
+        elif event['type'] == 'ReleaseEvent':
+            update += ''
+        elif event['type'] == 'WatchEvent':
+            update += ''
+        else:
+            raise UnknownEvent
+
+    update_content('source/%s/github_activity.markdown' % day, update)

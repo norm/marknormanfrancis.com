@@ -6,5 +6,7 @@
 # Game Show channel
 ./script/add_youtube_uploads UUI0KNfM-b2vXKPY4QwJ0_oQ
 
-# gifs.cackhanded.net
+# import all published content from gifs.cackhanded.net
 ./script/add_gifs
+
+./script/add_github_events
