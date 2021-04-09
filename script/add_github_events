@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 from datetime import datetime, date
+import os
 import pprint
 import requests
 
@@ -31,7 +32,12 @@ def compare_url(event):
 day_events = {}
 while page < 10:
     page += 1
-    req = requests.get('%s?page=%d' % (EVENTS_URL, page))
+    req = requests.get(
+        '%s?page=%d' % (EVENTS_URL, page),
+        headers = {
+            'Authorization': 'token %s' % os.environ['GITHUB_ACTIVITY_TOKEN'],
+        }
+    )
     events = req.json()
 
     for event in events:
