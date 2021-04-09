@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from datetime import datetime
+from datetime import datetime, date
 import pprint
 import requests
 
@@ -37,10 +37,12 @@ while page < 10:
     for event in events:
         timestamp = datetime.strptime(event['created_at'], '%Y-%m-%dT%H:%M:%SZ')
         day = timestamp.strftime('%Y/%m/%d')
-        if day not in day_events:
-            day_events[day] = []
-        day_events[day].append(event)
 
+        # ignore anything from today, no partial days
+        if timestamp.date() != date.today():
+            if day not in day_events:
+                day_events[day] = []
+            day_events[day].append(event)
 
 for day in sorted(day_events):
     events = day_events[day]
