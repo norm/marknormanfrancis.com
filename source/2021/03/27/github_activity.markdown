@@ -5,6 +5,7 @@ source = "api.github.com"
 type = "github"
 ```
 
+* 08:46 — created branch add-youtube-videos on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com)
 * 08:47 — Pushed 9 commits to `main` on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com) ([diff](https://github.com/norm/marknormanfrancis.com/compare/46cc85afb7b1b8d5bd0234d933a7ba4ee1721872..0a9baa6648d7b52a13d2f582092499e1446b1842))
   * [Fetch public YouTube channel uploads](https://github.com/norm/marknormanfrancis.com/commit/cf543211660bc5719ee0fd6b9f3eedca0bccf8fd)
   * [Only change stats counts on existing YouTube vids](https://github.com/norm/marknormanfrancis.com/commit/0a959a698160ae2cedc40a8e044c7b713687e53d)

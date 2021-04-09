@@ -66,7 +66,29 @@ for day in sorted(day_events):
                 )
 
         if event['type'] == 'CreateEvent':
-            update += ''
+            if event['payload']['ref_type'] == 'branch':
+                update += '* %s — created branch %s on [`%s`](%s)\n' % (
+                        timestamp.strftime('%H:%M'),
+                        event['payload']['ref'],
+                        event['repo']['name'],
+                        api_to_website(event['repo']['url']),
+                    )
+            elif event['payload']['ref_type'] == 'tag':
+                update += '* %s — created tag `%s` on [`%s`](%s)\n' % (
+                        timestamp.strftime('%H:%M'),
+                        event['payload']['ref'],
+                        event['repo']['name'],
+                        api_to_website(event['repo']['url']),
+                    )
+            elif event['payload']['ref_type'] == 'repository':
+                update += '* %s — created repo [`%s`](%s)\n' % (
+                        timestamp.strftime('%H:%M'),
+                        event['repo']['name'],
+                        api_to_website(event['repo']['url']),
+                    )
+            else:
+                print(event)
+                raise UnknownEvent
         elif event['type'] == 'DeleteEvent':
             if event['payload']['ref_type'] == 'branch':
                 update += '* %s — deleted branch %s from [`%s`](%s)\n' % (
