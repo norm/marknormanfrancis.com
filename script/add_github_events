@@ -100,13 +100,22 @@ for day in sorted(day_events):
             else:
                 raise UnknownEvent
         elif event['type'] == 'IssueCommentEvent':
-            update += '* %s — commented on [issue %s](%s) on [`%s`](%s)\n' % (
-                timestamp.strftime('%H:%M'),
-                event['payload']['issue']['number'],
-                event['payload']['issue']['html_url'],
-                event['repo']['name'],
-                api_to_website(event['repo']['url']),
-            )
+            if 'pull_request' in event['payload']['issue']:
+                update += '* %s — commented on [pull request %s](%s) on [`%s`](%s)\n' % (
+                    timestamp.strftime('%H:%M'),
+                    event['payload']['issue']['number'],
+                    event['payload']['issue']['html_url'],
+                    event['repo']['name'],
+                    api_to_website(event['repo']['url']),
+                )
+            else:
+                update += '* %s — commented on [issue %s](%s) on [`%s`](%s)\n' % (
+                    timestamp.strftime('%H:%M'),
+                    event['payload']['issue']['number'],
+                    event['payload']['issue']['html_url'],
+                    event['repo']['name'],
+                    api_to_website(event['repo']['url']),
+                )
         elif event['type'] == 'PublicEvent':
             update += ''
         elif event['type'] == 'PullRequestEvent':
