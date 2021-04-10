@@ -36,7 +36,7 @@ while page < MAX_PAGINATION:
     req = requests.get(
         '%s?page=%d' % (EVENTS_URL, page),
         headers = {
-            'Authorization': 'token %s' % os.environ['GITHUB_ACTIVITY_TOKEN'],
+            'Authorization': 'token %s' % os.environ['GH_ACTIVITY_TOKEN'],
         }
     )
     events = req.json()

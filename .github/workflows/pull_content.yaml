@@ -35,6 +35,7 @@ jobs:
       - name: Pull automatic content
         env:
           YOUTUBE_KEY: ${{ secrets.YOUTUBE_KEY }}
+          GH_ACTIVITY_TOKEN: ${{ secrets.GH_ACTIVITY_TOKEN }}
         run: |
           ./script/pull_content
 
