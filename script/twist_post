@@ -1,0 +1,22 @@
+#!/usr/bin/env -S bash -euo pipefail
+#
+# Send content to a Twist channel integration.
+
+# capture stdin to a file
+content=$(mktemp)
+cat > $content
+
+title=$(mktemp)
+echo "${*:-Automated post}" > $title
+
+# send content to a Twist channel integration
+jq  --null-input \
+    --rawfile content $content \
+    --rawfile title $title \
+    '{$content,$title}' \
+    | \
+        curl \
+            -X POST \
+            -H 'Content-type: application/json' \
+            --data @- \
+            "$TWIST_URL"

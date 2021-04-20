@@ -42,5 +42,6 @@ jobs:
       - name: Commit and PR any changes
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          TWIST_URL: ${{secrets.TWIST_URL}}
         run: |
           ./script/commit_changes "Automatic content updates"
