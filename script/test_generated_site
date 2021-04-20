@@ -23,8 +23,6 @@ while IFS= read file; do
 done < <(rg -l '/...././' output || true)
 
 # summary and exit status code
-if [ $errors -gt 0 ]; then
-    echo ''
-    echo "$files files, $errors errors"
-    exit 1
-fi
+echo ''
+echo "$files files, $errors errors"
+[ $errors == 0 ]
