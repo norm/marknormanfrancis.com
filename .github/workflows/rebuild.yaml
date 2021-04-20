@@ -34,6 +34,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+          sudo apt-get install ripgrep
 
       - name: Generate CSS
         env:
@@ -45,6 +46,10 @@ jobs:
       - name: Generate site
         run: |
           make clean generate
+
+      - name: Test for problems
+        run: |
+          make test
 
       - name: Upload site
         env:

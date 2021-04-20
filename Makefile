@@ -25,5 +25,8 @@ push:
 
 rebuild: clean baked_css upload generate upload dev_css
 
+test:
+	@./script/test_generated_site
+
 unstash:
 	git stash pop

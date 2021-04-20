@@ -1,0 +1,30 @@
+#!/usr/bin/env -S bash -euo pipefail
+
+function error {
+    echo "$@" >&2
+    let "errors = errors + 1"
+}
+
+
+errors=0
+files=0
+
+# check filenames for "undefined" posts
+while IFS= read file; do
+    [[ "$file" =~ /undefined* ]] && error "Undefined: $file"
+    [[ "$file" =~ /tweet-* ]]    && error "Untitled tweet: $file"
+
+    let "files = files + 1"
+done < <(find output -type f)
+
+# check for broken month navigation
+while IFS= read file; do
+    error "Broken month nav:" $file
+done < <(rg -l '/...././' output || true)
+
+# summary and exit status code
+if [ $errors -gt 0 ]; then
+    echo ''
+    echo "$files files, $errors errors"
+    exit 1
+fi
