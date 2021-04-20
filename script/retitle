@@ -1,0 +1,18 @@
+#!/usr/bin/env -S bash -euo pipefail
+
+toml=$(mktemp)
+
+
+while IFS= read file; do
+    echo "-- $file"
+    subl --new-window --wait $file
+
+    sed '/```/,/```/!d;//d' $file > $toml
+    title=$(./bin/toml $toml title)
+    slug=$(./bin/slugify $title)
+    dir=$(dirname $file)
+
+    echo "   $dir/$slug.markdown"
+    mv $file $dir/$slug.markdown
+
+done < <(find source -name 'undefined-*.markdown')

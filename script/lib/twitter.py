@@ -86,7 +86,7 @@ class Twitter:
             title = strip_trailing_hashtags(title)
             # more than about 10 words and it's not a good title
             if len(title.split()) > 10:
-                title = 'Tweet at %s' % created.strftime('%H:%M:%S').lower()
+                title = 'Undefined %s' % created.strftime('%H:%M:%S').lower()
             # zero words and it's also not a good title
             if len(title.split()) == 0:
                 title = 'Untitled tweet at %s' % \
