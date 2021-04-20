@@ -13,3 +13,6 @@
 
 # import autopublished tweets
 ./script/publish_tweets
+
+# import @mnfpublishing favourites
+./script/mnfpublishing

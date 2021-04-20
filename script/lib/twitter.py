@@ -51,7 +51,10 @@ class Twitter:
         self.bucket = Bucket(BUCKET)
 
     def user_timeline(self, *args, **kwargs):
-        return self._api.user_timeline(*args, **kwargs)
+        return self._api.user_timeline(*args, **kwargs, tweet_mode='extended')
+
+    def get_favourites_for(self, screen_name, tweet_mode='extended'):
+        return self._api.favorites(screen_name=screen_name)
 
     def create_source_from_tweet(self, id, extra={}):
         tweets = self.get_tweets_from_id(id, extra)
