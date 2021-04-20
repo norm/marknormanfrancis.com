@@ -1,0 +1,42 @@
+#!/usr/bin/env python
+
+import sys
+
+import toml
+
+from lib.twitter import Twitter
+
+
+ACCEPT_HASHTAGS = ['itsy', 'roxy']
+
+
+def publish(tweet):
+    """
+    Return True if the tweet is to be autopublished.
+    """
+    for tag in tweet.entities['hashtags']:
+        if tag['text'] in ACCEPT_HASHTAGS:
+            return True
+    return False
+
+
+def main():
+    twitter = Twitter()
+
+    ids_toml = 'data/cackhanded.toml'
+    with open(ids_toml, 'r') as handle:
+        ids = toml.load(handle)
+
+    for tweet in twitter.user_timeline():
+        if publish(tweet):
+            tweet_id = '%s' % tweet.id
+            if tweet_id not in ids:
+                twitter.create_source_from_tweet(tweet_id)
+                ids[tweet_id] = {}
+                with open(ids_toml, 'w') as write_handle:
+                    toml.dump(ids, write_handle)
+                    print('--', ids_toml)
+
+
+if __name__ == '__main__':
+    main()

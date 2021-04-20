@@ -10,3 +10,6 @@
 ./script/add_gifs
 
 ./script/add_github_events
+
+# import autopublished tweets
+./script/publish_tweets
