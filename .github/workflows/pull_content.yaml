@@ -54,6 +54,8 @@ jobs:
           ./script/commit_changes "Automatic content updates"
 
       - name: Notify on failure
-        if: ${{ failure() }}
+        env:
+          TWIST_URL: ${{secrets.TWIST_URL}}
+        if: failure()
         run: |
-          ./script/twist_post $(date +'%Y-%m-%d') "Automatic content update failed"
+          echo "" | ./script/twist_post $(date +'%Y-%m-%d') "Automatic content update failed"
