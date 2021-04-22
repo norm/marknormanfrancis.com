@@ -68,3 +68,10 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
           make upload
+
+      - name: Notify on failure
+        env:
+          TWIST_URL: ${{secrets.TWIST_URL}}
+        if: failure()
+        run: |
+          echo "" | ./script/twist_post FAILURE: $(date +'%Y-%m-%d') Site rebuild

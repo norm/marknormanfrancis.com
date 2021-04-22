@@ -44,7 +44,6 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
           ./script/pull_content
-          false
 
       - name: Commit and PR any changes
         env:
@@ -58,4 +57,4 @@ jobs:
           TWIST_URL: ${{secrets.TWIST_URL}}
         if: failure()
         run: |
-          echo "" | ./script/twist_post $(date +'%Y-%m-%d') "Automatic content update failed"
+          echo "" | ./script/twist_post FAILURE: $(date +'%Y-%m-%d') Automatic content update
