@@ -20,7 +20,7 @@ done < <(find output -type f)
 # check for broken month navigation
 while IFS= read file; do
     error "Broken month nav:" $file
-done < <(rg -l '/...././' output || true)
+done < <(rg -l 'href=./...././' output || true)
 
 # summary and exit status code
 echo ''
