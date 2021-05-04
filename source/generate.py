@@ -58,7 +58,7 @@ class Archives(base.IndexGenerator):
 
 def global_context(self):
     return {
-        'all_valid_dates': helpers.publication_range(self),
+        'publication_range': helpers.publication_range(self),
         'publication_dates': self.publication_dates,
         'fixme_set': self.sources.filter(fixme__set='', draft__unset=''),
         'draft_set': self.sources.filter(draft__set=''),
