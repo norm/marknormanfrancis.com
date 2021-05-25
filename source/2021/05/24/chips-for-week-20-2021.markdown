@@ -1,5 +1,6 @@
 ```
 published = 2021-05-24T05:12:40Z
+updated = 2021-05-25T13:18:30Z
 title = 'Chips for week 20, 2021'
 type = 'tweet'
 tweet_id = "1396695621927583746"
@@ -33,8 +34,8 @@ still works". So I started the week by trying to restore the python virtual
 environment for my [Eurovision control panel][eurodrink] and discovering
 that it was definitely now too old for me to get it working.
 
-So I spent the week rebuilding it (but I haven't pushed
-it to GitHub yet, so I can't link you to it.)
+So I spent the week [rebuilding it][rebuild] from scratch, incorporating
+some improvements I had been meaning to make for *several years now*.
 
 I also watched two Eurovision semi-finals, repeat watched many of the
 performances again on YouTube to make notes, made a couple of GIFs, and then
@@ -47,3 +48,4 @@ on the good part — shouting at the TV. [I love it.][jjdd]
 
 [eurodrink]: https://github.com/norm/eurodrink
 [jjdd]: https://twitter.com/eurovisiondrink/status/1396220834482634754
+[rebuild]: https://github.com/norm/eurodrink/compare/00142ac...7351b9c
