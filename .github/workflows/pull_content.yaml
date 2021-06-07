@@ -57,4 +57,7 @@ jobs:
           TWIST_URL: ${{secrets.TWIST_URL}}
         if: failure()
         run: |
-          echo "" | ./script/twist_post FAILURE: $(date +'%Y-%m-%d') Automatic content update
+          (
+            echo "# Pull content workflow failure"
+            echo "$(date +'%Y-%m-%d') - $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          ) | ./script/twist_post
