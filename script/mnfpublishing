@@ -6,23 +6,26 @@ import toml
 
 from lib.twitter import Twitter
 
+MY_ACCOUNTS = ['cackhanded']
+
 
 def main():
     twitter = Twitter()
 
     faves = twitter.get_favourites_for('mnfpublishing')
     for fave in faves:
-        ids_toml = 'data/%s.toml' % fave.user.screen_name
-        with open(ids_toml, 'r') as handle:
-            ids = toml.load(handle)
+        if fave.user.screen_name in MY_ACCOUNTS:
+            ids_toml = 'data/%s.toml' % fave.user.screen_name
+            with open(ids_toml, 'r') as handle:
+                ids = toml.load(handle)
 
-        tweet_id = '%s' % fave.id
-        if tweet_id not in ids:
-            twitter.create_source_from_tweet(tweet_id)
-            ids[tweet_id] = {}
-            with open(ids_toml, 'w') as write_handle:
-                toml.dump(ids, write_handle)
-                print('--', ids_toml)
+            tweet_id = '%s' % fave.id
+            if tweet_id not in ids:
+                twitter.create_source_from_tweet(tweet_id)
+                ids[tweet_id] = {}
+                with open(ids_toml, 'w') as write_handle:
+                    toml.dump(ids, write_handle)
+                    print('--', ids_toml)
 
 
 if __name__ == '__main__':
