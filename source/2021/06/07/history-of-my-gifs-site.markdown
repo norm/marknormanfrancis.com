@@ -128,4 +128,5 @@ and 112 as-yet unscheduled Ted Lasso GIFs.
 [gb]: https://gifs.cackhanded.net/ghostbusters/
 [48new]: https://github.com/norm/gifs.cackhanded.net/commit/f1f3570baaef6af0eae1f0cbdd1e4a2a156f8b7d
 [5levels]: https://gifs.cackhanded.net/larry-miller/5-levels-of-drinking/
+[tl]: https://gifs.cackhanded.net/ted-lasso/
 [hzd]: https://gifs.cackhanded.net/horizon-zero-dawn/
