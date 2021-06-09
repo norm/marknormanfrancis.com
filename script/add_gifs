@@ -43,7 +43,15 @@ for row in reader:
     )
     row['source'] = 'gifs.cackhanded.net'
     row['source_url'] = row['url']
-    row['tag[]'] = row.pop('tag')
+
+    # use the source/episode parts of the URL as tags too
+    parts = row['url'].split('/')
+    if len(parts) == 6:
+        sources = parts[3:5]
+    elif len(parts) == 5:
+        sources = [parts[3]]
+
+    row['tag[]'] = ':'.join([row.pop('tag'), *sources])
     row['type'] = 'gif'
     writer.writerow(row)
 
