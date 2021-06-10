@@ -1,13 +1,13 @@
 ```
-tweet_id = "1112790397674250240"
-type = "tweet"
 title = "Bullseye"
 published = 2019-04-01T18:54:40Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1112790397674250240"
+twitter_account = "cackhanded"
+tweet_id = "1112790397674250240"
 retweets = 0
 favourites = 4
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1112790397674250240"
 tag = [ "axe-throwing",]
 ```
 

@@ -1,13 +1,13 @@
 ```
-tweet_id = "1036546528545054720"
-type = "tweet"
 title = "The roots of /dev/fort"
 published = 2018-09-03T09:10:49Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1036546528545054720"
+twitter_account = "cackhanded"
+tweet_id = "1036546528545054720"
 retweets = 0
 favourites = 9
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1036546528545054720"
 tag = [ "devfort",]
 updated = 2018-09-03T09:28:45Z
 thread_tweet_ids = [ 1036542017256480768, 1036542512951910400, 1036543353243033600, 1036543872799830016, 1036544417358905350, 1036545065043279872, 1036545755971047424, 1036546528545054720,]

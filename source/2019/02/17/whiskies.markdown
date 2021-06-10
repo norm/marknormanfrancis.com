@@ -1,13 +1,13 @@
 ```
-tweet_id = "1097052348319449089"
-type = "tweet"
 title = "Whiskies"
 published = 2019-02-17T08:37:16Z
-retweets = 1
-favourites = 5
-source = "twitter"
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1097052348319449089"
 twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1097052348319449089"
+tweet_id = "1097052348319449089"
+retweets = 1
+favourites = 4
 tag = [ "boozecase", "game-of-thrones", "whisky",]
 ```
 

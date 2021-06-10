@@ -1,13 +1,13 @@
 ```
-tweet_id = "1137990355062853632"
-type = "tweet"
 title = "Rainbow 'laces'"
 published = 2019-06-10T07:50:18Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1137990355062853632"
+twitter_account = "cackhanded"
+tweet_id = "1137990355062853632"
 retweets = 0
 favourites = 9
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1137990355062853632"
 tag = [ "hickies", "lifewithoutlaces", "rainbow",]
 ```
 

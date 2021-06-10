@@ -1,13 +1,13 @@
 ```
-tweet_id = "1060908754152161282"
-type = "tweet"
 title = "Boozecase, second edition"
 published = 2018-11-09T14:55:32Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1060908754152161282"
+twitter_account = "cackhanded"
+tweet_id = "1060908754152161282"
 retweets = 0
 favourites = 8
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1060908754152161282"
 tag = [ "boozecase", "gin", "rum", "whisky",]
 ```
 

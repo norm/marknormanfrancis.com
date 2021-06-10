@@ -1,13 +1,13 @@
 ```
-tweet_id = "1233051475980509185"
-type = "tweet"
 title = "Black cat in sunbeam"
 published = 2020-02-27T15:29:15Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1233051475980509185"
+twitter_account = "cackhanded"
+tweet_id = "1233051475980509185"
 retweets = 0
 favourites = 4
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1233051475980509185"
 tag = [ "itsy",]
 ```
 

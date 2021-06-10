@@ -1,13 +1,13 @@
 ```
-tweet_id = "1286732602628612096"
-type = "tweet"
 title = "Chips for Week 30, 2020"
 published = 2020-07-24T18:11:09Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1286732602628612096"
+twitter_account = "cackhanded"
+tweet_id = "1286732602628612096"
 retweets = 0
 favourites = 3
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1286732602628612096"
 tag = [ "weekchips",]
 updated = 2020-07-24T18:38:53Z
 thread_tweet_ids = [ 1286725622371418113, 1286726043659902977, 1286726992877027328, 1286727479781203968, 1286727703501189122, 1286727951191543814, 1286728858822205440, 1286729591437090819, 1286731241384017921, 1286731504962461697, 1286732239796154373, 1286732602628612096,]

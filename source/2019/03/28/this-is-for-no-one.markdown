@@ -1,13 +1,13 @@
 ```
-tweet_id = "1111207042482614274"
-type = "tweet"
 title = "This is for no-one"
 published = 2019-03-28T10:02:58Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1111207042482614274"
+twitter_account = "cackhanded"
+tweet_id = "1111207042482614274"
 retweets = 0
 favourites = 4
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1111207042482614274"
 tag = []
 ```
 

@@ -1,13 +1,13 @@
 ```
-tweet_id = "984293801287147520"
-type = "tweet"
 title = "Canada wins"
 published = 2018-04-12T04:47:46Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/984293801287147520"
+twitter_account = "cackhanded"
+tweet_id = "984293801287147520"
 retweets = 0
 favourites = 8
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/984293801287147520"
 tag = []
 updated = 2018-04-12T04:55:04Z
 thread_tweet_ids = [ 984291967025795072, 984293801287147520,]

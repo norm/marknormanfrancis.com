@@ -1,13 +1,13 @@
 ```
-tweet_id = "1215187713374216193"
-type = "tweet"
 title = "The eyes"
 published = 2020-01-09T08:25:02Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1215187713374216193"
+twitter_account = "cackhanded"
+tweet_id = "1215187713374216193"
 retweets = 1
 favourites = 7
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1215187713374216193"
 tag = [ "itsy",]
 ```
 

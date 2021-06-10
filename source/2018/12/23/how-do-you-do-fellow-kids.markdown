@@ -1,13 +1,13 @@
 ```
-tweet_id = "1076781091216916480"
-type = "tweet"
 title = "How do you do, fellow kids?"
 published = 2018-12-23T10:04:25Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1076781091216916480"
+twitter_account = "cackhanded"
+tweet_id = "1076781091216916480"
 retweets = 0
 favourites = 12
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1076781091216916480"
 tag = [ "daily", "tshirt",]
 updated = 2018-12-23T10:06:32Z
 thread_tweet_ids = [ 1076780557726556160, 1076781091216916480,]

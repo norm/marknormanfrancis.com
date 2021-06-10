@@ -1,13 +1,13 @@
 ```
-tweet_id = "1170338576774701056"
-type = "tweet"
 title = "Betrayal Legacy"
 published = 2019-09-07T14:10:35Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1170338576774701056"
+twitter_account = "cackhanded"
+tweet_id = "1170338576774701056"
 retweets = 0
 favourites = 1
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1170338576774701056"
 tag = [ "board-games",]
 ```
 

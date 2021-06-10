@@ -1,14 +1,14 @@
 ```
-tweet_id = "1274059505773547522"
-type = "tweet"
 title = "My week in poker chips"
 published = 2020-06-19T18:56:05Z
-retweets = 0
-favourites = 12
-source = "twitter"
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1274059505773547522"
 twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1274059505773547522"
-tag = [ 'weekchips', ]
+tweet_id = "1274059505773547522"
+retweets = 1
+favourites = 40
+tag = []
 updated = 2020-06-19T19:20:31Z
 thread_tweet_ids = [ 1274053355615277056, 1274054014838202369, 1274054585171263488, 1274055107697610752, 1274055812386873345, 1274056467260289025, 1274056691462660096, 1274057152613711878, 1274057471607410689, 1274057622174552064, 1274057783256723459, 1274059201413816321, 1274059505773547522,]
 ```

@@ -1,13 +1,13 @@
 ```
-tweet_id = "1279086645862637569"
-type = "tweet"
 title = "Chips for Week 27, 2020"
 published = 2020-07-03T15:52:33Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1279086645862637569"
+twitter_account = "cackhanded"
+tweet_id = "1279086645862637569"
 retweets = 0
 favourites = 2
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1279086645862637569"
 tag = [ "weekchips",]
 updated = 2020-07-03T16:16:35Z
 thread_tweet_ids = [ 1279080600008343556, 1279080732225409026, 1279081155803914240, 1279081697506623489, 1279086645862637569,]

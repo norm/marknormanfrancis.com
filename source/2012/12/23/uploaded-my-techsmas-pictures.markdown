@@ -1,13 +1,13 @@
 ```
-tweet_id = "282829573358510080"
-type = "tweet"
 title = "Uploaded my Techsmas pictures"
 published = 2012-12-23T12:46:39Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/282829573358510080"
+twitter_account = "cackhanded"
+tweet_id = "282829573358510080"
 retweets = 0
 favourites = 3
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/282829573358510080"
 tag = [ "techsmas",]
 ```
 

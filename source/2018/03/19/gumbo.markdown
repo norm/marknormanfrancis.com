@@ -1,13 +1,13 @@
 ```
-tweet_id = "975792563994152961"
-type = "tweet"
 title = "Gumbo"
 published = 2018-03-19T17:54:11Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/975792563994152961"
+twitter_account = "cackhanded"
+tweet_id = "975792563994152961"
 retweets = 0
 favourites = 3
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/975792563994152961"
 tag = [ "gumbo",]
 ```
 

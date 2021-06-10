@@ -1,13 +1,13 @@
 ```
-tweet_id = "1179648591276773376"
-type = "tweet"
 title = "Act casual"
 published = 2019-10-03T06:45:15Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1179648591276773376"
+twitter_account = "cackhanded"
+tweet_id = "1179648591276773376"
 retweets = 1
 favourites = 4
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1179648591276773376"
 tag = []
 ```
 

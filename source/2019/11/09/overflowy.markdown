@@ -1,13 +1,13 @@
 ```
-tweet_id = "1193178625840955392"
-type = "tweet"
 title = "Overflowy"
 published = 2019-11-09T14:47:43Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1193178625840955392"
+twitter_account = "cackhanded"
+tweet_id = "1193178625840955392"
 retweets = 0
 favourites = 4
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1193178625840955392"
 tag = [ "boozecase", "gin", "rum", "whisky",]
 updated = 2019-11-09T14:48:47Z
 thread_tweet_ids = [ 1193178357653024769, 1193178625840955392,]

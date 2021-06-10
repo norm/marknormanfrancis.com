@@ -1,13 +1,13 @@
 ```
-tweet_id = "1168121794844344325"
-type = "tweet"
 title = "Lunch delayed"
 published = 2019-09-01T11:21:53Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1168121794844344325"
+twitter_account = "cackhanded"
+tweet_id = "1168121794844344325"
 retweets = 1
 favourites = 5
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1168121794844344325"
 tag = [ "itsy",]
 ```
 

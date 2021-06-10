@@ -1,13 +1,13 @@
 ```
-tweet_id = "1148868679083409408"
-type = "tweet"
 title = "Vauxhall pride"
 published = 2019-07-10T08:16:52Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1148868679083409408"
+twitter_account = "cackhanded"
+tweet_id = "1148868679083409408"
 retweets = 0
 favourites = 2
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1148868679083409408"
 tag = [ "pride", "rainbow", "tfl",]
 ```
 

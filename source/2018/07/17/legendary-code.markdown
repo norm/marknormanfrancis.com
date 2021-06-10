@@ -1,13 +1,13 @@
 ```
-tweet_id = "1019216124729352192"
-type = "tweet"
 title = "Legendary code"
 published = 2018-07-17T13:43:54Z
-retweets = 598
-favourites = 2708
-source = "twitter"
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1019216124729352192"
 twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1019216124729352192"
+tweet_id = "1019216124729352192"
+retweets = 578
+favourites = 2658
 tag = []
 ```
 

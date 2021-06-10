@@ -1,14 +1,14 @@
 ```
-tweet_id = "1030376837845864448"
-type = "tweet"
 title = "Breaking my Twitter"
 published = 2018-08-17T08:17:00Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1030376837845864448"
+twitter_account = "cackhanded"
+tweet_id = "1030376837845864448"
 retweets = 23
 favourites = 56
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1030376837845864448"
-tag = [ "breakingmytwitter",]
+tag = [ "breaking-my-twitter",]
 updated = 2018-08-17T08:52:36Z
 thread_tweet_ids = [ 1030367880905457664, 1030368530225659904, 1030369212215308288, 1030369739753906176, 1030371287305281536, 1030372323021529088, 1030375368958590976, 1030376409854824448, 1030376837845864448,]
 ```
@@ -33,7 +33,7 @@ But really it’s not about us, what some might call power users. Or early adopt
 
  Twitter decided to profit from mass consumer behaviour. And those of us using third party clients don’t help that. I joined twitter early (user 12,026). And twitter no longer sees me as valuable because I want to continue using it the way it always was. Until now.
 
- And that, [`@robjohnson`](https://twitter.com/robjohnson), is why I feel like you’re [#BreakingMyTwitter](/tags/breakingmytwitter/) experience. Because you no longer act like a company that cares about me, the actual user, getting to read what I want and interact with other people using your system in real time.
+ And that, [`@robjohnson`](https://twitter.com/robjohnson), is why I feel like you’re [#BreakingMyTwitter](/tags/breaking-my-twitter/) experience. Because you no longer act like a company that cares about me, the actual user, getting to read what I want and interact with other people using your system in real time.
 
  Compare my timeline in [`@tweetbot`](https://twitter.com/tweetbot) with that of [`@Twitter`](https://twitter.com/Twitter). One has tweets. One has a single tweet unhelpfully unfurling a URL, an ad that is entirely useless (don’t have a mortgage) and the start of a block of in case you missed its. Which, incidentally, I hadn’t.
 
