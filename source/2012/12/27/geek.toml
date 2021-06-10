@@ -1,7 +1,7 @@
-published = 2012-12-27T08:33:39Z
 title = "Geek"
+published = 2012-12-27T08:33:39Z
 image = "https://mnf.m17s.net/2012/12/27/geek.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 original_caption = "Geek #daily #tshirt"
 tag = [ "daily", "tshirt",]

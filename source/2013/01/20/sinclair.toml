@@ -1,7 +1,7 @@
-published = 2013-01-20T17:23:40Z
 title = "Sinclair"
+published = 2013-01-20T17:23:40Z
 image = "https://mnf.m17s.net/2013/01/20/sinclair.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 original_caption = "Sinclair #daily #tshirt"
 tag = [ "daily", "tshirt",]

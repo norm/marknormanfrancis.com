@@ -1,7 +1,7 @@
-published = 2018-05-31T05:57:35Z
 title = "Rick and Morty"
+published = 2018-05-31T05:57:35Z
 image = "https://mnf.m17s.net/2018/05/31/rick-and-morty.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 original_caption = "Rick and Morty #tshirt"
 tag = [ "tshirt",]

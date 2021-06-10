@@ -1,7 +1,7 @@
-published = 2016-03-21T11:50:45Z
 title = "Meeseeks"
+published = 2016-03-21T11:50:45Z
 image = "https://mnf.m17s.net/2016/03/21/meeseeks.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 original_caption = "Meeseeks #daily #tshirt #new"
 tag = [ "daily", "new", "tshirt",]

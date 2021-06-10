@@ -85,11 +85,11 @@ def main():
             print('++ s3://%s/%s' % (BUCKET, image_path))
 
         metadata = {
-            'published': taken,
             'title': caption,
-            'image': 'http://%s/%s' % (BUCKET, image_path),
-            'type': 'instagram',
-            'source': 'instagram',
+            'published': taken,
+            'image': 'https://%s/%s' % (BUCKET, image_path),
+            'origin': 'instagram',
+            'type': 'photo',
         }
         if 'location' in photo:
             metadata['location'] = photo['location']

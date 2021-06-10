@@ -1,7 +1,7 @@
-published = 2014-03-26T09:16:43Z
 title = "Mike and Porter"
+published = 2014-03-26T09:16:43Z
 image = "https://mnf.m17s.net/2014/03/26/mike-and-porter.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 original_caption = "Mike and Porter #latergram"
 tag = [ "latergram",]

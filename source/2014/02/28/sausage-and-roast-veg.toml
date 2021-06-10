@@ -1,7 +1,7 @@
-published = 2014-02-28T13:15:29Z
 title = "Sausage and roast veg"
+published = 2014-02-28T13:15:29Z
 image = "https://mnf.m17s.net/2014/02/28/sausage-and-roast-veg.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 original_caption = "Sausage and roast veg #devfort"
 tag = [ "devfort",]

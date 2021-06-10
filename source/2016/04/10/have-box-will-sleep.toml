@@ -1,7 +1,7 @@
-published = 2016-04-10T09:12:34Z
 title = "Have box, will sleep"
+published = 2016-04-10T09:12:34Z
 image = "https://mnf.m17s.net/2016/04/10/have-box-will-sleep.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 original_caption = "Have box, will sleep #thomas"
 tag = [ "thomas",]
