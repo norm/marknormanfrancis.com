@@ -1,5 +1,6 @@
 from datetime import timedelta
 import os
+import re
 import time
 
 from django.utils.text import slugify
@@ -35,6 +36,12 @@ def timestamp_header(now, previous):
         return '## %s\n\n' % now.strftime('%A %-d, %H:%M')
     else:
         return '## %s\n\n' % now.strftime('%H:%M')
+
+def tagify(text):
+    # turn CamelCase into hyphenated
+    text = re.sub(r'([a-z\W])([A-Z0-9])', r'\1-\2', text)
+    text = slugify(text)
+    return text.replace('_', '-')
 
 
 class Twitter:
@@ -95,9 +102,9 @@ class Twitter:
         slug = slugify(title)
 
         tags.update(
-            slugify(word[1:].lower())
-            for word in title.split()
-            if word.startswith('#')
+            tagify(word[1:])
+                for word in title.split()
+                    if word.startswith('#')
         )
         if 'tags' in extra:
             for tag in extra['tags']:
@@ -108,6 +115,8 @@ class Twitter:
             # the body will match, so there's no unnecessary repetition,
             # except if it is a quoted tweet (we still want the quote to appear)
             text = strip_trailing_hashtags(strip_links(tweets[0].full_text))
+            if 'ignore_body' in extra:
+                tweets[0].full_text = ''
             if text == title:
                 tweets[0].full_text = ''
             if text == '':
@@ -133,25 +142,25 @@ class Twitter:
             favourites += int(tweet.favorite_count)
             if 'hashtags' in tweet.entities:
                 for tag in tweet.entities['hashtags']:
-                    tags.add(slugify(tag['text']))
+                    tags.add(tagify(tag['text']))
 
         if 'remove_tags' in extra:
             for tag in extra['remove_tags']:
                 tags.remove(tag)
 
         post = {
-            'tweet_id': tweets[-1].id_str,
-            'type': 'tweet',
             'title': title,
             'published': created,
-            'retweets': retweets,
-            'favourites': favourites,
-            'source': 'twitter',
-            'twitter_account': tweets[-1].author.screen_name,
-            'source_url': 'https://twitter.com/%s/status/%s' % (
+            'origin': 'twitter-%s' % tweets[-1].author.screen_name,
+            'type': 'tweet',
+            'original_url': 'https://twitter.com/%s/status/%s' % (
                 tweets[-1].author.screen_name,
                 tweets[-1].id_str,
             ),
+            'twitter_account': tweets[-1].author.screen_name,
+            'tweet_id': tweets[-1].id_str,
+            'retweets': retweets,
+            'favourites': favourites,
             'tag': sorted(tags),
         }
 
@@ -254,7 +263,7 @@ class Twitter:
                 if 'text' in section:
                     markdown += '[#%s](/tags/%s/)' % (
                         section['text'],
-                        slugify(section['text'])
+                        tagify(section['text'])
                     )
                 text_from = section['indices'][1]
             if text_from < tweet.display_text_range[1]:
@@ -275,7 +284,7 @@ class Twitter:
                 if uploaded:
                     print('++', destination)
                 markdown += "<p class='image'><img src='%s' alt=''></p>\n\n" % (
-                    'http://%s/%s' % (BUCKET, destination)
+                    'https://%s/%s' % (BUCKET, destination)
                 )
 
         return markdown

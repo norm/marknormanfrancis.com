@@ -12,6 +12,7 @@ import sys
 import toml
 
 from lib.twitter import Twitter
+from lib import update_content
 
 
 twitter = Twitter()
@@ -34,7 +35,6 @@ while True:
     timeline = twitter.user_timeline(
         account,
         page = page,
-        tweet_mode = 'extended'
     )
     if len(timeline) == 0:
         break
@@ -46,6 +46,7 @@ for id in reversed(ids):
     if id not in tweets:
         tweets[id] = {}
         twitter.create_source_from_tweet(id, tweets[id])
+    if sys.argv[2] == 'refresh':
+        twitter.create_source_from_tweet(id, tweets[id])
 
-with open(data_file, 'w') as handle:
-    toml.dump(tweets, handle)
+update_content(data_file, toml.dumps(tweets))

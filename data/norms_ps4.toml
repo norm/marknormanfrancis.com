@@ -119,91 +119,92 @@ tags = [ "assassins-creed",]
 
 [1056127057971818496]
 title = "Red Dead Redemption 2"
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1056132397996093441]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1056214077259816960]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1056259083613978626]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1056530443984490496]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1056628247717404673]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1056643243708948481]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1056658480436838401]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1057744968205434886]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1057745605236346880]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1057748399611535360]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1057749124999725062]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1058441740775055361]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1058442165666353152]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1058464675308994561]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1058482523876007936]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1058482692663205889]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1058482922603405313]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1058662744608722945]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1059049846504599552]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1059056044507385856]
-tags = [ "reddeadredemption2",]
-remove_tags = [ "reddeadredemption",]
+tags = [ "red-dead-redemption-2",]
+remove_tags = [ "red-dead-redemption",]
 
 [1059171149257605120]
 title = "Arthur Morgan"
+ignore_body = true
 
 [1060243042190417921]
 
@@ -298,6 +299,7 @@ title = "Gazebo"
 
 [1063483454187335681]
 title = "Enjoy Lemoyne's Favorite! Schiffer beer"
+ignore_body = true
 
 [1063483766474240000]
 
@@ -345,6 +347,7 @@ title = "Enjoy Lemoyne's Favorite! Schiffer beer"
 
 [1064127086254796800]
 title = "Lucky's desk"
+ignore_body = true
 
 [1064127492485758977]
 
@@ -659,7 +662,7 @@ ignore = true
 [1119710934291947520]
 
 [1164613064760672258]
-tags = [ "platinum",]
+tags = [ "platinum-trophy",]
 
 [1164613520052408320]
 

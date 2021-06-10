@@ -6,6 +6,7 @@ day-index = 'calendar'
 
 [origin]
 # where did the content come from?
+twitter-norms_ps4 = 'twitter'
 
 [type]
 # what kind of content is it?
