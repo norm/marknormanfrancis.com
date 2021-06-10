@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Friday April 09, 2021"
 published = 2021-04-09T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/game_shows_support", "norm/gifs.cackhanded.net", "norm/marknormanfrancis.com",]
+tag = [ "repo-game-shows-support", "repo-gifs-cackhanded-net", "repo-marknormanfrancis-com",]
 ```
 
 * 07:21 — created branch add-github-activity on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com)

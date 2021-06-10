@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Thursday June 03, 2021"
 published = 2021-06-03T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/flourish", "norm/gifs.cackhanded.net",]
+tag = [ "repo-flourish", "repo-gifs-cackhanded-net",]
 ```
 
 * 08:24 — created branch do-not-generate on [`norm/flourish`](https://github.com/norm/flourish)

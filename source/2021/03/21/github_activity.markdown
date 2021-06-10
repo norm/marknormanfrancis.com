@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Sunday March 21, 2021"
 published = 2021-03-21T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/gifs.cackhanded.net", ]
+tag = [ "repo-gifs-cackhanded-net", ]
 ```
 
 * 07:26 — created branch innerspace on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)

@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
-from datetime import datetime, date
+from datetime import datetime, date, timezone
 import os
 import pprint
 import requests
+import toml
 
 from lib import update_content
 from django.template.defaultfilters import pluralize
@@ -28,6 +29,13 @@ def compare_url(event):
         event['payload']['head'],
     )
 
+def repo_to_tag(repo):
+    if repo.startswith('norm/'):
+        repo = repo[5:]
+    repo = repo.replace('/', '-')
+    repo = repo.replace('.', '-')
+    repo = repo.replace('_', '-')
+    return 'repo-' + repo
 
 day_events = {}
 page=0
@@ -58,32 +66,22 @@ for i, day in enumerate(sorted(day_events)):
 
     events = day_events[day]
     events.reverse()
-    update = None
+    update = ''
+    repos = set()
+    date = None
 
     for event in events:
         timestamp = datetime.strptime(
             event['created_at'],
             '%Y-%m-%dT%H:%M:%SZ'
         )
-
-        if not update:
-            update = (
-                    '```\n'
-                    'title = "Github activity on %s"\n'
-                    'published = %s\n'
-                    'source = "api.github.com"\n'
-                    'type = "github"\n'
-                    '```\n'
-                    '\n'
-                ) % (
-                    timestamp.strftime('%A %B %d, %Y'),
-                    timestamp.strftime('%Y-%m-%dT23:59:59Z'),
-                )
+        date = timestamp
 
         # https://docs.github.com/en/developers/webhooks-and-events/github-event-types
         if event['type'] == 'CommitCommentEvent':
             pass
         elif event['type'] == 'CreateEvent':
+            repos.add(event['repo']['name'])
             if event['payload']['ref_type'] == 'branch':
                 update += '* %s — created branch %s on [`%s`](%s)\n' % (
                         timestamp.strftime('%H:%M'),
@@ -108,6 +106,7 @@ for i, day in enumerate(sorted(day_events)):
                 pp(event)
                 raise UnknownEvent
         elif event['type'] == 'DeleteEvent':
+            repos.add(event['repo']['name'])
             if event['payload']['ref_type'] == 'branch':
                 update += '* %s — deleted branch %s from [`%s`](%s)\n' % (
                     timestamp.strftime('%H:%M'),
@@ -125,6 +124,7 @@ for i, day in enumerate(sorted(day_events)):
             pp(event)
             raise UnknownEvent
         elif event['type'] == 'IssueCommentEvent':
+            repos.add(event['repo']['name'])
             if 'pull_request' in event['payload']['issue']:
                 update += '* %s — commented on [pull request %s](%s) on [`%s`](%s)\n' % (
                     timestamp.strftime('%H:%M'),
@@ -147,12 +147,14 @@ for i, day in enumerate(sorted(day_events)):
         elif event['type'] == 'MemberEvent':
             pass
         elif event['type'] == 'PublicEvent':
+            repos.add(event['repo']['name'])
             update += '* %s — made [`%s`](%s) public\n' % (
                 timestamp.strftime('%H:%M'),
                 event['repo']['name'],
                 api_to_website(event['repo']['url']),
             )
         elif event['type'] == 'PullRequestEvent':
+            repos.add(event['repo']['name'])
             if event['payload']['action'] == 'opened':
                 update += '* %s — opened [pull request %s](%s) on [`%s`](%s)\n' % (
                     timestamp.strftime('%H:%M'),
@@ -188,6 +190,7 @@ for i, day in enumerate(sorted(day_events)):
             pp(event)
             raise UnknownEvent
         elif event['type'] == 'PushEvent':
+            repos.add(event['repo']['name'])
             update += (
                     '* %s — Pushed %d commit%s '
                     'to `%s` on [`%s`](%s) ([diff](%s))\n'
@@ -206,6 +209,7 @@ for i, day in enumerate(sorted(day_events)):
                     api_to_website(commit['url']),
                 )
         elif event['type'] == 'ReleaseEvent':
+            repos.add(event['repo']['name'])
             update += (
                     '* %s — Released [`%s`](%s) '
                     'on [`%s`](%s)\n'
@@ -224,4 +228,19 @@ for i, day in enumerate(sorted(day_events)):
             pp(event)
             raise UnknownEvent
 
-    update_content('source/%s/github_activity.markdown' % day, update)
+    front = {}
+    front['title'] = "Github activity on %s" \
+        % timestamp.strftime('%A %B %d, %Y')
+    front['published'] = date.replace(
+            hour=23, minute=59, second=59, tzinfo=timezone.utc)
+    front['origin'] = 'github'
+    front['type'] = 'repository_activity'
+    front['repository'] = sorted(repos)
+    front['tag'] = []
+    for repo in sorted(repos):
+        front['tag'].append(repo_to_tag(repo))
+
+    update_content(
+            'source/%s/github_activity.markdown' % day,
+            '```\n%s```\n\n%s' % (toml.dumps(front), update),
+        )

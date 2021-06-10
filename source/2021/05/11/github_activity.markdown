@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Tuesday May 11, 2021"
 published = 2021-05-11T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/game_shows_support",]
+tag = [ "repo-game-shows-support",]
 ```
 
 * 16:12 — Pushed 13 commits to `main` on [`norm/game_shows_support`](https://github.com/norm/game_shows_support) ([diff](https://github.com/norm/game_shows_support/compare/02420a34543da6c52084f7684b55ba4585e3153a..3f98e91d8bc8458a5067a133eada21e78ca4b2a6))

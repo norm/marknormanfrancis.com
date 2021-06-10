@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Monday February 22, 2021"
 published = 2021-02-22T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/flourish",]
+tag = [ "repo-flourish",]
 ```
 
 * 17:17 — created branch exclude_future on [`norm/flourish`](https://github.com/norm/flourish)

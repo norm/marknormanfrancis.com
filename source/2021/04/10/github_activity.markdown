@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Saturday April 10, 2021"
 published = 2021-04-10T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/gifs.cackhanded.net", "norm/marknormanfrancis.com",]
+tag = [ "repo-gifs-cackhanded-net", "repo-marknormanfrancis-com",]
 ```
 
 * 05:30 — created branch babylon-5-initial on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)

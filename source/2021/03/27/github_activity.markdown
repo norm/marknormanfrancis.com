@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Saturday March 27, 2021"
 published = 2021-03-27T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/marknormanfrancis.com",]
+tag = [ "repo-marknormanfrancis-com",]
 ```
 
 * 08:46 — created branch add-youtube-videos on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com)

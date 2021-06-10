@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Thursday April 22, 2021"
 published = 2021-04-22T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/flourish", "norm/marknormanfrancis.com",]
+tag = [ "repo-flourish", "repo-marknormanfrancis-com",]
 ```
 
 * 04:50 — created branch fix-month-day-paths on [`norm/flourish`](https://github.com/norm/flourish)

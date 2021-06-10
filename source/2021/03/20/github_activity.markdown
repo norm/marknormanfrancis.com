@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Saturday March 20, 2021"
 published = 2021-03-20T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/eurovision_data",]
+tag = [ "repo-eurovision-data",]
 ```
 
 * 09:24 — created branch add-60s on [`norm/eurovision_data`](https://github.com/norm/eurovision_data)

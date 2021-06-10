@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Wednesday June 02, 2021"
 published = 2021-06-02T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/flourish", "norm/gifs.cackhanded.net",]
+tag = [ "repo-flourish", "repo-gifs-cackhanded-net",]
 ```
 
 * 09:23 — created branch fix-index-sources on [`norm/flourish`](https://github.com/norm/flourish)

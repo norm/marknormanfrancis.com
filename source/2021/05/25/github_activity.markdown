@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Tuesday May 25, 2021"
 published = 2021-05-25T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/eurodrink", "norm/marknormanfrancis.com",]
+tag = [ "repo-eurodrink", "repo-marknormanfrancis-com",]
 ```
 
 * 12:28 — created branch main on [`norm/eurodrink`](https://github.com/norm/eurodrink)

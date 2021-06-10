@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Wednesday March 17, 2021"
 published = 2021-03-17T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/eurovision_data",]
+tag = [ "repo-eurovision-data",]
 ```
 
 * 15:05 — created repo [`norm/eurovision_data`](https://github.com/norm/eurovision_data)

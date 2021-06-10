@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Wednesday April 21, 2021"
 published = 2021-04-21T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/game_shows_support", "norm/marknormanfrancis.com",]
+tag = [ "repo-game-shows-support", "repo-marknormanfrancis-com",]
 ```
 
 * 05:42 — Pushed 1 commit to `main` on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com) ([diff](https://github.com/norm/marknormanfrancis.com/compare/9dae02901833230ee3499003bc40917d761ea891..149884dba57a30ba8779c39786cfee52dc3c0b29))

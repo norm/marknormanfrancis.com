@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Wednesday April 07, 2021"
 published = 2021-04-07T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/flourish", "norm/gifs.cackhanded.net",]
+tag = [ "repo-flourish", "repo-gifs-cackhanded-net",]
 ```
 
 * 05:06 — Pushed 4 commits to `add-csv-sources` on [`norm/flourish`](https://github.com/norm/flourish) ([diff](https://github.com/norm/flourish/compare/f8948b5fd7da97c5070d63ffd4099b718e30b59d..043b8d3aac5d936a52d1b9696f19ed83655cf2ce))
