@@ -7,7 +7,7 @@ repository = [ "norm/gifs.cackhanded.net", ]
 tag = [ "repo-gifs-cackhanded-net", ]
 ```
 
-* 07:26 — created branch innerspace on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)
+* 07:26 — created branch innerspace on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)
 * 07:29 — deleted branch innerspace from [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)
 * 07:30 — Pushed 4 commits to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/4b044ed0b56960bb6934d1b23337cc0872d993dc..1c5bf75a6faa0244cd6cc003ec83d96c0ba98a98))
   * [Tuck's name is spelt Pendelton, not Pendleton](https://github.com/norm/gifs.cackhanded.net/commit/0df67040d141cd765451323b2aea35ef0adc99ef)

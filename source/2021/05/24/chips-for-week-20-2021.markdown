@@ -24,7 +24,7 @@ Another week, and I’m still [stacking chips][chips]. Last week’s
 
 At the start of the week, I wrote down only one high level goal:
 
-1. Eurovision — ✅
+1. Eurovision — ✅
 
 
 ## Update

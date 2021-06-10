@@ -9,7 +9,7 @@ tag = [ "repo-gifs-cackhanded-net",]
 
 * 11:21 — Pushed 1 commit to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/c1b5ce8ba1c87f6d668e47a0572e6baef4edeaf2..d4ff3c72e937d6e66e75a254bfd59570a6471f4b))
   * [Fix the timing of the Ted Lasso spit-take](https://github.com/norm/gifs.cackhanded.net/commit/d4ff3c72e937d6e66e75a254bfd59570a6471f4b)
-* 15:43 — created branch add-innerspace on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)
+* 15:43 — created branch add-innerspace on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)
 * 15:43 — opened [pull request 6](https://github.com/norm/gifs.cackhanded.net/pull/6) on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)
 * 15:44 — commented on [pull request 6](https://github.com/norm/gifs.cackhanded.net/pull/6) on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)
 * 15:51 — merged [pull request 6](https://github.com/norm/gifs.cackhanded.net/pull/6) on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)

@@ -26,7 +26,7 @@ At the start of the week, I wrote down four goals for the week:
 1. Increase Ezio content buffer — ✅
 1. Improve publishing — ✅
 1. Fix 404s, implement 301s — both ✅ and ❌
-1. Add more old content — ❌
+1. Add more old content — ❌
 
 I also added a "stretch goal" of adding more Eurovision data, which once
 again I ignored.

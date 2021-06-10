@@ -23,7 +23,7 @@ Another week, and I’m still [stacking chips][chips]. Last week’s
 
 At the start of the week, I wrote down these high level goals:
 
-1. Get ready for Eurovision — ❌
+1. Get ready for Eurovision — ❌
 1. Increase Ezio content buffer — ✅
 
 

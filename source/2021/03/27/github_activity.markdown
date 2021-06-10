@@ -7,7 +7,7 @@ repository = [ "norm/marknormanfrancis.com",]
 tag = [ "repo-marknormanfrancis-com",]
 ```
 
-* 08:46 — created branch add-youtube-videos on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com)
+* 08:46 — created branch add-youtube-videos on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com)
 * 08:47 — opened [pull request 68](https://github.com/norm/marknormanfrancis.com/pull/68) on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com)
 * 08:47 — merged [pull request 68](https://github.com/norm/marknormanfrancis.com/pull/68) on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com)
 * 08:47 — Pushed 9 commits to `main` on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com) ([diff](https://github.com/norm/marknormanfrancis.com/compare/46cc85afb7b1b8d5bd0234d933a7ba4ee1721872..0a9baa6648d7b52a13d2f582092499e1446b1842))

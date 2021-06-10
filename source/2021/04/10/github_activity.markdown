@@ -7,7 +7,7 @@ repository = [ "norm/gifs.cackhanded.net", "norm/marknormanfrancis.com",]
 tag = [ "repo-gifs-cackhanded-net", "repo-marknormanfrancis-com",]
 ```
 
-* 05:30 — created branch babylon-5-initial on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)
+* 05:30 — created branch babylon-5-initial on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)
 * 07:58 — Pushed 3 commits to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/3b67cbce4ffc1f7f5fdf9dee0e4786afe9a770df..7297f6d31809382c62671ee0fa1679499a47acc8))
   * [Add a denoise setting to smooth out grainy footage](https://github.com/norm/gifs.cackhanded.net/commit/21b55f767a4ab5ba4804287fb4a270fb5f490d74)
   * [Add some Babylon 5 GIFs](https://github.com/norm/gifs.cackhanded.net/commit/434c1e61bf12f6fbf896f09af6092371b75a16d1)

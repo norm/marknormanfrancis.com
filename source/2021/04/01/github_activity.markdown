@@ -23,4 +23,4 @@ tag = [ "repo-game-shows-support",]
   * [Script to copy/restore the game's save data](https://github.com/norm/game_shows_support/commit/63d06a7d10df47e5f8a9df29aa2d3d41214b9b8b)
   * [Add current Ezio footage annotations](https://github.com/norm/game_shows_support/commit/ec1f4042c295092a823711688e518c2927335244)
   * [The channel images are not specific to HZD](https://github.com/norm/game_shows_support/commit/d921f2c3d50fd0e0216409727b1cb5e04d4c1715)
-* 14:17 — created branch ezch3 on [`norm/game_shows_support`](https://github.com/norm/game_shows_support)
+* 14:17 — created branch ezch3 on [`norm/game_shows_support`](https://github.com/norm/game_shows_support)

@@ -23,10 +23,10 @@ Another week, and I’m still [stacking chips][chips]. Last week’s
 
 At the start of the week, I wrote my high-level goals down:
 
-1. More Eurovision data — ❌
-1. Another Ezio chapter — ✅
+1. More Eurovision data — ❌
+1. Another Ezio chapter — ✅
 1. Analyse weblogs — ✅
-1. Improve publishing — ❌
+1. Improve publishing — ❌
 
 Once again, I have avoided adding anything to my Eurovision data collection
 (and now it is drawing perilously close, so that'll end either with a mad

@@ -7,7 +7,7 @@ repository = [ "norm/game_shows_support", "norm/gifs.cackhanded.net", "norm/mark
 tag = [ "repo-game-shows-support", "repo-gifs-cackhanded-net", "repo-marknormanfrancis-com",]
 ```
 
-* 07:21 — created branch add-github-activity on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com)
+* 07:21 — created branch add-github-activity on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com)
 * 07:30 — Pushed 1 commit to `add-github-activity` on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com) ([diff](https://github.com/norm/marknormanfrancis.com/compare/49f8beac6633d8727558625f3c5b3539e194e936..a96a7ab59354b057e7ff9e98210daf51dc740e8d))
   * [Skip today's Github activity](https://github.com/norm/marknormanfrancis.com/commit/a96a7ab59354b057e7ff9e98210daf51dc740e8d)
 * 07:40 — Pushed 7 commits to `main` on [`norm/game_shows_support`](https://github.com/norm/game_shows_support) ([diff](https://github.com/norm/game_shows_support/compare/95c9ec2b2cfcc29783400c663e2b6d4d134a471c..24d04c0883731cfaf8deaea21c45cb903f048054))

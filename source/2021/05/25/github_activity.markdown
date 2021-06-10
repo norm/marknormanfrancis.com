@@ -7,8 +7,8 @@ repository = [ "norm/eurodrink", "norm/marknormanfrancis.com",]
 tag = [ "repo-eurodrink", "repo-marknormanfrancis-com",]
 ```
 
-* 12:28 — created branch main on [`norm/eurodrink`](https://github.com/norm/eurodrink)
-* 12:29 — created branch v1 on [`norm/eurodrink`](https://github.com/norm/eurodrink)
+* 12:28 — created branch main on [`norm/eurodrink`](https://github.com/norm/eurodrink)
+* 12:29 — created branch v1 on [`norm/eurodrink`](https://github.com/norm/eurodrink)
 * 12:31 — Pushed 1 commit to `main` on [`norm/eurodrink`](https://github.com/norm/eurodrink) ([diff](https://github.com/norm/eurodrink/compare/d14e14ce91a68ac64ee43116371f88152be5d11b..f4d7c3d27667b1c700a5cf0d18bb794646120d9f))
   * [Link to original version in GitHub](https://github.com/norm/eurodrink/commit/f4d7c3d27667b1c700a5cf0d18bb794646120d9f)
 * 12:32 — Pushed 1 commit to `main` on [`norm/eurodrink`](https://github.com/norm/eurodrink) ([diff](https://github.com/norm/eurodrink/compare/f4d7c3d27667b1c700a5cf0d18bb794646120d9f..da55bf2c8f789249b403fecac1504394926eb90c))

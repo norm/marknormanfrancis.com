@@ -24,8 +24,8 @@ Another week, and I’m still [stacking chips][chips]. Last week’s
 At the start of the week, I wrote down these high level goals:
 
 1. Increase Ezio content buffer — ✅
-1. Finish restoring old content into site — ❌
-1. Eurovision data — ❌
+1. Finish restoring old content into site — ❌
+1. Eurovision data — ❌
 
 When I make my lists of goals for the week, I do tend to put them in
 most-wanted through least-wanted order. But, as I have previously written,

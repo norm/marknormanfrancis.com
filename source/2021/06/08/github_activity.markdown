@@ -7,4 +7,4 @@ repository = [ "norm/sectile",]
 tag = [ "repo-sectile",]
 ```
 
-* 05:51 — created branch main on [`norm/sectile`](https://github.com/norm/sectile)
+* 05:51 — created branch main on [`norm/sectile`](https://github.com/norm/sectile)
