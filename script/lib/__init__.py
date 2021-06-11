@@ -1,4 +1,7 @@
 import os
+import re
+
+from django.utils.text import slugify
 
 
 def update_content(filename, content):
@@ -57,3 +60,10 @@ def get_body_from_source(file):
     marker = content[0:3]
     end_marker = content[4:].find(marker) + 9   # two markers, one newline
     return content[end_marker:]
+
+
+def tagify(text):
+    # turn CamelCase into hyphenated
+    text = re.sub(r'([a-z\W])([A-Z0-9])', r'\1-\2', text)
+    text = slugify(text)
+    return text.replace('_', '-')

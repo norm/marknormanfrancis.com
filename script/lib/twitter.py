@@ -1,6 +1,5 @@
 from datetime import timedelta
 import os
-import re
 import time
 
 from django.utils.text import slugify
@@ -13,6 +12,7 @@ from lib import (
     strip_links,
     strip_trailing_hashtags,
     update_content,
+    tagify,
 )
 from lib.bucket import Bucket
 
@@ -41,12 +41,6 @@ def timestamp_header(now, previous):
         return '## %s\n\n' % now.strftime('%A %-d, %H:%M')
     else:
         return '## %s\n\n' % now.strftime('%H:%M')
-
-def tagify(text):
-    # turn CamelCase into hyphenated
-    text = re.sub(r'([a-z\W])([A-Z0-9])', r'\1-\2', text)
-    text = slugify(text)
-    return text.replace('_', '-')
 
 
 class Twitter:
