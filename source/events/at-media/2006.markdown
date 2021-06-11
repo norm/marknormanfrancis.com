@@ -1,0 +1,26 @@
+```
+title = "Attending @media 2006"
+origin = "mnf-v1"
+type = "article"
+fixme = true
+published = 2006-06-27T14:48:00Z
+```
+
+I’m quite late on writing about the 2006 @media conference. Some people [covered](http://www.paulhammond.org/2006/06/atmedia/) [it](http://muffinresearch.co.uk/archives/category/events/) [live](http://www.cindyli.com/index.php/site/comments/media_2006_keynote_eric_meyer/) and other people [posted](http://adactio.com/journal/1144/) [extensive](http://www.thewatchmakerproject.com/journal/331/media-2006-in-review) [reviews](http://ben-ward.co.uk/journal/atmedia-2006-review/). And to top it all, [Gareth Rushgrove](http://morethanseven.net/) is doing a bang-up job of collecting [everything @media 2006](http://morethanseven.net/atmedia2006/).
+
+
+So, I thought I’d write what I found most useful. I had hoped that that would be the design panels, since I already know CSS pretty much inside and out and JS pretty well. As a person with seemingly no design sensibilities I thought it might be enlightening to hear [Jon Hicks](http://www.hicksdesign.co.uk/), [Veerle Pieters](http://veerle.duoh.com/) and [Cameron Moll](http://cameronmoll.com/) talk about great design. In the end I thought a lot of it was great information, if you already understood design or even had some creative leanings. I didn’t get much out of it except a greater appreciation of the point of carefully thought-out typography; and finding some amusement watching [Simon](http://simonwillison.net/) fire up OmniGraffle to start [drawing squirrels](http://flickr.com/photos/mn_francis/170761323/).
+
+
+I also found [Andy Clarke](http://www.stuffandnonsense.co.uk/)'s [presentation](http://www.stuffandnonsense.co.uk/downloads/transcendingcss.pdf) quite thought-provoking and worthwhile, in terms of getting inspiration for design (and semantic structure?!?) in the world around us, rather than in just copying other sites we like the look of.
+
+
+But by far the most resonant thing was a single comment made in the Javascript libraries panel, I think from [Stuart Langridge](http://www.kryogenix.org/) (you’d think if it was such a great comment, I’d bloody remember who said it, wouldn’t you?). The comment was that most back-end programmers don’t understand JavaScript, because in their world there’s never a situation where the server’s programs just don’t run but the server is still running.
+
+
+Now (casually ignoring situations where perl hasn’t been installed on a server so that scripts break, or other such things…) I found this one of those “Of course, now it’s been said out loud, it’s obvious” moments. I always had this niggling annoyance with [our](http://uk.yahoo.com/) engineers writing inline JS. But it often seemed like banging your head against a brick wall trying to explain to them why progressive enhancement is the Right Way To Do It.
+
+
+I may not be able to get the concept across even now, but at least I have a new angle of attack to come at them from now.
+
+

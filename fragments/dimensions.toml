@@ -6,6 +6,7 @@ day-index = 'calendar'
 
 [origin]
 # where did the content come from?
+mnf-v1 = 'mnf'
 twitter-cackhanded = 'twitter'
 twitter-norms_ps4 = 'twitter'
 youtube-gs = 'youtube'      # my 'Game Shows' channel
