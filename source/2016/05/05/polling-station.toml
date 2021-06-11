@@ -1,5 +1,5 @@
 published = 2016-05-05T07:40:27Z
 title = "Polling station"
 image = "https://mnf.m17s.net/2016/05/05/image.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"

@@ -223,18 +223,19 @@ title = "Black cat in sunbeam"
 [1245003053268439041]
 title = "Poorly timed cat photo"
 
-[1267850330164912128]
-title = "A new start"
-edited_body = true
-
-[1278319054449774592]
-title = "Watching the wildlife"
+[1251924107375054849]
+title = "Caught by a sunbeam"
 
 [1266999062055788547]
 title = "Flashbacks"
 
+[1267850330164912128]
+title = "A new start"
+edited_body = true
+
 [1274059505773547522]
 title = "My week in poker chips"
+tags = [ "weekchips", ]
 edited_body = true
 
 [1276514849204457473]
@@ -244,6 +245,9 @@ edited_body = true
 
 [1276516870309515266]
 title = "Too hot to do anything but snooze"
+
+[1278319054449774592]
+title = "Watching the wildlife"
 
 [1279086645862637569]
 title = "Chips for Week 27, 2020"
@@ -358,7 +362,7 @@ edited_body = 1
 
 [1386543537479634944]
 title = "Chips for week 16, 2021"
-slug = "2021/05/10/chips-for-week-18-2021"
+slug = "2021/04/26/chips-for-week-16-2021"
 edited_body = 1
 
 [1389448863338094592]
@@ -391,6 +395,6 @@ title = "Asleep in the round"
 
 [1401849138761850883]
 title = "Chips for week 22, 2021"
-slug = "2021/06/07/chips-for-week-21-2021"
+slug = "2021/06/07/chips-for-week-22-2021"
 edited_body = 1
 fixme = 1

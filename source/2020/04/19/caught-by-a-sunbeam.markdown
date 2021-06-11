@@ -1,13 +1,13 @@
 ```
-tweet_id = "1251924107375054849"
-type = "tweet"
 title = "Caught by a sunbeam"
 published = 2020-04-19T14:12:39Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1251876365953097729"
+twitter_account = "cackhanded"
+tweet_id = "1251876365953097729"
 retweets = 0
 favourites = 2
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1251924107375054849"
 tag = [ "itsy", "roxy",]
 updated = 2020-04-19T17:22:21Z
 thread_tweet_ids = [ 1251876365953097729, 1251924107375054849,]
