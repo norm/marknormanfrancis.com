@@ -1,15 +1,11 @@
 [generator]
-year-index = "calendar"
+# what renders the content?
+year-index = 'calendar'
+month-index = 'calendar'
+day-index = 'calendar'
 
-
-[source]
+[origin]
+# where did the content come from?
 
 [type]
-tweet      = "base_article"
-instagram  = "base_article"
-foursquare = "base_article"
-recipe     = "base_article"
-youtube    = "base_article"
-gif        = "base_article"
-github     = "base_article"
-article    = "base_article"
+# what kind of content is it?
