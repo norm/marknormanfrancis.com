@@ -1,7 +1,7 @@
-published = 2016-12-12T12:10:58Z
 title = "Checked in at The Grill On The Market (Blackhouse)"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-12-12T12:10:58Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/f2f6e7cbb9d0ec83a748f3c450b4fc23fd5fceb57a2c300e1278c57612d70727.png"
 
 [data]

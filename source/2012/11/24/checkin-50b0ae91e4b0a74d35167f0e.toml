@@ -1,7 +1,7 @@
-published = 2012-11-24T11:25:05Z
 title = "Checked in at University of Westminster"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-11-24T11:25:05Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/9d53ca81718a7a20efce8b472b099d183aa6437f039a63c747a2f42845c6a42b.png"
 
 [data]

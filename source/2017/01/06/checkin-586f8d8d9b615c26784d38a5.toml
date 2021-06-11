@@ -1,7 +1,7 @@
-published = 2017-01-06T12:29:01Z
 title = "Checked in at Coco di Mama"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-01-06T12:29:01Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/9e8a4d07031a2ba1d642403e3a42fa7b5957e6bd4df849a0a97e7cefb9fc4f2e.png"
 
 [data]

@@ -1,7 +1,7 @@
-published = 2017-07-26T19:06:47Z
 title = "Checked in at Maze Grill"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-07-26T19:06:47Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/0c48c428344eabbe8b25382c0041a23fd570f2d5cbb4a70883e1912c36356374.png"
 local_timestamp = 2017-07-26T20:06:47Z
 

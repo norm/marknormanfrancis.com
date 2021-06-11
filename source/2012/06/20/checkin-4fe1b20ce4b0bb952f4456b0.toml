@@ -1,7 +1,7 @@
-published = 2012-06-20T12:20:44Z
 title = "Checked in at El Mexicana"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-06-20T12:20:44Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/026b71b53a6c72fcba032cbfbe4850fe04a3ce0c7d57be806e389429d4439769.png"
 local_timestamp = 2012-06-20T13:20:44Z
 

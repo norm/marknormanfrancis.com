@@ -1,7 +1,7 @@
-published = 2014-05-02T15:24:51Z
 title = "Checked in at Apple Regent Street"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2014-05-02T15:24:51Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/805de98f668b7d548334d2e5e83a4a0b618b2cdc2bdf53230172227b99f83376.png"
 local_timestamp = 2014-05-02T16:24:51Z
 

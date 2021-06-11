@@ -1,7 +1,7 @@
-published = 2016-03-11T19:44:19Z
 title = "Checked in at Roundhouse for Scott Bradlee's Postmodern Jukebox and Postmodern Jukebox"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-03-11T19:44:19Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/e98d745e227d4d5e96c2ee5e856fe170537fbdbe038af523ce8730c27f5751a3.png"
 tag = [ "scott-bradlees-postmodern-jukebox-and-postmodern-jukebox", "concert",]
 

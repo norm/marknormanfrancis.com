@@ -1,7 +1,7 @@
-published = 2015-12-12T21:53:37Z
 title = "Checked in at West Byfleet Social Club"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-12-12T21:53:37Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/5f28327b1fab10184952392ff2b5696d043ead6d4142683467553924d090573d.png"
 
 [data]

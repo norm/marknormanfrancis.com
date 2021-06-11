@@ -1,7 +1,7 @@
-published = 2012-03-15T18:21:58Z
 title = "Checked in at Maggie Mae's"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-15T18:21:58Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/36b219443c8fae7e5e8a1d16ba742e1fb67167875dbc8b043576ef46acb224dc.png"
 local_timestamp = 2012-03-15T13:21:58Z
 

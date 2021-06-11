@@ -1,7 +1,7 @@
-published = 2012-03-12T17:17:44Z
 title = "Checked in at The Driskill for Get Excited and Make Things with Science"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-12T17:17:44Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/5d27da78bce25daa6af312988fb527caee276951f61628e885606f1fcf540fda.png"
 tag = [ "get-excited-and-make-things-with-science",]
 local_timestamp = 2012-03-12T12:17:44Z

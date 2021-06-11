@@ -1,7 +1,7 @@
-published = 2014-08-27T12:13:48Z
 title = "Checked in at Il Gusto"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2014-08-27T12:13:48Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/0bc50c003bfd0f483c2fe49403162df299af3ad74422ab1e12969ecf68cf0388.png"
 local_timestamp = 2014-08-27T13:13:48Z
 

@@ -1,7 +1,7 @@
-published = 2016-06-28T16:15:33Z
 title = "Checked in at Hixter Bankside"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-06-28T16:15:33Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/b4b7aff022937f90618d357ee95c089b4b34bdb6d2945a033c48f46dde8976f5.png"
 local_timestamp = 2016-06-28T17:15:33Z
 

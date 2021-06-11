@@ -1,7 +1,7 @@
-published = 2011-10-29T10:10:35Z
 title = "Checked in at City University Social Sciences Building"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2011-10-29T10:10:35Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/2fb866217a6da7ec4761b53cb2c5834423976ce5147087fc3e09652ffb081d4e.png"
 local_timestamp = 2011-10-29T11:10:35Z
 

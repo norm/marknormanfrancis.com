@@ -1,7 +1,7 @@
-published = 2016-05-19T18:34:37Z
 title = "Checked in at TGI Fridays"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-05-19T18:34:37Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/bb72d8f244bea3b7f1bbc973df7630a44ab832d3f19f7d1342593667ed323904.png"
 local_timestamp = 2016-05-19T19:34:37Z
 

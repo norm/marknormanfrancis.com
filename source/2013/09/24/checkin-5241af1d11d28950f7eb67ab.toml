@@ -1,7 +1,7 @@
-published = 2013-09-24T16:26:21Z
 title = "Checked in at Newcastle Central Railway Station (NCL)"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-09-24T16:26:21Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/8a80322a17295a70119518e4aa367df2857bd0d39156a1aaafc036010522a25a.png"
 local_timestamp = 2013-09-24T17:26:21Z
 

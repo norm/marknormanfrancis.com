@@ -1,7 +1,7 @@
-published = 2014-02-20T19:46:13Z
 title = "Checked in at Rugby Tavern"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2014-02-20T19:46:13Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/36d20be05727435b75196ab799cc6dd08eb68ca344cda5ecdbadcdc854f43bb3.png"
 
 [data]

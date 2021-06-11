@@ -1,7 +1,7 @@
-published = 2015-04-16T16:51:25Z
 title = "Checked in at Twitter UK"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-04-16T16:51:25Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/0fa2892851bccdb94f4ce1a9f6e789245e2a1b5fceaac49ec78afa5433b0d215.png"
 local_timestamp = 2015-04-16T17:51:25Z
 

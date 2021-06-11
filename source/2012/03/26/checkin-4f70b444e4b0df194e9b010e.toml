@@ -1,7 +1,7 @@
-published = 2012-03-26T19:24:04Z
 title = "Checked in at The Plough Bar & Kitchen"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-26T19:24:04Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/f57c7d71beadfd596a3ef6acd6f54376a45e1f90736e8dd15eece16521bf5c33.png"
 local_timestamp = 2012-03-26T20:24:04Z
 

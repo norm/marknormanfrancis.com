@@ -1,7 +1,7 @@
-published = 2014-09-18T18:09:46Z
 title = "Checked in at Bricklayers Arms"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2014-09-18T18:09:46Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/faa3fb1f82ebfeb394d262e8e1ea017f776d4f10cef209747f53fe2c8351be74.png"
 local_timestamp = 2014-09-18T19:09:46Z
 

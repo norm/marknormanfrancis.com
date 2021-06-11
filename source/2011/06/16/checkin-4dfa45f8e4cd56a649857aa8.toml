@@ -1,7 +1,7 @@
-published = 2011-06-16T19:05:44Z
 title = "Checked in at Duke of York"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2011-06-16T19:05:44Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/253876d6ec969787e738b4272205ef8267af4eed8a00f259f48c2f762be66087.png"
 local_timestamp = 2011-06-16T20:05:44Z
 

@@ -1,7 +1,7 @@
-published = 2017-01-30T08:55:49Z
 title = "Checked in at Money Advice Service"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-01-30T08:55:49Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/2b5b7bfdc23e2a22affd9bc4f9f5d48a6e3ab2b4121bfc391ae3267b60f3a651.png"
 
 [data]

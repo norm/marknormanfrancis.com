@@ -1,7 +1,7 @@
-published = 2014-07-11T17:20:07Z
 title = "Checked in at Crown and Anchor"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2014-07-11T17:20:07Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/b5eb6ad48a21493578cbda4f155a333957ecdf6e5f0f67ff3d50ac0e54da0090.png"
 local_timestamp = 2014-07-11T18:20:07Z
 

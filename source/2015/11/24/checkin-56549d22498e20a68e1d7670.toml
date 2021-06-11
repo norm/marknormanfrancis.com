@@ -1,7 +1,7 @@
-published = 2015-11-24T17:23:46Z
 title = "Checked in at The Anchor & Hope"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-11-24T17:23:46Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/ac5ad5e3be65e783131a2c2a8f14a4a73da3c20516b53fa6905061cbfa2665f6.png"
 
 [data]

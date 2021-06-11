@@ -1,7 +1,7 @@
-published = 2016-08-13T22:01:36Z
 title = "Checked in at McDonald's"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-08-13T22:01:36Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/61e75902e31e1668be593c84f5716d26dae5538c609ddc879e8960e67fe653b5.png"
 local_timestamp = 2016-08-13T23:01:36Z
 

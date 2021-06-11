@@ -1,7 +1,7 @@
-published = 2012-12-11T19:44:23Z
 title = "Checked in at Civil Service Club"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-12-11T19:44:23Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/11b8880a40aed36fe8e5ddbbef5898b780d20e14db8d2e81c2dad6ca3df9ac1b.png"
 
 [data]

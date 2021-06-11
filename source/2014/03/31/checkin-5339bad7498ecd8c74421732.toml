@@ -1,7 +1,7 @@
-published = 2014-03-31T19:58:31Z
 title = "Checked in at The Green"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2014-03-31T19:58:31Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/b2905b2974cf35c7efaa0a11f3fb98f25a05f0eeadb087a109c0e05c8b9d8fc0.png"
 local_timestamp = 2014-03-31T20:58:31Z
 

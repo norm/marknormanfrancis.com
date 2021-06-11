@@ -1,7 +1,7 @@
-published = 2018-09-19T13:01:23Z
 title = "Checked in at London House"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2018-09-19T13:01:23Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/20c39086d04cec4702c6b8b72351063d1d24c5087a71842b3b39b849100cf5a2.png"
 local_timestamp = 2018-09-19T14:01:23Z
 

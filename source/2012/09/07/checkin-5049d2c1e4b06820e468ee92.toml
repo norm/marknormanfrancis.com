@@ -1,7 +1,7 @@
-published = 2012-09-07T11:56:01Z
 title = "Checked in at Brighton Dome"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-09-07T11:56:01Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/bceb4f69a96265ab316bad343321070dce29c9059f1f5b737297801c3b2eae4d.png"
 local_timestamp = 2012-09-07T12:56:01Z
 

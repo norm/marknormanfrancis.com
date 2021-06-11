@@ -1,7 +1,7 @@
-published = 2012-03-17T17:30:09Z
 title = "Checked in at Vivo"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-17T17:30:09Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/9a4704bfa126d1b99e009b2ee97de8ab9176cb5f046cb41a816e1dc52e535aa4.png"
 local_timestamp = 2012-03-17T12:30:09Z
 

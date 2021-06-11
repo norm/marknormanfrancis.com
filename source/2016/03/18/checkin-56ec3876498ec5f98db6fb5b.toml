@@ -1,7 +1,7 @@
-published = 2016-03-18T17:18:46Z
 title = "Checked in at Stage Door"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-03-18T17:18:46Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/663d628e17b1f788e8a5d7facade1362a25a2c05aea48aa0283564ca7a8d2c33.png"
 
 [data]

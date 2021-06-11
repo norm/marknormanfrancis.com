@@ -1,7 +1,7 @@
-published = 2013-07-20T11:56:56Z
 title = "Checked in at Indigo at The O2"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-07-20T11:56:56Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/2bfff1117537fe411655b6f61d424d91f9bc59366a659d5bb77d5fe04fec2652.png"
 local_timestamp = 2013-07-20T12:56:56Z
 

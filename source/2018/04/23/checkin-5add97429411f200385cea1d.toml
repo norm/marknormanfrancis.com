@@ -1,7 +1,7 @@
-published = 2018-04-23T09:20:18Z
 title = "Checked in at Boots Opticians"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2018-04-23T09:20:18Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/b9e7e3d1eefe652073d3eb6bfbfcb6fa02457f0f4c38be716856e295b5253106.png"
 local_timestamp = 2018-04-23T10:20:18Z
 

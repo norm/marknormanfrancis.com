@@ -1,7 +1,7 @@
-published = 2013-03-03T13:55:51Z
 title = "Checked in at Peter Jones & Partners"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-03-03T13:55:51Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/48ebaba133387b65669bdc0e507896a9e066071bdcbc27318dde75b8f1ff4b44.png"
 
 [data]

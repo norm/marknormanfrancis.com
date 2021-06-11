@@ -1,7 +1,7 @@
-published = 2016-05-28T18:22:28Z
 title = "Checked in at Albert Memorial"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-05-28T18:22:28Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/a5d26fe7d2b412e3faf76ae7d2916e07308c70f62aa5e15a83549e276023168b.png"
 local_timestamp = 2016-05-28T19:22:28Z
 

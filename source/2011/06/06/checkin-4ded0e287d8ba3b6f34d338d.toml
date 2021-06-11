@@ -1,7 +1,7 @@
-published = 2011-06-06T18:28:08Z
 title = "Checked in at Hawksmoor Spitalfields"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2011-06-06T18:28:08Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/0471dd1321a85a33fa8dcee1f2d9ea3118c3847ec165c2aa75df10fbe904e68b.png"
 photos = [ "https://mnf.m17s.net/2011/06/06/checkin-4ded0e287d8ba3b6f34d338d-0.jpg",]
 local_timestamp = 2011-06-06T19:28:08Z

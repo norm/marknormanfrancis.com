@@ -1,7 +1,7 @@
-published = 2015-12-12T21:54:01Z
 title = "Checked in at West Byfleet Railway Station (WBY)"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-12-12T21:54:01Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/191f69692cf4eb0be350df8a92938eb42a2113c9381e33c7181b5683cf46d281.png"
 
 [data]

@@ -1,7 +1,7 @@
-published = 2016-03-25T14:12:27Z
 title = "Checked in at The Alma"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-03-25T14:12:27Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/8c70df7579042c17fd8ce9a81352f23d131b2157d4f1aae6907071993022664a.png"
 
 [data]

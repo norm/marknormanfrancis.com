@@ -1,7 +1,7 @@
-published = 2012-11-21T21:52:11Z
 title = "Checked in at Oxford Tube Bus Stop"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-11-21T21:52:11Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/4877a982d487974752c6e9fb1e6650b68845d8221ba28a02e106ae9a42e81af3.png"
 
 [data]

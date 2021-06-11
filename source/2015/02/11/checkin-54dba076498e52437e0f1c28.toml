@@ -1,7 +1,7 @@
-published = 2015-02-11T18:33:26Z
 title = "Checked in at Draughts"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-02-11T18:33:26Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/05c04e83edc8d6d90cba55d1550ab85db8eca62c4789d897ae24c9b7856c47e1.png"
 
 [data]

@@ -1,7 +1,7 @@
-published = 2013-03-13T15:24:52Z
 title = "Checked in at Alderney Airport (ACI)"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-03-13T15:24:52Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/75da6a9668d522f75881e00cebeff7eb4cbbf4866e478bf76b52b3df1581e905.png"
 
 [data]

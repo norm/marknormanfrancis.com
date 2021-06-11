@@ -1,7 +1,7 @@
-published = 2012-12-09T13:40:45Z
 title = "Checked in at Apsleys"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-12-09T13:40:45Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/af2490e321ca05d0821b6a27a383525df591add4115e599b4e784fa64cf4630b.png"
 
 [data]

@@ -1,7 +1,7 @@
-published = 2016-10-31T17:48:57Z
 title = "Checked in at Vue for Doctor Strange"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-10-31T17:48:57Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca76b9d411cb172ec6e.png"
 tag = [ "doctor-strange", "movie",]
 

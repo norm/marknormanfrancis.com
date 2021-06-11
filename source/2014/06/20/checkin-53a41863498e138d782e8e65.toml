@@ -1,7 +1,7 @@
-published = 2014-06-20T12:17:55Z
 title = "Checked in at The Four Lanterns"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2014-06-20T12:17:55Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/8c1f7a898211399038f02e9baea3f00e7dfbf9cda3367b679e9c49c9eba3678e.png"
 local_timestamp = 2014-06-20T13:17:55Z
 

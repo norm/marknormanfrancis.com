@@ -1,7 +1,7 @@
-published = 2016-08-17T12:38:27Z
 title = "Checked in at wagamama"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-08-17T12:38:27Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/954893b07c1e11295f3689e4beb70481b39aeb56ede79cbda631d5de8317a752.png"
 local_timestamp = 2016-08-17T13:38:27Z
 

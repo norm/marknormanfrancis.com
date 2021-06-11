@@ -1,7 +1,7 @@
-published = 2017-12-06T13:36:28Z
 title = "Checked in at All Creatures"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-12-06T13:36:28Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/b678c239274b655fd52ea000c56cf110133260c45963156690646c7fb50534cc.png"
 
 [data]

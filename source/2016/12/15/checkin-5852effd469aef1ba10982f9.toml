@@ -1,7 +1,7 @@
-published = 2016-12-15T19:33:17Z
 title = "Checked in at ICCO"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-12-15T19:33:17Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/86493da2efeae3b0c79cbe427cd96859bcf2ef4d5544ac1edd363642ee10587b.png"
 
 [data]

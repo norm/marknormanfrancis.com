@@ -1,7 +1,7 @@
-published = 2014-08-13T12:18:33Z
 title = "Checked in at Dudley Arms"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2014-08-13T12:18:33Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/831d7104935d674665232cf75be588168ec251dd884de906171403f9762359e2.png"
 local_timestamp = 2014-08-13T13:18:33Z
 

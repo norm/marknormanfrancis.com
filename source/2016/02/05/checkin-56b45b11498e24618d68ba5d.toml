@@ -1,7 +1,7 @@
-published = 2016-02-05T08:19:29Z
 title = "Checked in at Young Vic"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-02-05T08:19:29Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/45033ee34f021d7a7fb687e582e6e860b80191df6a087e9bcdb4dec41abf76be.png"
 
 [data]

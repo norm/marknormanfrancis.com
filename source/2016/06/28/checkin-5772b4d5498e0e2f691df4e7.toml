@@ -1,7 +1,7 @@
-published = 2016-06-28T18:33:09Z
 title = "Checked in at The Lord Nelson"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-06-28T18:33:09Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/816cf7059e54696e6c59230972a026ea499c31c7c814c7fb882a6cf20460a581.png"
 local_timestamp = 2016-06-28T19:33:09Z
 

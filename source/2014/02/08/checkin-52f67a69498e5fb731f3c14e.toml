@@ -1,7 +1,7 @@
-published = 2014-02-08T18:41:45Z
 title = "Checked in at Big Al's Burger Bar"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2014-02-08T18:41:45Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/7ae17c61c97634229a7b1dbc68c33fbc5313f59411498005158c740abeca9156.png"
 local_timestamp = 2014-02-08T19:41:45Z
 

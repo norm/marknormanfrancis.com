@@ -1,7 +1,7 @@
-published = 2014-12-15T13:32:57Z
 title = "Checked in at Nando's"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2014-12-15T13:32:57Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/5dbedf4a34e07fbead075926b4c65fdcb09efea331bca50f6dfa83d46355c3ac.png"
 
 [data]

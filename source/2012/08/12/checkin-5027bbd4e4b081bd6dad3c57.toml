@@ -1,7 +1,7 @@
-published = 2012-08-12T15:21:08Z
 title = "Checked in at Cleavers"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-08-12T15:21:08Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/fea9df2d065997fa31a2d60f033fc650ef166e2346511fb1377f2d656da961cc.png"
 local_timestamp = 2012-08-12T16:21:08Z
 

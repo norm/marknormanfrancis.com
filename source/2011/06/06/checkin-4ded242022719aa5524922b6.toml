@@ -1,7 +1,7 @@
-published = 2011-06-06T20:01:52Z
 title = "Checked in at The Golden Heart"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2011-06-06T20:01:52Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/a457f83b6c37e7d2a7146b23b87ac904bcc7adb722fbe482b52611abd30c4237.png"
 local_timestamp = 2011-06-06T21:01:52Z
 

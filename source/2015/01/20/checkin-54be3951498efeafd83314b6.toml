@@ -1,7 +1,7 @@
-published = 2015-01-20T11:17:37Z
 title = "Checked in at Science Museum"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-01-20T11:17:37Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/ba271b342d4894b7bedf5f7b21c2814e19ce41c5c91b364263b32c590eaa6d7a.png"
 
 [data]

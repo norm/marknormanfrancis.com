@@ -1,7 +1,7 @@
-published = 2012-03-15T23:16:47Z
 title = "Checked in at Chi'lantro BBQ"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-15T23:16:47Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/b334cc62ac7cbaf1046d08a607695cd9b5c240863b654600a216e0c155b08a7a.png"
 local_timestamp = 2012-03-15T18:16:47Z
 

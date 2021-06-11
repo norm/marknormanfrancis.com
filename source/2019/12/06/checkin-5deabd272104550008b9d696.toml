@@ -1,7 +1,7 @@
-published = 2019-12-06T20:42:15Z
 title = "Checked in at Wyndham's Theatre"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2019-12-06T20:42:15Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/02c2aad5f406d6605393321defe0e33e8d36603c09a30d231e979749dc685483.png"
 
 [data]

@@ -1,7 +1,7 @@
-published = 2011-07-23T16:55:53Z
 title = "Checked in at Manningtree Railway Station (MNG)"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2011-07-23T16:55:53Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/ccb53fa1211950815cfd4f776fe5b21869a4b8f4bbf3cf9cd2c0e17dfe09098a.png"
 local_timestamp = 2011-07-23T17:55:53Z
 

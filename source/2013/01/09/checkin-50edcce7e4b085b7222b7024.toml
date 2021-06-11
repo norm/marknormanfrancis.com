@@ -1,7 +1,7 @@
-published = 2013-01-09T20:02:47Z
 title = "Checked in at Cineworld for Skyfall"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-01-09T20:02:47Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/10f1165d57e79d3b7ece85b532232dd0d4ae9b3f19e41288787d5126e0af0bca.png"
 tag = [ "skyfall", "movie",]
 

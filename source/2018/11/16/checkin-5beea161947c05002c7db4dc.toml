@@ -1,7 +1,7 @@
-published = 2018-11-16T10:52:17Z
 title = "Checked in at Vue for Fantastic Beasts: The Crimes of Grindelwald"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2018-11-16T10:52:17Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca76b9d411cb172ec6e.png"
 tag = [ "fantastic-beasts-the-crimes-of-grindelwald", "movie",]
 

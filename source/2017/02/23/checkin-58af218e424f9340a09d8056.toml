@@ -1,7 +1,7 @@
-published = 2017-02-23T17:53:18Z
 title = "Checked in at Imperial Wharf"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-02-23T17:53:18Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/e0d317b4e45e42cb135310c4cfb147ae8a1e33e48f263e728ae0c6fb3d0ded5d.png"
 
 [data]

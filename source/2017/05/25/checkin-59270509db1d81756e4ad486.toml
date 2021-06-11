@@ -1,7 +1,7 @@
-published = 2017-05-25T17:23:37Z
 title = "Checked in at The George and Dragon"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-05-25T17:23:37Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/210512be258969f8f86d85a609c2a59a15cff1de149b0b2ee512efe045a8e5c5.png"
 local_timestamp = 2017-05-25T18:23:37Z
 

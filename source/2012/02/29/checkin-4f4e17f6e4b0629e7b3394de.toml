@@ -1,7 +1,7 @@
-published = 2012-02-29T12:20:06Z
 title = "Checked in at Union Jacks"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-02-29T12:20:06Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/ce8638af122a8a05c349a72aafa7891e1165c0bc122b9bc064cf58388c36022e.png"
 
 [data]

@@ -1,7 +1,7 @@
-published = 2013-12-27T13:14:38Z
 title = "Checked in at Grantham Railway Station (GRA)"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-12-27T13:14:38Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/0d720b3b8badbc7e841148c9bf9d4b9751729831f447dfa2d7b5a26a072b515f.png"
 
 [data]

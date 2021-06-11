@@ -1,7 +1,7 @@
-published = 2018-05-14T19:20:43Z
 title = "Checked in at Victoria Palace Theatre"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2018-05-14T19:20:43Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/cd499719da2576f05132cd5ab68beb8eb3b374588ded038a3dd2b23f582aec8b.png"
 local_timestamp = 2018-05-14T20:20:43Z
 

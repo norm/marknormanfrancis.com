@@ -1,7 +1,7 @@
-published = 2012-03-19T22:42:15Z
 title = "Checked in at George Bush Intercontinental Airport (IAH)"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-19T22:42:15Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/c426196dd71ab73ab6015083063724b81321ba86e4c9141b7c1c52357296d520.png"
 local_timestamp = 2012-03-19T17:42:15Z
 

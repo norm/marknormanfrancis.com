@@ -1,7 +1,7 @@
-published = 2011-12-04T19:42:56Z
 title = "Checked in at Chez Bruce"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2011-12-04T19:42:56Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/9ff5802b597890aa4267cfd62f252df636e09319896d0578a5877cfeeeea7936.png"
 
 [data]

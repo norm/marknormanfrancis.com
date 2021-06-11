@@ -1,7 +1,7 @@
-published = 2017-02-17T16:47:01Z
 title = "Checked in at Blackfriars Pier"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-02-17T16:47:01Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/e0d5eb343f2ab9ab2e313b40d3921de87e048a9eda79c79fcadfcb1778d250e8.png"
 photos = [ "https://mnf.m17s.net/2017/02/17/checkin-58a72905d772f9547c432295-0.jpg",]
 

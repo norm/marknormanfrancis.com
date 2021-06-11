@@ -1,7 +1,7 @@
-published = 2014-05-01T18:23:11Z
 title = "Checked in at The Euston Tap"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2014-05-01T18:23:11Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/7598daee40e7276879ea42cd669c417465e0182a88d22c352876f7f8a3745d77.png"
 local_timestamp = 2014-05-01T19:23:11Z
 

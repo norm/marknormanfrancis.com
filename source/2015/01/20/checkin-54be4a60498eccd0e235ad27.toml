@@ -1,7 +1,7 @@
-published = 2015-01-20T12:30:24Z
 title = "Checked in at Energy Cafe"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-01-20T12:30:24Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/4b5ee1c815f8cfc61b103cf14bff6ff16e6b27da4feb1b460dd2a04d52a9203f.png"
 
 [data]

@@ -1,7 +1,7 @@
-published = 2015-08-11T19:02:01Z
 title = "Checked in at Royal Albert Hall for The Story of Swing"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-08-11T19:02:01Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/a8e490b5335fe48dfd504b824130cc5a00c1fad48c4e9e0df2892a2415e02f25.png"
 tag = [ "the-story-of-swing", "concert",]
 local_timestamp = 2015-08-11T20:02:01Z

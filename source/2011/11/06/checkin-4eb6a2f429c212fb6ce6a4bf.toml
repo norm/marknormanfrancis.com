@@ -1,7 +1,7 @@
-published = 2011-11-06T15:08:36Z
 title = "Checked in at Cineworld for Paranormal Activity 3"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2011-11-06T15:08:36Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/1dd1af2421c5dccd68e4e93d06374e0258f08ba235d6ef25251d4e5dc0616c89.png"
 tag = [ "paranormal-activity-3", "movie",]
 

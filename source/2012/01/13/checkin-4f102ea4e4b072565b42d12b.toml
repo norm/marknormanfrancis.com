@@ -1,7 +1,7 @@
-published = 2012-01-13T13:16:20Z
 title = "Checked in at Bodean's"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-01-13T13:16:20Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/fd6b867bb18fa18e3b119e8dac101cf6780606a87827e3cdc5468dbef2dbc6d3.png"
 
 [data]

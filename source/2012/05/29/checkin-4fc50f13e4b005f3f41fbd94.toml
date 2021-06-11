@@ -1,7 +1,7 @@
-published = 2012-05-29T19:01:55Z
 title = "Checked in at Lowlander Grand Cafe"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-05-29T19:01:55Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/bc6d7f9693fa781988d3dcba0a66c45bd7d523fb290dfbb0fc6b8b7ded15077a.png"
 local_timestamp = 2012-05-29T20:01:55Z
 

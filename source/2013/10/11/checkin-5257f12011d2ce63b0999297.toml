@@ -1,7 +1,7 @@
-published = 2013-10-11T13:37:52Z
 title = "Checked in at Mallaig Railway Station (MLG)"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-10-11T13:37:52Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/38a8453405262eefc53215e830e7558dfde74c7635089d7b33856fd45b537c5b.png"
 local_timestamp = 2013-10-11T14:37:52Z
 

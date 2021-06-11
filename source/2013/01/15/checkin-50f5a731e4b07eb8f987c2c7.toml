@@ -1,7 +1,7 @@
-published = 2013-01-15T19:00:01Z
 title = "Checked in at Homebase"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-01-15T19:00:01Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/715c33a43d632d8524068720684b13a8b05ba451609ec30f562e54281d9f85ad.png"
 
 [data]

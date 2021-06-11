@@ -1,7 +1,7 @@
-published = 2013-10-03T16:26:51Z
 title = "Checked in at Cafe Zest"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-10-03T16:26:51Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/aea76ba31a15d18197da07cf6a4a1562d1ff32d56eef785a85e8e8a489a412d8.png"
 local_timestamp = 2013-10-03T17:26:51Z
 

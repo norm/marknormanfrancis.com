@@ -1,7 +1,7 @@
-published = 2014-03-13T12:16:36Z
 title = "Checked in at Bloomsbury Tavern"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2014-03-13T12:16:36Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/39b3597c8336327db3fee029e11c88050c6044a27a5cd9f8baf7f5e832d0ff93.png"
 
 [data]

@@ -1,7 +1,7 @@
-published = 2012-03-12T01:16:51Z
 title = "Checked in at Friends Bar"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-12T01:16:51Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/f424b9ee3473f99ee65a81dca87b1ad7a5d48c64fa607fdecb441f72ca74cc7b.png"
 local_timestamp = 2012-03-11T20:16:51Z
 

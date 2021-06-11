@@ -1,7 +1,7 @@
-published = 2013-09-25T09:06:00Z
 title = "Checked in at Lincoln's Inn Fields"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-09-25T09:06:00Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/24a170fe75cb49128e93fef5ea26f23b693077cc809df25c9d864c28e3758192.png"
 local_timestamp = 2013-09-25T10:06:00Z
 

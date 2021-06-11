@@ -1,7 +1,7 @@
-published = 2012-03-09T19:47:12Z
 title = "Checked in at Radisson Hotel & Suites Austin Downtown"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-09T19:47:12Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/8e539e318c01bf6ff4348cb3b429d0e33798d740a7b0fbd976f40f35d733525f.png"
 local_timestamp = 2012-03-09T13:47:12Z
 

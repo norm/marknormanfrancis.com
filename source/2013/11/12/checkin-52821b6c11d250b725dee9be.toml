@@ -1,7 +1,7 @@
-published = 2013-11-12T12:13:32Z
 title = "Checked in at Satay House"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-11-12T12:13:32Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/adcd69f8487566cf83240076677e890853cbce8e551c8559ae57254950dbafc7.png"
 
 [data]

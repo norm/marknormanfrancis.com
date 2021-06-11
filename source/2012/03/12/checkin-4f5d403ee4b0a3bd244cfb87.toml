@@ -1,7 +1,7 @@
-published = 2012-03-12T00:15:58Z
 title = "Checked in at Mekong River"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-12T00:15:58Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/2fe000f829c8f2910a80965d0a50ef194838f6a4e4b4c9530884b15abbc7d4ec.png"
 local_timestamp = 2012-03-11T19:15:58Z
 

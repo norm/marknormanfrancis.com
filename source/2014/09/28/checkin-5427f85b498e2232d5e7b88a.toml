@@ -1,7 +1,7 @@
-published = 2014-09-28T13:00:27Z
 title = "Checked in at Powder Keg Diplomacy"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2014-09-28T13:00:27Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/af52d754872c67f1d47cb1af0025f6a2b1066286493beb3c6ff7affffc2cc036.png"
 local_timestamp = 2014-09-28T14:00:27Z
 

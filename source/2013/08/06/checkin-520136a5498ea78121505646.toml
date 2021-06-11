@@ -1,7 +1,7 @@
-published = 2013-08-06T18:47:17Z
 title = "Checked in at Premier Inn Newcastle City Centre (New Bridge Street)"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-08-06T18:47:17Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/67fd31c2304a5e909572f394d4b6922706a7be1f08f5c198914ec334357222ed.png"
 local_timestamp = 2013-08-06T19:47:17Z
 

@@ -1,7 +1,7 @@
-published = 2015-12-27T16:49:55Z
 title = "Checked in at Byron"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-12-27T16:49:55Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/6c1484d12a024cfc6b867f04114bae33a4e2654c52ce32fb27d637f9fd229faa.png"
 
 [data]

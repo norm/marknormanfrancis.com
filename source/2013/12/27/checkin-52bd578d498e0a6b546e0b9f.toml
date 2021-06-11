@@ -1,7 +1,7 @@
-published = 2013-12-27T10:33:49Z
 title = "Checked in at London King's Cross Railway Station (KGX)"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-12-27T10:33:49Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/8001be0a9d69c86d94a645c9601e0acf733d2a63205f47b19792ff364ca32e8b.png"
 
 [data]

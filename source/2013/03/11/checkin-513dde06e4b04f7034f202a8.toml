@@ -1,7 +1,7 @@
-published = 2013-03-11T13:37:10Z
 title = "Checked in at The Divers' Inn"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-03-11T13:37:10Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/fe3fb23f29fe82b7b63be7943db7de9523f2638485545620a0120046bca6dcfd.png"
 
 [data]

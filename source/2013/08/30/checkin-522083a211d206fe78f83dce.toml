@@ -1,7 +1,7 @@
-published = 2013-08-30T12:36:02Z
 title = "Checked in at Cabana Brasilian Barbecue"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-08-30T12:36:02Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/fc4e84de0752c426bfee05e8ba9a091cb67130d0d1ddda83ae3bc65b865058ee.png"
 local_timestamp = 2013-08-30T13:36:02Z
 

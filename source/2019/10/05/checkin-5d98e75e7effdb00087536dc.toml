@@ -1,7 +1,7 @@
-published = 2019-10-05T19:56:30Z
 title = "Checked in at Eventim Apollo"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2019-10-05T19:56:30Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/73f87c095441f6f7c4ef7036332b1b78bbb147dd7b071252b387a627f04e57e7.png"
 local_timestamp = 2019-10-05T20:56:30Z
 

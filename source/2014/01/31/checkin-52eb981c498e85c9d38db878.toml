@@ -1,7 +1,7 @@
-published = 2014-01-31T12:33:32Z
 title = "Checked in at Becks Cafe"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2014-01-31T12:33:32Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/752493602a14b5b7d2cc0059817986a6a2717aaaf88d09d7f0808403ae0771ec.png"
 
 [data]

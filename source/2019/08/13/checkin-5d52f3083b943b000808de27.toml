@@ -1,7 +1,7 @@
-published = 2019-08-13T18:27:36Z
 title = "Checked in at Royal Albert Hall"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2019-08-13T18:27:36Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/a8e490b5335fe48dfd504b824130cc5a00c1fad48c4e9e0df2892a2415e02f25.png"
 local_timestamp = 2019-08-13T19:27:36Z
 

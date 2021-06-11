@@ -1,7 +1,7 @@
-published = 2012-12-06T18:09:23Z
 title = "Checked in at MEATmarket"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-12-06T18:09:23Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/bfaf248a3c943445cfbe34ab57bec5af10038e988bf5832889caae8c57ce95bf.png"
 
 [data]

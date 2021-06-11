@@ -1,7 +1,7 @@
-published = 2013-03-22T09:23:34Z
 title = "Checked in at neo canteen"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-03-22T09:23:34Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/d09b75e004cfe0c6c8ed5273eb5c053b106bcc880a8ebea7af829d0f8d86baf5.png"
 
 [data]
