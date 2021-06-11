@@ -1,7 +1,7 @@
-published = 2015-12-17T12:37:11Z
 title = "Checked in at Dstl"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-12-17T12:37:11Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/43c6b92183310fb9537c05d76bc34cd7eab5faffcef43bf40d70cae43a6d7174.png"
 
 [data]

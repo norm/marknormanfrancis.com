@@ -1,7 +1,7 @@
-published = 2015-12-09T15:29:41Z
 title = "Checked in at Union Viet"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-12-09T15:29:41Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/42a962e2fc83b5ade20e30fbed9c24ad18581369f9caa9ee4a04eb7e4defb475.png"
 
 [data]

@@ -1,13 +1,13 @@
 ```
-tweet_id = "1158622426919591936"
-type = "tweet"
 title = "My commute has changed for the better"
 published = 2019-08-06T06:14:47Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1158622426919591936"
+twitter_account = "cackhanded"
+tweet_id = "1158622426919591936"
 retweets = 0
 favourites = 13
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1158622426919591936"
 tag = []
 ```
 

@@ -1,13 +1,13 @@
 ```
-published = 2021-05-18T07:40:16Z
-title = 'Chips for week 19, 2021'
-type = 'tweet'
+title = "Chips for week 19, 2021"
+published = 2021-05-18T07:53:08Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1394561676876427264"
+twitter_account = "cackhanded"
 tweet_id = "1394561676876427264"
 retweets = 0
 favourites = 0
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1394561676876427264"
 tag = [ "weekchips",]
 ```
 
@@ -23,7 +23,7 @@ Another week, and I’m still [stacking chips][chips]. Last week’s
 
 At the start of the week, I wrote down these high level goals:
 
-1. Get ready for Eurovision — ❌
+1. Get ready for Eurovision — ❌
 1. Increase Ezio content buffer — ✅
 
 

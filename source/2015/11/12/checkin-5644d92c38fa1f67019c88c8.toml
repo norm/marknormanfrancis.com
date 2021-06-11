@@ -1,7 +1,7 @@
-published = 2015-11-12T18:23:40Z
 title = "Checked in at Fulham Broadway"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-11-12T18:23:40Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/fd99edd0ed15d68eba4867b26f6d4298d75e24a269cda54dcc8d4d3171766579.png"
 
 [data]

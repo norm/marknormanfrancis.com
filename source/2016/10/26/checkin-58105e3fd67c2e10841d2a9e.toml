@@ -1,7 +1,7 @@
-published = 2016-10-26T08:41:51Z
 title = "Checked in at etc Venues"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-10-26T08:41:51Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/e7f4f691cdefa9977657e53f2e0d7119d5e3b4517b0c2713c1f9ab9ae69045fe.png"
 local_timestamp = 2016-10-26T09:41:51Z
 

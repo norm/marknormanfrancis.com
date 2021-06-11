@@ -1,7 +1,7 @@
-published = 2012-12-24T13:21:28Z
 title = "Checked in at Norman Shaw North"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-12-24T13:21:28Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/24d8e2909f41b6968190a39d317002ce5498d5d0aebda6b613aa8d7cde5db623.png"
 
 [data]

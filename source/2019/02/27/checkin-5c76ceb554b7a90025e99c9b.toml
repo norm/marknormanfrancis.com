@@ -1,7 +1,7 @@
-published = 2019-02-27T17:53:57Z
 title = "Checked in at Portcullis House"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2019-02-27T17:53:57Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/6f041903d4524d698a93ce19134d7ea9e9b4e9fc82ed4066ada9c2f35fb9082d.png"
 
 [data]

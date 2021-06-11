@@ -1,13 +1,13 @@
 ```
-tweet_id = "358721135677935616"
-type = "tweet"
 title = "The four stages of CSS"
 published = 2013-07-20T22:52:38Z
-retweets = 598
-favourites = 408
-source = "twitter"
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/358721135677935616"
 twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/358721135677935616"
+tweet_id = "358721135677935616"
+retweets = 582
+favourites = 399
 tag = []
 ```
 

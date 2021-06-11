@@ -1,7 +1,7 @@
-published = 2012-03-08T18:35:11Z
 title = "Checked in at Hoffbrau Steak"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-08T18:35:11Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/cafce465751ef7b8de397d47e704513b2e512accfdf190ac1c8e21e0d7d40070.png"
 local_timestamp = 2012-03-08T12:35:11Z
 

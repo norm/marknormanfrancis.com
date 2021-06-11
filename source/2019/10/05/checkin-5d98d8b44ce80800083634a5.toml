@@ -1,7 +1,7 @@
-published = 2019-10-05T18:53:56Z
 title = "Checked in at Antipode"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2019-10-05T18:53:56Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/7a3d6cd065b08cfa97eec652d5fb319cb5fbb496eb893a83d7aad2cd0fec60fb.png"
 local_timestamp = 2019-10-05T19:53:56Z
 

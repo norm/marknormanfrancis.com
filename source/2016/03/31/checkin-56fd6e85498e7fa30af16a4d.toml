@@ -1,7 +1,7 @@
-published = 2016-03-31T19:37:57Z
 title = "Checked in at Founder's Arms"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-03-31T19:37:57Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/a7e100d144d65ffce05a87a64c9266a9b94d4fa9730dd5e23671e44a68e3e930.png"
 local_timestamp = 2016-03-31T20:37:57Z
 

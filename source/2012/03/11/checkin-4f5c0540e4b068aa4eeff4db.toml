@@ -1,7 +1,7 @@
-published = 2012-03-11T01:52:00Z
 title = "Checked in at Champions Restaurant & Sports Bar"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-11T01:52:00Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/fb887484f3e8e317a6760882b02badbba7bda14e683973defc959397f75351ff.png"
 local_timestamp = 2012-03-10T19:52:00Z
 

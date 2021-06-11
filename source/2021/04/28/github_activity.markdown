@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Wednesday April 28, 2021"
 published = 2021-04-28T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/gifs.cackhanded.net",]
+tag = [ "repo-gifs-cackhanded-net",]
 ```
 
 * 09:32 — Pushed 6 commits to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/5e4401f97aea0f3a7622f7b54a53e6b80d143475..49dc08bf4ac491990e4fabd6bec1504e300e399c))

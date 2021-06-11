@@ -1,7 +1,7 @@
-published = 2015-10-01T14:15:27Z
 title = "Checked in at Sloane Square"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-10-01T14:15:27Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/dc340d6edfcd1aa717457abc6712f0a2e9dba73ccc2979e46564edfc9543facc.png"
 local_timestamp = 2015-10-01T15:15:27Z
 

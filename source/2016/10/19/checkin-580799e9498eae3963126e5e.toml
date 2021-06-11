@@ -1,7 +1,7 @@
-published = 2016-10-19T17:06:01Z
 title = "Checked in at Cadogan Pier"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-10-19T17:06:01Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/cb10d9890c9da61c09cdf7cc892e91c1e1082414cbd4b720d3f4af3a1d6974d7.png"
 local_timestamp = 2016-10-19T18:06:01Z
 

@@ -1,7 +1,7 @@
-published = 2012-03-16T14:14:35Z
 title = "Checked in at Jo's Coffee"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-16T14:14:35Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/5154c2720e91bb6a9570ef0604d31d48bd8ae98cbd6e43e6dbecba2d0b8bd9e8.png"
 local_timestamp = 2012-03-16T09:14:35Z
 

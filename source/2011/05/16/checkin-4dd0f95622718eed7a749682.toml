@@ -1,7 +1,7 @@
-published = 2011-05-16T11:15:50Z
 title = "Checked in at Café Verona"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2011-05-16T11:15:50Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/1f58e0fc61f221b88b0eb99f0a4ac21fed2a14589400c4b1a19bc983dc8ffed0.png"
 local_timestamp = 2011-05-16T12:15:50Z
 

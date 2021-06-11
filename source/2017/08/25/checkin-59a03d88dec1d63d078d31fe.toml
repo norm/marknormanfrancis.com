@@ -1,7 +1,7 @@
-published = 2017-08-25T16:08:56Z
 title = "Checked in at Greggs"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-08-25T16:08:56Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/54e94433626b12070fe3766b5599cf4ff59ace1d77a2081051fd741c654506ab.png"
 local_timestamp = 2017-08-25T17:08:56Z
 

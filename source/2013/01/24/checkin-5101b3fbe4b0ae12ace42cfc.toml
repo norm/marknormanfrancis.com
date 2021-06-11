@@ -1,7 +1,7 @@
-published = 2013-01-24T22:21:47Z
 title = "Checked in at Expedia"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-01-24T22:21:47Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/fcee6800a07d3241f0a0f32da0028e18c608a39d832bf86289e544f8a16898fa.png"
 
 [data]

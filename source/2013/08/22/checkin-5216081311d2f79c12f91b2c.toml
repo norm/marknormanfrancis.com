@@ -1,7 +1,7 @@
-published = 2013-08-22T13:46:11Z
 title = "Checked in at Tranwell Unit"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-08-22T13:46:11Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/312c84ca2a0f04c6dabb3f2050bbd56e96aa5fc40274652ccd9dd53960e32e11.png"
 local_timestamp = 2013-08-22T14:46:11Z
 

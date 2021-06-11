@@ -1,7 +1,7 @@
-published = 2015-12-17T18:42:16Z
 title = "Checked in at Manhattans Project"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-12-17T18:42:16Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/5a56ababd5385353896bb6330a4b0701f3b09b7fe002b203fdc013cc01165cf8.png"
 
 [data]

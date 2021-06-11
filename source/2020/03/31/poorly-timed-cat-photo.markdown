@@ -1,13 +1,13 @@
 ```
-tweet_id = "1245003053268439041"
-type = "tweet"
 title = "Poorly timed cat photo"
 published = 2020-03-31T15:00:33Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1245003053268439041"
+twitter_account = "cackhanded"
+tweet_id = "1245003053268439041"
 retweets = 0
 favourites = 1
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1245003053268439041"
 tag = [ "itsy",]
 ```
 

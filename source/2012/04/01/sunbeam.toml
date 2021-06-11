@@ -1,7 +1,7 @@
-published = 2012-04-01T12:14:43Z
 title = "Sunbeam"
+published = 2012-04-01T12:14:43Z
 image = "https://mnf.m17s.net/2012/04/01/sunbeam.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 original_caption = "Sunbeam #notmycat"
 tag = [ "notmycat",]

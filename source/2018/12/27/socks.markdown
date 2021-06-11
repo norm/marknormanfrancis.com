@@ -1,13 +1,13 @@
 ```
-tweet_id = "1078251692574101504"
-type = "tweet"
 title = "Socks"
 published = 2018-12-27T11:30:11Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1078251692574101504"
+twitter_account = "cackhanded"
+tweet_id = "1078251692574101504"
 retweets = 1
 favourites = 2
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1078251692574101504"
 tag = [ "rainbow", "socks",]
 ```
 

@@ -1,7 +1,7 @@
-published = 2011-05-09T13:40:23Z
 title = "Checked in at Artfinder"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2011-05-09T13:40:23Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/2d792a6372a33251974b20332de1606fcc237b0dae19e243dbb494830ac403b0.png"
 local_timestamp = 2011-05-09T14:40:23Z
 

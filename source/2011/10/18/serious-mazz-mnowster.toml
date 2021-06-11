@@ -1,8 +1,8 @@
-published = 2011-10-18T18:26:25Z
 title = "Serious Mazz @mnowster"
+published = 2011-10-18T18:26:25Z
 image = "https://mnf.m17s.net/2011/10/18/serious-mazz-mnowster.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 location = "Forward Internet Group"
 original_caption = "Serious Mazz @mnowster #ldndevops "
 tag = [ "ldndevops",]

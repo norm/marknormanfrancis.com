@@ -1,7 +1,7 @@
-published = 2012-03-12T15:48:04Z
 title = "Checked in at Courtyard by Marriott Austin Downtown/Convention Center for Online Personality Disorder: Resumes & Profiles"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-12T15:48:04Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/52f95bc890d2e98415c74e011577dec24a2cc9825bfa5032f69ded4441285ab9.png"
 tag = [ "online-personality-disorder-resumes-profiles",]
 local_timestamp = 2012-03-12T10:48:04Z

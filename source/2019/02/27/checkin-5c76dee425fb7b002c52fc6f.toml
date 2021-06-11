@@ -1,7 +1,7 @@
-published = 2019-02-27T19:03:00Z
 title = "Checked in at Strangers' Dining Room"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2019-02-27T19:03:00Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/d78043a0df1d4ddc66867eb5ab81e638b9e2c0cc788ee10dd726c687dc4e44a6.png"
 
 [data]

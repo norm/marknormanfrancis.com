@@ -1,0 +1,35 @@
+<header>
+  <h1>{{title}}</h1>
+  <p class='published'>
+    {{published.strftime('%A %d %B, %Y')}}
+      at
+    {{published.strftime('%-I.%M%p').lower()}}
+  </p>
+  <dl>
+    {% if updated %}
+      <dt>updated</dt>
+      <dd>
+        {{updated.strftime('%A %d %B, %Y')}}
+          at
+        {{updated.strftime('%-I.%M%p').lower()}}
+      </dd>
+    {% endif %}
+    {% if local_timestamp %}
+      <dt>local time</dt>
+      <dd>
+        {{local_timestamp.strftime('%A %d %B, %Y')}}
+          at
+        {{local_timestamp.strftime('%-I.%M%p').lower()}}
+      </dd>
+    {% endif %}
+    {% if tag %}
+      <li>
+        <dt class='tag'>tagged</dt>
+        {% for t in tag %}
+          <dd class='tag'><a href='{{ path("tags-tag-index", tag=t) }}'>{{t}}</a></dd>
+        {% endfor %}
+      </li>
+    {% endif %}
+    [[ sectile insert body_body_header_origin.html ]]
+  </dl>
+</header>

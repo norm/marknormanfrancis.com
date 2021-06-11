@@ -1,13 +1,13 @@
 ```
-tweet_id = "1277293883907624960"
-type = "tweet"
 title = "Operation: Drunken Fear"
 published = 2020-06-28T17:32:47Z
+origin = "twitter-norms_ps4"
+type = "tweet"
+original_url = "https://twitter.com/norms_ps4/status/1277293883907624960"
+twitter_account = "norms_ps4"
+tweet_id = "1277293883907624960"
 retweets = 0
 favourites = 0
-source = "twitter"
-twitter_account = "norms_ps4"
-source_url = "https://twitter.com/norms_ps4/status/1277293883907624960"
 tag = [ "ps4share", "xcom2",]
 ```
 

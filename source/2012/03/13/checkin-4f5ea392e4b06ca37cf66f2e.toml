@@ -1,7 +1,7 @@
-published = 2012-03-13T01:32:02Z
 title = "Checked in at Hampton Inn & Suites"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-13T01:32:02Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/5f33e594bc8c950bbc1955c3c1dc80c3243c6155f7b401d88199e58f6db46785.png"
 local_timestamp = 2012-03-12T20:32:02Z
 

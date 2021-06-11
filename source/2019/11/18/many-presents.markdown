@@ -1,13 +1,13 @@
 ```
-tweet_id = "1196453823549788162"
-type = "tweet"
 title = "Many presents"
 published = 2019-11-18T15:43:15Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1196453823549788162"
+twitter_account = "cackhanded"
+tweet_id = "1196453823549788162"
 retweets = 0
 favourites = 3
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1196453823549788162"
 tag = [ "boozecase", "scapa",]
 ```
 

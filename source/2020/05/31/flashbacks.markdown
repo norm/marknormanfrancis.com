@@ -1,13 +1,13 @@
 ```
-tweet_id = "1266999062055788547"
-type = "tweet"
 title = "Flashbacks"
 published = 2020-05-31T07:44:50Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1266999062055788547"
+twitter_account = "cackhanded"
+tweet_id = "1266999062055788547"
 retweets = 0
 favourites = 9
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1266999062055788547"
 tag = [ "roxy",]
 ```
 

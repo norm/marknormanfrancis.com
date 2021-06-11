@@ -1,13 +1,13 @@
 ```
-tweet_id = "1373943783667208193"
-type = "tweet"
-title = "Chips for Week 11, 2021"
+title = "Chips for week 11, 2021"
 published = 2021-03-22T10:24:59Z
-retweets = 0
-favourites = 0
-source = "twitter"
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1373943783667208193"
 twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1373943783667208193"
+tweet_id = "1373943783667208193"
+retweets = 0
+favourites = 1
 tag = [ "weekchips",]
 ```
 

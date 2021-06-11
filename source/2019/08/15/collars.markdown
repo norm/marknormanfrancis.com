@@ -1,13 +1,13 @@
 ```
-tweet_id = "1161946462584000513"
-type = "tweet"
 title = "Collars"
 published = 2019-08-15T08:31:04Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1161918214143696896"
+twitter_account = "cackhanded"
+tweet_id = "1161918214143696896"
 retweets = 0
 favourites = 13
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1161946462584000513"
 tag = []
 updated = 2019-08-15T10:23:19Z
 thread_tweet_ids = [ 1161918214143696896, 1161918459573395456, 1161946462584000513,]

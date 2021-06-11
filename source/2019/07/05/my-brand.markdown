@@ -1,13 +1,13 @@
 ```
-tweet_id = "1147087404769193984"
-type = "tweet"
 title = "My brand"
 published = 2019-07-05T10:18:43Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1147086842631729152"
+twitter_account = "cackhanded"
+tweet_id = "1147086842631729152"
 retweets = 0
 favourites = 1
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1147087404769193984"
 tag = [ "angostura", "boozecase", "rum",]
 thread_tweet_ids = [ 1147086842631729152, 1147087404769193984,]
 ```

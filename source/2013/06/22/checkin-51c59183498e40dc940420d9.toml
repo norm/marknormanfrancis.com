@@ -1,7 +1,7 @@
-published = 2013-06-22T12:58:59Z
 title = "Checked in at Ed's Easy Diner"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-06-22T12:58:59Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/04f896b00f73faf748909e18b38f5a302f3659e4ca2e4a6f4093f4be34f82145.png"
 local_timestamp = 2013-06-22T13:58:59Z
 

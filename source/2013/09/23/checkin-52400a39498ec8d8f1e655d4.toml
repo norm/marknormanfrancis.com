@@ -1,7 +1,7 @@
-published = 2013-09-23T10:30:33Z
 title = "Checked in at King's Cross"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-09-23T10:30:33Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/27364d89133eea8d376e105a9f9e4bc6475cd7b21b226f7cf7cd260b4fa975f3.png"
 local_timestamp = 2013-09-23T11:30:33Z
 

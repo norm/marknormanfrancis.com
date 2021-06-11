@@ -1,7 +1,7 @@
-published = 2012-03-17T19:55:35Z
 title = "Checked in at Bullock Texas State History Museum"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-17T19:55:35Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/2f3342b53a35410cc5f92fb5307d0111a31d949d6294029870584a418ab14696.png"
 local_timestamp = 2012-03-17T14:55:35Z
 

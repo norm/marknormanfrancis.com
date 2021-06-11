@@ -1,7 +1,7 @@
-published = 2017-10-16T13:35:08Z
 title = "Checked in at Lanesborough Wing"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-10-16T13:35:08Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/87b067f6543de52bd633e1fd9a92c485e30b0d29928dd0ea35e7a9806aefe027.png"
 local_timestamp = 2017-10-16T14:35:08Z
 

@@ -1,13 +1,13 @@
 ```
-tweet_id = "1302629784636321792"
-type = "tweet"
 title = "Chips for week 36, 2020"
 published = 2020-09-06T15:09:09Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1302624888306495489"
+twitter_account = "cackhanded"
+tweet_id = "1302624888306495489"
 retweets = 0
 favourites = 4
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1302629784636321792"
 tag = [ "weekchips",]
 updated = 2020-09-06T15:28:37Z
 thread_tweet_ids = [ 1302624888306495489, 1302625328863555585, 1302626448050663424, 1302626780868759553, 1302627096439795712, 1302627995719475201, 1302628482221039621, 1302629784636321792,]
@@ -21,7 +21,7 @@ This week’s [#weekchips](/tags/weekchips/).
 
 The week starts with the bank holiday, so just a bit of video editing in the morning before my wife got up and I go spend the day with her.
 
-<p class='image'><img src='http://mnf.m17s.net/2020/09/06/EhPa0ZbXcAInGZ-.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/09/06/EhPa0ZbXcAInGZ-.jpg' alt=''></p>
 
 Tuesday adding two GitHub actions workflows to [`marknormanfrancis.com`](http://marknormanfrancis.com). One to auto-pull and generate entries for things I post to [`@norms_ps4`](https://twitter.com/norms_ps4), which then files them as a pull request. The other to generate and publish the site when the main branch is updated.
 
@@ -39,5 +39,5 @@ Also, I cheated on the hard work I did last week removing stuff from my whiteboa
 
 (the map to Horizon Zero Dawn)
 
-<p class='image'><img src='http://mnf.m17s.net/2020/09/06/EhPe3q3XYAIHZOV.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/09/06/EhPe3q3XYAIHZOV.jpg' alt=''></p>
 

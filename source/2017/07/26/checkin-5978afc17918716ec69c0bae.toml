@@ -1,7 +1,7 @@
-published = 2017-07-26T16:05:37Z
 title = "Checked in at The Queen Charlotte"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-07-26T16:05:37Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/3c94900f13775b72057a368fb33050061ffd7ba4469fafdbd67f49c6ceb1508f.png"
 local_timestamp = 2017-07-26T17:05:37Z
 

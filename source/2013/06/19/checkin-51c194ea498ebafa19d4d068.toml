@@ -1,7 +1,7 @@
-published = 2013-06-19T12:24:26Z
 title = "Checked in at The Bountiful Cow"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-06-19T12:24:26Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/7672f66a20c3d010b118b41aaf61c209aea82f8c0c4f35340be0c6d37018df7c.png"
 local_timestamp = 2013-06-19T13:24:26Z
 

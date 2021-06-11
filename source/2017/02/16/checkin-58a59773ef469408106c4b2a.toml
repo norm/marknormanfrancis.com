@@ -1,7 +1,7 @@
-published = 2017-02-16T12:13:39Z
 title = "Checked in at Gray's Inn Gardens"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-02-16T12:13:39Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/2abf51a816c5fa8210f79c0a1fd04a73d391d1dbdfa52469f3f62d863aafefd8.png"
 
 [data]

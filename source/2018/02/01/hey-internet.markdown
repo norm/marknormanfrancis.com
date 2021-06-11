@@ -1,13 +1,13 @@
 ```
-tweet_id = "959162814970695680"
-type = "tweet"
 title = "Hey Internet"
 published = 2018-02-01T20:33:30Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/959162814970695680"
+twitter_account = "cackhanded"
+tweet_id = "959162814970695680"
 retweets = 0
 favourites = 7
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/959162814970695680"
 tag = [ "gumbo",]
 ```
 

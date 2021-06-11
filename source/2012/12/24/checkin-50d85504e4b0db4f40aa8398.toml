@@ -1,7 +1,7 @@
-published = 2012-12-24T13:13:40Z
 title = "Checked in at Despatch Box Coffee Shop"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-12-24T13:13:40Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/65f1367fce0619edd72b49ea3eed9feb903a093a68a054b70ba7fd616f98b432.png"
 
 [data]

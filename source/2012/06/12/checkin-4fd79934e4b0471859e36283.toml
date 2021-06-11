@@ -1,7 +1,7 @@
-published = 2012-06-12T20:32:04Z
 title = "Checked in at Vue for Prometheus"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-06-12T20:32:04Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca76b9d411cb172ec6e.png"
 tag = [ "prometheus", "movie",]
 local_timestamp = 2012-06-12T21:32:04Z

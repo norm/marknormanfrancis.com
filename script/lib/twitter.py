@@ -7,7 +7,13 @@ import pytz
 import toml
 import tweepy
 
-from lib import update_content, strip_trailing_hashtags, strip_links
+from lib import (
+    get_body_from_source,
+    strip_links,
+    strip_trailing_hashtags,
+    update_content,
+    tagify,
+)
 from lib.bucket import Bucket
 
 BUCKET = 'mnf.m17s.net'
@@ -67,12 +73,11 @@ class Twitter:
         updated = timestamped(tweets[-1].created_at)
         date = created.strftime('%Y/%m/%d')
 
-        body = ''
-
         # FIXME retweets
         # FIXME attached images/video
         # FIXME add original data as attachment
 
+        body = ''
         tags = set()
         if 'tag' in extra:
             for tag in extra['tag']:
@@ -92,12 +97,15 @@ class Twitter:
                 title = 'Untitled tweet at %s' % \
                     created.strftime('%H:%M:%S').lower()
                 tags.add('fixme')
-        slug = slugify(title)
+
+        output_file = 'source/%s/%s.markdown' % (date, slugify(title))
+        if 'slug' in extra:
+            output_file = 'source/%s.markdown' % extra['slug']
 
         tags.update(
-            slugify(word[1:].lower())
-            for word in title.split()
-            if word.startswith('#')
+            tagify(word[1:])
+                for word in title.split()
+                    if word.startswith('#')
         )
         if 'tags' in extra:
             for tag in extra['tags']:
@@ -108,6 +116,8 @@ class Twitter:
             # the body will match, so there's no unnecessary repetition,
             # except if it is a quoted tweet (we still want the quote to appear)
             text = strip_trailing_hashtags(strip_links(tweets[0].full_text))
+            if 'ignore_body' in extra:
+                tweets[0].full_text = ''
             if text == title:
                 tweets[0].full_text = ''
             if text == '':
@@ -126,6 +136,9 @@ class Twitter:
             previous_time = time
             body += self.tweet_to_markdown(tweet, date)
 
+        if 'edited_body' in extra and extra['edited_body']:
+            body = get_body_from_source(output_file)
+
         retweets = 0
         favourites = 0
         for tweet in tweets:
@@ -133,25 +146,25 @@ class Twitter:
             favourites += int(tweet.favorite_count)
             if 'hashtags' in tweet.entities:
                 for tag in tweet.entities['hashtags']:
-                    tags.add(slugify(tag['text']))
+                    tags.add(tagify(tag['text']))
 
         if 'remove_tags' in extra:
             for tag in extra['remove_tags']:
                 tags.remove(tag)
 
         post = {
-            'tweet_id': tweets[-1].id_str,
-            'type': 'tweet',
             'title': title,
             'published': created,
+            'origin': 'twitter-%s' % tweets[-1].author.screen_name,
+            'type': 'tweet',
+            'original_url': 'https://twitter.com/%s/status/%s' % (
+                tweets[0].author.screen_name,
+                tweets[0].id_str,
+            ),
+            'twitter_account': tweets[0].author.screen_name,
+            'tweet_id': tweets[0].id_str,
             'retweets': retweets,
             'favourites': favourites,
-            'source': 'twitter',
-            'twitter_account': tweets[-1].author.screen_name,
-            'source_url': 'https://twitter.com/%s/status/%s' % (
-                tweets[-1].author.screen_name,
-                tweets[-1].id_str,
-            ),
             'tag': sorted(tags),
         }
 
@@ -164,8 +177,8 @@ class Twitter:
             ])
 
         output = '```\n%s```\n\n%s' % (toml.dumps(post), body)
-        output_file = 'source/%s/%s.markdown' % (date, slug)
         update_content(output_file, output)
+        return post
 
     def get_tweet(self, id):
         return self._api.get_status(id, tweet_mode='extended')
@@ -254,7 +267,7 @@ class Twitter:
                 if 'text' in section:
                     markdown += '[#%s](/tags/%s/)' % (
                         section['text'],
-                        slugify(section['text'])
+                        tagify(section['text'])
                     )
                 text_from = section['indices'][1]
             if text_from < tweet.display_text_range[1]:
@@ -275,7 +288,7 @@ class Twitter:
                 if uploaded:
                     print('++', destination)
                 markdown += "<p class='image'><img src='%s' alt=''></p>\n\n" % (
-                    'http://%s/%s' % (BUCKET, destination)
+                    'https://%s/%s' % (BUCKET, destination)
                 )
 
         return markdown

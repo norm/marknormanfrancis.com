@@ -1,7 +1,7 @@
-published = 2012-10-24T16:08:08Z
 title = "Checked in at Fleet River Bakery"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-10-24T16:08:08Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/002799202605dc7335f1815dcff605f826799021615d3fa7b17cc87ad7df40a0.png"
 local_timestamp = 2012-10-24T17:08:08Z
 

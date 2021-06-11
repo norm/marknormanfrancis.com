@@ -1,7 +1,7 @@
-published = 2011-05-16T10:26:31Z
 title = "Checked in at Shakespeare's Head (Wetherspoon)"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2011-05-16T10:26:31Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/a40fb33c021bd59ca00c655059b82648bbc8cdda8b348854595d135cb605ce92.png"
 local_timestamp = 2011-05-16T11:26:31Z
 

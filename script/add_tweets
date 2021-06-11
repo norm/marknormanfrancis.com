@@ -8,6 +8,7 @@ import sys
 
 import toml
 
+from lib import update_content
 from lib.twitter import Twitter
 
 
@@ -23,7 +24,10 @@ def main():
     for id in ids:
         if 'ignore' in ids[id]:
             continue
-        twitter.create_source_from_tweet(id, ids[id])
+        data = twitter.create_source_from_tweet(id, ids[id])
+        ids[id]['title'] = data['title']
+
+    update_content(ids_toml, toml.dumps(ids))
 
 if __name__ == '__main__':
     main()

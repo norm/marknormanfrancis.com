@@ -1,7 +1,8 @@
 # publishing details
-type = 'recipe'
 title = 'Chicken and chorizo gumbo recipe'
 published = 2020-06-26T10:00:00Z
+origin = 'mnf'
+type = 'recipe'
 tag = [ 'recipe', 'chicken', 'chorizo', 'gumbo', ]
 
 

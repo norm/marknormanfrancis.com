@@ -1,7 +1,7 @@
-published = 2017-06-23T12:45:17Z
 title = "Checked in at Shake Shack Tottenham Court Road"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-06-23T12:45:17Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/b4e034e97db9f9d43caccce603700a1d819c9387569252b3274787c2bee07b84.png"
 local_timestamp = 2017-06-23T13:45:17Z
 

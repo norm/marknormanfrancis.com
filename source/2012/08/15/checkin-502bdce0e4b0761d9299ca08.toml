@@ -1,7 +1,7 @@
-published = 2012-08-15T18:31:12Z
 title = "Checked in at T.M. Lewin"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-08-15T18:31:12Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/ce4c6776790d54292db37be19a6780182d6cbbbd6c455ddb311f41448344e369.png"
 local_timestamp = 2012-08-15T19:31:12Z
 

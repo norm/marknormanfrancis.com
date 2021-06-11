@@ -1,7 +1,7 @@
-published = 2017-12-27T19:19:56Z
 title = "Checked in at Theatre Royal, Drury Lane for 42nd Street (Touring)"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-12-27T19:19:56Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/89694e66d1c0404b0cb126aaeebc8677ddf414d8651c9c1e4e195584305bba23.png"
 tag = [ "42nd-street-touring",]
 

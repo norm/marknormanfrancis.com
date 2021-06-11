@@ -1,7 +1,7 @@
-published = 2012-09-07T11:25:59Z
 title = "Checked in at Shakeaway"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-09-07T11:25:59Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/95a4eaadd2e31b61df51f00eaba5176c7e1b03846fc8cb8b65004df75db34127.png"
 local_timestamp = 2012-09-07T12:25:59Z
 

@@ -1,7 +1,7 @@
-published = 2019-02-14T17:05:54Z
 title = "Checked in at Royal Festival Hall"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2019-02-14T17:05:54Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/5f472f6a53f79ddd3e84aeec1d0f5579ca0228bc6edcbad471ed804f31bd4a42.png"
 
 [data]

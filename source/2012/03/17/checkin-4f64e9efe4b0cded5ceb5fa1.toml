@@ -1,7 +1,7 @@
-published = 2012-03-17T19:45:51Z
 title = "Checked in at Toy Joy"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-17T19:45:51Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/d4293650c7d1afa6415aca2eb5426624beb978eebfce2e45f9875e1171f20946.png"
 local_timestamp = 2012-03-17T14:45:51Z
 

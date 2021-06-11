@@ -1,13 +1,13 @@
 ```
-tweet_id = "1062607589459066881"
-type = "tweet"
 title = "Sunrise in Wandsworth"
 published = 2018-11-14T07:26:06Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1062607589459066881"
+twitter_account = "cackhanded"
+tweet_id = "1062607589459066881"
 retweets = 2
 favourites = 7
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1062607589459066881"
 tag = []
 ```
 

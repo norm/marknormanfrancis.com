@@ -1,14 +1,14 @@
 ```
-tweet_id = "1363512799327059973"
-type = "tweet"
 title = "Watching the Star Trek movies (cackhanded journey)"
 published = 2021-02-21T15:13:38Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1363507178104053762"
+twitter_account = "cackhanded"
+tweet_id = "1363507178104053762"
 retweets = 0
 favourites = 5
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1363507178104053762"
-tag = []
+tag = [ "star-trek",]
 updated = 2021-02-21T15:35:58Z
 thread_tweet_ids = [ 1363507178104053762, 1363507691562405890, 1363508296557158405, 1363508808694329346, 1363509038961598467, 1363509679272431616, 1363509982168297478, 1363510711398375426, 1363511081444990977, 1363511706924830721, 1363512038484545539, 1363512168415641603, 1363512799327059973,]
 ```

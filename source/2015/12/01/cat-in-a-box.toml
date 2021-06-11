@@ -1,7 +1,7 @@
-published = 2015-12-01T10:33:53Z
 title = "Cat in a box"
+published = 2015-12-01T10:33:53Z
 image = "https://mnf.m17s.net/2015/12/01/cat-in-a-box.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 original_caption = "Cat in a box #thomas"
 tag = [ "thomas",]

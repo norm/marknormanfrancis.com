@@ -1,7 +1,7 @@
-published = 2016-12-31T09:55:22Z
 title = "Checked in at M&S Foodhall"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-12-31T09:55:22Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/514630b149678af7f0e77a6ec815b562bc8b6735d2bf14cacaa3d36033b8de79.png"
 
 [data]

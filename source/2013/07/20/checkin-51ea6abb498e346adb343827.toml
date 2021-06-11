@@ -1,7 +1,7 @@
-published = 2013-07-20T11:47:23Z
 title = "Checked in at The O2 Arena"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-07-20T11:47:23Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/88b2aa1ef365a8c195a079377c5cb608cbdd77f6637a46653d6f4b03b27824b3.png"
 local_timestamp = 2013-07-20T12:47:23Z
 

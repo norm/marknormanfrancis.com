@@ -1,7 +1,7 @@
-published = 2017-01-27T13:07:15Z
 title = "Checked in at Kingdom of Sweets"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-01-27T13:07:15Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/5c17ac1e3d74ee2d7229161446a13fcedb0b152f15f03da7a639f3a15a567564.png"
 
 [data]

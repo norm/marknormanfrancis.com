@@ -1,7 +1,7 @@
-published = 2012-03-16T18:10:56Z
 title = "Checked in at Mongolian Grill San Jacinto"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-16T18:10:56Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/a40918a9df77cb6f25bdcc57ba079da6f1fdc9287ea3921d923692ccd9d1cbf5.png"
 local_timestamp = 2012-03-16T13:10:56Z
 

@@ -1,7 +1,7 @@
-published = 2013-08-02T17:29:14Z
 title = "Checked in at Apple Covent Garden"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-08-02T17:29:14Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/f35050eaa06c74ee888d6f79f363f42f7054b643af4c1c0fa97740df9a7af7f3.png"
 local_timestamp = 2013-08-02T18:29:14Z
 

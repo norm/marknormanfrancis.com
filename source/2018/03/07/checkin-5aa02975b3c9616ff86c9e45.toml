@@ -1,7 +1,7 @@
-published = 2018-03-07T18:03:33Z
 title = "Checked in at The Parcel Yard"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2018-03-07T18:03:33Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/6aa06c22bade03569c390d981fa935e6537f5d2b7ffd51bcb426bc2c0566537c.png"
 
 [data]

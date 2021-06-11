@@ -1,7 +1,7 @@
-published = 2014-01-28T12:25:37Z
 title = "Checked in at Patty & Bun"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2014-01-28T12:25:37Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/1bc554349fc91757a4a394c603c47674592bc8dabc2c790ae7343a239d34cb3f.png"
 
 [data]

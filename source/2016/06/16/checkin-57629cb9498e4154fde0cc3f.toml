@@ -1,7 +1,7 @@
-published = 2016-06-16T13:34:01Z
 title = "Checked in at The Fountain Head"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-06-16T13:34:01Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/2f3d588cbf86a9fee0600259c95576ba2e2608ad110081c90d2f80fbf83866e9.png"
 local_timestamp = 2016-06-16T14:34:01Z
 

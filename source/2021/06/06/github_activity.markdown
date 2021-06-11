@@ -1,11 +1,13 @@
 ```
 title = "Github activity on Sunday June 06, 2021"
 published = 2021-06-06T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/flourish", "norm/gifs.cackhanded.net",]
+tag = [ "repo-flourish", "repo-gifs-cackhanded-net",]
 ```
 
-* 10:06 — created branch improve-recipe-page on [`norm/flourish`](https://github.com/norm/flourish)
+* 10:06 — created branch improve-recipe-page on [`norm/flourish`](https://github.com/norm/flourish)
 * 10:06 — opened [pull request 49](https://github.com/norm/flourish/pull/49) on [`norm/flourish`](https://github.com/norm/flourish)
 * 10:10 — Pushed 4 commits to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/ed8c110aad88779b47cc88b01f6005d81206a9b6..625b7b296082a0bc42b099f4457b633a8a1dc9dd))
   * [Stop needlessly rebuilding GIFs after a checkout](https://github.com/norm/gifs.cackhanded.net/commit/73564d6a9a5dd6df727b5fdb9b9c9bb88f3efd34)

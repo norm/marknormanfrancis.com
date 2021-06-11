@@ -1,13 +1,13 @@
 ```
-tweet_id = "959877638587322368"
-type = "tweet"
 title = "Loser."
 published = 2018-02-03T19:53:57Z
+origin = "twitter-norms_ps4"
+type = "tweet"
+original_url = "https://twitter.com/norms_ps4/status/959877638587322368"
+twitter_account = "norms_ps4"
+tweet_id = "959877638587322368"
 retweets = 0
 favourites = 0
-source = "twitter"
-twitter_account = "norms_ps4"
-source_url = "https://twitter.com/norms_ps4/status/959877638587322368"
 tag = [ "gtav",]
 ```
 

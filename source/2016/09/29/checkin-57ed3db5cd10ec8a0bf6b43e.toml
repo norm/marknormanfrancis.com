@@ -1,7 +1,7 @@
-published = 2016-09-29T17:13:41Z
 title = "Checked in at Cittie of Yorke"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-09-29T17:13:41Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/be7237a7784f4c8b03ef1c73f70f6453a1f99fbb8148397c812d866edb41e9b3.png"
 local_timestamp = 2016-09-29T18:13:41Z
 

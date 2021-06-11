@@ -1,5 +1,5 @@
-published = 2013-09-26T10:28:45Z
 title = "My new view"
+published = 2013-09-26T10:28:45Z
 image = "https://mnf.m17s.net/2013/09/26/my-new-view.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"

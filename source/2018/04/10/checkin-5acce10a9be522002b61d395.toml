@@ -1,7 +1,7 @@
-published = 2018-04-10T17:06:34Z
 title = "Checked in at The Star Of Kings"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2018-04-10T17:06:34Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/4c3c1efccee0905a1967a138dcfc503c3544082160b97ea99cf383657e68a599.png"
 local_timestamp = 2018-04-10T18:06:34Z
 

@@ -1,7 +1,7 @@
-published = 2012-03-02T12:23:36Z
 title = "Checked in at Bea's of Bloomsbury"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-02T12:23:36Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/5af22296dc8d8dba061d34852b40bc259e71dadd39ef638d9127a40e6afc04c2.png"
 
 [data]

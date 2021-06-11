@@ -1,7 +1,7 @@
-published = 2011-06-02T18:25:03Z
 title = "Checked in at Pizza Express"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2011-06-02T18:25:03Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/9a45c567c17bd74b5ec2434f4392130a031a7d1de3ea60141ba06f2c18b1e0aa.png"
 local_timestamp = 2011-06-02T19:25:03Z
 

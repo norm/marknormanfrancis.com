@@ -1,7 +1,7 @@
-published = 2013-09-19T12:46:01Z
 title = "Checked in at Tate Britain"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-09-19T12:46:01Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/064ca71eb6df77c6139690c8d534fdb6776b49886f0c17f243acb9b858e4e7a8.png"
 local_timestamp = 2013-09-19T13:46:01Z
 

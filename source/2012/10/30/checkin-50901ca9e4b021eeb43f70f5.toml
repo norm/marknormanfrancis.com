@@ -1,7 +1,7 @@
-published = 2012-10-30T18:30:01Z
 title = "Checked in at Upstairs at the Ritzy"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-10-30T18:30:01Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/f0dde4d47facaf138b4796e18a0aecbd5f5ecc6e448756a689ca055afc3a7e21.png"
 
 [data]

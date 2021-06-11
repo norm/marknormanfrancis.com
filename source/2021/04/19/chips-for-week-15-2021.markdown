@@ -1,13 +1,13 @@
 ```
-tweet_id = "1384000122728550408"
-type = "tweet"
 title = "Chips for week 15, 2021"
 published = 2021-04-19T04:25:17Z
-retweets = 0
-favourites = 0
-source = "twitter"
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1384000122728550408"
 twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1384000122728550408"
+tweet_id = "1384000122728550408"
+retweets = 0
+favourites = 3
 tag = [ "weekchips",]
 ```
 
@@ -23,10 +23,10 @@ Another week, and I’m still [stacking chips][chips]. Last week’s
 
 At the start of the week, I wrote my high-level goals down:
 
-1. More Eurovision data — ❌
-1. Another Ezio chapter — ✅
+1. More Eurovision data — ❌
+1. Another Ezio chapter — ✅
 1. Analyse weblogs — ✅
-1. Improve publishing — ❌
+1. Improve publishing — ❌
 
 Once again, I have avoided adding anything to my Eurovision data collection
 (and now it is drawing perilously close, so that'll end either with a mad

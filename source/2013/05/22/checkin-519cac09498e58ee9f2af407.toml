@@ -1,7 +1,7 @@
-published = 2013-05-22T12:29:13Z
 title = "Checked in at Kimchee"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-05-22T12:29:13Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/0e3c0f7835135a73ed70574f0a98cfbf7d79e30cbec8c24f06f6998b158614d5.png"
 local_timestamp = 2013-05-22T13:29:13Z
 

@@ -25,8 +25,8 @@ fields = [
     'gif',
     'thumbnail',
     'tag[]',
-    'source',
-    'source_url',
+    'origin',
+    'origin_link_url',
     'type',
 ]
 writer = csv.DictWriter(gifs_output, fieldnames=fields)
@@ -41,8 +41,8 @@ for row in reader:
         timestamp.strftime('%Y/%m/%d'),
         os.path.basename(row['url'])
     )
-    row['source'] = 'gifs.cackhanded.net'
-    row['source_url'] = row['url']
+    row['origin'] = 'gifs'
+    row['origin_link_url'] = row['url']
 
     # use the source/episode parts of the URL as tags too
     parts = row['url'].split('/')

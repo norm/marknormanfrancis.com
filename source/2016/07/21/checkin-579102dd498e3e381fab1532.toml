@@ -1,7 +1,7 @@
-published = 2016-07-21T18:14:05Z
 title = "Checked in at The Green Man"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-07-21T18:14:05Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/0d092f19ca48b8d3878ddc88539080c4f3402fcd4c5fa7b59794c610db26f29a.png"
 local_timestamp = 2016-07-21T19:14:05Z
 

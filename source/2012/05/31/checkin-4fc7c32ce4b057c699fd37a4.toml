@@ -1,7 +1,7 @@
-published = 2012-05-31T20:14:52Z
 title = "Checked in at Prince Of Wales"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-05-31T20:14:52Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/4e71871952797353b51cf42d1ab1c109cc1be5d5ce7b04b47552fd178a36274e.png"
 local_timestamp = 2012-05-31T21:14:52Z
 

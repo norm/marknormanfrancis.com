@@ -1,7 +1,7 @@
-published = 2012-10-14T07:24:01Z
 title = "20% cooler"
+published = 2012-10-14T07:24:01Z
 image = "https://mnf.m17s.net/2012/10/14/20-cooler.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 original_caption = "20% cooler #daily #tshirt"
 tag = [ "daily", "tshirt",]

@@ -1,13 +1,13 @@
 ```
-tweet_id = "964775118105907201"
-type = "tweet"
 title = "Whisky, Me"
 published = 2018-02-17T08:08:08Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/964773445279117312"
+twitter_account = "cackhanded"
+tweet_id = "964773445279117312"
 retweets = 1
 favourites = 6
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/964775118105907201"
 tag = [ "boozecase", "scapa", "whisky",]
 updated = 2018-02-17T08:14:47Z
 thread_tweet_ids = [ 964773445279117312, 964773786930249728, 964774175637372928, 964775118105907201,]

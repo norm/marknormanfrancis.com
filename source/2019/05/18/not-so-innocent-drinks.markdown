@@ -1,13 +1,13 @@
 ```
-tweet_id = "1129733850362515458"
-type = "tweet"
 title = "Not so Innocent drinks"
 published = 2019-05-18T13:01:54Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1129733850362515458"
+twitter_account = "cackhanded"
+tweet_id = "1129733850362515458"
 retweets = 1
 favourites = 11
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1129733850362515458"
 tag = [ "eurovision",]
 ```
 

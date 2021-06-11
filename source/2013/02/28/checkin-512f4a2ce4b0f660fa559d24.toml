@@ -1,7 +1,7 @@
-published = 2013-02-28T12:14:36Z
 title = "Checked in at Covent Garden"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-02-28T12:14:36Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/601426d38133b1dcefe1cb5a9fccd82630ac6a8bb3df2342626a60f79bf01802.png"
 
 [data]

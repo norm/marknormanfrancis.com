@@ -1,7 +1,7 @@
-published = 2016-10-14T11:06:36Z
 title = "Checked in at M&S Simply Food"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-10-14T11:06:36Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/39f3dea8dc995307f1257100a329695e906808c5c1c56f3708da7ff79c094304.png"
 local_timestamp = 2016-10-14T12:06:36Z
 

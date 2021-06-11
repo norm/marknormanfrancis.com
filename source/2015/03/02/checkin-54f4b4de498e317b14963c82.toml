@@ -1,7 +1,7 @@
-published = 2015-03-02T19:07:10Z
 title = "Checked in at Playhouse Theatre"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-03-02T19:07:10Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/3a533aee1a774e684150458affc93ccb75122e68bce488fe335a65c9d5392702.png"
 
 [data]

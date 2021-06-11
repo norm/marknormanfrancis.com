@@ -1,13 +1,13 @@
 ```
-tweet_id = "1077489658165112833"
-type = "tweet"
 title = "The tiniest of Christmas trees"
 published = 2018-12-25T09:02:07Z
-retweets = 2
-favourites = 4
-source = "twitter"
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1077489658165112833"
 twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1077489658165112833"
+tweet_id = "1077489658165112833"
+retweets = 2
+favourites = 5
 tag = [ "christmas",]
 ```
 

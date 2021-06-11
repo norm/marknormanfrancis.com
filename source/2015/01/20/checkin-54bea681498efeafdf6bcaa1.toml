@@ -1,7 +1,7 @@
-published = 2015-01-20T19:03:29Z
 title = "Checked in at The Northall"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-01-20T19:03:29Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/926c07eade74635c7078059da10d23eb349786eb5339148551c9d678fe5ca383.png"
 
 [data]

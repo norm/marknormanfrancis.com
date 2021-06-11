@@ -1,7 +1,7 @@
-published = 2016-06-16T16:26:33Z
 title = "Checked in at Bath Arms"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-06-16T16:26:33Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/42883d4f644a1e81e91a849a9a79abda0525eab58915873e6836f34bbd51b891.png"
 local_timestamp = 2016-06-16T17:26:33Z
 

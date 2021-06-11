@@ -1,13 +1,13 @@
 ```
-published = 2021-05-10T05:23:32Z
-title = 'Chips for week 18, 2021'
-type = 'tweet'
+title = "Chips for week 18, 2021"
+published = 2021-05-10T05:10:33Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1391621658327273478"
+twitter_account = "cackhanded"
 tweet_id = "1391621658327273478"
 retweets = 0
-favourites = 0
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1391621658327273478"
+favourites = 2
 tag = [ "weekchips",]
 ```
 
@@ -24,8 +24,8 @@ Another week, and I’m still [stacking chips][chips]. Last week’s
 At the start of the week, I wrote down these high level goals:
 
 1. Increase Ezio content buffer — ✅
-1. Finish restoring old content into site — ❌
-1. Eurovision data — ❌
+1. Finish restoring old content into site — ❌
+1. Eurovision data — ❌
 
 When I make my lists of goals for the week, I do tend to put them in
 most-wanted through least-wanted order. But, as I have previously written,

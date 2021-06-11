@@ -1,7 +1,7 @@
-published = 2013-10-08T23:01:22Z
 title = "Checked in at Glebe Barn Hostel"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-10-08T23:01:22Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/35e75a99c295777b75539fbaf83f0142e8d3d3dec3cf965ca56e43881142490d.png"
 local_timestamp = 2013-10-09T00:01:22Z
 

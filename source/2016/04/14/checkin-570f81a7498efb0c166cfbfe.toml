@@ -1,7 +1,7 @@
-published = 2016-04-14T12:40:23Z
 title = "Checked in at Borough Market"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-04-14T12:40:23Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/444edbfa39ddd69253904a7f0eddb3226aba5a08c9f9afd3172f1eab0d73014a.png"
 local_timestamp = 2016-04-14T13:40:23Z
 

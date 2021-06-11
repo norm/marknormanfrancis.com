@@ -1,13 +1,13 @@
 ```
-tweet_id = "1278319054449774592"
-type = "tweet"
 title = "Watching the wildlife"
 published = 2020-07-01T13:26:27Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1278319054449774592"
+twitter_account = "cackhanded"
+tweet_id = "1278319054449774592"
 retweets = 0
 favourites = 5
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1278319054449774592"
 tag = [ "itsy",]
 ```
 

@@ -1,7 +1,7 @@
-published = 2013-11-26T12:38:55Z
 title = "Checked in at FreeState Coffee"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-11-26T12:38:55Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/4d232fd896ea997934c802fa7b0d4724da8115991ed9e69c3f86889e9856c61b.png"
 
 [data]

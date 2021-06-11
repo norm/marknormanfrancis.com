@@ -1,8 +1,8 @@
-published = 2013-11-14T11:12:33Z
 title = "Plausible deniability"
+published = 2013-11-14T11:12:33Z
 image = "https://mnf.m17s.net/2013/11/14/plausible-deniability.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 location = "Hilton London Metropole"
 original_caption = "Plausible deniability #velocityconf"
 tag = [ "velocityconf",]

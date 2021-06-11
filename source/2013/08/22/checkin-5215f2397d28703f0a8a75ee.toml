@@ -1,7 +1,7 @@
-published = 2013-08-22T12:12:57Z
 title = "Checked in at Pinocchio Il Ristorante"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-08-22T12:12:57Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/42ec608d09527fe0b84a39d7a818189b8bb9d1a9a68a81785850b39c2573c0ec.png"
 local_timestamp = 2013-08-22T13:12:57Z
 

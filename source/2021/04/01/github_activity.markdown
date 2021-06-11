@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Thursday April 01, 2021"
 published = 2021-04-01T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/game_shows_support",]
+tag = [ "repo-game-shows-support",]
 ```
 
 * 13:59 — Pushed 11 commits to `main` on [`norm/game_shows_support`](https://github.com/norm/game_shows_support) ([diff](https://github.com/norm/game_shows_support/compare/f6f86e34d3b04a4ddf2e585750202e20ea82f724..c6b037775f4429bc98d2e57893389a1f732bf33c))
@@ -21,4 +23,4 @@ type = "github"
   * [Script to copy/restore the game's save data](https://github.com/norm/game_shows_support/commit/63d06a7d10df47e5f8a9df29aa2d3d41214b9b8b)
   * [Add current Ezio footage annotations](https://github.com/norm/game_shows_support/commit/ec1f4042c295092a823711688e518c2927335244)
   * [The channel images are not specific to HZD](https://github.com/norm/game_shows_support/commit/d921f2c3d50fd0e0216409727b1cb5e04d4c1715)
-* 14:17 — created branch ezch3 on [`norm/game_shows_support`](https://github.com/norm/game_shows_support)
+* 14:17 — created branch ezch3 on [`norm/game_shows_support`](https://github.com/norm/game_shows_support)

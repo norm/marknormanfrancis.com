@@ -1,13 +1,13 @@
 ```
-tweet_id = "1111598753247563776"
-type = "tweet"
 title = "I love my wife and she loves me"
 published = 2019-03-29T11:59:29Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1111598753247563776"
+twitter_account = "cackhanded"
+tweet_id = "1111598753247563776"
 retweets = 0
 favourites = 8
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1111598753247563776"
 tag = []
 ```
 

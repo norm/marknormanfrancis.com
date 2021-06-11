@@ -1,7 +1,7 @@
-published = 2011-09-27T19:29:48Z
 title = "Checked in at The Maple Leaf"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2011-09-27T19:29:48Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/2d6320d20023fb3e688ceb373d35704531b81863fcde77a3a36a23bb82641dc3.png"
 local_timestamp = 2011-09-27T20:29:48Z
 

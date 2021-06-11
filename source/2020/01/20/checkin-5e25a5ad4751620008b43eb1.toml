@@ -1,7 +1,7 @@
-published = 2020-01-20T13:05:49Z
 title = "Checked in at Cineworld for Jojo Rabbit"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2020-01-20T13:05:49Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/1dd1af2421c5dccd68e4e93d06374e0258f08ba235d6ef25251d4e5dc0616c89.png"
 tag = [ "jojo-rabbit", "movie",]
 

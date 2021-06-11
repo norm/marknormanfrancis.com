@@ -1,7 +1,7 @@
-published = 2017-03-09T17:58:19Z
 title = "Checked in at Alpha Books"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-03-09T17:58:19Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/e0a5bfeab664652060754c7a895ec690aa11a2df7e70e0973901cb7ffaa8a9e3.png"
 
 [data]

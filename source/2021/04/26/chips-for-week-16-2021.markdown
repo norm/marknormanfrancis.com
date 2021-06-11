@@ -1,13 +1,13 @@
 ```
-tweet_id = "1386543537479634944"
-type = "tweet"
 title = "Chips for week 16, 2021"
 published = 2021-04-26T04:51:54Z
-retweets = 0
-favourites = 0
-source = "twitter"
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1386543537479634944"
 twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1386543537479634944"
+tweet_id = "1386543537479634944"
+retweets = 0
+favourites = 1
 tag = [ "weekchips",]
 ```
 
@@ -26,7 +26,7 @@ At the start of the week, I wrote down four goals for the week:
 1. Increase Ezio content buffer — ✅
 1. Improve publishing — ✅
 1. Fix 404s, implement 301s — both ✅ and ❌
-1. Add more old content — ❌
+1. Add more old content — ❌
 
 I also added a "stretch goal" of adding more Eurovision data, which once
 again I ignored.

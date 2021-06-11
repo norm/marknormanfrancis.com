@@ -1,11 +1,13 @@
 ```
 title = "Github activity on Tuesday February 23, 2021"
 published = 2021-02-23T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/gifs.cackhanded.net",]
+tag = [ "repo-gifs-cackhanded-net",]
 ```
 
-* 09:15 — created branch five-levels on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)
+* 09:15 — created branch five-levels on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net)
 * 09:34 — Pushed 2 commits to `five-levels` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/94c8aab47b457d3c8831bff2b3429c7e16720cf1..4e5ec51c872c1e09bcab522dfdd32c36de190ba3))
   * [Schedule remaining "5 levels of drinking" GIFs](https://github.com/norm/gifs.cackhanded.net/commit/b439dd45d78e9410255446ddcba7677109211742)
   * [Reorder the "5 levels of drinking" GIFs](https://github.com/norm/gifs.cackhanded.net/commit/4e5ec51c872c1e09bcab522dfdd32c36de190ba3)

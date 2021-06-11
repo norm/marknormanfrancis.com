@@ -1,7 +1,7 @@
-published = 2015-03-26T08:13:35Z
 title = "Checked in at Luigi's Sandwich Bar"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-03-26T08:13:35Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/6645a748cc8977a90ae19e60ba9e708f00fc4fbe9b407316ad1da647583a35f4.png"
 
 [data]

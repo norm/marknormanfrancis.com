@@ -1,7 +1,7 @@
-published = 2012-03-16T16:16:19Z
 title = "Checked in at Mellow Johnny's for Pickwick"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-16T16:16:19Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/ddb6238451e13b6277f151fbddc9606556b4c15d311858fb40d405bb7c708871.png"
 tag = [ "pickwick", "concert",]
 local_timestamp = 2012-03-16T11:16:19Z

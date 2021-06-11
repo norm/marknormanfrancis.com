@@ -1,7 +1,7 @@
-published = 2017-10-26T12:17:23Z
 title = "Checked in at Dip & Flip"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-10-26T12:17:23Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/76f0d1a0c6ac02751112a1be109bdbe85f5874b743f34d67cc9d6e3ee5b6db5f.png"
 local_timestamp = 2017-10-26T13:17:23Z
 

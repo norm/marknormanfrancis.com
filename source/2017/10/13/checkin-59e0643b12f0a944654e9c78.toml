@@ -1,7 +1,7 @@
-published = 2017-10-13T07:59:07Z
 title = "Checked in at Terrace Cafeteria"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-10-13T07:59:07Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/288599addfde042304fb5472bfdde1af6b5a8dc7ce5b9ab9a78fe56f8b82e803.png"
 local_timestamp = 2017-10-13T08:59:07Z
 

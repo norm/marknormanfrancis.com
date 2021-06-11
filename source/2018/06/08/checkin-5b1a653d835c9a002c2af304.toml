@@ -1,7 +1,7 @@
-published = 2018-06-08T12:15:09Z
 title = "Checked in at Pizza Union"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2018-06-08T12:15:09Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/8c4a9dee7190675654c898e9655a237a1842d923d1c92002959dcaf0677e7b3a.png"
 local_timestamp = 2018-06-08T13:15:09Z
 

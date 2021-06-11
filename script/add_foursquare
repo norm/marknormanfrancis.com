@@ -216,10 +216,10 @@ def main():
             print('++ s3://mnf.m17s.net/%s' % path)
 
         source = {
-            'published': timestamp,
             'title': title,
-            'type': 'foursquare',
-            'source': 'Foursquare (Swarm)',
+            'published': timestamp,
+            'origin': 'foursquare',
+            'type': 'checkin',
             'map': 'https://mnf.m17s.net/%s' % path,
         }
         if tags:

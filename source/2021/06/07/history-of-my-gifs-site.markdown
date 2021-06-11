@@ -1,7 +1,8 @@
 ```
-published = 2021-06-07T09:57:14Z
-type = 'article'
 title = 'My potted history of making GIFs'
+published = 2021-06-07T09:57:14Z
+origin = 'mnf'
+type = 'article'
 thread = 'making-gifs'
 ```
 

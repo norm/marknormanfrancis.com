@@ -1,7 +1,7 @@
-published = 2012-03-11T01:19:49Z
 title = "Checked in at Four Seasons Hotel Austin"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-11T01:19:49Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/0075a7f29ebd2f8656068583a899c7438e191d5cc5d5eb2f8e12ed8009eaa745.png"
 local_timestamp = 2012-03-10T19:19:49Z
 

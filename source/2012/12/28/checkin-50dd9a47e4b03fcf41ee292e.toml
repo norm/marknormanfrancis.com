@@ -1,7 +1,7 @@
-published = 2012-12-28T13:10:31Z
 title = "Checked in at Garrick Theatre"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-12-28T13:10:31Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/19fa561c8ab750fbabbb4fcb3be6d6aa60a4e307898502a54e293a5ad42f8ba6.png"
 
 [data]

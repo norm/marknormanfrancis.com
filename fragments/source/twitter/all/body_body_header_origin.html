@@ -1,0 +1,15 @@
+      <dt>source</dt>
+      <dd>Originally posted to <a href='{{original_url}}'>Twitter</a>
+          {% if twitter_account != 'cackhanded' %}
+            by
+            <a href='https://twitter.com/{{twitter_account}}'>@{{twitter_account}}</a>
+          {% endif %}
+      </dd>
+      {% if retweets %}
+        <dt>retweets</dt>
+        <dd>{{retweets}}</dd>
+      {% endif %}
+      {% if favourites %}
+        <dt>favourites</dt>
+        <dd>{{favourites}}</dd>
+      {% endif %}

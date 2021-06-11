@@ -1,7 +1,7 @@
-published = 2016-03-19T12:03:11Z
 title = "Cat"
+published = 2016-03-19T12:03:11Z
 image = "https://mnf.m17s.net/2016/03/19/cat.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 original_caption = "Cat #daily #tshirt #new"
 tag = [ "daily", "new", "tshirt",]

@@ -1,7 +1,7 @@
-published = 2013-01-20T11:51:03Z
 title = "Checked in at Galvin at Windows"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-01-20T11:51:03Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/30c2b77a135f0ba7308dbf9e03b7f00d09471d53f98d634aaade6500f5452956.png"
 
 [data]

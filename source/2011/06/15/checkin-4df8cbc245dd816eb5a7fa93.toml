@@ -1,7 +1,7 @@
-published = 2011-06-15T16:12:02Z
 title = "Checked in at St George's Hospital"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2011-06-15T16:12:02Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/99a7dd796ad32d5798c25251b77832fdd4afb43f3670eed1ee2f9d96f7cfc967.png"
 local_timestamp = 2011-06-15T17:12:02Z
 

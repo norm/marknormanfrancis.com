@@ -1,7 +1,7 @@
-published = 2014-02-24T13:07:10Z
 title = "Not hosted by us"
+published = 2014-02-24T13:07:10Z
 image = "https://mnf.m17s.net/2014/02/24/not-hosted-by-us.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 original_caption = "Not hosted by us #devfort"
 tag = [ "devfort",]

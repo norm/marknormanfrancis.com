@@ -1,7 +1,7 @@
-published = 2016-12-23T13:12:48Z
 title = "Checked in at ODEON Luxe for Rogue One: A Star Wars Story"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-12-23T13:12:48Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/fa2c1885bc6dbee63b961fb3cc58c982f7bf5c86f6bbae8f8042cc033c0b8f3f.png"
 tag = [ "rogue-one-a-star-wars-story", "movie",]
 

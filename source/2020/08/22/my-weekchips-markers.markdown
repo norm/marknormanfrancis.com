@@ -1,13 +1,13 @@
 ```
-tweet_id = "1297107256354504704"
-type = "tweet"
 title = "My weekchips markers"
 published = 2020-08-22T09:44:03Z
-retweets = 0
-favourites = 1
-source = "twitter"
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1297107256354504704"
 twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1297107256354504704"
+tweet_id = "1297107256354504704"
+retweets = 0
+favourites = 2
 tag = [ "weekchips",]
 ```
 

@@ -1,7 +1,7 @@
-published = 2013-07-24T07:11:45Z
 title = "Sambrook's Brewery"
+published = 2013-07-24T07:11:45Z
 image = "https://mnf.m17s.net/2013/07/24/sambrooks-brewery.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 original_caption = "Sambrook's Brewery #daily #tshirt #new"
 tag = [ "daily", "new", "tshirt",]

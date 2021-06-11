@@ -1,7 +1,7 @@
-published = 2012-10-20T11:08:08Z
 title = "Hello my name is… Inigo Montoya, you killed my father, prepare to die"
+published = 2012-10-20T11:08:08Z
 image = "https://mnf.m17s.net/2012/10/20/hello-my-name-is-inigo-montoya-you-killed-my-father-prepare-to-die.jpg"
-type = "instagram"
-source = "instagram"
+origin = "instagram"
+type = "photo"
 original_caption = "Hello my name is… Inigo Montoya, you killed my father, prepare to die #daily #tshirt"
 tag = [ "daily", "tshirt",]

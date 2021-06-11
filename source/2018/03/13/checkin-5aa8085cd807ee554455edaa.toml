@@ -1,7 +1,7 @@
-published = 2018-03-13T17:20:28Z
 title = "Checked in at Fifty 9"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2018-03-13T17:20:28Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/a45a8bea974e0d7e43cc7f11294c88afe6ae37bbb62dfbc5218c21d92cf60ff5.png"
 
 [data]

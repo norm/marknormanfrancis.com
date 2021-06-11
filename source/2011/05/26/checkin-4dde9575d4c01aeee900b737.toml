@@ -1,7 +1,7 @@
-published = 2011-05-26T19:01:25Z
 title = "Checked in at Konnigans"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2011-05-26T19:01:25Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/17c4c2c539088a9e72132b2c2797dcf901bfe272c9058ce048d6bdcc723548eb.png"
 local_timestamp = 2011-05-26T20:01:25Z
 

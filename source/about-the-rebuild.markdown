@@ -1,7 +1,9 @@
 ```
 title = 'About the rebuild'
+origin = 'mnf'
 noindex = true
 page_class = 'about article'
+type = 'timeless'
 ```
 
 # About the rebuild

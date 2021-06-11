@@ -1,7 +1,7 @@
-published = 2018-02-22T12:15:24Z
 title = "Checked in at Alpino"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2018-02-22T12:15:24Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/1bec7d800da9202a27e191211f0ff1aa363f2683fae1247449653676658298bc.png"
 
 [data]

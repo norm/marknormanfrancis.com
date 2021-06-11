@@ -1,7 +1,7 @@
-published = 2017-02-21T11:20:28Z
 title = "Checked in at Boots"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2017-02-21T11:20:28Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/8cc230d18f3123f96ec8088483aefe5f9e5ab1272141a080d7bd71fbacf97d89.png"
 
 [data]

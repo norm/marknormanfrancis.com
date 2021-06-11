@@ -1,7 +1,7 @@
-published = 2011-05-10T18:29:39Z
 title = "Checked in at The Guardian"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2011-05-10T18:29:39Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/c299b035515d7d75a7c7a1b854b0fe764de2aa5d7f403f08bf1465bc9dd27d4b.png"
 local_timestamp = 2011-05-10T19:29:39Z
 

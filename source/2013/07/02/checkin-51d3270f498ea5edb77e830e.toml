@@ -1,7 +1,7 @@
-published = 2013-07-02T20:16:31Z
 title = "Checked in at Odeon for Much Ado About Nothing"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-07-02T20:16:31Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/2079087a31b2f9e4e0bf9604dc643f37e41831038fbba8f0fbbdda5a29e89e3d.png"
 tag = [ "much-ado-about-nothing", "movie",]
 local_timestamp = 2013-07-02T21:16:31Z

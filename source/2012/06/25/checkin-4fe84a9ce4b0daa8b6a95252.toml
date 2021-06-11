@@ -1,7 +1,7 @@
-published = 2012-06-25T12:25:16Z
 title = "Checked in at Diana's Diner"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-06-25T12:25:16Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/51a779b9f732e5842b7856bc8a005f4616a00e968ac80fcc52ca4d922777c14b.png"
 local_timestamp = 2012-06-25T13:25:16Z
 

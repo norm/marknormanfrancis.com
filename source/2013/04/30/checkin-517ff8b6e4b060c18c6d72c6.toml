@@ -1,7 +1,7 @@
-published = 2013-04-30T18:00:38Z
 title = "Checked in at The George"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-04-30T18:00:38Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/a9ffef3ce4ce5b135c0d7ca2439ef80cad2c1b5f6353c32a833e86134eda6403.png"
 local_timestamp = 2013-04-30T19:00:38Z
 

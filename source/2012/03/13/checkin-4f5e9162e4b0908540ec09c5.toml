@@ -1,7 +1,7 @@
-published = 2012-03-13T00:14:26Z
 title = "Checked in at Iron Cactus Mexican Restaurant and Margarita Bar"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-13T00:14:26Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/1bdadc029ad36e109140c2d2a876c46240b3493494da26f8dcfc3ddce5d387da.png"
 local_timestamp = 2012-03-12T19:14:26Z
 

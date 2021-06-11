@@ -1,13 +1,13 @@
 ```
-tweet_id = "965504349601521664"
-type = "tweet"
 title = "Pin commandments"
 published = 2018-02-19T08:32:29Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/965504349601521664"
+twitter_account = "cackhanded"
+tweet_id = "965504349601521664"
 retweets = 1
 favourites = 3
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/965504349601521664"
 tag = [ "pincommandments",]
 ```
 

@@ -1,7 +1,7 @@
-published = 2016-04-04T12:16:13Z
 title = "Checked in at Hawksmoor Seven Dials"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2016-04-04T12:16:13Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/b47eb948c6c4b17e648a074275453736d63e1a90ee592f28ad522be7a5929013.png"
 local_timestamp = 2016-04-04T13:16:13Z
 

@@ -1,7 +1,7 @@
-published = 2012-08-15T21:58:39Z
 title = "Checked in at The Diner"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-08-15T21:58:39Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/8e9080d291f2dd80b7995f96f3c1d1c48a38ead5311dee9e2c9b69a4cc5f544c.png"
 local_timestamp = 2012-08-15T22:58:39Z
 

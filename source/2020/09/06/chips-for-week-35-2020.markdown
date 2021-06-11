@@ -1,13 +1,13 @@
 ```
-tweet_id = "1302624575604371457"
-type = "tweet"
 title = "Chips for week 35, 2020"
 published = 2020-09-06T15:00:22Z
+origin = "twitter-cackhanded"
+type = "tweet"
+original_url = "https://twitter.com/cackhanded/status/1302622677417459712"
+twitter_account = "cackhanded"
+tweet_id = "1302622677417459712"
 retweets = 0
 favourites = 3
-source = "twitter"
-twitter_account = "cackhanded"
-source_url = "https://twitter.com/cackhanded/status/1302624575604371457"
 tag = [ "weekchips",]
 updated = 2020-09-06T15:07:55Z
 thread_tweet_ids = [ 1302622677417459712, 1302622974135107585, 1302623299806076928, 1302623913860575232, 1302624266790350848, 1302624575604371457,]
@@ -21,7 +21,7 @@ Realised I didn’t do last week’s [#weekchips](/tags/weekchips/) as I go to p
 
 The chips
 
-<p class='image'><img src='http://mnf.m17s.net/2020/09/06/EhPYrHHWsAABdlG.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/2020/09/06/EhPYrHHWsAABdlG.jpg' alt=''></p>
 
 Slow start to Monday, then a day and a half of putting more effort into learning both how to edit video and to effectively capture playing a game.
 

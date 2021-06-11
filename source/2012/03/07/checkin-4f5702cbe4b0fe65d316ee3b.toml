@@ -1,7 +1,7 @@
-published = 2012-03-07T06:40:11Z
 title = "Checked in at Terminal 4"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2012-03-07T06:40:11Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/9d3eaf58578a982a36661fcafda2cc4f50668b862fbb4f12cff1b50439d5b3b2.png"
 
 [data]

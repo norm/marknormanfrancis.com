@@ -1,7 +1,7 @@
-published = 2015-11-01T18:53:01Z
 title = "Checked in at Royal Albert Hall for Star Trek"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2015-11-01T18:53:01Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/a8e490b5335fe48dfd504b824130cc5a00c1fad48c4e9e0df2892a2415e02f25.png"
 tag = [ "star-trek", "concert",]
 

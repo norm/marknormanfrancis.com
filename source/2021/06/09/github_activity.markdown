@@ -1,8 +1,10 @@
 ```
 title = "Github activity on Wednesday June 09, 2021"
 published = 2021-06-09T23:59:59Z
-source = "api.github.com"
-type = "github"
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/flourish", "norm/gifs.cackhanded.net", "norm/marknormanfrancis.com", "norm/sectile",]
+tag = [ "repo-flourish", "repo-gifs-cackhanded-net", "repo-marknormanfrancis-com", "repo-sectile",]
 ```
 
 * 08:43 — Pushed 2 commits to `main` on [`norm/sectile`](https://github.com/norm/sectile) ([diff](https://github.com/norm/sectile/compare/f0caa5058d91daeba3fd274837fc28fa5e896598..615bbab65106e058e28990628929e0c10e7e3276))

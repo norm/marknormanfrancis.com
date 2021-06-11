@@ -1,7 +1,7 @@
-published = 2013-06-11T14:09:25Z
 title = "Checked in at Bagel Nash"
-type = "foursquare"
-source = "Foursquare (Swarm)"
+published = 2013-06-11T14:09:25Z
+origin = "foursquare"
+type = "checkin"
 map = "https://mnf.m17s.net/maps/b685985e220f0bc585f7038c7a41a7ee522a9cb813f1ae46092e88fe27eecf16.png"
 local_timestamp = 2013-06-11T15:09:25Z
 
