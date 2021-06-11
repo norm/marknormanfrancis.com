@@ -67,6 +67,20 @@ main header {
             margin: 0;
             padding: 0;
             list-style: none;
+
+            dd.tag {
+                float: left;
+
+                &::after {
+                    content: '·';
+                    padding: 0 4px;
+                }
+
+                &:last-child::after {
+                    content: '';
+                    padding: 0;
+                }
+            }
         }
     }
     dt {
@@ -82,14 +96,5 @@ main header {
     }
     dd {
         margin-left: 0;
-
-        &.tag {
-            float: left;
-
-            & + dd.tag:before {
-                content: '·';
-                padding: 0 5px 0 2px;
-            }
-        }
     }
 }
