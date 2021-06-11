@@ -10,6 +10,11 @@ import toml
 
 from lib import update_content
 
+ORIGIN_MAPPING = {
+    'UChCfyxtJP1e4eO0v7L1CUJw': 'youtube-mnf',
+    'UCI0KNfM-b2vXKPY4QwJ0_oQ': 'youtube-gs',
+}
+
 
 def youtube_api_call(action, **kwargs):
     params = {
@@ -60,11 +65,13 @@ while next_token is not None:
         # content except the stats counts
         if 'video_id' not in source:
             source = {
-                'video_id': item['contentDetails']['videoId'],
-                'published': timestamp,
                 'title': video['snippet']['title'].replace(' ', ' '),
-                'type': 'youtube',
-                'source': 'YouTube (%s channel)' % video['snippet']['channelTitle'],
+                'published': timestamp,
+                'video_id': item['contentDetails']['videoId'],
+                'origin': ORIGIN_MAPPING[video['snippet']['channelId']],
+                'origin_link_text': '%s channel' % video['snippet']['channelTitle'],
+                'origin_link_url': 'https://www.youtube.com/channel/%s' % video['snippet']['channelId'],
+                'type': 'video',
                 'description': video['snippet']['description'].replace(' ', ' '),
             }
             try:

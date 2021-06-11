@@ -1,9 +1,11 @@
-video_id = "5WvtAIQeEws"
-published = 2021-03-08T08:15:00Z
 title = "Horizon Zero Dawn — Chapter 48 — Crash"
-type = "youtube"
-source = "YouTube (Game Shows channel)"
-description = "In Chapter 48, Aloy goes to crash the Eclipse Focus network.\n\n0:00 Opening titles\n0:21 Recap\n1:19 Onwards\n17:30 To Curse the Darkness\n47:03 Datapoint: Metal Flower — Mark III (G)\n47:47 Map\n48:03 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191"
+published = 2021-03-08T08:15:00Z
+video_id = "5WvtAIQeEws"
+origin = "youtube-gs"
+origin_link_text = "Game Shows channel"
+origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
+type = "video"
+description = "In Chapter 48, Aloy goes to crash the Eclipse Focus network.\n\n0:00 Opening titles\n0:21 Recap\n1:19 Onwards\n17:30 To Curse the Darkness\n47:03 Datapoint: Metal Flower — Mark III (G)\n47:47 Map\n48:03 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n#HorizonZeroDawn"
 thumbnail = "https://i.ytimg.com/vi/5WvtAIQeEws/maxresdefault.jpg"
 views = "12"
 likes = "0"

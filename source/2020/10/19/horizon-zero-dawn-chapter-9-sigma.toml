@@ -1,9 +1,11 @@
-video_id = "qFcDSH8rXWs"
-published = 2020-10-19T07:15:04Z
 title = "Horizon Zero Dawn — Chapter 9 — Sigma"
-type = "youtube"
-source = "YouTube (Game Shows channel)"
-description = "A play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nIn Chapter 9, Aloy stumbles across a door.\n\n00:00 Opening titles\n00:21 Away from the corrupted zone\n15:10 Quite a door\n52:38 Core log\n53:00 Map\n53:14 End screen\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191"
+published = 2020-10-19T07:15:04Z
+video_id = "qFcDSH8rXWs"
+origin = "youtube-gs"
+origin_link_text = "Game Shows channel"
+origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
+type = "video"
+description = "A play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nIn Chapter 9, Aloy stumbles across a door.\n\n00:00 Opening titles\n00:21 Away from the corrupted zone\n15:10 Quite a door\n52:38 Core log\n53:00 Map\n53:14 End screen\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n#HorizonZeroDawn"
 views = "34"
 likes = "4"
 dislikes = "0"

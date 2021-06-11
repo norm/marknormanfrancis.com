@@ -8,6 +8,8 @@ day-index = 'calendar'
 # where did the content come from?
 twitter-cackhanded = 'twitter'
 twitter-norms_ps4 = 'twitter'
+youtube-gs = 'youtube'      # my 'Game Shows' channel
+youtube-mnf = 'youtube'     # my YouTube channel
 
 [type]
 # what kind of content is it?

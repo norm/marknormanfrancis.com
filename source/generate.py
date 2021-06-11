@@ -4,6 +4,8 @@ from flourish.generators import base
 from flourish.generators import calendar
 from flourish.generators import sass
 
+from django.utils.html import linebreaks, urlize
+
 
 class AllTagsIndex(base.IndexGenerator):
     template_name = 'tag_index.html'
@@ -46,6 +48,8 @@ GLOBAL_CONTEXT = global_context
 TEMPLATE_FILTERS = {
     'ordinal': filters.ordinal,
     'month_name': filters.month_name,
+    'linebreaks': linebreaks,
+    'urlize': urlize,
 }
 
 

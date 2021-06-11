@@ -1,9 +1,11 @@
-video_id = "mnDw_JPMkFM"
-published = 2010-07-17T22:05:50Z
 title = "/dev/fort: cohort 4 prioritisation"
-type = "youtube"
-source = "YouTube (Mark Norman Francis channel)"
-description = "Grouping and prioritising ideas for the fourth devfort.com project. \r\n\r\nCreated with iTimeLapse."
+published = 2010-07-17T22:05:50Z
+video_id = "mnDw_JPMkFM"
+origin = "youtube-mnf"
+origin_link_text = "Mark Norman Francis channel"
+origin_link_url = "https://www.youtube.com/channel/UChCfyxtJP1e4eO0v7L1CUJw"
+type = "video"
+description = "Grouping and prioritising ideas for the fourth devfort.com project. \r\n\r\nCreated with iTimeLapse.\n\n#devfort #devfort4"
 views = "237"
 likes = "0"
 dislikes = "1"

@@ -1,9 +1,11 @@
-video_id = "zw5l3iVltwE"
-published = 2010-07-18T08:50:51Z
 title = "/dev/fort: cohort 4, third day of coding"
-type = "youtube"
-source = "YouTube (Mark Norman Francis channel)"
-description = "The third day of coding on the fourth devfort.com project. \r\n\r\nCreated with iTimeLapse."
+published = 2010-07-18T08:50:51Z
+video_id = "zw5l3iVltwE"
+origin = "youtube-mnf"
+origin_link_text = "Mark Norman Francis channel"
+origin_link_url = "https://www.youtube.com/channel/UChCfyxtJP1e4eO0v7L1CUJw"
+type = "video"
+description = "The third day of coding on the fourth devfort.com project. \r\n\r\nCreated with iTimeLapse.\n\n#devfort #devfort4"
 views = "104"
 likes = "0"
 dislikes = "1"
