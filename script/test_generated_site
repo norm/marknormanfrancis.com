@@ -22,6 +22,11 @@ while IFS= read file; do
     error "Broken month nav:" $file
 done < <(rg -l 'href=./...././' output || true)
 
+# check for untitled pages
+while IFS= read file; do
+    error "Page title missing" $file
+done < <(rg -l 'SET PAGE TITLE' output || true)
+
 # summary and exit status code
 echo ''
 echo "$files files, $errors errors"
