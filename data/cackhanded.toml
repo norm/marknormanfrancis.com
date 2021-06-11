@@ -38,10 +38,12 @@ title = "Gumbo"
 tags = [ "gumbo",]
 
 [977180401277067264]
+title = "Nice."
 
 [984293801287147520]
 title = "Canada wins"
-tags = [ "fixme",]
+edited_body = true
+fixme = 1
 
 [1000335378501591040]
 title = "One last headboop"
@@ -63,8 +65,10 @@ tags = [ "rainbow", "christmas",]
 
 [1060908754152161282]
 tags = [ "boozecase", "whisky", "rum", "gin",]
+title = "Boozecase, second edition"
 
 [1062607589459066881]
+title = "Sunrise in Wandsworth"
 
 [1065361408811048963]
 title = "Duckragette"
@@ -84,9 +88,11 @@ tags = [ "socks", "rainbow",]
 
 [1084458534757109760]
 tags = [ "socks", "rainbow",]
+title = "The Many Colours of Mark Norman Francis’s Sock Drawer"
 
 [1084462633321943043]
 tags = [ "showergel", "rainbow",]
+title = "The Rainbow Colours of Mark Norman Francis’s Shower Gels"
 
 [1097052348319449089]
 title = "Whiskies"
@@ -96,6 +102,7 @@ tags = [ "boozecase", "whisky", "game-of-thrones",]
 title = "This is for no-one"
 
 [1111598753247563776]
+title = "I love my wife and she loves me"
 
 [1112790397674250240]
 title = "Bullseye"
@@ -126,6 +133,7 @@ tags = [ "boozecase", "rum", "angostura",]
 
 [1147747469708726272]
 title = "Itsy and Roxy"
+edited_body = true
 
 [1148868679083409408]
 title = "Vauxhall pride"
@@ -142,8 +150,10 @@ tags = [ "my-name-is",]
 title = "A Norman door"
 
 [1161179178491883520]
+title = "I has a taste"
 
 [1161630264466034688]
+title = "I are pillow"
 
 [1161946462584000513]
 title = "Collars"
@@ -161,6 +171,7 @@ tags = [ "itsy",]
 
 [1170338576774701056]
 tags = [ "board-games",]
+title = "Betrayal Legacy"
 
 [1172099577446580224]
 title = "New lanyard"
@@ -174,18 +185,22 @@ title = "Apple Messages"
 tags = [ "my-name-is",]
 
 [1185543485555953665]
+title = "Sunbeam"
 
 [1187017937284149250]
+title = "Eat mor veg"
 
 [1190694638350471169]
 title = "Fettercairn 12"
 tags = [ "boozecase", "board-games", "whisky", "fettercairn",]
+fixme = 1
 
 [1190907787875934208]
 title = "Snooze central"
 tags = [ "itsy",]
 
 [1192534358202167296]
+title = "Watching TV in bed together"
 
 [1193178625840955392]
 title = "Overflowy"
@@ -197,102 +212,185 @@ tags = [ "boozecase", "scapa",]
 
 [1210692974067290112]
 title = "I helped kill a man"
+edited_body = true
 
 [1215187713374216193]
+title = "The eyes"
 
 [1233051475980509185]
+title = "Black cat in sunbeam"
 
 [1245003053268439041]
-
-[1251924107375054849]
+title = "Poorly timed cat photo"
 
 [1267850330164912128]
 title = "A new start"
+edited_body = true
 
 [1278319054449774592]
+title = "Watching the wildlife"
 
 [1266999062055788547]
 title = "Flashbacks"
 
 [1274059505773547522]
 title = "My week in poker chips"
+edited_body = true
 
 [1276514849204457473]
 tag = [ "weekchips",]
 title = "Chips for Week 26, 2020"
+edited_body = true
 
 [1276516870309515266]
+title = "Too hot to do anything but snooze"
 
 [1279086645862637569]
 title = "Chips for Week 27, 2020"
+edited_body = true
 
 [1281639272395804672]
 title = "Chips for Week 28, 2020"
+edited_body = true
 
 [1284175386943852547]
 title = "Chips for Week 29, 2020"
+edited_body = true
 
 [1286732602628612096]
 title = "Chips for Week 30, 2020"
+edited_body = true
 
 [1289242485730840576]
 title = "Chips for Week 31, 2020"
+tags = [ "weekchips",]
+edited_body = 1
 
 [1292505550287261698]
 title = "Chips for Week 32, 2020"
+tags = [ "weekchips",]
+edited_body = 1
 
 [1294577495539363840]
 title = "Chips for Week 33, 2020"
+tags = [ "weekchips",]
+edited_body = 1
 
 [1297129383791075328]
 title = "Chips for Week 34, 2020"
+tags = [ "weekchips",]
+edited_body = 1
 
 [1297107256354504704]
 title = "My weekchips markers"
+edited_body = true
 
 [1298934985664221184]
+title = "Tidying my whiteboard"
+slug = "2020/08/27/tidying-my-whiteboard"
 
 [1299657986336587776]
+title = "Balancing act"
 
 [1300893963344384000]
+title = "Will never not love being a pillow for"
 
 [1302624575604371457]
+title = "Chips for week 35, 2020"
+slug = "2020/09/06/chips-for-week-35-2020"
 
 [1302629784636321792]
+title = "Chips for week 36, 2020"
+slug = "2020/09/06/chips-for-week-36-2020"
 
 [1363512799327059973]
 title = "Watching the Star Trek movies (cackhanded journey)"
+slug = "2021/02/21/star-trek-the-cackhanded-journey"
+tag = [ "star-trek",]
+edited_body = true
 
 [1372173215645204484]
+title = "Washing machine"
+slug = "2021/03/17/washing-machine"
 
 [1373943783667208193]
+title = "Chips for week 11, 2021"
+slug = "2021/03/22/my-weekchips-for-week-11-2021"
+edited_body = 1
 
 [1376405214513745924]
+title = "Chips for week 12, 2021"
+slug = "2021/03/29/my-weekchips-for-week-12-2021"
+edited_body = 1
 
 [1376888664383483906]
+title = "I made myself a little something"
+edited_body = 1
 
 [1377974361605476353]
+title = "Smol snooze"
 
 [1379298748791160832]
+title = "Chips for week 13, 2021"
+slug = "2021/04/06/my-weekchips-for-week-13-2021"
+edited_body = 1
 
 [1380094007150268416]
+title = "A new behind-the-scenes video"
+slug = "2021/04/08/a-new-behind-the-scenes-video"
 
 [1381467616422854656]
+title = "Chips for week 14, 2021"
+slug = "2021/04/12/chips-for-week-14-2021"
+edited_body = 1
 
 [1383763240765706241]
+title = "Stolen vaccine"
+slug = "2021/04/18/stolen-vaccine"
 
 [1383770080840876038]
+title = "Vaccination, a play in two parts"
 
 [1384000122728550408]
+title = "Chips for week 15, 2021"
+slug = "2021/04/19/chips-for-week-15-2021"
+edited_body = 1
+
+[1386543537479634944]
+title = "Chips for week 16, 2021"
+slug = "2021/05/10/chips-for-week-18-2021"
+edited_body = 1
+
+[1389448863338094592]
+title = "Chips for week 17, 2021"
+slug = "2021/05/04/chips-for-week-17-2021"
+edited_body = 1
 
 [1391621658327273478]
+title = "Chips for week 18, 2021"
+slug = "2021/05/10/chips-for-week-18-2021"
+edited_body = 1
 
 [1394561676876427264]
+title = "Chips for week 19, 2021"
+slug = "2021/05/18/chips-for-week-19-2021"
+edited_body = 1
 
 [1396695621927583746]
+title = "Chips for week 20, 2021"
+slug = "2021/05/24/chips-for-week-20-2021"
+edited_body = 1
 
 [1399256526200659974]
+title = "Chips for week 21, 2021"
+slug = "2021/05/31/chips-for-week-21-2021"
+edited_body = 1
 
 [1401463571591188484]
+title = "Asleep in the round"
 
 [1401849138761850883]
+title = "Chips for week 22, 2021"
+slug = "2021/06/07/chips-for-week-21-2021"
+edited_body = 1
+fixme = 1

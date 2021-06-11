@@ -1,5 +1,5 @@
 ```
-title = "My #weekchips for week 12, 2021"
+title = "Chips for week 12, 2021"
 published = 2021-03-29T05:25:50Z
 origin = "twitter-cackhanded"
 type = "tweet"

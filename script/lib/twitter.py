@@ -8,7 +8,12 @@ import pytz
 import toml
 import tweepy
 
-from lib import update_content, strip_trailing_hashtags, strip_links
+from lib import (
+    get_body_from_source,
+    strip_links,
+    strip_trailing_hashtags,
+    update_content,
+)
 from lib.bucket import Bucket
 
 BUCKET = 'mnf.m17s.net'
@@ -74,12 +79,11 @@ class Twitter:
         updated = timestamped(tweets[-1].created_at)
         date = created.strftime('%Y/%m/%d')
 
-        body = ''
-
         # FIXME retweets
         # FIXME attached images/video
         # FIXME add original data as attachment
 
+        body = ''
         tags = set()
         if 'tag' in extra:
             for tag in extra['tag']:
@@ -99,7 +103,10 @@ class Twitter:
                 title = 'Untitled tweet at %s' % \
                     created.strftime('%H:%M:%S').lower()
                 tags.add('fixme')
-        slug = slugify(title)
+
+        output_file = 'source/%s/%s.markdown' % (date, slugify(title))
+        if 'slug' in extra:
+            output_file = 'source/%s.markdown' % extra['slug']
 
         tags.update(
             tagify(word[1:])
@@ -134,6 +141,9 @@ class Twitter:
                 body += timestamp_header(time, previous_time)
             previous_time = time
             body += self.tweet_to_markdown(tweet, date)
+
+        if 'edited_body' in extra and extra['edited_body']:
+            body = get_body_from_source(output_file)
 
         retweets = 0
         favourites = 0
@@ -173,8 +183,8 @@ class Twitter:
             ])
 
         output = '```\n%s```\n\n%s' % (toml.dumps(post), body)
-        output_file = 'source/%s/%s.markdown' % (date, slug)
         update_content(output_file, output)
+        return post
 
     def get_tweet(self, id):
         return self._api.get_status(id, tweet_mode='extended')

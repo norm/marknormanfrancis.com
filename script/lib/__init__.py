@@ -49,3 +49,11 @@ def strip_links(text):
     while words and (words[-1].startswith('http://') or words[-1].startswith('https://')):
         del words[-1]
     return ' '.join(words)
+
+
+def get_body_from_source(file):
+    with open(file) as handle:
+        content = handle.read()
+    marker = content[0:3]
+    end_marker = content[4:].find(marker) + 9   # two markers, one newline
+    return content[end_marker:]
