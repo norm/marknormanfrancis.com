@@ -12,3 +12,4 @@ likes = "2"
 dislikes = "0"
 comments = "1"
 tag = [ "horizon-zero-dawn", "behind-the-scenes", "game-shows",]
+theme = "game-shows"

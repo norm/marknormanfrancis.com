@@ -12,3 +12,4 @@ dislikes = "0"
 comments = "1"
 thumbnail = "https://i.ytimg.com/vi/qFcDSH8rXWs/maxresdefault.jpg"
 tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"

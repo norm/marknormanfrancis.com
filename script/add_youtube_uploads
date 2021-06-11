@@ -94,6 +94,7 @@ while next_token is not None:
 
         if video['snippet']['channelTitle'] != 'Mark Norman Francis':
             source['tag'].append(tagify(video['snippet']['channelTitle']))
+            source['theme'] = tagify(video['snippet']['channelTitle'])
 
         source.update({
             'views': video['statistics']['viewCount'],
