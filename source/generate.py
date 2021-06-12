@@ -33,6 +33,25 @@ class Homepage(MostRecentFirstMixin, base.IndexGenerator):
     # limit = 20
 
 
+class NewPosts(base.IndexGenerator):
+    template_name = 'base_template.html'
+    order_by = 'published'
+
+    def get_objects(self, tokens):
+        objects = super().get_objects(tokens)
+        if objects.count() == 0:
+            raise self.DoNotGenerate
+        return objects
+
+
+class FixMe(NewPosts):
+    sources_filter = {'fixme__set': '', 'draft__unset': ''}
+
+
+class Drafts(NewPosts):
+    sources_filter = {'draft__set': ''}
+
+
 class Archives(base.IndexGenerator):
     template_name = 'archives.html'
 
@@ -41,6 +60,8 @@ def global_context(self):
     return {
         'all_valid_dates': helpers.publication_range(self),
         'publication_dates': self.publication_dates,
+        'fixme_set': self.sources.filter(fixme__set='', draft__unset=''),
+        'draft_set': self.sources.filter(draft__set=''),
     }
 
 GLOBAL_CONTEXT = global_context
@@ -89,5 +110,13 @@ PATHS = (
     base.SourceGenerator(
         path = '/#slug',
         name = 'source',
+    ),
+    FixMe(
+        path = '/fixme',
+        name = 'fixme',
+    ),
+    Drafts(
+        path = '/drafts',
+        name = 'drafts',
     ),
 )
