@@ -13,6 +13,9 @@
           at
         {{updated.strftime('%-I.%M%p').lower()}}
       </dd>
+      {% if updated_reason %}
+      <dd>({{updated_reason}})</dd>
+      {% endif %}
     {% endif %}
     {% if local_timestamp %}
       <dt>local time</dt>
