@@ -2,15 +2,16 @@
 title = "The Highland Fling"
 subtitle = "Talking about Yahoo!'s graded browser support and progressive enhancement."
 published = 2007-04-04T15:47:00Z
-origin = "mnf-v1"
+updated = 2021-06-12T08:54:45Z
+updated_reason = 'Fixing broken links'
+origin = "chnet"
+origin_url = 'cackhanded.net/presentations/fling07'
 type = "article"
 tag = [
     'graded-browser-support',
     'highland-fling',
     'progressive-enhancement',
 ]
-updated = 2021-06-12T08:54:45Z
-updated_reason = 'Fixing broken links'
 ```
 
 I am mere moments away from giving a talk at the first [Highland Fling][hf]

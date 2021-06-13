@@ -1,15 +1,16 @@
 ```
 title = "Attending @media 2006"
 published = 2006-06-27T14:48:00Z
-origin = "mnf-v1"
+updated = 2021-06-12T08:54:45Z
+updated_reason = 'Fixing broken links'
+origin = "chnet"
+origin_url = "cackhanded.net/events/atmedia-2006"
 type = "article"
 tag = [
     'at-media',
     'conference',
     'conference-writeup',
 ]
-updated = 2021-06-12T08:54:45Z
-updated_reason = 'Fixing broken links'
 ```
 
 I’m quite late on writing about the 2006 @media conference. Some people

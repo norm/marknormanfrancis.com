@@ -2,10 +2,10 @@
 title = "The end of an era"
 summary = "In a post with a highly cliché title, I get misty-eyed about having worked with a bunch of great people in my time at Yahoo!"
 published = 2011-09-22T00:47:42Z
-origin = "mnf-v1"
-type = "article"
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
+origin = "mnf-v1"
+type = "article"
 ```
 
 Today (21st September 2011) is a very sad day for me. A few of my

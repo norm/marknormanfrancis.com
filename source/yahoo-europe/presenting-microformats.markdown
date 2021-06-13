@@ -1,8 +1,11 @@
 ```
 title = "Presenting microformats"
 subtitle = "I gave a quick talk on microformats and why I think they're important to my department at Yahoo! Europe."
-published = 2006-07-23T02:56:00Z
-origin = "mnf-v1"
+published = 2006-07-23T10:56:07Z
+updated = 2021-06-12T08:54:45Z
+updated_reason = 'Fixing broken links'
+origin = "chnet"
+origin_url = 'cackhanded.net/yahoo-europe/presenting-microformats'
 type = "article"
 tag = [
     'microformats',
@@ -10,8 +13,6 @@ tag = [
     'yahoo',
 ]
 todo = ['embedded-photo',]
-updated = 2021-06-12T08:54:45Z
-updated_reason = 'Fixing broken links'
 ```
 
 <div class='image'>

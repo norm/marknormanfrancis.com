@@ -1,7 +1,9 @@
 ```
 title = "Using My Web 2.0"
-published = 2005-11-13T21:04:10Z
 subtitle = "On why I love Yahoo's My Web, and how I use it."
+published = 2005-11-13T21:04:10Z
+updated = 2021-06-12T08:54:45Z
+updated_reason = 'Fixing broken links'
 origin = 'chnet'
 origin_url = 'cackhanded.net/web/using-myweb'
 type = 'article'

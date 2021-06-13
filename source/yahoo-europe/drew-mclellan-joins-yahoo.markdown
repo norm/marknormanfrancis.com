@@ -2,7 +2,10 @@
 title = "Drew McLellan joins Yahoo! Europe"
 subtitle = "On Drew McLellan (and many others) joining our web development team at Yahoo! Europe."
 published = 2006-08-05T15:59:00Z
-origin = "mnf-v1"
+updated = 2021-06-12T08:54:45Z
+updated_reason = 'Fixing broken links'
+origin = "chnet"
+origin_url = 'cackhanded.net/yahoo-europe/drew-mclellan-joins-yahoo'
 type = "article"
 tag = [
     'drew-mclellan',
@@ -10,8 +13,6 @@ tag = [
     'web-standards',
     'yahoo',
 ]
-updated = 2021-06-12T08:54:45Z
-updated_reason = 'Fixing broken links'
 ```
 
 On Tuesday we had a new member of the web development team. You may have heard

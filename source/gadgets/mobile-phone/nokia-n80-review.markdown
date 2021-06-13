@@ -1,10 +1,11 @@
 ```
 title = "Nokia N80 review"
-published = 2006-07-04T03:20:00Z
-origin = "mnf-v1"
-type = "article"
+published = 2006-07-04T11:20:19Z
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
+origin = "chnet"
+origin_url = 'cackhanded.net/gadgets/nokia-n80-review'
+type = "article"
 ```
 
 Many moons ago, I had a wonderful mobile phone, the [Nokia 7650][7650]. I

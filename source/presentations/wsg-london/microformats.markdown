@@ -1,8 +1,11 @@
 ```
 title = "Microformats"
 subtitle = "Presenting a talk on microformats to the WSG London"
-published = 2006-10-22T09:36:00Z
-origin = "mnf-v1"
+published = 2006-06-27T22:48:57Z
+updated = 2021-06-12T08:54:45Z
+updated_reason = 'Fixing broken links'
+origin = 'chnet'
+origin_url = 'cackhanded.net/presentations/microformats-at-wsg-london'
 type = "article"
 tag = [
     'drew-mclellan',
@@ -11,8 +14,6 @@ tag = [
     'semantic-web',
     'presentations',
 ]
-updated = 2021-06-12T08:54:45Z
-updated_reason = 'Fixing broken links'
 ```
 
 Last Thursday night you would have found me giving one third of

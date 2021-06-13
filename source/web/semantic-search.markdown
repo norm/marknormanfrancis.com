@@ -2,6 +2,8 @@
 title = "The semantics of search results"
 subtitle = "A response to Molly's call for major search engines to see the benefits of web standards."
 published = 2005-10-23T22:26:24Z
+updated = 2021-06-12T08:54:45Z
+updated_reason = 'Fixing broken links'
 origin = 'chnet'
 origin_url = 'cackhanded.net/web/semantic-search'
 type = 'article'

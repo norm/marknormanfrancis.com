@@ -1,11 +1,12 @@
 ```
 title = "The face of addiction"
 subtitle = "A quick review of iConquer, the latest timesink in my life."
-published = 2006-07-08T11:47:00Z
-origin = "mnf-v1"
-type = "article"
+published = 2006-07-08T19:47:00Z
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
+origin = "chnet"
+origin_url = "cackhanded.net/mac/iconquer"
+type = "article"
 ```
 
 I’ve always been a big player of games. Ever since I can remember the holidays

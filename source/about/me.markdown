@@ -1,10 +1,11 @@
 ```
 title = "About me"
-published = 2006-06-18T14:06:00Z
-origin = "mnf-v1"
-type = "article"
+published = 2005-09-03T08:25:52Z
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links and updating facts'
+origin = "chnet"
+origin_url = "cackhanded.net/about/me"
+type = "article"
 ```
 
 This is my personal website, in which I ramble aimlessly about myself and my

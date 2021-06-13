@@ -1,11 +1,12 @@
 ```
 title = "Going away"
 subtitle = "An Applescript for setting my away status."
-published = 2006-09-21T07:50:00Z
-origin = "mnf-v1"
-type = "article"
+published = 2006-09-21T15:50:54Z
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
+origin = "chnet"
+origin_url = 'cackhanded.net/mac/away_script'
+type = "article"
 ```
 
 So, recently I wrote about [my lovely new mobile][mb]. One thing about it that’s not so lovelœy is the lack of support in [Salling Clicker][sc] for third generation Series 60 phones.

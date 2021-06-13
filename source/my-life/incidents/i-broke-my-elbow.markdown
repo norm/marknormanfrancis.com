@@ -2,10 +2,10 @@
 title = "I broke my elbow"
 subtitle = "This one time, at Pub Standards..."
 published = 2008-08-02T21:20:03Z
-origin = "mnf-v1"
-type = "article"
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
+origin = "mnf-v1"
+type = "article"
 ```
 
 Thursday night was [Substandards Ben][ben].

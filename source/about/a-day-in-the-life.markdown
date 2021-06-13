@@ -1,11 +1,12 @@
 ```
 title = "A day in the life"
 subtitle = "Random photos taken every ten minutes throughout the day."
-published = 2007-02-04T02:23:00Z
-origin = "mnf-v1"
-type = "article"
+published = 2007-02-04T11:23:29Z
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
+origin = "chnet"
+origin_url = "cackhanded.net/about/a-day-in-the-life"
+type = "article"
 ```
 
 So, a few months ago I stumbled across 

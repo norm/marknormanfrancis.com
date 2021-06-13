@@ -1,7 +1,9 @@
 ```
 title = "Starting the switch"
-published = 2005-10-29T13:19:12Z
 subtitle = "On beginning the process of moving from Windows to OS X."
+published = 2005-10-29T13:19:12Z
+updated = 2021-06-12T08:54:45Z
+updated_reason = 'Fixing broken links'
 origin = 'chnet'
 origin_url = "cackhanded.net/computing/starting-the-switch"
 type = 'article'

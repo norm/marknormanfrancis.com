@@ -2,6 +2,8 @@
 title = "Yahoo! gets blogging"
 subtitle = " What happens inside Yahoo! when a european web developer decides to start blogging."
 published = 2005-11-17T22:11:12Z
+updated = 2021-06-12T08:54:45Z
+updated_reason = 'Fixing broken links'
 origin = 'chnet'
 origin_url = 'cackhanded.net/web/yahoo-gets-blogging'
 type = 'article'
