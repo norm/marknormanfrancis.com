@@ -235,7 +235,7 @@ edited_body = true
 
 [1274059505773547522]
 title = "My week in poker chips"
-tags = [ "weekchips", ]
+tags = [ "weekchips",]
 edited_body = true
 
 [1276514849204457473]
@@ -398,3 +398,7 @@ title = "Chips for week 22, 2021"
 slug = "2021/06/07/chips-for-week-22-2021"
 edited_body = 1
 fixme = 1
+
+[1404318463091478528]
+title = "Chips for week 23, 2021"
+edited_body = 1
