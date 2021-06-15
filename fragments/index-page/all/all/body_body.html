@@ -1,0 +1,9 @@
+[[ sectile insert body_body_header.html ]]
+
+<ul>
+  {% for page in pages %}
+    <li>
+      {{page.published.strftime('%H:%M:%S')}} <a href='{{page.path}}'>{{page.title}}</a>
+    </li>
+  {% endfor %}
+</ul>

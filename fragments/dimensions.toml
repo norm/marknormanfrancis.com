@@ -1,8 +1,11 @@
 [generator]
 # what renders the content?
+calendar = 'index-page'
 year-index = 'calendar'
 month-index = 'calendar'
 day-index = 'calendar'
+subject-index = 'index-page'
+subject-topic-index = 'subject-index'
 
 [origin]
 # where did the content come from?

@@ -27,6 +27,17 @@ while IFS= read file; do
     error "Page title missing" $file
 done < <(rg -l 'SET PAGE TITLE' output || true)
 
+# check for the presence of indexes
+while IFS= read dir; do
+    [ "$dir" = 'output/css' ] && continue
+    [ ! -f "$dir/index.html" ] && error "Missing index: $dir/index.html"
+done < <(find output -type d)
+
+# check for default indexes
+while IFS= read file; do
+    error "Default index page" $file
+done < <(rg -l 'INDEX PAGE' output || true)
+
 # summary and exit status code
 echo ''
 echo "$files files, $errors errors"

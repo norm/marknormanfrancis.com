@@ -44,6 +44,14 @@ class NewPosts(base.IndexGenerator):
         return objects
 
 
+class Subject(SectileBase):
+    pass
+
+
+class SubjectTopic(SectileBase):
+    pass
+
+
 class FixMe(NewPosts):
     sources_filter = {'fixme__set': '', 'draft__unset': ''}
 
@@ -110,6 +118,14 @@ PATHS = (
     base.SourceGenerator(
         path = '/#slug',
         name = 'source',
+    ),
+    Subject(
+        path = '/#subject/',
+        name = 'subject-index',
+    ),
+    SubjectTopic(
+        path = '/#subject/#topic/',
+        name = 'subject-topic-index',
     ),
     FixMe(
         path = '/fixme',
