@@ -3,10 +3,14 @@
   <ul>
   {% for date in global.publication_dates %}
     {% with year=date.year.year %}
-      <li>
-        <a href='{{ path("year-index", year=year) }}'>{{year}}</a>
-      </li>
+      <li><a href='{{ path("year-index", year=year) }}'>{{year}}</a></li>
     {% endwith %}
   {% endfor %}
+  {% if global.fixme_set.count() %}
+    <li><a href='/fixme'>{{global.fixme_set.count()}} Fixmes</a></li>
+  {% endif %}
+  {% if global.draft_set.count() %}
+    <li><a href='/drafts'>{{global.draft_set.count()}} Drafts</a></li>
+  {% endif %}
   </ul>
 </nav>

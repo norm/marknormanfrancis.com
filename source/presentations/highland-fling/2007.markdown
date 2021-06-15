@@ -1,0 +1,29 @@
+```
+title = "The Highland Fling"
+subtitle = "Talking about Yahoo!'s graded browser support and progressive enhancement."
+published = 2007-04-04T15:47:00Z
+updated = 2021-06-12T08:54:45Z
+updated_reason = 'Fixing broken links'
+origin = "chnet"
+origin_url = 'cackhanded.net/presentations/fling07'
+type = "article"
+tag = [
+    'graded-browser-support',
+    'highland-fling',
+    'progressive-enhancement',
+]
+subject = 'presentations'
+topic = 'highland-fling'
+```
+
+I am mere moments away from giving a talk at the first [Highland Fling][hf]
+conference. This is a one-day conference in Edinburgh, Scotland, and
+completely focused on the topic of progressive enhancement.
+
+For anyone not able to attend, or in the audience and able to use whatever
+wifi connection we may have, you might like to check out
+[the slides of my talk][pdf].
+
+
+[hf]: https://web.archive.org/web/2007043100000/http://thehighlandfling.com/2007/
+[pdf]: graded-browser-support-and-progressive-enhancement.pdf

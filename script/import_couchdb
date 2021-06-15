@@ -1,0 +1,126 @@
+#!/usr/bin/env python
+
+"""
+Add entries from a CouchDB database backup, expecting the content to be 
+formatted for use by the previous version of Flourish.
+
+The backup itself is a directory containing one directory for each document
+ID, each containing one JSON file for every revision of that document.
+
+This script will read in each document, check it is not a design document or a
+view, check the value of 'document_type' (a Flourish-ism, not a CouchDB-ism)
+is wanted, then using the most recent revision write out a current-style
+Flourish Markdown source file topped with TOML frontmatter.
+
+Where the original content was textframe(*) not Markdown, the rendered HTML
+is converted to Markdown and both that and the raw textframe are saved 
+(some HTML constructs don't convert back to Markdown well, so the textframe
+is kept as reference, for debugging).
+
+* textframe is a lightweight markup language I wrote as part of earlier
+Flourishes, now abandonware (and only ever implemented in perl).
+"""
+
+from datetime import datetime, timezone
+import json
+from markdownify import markdownify
+import os
+import sys
+import toml
+
+from lib import update_content
+
+# FIXME twitpic etc?
+UNWANTED_TYPES = [
+    'author_page',
+    'bookmark',
+    'checkin',
+    'instagram',
+    'tweet',
+    'youtube',
+]
+
+
+def prefix(filename):
+    try:
+        return int(filename[0:filename.find('-')])
+    except:
+        return 0
+
+def utc_timestamp(timestamp):
+    return datetime.fromtimestamp(timestamp).replace(tzinfo=timezone.utc)
+
+
+base=sys.argv[1]
+
+for root, dirs, files in os.walk(base):
+    if files:
+        file = sorted(files, key=prefix)[-1]
+        if not file.endswith('.json'):
+            continue
+
+        with open(os.path.join(root, file)) as handle:
+            content = json.load(handle)
+
+        if content['_id'] == '_design/flourish':
+            continue
+        if 'views' in content:
+            continue
+        if content['document_type'] in UNWANTED_TYPES:
+            continue
+
+        if 'url' not in content:
+            print('**', os.path.join(root, file)[len(base)+1:])
+            raise NoUrl
+        if content['document_type'] != 'article':
+            raise UnknownType
+        if 'body_as_html' not in content:
+            print('** empty', os.path.join(root, file))
+            continue
+
+        slug = content['url']
+        del content['url']
+
+        # print('--', slug)
+        # print('  ', os.path.join(root, file))
+
+        content['origin'] = 'mnf-v1'
+        content['type'] = content.pop('document_type')
+
+
+        if content['format'] == 'markdown':
+            body = content.pop('body').replace('\r', '')
+        else:
+            content['fixme'] = True
+            body = markdownify(
+                    content['body_as_html'],
+                    autolinks=False,
+                    heading_style='ATX',
+                )
+            if content['format'] == 'textframe':
+                frame = content.pop('body').replace('\r', '')
+                update_content('source%s.textframe' % slug, frame)
+            else:
+                html = content.pop('body_as_html').replace('\r', '')
+                update_content('source%s.html' % slug, html)
+
+
+        content['published'] = utc_timestamp(content.pop('created'))
+        if 'last_updated' in content:
+            content['updated'] = utc_timestamp(content.pop('last_updated'))
+
+        del content['_id']
+        del content['_rev']
+        del content['format']
+        del content['body_as_html']
+        if 'author_id' in content:
+            del content['author_id']
+        if 'allow_comments' in content:
+            del content['allow_comments']
+        if 'summary_as_html' in content:
+            del content['summary_as_html']
+
+        output = '```\n%s```\n\n%s' % (toml.dumps(content), body)
+        update_content('source%s.markdown' % slug, output)
+
+        # print()

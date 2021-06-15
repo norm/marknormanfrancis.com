@@ -4,6 +4,7 @@ published = 2020-06-26T10:00:00Z
 origin = 'mnf'
 type = 'recipe'
 tag = [ 'recipe', 'chicken', 'chorizo', 'gumbo', ]
+subject = 'recipes'
 
 
 # recipe extra fields

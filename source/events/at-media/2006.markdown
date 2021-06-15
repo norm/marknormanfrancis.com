@@ -1,0 +1,72 @@
+```
+title = "Attending @media 2006"
+published = 2006-06-27T14:48:00Z
+updated = 2021-06-12T08:54:45Z
+updated_reason = 'Fixing broken links'
+origin = "chnet"
+origin_url = "cackhanded.net/events/atmedia-2006"
+type = "article"
+tag = [
+    'at-media',
+    'conference',
+    'conference-writeup',
+]
+subject = 'events'
+topic = 'at-media'
+```
+
+I’m quite late on writing about the 2006 @media conference. Some people
+[covered][ph] [it][sc] [live][cl] and other people [posted][jk]
+[extensive][mp] [reviews][bw]. And to top it all, [Gareth Rushgrove][gr]
+<del>is</del><ins>was</ins> doing a bang-up job of collecting <del>everything
+@media 2006</del> \[ed: link no longer works\].
+
+So, I thought I’d write what I found most useful. I had hoped that that would
+be the design panels, since I already know CSS pretty much inside and out and
+JS pretty well. As a person with seemingly no design sensibilities I thought
+it might be enlightening to hear [Jon Hicks][jh], [Veerle Pieters][vp] and
+[Cameron Moll][cm] talk about great design. In the end I thought a lot of it
+was great information, if you already understood design or even had some
+creative leanings. I didn’t get much out of it except a greater appreciation
+of the point of carefully thought-out typography; and finding some amusement
+watching [Simon][sw] fire up OmniGraffle to start [drawing squirrels][sq].
+
+I also found [Andy Clarke][ac]'s [presentation][tc] quite thought-provoking
+and worthwhile, in terms of getting inspiration for design (and semantic
+structure?!?) in the world around us, rather than in just copying other sites
+we like the look of.
+
+But by far the most resonant thing was a single comment made in the Javascript
+libraries panel, I think from [Stuart Langridge][sl] (you’d think if it was
+such a great comment, I’d bloody remember who said it, wouldn’t you?). The
+comment was that most back-end programmers don’t understand JavaScript,
+because in their world there’s never a situation where the server’s programs
+just don’t run but the server is still running.
+
+Now (casually ignoring situations where perl hasn’t been installed on a server
+so that scripts break, or other such things…) I found this one of those “Of
+course, now it’s been said out loud, it’s obvious” moments. I always had this
+niggling annoyance with [our][yh] engineers writing inline JS. But it often
+seemed like banging your head against a brick wall trying to explain to them
+why progressive enhancement is the Right Way To Do It.
+
+I may not be able to get the concept across even now, but at least I have a
+new angle of attack to come at them from now.
+
+
+[ac]: https://stuffandnonsense.co.uk/
+[bw]: https://benward.uk/blog/atmedia-2006-review
+[cl]: http://www.cindyli.com/index.php/site/comments/media_2006_keynote_eric_meyer/
+[cm]: http://cameronmoll.com/
+[gr]: https://morethanseven.net/
+[jh]: http://www.hicksdesign.co.uk/
+[jk]: http://adactio.com/journal/1144/
+[mp]: https://web.archive.org/web/2006123100000/http://www.thewatchmakerproject.com/journal/331/media-2006-in-review
+[ph]: http://www.paulhammond.org/2006/06/atmedia/
+[sc]: https://muffinresearch.co.uk/tag/media/
+[sl]: https://www.kryogenix.org/
+[sq]: http://flickr.com/photos/mn_francis/170761323/
+[sw]: http://simonwillison.net/
+[tc]: https://web.archive.org/web/2006123100000/http://www.stuffandnonsense.co.uk/downloads/transcendingcss.pdf
+[vp]: http://veerle.duoh.com/
+[yh]: http://uk.yahoo.com/
