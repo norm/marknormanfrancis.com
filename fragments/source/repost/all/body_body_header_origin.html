@@ -1,0 +1,12 @@
+    {% if origin_url %}
+      <dt>original url</dt>
+      <dd>{{origin_url}}</dd>
+    {% endif %}
+    {% if repost %}
+      <dt>reposted</dt>
+      {% if origin_note %}
+        <dd>This is reposted with permission — {{origin_note}}</dd>
+      {% else %}
+        <dd>This is reposted with permission.</dd>
+      {% endif %}
+    {% endif %}
