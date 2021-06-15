@@ -44,11 +44,16 @@ class NewPosts(base.IndexGenerator):
         return objects
 
 
-class Subject(SectileBase):
+class BaseIndex(base.IndexGenerator):
+    template_name = 'base_template.html'
+    order_by = 'published'
+
+
+class Subject(BaseIndex):
     pass
 
 
-class SubjectTopic(SectileBase):
+class SubjectTopic(BaseIndex):
     pass
 
 
