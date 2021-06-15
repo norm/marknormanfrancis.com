@@ -7,6 +7,11 @@ updated_reason = 'Fixing broken links'
 origin = "chnet"
 origin_url = "cackhanded.net/mac/iconquer"
 type = "article"
+subject = 'games'
+topic = 'macos'
+previous_slug = [
+    '/games/os-x/iconquer',
+]
 ```
 
 I’ve always been a big player of games. Ever since I can remember the holidays

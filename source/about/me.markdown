@@ -6,6 +6,7 @@ updated_reason = 'Fixing broken links and updating facts'
 origin = "chnet"
 origin_url = "cackhanded.net/about/me"
 type = "article"
+subject = "about"
 ```
 
 This is my personal website, in which I ramble aimlessly about myself and my

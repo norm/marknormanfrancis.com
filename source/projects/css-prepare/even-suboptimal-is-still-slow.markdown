@@ -6,6 +6,8 @@ origin = "mnf-v1"
 type = "article"
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
+subject = 'projects'
+topic = 'css-prepare'
 ```
 
 In my last post "[suboptimal CSS parsing][lp]", I talked about how much faster

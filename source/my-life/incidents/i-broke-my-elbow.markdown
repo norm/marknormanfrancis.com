@@ -6,6 +6,8 @@ updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
 origin = "mnf-v1"
 type = "article"
+subject = 'my-life'
+topic = 'incidents'
 ```
 
 Thursday night was [Substandards Ben][ben].

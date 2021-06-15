@@ -6,6 +6,12 @@ origin = "mnf-v1"
 type = "article"
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
+subject = 'code'
+topic = 'home-directory'
+tag = [
+  'google-reader',
+  'rss',
+]
 ```
 
 I use Google Reader as my feed aggregator. Most of the time I don’t read feeds

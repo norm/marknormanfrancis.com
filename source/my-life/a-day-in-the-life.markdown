@@ -7,6 +7,10 @@ updated_reason = 'Fixing broken links'
 origin = "chnet"
 origin_url = "cackhanded.net/about/a-day-in-the-life"
 type = "article"
+subject = 'my-life'
+previous_slug = [
+    '/about/a-day-in-the-life',
+]
 ```
 
 So, a few months ago I stumbled across 

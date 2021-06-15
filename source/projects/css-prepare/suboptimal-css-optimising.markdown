@@ -6,6 +6,8 @@ origin = "mnf-v1"
 type = "article"
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
+subject = 'projects'
+topic = 'css-prepare'
 ```
 
 Recently, I have been working on a personal project, writing code to

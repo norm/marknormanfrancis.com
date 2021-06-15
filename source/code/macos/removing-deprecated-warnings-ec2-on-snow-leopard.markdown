@@ -5,6 +5,11 @@ origin = "mnf-v1"
 type = "article"
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
+subject = 'code'
+topic = 'macos'
+previous_slug = [
+    '/code/os-x/removing-deprecated-warnings-ec2-on-snow-leopard',
+]
 ```
 
 One thing about my recent [usage of EC2][fpb] is that the current set of tools

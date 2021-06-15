@@ -7,6 +7,7 @@ updated_reason = 'Fixing broken links'
 origin = 'chnet'
 origin_url = 'cackhanded.net/web/using-myweb'
 type = 'article'
+subject = 'web'
 ```
 
 ## del.icio.us

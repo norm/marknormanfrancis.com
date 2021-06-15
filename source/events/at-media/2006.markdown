@@ -11,6 +11,8 @@ tag = [
     'conference',
     'conference-writeup',
 ]
+subject = 'events'
+topic = 'at-media'
 ```
 
 I’m quite late on writing about the 2006 @media conference. Some people

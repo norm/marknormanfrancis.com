@@ -7,6 +7,8 @@ type = "article"
 series = "css-prepare"
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
+subject = 'projects'
+topic = 'css-prepare'
 ```
 
 I was asked recently why bother with all the effort of optimising CSS.

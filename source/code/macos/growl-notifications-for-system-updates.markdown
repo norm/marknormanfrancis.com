@@ -5,10 +5,15 @@ I wrote a little shell script wrapper around softwareupdate which pops up a
 Growl notification when there are new updates available for your computer.
 """
 published = 2010-02-27T02:24:07Z
-origin = "mnf-v1"
-type = "article"
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
+origin = "mnf-v1"
+type = "article"
+subject = 'code'
+topic = 'macos'
+previous_slug = [
+    '/code/os-x/growl-notifications-for-system-updates',
+]
 ```
 
 Apple’s Software Update will run automatically, but only from an account which

@@ -14,6 +14,8 @@ tag = [
     'semantic-web',
     'presentations',
 ]
+subject = 'presentations'
+topic = 'wsg-london'
 ```
 
 Last Thursday night you would have found me giving one third of

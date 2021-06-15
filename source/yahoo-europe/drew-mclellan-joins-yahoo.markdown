@@ -13,6 +13,7 @@ tag = [
     'web-standards',
     'yahoo',
 ]
+subject = 'yahoo-europe'
 ```
 
 On Tuesday we had a new member of the web development team. You may have heard

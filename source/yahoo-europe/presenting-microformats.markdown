@@ -13,6 +13,7 @@ tag = [
     'yahoo',
 ]
 todo = ['embedded-photo',]
+subject = 'yahoo-europe'
 ```
 
 <div class='image'>

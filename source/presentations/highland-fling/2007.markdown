@@ -12,6 +12,8 @@ tag = [
     'highland-fling',
     'progressive-enhancement',
 ]
+subject = 'presentations'
+topic = 'highland-fling'
 ```
 
 I am mere moments away from giving a talk at the first [Highland Fling][hf]

@@ -7,6 +7,10 @@ updated_reason = 'Fixing broken links'
 origin = 'chnet'
 origin_url = 'cackhanded.net/web/yahoo-gets-blogging'
 type = 'article'
+subject = 'yahoo-europe'
+previous_slug = [
+    '/web/yahoo-gets-blogging',
+]
 ```
 
 For many years now, I've had no real website to speak of. Just some little

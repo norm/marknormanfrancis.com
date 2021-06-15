@@ -6,6 +6,8 @@ updated_reason = 'Fixing broken links'
 origin = "chnet"
 origin_url = 'cackhanded.net/gadgets/nokia-n80-review'
 type = "article"
+subject = 'gadgets'
+topic = 'mobile-phone'
 ```
 
 Many moons ago, I had a wonderful mobile phone, the [Nokia 7650][7650]. I

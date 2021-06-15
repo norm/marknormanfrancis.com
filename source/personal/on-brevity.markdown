@@ -7,6 +7,7 @@ type = "article"
 trackback = "http://www.kryogenix.org/days/2009/07/28/on-tolerance"
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
+subject = 'personal'
 ```
 
 The other day, [Stuart Langridge][sl] says he [spent the evening fuming][ot].

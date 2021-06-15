@@ -7,6 +7,7 @@ updated_reason = 'Fixing broken links'
 origin = 'chnet'
 origin_url = "cackhanded.net/computing/starting-the-switch"
 type = 'article'
+subject = 'computing'
 ```
 
 When I was studying at university, I mostly used Unix, specifically SunOS. I

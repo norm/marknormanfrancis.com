@@ -6,6 +6,7 @@ updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
 origin = "mnf-v1"
 type = "article"
+subject = 'yahoo-europe'
 ```
 
 Today (21st September 2011) is a very sad day for me. A few of my

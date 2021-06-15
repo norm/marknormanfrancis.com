@@ -5,6 +5,7 @@ published = 2011-09-27T00:23:36Z
 origin = "mnf-v1"
 type = "article"
 article_theme = "yahoo-retrospective"
+subject = 'yahoo-europe'
 ```
 
 This article is part of a series in which I reminisce about my time working in

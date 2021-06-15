@@ -7,6 +7,7 @@ updated_reason = 'Fixing broken links'
 origin = 'chnet'
 origin_url = 'cackhanded.net/web/semantic-search'
 type = 'article'
+subject = 'web'
 ```
 
 [Molly Holzschlag][m] recently wrote about major search engines and their

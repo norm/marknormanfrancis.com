@@ -6,6 +6,8 @@ origin = "mnf-v1"
 type = "article"
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
+subject = 'my-life'
+topic = 'events'
 ```
 
 <div class='image small'>

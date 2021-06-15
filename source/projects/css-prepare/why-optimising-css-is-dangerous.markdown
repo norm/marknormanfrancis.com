@@ -7,6 +7,8 @@ origin = "mnf-v1"
 type = "article"
 updated = 2021-06-12T08:54:45Z
 updated_reason = 'Fixing broken links'
+subject = 'projects'
+topic = 'css-prepare'
 ```
 
 One of the basic principles that an effective web developer has to learn is
