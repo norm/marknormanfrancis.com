@@ -37,6 +37,7 @@ def repo_to_tag(repo):
     repo = repo.replace('_', '-')
     return 'repo-' + repo
 
+
 day_events = {}
 page=0
 while page < MAX_PAGINATION:
@@ -209,6 +210,33 @@ for i, day in enumerate(sorted(day_events)):
                     api_to_website(commit['url']),
                 )
         elif event['type'] == 'ReleaseEvent':
+            package = event['repo']['name'].split('/')[1]
+            version = event['payload']['release']['name']
+            if version[0] == 'v' and version[1].isnumeric():
+                version = version[1:]
+            release_post = {
+                'title': "%s release %s" % (package, version),
+                'published': timestamp.replace(tzinfo=timezone.utc),
+                'origin': 'github',
+                'type': 'release',
+                'package': package,
+                'version': version,
+                'pypi_url': 'https://pypi.org/project/%s/%s/' % (package, version),
+                'tag': [repo_to_tag(event['repo']['name'])],
+                'release_event': event,
+            }
+            release_filename = '%s_release_%s.markdown' % (
+                    event['repo']['name'].split('/')[1],
+                    version.replace('.', '_'),
+                )
+            update_content(
+                    'source/%s/%s' % (day, release_filename),
+                    '```\n%s```\n\n%s' % (
+                        toml.dumps(release_post),
+                        event['payload']['release']['body'].replace('\r', ''),
+                    ),
+                )
+
             repos.add(event['repo']['name'])
             update += (
                     '* %s — Released [`%s`](%s) '
