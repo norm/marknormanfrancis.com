@@ -1,0 +1,12 @@
+{{body}}
+
+{% with url=repository.html_url %}
+  <ul>
+    <li><a href='{{url}}'>source code</a></li>
+    <li><a href='{{url}}/pulls'>{{pull_requests}} pull request{{pull_requests|pluralise}}</a></li>
+    <li><a href='{{url}}/issues'>{{issues}} issue{{issues|pluralise}}</a></li>
+    <li><a href='{{url}}/network/members'>{{repository.forks_count}} fork{{repository.forks_count|pluralise}}</a></li>
+    <li><a href='{{url}}/watchers'>{{repository.watchers_count}} watching</a></li>
+    <li><a href='{{url}}/stargazers'>{{repository.stargazers_count}} starred</a></li>
+  </ul>
+{% endwith %}

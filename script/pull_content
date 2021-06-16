@@ -9,7 +9,9 @@
 # import all published content from gifs.cackhanded.net
 ./script/add_gifs
 
+# import activity from GitHub
 ./script/add_github_events
+./script/add_github_repos
 
 # import autopublished tweets
 ./script/publish_tweets
