@@ -70,6 +70,10 @@ class Archives(base.IndexGenerator):
     template_name = 'archives.html'
 
 
+class NotFound(base.StaticGenerator):
+    template_name = 'base_template.html'
+
+
 def global_context(self):
     return {
         'publication_range': helpers.publication_range(self),
@@ -141,5 +145,9 @@ PATHS = (
     Drafts(
         path = '/drafts',
         name = 'drafts',
+    ),
+    NotFound(
+        path = '/404',
+        name = 'not-found',
     ),
 )

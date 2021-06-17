@@ -3,3 +3,5 @@ title = 'Mark Norman Francis'
 base_url = 'https://marknormanfrancis.com'
 bucket = 'marknormanfrancis.com'
 cloudfront_id = 'E3KM80ZDXNHA6G'
+
+404_page = '/404'
