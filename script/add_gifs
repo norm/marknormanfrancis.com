@@ -43,6 +43,7 @@ for row in reader:
     )
     row['origin'] = 'gifs'
     row['origin_link_url'] = row['url']
+    row['title'] = 'Published GIF “%s”' % row['title']
 
     # use the source/episode parts of the URL as tags too
     parts = row['url'].split('/')
