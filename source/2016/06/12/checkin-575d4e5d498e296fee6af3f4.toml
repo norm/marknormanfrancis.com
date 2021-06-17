@@ -3,6 +3,7 @@ published = 2016-06-12T12:58:21Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/6ec1d231f0284a3760d3ca34e5fd40ff1d1cb4967fc9b3fe87dcd67a2190528a.png"
+tag = [ "sophies-steakhouse-bar",]
 local_timestamp = 2016-06-12T13:58:21Z
 
 [data]

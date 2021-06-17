@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2016/09/23/morning.jpg"
 origin = "instagram"
 type = "photo"
 location = "Waterloo Bridge"
+tag = [ "waterloo-bridge",]

@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 location = "Royal Albert Hall"
 original_caption = "Lasers #latergram"
-tag = [ "latergram",]
+tag = [ "latergram", "royal-albert-hall",]

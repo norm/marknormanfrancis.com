@@ -3,6 +3,7 @@ published = 2013-10-04T12:56:36Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/bb0fc5cfcc41732e96b031497aefe844b35ecce6b01ed9b6d9590ea798ff5fba.png"
+tag = [ "the-open-data-institute",]
 local_timestamp = 2013-10-04T13:56:36Z
 
 [data]

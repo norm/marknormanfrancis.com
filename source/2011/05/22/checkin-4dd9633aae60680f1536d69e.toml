@@ -3,6 +3,7 @@ published = 2011-05-22T20:25:46Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/a4f0af80d64be503dbb3fc0a13390c7502cad1c8604659409ec0b6d3f044f311.png"
+tag = [ "giraffe",]
 local_timestamp = 2011-05-22T21:25:46Z
 
 [data]

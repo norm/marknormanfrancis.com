@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2016/05/28/space-spectacular.jpg"
 origin = "instagram"
 type = "photo"
 location = "Royal Albert Hall"
+tag = [ "royal-albert-hall",]

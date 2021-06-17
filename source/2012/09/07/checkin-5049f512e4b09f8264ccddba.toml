@@ -3,6 +3,7 @@ published = 2012-09-07T14:22:26Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/d155eed51ccd25a4f0171c535dd01650a14a9eeb725574c324be52801467e26d.png"
+tag = [ "la-tasca",]
 local_timestamp = 2012-09-07T15:22:26Z
 
 [data]

@@ -3,6 +3,7 @@ published = 2018-12-27T18:58:41Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/b01f925467690d582e618ab7ace77c7dcb6737bb83eeab84a1a8c43252dac95b.png"
+tag = [ "apollo-victoria-theatre",]
 
 [data]
 id = "5c2520e161f070002c4f122f"

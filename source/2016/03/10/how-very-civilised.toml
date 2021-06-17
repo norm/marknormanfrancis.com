@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2016/03/10/how-very-civilised.jpg"
 origin = "instagram"
 type = "photo"
 location = "Royal Albert Hall"
+tag = [ "royal-albert-hall",]

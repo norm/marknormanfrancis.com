@@ -3,6 +3,7 @@ published = 2012-03-18T18:10:22Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/501ab174a6c412815c65defa1c5028be9764ffb4c8614646635710f470faed0a.png"
+tag = [ "wendys",]
 local_timestamp = 2012-03-18T13:10:22Z
 
 [data]

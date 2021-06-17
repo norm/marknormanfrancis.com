@@ -3,6 +3,7 @@ published = 2017-09-06T12:27:11Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/b4e034e97db9f9d43caccce603700a1d819c9387569252b3274787c2bee07b84.png"
+tag = [ "shake-shack-tottenham-court-road",]
 local_timestamp = 2017-09-06T13:27:11Z
 
 [data]

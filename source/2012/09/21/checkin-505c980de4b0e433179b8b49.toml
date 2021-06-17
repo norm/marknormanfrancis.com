@@ -3,6 +3,7 @@ published = 2012-09-21T17:38:37Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/bc6d7f9693fa781988d3dcba0a66c45bd7d523fb290dfbb0fc6b8b7ded15077a.png"
+tag = [ "lowlander-grand-cafe",]
 local_timestamp = 2012-09-21T18:38:37Z
 
 [data]

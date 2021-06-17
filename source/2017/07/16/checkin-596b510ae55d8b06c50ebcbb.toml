@@ -3,6 +3,7 @@ published = 2017-07-16T12:42:02Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/4556b301edc774ed4ddfe8192fd9a99a8bb578ca4395e869d388e03dad2cc2e0.png"
+tag = [ "sainsburys",]
 local_timestamp = 2017-07-16T13:42:02Z
 
 [data]

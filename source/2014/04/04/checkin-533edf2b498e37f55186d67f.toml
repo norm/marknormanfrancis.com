@@ -3,6 +3,7 @@ published = 2014-04-04T17:34:51Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/0cbd4e107abd1f24c1fe69d56a3831c8f5ab37a76a30b3b5e6ccc7ff50c0f22d.png"
+tag = [ "the-albany",]
 local_timestamp = 2014-04-04T18:34:51Z
 
 [data]

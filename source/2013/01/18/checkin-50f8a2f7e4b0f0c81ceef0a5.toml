@@ -3,6 +3,7 @@ published = 2013-01-18T01:18:47Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/44a468d2087a92842438c7d5a38f6e3ef4bbb5b42222cebda1a6a10c11f25c1f.png"
+tag = [ "bourne-hollingsworth",]
 
 [data]
 id = "50f8a2f7e4b0f0c81ceef0a5"

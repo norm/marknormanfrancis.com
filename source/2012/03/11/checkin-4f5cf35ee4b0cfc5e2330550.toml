@@ -3,6 +3,7 @@ published = 2012-03-11T18:47:58Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/a40918a9df77cb6f25bdcc57ba079da6f1fdc9287ea3921d923692ccd9d1cbf5.png"
+tag = [ "mongolian-grill-san-jacinto",]
 local_timestamp = 2012-03-11T13:47:58Z
 
 [data]

@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/09/10/me-too-bus-stop-me-too.jpg"
 origin = "instagram"
 type = "photo"
 location = "HM Treasury"
+tag = [ "hm-treasury",]

@@ -3,6 +3,7 @@ published = 2012-01-13T15:19:59Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/fcfcee4eea11a1c0a2ad4fe56584edb53a53fd964b1e926e04691c354e159d61.png"
+tag = [ "british-museum",]
 
 [data]
 id = "4f104b9fe4b038020164e1c4"

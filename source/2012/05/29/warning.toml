@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/05/29/warning.jpg"
 origin = "instagram"
 type = "photo"
 location = "Holborn Tower"
+tag = [ "holborn-tower",]

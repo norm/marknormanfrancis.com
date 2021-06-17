@@ -3,6 +3,7 @@ published = 2016-12-31T09:55:41Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/f7cacb823b8c96d9dc5c0b080e09cd9a2eb1ae8d0a8656e453019f5fcf6256c0.png"
+tag = [ "greggs",]
 
 [data]
 id = "5867809d76b8b22d3770405d"

@@ -3,6 +3,7 @@ published = 2016-12-04T17:36:22Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/1b438a91ec7276ceea7b3c5813f42a1b775101fa30878d1be8c044be46cb35c1.png"
+tag = [ "harry-potter-and-the-cursed-child-parts-one-and-two",]
 
 [data]
 id = "584454164e31c50e724243f6"

@@ -3,6 +3,7 @@ published = 2013-05-02T11:13:53Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/27364d89133eea8d376e105a9f9e4bc6475cd7b21b226f7cf7cd260b4fa975f3.png"
+tag = [ "kings-cross",]
 local_timestamp = 2013-05-02T12:13:53Z
 
 [data]

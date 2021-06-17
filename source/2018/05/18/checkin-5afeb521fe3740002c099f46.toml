@@ -3,6 +3,7 @@ published = 2018-05-18T12:12:33Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/0e5e6dbcf04adc75cb4f5089c443eeeec0341b02af1347884e6cdf245a06689a.png"
+tag = [ "blue-river-cafe",]
 local_timestamp = 2018-05-18T13:12:33Z
 
 [data]

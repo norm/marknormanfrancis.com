@@ -3,7 +3,7 @@ published = 2015-06-09T17:38:04Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca76b9d411cb172ec6e.png"
-tag = [ "spy", "movie",]
+tag = [ "vue", "spy", "movie",]
 local_timestamp = 2015-06-09T18:38:04Z
 
 [data]

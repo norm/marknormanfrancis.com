@@ -3,6 +3,7 @@ published = 2015-03-02T17:38:15Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/75d5c801bb086ad568aadf9f73973aaa4bb4460119933afda6d012ad8b689576.png"
+tag = [ "massimo",]
 
 [data]
 id = "54f4a007498e17b46c5f50df"

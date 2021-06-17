@@ -3,6 +3,7 @@ published = 2017-08-23T16:41:03Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/997e9516f632f297455fdabed356763dd38902e2fddfbcf9c42ffab583259bfa.png"
+tag = [ "somerset-house",]
 local_timestamp = 2017-08-23T17:41:03Z
 
 [data]

@@ -3,6 +3,7 @@ published = 2013-01-15T12:15:37Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/3a2b9d9ea3c0a8615db5d2ba0508211460b8e3302322d023603b3b3334d58b25.png"
+tag = [ "hiba-express",]
 
 [data]
 id = "50f54869e4b0afccee69f77c"

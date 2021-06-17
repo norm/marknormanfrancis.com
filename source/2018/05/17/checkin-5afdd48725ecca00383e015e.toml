@@ -3,6 +3,7 @@ published = 2018-05-17T20:14:15Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/8397a9c3c2af0d3f1a95c20f04606eca6aab6f91c83b4771746fc6d0d6f85848.png"
+tag = [ "five-guys",]
 local_timestamp = 2018-05-17T21:14:15Z
 
 [data]

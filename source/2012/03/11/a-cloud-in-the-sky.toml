@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/03/11/a-cloud-in-the-sky.jpg"
 origin = "instagram"
 type = "photo"
 location = "Shakespeare's Austin"
+tag = [ "shakespeares-austin",]

@@ -3,6 +3,7 @@ published = 2013-09-17T18:08:19Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/b47eb948c6c4b17e648a074275453736d63e1a90ee592f28ad522be7a5929013.png"
+tag = [ "hawksmoor-seven-dials",]
 local_timestamp = 2013-09-17T19:08:19Z
 
 [data]

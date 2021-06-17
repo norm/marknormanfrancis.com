@@ -3,6 +3,7 @@ published = 2012-11-29T17:45:17Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/02abe0b1856dad6e8cdfa20539a965f65483d0946bce15cb9986176ab78fa6f9.png"
+tag = [ "ship-tavern",]
 
 [data]
 id = "50b79f2de4b016c53bcdc248"

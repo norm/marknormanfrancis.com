@@ -3,6 +3,7 @@ published = 2013-10-17T17:13:31Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/d7220d5996c766a177ed343fde9ea73eabd980d04e3da0a306090ba0ea358a54.png"
+tag = [ "the-knights-templar-wetherspoon",]
 local_timestamp = 2013-10-17T18:13:31Z
 
 [data]

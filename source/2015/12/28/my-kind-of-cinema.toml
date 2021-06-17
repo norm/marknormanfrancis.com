@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2015/12/28/my-kind-of-cinema.jpg"
 origin = "instagram"
 type = "photo"
 location = "Vue Cinemas, Fulham Broadway"
+tag = [ "vue-cinemas-fulham-broadway",]

@@ -3,6 +3,7 @@ published = 2011-11-28T21:10:50Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/7f29fa3f0730897d39eca5d2ef01dbfad73d546282b1f0c5fe7524a86695a648.png"
+tag = [ "the-butcher-grill",]
 
 [data]
 id = "4ed3f8da4690a03b61842c77"

@@ -3,6 +3,7 @@ published = 2019-09-27T18:57:23Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/e0298a35d9e6ffb656374259b3b4caafe4e690afe0ffaa3a417983ac719b2dff.png"
+tag = [ "vaudeville-theatre",]
 local_timestamp = 2019-09-27T19:57:23Z
 
 [data]

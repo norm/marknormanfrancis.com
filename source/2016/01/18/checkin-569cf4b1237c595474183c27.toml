@@ -3,6 +3,7 @@ published = 2016-01-18T14:20:33Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/f0ecc3d9f8238fa870acb3eb840d54e03142a1cc98863aa4bad22c9f800cfcff.png"
+tag = [ "tate-modern",]
 
 [data]
 id = "569cf4b1237c595474183c27"

@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2013/07/26/oh-my-god-its-raspberry-coke.jpg"
 origin = "instagram"
 type = "photo"
 location = "Five Guys"
+tag = [ "five-guys",]

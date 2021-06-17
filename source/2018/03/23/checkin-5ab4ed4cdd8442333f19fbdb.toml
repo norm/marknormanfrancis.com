@@ -3,6 +3,7 @@ published = 2018-03-23T12:04:28Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/2c63ef3c9e49413d41910ae5a29592d18af1ad9e62f383e27cda7288628ddfa4.png"
+tag = [ "burrito-cafe",]
 
 [data]
 id = "5ab4ed4cdd8442333f19fbdb"

@@ -3,6 +3,7 @@ published = 2013-03-04T11:46:37Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/4d0b9b97deecb5fb4901353935bbf4898b5ee0ad4c7b7837f0a47967f3b72dc4.png"
+tag = [ "southampton-airport-sou",]
 
 [data]
 id = "5134899de4b0cfae6125e62a"

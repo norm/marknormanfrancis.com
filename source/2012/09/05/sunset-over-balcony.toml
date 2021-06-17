@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/09/05/sunset-over-balcony.jpg"
 origin = "instagram"
 type = "photo"
 location = "Expedia"
+tag = [ "expedia",]

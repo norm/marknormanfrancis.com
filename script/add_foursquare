@@ -26,12 +26,11 @@ import os
 import sys
 from urllib.parse import urlencode
 
-from django.utils.text import slugify
 import pytz
 import requests
 import toml
 
-from lib import update_content
+from lib import update_content, tagify
 from lib.bucket import Bucket
 
 
@@ -108,11 +107,12 @@ def main():
             )
 
         title = "Checked in at %s" % checkin['venue']['name']
+        tags.append(tagify(checkin['venue']['name']))
         if 'event' in checkin:
             title = '%s for %s' % (title, checkin['event']['name'])
-            tags.append(slugify(checkin['event']['name']))
+            tags.append(tagify(checkin['event']['name']))
             for category in checkin['event']['categories']:
-                tags.append(slugify(category['name']))
+                tags.append(tagify(category['name']))
 
         if checkin['type'] != 'checkin':
             # FIXME

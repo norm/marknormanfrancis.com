@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/07/24/proper-hamburgers.jpg"
 origin = "instagram"
 type = "photo"
 location = "Byron Waterloo"
+tag = [ "byron-waterloo",]

@@ -3,6 +3,7 @@ published = 2017-03-01T16:44:44Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/e0d5eb343f2ab9ab2e313b40d3921de87e048a9eda79c79fcadfcb1778d250e8.png"
+tag = [ "blackfriars-pier",]
 photos = [ "https://mnf.m17s.net/2017/03/01/checkin-58b6fa7c24f611068bc29d50-0.jpg",]
 
 [data]

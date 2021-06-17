@@ -3,6 +3,7 @@ published = 2018-11-15T13:14:12Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/979c23f6e49add69745c08ea6e7bdea7aaee70d4a9d540aa5833c96f7b0a3cfa.png"
+tag = [ "plaza-pastor",]
 
 [data]
 id = "5bed7124f05ca8003b642292"

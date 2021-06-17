@@ -3,6 +3,7 @@ published = 2012-03-12T01:54:08Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/c04117a00b0b8921ceb430e4340251950d4405735b01c167411050e765043579.png"
+tag = [ "the-parish-underground",]
 local_timestamp = 2012-03-11T20:54:08Z
 
 [data]

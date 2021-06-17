@@ -3,6 +3,7 @@ published = 2013-08-23T12:10:53Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/6d056a6df16d635a62656855bd6a10fe72021d0646107b8126df494a13fbf325.png"
+tag = [ "pizza-express",]
 local_timestamp = 2013-08-23T13:10:53Z
 
 [data]

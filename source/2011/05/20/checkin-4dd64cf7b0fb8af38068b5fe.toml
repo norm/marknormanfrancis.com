@@ -3,6 +3,7 @@ published = 2011-05-20T12:13:59Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/b72df4ca6976831aa90dc04d0a4da2a3fe07f9f24ffad284e3f2da7190cb4b39.png"
+tag = [ "wahaca",]
 local_timestamp = 2011-05-20T13:13:59Z
 
 [data]

@@ -3,6 +3,7 @@ published = 2012-01-13T12:15:30Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/8d4fcc578d7158b9ba26699fe040799f8e0715c5c9160f44cd08729663d644d7.png"
+tag = [ "back-2",]
 
 [data]
 id = "4f102062e4b0865b061b83ff"

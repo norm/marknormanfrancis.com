@@ -3,6 +3,7 @@ published = 2012-03-10T19:48:15Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/cafce465751ef7b8de397d47e704513b2e512accfdf190ac1c8e21e0d7d40070.png"
+tag = [ "hoffbrau-steak",]
 local_timestamp = 2012-03-10T13:48:15Z
 
 [data]

@@ -3,6 +3,7 @@ published = 2015-12-07T17:29:36Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/816cf7059e54696e6c59230972a026ea499c31c7c814c7fb882a6cf20460a581.png"
+tag = [ "the-lord-nelson",]
 
 [data]
 id = "5665c200498e5bd61e7c2367"

@@ -3,6 +3,7 @@ published = 2013-11-11T17:30:18Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/36c05e53a37b18f3c979957823eef8b88c90e9a434182617822fc3ae684de5ef.png"
+tag = [ "edgware-road-london-underground-station-circle-district-and-h-c-lines",]
 
 [data]
 id = "5281142a498eb33714559691"

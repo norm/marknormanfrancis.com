@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/04/18/special-meat.jpg"
 origin = "instagram"
 type = "photo"
 location = "Lowlander Grand Cafe"
+tag = [ "lowlander-grand-cafe",]

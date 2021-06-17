@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2016/03/09/order-number.jpg"
 origin = "instagram"
 type = "photo"
 location = "Mcdonalds Wandsworth Bridge"
+tag = [ "mcdonalds-wandsworth-bridge",]

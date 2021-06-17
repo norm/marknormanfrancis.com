@@ -3,6 +3,7 @@ published = 2013-02-26T12:44:44Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/9b4d3616eb3687eff89f1c0152ba53e113a66543ce9ff9355d9b73b9a421f012.png"
+tag = [ "chilango",]
 
 [data]
 id = "512cae3ce4b0a48edc9e86cb"

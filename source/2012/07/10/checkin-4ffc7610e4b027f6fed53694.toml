@@ -3,7 +3,7 @@ published = 2012-07-10T19:36:00Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca76b9d411cb172ec6e.png"
-tag = [ "the-amazing-spider-man", "movie",]
+tag = [ "vue", "the-amazing-spider-man", "movie",]
 local_timestamp = 2012-07-10T20:36:00Z
 
 [data]

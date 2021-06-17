@@ -3,6 +3,7 @@ published = 2017-02-02T20:25:37Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/70212544f2f1cb769254c1c687b1eef18e9e51960952b96c0b7a4515d386eef6.png"
+tag = [ "the-glasshouse-stores",]
 
 [data]
 id = "589395c19f2583145b59a8e5"

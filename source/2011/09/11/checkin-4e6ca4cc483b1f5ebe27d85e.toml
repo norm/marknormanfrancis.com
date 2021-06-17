@@ -3,6 +3,7 @@ published = 2011-09-11T13:08:44Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/2436e84525f49387a67e87493e9736a352bd9b273e2cbe0768a934b54ccd2514.png"
+tag = [ "steam-bar-restaurant",]
 local_timestamp = 2011-09-11T14:08:44Z
 
 [data]

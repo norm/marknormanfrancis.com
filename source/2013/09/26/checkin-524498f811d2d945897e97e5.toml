@@ -3,6 +3,7 @@ published = 2013-09-26T21:28:40Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/030b95e1c149cf86220bd12c46c14d87004c12139fbdc49698f9314cf0fc8745.png"
+tag = [ "cantina-laredo",]
 local_timestamp = 2013-09-26T22:28:40Z
 
 [data]

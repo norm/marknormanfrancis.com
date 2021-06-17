@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/03/09/coca-cola.jpg"
 origin = "instagram"
 type = "photo"
 location = "Hut's Hamburgers"
+tag = [ "huts-hamburgers",]

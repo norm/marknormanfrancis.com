@@ -3,6 +3,7 @@ published = 2017-06-18T16:28:20Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/942b080c0c6dabe8f1c70097ce7580775b8b461d5aac635926689261ecf5bae2.png"
+tag = [ "cloudy-bay-bar",]
 local_timestamp = 2017-06-18T17:28:20Z
 
 [data]

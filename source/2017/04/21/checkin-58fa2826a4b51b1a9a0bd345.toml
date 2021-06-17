@@ -3,6 +3,7 @@ published = 2017-04-21T16:41:26Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/24d8e2909f41b6968190a39d317002ce5498d5d0aebda6b613aa8d7cde5db623.png"
+tag = [ "norman-shaw-north",]
 local_timestamp = 2017-04-21T17:41:26Z
 
 [data]

@@ -6,3 +6,4 @@ type = "photo"
 location = "York Cafe"
 text_markdown = "\n\nThis beckons to me every single morning. So far I am resisting the siren call."
 original_caption = "Morning\n\nThis beckons to me every single morning. So far I am resisting the siren call."
+tag = [ "york-cafe",]

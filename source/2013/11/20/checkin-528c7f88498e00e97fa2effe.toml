@@ -3,6 +3,7 @@ published = 2013-11-20T09:23:20Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/1801e28f3920bba3df9a6b1cade45421e1ee17253a058d45eb1aeef2457349aa.png"
+tag = [ "royal-college-of-surgeons-of-england",]
 
 [data]
 id = "528c7f88498e00e97fa2effe"

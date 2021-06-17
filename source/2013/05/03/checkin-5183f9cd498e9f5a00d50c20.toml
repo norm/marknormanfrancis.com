@@ -3,6 +3,7 @@ published = 2013-05-03T18:54:21Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/5c919e415b1f025ab99763beac83b386276326d149a524496b57e10b91e38f58.png"
+tag = [ "star-of-india",]
 local_timestamp = 2013-05-03T19:54:21Z
 
 [data]

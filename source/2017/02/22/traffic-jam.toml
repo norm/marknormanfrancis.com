@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2017/02/22/traffic-jam.jpg"
 origin = "instagram"
 type = "photo"
 location = "Battersea Bridge"
+tag = [ "battersea-bridge",]

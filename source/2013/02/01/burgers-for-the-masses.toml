@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2013/02/01/burgers-for-the-masses.jpg"
 origin = "instagram"
 type = "photo"
 location = "The Diner"
+tag = [ "the-diner",]

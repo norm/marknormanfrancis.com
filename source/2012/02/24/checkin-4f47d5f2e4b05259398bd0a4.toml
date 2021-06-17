@@ -3,6 +3,7 @@ published = 2012-02-24T18:24:50Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/191f69692cf4eb0be350df8a92938eb42a2113c9381e33c7181b5683cf46d281.png"
+tag = [ "west-byfleet-railway-station-wby",]
 
 [data]
 id = "4f47d5f2e4b05259398bd0a4"

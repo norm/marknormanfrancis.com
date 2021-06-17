@@ -3,6 +3,7 @@ published = 2011-05-21T13:17:08Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/cf058457cf2263e5ada3c7d8d42ec0a92dbf170de0c03a5b1e5fa136502124b1.png"
+tag = [ "browns",]
 photos = [ "https://mnf.m17s.net/2011/05/21/checkin-4dd7ad441f6ee1468327c773-0.jpg",]
 local_timestamp = 2011-05-21T14:17:08Z
 

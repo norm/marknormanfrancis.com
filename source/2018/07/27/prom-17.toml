@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2018/07/27/prom-17.jpg"
 origin = "instagram"
 type = "photo"
 location = "Royal Albert Hall"
+tag = [ "royal-albert-hall",]

@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2013/07/20/menu-not-found.jpg"
 origin = "instagram"
 type = "photo"
 location = "Thai Silk"
+tag = [ "thai-silk",]

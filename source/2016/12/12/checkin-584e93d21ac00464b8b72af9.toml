@@ -3,6 +3,7 @@ published = 2016-12-12T12:10:58Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/f2f6e7cbb9d0ec83a748f3c450b4fc23fd5fceb57a2c300e1278c57612d70727.png"
+tag = [ "the-grill-on-the-market-blackhouse",]
 
 [data]
 id = "584e93d21ac00464b8b72af9"

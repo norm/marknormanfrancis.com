@@ -3,6 +3,7 @@ published = 2012-03-19T17:07:11Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/4ec9ff36b7a0b3b6c6945ad5dc797b801a5efa44256cc116da3d8ad4b46a789f.png"
+tag = [ "austin-bergstrom-international-airport-aus",]
 local_timestamp = 2012-03-19T12:07:11Z
 
 [data]

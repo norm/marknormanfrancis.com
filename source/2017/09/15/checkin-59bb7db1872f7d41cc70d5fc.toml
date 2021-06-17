@@ -3,6 +3,7 @@ published = 2017-09-15T08:13:53Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/45f86dad0f42256e266bc51f1208a75cc467c4cd8f15691b6c0c6b7047c1c6ae.png"
+tag = [ "the-debate",]
 local_timestamp = 2017-09-15T09:13:53Z
 
 [data]

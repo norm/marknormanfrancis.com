@@ -3,6 +3,7 @@ published = 2014-03-07T13:24:19Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/f8a26ee7d0f0aaa7e17a9d11afd6d73eaf34bf6bb1fe94266b3c2182205eee86.png"
+tag = [ "trunk",]
 
 [data]
 id = "5319c883498e9a77d3815928"

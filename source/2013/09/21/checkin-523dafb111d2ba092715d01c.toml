@@ -3,6 +3,7 @@ published = 2013-09-21T15:39:45Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/2159e55f79b04f35a48f8feeee3f367d7c58a027479846c9f38e8f779ee92bc4.png"
+tag = [ "the-royal-george",]
 local_timestamp = 2013-09-21T16:39:45Z
 
 [data]

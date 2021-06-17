@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/03/07/welcome-aboard.jpg"
 origin = "instagram"
 type = "photo"
 location = "Gate 3"
+tag = [ "gate-3",]

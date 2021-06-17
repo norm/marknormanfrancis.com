@@ -3,6 +3,7 @@ published = 2016-05-19T11:03:02Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/5ea426fc61e0eeb7c5da00860190de81d71b1f8925bc1a8ad1f0b873b572a455.png"
+tag = [ "boots",]
 local_timestamp = 2016-05-19T12:03:02Z
 
 [data]

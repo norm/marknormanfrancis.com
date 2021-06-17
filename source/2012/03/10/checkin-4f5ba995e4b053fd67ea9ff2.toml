@@ -3,6 +3,7 @@ published = 2012-03-10T19:20:53Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/dabb178e45cbdb7e2eb9319c3dfd1cbe2060a9419228bd47124eb9eb25271b3d.png"
+tag = [ "the-ghost-of-lego-corner-past",]
 local_timestamp = 2012-03-10T13:20:53Z
 
 [data]

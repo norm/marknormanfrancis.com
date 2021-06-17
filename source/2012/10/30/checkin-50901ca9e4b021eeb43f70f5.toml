@@ -3,6 +3,7 @@ published = 2012-10-30T18:30:01Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/f0dde4d47facaf138b4796e18a0aecbd5f5ecc6e448756a689ca055afc3a7e21.png"
+tag = [ "upstairs-at-the-ritzy",]
 
 [data]
 id = "50901ca9e4b021eeb43f70f5"

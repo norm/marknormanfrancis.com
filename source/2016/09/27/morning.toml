@@ -6,3 +6,4 @@ type = "photo"
 location = "Plantation Wharf"
 text_markdown = "\n\nJanine, moored at Plantation Wharf."
 original_caption = "Morning\n\nJanine, moored at Plantation Wharf."
+tag = [ "plantation-wharf",]

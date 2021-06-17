@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2018/05/03/my-shot.jpg"
 origin = "instagram"
 type = "photo"
 location = "Victoria Palace Theatre"
+tag = [ "victoria-palace-theatre",]

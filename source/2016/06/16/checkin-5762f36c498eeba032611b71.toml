@@ -3,6 +3,7 @@ published = 2016-06-16T19:43:56Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/d484cb44b7406b5aa70f2022375eaea375d361f2ece9fd76708c9e1dd13b43cd.png"
+tag = [ "the-chilli-pickle",]
 local_timestamp = 2016-06-16T20:43:56Z
 
 [data]

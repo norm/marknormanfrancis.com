@@ -3,6 +3,7 @@ published = 2012-12-28T13:10:31Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/19fa561c8ab750fbabbb4fcb3be6d6aa60a4e307898502a54e293a5ad42f8ba6.png"
+tag = [ "garrick-theatre",]
 
 [data]
 id = "50dd9a47e4b03fcf41ee292e"

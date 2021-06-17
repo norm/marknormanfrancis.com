@@ -3,6 +3,7 @@ published = 2013-02-25T15:30:16Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/a20260371163e043d87f9c9ecf04aff7907996d19ecfd599cefd5f28514eb025.png"
+tag = [ "southfields-london-underground-station",]
 
 [data]
 id = "512b8388e4b0466f6130adfa"

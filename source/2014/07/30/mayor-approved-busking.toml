@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 location = "Sheldon Square"
 original_caption = "Mayor approved busking #gigs"
-tag = [ "gigs",]
+tag = [ "gigs", "sheldon-square",]

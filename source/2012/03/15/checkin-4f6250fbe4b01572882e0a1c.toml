@@ -3,7 +3,7 @@ published = 2012-03-15T20:28:43Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/0fb98610e6a217ff776be2c9ae52dc6ca4a5e392251559b3897c95403aa69906.png"
-tag = [ "japan-preview-day-party",]
+tag = [ "the-grackle", "japan-preview-day-party",]
 local_timestamp = 2012-03-15T15:28:43Z
 
 [data]

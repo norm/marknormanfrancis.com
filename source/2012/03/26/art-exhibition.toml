@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/03/26/art-exhibition.jpg"
 origin = "instagram"
 type = "photo"
 location = "Hayward Gallery"
+tag = [ "hayward-gallery",]

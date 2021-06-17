@@ -3,6 +3,7 @@ published = 2015-05-12T20:16:19Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/5a23f8960eaf14663f61a8896293cbe74f62dea20892c3b75c48d7373af56bfd.png"
+tag = [ "savoy-theatre",]
 local_timestamp = 2015-05-12T21:16:19Z
 
 [data]

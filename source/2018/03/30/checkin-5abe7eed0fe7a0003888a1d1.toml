@@ -3,6 +3,7 @@ published = 2018-03-30T19:16:13Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/12c5eb6f4cc75c79ef333d84da51298f1c51ba9f84964dbd86559f1b562558ed.png"
+tag = [ "plateau",]
 local_timestamp = 2018-03-30T20:16:13Z
 
 [data]

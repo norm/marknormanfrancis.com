@@ -3,6 +3,7 @@ published = 2017-08-31T11:50:54Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/bfdd3ce61a9ab65f1baab695039464eb131af47b8b5ddf0bfcc83deb44c36575.png"
+tag = [ "the-lister-hospital",]
 local_timestamp = 2017-08-31T12:50:54Z
 
 [data]

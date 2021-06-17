@@ -3,6 +3,7 @@ published = 2012-10-15T22:10:19Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/e0f0aaf2fcd0d43dda09b951d46012ff207fc6bf630af37eaf624efbb3c2167d.png"
+tag = [ "the-newton-arms",]
 local_timestamp = 2012-10-15T23:10:19Z
 
 [data]

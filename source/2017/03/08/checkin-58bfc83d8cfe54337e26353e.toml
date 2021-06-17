@@ -3,6 +3,7 @@ published = 2017-03-08T09:00:45Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/8cc230d18f3123f96ec8088483aefe5f9e5ab1272141a080d7bd71fbacf97d89.png"
+tag = [ "boots",]
 
 [data]
 id = "58bfc83d8cfe54337e26353e"

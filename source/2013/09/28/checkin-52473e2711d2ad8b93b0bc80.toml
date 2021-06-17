@@ -3,6 +3,7 @@ published = 2013-09-28T21:37:59Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/602562fbee371ef21fc0a489286e9fb5be6fd77a74bb54585948091eadf32d7c.png"
+tag = [ "the-harrison",]
 local_timestamp = 2013-09-28T22:37:59Z
 
 [data]

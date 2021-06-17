@@ -3,7 +3,7 @@ published = 2019-09-19T16:22:35Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/5f5f5850effcc88bdbd4b9b85ab245a5ac83fe43a3da28ee1d2db5bed6b083e9.png"
-tag = [ "it-chapter-two", "movie",]
+tag = [ "odeon", "it-chapter-two", "movie",]
 local_timestamp = 2019-09-19T17:22:35Z
 
 [data]

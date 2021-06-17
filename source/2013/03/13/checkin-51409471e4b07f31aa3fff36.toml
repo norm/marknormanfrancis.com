@@ -3,6 +3,7 @@ published = 2013-03-13T15:00:01Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/f5d07fbb7a850bb8a4534bf25fa6bdbca4bde0a2713594cf958ca87015b8e380.png"
+tag = [ "braye-beach-hotel-alderney",]
 
 [data]
 id = "51409471e4b07f31aa3fff36"

@@ -3,6 +3,7 @@ published = 2011-07-11T08:28:57Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/2d792a6372a33251974b20332de1606fcc237b0dae19e243dbb494830ac403b0.png"
+tag = [ "artfinder",]
 photos = [ "https://mnf.m17s.net/2011/07/11/checkin-4e1aa63952b123a586eb679a-0.jpg",]
 local_timestamp = 2011-07-11T09:28:57Z
 

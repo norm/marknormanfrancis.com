@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/09/20/nitrous-oxide.jpg"
 origin = "instagram"
 type = "photo"
 location = "St Thomas' Hospital"
+tag = [ "st-thomas-hospital",]

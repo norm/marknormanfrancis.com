@@ -3,6 +3,7 @@ published = 2017-03-22T15:26:47Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/3343befdb5dce761e1707a3bef6a4ee6205f3cf10440389ec333925ac5f6620b.png"
+tag = [ "joe-the-juice",]
 
 [data]
 id = "58d297b7a4367c569da7b5e1"

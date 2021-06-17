@@ -3,6 +3,7 @@ published = 2013-03-11T11:15:25Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/75da6a9668d522f75881e00cebeff7eb4cbbf4866e478bf76b52b3df1581e905.png"
+tag = [ "alderney-airport-aci",]
 
 [data]
 id = "513dbccde4b07fb439edeee0"

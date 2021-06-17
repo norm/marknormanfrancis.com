@@ -3,6 +3,7 @@ published = 2012-03-14T06:04:16Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/191c4ce38b50f0a660c3a77b9e9ea99e9c426f5d4c1eb15f3caf2238cce171fc.png"
+tag = [ "the-ginger-man",]
 local_timestamp = 2012-03-14T01:04:16Z
 
 [data]

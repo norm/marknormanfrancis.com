@@ -3,6 +3,7 @@ published = 2012-03-11T19:54:00Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/81874b12a548c23766dcd48e7667975773b3ab70dc743667eb35f2452ea7118f.png"
+tag = [ "shakespeares-pub",]
 local_timestamp = 2012-03-11T14:54:00Z
 
 [data]

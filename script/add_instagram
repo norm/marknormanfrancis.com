@@ -29,7 +29,7 @@ import boto3
 from django.utils.text import slugify
 import toml
 
-from lib import update_content
+from lib import update_content, tagify
 from lib.bucket import Bucket
 
 # two duplicates and an error
@@ -91,14 +91,16 @@ def main():
             'origin': 'instagram',
             'type': 'photo',
         }
+        tags = set()
         if 'location' in photo:
             metadata['location'] = photo['location']
+            tags.add(tagify(photo['location']))
         if text:
             metadata['text_markdown'] = text
         if caption != photo['caption']:
             metadata['original_caption'] = photo['caption']
 
-        tags = get_hashtags(photo['caption'])
+        tags = tags.union(get_hashtags(photo['caption']))
         if tags:
             metadata['tag'] = sorted(tags)
 
@@ -114,7 +116,7 @@ def get_hashtags(text):
     ignoring shorthand ordinal numbers (eg we're #1!).
     """
     tags = set(
-        slugify(word[1:].lower())
+        tagify(word[1:].lower())
         for word in text.split()
         if word.startswith('#')
     )

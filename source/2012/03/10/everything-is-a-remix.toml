@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/03/10/everything-is-a-remix.jpg"
 origin = "instagram"
 type = "photo"
 location = "SXSW Interactive"
+tag = [ "sxsw-interactive",]

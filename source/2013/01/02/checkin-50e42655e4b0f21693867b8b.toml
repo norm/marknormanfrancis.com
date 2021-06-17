@@ -3,6 +3,7 @@ published = 2013-01-02T12:21:41Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/8786cc8f23b6720448e74633ef0438050c094c88455907a329f3acd83d3f5430.png"
+tag = [ "bens-canteen",]
 
 [data]
 id = "50e42655e4b0f21693867b8b"

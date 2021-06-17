@@ -3,6 +3,7 @@ published = 2019-02-14T17:06:18Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/67986a31491fb9fbc778373f92800f59fec92c1aedd4540be532023bf279fd28.png"
+tag = [ "skylon",]
 
 [data]
 id = "5c65a00a475abd002cb3438b"

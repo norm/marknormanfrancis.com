@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/03/13/drugs.jpg"
 origin = "instagram"
 type = "photo"
 location = "CVS Pharmacy"
+tag = [ "cvs-pharmacy",]

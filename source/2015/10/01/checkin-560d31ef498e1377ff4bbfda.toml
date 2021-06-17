@@ -3,6 +3,7 @@ published = 2015-10-01T14:15:27Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/dc340d6edfcd1aa717457abc6712f0a2e9dba73ccc2979e46564edfc9543facc.png"
+tag = [ "sloane-square",]
 local_timestamp = 2015-10-01T15:15:27Z
 
 [data]

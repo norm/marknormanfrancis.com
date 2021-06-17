@@ -3,6 +3,7 @@ published = 2018-03-13T18:55:42Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/5aed0806b9074c46e7756a3e544009f85b2c62c17b77376cee764bc186b4bccd.png"
+tag = [ "benares",]
 
 [data]
 id = "5aa81eae1fa7634a7f56e9fe"

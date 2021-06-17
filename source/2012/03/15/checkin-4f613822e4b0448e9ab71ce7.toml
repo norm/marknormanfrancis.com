@@ -3,6 +3,7 @@ published = 2012-03-15T00:30:26Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/5a5981df6acb4652b455ac3e548335cb969fcec8375857685e8b5e0659c900c2.png"
+tag = [ "roppolos-pizzeria",]
 local_timestamp = 2012-03-14T19:30:26Z
 
 [data]

@@ -3,6 +3,7 @@ published = 2012-06-15T12:21:13Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/ba3839267c5ab6930a23faea017c623f86d3fad42d57f467ea07af61075b34f1.png"
+tag = [ "truckles-of-pied-bull-yard",]
 local_timestamp = 2012-06-15T13:21:13Z
 
 [data]

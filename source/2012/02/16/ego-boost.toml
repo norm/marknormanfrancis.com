@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/02/16/ego-boost.jpg"
 origin = "instagram"
 type = "photo"
 location = "British Museum"
+tag = [ "british-museum",]

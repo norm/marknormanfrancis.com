@@ -3,6 +3,7 @@ published = 2018-04-27T12:18:52Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/03e232c1c0f5a768ecdfa1f911100016cd991374369f62977e38b59dfacb1698.png"
+tag = [ "piebury-corner",]
 local_timestamp = 2018-04-27T13:18:52Z
 
 [data]

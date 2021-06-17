@@ -3,6 +3,7 @@ published = 2012-09-01T13:03:14Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/152e587fc82320d9084cbe1e87b91a200d25f9431a8fa1421f5bbd5369ed1349.png"
+tag = [ "black-blue",]
 local_timestamp = 2012-09-01T14:03:14Z
 
 [data]

@@ -3,6 +3,7 @@ published = 2011-09-19T15:14:24Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/b66373ceb83d1f7e14b6a7a9f7271c8ac0835aa6a1238487afff953d4609e76e.png"
+tag = [ "costa-coffee",]
 local_timestamp = 2011-09-19T16:14:24Z
 
 [data]

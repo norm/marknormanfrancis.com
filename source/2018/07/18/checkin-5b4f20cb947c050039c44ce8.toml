@@ -3,6 +3,7 @@ published = 2018-07-18T12:13:15Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/0529cbd4f8a8b9bbd7a9e22b09b95b48cdf971ec1ebb8599bf3d6477c854caf3.png"
+tag = [ "bar-block-steakhouse",]
 local_timestamp = 2018-07-18T13:13:15Z
 
 [data]

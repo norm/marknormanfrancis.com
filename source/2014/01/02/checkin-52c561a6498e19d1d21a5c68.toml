@@ -3,6 +3,7 @@ published = 2014-01-02T12:55:02Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/5bcedf010d1e07859572082bc1411c47fa6e9f07331b8fcbf477d79d9c01b565.png"
+tag = [ "the-chandos",]
 
 [data]
 id = "52c561a6498e19d1d21a5c68"

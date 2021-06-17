@@ -3,6 +3,7 @@ published = 2012-12-24T11:28:30Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/f8ba9b5af6241645b273683cc95d58e53ea6a4488abc33edac58885c1e984b05.png"
+tag = [ "hamleys",]
 
 [data]
 id = "50d83c5ee4b0260d1259b5f2"

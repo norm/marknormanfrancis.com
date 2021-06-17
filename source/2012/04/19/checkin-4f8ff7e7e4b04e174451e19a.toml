@@ -3,6 +3,7 @@ published = 2012-04-19T12:32:55Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/601426d38133b1dcefe1cb5a9fccd82630ac6a8bb3df2342626a60f79bf01802.png"
+tag = [ "covent-garden",]
 local_timestamp = 2012-04-19T13:32:55Z
 
 [data]

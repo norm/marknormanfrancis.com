@@ -3,6 +3,7 @@ published = 2012-07-30T10:50:48Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/40876e910e4921a2ffcfeda93cb5de22008b746a52ee44346ab27da1ba04e5fa.png"
+tag = [ "ex-ce-l-london",]
 local_timestamp = 2012-07-30T11:50:48Z
 
 [data]

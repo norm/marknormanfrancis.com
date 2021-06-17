@@ -3,6 +3,7 @@ published = 2011-06-05T18:36:10Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/7b84a711a1b922c0f9c110dead87b0be8dc8a6fc15c27dec70eab623ca49a677.png"
+tag = [ "out-of-the-blue-bar-and-kitchen",]
 local_timestamp = 2011-06-05T19:36:10Z
 
 [data]

@@ -3,6 +3,7 @@ published = 2017-11-07T12:54:02Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/0529cbd4f8a8b9bbd7a9e22b09b95b48cdf971ec1ebb8599bf3d6477c854caf3.png"
+tag = [ "bar-block-steakhouse",]
 
 [data]
 id = "5a01aceaf5e9d74e0ef7a8f4"

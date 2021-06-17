@@ -3,6 +3,7 @@ published = 2013-06-15T18:32:18Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/87d4eae95eb22da42761cdae61c8ceca15a6c24aa63207f361bac8e86d141ba2.png"
+tag = [ "elizabeth-street-vet",]
 local_timestamp = 2013-06-15T19:32:18Z
 
 [data]

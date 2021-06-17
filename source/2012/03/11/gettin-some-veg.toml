@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/03/11/gettin-some-veg.jpg"
 origin = "instagram"
 type = "photo"
 location = "Mongolian Grill"
+tag = [ "mongolian-grill",]

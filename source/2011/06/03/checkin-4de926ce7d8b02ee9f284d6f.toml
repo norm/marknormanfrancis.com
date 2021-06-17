@@ -3,6 +3,7 @@ published = 2011-06-03T19:24:14Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/b66c403a6f056bb06a4706a1863ad168d696d96811019509b5900f971018a1bc.png"
+tag = [ "the-royal-standard-pub",]
 local_timestamp = 2011-06-03T20:24:14Z
 
 [data]

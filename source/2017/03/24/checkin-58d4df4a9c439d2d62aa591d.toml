@@ -3,6 +3,7 @@ published = 2017-03-24T08:56:42Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/16bf9cf21873d3e1e44c783dc193e1d9cb7ae5c5bfba5a6f4aaf16b771a2cef7.png"
+tag = [ "15-hatfields",]
 
 [data]
 id = "58d4df4a9c439d2d62aa591d"

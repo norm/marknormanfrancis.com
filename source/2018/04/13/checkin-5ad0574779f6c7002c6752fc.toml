@@ -3,6 +3,7 @@ published = 2018-04-13T08:07:51Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/3488495a52350ee37f3336405ef2ca5d3d431bd5e7c1fc56f342091e98afabeb.png"
+tag = [ "cafe-uni-n",]
 local_timestamp = 2018-04-13T09:07:51Z
 
 [data]

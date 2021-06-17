@@ -3,6 +3,7 @@ published = 2016-08-15T12:41:07Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/d753c09418b0db8a5e406ce9a78e8a4ba55ef01d5eaf4876bd106e1e45e42737.png"
+tag = [ "tongue-brisket",]
 local_timestamp = 2016-08-15T13:41:07Z
 
 [data]

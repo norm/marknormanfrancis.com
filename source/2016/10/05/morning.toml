@@ -6,3 +6,4 @@ type = "photo"
 location = "Wandsworth Bridge"
 text_markdown = "\n\nWandsworth Bridge and the buildings on Smuggler's Way lit up by sunrise"
 original_caption = "Morning\n\nWandsworth Bridge and the buildings on Smuggler's Way lit up by sunrise"
+tag = [ "wandsworth-bridge",]

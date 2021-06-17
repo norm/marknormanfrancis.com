@@ -3,6 +3,7 @@ published = 2014-03-18T18:51:31Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/4f85308ee61d37f1bbd09387d0e5212dd6e4d08c325479cd6b39c3d223936c80.png"
+tag = [ "cafe-pacifico",]
 
 [data]
 id = "532895b3498e6eb131e25efb"

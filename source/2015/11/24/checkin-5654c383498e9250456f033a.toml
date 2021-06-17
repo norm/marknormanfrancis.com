@@ -3,6 +3,7 @@ published = 2015-11-24T20:07:31Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/5767e2a3701f64a2852ca2db918af46ee060b30689bc7d3f1e748a6fce85c23d.png"
+tag = [ "scoff-banter",]
 
 [data]
 id = "5654c383498e9250456f033a"

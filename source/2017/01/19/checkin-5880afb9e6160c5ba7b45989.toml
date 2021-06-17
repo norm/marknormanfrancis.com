@@ -3,6 +3,7 @@ published = 2017-01-19T12:23:21Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/546f2e16d5865f48fd467fd4c087428e1722f720415c067f6d6e8eb85205b47b.png"
+tag = [ "lipman-sons",]
 
 [data]
 id = "5880afb9e6160c5ba7b45989"

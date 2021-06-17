@@ -3,6 +3,7 @@ published = 2015-03-02T19:07:10Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/3a533aee1a774e684150458affc93ccb75122e68bce488fe335a65c9d5392702.png"
+tag = [ "playhouse-theatre",]
 
 [data]
 id = "54f4b4de498e317b14963c82"

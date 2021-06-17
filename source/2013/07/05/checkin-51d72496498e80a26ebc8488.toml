@@ -3,6 +3,7 @@ published = 2013-07-05T20:55:02Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/61e75902e31e1668be593c84f5716d26dae5538c609ddc879e8960e67fe653b5.png"
+tag = [ "mcdonalds",]
 local_timestamp = 2013-07-05T21:55:02Z
 
 [data]

@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2013/09/21/wartime-london-routemaster.jpg"
 origin = "instagram"
 type = "photo"
 location = "Parliament Square"
+tag = [ "parliament-square",]

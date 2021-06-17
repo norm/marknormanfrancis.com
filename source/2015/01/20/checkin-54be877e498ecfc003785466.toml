@@ -3,6 +3,7 @@ published = 2015-01-20T16:51:10Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/d2faac178eba2d97eb6767655573707b9c10e0f0a44fc2a28d79c2b8d28e06cf.png"
+tag = [ "bassoon-bar",]
 
 [data]
 id = "54be877e498ecfc003785466"

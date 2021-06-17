@@ -3,6 +3,7 @@ published = 2015-10-01T14:16:17Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/e17ecc9b13bb6e911c4af19dacd2b40fdeafa0534903b3981ad9e1787efaa853.png"
+tag = [ "the-top-floor-restaurant",]
 local_timestamp = 2015-10-01T15:16:17Z
 
 [data]

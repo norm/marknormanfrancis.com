@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 location = "Hilton London Metropole"
 original_caption = "Plausible deniability #velocityconf"
-tag = [ "velocityconf",]
+tag = [ "hilton-london-metropole", "velocityconf",]

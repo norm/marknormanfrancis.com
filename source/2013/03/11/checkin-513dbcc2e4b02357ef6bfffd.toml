@@ -3,6 +3,7 @@ published = 2013-03-11T11:15:14Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/ad133581f31dd767e92e015ab52f0e9b187a7f1775e3acba29cf3887393a6e44.png"
+tag = [ "fort-clonque",]
 
 [data]
 id = "513dbcc2e4b02357ef6bfffd"

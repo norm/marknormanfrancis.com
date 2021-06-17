@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2013/03/26/olympic-ping-pong-table.jpg"
 origin = "instagram"
 type = "photo"
 location = "Bounce"
+tag = [ "bounce",]

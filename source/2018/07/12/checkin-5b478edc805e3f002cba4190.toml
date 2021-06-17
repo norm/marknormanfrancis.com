@@ -3,6 +3,7 @@ published = 2018-07-12T18:24:44Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/02bbd6715f5bf476e3e6dfb5cf41217e3aea4646d6359dc05bbc375fbde55071.png"
+tag = [ "victoria",]
 local_timestamp = 2018-07-12T19:24:44Z
 
 [data]

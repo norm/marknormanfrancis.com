@@ -3,6 +3,7 @@ published = 2014-02-08T05:10:42Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/ec77ea15a271ff2f604ecabbf215b9831149c127d4a71d98f0c588f34a854469.png"
+tag = [ "north-terminal",]
 
 [data]
 id = "52f5bc5211d2a4ef4efbfa85"

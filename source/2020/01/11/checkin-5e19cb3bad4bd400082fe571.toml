@@ -3,6 +3,7 @@ published = 2020-01-11T13:18:51Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/5dbedf4a34e07fbead075926b4c65fdcb09efea331bca50f6dfa83d46355c3ac.png"
+tag = [ "nandos",]
 
 [data]
 id = "5e19cb3bad4bd400082fe571"

@@ -3,6 +3,7 @@ published = 2012-03-05T12:15:11Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/f35050eaa06c74ee888d6f79f363f42f7054b643af4c1c0fa97740df9a7af7f3.png"
+tag = [ "apple-covent-garden",]
 
 [data]
 id = "4f54ae4fe4b07e4c65178ad2"

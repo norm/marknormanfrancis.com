@@ -3,6 +3,7 @@ published = 2014-07-23T17:55:01Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/12535038b6658b657e5a0083948643f36f7c28319581cc1187aad189e1cc1061.png"
+tag = [ "tinseltown",]
 local_timestamp = 2014-07-23T18:55:01Z
 
 [data]

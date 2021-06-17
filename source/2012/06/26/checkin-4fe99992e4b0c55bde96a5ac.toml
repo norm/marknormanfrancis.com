@@ -3,6 +3,7 @@ published = 2012-06-26T12:14:26Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/fcfcee4eea11a1c0a2ad4fe56584edb53a53fd964b1e926e04691c354e159d61.png"
+tag = [ "british-museum",]
 local_timestamp = 2012-06-26T13:14:26Z
 
 [data]

@@ -3,6 +3,7 @@ published = 2012-05-13T17:22:59Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/e755977d2b1d3dd36b4b73db54b416138bce13c481a91c8ab09b98bb5c0fb4d7.png"
+tag = [ "bear-staff",]
 local_timestamp = 2012-05-13T18:22:59Z
 
 [data]

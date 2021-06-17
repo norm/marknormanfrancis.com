@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2013/02/28/mmm-real-food.jpg"
 origin = "instagram"
 type = "photo"
 location = "Covent Garden Market"
+tag = [ "covent-garden-market",]

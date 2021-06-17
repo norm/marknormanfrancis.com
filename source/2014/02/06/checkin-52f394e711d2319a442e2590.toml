@@ -3,6 +3,7 @@ published = 2014-02-06T13:57:59Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/5cf69f45aa0cc51e8f5ddd138205d845b73d275541688cc4f2d6b188003ea954.png"
+tag = [ "helix-restaurant",]
 
 [data]
 id = "52f394e711d2319a442e2590"

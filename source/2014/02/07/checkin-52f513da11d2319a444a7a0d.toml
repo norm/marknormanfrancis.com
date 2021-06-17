@@ -3,6 +3,7 @@ published = 2014-02-07T17:11:54Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/2295ed817cf10c8f385ce316d60c273b6e3acd5f63de9ddad7c7e1e77291b56b.png"
+tag = [ "hercules-pillars",]
 
 [data]
 id = "52f513da11d2319a444a7a0d"

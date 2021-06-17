@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2014/03/12/ouch.jpg"
 origin = "instagram"
 type = "photo"
 location = "Parliament Square"
+tag = [ "parliament-square",]

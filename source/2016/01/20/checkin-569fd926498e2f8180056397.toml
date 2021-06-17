@@ -3,6 +3,7 @@ published = 2016-01-20T18:59:50Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/ffec09cc8f87d37a3fa7cd2edf8300adece60fbc52741429cd0df78b86543592.png"
+tag = [ "english-national-opera",]
 
 [data]
 id = "569fd926498e2f8180056397"

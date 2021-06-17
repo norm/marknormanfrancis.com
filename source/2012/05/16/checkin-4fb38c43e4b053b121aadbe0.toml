@@ -3,6 +3,7 @@ published = 2012-05-16T12:15:15Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/af7d0ea8c13c536a8153ee4569efd70777056ff9db0d77b0a1b76945297e9478.png"
+tag = [ "le-pain-quotidien",]
 local_timestamp = 2012-05-16T13:15:15Z
 
 [data]

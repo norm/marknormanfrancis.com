@@ -3,6 +3,7 @@ published = 2013-10-18T12:54:09Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/1ad0b4c9d98b8835c26c65dc534f2f6618bca6e5e7ccb2a486e5fa272ee9b9b2.png"
+tag = [ "gabys-deli",]
 local_timestamp = 2013-10-18T13:54:09Z
 
 [data]

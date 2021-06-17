@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2016/01/20/le-corsaire.jpg"
 origin = "instagram"
 type = "photo"
 location = "London Coliseum"
+tag = [ "london-coliseum",]

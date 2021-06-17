@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/04/04/sunlight-on-rails.jpg"
 origin = "instagram"
 type = "photo"
 location = "Clapham Junction"
+tag = [ "clapham-junction",]

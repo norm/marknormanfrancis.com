@@ -3,6 +3,7 @@ published = 2013-06-11T07:56:00Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/73119022f94ee9c336c88346b7005db9919f46c6d97454a42d0067eda362ffd1.png"
+tag = [ "london-st-pancras-international-railway-station-stp",]
 local_timestamp = 2013-06-11T08:56:00Z
 
 [data]

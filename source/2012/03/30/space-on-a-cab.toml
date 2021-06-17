@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/03/30/space-on-a-cab.jpg"
 origin = "instagram"
 type = "photo"
 location = "Trafalgar Square"
+tag = [ "trafalgar-square",]

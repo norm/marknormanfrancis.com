@@ -3,6 +3,7 @@ published = 2012-09-07T16:14:51Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/4e493b3ce33d12ee0d073927a36143e955153f05d2d2214803b8d95b70c4c5a4.png"
+tag = [ "the-marwood",]
 local_timestamp = 2012-09-07T17:14:51Z
 
 [data]

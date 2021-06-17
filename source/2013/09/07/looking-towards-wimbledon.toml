@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2013/09/07/looking-towards-wimbledon.jpg"
 origin = "instagram"
 type = "photo"
 location = "King Georges Park"
+tag = [ "king-georges-park",]

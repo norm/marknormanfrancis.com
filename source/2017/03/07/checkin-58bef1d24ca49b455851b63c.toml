@@ -3,6 +3,7 @@ published = 2017-03-07T17:45:54Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/a679b2951946a73e76a877a291a21eedb671ae0a756619977d13e6a58003690f.png"
+tag = [ "gazette-brasserie",]
 
 [data]
 id = "58bef1d24ca49b455851b63c"

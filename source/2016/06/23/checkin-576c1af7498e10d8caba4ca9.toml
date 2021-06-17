@@ -3,6 +3,7 @@ published = 2016-06-23T18:23:03Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/0a0aedd14c27ef2d1d2f31a71c4d41540f0a21191c1177ea92cc287522dcb373.png"
+tag = [ "wagamama",]
 local_timestamp = 2016-06-23T19:23:03Z
 
 [data]

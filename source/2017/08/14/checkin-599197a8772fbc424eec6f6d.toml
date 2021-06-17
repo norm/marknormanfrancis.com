@@ -3,6 +3,7 @@ published = 2017-08-14T13:29:28Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/29f9fcb906e93c2ad1f1e1b4cbb86ae311bc553de7f35d17dc3f34e1f51e3d78.png"
+tag = [ "m-s-simply-food",]
 local_timestamp = 2017-08-14T14:29:28Z
 
 [data]

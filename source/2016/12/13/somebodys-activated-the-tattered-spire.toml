@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 location = "Embankment Pier"
 original_caption = "Somebody's activated the Tattered Spire #shard"
-tag = [ "shard",]
+tag = [ "embankment-pier", "shard",]

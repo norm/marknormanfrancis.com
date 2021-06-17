@@ -3,6 +3,7 @@ published = 2014-01-16T18:39:05Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/faa3fb1f82ebfeb394d262e8e1ea017f776d4f10cef209747f53fe2c8351be74.png"
+tag = [ "bricklayers-arms",]
 
 [data]
 id = "52d82749498ee3a62a016c4f"

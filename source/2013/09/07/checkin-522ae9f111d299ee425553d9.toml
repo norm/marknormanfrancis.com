@@ -3,6 +3,7 @@ published = 2013-09-07T09:55:13Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/3f3568be3cf9c73871f26a11533419b607e54ede07273e9bc2fbf6db577b79ab.png"
+tag = [ "king-georges-park",]
 local_timestamp = 2013-09-07T10:55:13Z
 
 [data]

@@ -3,6 +3,7 @@ published = 2014-02-08T10:03:05Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/a76364129b96a850115d43014713fea62adcc5e3e38babaa5e0deebca86d2de5.png"
+tag = [ "barcelona-el-prat-josep-tarradellas-airport-bcn-aeropuerto-josep-tarradellas-barcelona-el-prat",]
 local_timestamp = 2014-02-08T11:03:05Z
 
 [data]

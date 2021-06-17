@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/05/16/a-bowl-of-coffee.jpg"
 origin = "instagram"
 type = "photo"
 location = "Le Pain Quotidien"
+tag = [ "le-pain-quotidien",]

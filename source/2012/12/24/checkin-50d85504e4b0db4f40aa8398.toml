@@ -3,6 +3,7 @@ published = 2012-12-24T13:13:40Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/65f1367fce0619edd72b49ea3eed9feb903a093a68a054b70ba7fd616f98b432.png"
+tag = [ "despatch-box-coffee-shop",]
 
 [data]
 id = "50d85504e4b0db4f40aa8398"

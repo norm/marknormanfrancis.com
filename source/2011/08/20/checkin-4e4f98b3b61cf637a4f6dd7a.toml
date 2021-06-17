@@ -3,6 +3,7 @@ published = 2011-08-20T12:21:23Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/d8cd8174e0a1c04f676ae9dde1b70ddfd69b9df59b589d646521f2fe41afba89.png"
+tag = [ "glasgow-central-railway-station-glc",]
 local_timestamp = 2011-08-20T13:21:23Z
 
 [data]

@@ -3,6 +3,7 @@ published = 2013-10-04T23:43:43Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/ac0326e853b28f4f0aea6241939aa0644cfb893d1287cdfbcc320152512d3596.png"
+tag = [ "caledonian-sleeper-from-euston-eus-to-aberdeen-abd-inverness-inv-and-fort-william-ftw",]
 local_timestamp = 2013-10-05T00:43:43Z
 
 [data]

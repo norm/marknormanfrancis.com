@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2014/05/02/bap-pickle.jpg"
 origin = "instagram"
 type = "photo"
 location = "Smugglers Tavern"
+tag = [ "smugglers-tavern",]

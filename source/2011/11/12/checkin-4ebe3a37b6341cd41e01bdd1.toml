@@ -3,6 +3,7 @@ published = 2011-11-12T09:19:51Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/ed46ee7808fb37ae3c9074b36758fdb9efabc83aba99670817b9bcdd39a73a20.png"
+tag = [ "corporate-services-and-westminster-exchange",]
 
 [data]
 id = "4ebe3a37b6341cd41e01bdd1"

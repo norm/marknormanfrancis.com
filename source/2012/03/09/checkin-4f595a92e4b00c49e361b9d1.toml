@@ -3,6 +3,7 @@ published = 2012-03-09T01:19:14Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/c186f32aec5ecab2e82c072828442cac9a2b4ccbf8b927729b538fff3611f3b6.png"
+tag = [ "the-salt-lick",]
 local_timestamp = 2012-03-08T19:19:14Z
 
 [data]

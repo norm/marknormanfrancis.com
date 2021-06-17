@@ -3,6 +3,7 @@ published = 2016-09-22T12:55:29Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/a7378728b8e612d41eb6c459b5ca57bb5e97841b7dd953a1a5bdc66c97e1ee71.png"
+tag = [ "corinthia-hotel",]
 local_timestamp = 2016-09-22T13:55:29Z
 
 [data]

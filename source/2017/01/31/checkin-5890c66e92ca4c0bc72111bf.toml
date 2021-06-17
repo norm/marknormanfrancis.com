@@ -3,6 +3,7 @@ published = 2017-01-31T17:16:30Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/dc64d66efe2dd840be00a47e03b61bc8715d8b63060e304768b83a0d822ab2e1.png"
+tag = [ "laughing-halibut",]
 
 [data]
 id = "5890c66e92ca4c0bc72111bf"

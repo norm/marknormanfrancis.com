@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/03/12/blackened-chicken-and-gumbo.jpg"
 origin = "instagram"
 type = "photo"
 location = "Gumbo's"
+tag = [ "gumbos",]

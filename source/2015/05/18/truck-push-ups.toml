@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2015/05/18/truck-push-ups.jpg"
 origin = "instagram"
 type = "photo"
 location = "Wandsworth Roundabout"
+tag = [ "wandsworth-roundabout",]

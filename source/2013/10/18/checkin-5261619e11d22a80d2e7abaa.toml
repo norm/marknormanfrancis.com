@@ -3,6 +3,7 @@ published = 2013-10-18T17:28:14Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/66251ec47c8e78d45afae17d169c8abc893f257aadfa3609074d3a5c2662d819.png"
+tag = [ "o2",]
 local_timestamp = 2013-10-18T18:28:14Z
 
 [data]

@@ -3,7 +3,7 @@ published = 2015-11-01T18:53:01Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/a8e490b5335fe48dfd504b824130cc5a00c1fad48c4e9e0df2892a2415e02f25.png"
-tag = [ "star-trek", "concert",]
+tag = [ "royal-albert-hall", "star-trek", "concert",]
 
 [data]
 id = "56365f8dcd10c77301a48997"

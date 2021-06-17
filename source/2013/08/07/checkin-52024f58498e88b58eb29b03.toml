@@ -3,6 +3,7 @@ published = 2013-08-07T14:44:56Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/c584bb80ca3650459a2097319e66030eccccaa11eab262115c96127a64ec7fb7.png"
+tag = [ "the-centurion",]
 local_timestamp = 2013-08-07T15:44:56Z
 
 [data]

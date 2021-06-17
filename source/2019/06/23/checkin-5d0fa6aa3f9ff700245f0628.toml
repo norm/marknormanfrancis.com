@@ -3,6 +3,7 @@ published = 2019-06-23T17:19:54Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/e7aebead978441f3e1e5eadf3b337781138772f66554fb16fca676a927cb159c.png"
+tag = [ "accident-and-emergency",]
 local_timestamp = 2019-06-23T18:19:54Z
 
 [data]

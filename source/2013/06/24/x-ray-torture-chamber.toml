@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2013/06/24/x-ray-torture-chamber.jpg"
 origin = "instagram"
 type = "photo"
 location = "St. George's Hospital"
+tag = [ "st-georges-hospital",]

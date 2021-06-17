@@ -3,6 +3,7 @@ published = 2013-11-11T09:50:46Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/052283219aa76167e96d8188ef34a1486f57e927900bdf64b9a370f980add8a6.png"
+tag = [ "hilton",]
 
 [data]
 id = "5280a876498ed54997800179"

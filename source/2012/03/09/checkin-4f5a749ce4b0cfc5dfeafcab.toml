@@ -3,6 +3,7 @@ published = 2012-03-09T21:22:36Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/a6b0e1eafa28250fb71b3964b76a4d0d352ae0361b27c634087c5b2f0a053ced.png"
+tag = [ "acc-ballroom-f",]
 local_timestamp = 2012-03-09T15:22:36Z
 
 [data]

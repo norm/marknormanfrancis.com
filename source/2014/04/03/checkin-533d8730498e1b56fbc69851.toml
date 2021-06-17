@@ -3,6 +3,7 @@ published = 2014-04-03T17:07:12Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/c8dee0abe0ea28c610272d40773327fcc53ff54955691321a2c69562c44e479a.png"
+tag = [ "hawksmoor-air-street",]
 local_timestamp = 2014-04-03T18:07:12Z
 
 [data]

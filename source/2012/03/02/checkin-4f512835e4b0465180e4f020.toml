@@ -3,6 +3,7 @@ published = 2012-03-02T20:06:13Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/17784ede46faac81ffbe52e00361984db2a84a08fc249f887a21b5cf530d1401.png"
+tag = [ "mint-leaf",]
 
 [data]
 id = "4f512835e4b0465180e4f020"

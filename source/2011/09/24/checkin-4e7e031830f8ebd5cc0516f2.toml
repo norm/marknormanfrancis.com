@@ -3,6 +3,7 @@ published = 2011-09-24T17:19:36Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/0d092f19ca48b8d3878ddc88539080c4f3402fcd4c5fa7b59794c610db26f29a.png"
+tag = [ "the-green-man",]
 local_timestamp = 2011-09-24T18:19:36Z
 
 [data]

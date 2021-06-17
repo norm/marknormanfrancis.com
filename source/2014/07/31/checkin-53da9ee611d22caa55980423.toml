@@ -3,6 +3,7 @@ published = 2014-07-31T20:54:14Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/36005611e5dacafd4521669e5d5a8942771cc5b556824f9178c953333202ee33.png"
+tag = [ "fleming-court",]
 local_timestamp = 2014-07-31T21:54:14Z
 
 [data]

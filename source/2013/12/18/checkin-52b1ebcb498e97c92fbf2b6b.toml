@@ -3,6 +3,7 @@ published = 2013-12-18T18:39:07Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/a1a7c0b9c15a7428ebe2f3c2c45cb82d1eda1ed37790ae7a9c368dd382df1fb4.png"
+tag = [ "rowans-tenpin-bowl",]
 
 [data]
 id = "52b1ebcb498e97c92fbf2b6b"

@@ -3,6 +3,7 @@ published = 2019-08-13T17:31:58Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/c10d9538892ff16616e9f0b4d6720fed07c8ac4619051225d77b83878949f238.png"
+tag = [ "heineken-green-room",]
 local_timestamp = 2019-08-13T18:31:58Z
 
 [data]

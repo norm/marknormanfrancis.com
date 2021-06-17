@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2016/05/28/albert.jpg"
 origin = "instagram"
 type = "photo"
 location = "Albert Memorial"
+tag = [ "albert-memorial",]

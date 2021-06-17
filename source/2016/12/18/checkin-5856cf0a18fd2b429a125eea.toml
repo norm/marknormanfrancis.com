@@ -3,7 +3,7 @@ published = 2016-12-18T18:01:46Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/73f87c095441f6f7c4ef7036332b1b78bbb147dd7b071252b387a627f04e57e7.png"
-tag = [ "tomb-raider-live-in-concert", "concert",]
+tag = [ "eventim-apollo", "tomb-raider-live-in-concert", "concert",]
 
 [data]
 id = "5856cf0a18fd2b429a125eea"

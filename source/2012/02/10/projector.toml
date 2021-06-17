@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/02/10/projector.jpg"
 origin = "instagram"
 type = "photo"
 location = "Cineworld Wandsworth"
+tag = [ "cineworld-wandsworth",]

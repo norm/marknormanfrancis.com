@@ -3,6 +3,7 @@ published = 2012-06-19T12:35:08Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/8608d76585ccd76599f4559c3edf2b9ba45294c6662520a31913c7fa3476f0be.png"
+tag = [ "hm-treasury",]
 local_timestamp = 2012-06-19T13:35:08Z
 
 [data]

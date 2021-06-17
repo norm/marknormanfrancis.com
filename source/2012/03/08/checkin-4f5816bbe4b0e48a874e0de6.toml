@@ -3,6 +3,7 @@ published = 2012-03-08T02:17:31Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/f8dad35778f5b5b72e95200dcbbd874016069288e134534092eca1ee8aa83404.png"
+tag = [ "stubbs-bar-b-q",]
 local_timestamp = 2012-03-07T20:17:31Z
 
 [data]

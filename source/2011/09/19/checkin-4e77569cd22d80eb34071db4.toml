@@ -3,6 +3,7 @@ published = 2011-09-19T15:50:04Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/1dd1af2421c5dccd68e4e93d06374e0258f08ba235d6ef25251d4e5dc0616c89.png"
+tag = [ "cineworld",]
 local_timestamp = 2011-09-19T16:50:04Z
 
 [data]

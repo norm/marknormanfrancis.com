@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2010/11/18/kebab-shop.jpg"
 origin = "instagram"
 type = "photo"
 location = "Kebab Feast"
+tag = [ "kebab-feast",]

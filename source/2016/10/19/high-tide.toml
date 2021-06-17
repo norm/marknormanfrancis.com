@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2016/10/19/high-tide.jpg"
 origin = "instagram"
 type = "photo"
 location = "Albert Bridge"
+tag = [ "albert-bridge",]

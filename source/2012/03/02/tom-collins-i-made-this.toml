@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/03/02/tom-collins-i-made-this.jpg"
 origin = "instagram"
 type = "photo"
 location = "Mint Leaf Restaurant"
+tag = [ "mint-leaf-restaurant",]

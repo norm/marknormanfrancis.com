@@ -3,6 +3,7 @@ published = 2017-02-08T12:48:35Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/0e3c0f7835135a73ed70574f0a98cfbf7d79e30cbec8c24f06f6998b158614d5.png"
+tag = [ "kimchee",]
 
 [data]
 id = "589b13a3375c4a6163958bef"

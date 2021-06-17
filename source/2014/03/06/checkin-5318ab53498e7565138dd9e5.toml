@@ -3,6 +3,7 @@ published = 2014-03-06T17:07:31Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/b678c239274b655fd52ea000c56cf110133260c45963156690646c7fb50534cc.png"
+tag = [ "all-creatures",]
 
 [data]
 id = "5318ab53498e7565138dd9e5"

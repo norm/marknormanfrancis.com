@@ -3,6 +3,7 @@ published = 2011-09-29T19:00:30Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/ca8b569c2552c19c12b511d59e05ddc5f7207ae1e926f9d01889a06911ed27e1.png"
+tag = [ "the-old-crown",]
 local_timestamp = 2011-09-29T20:00:30Z
 
 [data]

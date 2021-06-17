@@ -3,6 +3,7 @@ published = 2012-10-19T17:11:43Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/2e79808d29cdef05f92391f17acc138be23de4366c90ea7a205692cf47445517.png"
+tag = [ "old-nick",]
 local_timestamp = 2012-10-19T18:11:43Z
 
 [data]

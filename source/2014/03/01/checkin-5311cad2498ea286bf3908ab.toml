@@ -3,6 +3,7 @@ published = 2014-03-01T11:56:02Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/5dab94f133d6bb8f7303d392e03eac1f60aa93a8503796580fa62684b42ceef3.png"
+tag = [ "panchos-salsa-bistro-bar",]
 
 [data]
 id = "5311cad2498ea286bf3908ab"

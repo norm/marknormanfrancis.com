@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2014/01/17/eggs-piglet-pulled-pork.jpg"
 origin = "instagram"
 type = "photo"
 location = "The Diner"
+tag = [ "the-diner",]

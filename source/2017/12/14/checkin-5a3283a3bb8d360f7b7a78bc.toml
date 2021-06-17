@@ -3,6 +3,7 @@ published = 2017-12-14T13:58:59Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca76b9d411cb172ec6e.png"
+tag = [ "vue",]
 
 [data]
 id = "5a3283a3bb8d360f7b7a78bc"

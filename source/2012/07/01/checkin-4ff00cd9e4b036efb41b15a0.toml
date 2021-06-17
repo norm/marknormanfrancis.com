@@ -3,6 +3,7 @@ published = 2012-07-01T09:39:53Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/ef8e97180676275f200c127814bb55ed6c44fd6e7c7db6e65f7f8b83edee0cc8.png"
+tag = [ "st-johns-church",]
 photos = [ "https://mnf.m17s.net/2012/07/01/checkin-4ff00cd9e4b036efb41b15a0-0.jpg",]
 local_timestamp = 2012-07-01T10:39:53Z
 

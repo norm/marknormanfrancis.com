@@ -3,6 +3,7 @@ published = 2013-09-04T17:17:47Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/02abe0b1856dad6e8cdfa20539a965f65483d0946bce15cb9986176ab78fa6f9.png"
+tag = [ "ship-tavern",]
 local_timestamp = 2013-09-04T18:17:47Z
 
 [data]

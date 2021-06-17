@@ -3,6 +3,7 @@ published = 2012-07-26T18:51:50Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/24a170fe75cb49128e93fef5ea26f23b693077cc809df25c9d864c28e3758192.png"
+tag = [ "lincolns-inn-fields",]
 local_timestamp = 2012-07-26T19:51:50Z
 
 [data]

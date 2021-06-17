@@ -3,6 +3,7 @@ published = 2015-11-24T16:43:46Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/b60b60fcbe79223d3d0af7af35f05e3100189310815d7c106a01d174f7913fe4.png"
+tag = [ "metal-box-factory",]
 
 [data]
 id = "565493c2498ec0482dd68691"

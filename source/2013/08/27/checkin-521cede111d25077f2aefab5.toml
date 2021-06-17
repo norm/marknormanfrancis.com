@@ -3,6 +3,7 @@ published = 2013-08-27T19:20:17Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/ca80efa8822878518f8faf8d173f71ac74e1480e22a3bdea25c9123850e8c852.png"
+tag = [ "pitt-cue-co",]
 local_timestamp = 2013-08-27T20:20:17Z
 
 [data]

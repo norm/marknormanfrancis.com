@@ -3,6 +3,7 @@ published = 2019-12-21T19:42:43Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/1f3a74ef4e820ff3234c6128bfbc32c117aa3d29831689462cb2cf9623da4894.png"
+tag = [ "the-frog-covent-garden",]
 
 [data]
 id = "5dfe75b3d70dc10007a4899a"

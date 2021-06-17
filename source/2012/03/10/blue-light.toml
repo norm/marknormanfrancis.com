@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 location = "SXSW Interactive"
 original_caption = "Blue light #notjosswhedon"
-tag = [ "notjosswhedon",]
+tag = [ "not-joss-whedon", "sxsw-interactive",]

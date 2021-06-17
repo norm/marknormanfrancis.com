@@ -3,6 +3,7 @@ published = 2018-04-24T18:55:08Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/628b965745668eee9f251e3267b614fe0c156a4b104445e7708a7042019dbc7a.png"
+tag = [ "goodman-steak-house-restaurant",]
 local_timestamp = 2018-04-24T19:55:08Z
 
 [data]

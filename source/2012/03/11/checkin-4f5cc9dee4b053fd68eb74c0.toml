@@ -3,7 +3,7 @@ published = 2012-03-11T15:50:54Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/57dbae2739ef57dbdde1375e187d0fc517ccd58195b9f8befc3365d1304416d1.png"
-tag = [ "a-conversation-with-seth-macfarlane",]
+tag = [ "vimeo-theater", "a-conversation-with-seth-macfarlane", "seth-macfarlane",]
 local_timestamp = 2012-03-11T10:50:54Z
 
 [data]

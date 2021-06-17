@@ -3,6 +3,7 @@ published = 2015-02-03T17:24:06Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/1f786e97d9dc8d927ae22a096aea4a9a4f426f35a586d624e97059a5689cc2a2.png"
+tag = [ "dishoom",]
 
 [data]
 id = "54d10436498e4f87435b6460"

@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/09/21/full-english-modified.jpg"
 origin = "instagram"
 type = "photo"
 location = "Becks Cafe"
+tag = [ "becks-cafe",]

@@ -3,6 +3,7 @@ published = 2011-10-18T18:55:15Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/4e4d3d51cafbf6bd74079ad225013092b33e76d604e647a2e0505c110eb519e0.png"
+tag = [ "forward-internet-group",]
 local_timestamp = 2011-10-18T19:55:15Z
 
 [data]

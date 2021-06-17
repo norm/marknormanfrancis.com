@@ -3,6 +3,7 @@ published = 2011-10-13T18:11:21Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/253876d6ec969787e738b4272205ef8267af4eed8a00f259f48c2f762be66087.png"
+tag = [ "duke-of-york",]
 local_timestamp = 2011-10-13T19:11:21Z
 
 [data]

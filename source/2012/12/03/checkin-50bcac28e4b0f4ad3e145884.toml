@@ -3,6 +3,7 @@ published = 2012-12-03T13:42:00Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/04f896b00f73faf748909e18b38f5a302f3659e4ca2e4a6f4093f4be34f82145.png"
+tag = [ "eds-easy-diner",]
 
 [data]
 id = "50bcac28e4b0f4ad3e145884"

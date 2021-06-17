@@ -3,6 +3,7 @@ published = 2012-03-10T03:56:09Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/1bdadc029ad36e109140c2d2a876c46240b3493494da26f8dcfc3ddce5d387da.png"
+tag = [ "iron-cactus-mexican-restaurant-and-margarita-bar",]
 local_timestamp = 2012-03-09T21:56:09Z
 
 [data]

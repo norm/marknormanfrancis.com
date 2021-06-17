@@ -3,6 +3,7 @@ published = 2016-05-25T12:26:19Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/d5c772f4cbd02d27cef69b649f875ddb397c3bc042bf6d1329872572f5d3bef2.png"
+tag = [ "olleys",]
 local_timestamp = 2016-05-25T13:26:19Z
 
 [data]

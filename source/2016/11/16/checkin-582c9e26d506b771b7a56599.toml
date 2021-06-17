@@ -3,6 +3,7 @@ published = 2016-11-16T17:57:58Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/61e75902e31e1668be593c84f5716d26dae5538c609ddc879e8960e67fe653b5.png"
+tag = [ "mcdonalds",]
 
 [data]
 id = "582c9e26d506b771b7a56599"

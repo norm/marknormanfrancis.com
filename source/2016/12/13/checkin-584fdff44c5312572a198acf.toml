@@ -3,6 +3,7 @@ published = 2016-12-13T11:48:04Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/abef63d906eff21e8a0c6beee92d5dcc76c65eeaf0bf96d589c93db8b1b505fd.png"
+tag = [ "doddle",]
 
 [data]
 id = "584fdff44c5312572a198acf"

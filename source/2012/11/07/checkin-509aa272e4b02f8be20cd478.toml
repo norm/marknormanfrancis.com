@@ -3,7 +3,7 @@ published = 2012-11-07T18:03:30Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca76b9d411cb172ec6e.png"
-tag = [ "skyfall", "movie",]
+tag = [ "vue", "skyfall", "movie",]
 
 [data]
 id = "509aa272e4b02f8be20cd478"

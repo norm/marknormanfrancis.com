@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 location = "The Money Advice Service"
 original_caption = "Explaining git rebase #whiteboard"
-tag = [ "whiteboard",]
+tag = [ "the-money-advice-service", "whiteboard",]

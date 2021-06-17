@@ -3,6 +3,7 @@ published = 2015-08-13T13:16:04Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/ccc95e7d904a73fa0050af8c069ba9757d9bd52975d1e5fc93607705c57721c6.png"
+tag = [ "byron",]
 local_timestamp = 2015-08-13T14:16:04Z
 
 [data]

@@ -3,6 +3,7 @@ published = 2019-05-04T10:14:24Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/7ac3f8b08105adc2fd95c13b06ea19650e2563301d19625e7b0f19aa33b49264.png"
+tag = [ "st-marys-church",]
 local_timestamp = 2019-05-04T11:14:24Z
 
 [data]

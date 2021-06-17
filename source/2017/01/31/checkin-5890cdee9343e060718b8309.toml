@@ -3,6 +3,7 @@ published = 2017-01-31T17:48:30Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/cc475fbabe71af1c08f62e076a6088fe5ac387564a9395357903526e3966be6b.png"
+tag = [ "channel-4",]
 
 [data]
 id = "5890cdee9343e060718b8309"

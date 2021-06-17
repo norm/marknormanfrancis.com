@@ -3,7 +3,7 @@ published = 2019-12-11T19:41:17Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca76b9d411cb172ec6e.png"
-tag = [ "frozen-ii", "movie",]
+tag = [ "vue", "frozen-ii", "movie",]
 
 [data]
 id = "5df1465d4061f4000814a623"

@@ -5,3 +5,4 @@ origin = "instagram"
 type = "photo"
 location = "Metal Box Factory"
 original_caption = "Meeting room TV and bookcase "
+tag = [ "metal-box-factory",]

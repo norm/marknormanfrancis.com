@@ -3,6 +3,7 @@ published = 2012-03-10T00:23:46Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/b4aaa8fa8ea1b6f85be61f46546fa5ef1738c01f9ab71905a7dada69fe52aec1.png"
+tag = [ "moonshine-patio-bar-grill",]
 local_timestamp = 2012-03-09T18:23:46Z
 
 [data]

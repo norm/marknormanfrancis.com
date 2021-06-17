@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/01/21/in-a-glass-of-its-own.jpg"
 origin = "instagram"
 type = "photo"
 location = "Ben's Canteen"
+tag = [ "bens-canteen",]

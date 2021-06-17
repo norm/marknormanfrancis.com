@@ -3,6 +3,7 @@ published = 2016-07-08T12:52:20Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/7523ecad772cd02539b12bf5d96206b7c3227b802393f56a1da2d6e265945521.png"
+tag = [ "st-jamess-park",]
 local_timestamp = 2016-07-08T13:52:20Z
 
 [data]

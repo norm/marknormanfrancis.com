@@ -6,3 +6,4 @@ type = "photo"
 location = "Coopers Sandwich Bar"
 text_markdown = "\n\nAny new place I work means a search for a good sandwich place to get breakfast. This one's okay."
 original_caption = "Morning\n\nAny new place I work means a search for a good sandwich place to get breakfast. This one's okay."
+tag = [ "coopers-sandwich-bar",]

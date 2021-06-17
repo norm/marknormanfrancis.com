@@ -3,6 +3,7 @@ published = 2012-03-10T16:39:10Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/91e6889c809e7819b6bd26fe2ef94ba75773f67c64e06673e7e0da39d5dfa104.png"
+tag = [ "acc-room-18abcd",]
 local_timestamp = 2012-03-10T10:39:10Z
 
 [data]

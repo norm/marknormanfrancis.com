@@ -3,6 +3,7 @@ published = 2014-02-22T07:42:24Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/b19391f722c25c8c3de86616304800fc392b6967e61c4427428f990eb09cf312.png"
+tag = [ "london-euston-railway-station-eus",]
 
 [data]
 id = "530854e0498efa428a386aba"

@@ -3,6 +3,7 @@ published = 2012-03-19T23:18:45Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/64d5ed473a582756a5bd5eca1c51da5cb4b00778d274084f5f12d9f615ae821e.png"
+tag = [ "gate-e7",]
 local_timestamp = 2012-03-19T18:18:45Z
 
 [data]

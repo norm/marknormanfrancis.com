@@ -6,3 +6,4 @@ type = "photo"
 location = "Inner Temple"
 text_markdown = "\n\nPlease do not leave rubbish here"
 original_caption = "Morning\n\nPlease do not leave rubbish here"
+tag = [ "inner-temple",]

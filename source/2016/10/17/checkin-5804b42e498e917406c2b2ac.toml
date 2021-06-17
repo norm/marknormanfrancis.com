@@ -3,6 +3,7 @@ published = 2016-10-17T12:21:18Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/6829a95dc22ba6fa8365b93a65bc34c3a97f7d1d615c8789f0538e6da608e5ec.png"
+tag = [ "wasabi",]
 local_timestamp = 2016-10-17T13:21:18Z
 
 [data]

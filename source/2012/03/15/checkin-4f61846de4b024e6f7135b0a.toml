@@ -3,6 +3,7 @@ published = 2012-03-15T05:55:57Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/e8d3bfaaefc3f338ac75a5e185bb82f86341a02dcfebe817ce857c6646065fff.png"
+tag = [ "austin-city-limits-live",]
 local_timestamp = 2012-03-15T00:55:57Z
 
 [data]

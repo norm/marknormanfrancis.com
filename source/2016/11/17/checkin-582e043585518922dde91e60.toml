@@ -3,6 +3,7 @@ published = 2016-11-17T19:25:41Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/86493da2efeae3b0c79cbe427cd96859bcf2ef4d5544ac1edd363642ee10587b.png"
+tag = [ "icco",]
 
 [data]
 id = "582e043585518922dde91e60"

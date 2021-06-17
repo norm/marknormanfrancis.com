@@ -3,6 +3,7 @@ published = 2013-11-11T09:04:31Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/7f63ef1a6a67f512a51859f4fd6f1b29a5936afbb66d7d180e62c25081dcee0f.png"
+tag = [ "east-putney-london-underground-station",]
 
 [data]
 id = "52809d9f11d28e425d6452ec"

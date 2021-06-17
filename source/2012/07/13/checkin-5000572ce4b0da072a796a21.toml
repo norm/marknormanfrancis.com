@@ -3,6 +3,7 @@ published = 2012-07-13T18:13:16Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/1018bc5f216176a4c7b7fe1c4c140cafe2924a70c64cd6345a43d5d424844cba.png"
+tag = [ "holborn-whippet",]
 local_timestamp = 2012-07-13T19:13:16Z
 
 [data]

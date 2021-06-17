@@ -3,6 +3,7 @@ published = 2017-03-02T17:19:49Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/7b784da25ce0e025b6bb293fb9135071ac7844bbe86fb945218e860e5d52e89c.png"
+tag = [ "st-george-wharf-pier",]
 
 [data]
 id = "58b85435d8b0ed0cd9fafd38"

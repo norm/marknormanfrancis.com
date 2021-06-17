@@ -3,6 +3,7 @@ published = 2011-07-26T13:01:50Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/fa35591ad106b37221929004ac47ab20f2e6abec5f175e58d38f0b1c278ef662.png"
+tag = [ "big-ben-elizabeth-tower",]
 local_timestamp = 2011-07-26T14:01:50Z
 
 [data]

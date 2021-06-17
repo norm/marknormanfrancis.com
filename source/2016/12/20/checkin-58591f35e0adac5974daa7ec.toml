@@ -3,6 +3,7 @@ published = 2016-12-20T12:08:21Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/2c4cfe60dc584f81daaf5a4b15aafa2c16b7a82f1b28566ed6c21a9d946100c6.png"
+tag = [ "the-inn-of-court",]
 
 [data]
 id = "58591f35e0adac5974daa7ec"

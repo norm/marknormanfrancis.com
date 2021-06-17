@@ -3,6 +3,7 @@ published = 2011-11-14T18:43:09Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/34ec8f228d47e36c19744bc093ce8664077dec3bdd9b090b41656c916b9fc5a5.png"
+tag = [ "shooting-star",]
 
 [data]
 id = "4ec1613d775b98876ee0ed09"

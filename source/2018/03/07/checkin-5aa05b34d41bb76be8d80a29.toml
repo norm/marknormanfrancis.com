@@ -3,6 +3,7 @@ published = 2018-03-07T21:35:48Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/e643e9b7b392dfc1b384818615f11b549c28d2c1ecc02787d22451c15106f58e.png"
+tag = [ "kebab-feast",]
 
 [data]
 id = "5aa05b34d41bb76be8d80a29"

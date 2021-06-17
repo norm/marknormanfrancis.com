@@ -3,6 +3,7 @@ published = 2016-10-27T08:50:25Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/e7f4f691cdefa9977657e53f2e0d7119d5e3b4517b0c2713c1f9ab9ae69045fe.png"
+tag = [ "etc-venues",]
 local_timestamp = 2016-10-27T09:50:25Z
 
 [data]

@@ -3,6 +3,7 @@ published = 2013-02-02T16:22:29Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/48ebaba133387b65669bdc0e507896a9e066071bdcbc27318dde75b8f1ff4b44.png"
+tag = [ "peter-jones-partners",]
 
 [data]
 id = "510d3d45e4b0e2f9392e2c9f"

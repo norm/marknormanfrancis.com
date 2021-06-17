@@ -3,6 +3,7 @@ published = 2013-09-23T10:30:46Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/8001be0a9d69c86d94a645c9601e0acf733d2a63205f47b19792ff364ca32e8b.png"
+tag = [ "london-kings-cross-railway-station-kgx",]
 local_timestamp = 2013-09-23T11:30:46Z
 
 [data]

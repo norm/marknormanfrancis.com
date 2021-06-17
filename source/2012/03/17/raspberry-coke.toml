@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2012/03/17/raspberry-coke.jpg"
 origin = "instagram"
 type = "photo"
 location = "Schlotzsky's"
+tag = [ "schlotzskys",]

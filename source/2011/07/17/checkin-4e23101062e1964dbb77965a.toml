@@ -3,6 +3,7 @@ published = 2011-07-17T17:38:40Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/0ac345fa6449b0004af37eed8578b9182091533a79d1a29b711b0e95d6284ccc.png"
+tag = [ "mohawk-spur-steak-grill",]
 local_timestamp = 2011-07-17T18:38:40Z
 
 [data]

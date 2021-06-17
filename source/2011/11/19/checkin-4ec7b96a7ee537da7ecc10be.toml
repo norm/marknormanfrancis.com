@@ -3,6 +3,7 @@ published = 2011-11-19T14:12:58Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/ad0796bd9d45d9e3676d845a05e7297c8af2a5325a9b6b24c0bf7e0fa7eb141e.png"
+tag = [ "st-thomas-hospital",]
 
 [data]
 id = "4ec7b96a7ee537da7ecc10be"

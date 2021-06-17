@@ -3,6 +3,7 @@ published = 2016-12-22T12:10:46Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/9d57577f2d16de6539556f9049d5493940f85ba958013cd05c549330a4feda69.png"
+tag = [ "clerk-and-well",]
 
 [data]
 id = "585bc2c688641b2d92d4cff1"

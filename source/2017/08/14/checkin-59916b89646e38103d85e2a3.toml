@@ -3,7 +3,7 @@ published = 2017-08-14T10:21:13Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca76b9d411cb172ec6e.png"
-tag = [ "spider-man-homecoming", "movie",]
+tag = [ "vue", "spider-man-homecoming", "movie",]
 local_timestamp = 2017-08-14T11:21:13Z
 
 [data]

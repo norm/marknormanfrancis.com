@@ -3,6 +3,7 @@ published = 2020-01-17T14:28:35Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/d26ec0a6e580e8799402664859b6ddafb5b10a0839dc823ab0e615772ef5959e.png"
+tag = [ "you-tube-space-london",]
 
 [data]
 id = "5e21c4935e6db40007d68e82"

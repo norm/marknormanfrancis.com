@@ -3,6 +3,7 @@ published = 2017-04-13T18:36:37Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/31b17d6917da57ad2a492feeb81bca8917174fef95fa25c4fa18f413fc337e65.png"
+tag = [ "the-craft-beer-co",]
 local_timestamp = 2017-04-13T19:36:37Z
 
 [data]

@@ -3,6 +3,7 @@ published = 2012-03-12T18:51:31Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/2e336e1dd2fbcab4fb5086820b48345090950f97d735e986fa5f349bbc8798a4.png"
+tag = [ "gumbos-louisiana-style-cafe",]
 local_timestamp = 2012-03-12T13:51:31Z
 
 [data]

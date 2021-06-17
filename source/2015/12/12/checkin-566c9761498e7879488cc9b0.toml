@@ -3,6 +3,7 @@ published = 2015-12-12T21:53:37Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/5f28327b1fab10184952392ff2b5696d043ead6d4142683467553924d090573d.png"
+tag = [ "west-byfleet-social-club",]
 
 [data]
 id = "566c9761498e7879488cc9b0"

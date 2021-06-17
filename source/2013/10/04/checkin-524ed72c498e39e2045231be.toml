@@ -3,6 +3,7 @@ published = 2013-10-04T15:56:44Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/79483b792592f1b35b8c69d5c76e7b5fd6827de8d604bb633e9d1fa99f008e2f.png"
+tag = [ "new-row-coffee",]
 local_timestamp = 2013-10-04T16:56:44Z
 
 [data]

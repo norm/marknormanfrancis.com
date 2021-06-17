@@ -3,6 +3,7 @@ published = 2012-12-31T18:45:50Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/4e9d9705305da99fbd0f90215f78c5d074fc8fbefee6d3039436f2d2259b1c23.png"
+tag = [ "kittens-with-jetpacks-hq",]
 
 [data]
 id = "50e1dd5ee4b05f45a8b0804d"

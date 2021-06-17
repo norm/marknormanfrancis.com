@@ -3,6 +3,7 @@ published = 2014-06-23T09:46:04Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/b678c239274b655fd52ea000c56cf110133260c45963156690646c7fb50534cc.png"
+tag = [ "all-creatures",]
 local_timestamp = 2014-06-23T10:46:04Z
 
 [data]

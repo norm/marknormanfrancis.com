@@ -3,6 +3,7 @@ published = 2017-02-24T17:00:38Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/6850c4ac4273f394de9861df319ecb6bbeedb1b30dc770223b585f8e361ddfc7.png"
+tag = [ "draft-house-chancery",]
 
 [data]
 id = "58b066b651d19e71e18a4943"

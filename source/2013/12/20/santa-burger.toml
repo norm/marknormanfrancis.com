@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2013/12/20/santa-burger.jpg"
 origin = "instagram"
 type = "photo"
 location = "The Diner"
+tag = [ "the-diner",]

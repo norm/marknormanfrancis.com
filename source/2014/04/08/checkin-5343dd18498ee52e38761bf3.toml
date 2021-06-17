@@ -3,6 +3,7 @@ published = 2014-04-08T12:27:20Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/dd033b60f7246d6a784f6d3f0a733437c0f5853754790f0ffb9ffa5f3cc66bd2.png"
+tag = [ "african-kitchen-gallery",]
 local_timestamp = 2014-04-08T13:27:20Z
 
 [data]

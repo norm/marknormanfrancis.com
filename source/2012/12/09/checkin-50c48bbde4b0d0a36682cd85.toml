@@ -3,6 +3,7 @@ published = 2012-12-09T13:01:49Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/e488b76c44f2820852668d9dba649dd8222ff3bc2fd29d575587961ffe12250a.png"
+tag = [ "library-bar",]
 
 [data]
 id = "50c48bbde4b0d0a36682cd85"

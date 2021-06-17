@@ -3,6 +3,7 @@ published = 2012-12-09T13:40:45Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/af2490e321ca05d0821b6a27a383525df591add4115e599b4e784fa64cf4630b.png"
+tag = [ "apsleys",]
 
 [data]
 id = "50c494dde4b0a6a64fcd39b9"

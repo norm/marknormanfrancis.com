@@ -3,6 +3,7 @@ published = 2012-08-14T17:37:13Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/bd03f301d3689afee56af30f5ef42aed6a1c8d829f7f272f6bcc6cc2a662452c.png"
+tag = [ "st-john-bar-and-restaurant",]
 local_timestamp = 2012-08-14T18:37:13Z
 
 [data]

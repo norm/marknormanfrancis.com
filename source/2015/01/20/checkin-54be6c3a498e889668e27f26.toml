@@ -3,6 +3,7 @@ published = 2015-01-20T14:54:50Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/d35608c9c6e75e7fefca622aef52d080e8fcadeb29d5b00958b950758bab92a9.png"
+tag = [ "natural-history-museum",]
 
 [data]
 id = "54be6c3a498e889668e27f26"

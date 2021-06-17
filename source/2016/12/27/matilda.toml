@@ -4,3 +4,4 @@ image = "https://mnf.m17s.net/2016/12/27/matilda.jpg"
 origin = "instagram"
 type = "photo"
 location = "Cambridge Theatre"
+tag = [ "cambridge-theatre",]
