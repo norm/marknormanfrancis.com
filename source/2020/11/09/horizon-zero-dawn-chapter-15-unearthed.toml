@@ -10,6 +10,31 @@ views = "15"
 likes = "0"
 dislikes = "0"
 comments = "0"
-thumbnail = "https://i.ytimg.com/vi/j2KuYSTBqPM/maxresdefault.jpg"
 tag = [ "horizon-zero-dawn", "game-shows",]
 theme = "game-shows"
+video_title = "Horizon Zero Dawn — Chapter 15 — Unearthed"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/j2KuYSTBqPM/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/j2KuYSTBqPM/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/j2KuYSTBqPM/hqdefault.jpg"
+width = 480
+height = 360
+
+[thumbnails.standard]
+url = "https://i.ytimg.com/vi/j2KuYSTBqPM/sddefault.jpg"
+width = 640
+height = 480
+
+[thumbnails.maxres]
+url = "https://i.ytimg.com/vi/j2KuYSTBqPM/maxresdefault.jpg"
+width = 1280
+height = 720

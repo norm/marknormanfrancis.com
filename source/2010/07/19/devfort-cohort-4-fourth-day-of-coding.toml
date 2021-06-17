@@ -10,5 +10,20 @@ views = "268"
 likes = "1"
 dislikes = "2"
 comments = "0"
-thumbnail = "https://i.ytimg.com/vi/sYkxaCQ9Fp8/default.jpg"
 tag = [ "devfort", "devfort-4",]
+video_title = "/dev/fort: cohort 4, fourth day of coding"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/sYkxaCQ9Fp8/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/sYkxaCQ9Fp8/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/sYkxaCQ9Fp8/hqdefault.jpg"
+width = 480
+height = 360

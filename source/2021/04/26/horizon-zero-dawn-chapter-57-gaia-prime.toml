@@ -13,3 +13,29 @@ dislikes = "0"
 comments = "1"
 tag = [ "horizon-zero-dawn", "game-shows",]
 theme = "game-shows"
+video_title = "Horizon Zero Dawn — Chapter 57 — Gaia Prime"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/CDzOQXYNo9k/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/CDzOQXYNo9k/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/CDzOQXYNo9k/hqdefault.jpg"
+width = 480
+height = 360
+
+[thumbnails.standard]
+url = "https://i.ytimg.com/vi/CDzOQXYNo9k/sddefault.jpg"
+width = 640
+height = 480
+
+[thumbnails.maxres]
+url = "https://i.ytimg.com/vi/CDzOQXYNo9k/maxresdefault.jpg"
+width = 1280
+height = 720

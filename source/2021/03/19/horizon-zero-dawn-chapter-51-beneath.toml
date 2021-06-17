@@ -1,5 +1,4 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 51 — Beneath”"
-thumbnail = "https://i.ytimg.com/vi/GDdqcZYowGk/maxresdefault.jpg"
 published = 2021-03-19T08:15:30Z
 video_id = "GDdqcZYowGk"
 origin = "youtube-gs"
@@ -13,3 +12,29 @@ dislikes = "0"
 comments = "0"
 tag = [ "horizon-zero-dawn", "game-shows",]
 theme = "game-shows"
+video_title = "Horizon Zero Dawn — Chapter 51 — Beneath"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/GDdqcZYowGk/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/GDdqcZYowGk/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/GDdqcZYowGk/hqdefault.jpg"
+width = 480
+height = 360
+
+[thumbnails.standard]
+url = "https://i.ytimg.com/vi/GDdqcZYowGk/sddefault.jpg"
+width = 640
+height = 480
+
+[thumbnails.maxres]
+url = "https://i.ytimg.com/vi/GDdqcZYowGk/maxresdefault.jpg"
+width = 1280
+height = 720

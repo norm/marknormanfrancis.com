@@ -10,6 +10,31 @@ views = "13"
 likes = "0"
 dislikes = "0"
 comments = "0"
-thumbnail = "https://i.ytimg.com/vi/mLwI0zbO-hs/maxresdefault.jpg"
 tag = [ "horizon-zero-dawn", "game-shows",]
 theme = "game-shows"
+video_title = "Horizon Zero Dawn — Chapter 38 — Plumelands"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/mLwI0zbO-hs/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/mLwI0zbO-hs/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/mLwI0zbO-hs/hqdefault.jpg"
+width = 480
+height = 360
+
+[thumbnails.standard]
+url = "https://i.ytimg.com/vi/mLwI0zbO-hs/sddefault.jpg"
+width = 640
+height = 480
+
+[thumbnails.maxres]
+url = "https://i.ytimg.com/vi/mLwI0zbO-hs/maxresdefault.jpg"
+width = 1280
+height = 720

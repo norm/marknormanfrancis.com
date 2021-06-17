@@ -74,12 +74,10 @@ while next_token is not None:
                 'origin_link_text': '%s channel' % video['snippet']['channelTitle'],
                 'origin_link_url': 'https://www.youtube.com/channel/%s' % video['snippet']['channelId'],
                 'type': 'video',
+                'video_title': video['snippet']['title'].replace(' ', ' '),
                 'description': video['snippet']['description'].replace(' ', ' '),
             }
-            try:
-                source['thumbnail'] = video['snippet']['thumbnails']['maxres']['url']
-            except KeyError:
-                source['thumbnail'] = video['snippet']['thumbnails']['default']['url']
+            source['thumbnails'] = video['snippet']['thumbnails']
 
         # use trailing hashtags from the description
         source['tag'] = [

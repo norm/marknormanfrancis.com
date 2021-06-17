@@ -6,10 +6,35 @@ origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
 description = "In Chapter 60, Aloy battles Hades.\n\n0:00 Opening titles\n0:21 Recap\n1:10 The Face of Extinction\n32:07 End credits\n42:10 Sylens\n43:26 Full credits\n1:08:22 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
-thumbnail = "https://i.ytimg.com/vi/ZChVl5RnMHA/maxresdefault.jpg"
 views = "7"
 likes = "0"
 dislikes = "0"
 comments = "0"
 tag = [ "horizon-zero-dawn", "game-shows",]
 theme = "game-shows"
+video_title = "Horizon Zero Dawn — Chapter 60 — The End"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/ZChVl5RnMHA/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/ZChVl5RnMHA/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/ZChVl5RnMHA/hqdefault.jpg"
+width = 480
+height = 360
+
+[thumbnails.standard]
+url = "https://i.ytimg.com/vi/ZChVl5RnMHA/sddefault.jpg"
+width = 640
+height = 480
+
+[thumbnails.maxres]
+url = "https://i.ytimg.com/vi/ZChVl5RnMHA/maxresdefault.jpg"
+width = 1280
+height = 720

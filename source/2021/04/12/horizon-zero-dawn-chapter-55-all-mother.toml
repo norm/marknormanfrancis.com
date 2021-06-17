@@ -6,10 +6,35 @@ origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
 description = "In Chapter 55, Aloy returns to All-Mother Mountain.\n\n0:00 Opening titles\n0:21 Recap\n1:07 The Heart of the Nora, continued\n17:38 Datapoint: Gestation-E9B1\n17:52 Datapoint: Chamber B1-001\n18:51 Datapoint: E9B1 Incident Log A\n19:58 Datapoint: Nursery-E9B1\n21:47 Datapoint: E9B1 Incident Log D\n23:00 Datapoint: Kindergarten-E9B1\n23:19 Datapoint: E9B1 Incident Log B\n24:20 Datapoint: E9B1 Incident Log C\n25:34 Datapoint: Lesson 57-6-A\n27:27 Datapoint: Welcome to the Lyceum\n30:08 Datapoint: Gaia's Dying Plea\n34:45 Datapoint: Operations Log\n53:53 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
-thumbnail = "https://i.ytimg.com/vi/SKzCfwor59E/maxresdefault.jpg"
 views = "20"
 likes = "0"
 dislikes = "0"
 comments = "0"
 tag = [ "horizon-zero-dawn", "game-shows",]
 theme = "game-shows"
+video_title = "Horizon Zero Dawn — Chapter 55 — All-Mother"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/SKzCfwor59E/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/SKzCfwor59E/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/SKzCfwor59E/hqdefault.jpg"
+width = 480
+height = 360
+
+[thumbnails.standard]
+url = "https://i.ytimg.com/vi/SKzCfwor59E/sddefault.jpg"
+width = 640
+height = 480
+
+[thumbnails.maxres]
+url = "https://i.ytimg.com/vi/SKzCfwor59E/maxresdefault.jpg"
+width = 1280
+height = 720

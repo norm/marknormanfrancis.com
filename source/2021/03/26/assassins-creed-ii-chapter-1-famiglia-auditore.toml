@@ -1,5 +1,4 @@
 title = "Published YouTube video “Assassin's Creed II — Chapter 1 — Famiglia Auditore”"
-thumbnail = "https://i.ytimg.com/vi/RLUAJTX6Zxg/maxresdefault.jpg"
 published = 2021-03-26T16:37:25Z
 video_id = "RLUAJTX6Zxg"
 origin = "youtube-gs"
@@ -13,3 +12,29 @@ dislikes = "0"
 comments = "0"
 tag = [ "assassins-creed-ii", "assassins-creed", "ezio-collection", "game-shows",]
 theme = "game-shows"
+video_title = "Assassin's Creed II — Chapter 1 — Famiglia Auditore"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/RLUAJTX6Zxg/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/RLUAJTX6Zxg/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/RLUAJTX6Zxg/hqdefault.jpg"
+width = 480
+height = 360
+
+[thumbnails.standard]
+url = "https://i.ytimg.com/vi/RLUAJTX6Zxg/sddefault.jpg"
+width = 640
+height = 480
+
+[thumbnails.maxres]
+url = "https://i.ytimg.com/vi/RLUAJTX6Zxg/maxresdefault.jpg"
+width = 1280
+height = 720

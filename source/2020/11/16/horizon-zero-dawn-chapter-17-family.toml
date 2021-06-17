@@ -10,6 +10,31 @@ views = "13"
 likes = "2"
 dislikes = "0"
 comments = "0"
-thumbnail = "https://i.ytimg.com/vi/m_0pa_3wGeE/maxresdefault.jpg"
 tag = [ "horizon-zero-dawn", "game-shows",]
 theme = "game-shows"
+video_title = "Horizon Zero Dawn — Chapter 17 — Family"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/m_0pa_3wGeE/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/m_0pa_3wGeE/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/m_0pa_3wGeE/hqdefault.jpg"
+width = 480
+height = 360
+
+[thumbnails.standard]
+url = "https://i.ytimg.com/vi/m_0pa_3wGeE/sddefault.jpg"
+width = 640
+height = 480
+
+[thumbnails.maxres]
+url = "https://i.ytimg.com/vi/m_0pa_3wGeE/maxresdefault.jpg"
+width = 1280
+height = 720

@@ -10,6 +10,31 @@ views = "14"
 likes = "1"
 dislikes = "0"
 comments = "3"
-thumbnail = "https://i.ytimg.com/vi/VyZAsw_Y0jg/maxresdefault.jpg"
 tag = [ "horizon-zero-dawn", "game-shows",]
 theme = "game-shows"
+video_title = "Horizon Zero Dawn — Chapter 39 — For the Werak"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/VyZAsw_Y0jg/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/VyZAsw_Y0jg/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/VyZAsw_Y0jg/hqdefault.jpg"
+width = 480
+height = 360
+
+[thumbnails.standard]
+url = "https://i.ytimg.com/vi/VyZAsw_Y0jg/sddefault.jpg"
+width = 640
+height = 480
+
+[thumbnails.maxres]
+url = "https://i.ytimg.com/vi/VyZAsw_Y0jg/maxresdefault.jpg"
+width = 1280
+height = 720

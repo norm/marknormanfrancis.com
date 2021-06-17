@@ -6,10 +6,35 @@ origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
 description = "In Chapter 10, Ezio deals with Emilio Barbarigo.\n\n0:00 Opening titles\n0:22 Clothes Make The Man\n12:35 Everything Must Go\n27:00 Birds Of A Feather\n36:40 a pitstop in Monteriggioni\n41:00 If At First You Don't Succeed\n54:25 database entries\n57:41 end card\n\nA play through of the game Assassin's Creed II. All of the main story, some of the side missions. No tedious commentary.\n\n"
-thumbnail = "https://i.ytimg.com/vi/9g4lOGFqV9w/default.jpg"
 views = "7"
 likes = "0"
 dislikes = "0"
 comments = "0"
 tag = [ "assassins-creed-ii", "assassins-creed", "ezio-collection", "game-shows",]
 theme = "game-shows"
+video_title = "Assassin's Creed II — Chapter 10 — Emilio Barbarigo"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/9g4lOGFqV9w/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/9g4lOGFqV9w/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/9g4lOGFqV9w/hqdefault.jpg"
+width = 480
+height = 360
+
+[thumbnails.standard]
+url = "https://i.ytimg.com/vi/9g4lOGFqV9w/sddefault.jpg"
+width = 640
+height = 480
+
+[thumbnails.maxres]
+url = "https://i.ytimg.com/vi/9g4lOGFqV9w/maxresdefault.jpg"
+width = 1280
+height = 720

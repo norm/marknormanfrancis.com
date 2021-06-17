@@ -6,10 +6,35 @@ origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
 description = "In Chapter 54, Helis plans to sacrifice Aloy in the Sun-Ring.\n\n0:00 Opening titles\n0:21 Recap\n1:19 The Terror of the Sun\n19:20 The Heart of the Nora\n52:08 Map\n52:32 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
-thumbnail = "https://i.ytimg.com/vi/xF2poDHo0hA/maxresdefault.jpg"
 views = "28"
 likes = "1"
 dislikes = "0"
 comments = "0"
 tag = [ "horizon-zero-dawn", "game-shows",]
 theme = "game-shows"
+video_title = "Horizon Zero Dawn — Chapter 54 — Sacrifice"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/xF2poDHo0hA/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/xF2poDHo0hA/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/xF2poDHo0hA/hqdefault.jpg"
+width = 480
+height = 360
+
+[thumbnails.standard]
+url = "https://i.ytimg.com/vi/xF2poDHo0hA/sddefault.jpg"
+width = 640
+height = 480
+
+[thumbnails.maxres]
+url = "https://i.ytimg.com/vi/xF2poDHo0hA/maxresdefault.jpg"
+width = 1280
+height = 720

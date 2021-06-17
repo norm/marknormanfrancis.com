@@ -10,5 +10,25 @@ description = "Coming up with ideas, features and suggestions for the fourth dev
 likes = "1"
 dislikes = "1"
 comments = "0"
-thumbnail = "https://i.ytimg.com/vi/MwejLGvho5I/default.jpg"
 tag = [ "devfort", "devfort-4",]
+video_title = "/dev/fort: cohort 4 ideation"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/MwejLGvho5I/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/MwejLGvho5I/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/MwejLGvho5I/hqdefault.jpg"
+width = 480
+height = 360
+
+[thumbnails.standard]
+url = "https://i.ytimg.com/vi/MwejLGvho5I/sddefault.jpg"
+width = 640
+height = 480

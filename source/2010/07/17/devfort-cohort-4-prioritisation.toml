@@ -10,5 +10,25 @@ views = "237"
 likes = "0"
 dislikes = "1"
 comments = "0"
-thumbnail = "https://i.ytimg.com/vi/mnDw_JPMkFM/default.jpg"
 tag = [ "devfort", "devfort-4",]
+video_title = "/dev/fort: cohort 4 prioritisation"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/mnDw_JPMkFM/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/mnDw_JPMkFM/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/mnDw_JPMkFM/hqdefault.jpg"
+width = 480
+height = 360
+
+[thumbnails.standard]
+url = "https://i.ytimg.com/vi/mnDw_JPMkFM/sddefault.jpg"
+width = 640
+height = 480

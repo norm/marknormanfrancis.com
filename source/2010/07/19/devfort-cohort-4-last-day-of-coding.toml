@@ -10,5 +10,25 @@ views = "989"
 likes = "3"
 dislikes = "3"
 comments = "1"
-thumbnail = "https://i.ytimg.com/vi/Oqpljgjs164/default.jpg"
 tag = [ "devfort", "devfort-4",]
+video_title = "/dev/fort: cohort 4, last day of coding"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/Oqpljgjs164/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/Oqpljgjs164/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/Oqpljgjs164/hqdefault.jpg"
+width = 480
+height = 360
+
+[thumbnails.standard]
+url = "https://i.ytimg.com/vi/Oqpljgjs164/sddefault.jpg"
+width = 640
+height = 480

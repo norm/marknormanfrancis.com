@@ -10,6 +10,31 @@ views = "12"
 likes = "0"
 dislikes = "0"
 comments = "0"
-thumbnail = "https://i.ytimg.com/vi/abbbOHqefXI/maxresdefault.jpg"
 tag = [ "horizon-zero-dawn", "game-shows",]
 theme = "game-shows"
+video_title = "Horizon Zero Dawn — Chapter 40 — Thunder's Drum"
+
+[thumbnails.default]
+url = "https://i.ytimg.com/vi/abbbOHqefXI/default.jpg"
+width = 120
+height = 90
+
+[thumbnails.medium]
+url = "https://i.ytimg.com/vi/abbbOHqefXI/mqdefault.jpg"
+width = 320
+height = 180
+
+[thumbnails.high]
+url = "https://i.ytimg.com/vi/abbbOHqefXI/hqdefault.jpg"
+width = 480
+height = 360
+
+[thumbnails.standard]
+url = "https://i.ytimg.com/vi/abbbOHqefXI/sddefault.jpg"
+width = 640
+height = 480
+
+[thumbnails.maxres]
+url = "https://i.ytimg.com/vi/abbbOHqefXI/maxresdefault.jpg"
+width = 1280
+height = 720
