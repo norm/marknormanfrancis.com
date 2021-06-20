@@ -3,3 +3,6 @@ published = 2014-01-30T09:57:09Z
 image = "https://mnf.m17s.net/2014/01/30/interoffice-communication-hi-mains-tream.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/01/30/interoffice-communication-hi-mains-tream.200.jpg"

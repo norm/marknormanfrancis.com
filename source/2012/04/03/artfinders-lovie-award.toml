@@ -3,3 +3,6 @@ published = 2012-04-03T08:14:57Z
 image = "https://mnf.m17s.net/2012/04/03/artfinders-lovie-award.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/04/03/artfinders-lovie-award.200.jpg"

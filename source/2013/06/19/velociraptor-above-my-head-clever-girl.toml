@@ -3,3 +3,6 @@ published = 2013-06-19T08:54:48Z
 image = "https://mnf.m17s.net/2013/06/19/velociraptor-above-my-head-clever-girl.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/06/19/velociraptor-above-my-head-clever-girl.200.jpg"

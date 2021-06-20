@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Worst Apple keynote ever #hackedio"
 tag = [ "hackedio",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/07/21/worst-apple-keynote-ever.200.jpg"

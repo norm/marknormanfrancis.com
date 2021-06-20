@@ -3,3 +3,6 @@ published = 2011-11-29T10:20:53Z
 image = "https://mnf.m17s.net/2011/11/29/something-nice-from-rands-and-fieldnotesbrand.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2011/11/29/something-nice-from-rands-and-fieldnotesbrand.200.jpg"

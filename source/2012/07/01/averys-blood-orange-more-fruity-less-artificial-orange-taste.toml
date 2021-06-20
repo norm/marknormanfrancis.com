@@ -3,3 +3,6 @@ published = 2012-07-01T16:04:33Z
 image = "https://mnf.m17s.net/2012/07/01/averys-blood-orange-more-fruity-less-artificial-orange-taste.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/07/01/averys-blood-orange-more-fruity-less-artificial-orange-taste.200.jpg"

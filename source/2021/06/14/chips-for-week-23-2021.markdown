@@ -9,6 +9,10 @@ tweet_id = "1404318463091478528"
 retweets = 0
 favourites = 1
 tag = [ "weekchips", "repo-flourish", "repo-sectile", ]
+image = 'https://mnf.m17s.net/2021/06/14/E30kMQYXoAU19Eg.jpg'
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2021/06/14/E30kMQYXoAU19Eg.200.jpg"
 ```
 
 Another week, and I’m still [stacking chips][chips]. Last week’s

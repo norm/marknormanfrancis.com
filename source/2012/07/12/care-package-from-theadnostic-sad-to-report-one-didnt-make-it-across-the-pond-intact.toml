@@ -3,3 +3,6 @@ published = 2012-07-12T06:32:36Z
 image = "https://mnf.m17s.net/2012/07/12/care-package-from-theadnostic-sad-to-report-one-didnt-make-it-across-the-pond-intact.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/07/12/care-package-from-theadnostic-sad-to-report-one-didnt-make-it-across-the-pond-intact.200.jpg"

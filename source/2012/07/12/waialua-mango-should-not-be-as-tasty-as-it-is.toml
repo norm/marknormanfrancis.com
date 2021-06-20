@@ -3,3 +3,6 @@ published = 2012-07-12T14:06:25Z
 image = "https://mnf.m17s.net/2012/07/12/waialua-mango-should-not-be-as-tasty-as-it-is.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/07/12/waialua-mango-should-not-be-as-tasty-as-it-is.200.jpg"

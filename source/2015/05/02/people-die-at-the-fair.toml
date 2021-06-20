@@ -3,3 +3,6 @@ published = 2015-05-02T12:10:51Z
 image = "https://mnf.m17s.net/2015/05/02/people-die-at-the-fair.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/05/02/people-die-at-the-fair.200.jpg"

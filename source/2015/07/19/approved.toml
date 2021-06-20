@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2015/07/19/approved.jpg"
 origin = "instagram"
 type = "photo"
 tag = [ "approved",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/07/19/approved.200.jpg"

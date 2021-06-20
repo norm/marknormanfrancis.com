@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Overboard (1987) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/01/03/overboard-1987.200.jpg"

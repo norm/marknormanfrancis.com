@@ -3,3 +3,6 @@ published = 2013-08-15T13:27:02Z
 image = "https://mnf.m17s.net/2013/08/15/current-status-hat-tip-to-psd.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/08/15/current-status-hat-tip-to-psd.200.jpg"

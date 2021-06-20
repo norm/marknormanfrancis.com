@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "YouTube Space London"
 tag = [ "you-tube-space-london",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/05/10/tom-scott-and-the-celeb-200.200.jpg"

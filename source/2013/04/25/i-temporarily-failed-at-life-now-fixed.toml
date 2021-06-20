@@ -3,3 +3,6 @@ published = 2013-04-25T11:49:48Z
 image = "https://mnf.m17s.net/2013/04/25/i-temporarily-failed-at-life-now-fixed.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/04/25/i-temporarily-failed-at-life-now-fixed.200.jpg"

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Plantation Wharf"
 tag = [ "bestboatseat", "plantation-wharf",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2017/03/15/bestboatseat.200.jpg"

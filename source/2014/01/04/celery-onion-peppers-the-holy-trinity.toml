@@ -3,3 +3,6 @@ published = 2014-01-04T12:44:53Z
 image = "https://mnf.m17s.net/2014/01/04/celery-onion-peppers-the-holy-trinity.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/01/04/celery-onion-peppers-the-holy-trinity.200.jpg"

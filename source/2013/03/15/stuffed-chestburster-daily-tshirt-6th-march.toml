@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2013/03/15/stuffed-chestburster-daily-tshirt-6th-m
 origin = "instagram"
 type = "photo"
 tag = [ "daily", "tshirt",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/03/15/stuffed-chestburster-daily-tshirt-6th-march.200.jpg"

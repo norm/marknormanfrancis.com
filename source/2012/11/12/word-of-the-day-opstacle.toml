@@ -3,3 +3,6 @@ published = 2012-11-12T11:03:40Z
 image = "https://mnf.m17s.net/2012/11/12/word-of-the-day-opstacle.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/11/12/word-of-the-day-opstacle.200.jpg"

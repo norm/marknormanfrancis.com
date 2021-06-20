@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2013/10/30/boylan-shirley-temple-soda-rather-tasty
 origin = "instagram"
 type = "photo"
 tag = [ "soda",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/10/30/boylan-shirley-temple-soda-rather-tasty.200.jpg"

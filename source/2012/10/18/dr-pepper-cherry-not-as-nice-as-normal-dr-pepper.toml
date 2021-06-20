@@ -3,3 +3,6 @@ published = 2012-10-18T12:28:03Z
 image = "https://mnf.m17s.net/2012/10/18/dr-pepper-cherry-not-as-nice-as-normal-dr-pepper.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/10/18/dr-pepper-cherry-not-as-nice-as-normal-dr-pepper.200.jpg"

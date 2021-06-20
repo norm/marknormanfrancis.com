@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Our Brand is Crisis (2015) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/06/02/our-brand-is-crisis-2015.200.jpg"

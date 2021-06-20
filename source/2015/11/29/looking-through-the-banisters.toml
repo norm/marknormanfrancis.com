@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Looking through the banisters #thomas"
 tag = [ "thomas",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/11/29/looking-through-the-banisters.200.jpg"

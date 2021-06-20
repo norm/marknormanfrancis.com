@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2012/11/21/space-lego-daily-tshirt-probably-the-mo
 origin = "instagram"
 type = "photo"
 tag = [ "daily", "tshirt",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/11/21/space-lego-daily-tshirt-probably-the-most-awesome-tshirt-i-own.200.jpg"

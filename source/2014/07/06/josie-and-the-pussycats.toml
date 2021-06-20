@@ -3,3 +3,6 @@ published = 2014-07-06T15:22:31Z
 image = "https://mnf.m17s.net/2014/07/06/josie-and-the-pussycats.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/07/06/josie-and-the-pussycats.200.jpg"

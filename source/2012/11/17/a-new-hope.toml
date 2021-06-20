@@ -3,3 +3,6 @@ title = "A New Hope"
 image = "https://mnf.m17s.net/2012/11/17/image.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/11/17/image.200.jpg"

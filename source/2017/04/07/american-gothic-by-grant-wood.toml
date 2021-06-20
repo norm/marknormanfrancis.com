@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "American Gothic by Grant Wood #whiteboardart #100daysofwhiteboards #the100dayproject #day4of100"
 tag = [ "100-days-of-whiteboards", "the-100-day-project", "whiteboard", "whiteboard-art",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2017/04/07/american-gothic-by-grant-wood.200.jpg"

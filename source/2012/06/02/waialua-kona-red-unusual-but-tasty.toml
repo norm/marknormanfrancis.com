@@ -3,3 +3,6 @@ published = 2012-06-02T17:10:22Z
 image = "https://mnf.m17s.net/2012/06/02/waialua-kona-red-unusual-but-tasty.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/06/02/waialua-kona-red-unusual-but-tasty.200.jpg"

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "To Catch a Thief (1955) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/05/07/to-catch-a-thief-1955.200.jpg"

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "We defeated the monster #boardgames #tabletop"
 tag = [ "boardgames", "tabletop",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/12/29/we-defeated-the-monster.200.jpg"

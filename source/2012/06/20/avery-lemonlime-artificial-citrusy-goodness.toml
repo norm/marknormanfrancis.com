@@ -3,3 +3,6 @@ published = 2012-06-20T19:08:08Z
 image = "https://mnf.m17s.net/2012/06/20/avery-lemonlime-artificial-citrusy-goodness.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/06/20/avery-lemonlime-artificial-citrusy-goodness.200.jpg"

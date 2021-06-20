@@ -3,3 +3,6 @@ published = 2013-02-13T09:29:59Z
 image = "https://mnf.m17s.net/2013/02/13/im-rich-im-rich-im-comfortably-well-off-im-socially-secure.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/02/13/im-rich-im-rich-im-comfortably-well-off-im-socially-secure.200.jpg"

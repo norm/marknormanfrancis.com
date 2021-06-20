@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Cambridge Theatre"
 tag = [ "cambridge-theatre",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/12/27/matilda.200.jpg"

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Fired Up! (2009) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/09/12/fired-up-2009.200.jpg"

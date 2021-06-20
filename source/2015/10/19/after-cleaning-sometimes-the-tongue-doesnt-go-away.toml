@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "After cleaning, sometimes the tongue doesn't go away #thomas"
 tag = [ "thomas",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/10/19/after-cleaning-sometimes-the-tongue-doesnt-go-away.200.jpg"

@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2016/03/29/superman-ii-1980-movie-the-2006-richard
 origin = "instagram"
 type = "photo"
 tag = [ "movie",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/03/29/superman-ii-1980-movie-the-2006-richard-donner-cut.200.jpg"

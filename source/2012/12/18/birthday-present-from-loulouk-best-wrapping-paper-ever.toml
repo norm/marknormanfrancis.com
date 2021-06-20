@@ -3,3 +3,6 @@ published = 2012-12-18T11:37:47Z
 image = "https://mnf.m17s.net/2012/12/18/birthday-present-from-loulouk-best-wrapping-paper-ever.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/12/18/birthday-present-from-loulouk-best-wrapping-paper-ever.200.jpg"

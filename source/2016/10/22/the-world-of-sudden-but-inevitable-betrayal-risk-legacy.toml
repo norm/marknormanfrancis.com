@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2016/10/22/the-world-of-sudden-but-inevitable-betr
 origin = "instagram"
 type = "photo"
 tag = [ "risk",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/10/22/the-world-of-sudden-but-inevitable-betrayal-risk-legacy.200.jpg"

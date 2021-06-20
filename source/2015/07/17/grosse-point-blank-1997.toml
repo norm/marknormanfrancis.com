@@ -3,3 +3,6 @@ published = 2015-07-17T19:20:25Z
 image = "https://mnf.m17s.net/2015/07/17/grosse-point-blank-1997.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/07/17/grosse-point-blank-1997.200.jpg"

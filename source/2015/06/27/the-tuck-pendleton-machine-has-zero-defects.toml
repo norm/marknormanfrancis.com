@@ -3,3 +3,6 @@ published = 2015-06-27T15:28:32Z
 image = "https://mnf.m17s.net/2015/06/27/the-tuck-pendleton-machine-has-zero-defects.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/06/27/the-tuck-pendleton-machine-has-zero-defects.200.jpg"

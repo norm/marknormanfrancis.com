@@ -3,3 +3,6 @@ published = 2012-05-03T07:29:47Z
 image = "https://mnf.m17s.net/2012/05/03/getting-my-vote-on.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/05/03/getting-my-vote-on.200.jpg"

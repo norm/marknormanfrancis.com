@@ -3,3 +3,6 @@ published = 2012-07-22T18:52:09Z
 image = "https://mnf.m17s.net/2012/07/22/perhaps-a-little-too-rare-no-wait.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/07/22/perhaps-a-little-too-rare-no-wait.200.jpg"

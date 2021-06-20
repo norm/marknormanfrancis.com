@@ -3,3 +3,6 @@ published = 2013-01-12T19:58:54Z
 image = "https://mnf.m17s.net/2013/01/12/time-for-a-little-insurrection.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/01/12/time-for-a-little-insurrection.200.jpg"

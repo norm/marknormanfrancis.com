@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2013/02/10/flickr-socks-daily-socks-just-for-t-tan
 origin = "instagram"
 type = "photo"
 tag = [ "daily", "socks",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/02/10/flickr-socks-daily-socks-just-for-t-tantek.200.jpg"

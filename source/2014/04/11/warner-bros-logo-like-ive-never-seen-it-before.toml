@@ -3,3 +3,6 @@ published = 2014-04-11T11:43:07Z
 image = "https://mnf.m17s.net/2014/04/11/warner-bros-logo-like-ive-never-seen-it-before.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/04/11/warner-bros-logo-like-ive-never-seen-it-before.200.jpg"

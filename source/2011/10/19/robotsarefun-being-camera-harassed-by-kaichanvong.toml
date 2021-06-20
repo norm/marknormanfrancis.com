@@ -3,3 +3,6 @@ published = 2011-10-19T10:52:10Z
 image = "https://mnf.m17s.net/2011/10/19/robotsarefun-being-camera-harassed-by-kaichanvong.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2011/10/19/robotsarefun-being-camera-harassed-by-kaichanvong.200.jpg"

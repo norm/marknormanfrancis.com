@@ -3,3 +3,6 @@ published = 2014-12-22T13:13:11Z
 image = "https://mnf.m17s.net/2014/12/22/not-wearing-my-framed-twitter-shirt.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/12/22/not-wearing-my-framed-twitter-shirt.200.jpg"

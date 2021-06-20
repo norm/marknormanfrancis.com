@@ -3,3 +3,6 @@ published = 2012-03-16T17:26:20Z
 image = "https://mnf.m17s.net/2012/03/16/ballet-and-18-wheelers.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/03/16/ballet-and-18-wheelers.200.jpg"

@@ -3,3 +3,6 @@ published = 2012-10-29T21:51:33Z
 image = "https://mnf.m17s.net/2012/10/29/a-new-record-in-late-deliveries-from-ocadouk.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/10/29/a-new-record-in-late-deliveries-from-ocadouk.200.jpg"

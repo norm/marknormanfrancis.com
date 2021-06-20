@@ -3,3 +3,6 @@ published = 2012-11-24T15:26:05Z
 image = "https://mnf.m17s.net/2012/11/24/the-wisdom-of-shadowcat_mst.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/11/24/the-wisdom-of-shadowcat_mst.200.jpg"

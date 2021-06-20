@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Emerge #gtav #snapmatic"
 tag = [ "gtav", "snapmatic",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/07/20/emerge.200.jpg"

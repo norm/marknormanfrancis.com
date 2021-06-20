@@ -3,3 +3,6 @@ published = 2015-08-31T18:29:27Z
 image = "https://mnf.m17s.net/2015/08/31/you-only-live-twice-1967.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/08/31/you-only-live-twice-1967.200.jpg"

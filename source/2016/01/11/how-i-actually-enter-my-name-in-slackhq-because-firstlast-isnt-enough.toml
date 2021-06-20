@@ -3,3 +3,6 @@ published = 2016-01-11T20:57:13Z
 image = "https://mnf.m17s.net/2016/01/11/how-i-actually-enter-my-name-in-slackhq-because-firstlast-isnt-enough.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/01/11/how-i-actually-enter-my-name-in-slackhq-because-firstlast-isnt-enough.200.jpg"

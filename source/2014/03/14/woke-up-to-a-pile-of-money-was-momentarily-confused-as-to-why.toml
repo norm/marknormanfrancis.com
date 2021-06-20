@@ -3,3 +3,6 @@ published = 2014-03-14T08:45:40Z
 image = "https://mnf.m17s.net/2014/03/14/woke-up-to-a-pile-of-money-was-momentarily-confused-as-to-why.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/03/14/woke-up-to-a-pile-of-money-was-momentarily-confused-as-to-why.200.jpg"

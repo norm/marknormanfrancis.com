@@ -3,3 +3,6 @@ published = 2015-01-29T22:08:41Z
 image = "https://mnf.m17s.net/2015/01/29/yo-dawg-i-heard-you-like-whiteboards.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/01/29/yo-dawg-i-heard-you-like-whiteboards.200.jpg"

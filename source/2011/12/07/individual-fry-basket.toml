@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Wolfe's"
 tag = [ "wolfes",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2011/12/07/individual-fry-basket.200.jpg"

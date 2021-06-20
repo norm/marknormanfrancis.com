@@ -3,3 +3,6 @@ published = 2013-07-09T19:52:30Z
 image = "https://mnf.m17s.net/2013/07/09/banoffi-pie.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/07/09/banoffi-pie.200.jpg"

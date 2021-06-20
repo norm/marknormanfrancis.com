@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2014/02/14/using-the-whitelines-whiteboard-magnets
 origin = "instagram"
 type = "photo"
 tag = [ "whitelines",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/02/14/using-the-whitelines-whiteboard-magnets.200.jpg"

@@ -3,3 +3,6 @@ published = 2010-11-19T12:35:38Z
 image = "https://mnf.m17s.net/2010/11/19/needle-nose-pliers.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2010/11/19/needle-nose-pliers.200.jpg"

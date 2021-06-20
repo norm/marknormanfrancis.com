@@ -3,3 +3,6 @@ published = 2012-01-03T22:44:14Z
 image = "https://mnf.m17s.net/2012/01/03/shelf-of-awesome-but-retired-hardware-cc-andrewgodwin-jaggeree-bfirsh.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/01/03/shelf-of-awesome-but-retired-hardware-cc-andrewgodwin-jaggeree-bfirsh.200.jpg"

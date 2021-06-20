@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2012/09/22/lao-che-air-freight-daily-tshirt-no-tim
 origin = "instagram"
 type = "photo"
 tag = [ "daily", "tshirt",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/09/22/lao-che-air-freight-daily-tshirt-no-time-for-love-dr-jones.200.jpg"

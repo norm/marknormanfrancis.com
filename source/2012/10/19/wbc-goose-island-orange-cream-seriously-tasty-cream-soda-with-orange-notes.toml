@@ -3,3 +3,6 @@ published = 2012-10-19T12:23:12Z
 image = "https://mnf.m17s.net/2012/10/19/wbc-goose-island-orange-cream-seriously-tasty-cream-soda-with-orange-notes.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/10/19/wbc-goose-island-orange-cream-seriously-tasty-cream-soda-with-orange-notes.200.jpg"

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "The Japanese Canteen"
 tag = [ "the-japanese-canteen",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/08/29/bottle-green-cranberry-orange-very-tasty-indeed.200.jpg"

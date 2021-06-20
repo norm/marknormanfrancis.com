@@ -3,3 +3,6 @@ published = 2011-09-16T12:11:29Z
 image = "https://mnf.m17s.net/2011/09/16/poor-choice-of-words.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2011/09/16/poor-choice-of-words.200.jpg"

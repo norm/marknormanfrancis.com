@@ -3,3 +3,6 @@ published = 2015-04-10T13:47:28Z
 image = "https://mnf.m17s.net/2015/04/10/magnets-on-whiteboard.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/04/10/magnets-on-whiteboard.200.jpg"

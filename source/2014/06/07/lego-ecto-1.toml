@@ -3,3 +3,6 @@ published = 2014-06-07T12:02:58Z
 image = "https://mnf.m17s.net/2014/06/07/lego-ecto-1.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/06/07/lego-ecto-1.200.jpg"

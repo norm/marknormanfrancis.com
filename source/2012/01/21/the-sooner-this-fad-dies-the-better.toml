@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Ben's Canteen"
 tag = [ "bens-canteen",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/01/21/the-sooner-this-fad-dies-the-better.200.jpg"

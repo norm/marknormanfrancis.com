@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Tears of Joy Hot Sauce Shop"
 tag = [ "tears-of-joy-hot-sauce-shop",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/03/18/shopping-for-bovinemoo.200.jpg"

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Lowlander Grand Cafe"
 tag = [ "lowlander-grand-cafe",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/06/18/fish-finger-sandwich.200.jpg"

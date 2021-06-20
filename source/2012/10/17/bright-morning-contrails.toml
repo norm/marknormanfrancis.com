@@ -3,3 +3,6 @@ published = 2012-10-17T06:26:33Z
 image = "https://mnf.m17s.net/2012/10/17/bright-morning-contrails.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/10/17/bright-morning-contrails.200.jpg"

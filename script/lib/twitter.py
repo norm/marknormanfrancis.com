@@ -8,7 +8,7 @@ import toml
 import tweepy
 
 from lib import (
-    get_body_from_source,
+    get_body_from_markdown,
     strip_links,
     strip_trailing_hashtags,
     update_content,
@@ -137,7 +137,7 @@ class Twitter:
             body += self.tweet_to_markdown(tweet, date)
 
         if 'edited_body' in extra and extra['edited_body']:
-            body = get_body_from_source(output_file)
+            body = get_body_from_markdown(output_file)
 
         retweets = 0
         favourites = 0

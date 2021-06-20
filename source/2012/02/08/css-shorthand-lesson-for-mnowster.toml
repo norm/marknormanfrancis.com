@@ -3,3 +3,6 @@ published = 2012-02-08T12:10:17Z
 image = "https://mnf.m17s.net/2012/02/08/css-shorthand-lesson-for-mnowster.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/02/08/css-shorthand-lesson-for-mnowster.200.jpg"

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "PizzaExpress"
 tag = [ "pizza-express",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/06/12/black-and-white-and-red-all-over.200.jpg"

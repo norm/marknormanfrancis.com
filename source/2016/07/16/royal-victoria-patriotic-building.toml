@@ -3,3 +3,6 @@ published = 2016-07-16T11:16:29Z
 image = "https://mnf.m17s.net/2016/07/16/royal-victoria-patriotic-building.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/07/16/royal-victoria-patriotic-building.200.jpg"

@@ -3,3 +3,6 @@ published = 2012-10-18T08:39:58Z
 image = "https://mnf.m17s.net/2012/10/18/mofo-likes-the-liquorice-allsorts.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/10/18/mofo-likes-the-liquorice-allsorts.200.jpg"

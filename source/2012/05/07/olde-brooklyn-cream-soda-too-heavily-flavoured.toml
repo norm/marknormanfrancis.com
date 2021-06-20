@@ -3,3 +3,6 @@ published = 2012-05-07T11:06:53Z
 image = "https://mnf.m17s.net/2012/05/07/olde-brooklyn-cream-soda-too-heavily-flavoured.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/05/07/olde-brooklyn-cream-soda-too-heavily-flavoured.200.jpg"

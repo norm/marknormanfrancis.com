@@ -3,3 +3,6 @@ published = 2012-02-17T16:49:03Z
 image = "https://mnf.m17s.net/2012/02/17/js-form-flow-explanation-for-mnowster.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/02/17/js-form-flow-explanation-for-mnowster.200.jpg"

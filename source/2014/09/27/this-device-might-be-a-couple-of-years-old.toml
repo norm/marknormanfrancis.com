@@ -3,3 +3,6 @@ published = 2014-09-27T08:56:54Z
 image = "https://mnf.m17s.net/2014/09/27/this-device-might-be-a-couple-of-years-old.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/09/27/this-device-might-be-a-couple-of-years-old.200.jpg"

@@ -3,3 +3,6 @@ published = 2014-02-23T16:44:05Z
 image = "https://mnf.m17s.net/2014/02/23/another-quality-devfort-idea.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/02/23/another-quality-devfort-idea.200.jpg"

@@ -3,3 +3,6 @@ published = 2012-02-07T15:59:26Z
 image = "https://mnf.m17s.net/2012/02/07/sudden-but-inevitable-chocolatey-betrayal.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/02/07/sudden-but-inevitable-chocolatey-betrayal.200.jpg"

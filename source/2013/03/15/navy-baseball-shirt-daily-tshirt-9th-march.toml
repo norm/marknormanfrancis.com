@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2013/03/15/navy-baseball-shirt-daily-tshirt-9th-ma
 origin = "instagram"
 type = "photo"
 tag = [ "daily", "tshirt",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/03/15/navy-baseball-shirt-daily-tshirt-9th-march.200.jpg"

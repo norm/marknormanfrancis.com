@@ -3,3 +3,6 @@ published = 2015-08-06T19:02:32Z
 image = "https://mnf.m17s.net/2015/08/06/the-mask-of-zorro-1998.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/08/06/the-mask-of-zorro-1998.200.jpg"

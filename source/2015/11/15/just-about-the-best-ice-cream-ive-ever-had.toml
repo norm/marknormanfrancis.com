@@ -3,3 +3,6 @@ published = 2015-11-15T21:09:32Z
 image = "https://mnf.m17s.net/2015/11/15/just-about-the-best-ice-cream-ive-ever-had.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/11/15/just-about-the-best-ice-cream-ive-ever-had.200.jpg"

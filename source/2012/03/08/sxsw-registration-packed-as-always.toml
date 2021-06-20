@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Austin Convention Center"
 tag = [ "austin-convention-center",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/03/08/sxsw-registration-packed-as-always.200.jpg"

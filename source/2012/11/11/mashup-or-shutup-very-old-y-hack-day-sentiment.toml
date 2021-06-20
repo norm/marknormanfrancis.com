@@ -3,3 +3,6 @@ published = 2012-11-11T08:17:58Z
 image = "https://mnf.m17s.net/2012/11/11/mashup-or-shutup-very-old-y-hack-day-sentiment.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/11/11/mashup-or-shutup-very-old-y-hack-day-sentiment.200.jpg"

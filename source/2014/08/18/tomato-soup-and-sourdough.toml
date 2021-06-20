@@ -3,3 +3,6 @@ published = 2014-08-18T12:52:08Z
 image = "https://mnf.m17s.net/2014/08/18/tomato-soup-and-sourdough.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/08/18/tomato-soup-and-sourdough.200.jpg"

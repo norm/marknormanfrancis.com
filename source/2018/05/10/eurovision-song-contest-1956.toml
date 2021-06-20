@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Eurovision Song Contest 1956 #daily #tshirt #new"
 tag = [ "daily", "new", "tshirt",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2018/05/10/eurovision-song-contest-1956.200.jpg"

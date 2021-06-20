@@ -3,4 +3,7 @@ title = "Scapa Glansa"
 image = "https://mnf.m17s.net/2016/12/01/image.jpg"
 origin = "instagram"
 type = "photo"
-tag = ["boozecase",]
+tag = [ "boozecase",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/12/01/image.200.jpg"

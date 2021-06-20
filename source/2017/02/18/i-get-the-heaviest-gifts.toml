@@ -3,3 +3,6 @@ published = 2017-02-18T09:47:43Z
 image = "https://mnf.m17s.net/2017/02/18/i-get-the-heaviest-gifts.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2017/02/18/i-get-the-heaviest-gifts.200.jpg"

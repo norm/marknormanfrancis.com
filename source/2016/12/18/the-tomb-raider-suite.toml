@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Eventim Apollo"
 tag = [ "eventim-apollo",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/12/18/the-tomb-raider-suite.200.jpg"

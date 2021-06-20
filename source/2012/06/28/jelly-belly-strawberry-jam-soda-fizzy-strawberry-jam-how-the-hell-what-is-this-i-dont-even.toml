@@ -3,3 +3,6 @@ published = 2012-06-28T12:48:34Z
 image = "https://mnf.m17s.net/2012/06/28/jelly-belly-strawberry-jam-soda-fizzy-strawberry-jam-how-the-hell-what-is-this-i-dont-even.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/06/28/jelly-belly-strawberry-jam-soda-fizzy-strawberry-jam-how-the-hell-what-is-this-i-dont-even.200.jpg"

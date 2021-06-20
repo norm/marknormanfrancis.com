@@ -3,3 +3,6 @@ published = 2012-05-08T14:18:35Z
 image = "https://mnf.m17s.net/2012/05/08/jelly-belly-lemon-drop-too-fake-lemony-flavour.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/05/08/jelly-belly-lemon-drop-too-fake-lemony-flavour.200.jpg"

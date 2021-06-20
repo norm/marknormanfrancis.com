@@ -3,3 +3,6 @@ published = 2012-08-19T12:28:31Z
 image = "https://mnf.m17s.net/2012/08/19/tom-is-not-a-ryan-reynolds-fan.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/08/19/tom-is-not-a-ryan-reynolds-fan.200.jpg"

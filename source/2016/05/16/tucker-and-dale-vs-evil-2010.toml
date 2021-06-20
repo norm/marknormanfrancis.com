@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Tucker and Dale vs Evil (2010) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/05/16/tucker-and-dale-vs-evil-2010.200.jpg"

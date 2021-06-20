@@ -1,0 +1,64 @@
+#!/usr/bin/env python
+
+from flourish import Flourish
+from io import BytesIO, StringIO
+import os
+import requests
+from PIL import Image
+import sys
+from tempfile import NamedTemporaryFile
+import toml
+from urllib.parse import urlparse
+
+from lib import update_content, get_markdown_data
+from lib.bucket import Bucket
+
+BUCKET = 'mnf.m17s.net'
+bucket = Bucket(BUCKET)
+
+
+width = int(sys.argv[1])
+
+flourish = Flourish()
+for source in flourish.sources.filter(image__set=''):
+    if 'thumbnail' not in source:
+        req = requests.get(source['image'])
+        original = BytesIO(req.content)
+
+        image = Image.open(original)
+        image.thumbnail(
+            (width,width),
+            resample=Image.LANCZOS,
+            reducing_gap=3.0,
+        )
+
+        temp = NamedTemporaryFile(suffix='.jpg')
+        with open(temp.name, 'w') as handle:
+            image.save(handle)
+
+        file, ext = os.path.splitext(urlparse(source['image']).path)
+        dest = '%s.%s%s' % (file, width, ext)
+        uploaded = bucket.upload_file(temp.name, dest)
+        dest_url = 'https://%s%s' % (BUCKET, dest)
+        if uploaded:
+            print('++', dest_url)
+
+        source_file = 'source/%s' % source._source
+        _, source_ext = os.path.splitext(source_file)
+        if source_ext == '.toml':
+            data = toml.load(source_file)
+            data['thumbnail'] = {
+                '%s' % width: dest_url
+            }
+            update_content(source_file, toml.dumps(data))
+        elif source_ext == '.markdown':
+            data, body = get_markdown_data(source_file)
+            data['thumbnail'] = {
+                '%s' % width: dest_url
+            }
+            update_content(
+                source_file,
+                '```\n%s```\n\n%s' % (toml.dumps(data), body),
+            )
+        else:
+            print('**  ??', source_ext, source._source)

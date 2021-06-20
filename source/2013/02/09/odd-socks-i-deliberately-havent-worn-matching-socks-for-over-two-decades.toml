@@ -3,3 +3,6 @@ published = 2013-02-09T12:22:38Z
 image = "https://mnf.m17s.net/2013/02/09/odd-socks-i-deliberately-havent-worn-matching-socks-for-over-two-decades.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/02/09/odd-socks-i-deliberately-havent-worn-matching-socks-for-over-two-decades.200.jpg"

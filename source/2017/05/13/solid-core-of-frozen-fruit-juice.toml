@@ -3,3 +3,6 @@ published = 2017-05-13T17:46:12Z
 image = "https://mnf.m17s.net/2017/05/13/solid-core-of-frozen-fruit-juice.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2017/05/13/solid-core-of-frozen-fruit-juice.200.jpg"

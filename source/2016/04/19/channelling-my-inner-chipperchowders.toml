@@ -3,3 +3,6 @@ published = 2016-04-19T06:48:57Z
 image = "https://mnf.m17s.net/2016/04/19/channelling-my-inner-chipperchowders.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/04/19/channelling-my-inner-chipperchowders.200.jpg"

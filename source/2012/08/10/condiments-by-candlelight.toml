@@ -3,3 +3,6 @@ published = 2012-08-10T20:27:48Z
 image = "https://mnf.m17s.net/2012/08/10/condiments-by-candlelight.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/08/10/condiments-by-candlelight.200.jpg"

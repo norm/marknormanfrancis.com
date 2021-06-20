@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Clapham Junction Railway Station"
 tag = [ "clapham-junction-railway-station",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2011/08/09/we-love-clapham.200.jpg"

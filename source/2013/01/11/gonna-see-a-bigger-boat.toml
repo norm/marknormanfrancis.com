@@ -3,3 +3,6 @@ published = 2013-01-11T15:18:35Z
 image = "https://mnf.m17s.net/2013/01/11/gonna-see-a-bigger-boat.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/01/11/gonna-see-a-bigger-boat.200.jpg"

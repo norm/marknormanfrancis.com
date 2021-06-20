@@ -3,3 +3,6 @@ published = 2011-12-28T20:29:40Z
 image = "https://mnf.m17s.net/2011/12/28/chi-ken-gud-dankoo.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2011/12/28/chi-ken-gud-dankoo.200.jpg"

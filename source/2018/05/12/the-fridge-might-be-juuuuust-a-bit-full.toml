@@ -3,3 +3,6 @@ published = 2018-05-12T12:39:25Z
 image = "https://mnf.m17s.net/2018/05/12/the-fridge-might-be-juuuuust-a-bit-full.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2018/05/12/the-fridge-might-be-juuuuust-a-bit-full.200.jpg"

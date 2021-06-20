@@ -3,3 +3,6 @@ published = 2011-10-27T08:48:52Z
 image = "https://mnf.m17s.net/2011/10/27/paralysis-of-choice.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2011/10/27/paralysis-of-choice.200.jpg"

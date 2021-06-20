@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2013/03/01/barcamp-london-4-in-grey-daily-tshirt-l
 origin = "instagram"
 type = "photo"
 tag = [ "daily", "tshirt",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/03/01/barcamp-london-4-in-grey-daily-tshirt-liked-it-so-much-i-have-two.200.jpg"

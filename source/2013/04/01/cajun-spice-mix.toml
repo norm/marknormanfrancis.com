@@ -3,3 +3,6 @@ published = 2013-04-01T08:06:33Z
 image = "https://mnf.m17s.net/2013/04/01/cajun-spice-mix.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/04/01/cajun-spice-mix.200.jpg"

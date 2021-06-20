@@ -3,3 +3,6 @@ published = 2015-07-05T14:24:32Z
 image = "https://mnf.m17s.net/2015/07/05/ace-ventura-pet-detective-1994.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/07/05/ace-ventura-pet-detective-1994.200.jpg"

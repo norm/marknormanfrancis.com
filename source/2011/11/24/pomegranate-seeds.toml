@@ -3,3 +3,6 @@ published = 2011-11-24T14:07:02Z
 image = "https://mnf.m17s.net/2011/11/24/pomegranate-seeds.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2011/11/24/pomegranate-seeds.200.jpg"

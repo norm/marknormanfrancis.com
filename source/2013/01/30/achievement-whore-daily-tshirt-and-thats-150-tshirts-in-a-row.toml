@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2013/01/30/achievement-whore-daily-tshirt-and-that
 origin = "instagram"
 type = "photo"
 tag = [ "daily", "tshirt",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/01/30/achievement-whore-daily-tshirt-and-thats-150-tshirts-in-a-row.200.jpg"

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Super 8 (2011) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/10/23/super-8-2011.200.jpg"

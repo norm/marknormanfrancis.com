@@ -3,3 +3,6 @@ published = 2012-02-08T15:15:57Z
 image = "https://mnf.m17s.net/2012/02/08/the-mysteries-of-floats.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/02/08/the-mysteries-of-floats.200.jpg"

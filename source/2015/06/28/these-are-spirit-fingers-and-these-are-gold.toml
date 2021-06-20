@@ -3,3 +3,6 @@ published = 2015-06-28T18:30:09Z
 image = "https://mnf.m17s.net/2015/06/28/these-are-spirit-fingers-and-these-are-gold.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/06/28/these-are-spirit-fingers-and-these-are-gold.200.jpg"

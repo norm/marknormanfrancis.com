@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "The Espresso Room - Covent Garden"
 tag = [ "soda", "the-espresso-room-covent-garden",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/10/04/breckland-orchard-cream-soda-and-rhubarb-soda-deliciously-subtle.200.jpg"

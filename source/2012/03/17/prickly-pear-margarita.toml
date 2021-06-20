@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Vivo's Mexican Restaurant"
 tag = [ "vivos-mexican-restaurant",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/03/17/prickly-pear-margarita.200.jpg"

@@ -3,3 +3,6 @@ published = 2012-10-30T14:40:50Z
 image = "https://mnf.m17s.net/2012/10/30/black-lemonade-unpleasantly-fake-sour-lemony-flavour.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/10/30/black-lemonade-unpleasantly-fake-sour-lemony-flavour.200.jpg"

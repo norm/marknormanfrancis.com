@@ -1,5 +1,6 @@
 import os
 import re
+import toml
 
 from django.utils.text import slugify
 
@@ -54,12 +55,23 @@ def strip_links(text):
     return ' '.join(words)
 
 
-def get_body_from_source(file):
+def get_markdown_data(file):
     with open(file) as handle:
         content = handle.read()
     marker = content[0:3]
-    end_marker = content[4:].find(marker) + 9   # two markers, one newline
-    return content[end_marker:]
+    end_marker = content[4:].find(marker) + 4
+    markdown_start = end_marker + 5
+    return (toml.loads(content[4:end_marker]), content[markdown_start:])
+
+
+def get_frontmatter_from_markdown(file):
+    front, body = get_markdown_data(file)
+    return front
+
+
+def get_body_from_markdown(file):
+    front, body = get_markdown_data(file)
+    return body
 
 
 def tagify(text):

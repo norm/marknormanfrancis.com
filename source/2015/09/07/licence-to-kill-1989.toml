@@ -3,3 +3,6 @@ published = 2015-09-07T18:51:24Z
 image = "https://mnf.m17s.net/2015/09/07/licence-to-kill-1989.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/09/07/licence-to-kill-1989.200.jpg"

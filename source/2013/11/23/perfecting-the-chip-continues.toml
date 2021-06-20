@@ -3,3 +3,6 @@ published = 2013-11-23T17:48:17Z
 image = "https://mnf.m17s.net/2013/11/23/perfecting-the-chip-continues.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/11/23/perfecting-the-chip-continues.200.jpg"

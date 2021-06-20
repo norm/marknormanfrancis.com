@@ -3,3 +3,6 @@ published = 2016-03-08T19:32:44Z
 image = "https://mnf.m17s.net/2016/03/08/homemade-double-pepperoni-pizza.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/03/08/homemade-double-pepperoni-pizza.200.jpg"

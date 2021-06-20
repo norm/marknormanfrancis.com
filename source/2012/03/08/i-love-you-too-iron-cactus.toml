@@ -3,3 +3,6 @@ published = 2012-03-08T02:25:29Z
 image = "https://mnf.m17s.net/2012/03/08/i-love-you-too-iron-cactus.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/03/08/i-love-you-too-iron-cactus.200.jpg"

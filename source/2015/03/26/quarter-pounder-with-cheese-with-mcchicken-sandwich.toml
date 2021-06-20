@@ -3,3 +3,6 @@ published = 2015-03-26T19:24:54Z
 image = "https://mnf.m17s.net/2015/03/26/quarter-pounder-with-cheese-with-mcchicken-sandwich.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/03/26/quarter-pounder-with-cheese-with-mcchicken-sandwich.200.jpg"

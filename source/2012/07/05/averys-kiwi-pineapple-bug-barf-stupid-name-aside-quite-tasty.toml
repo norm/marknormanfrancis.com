@@ -3,3 +3,6 @@ published = 2012-07-05T12:15:42Z
 image = "https://mnf.m17s.net/2012/07/05/averys-kiwi-pineapple-bug-barf-stupid-name-aside-quite-tasty.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/07/05/averys-kiwi-pineapple-bug-barf-stupid-name-aside-quite-tasty.200.jpg"

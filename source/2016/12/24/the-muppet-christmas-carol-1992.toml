@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "The Muppet Christmas Carol (1992) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/12/24/the-muppet-christmas-carol-1992.200.jpg"

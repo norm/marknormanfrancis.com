@@ -3,3 +3,6 @@ published = 2012-11-11T11:46:47Z
 image = "https://mnf.m17s.net/2012/11/11/hp-guinness-approved-by-norm.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/11/11/hp-guinness-approved-by-norm.200.jpg"

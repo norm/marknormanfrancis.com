@@ -3,3 +3,6 @@ published = 2015-06-30T19:36:40Z
 image = "https://mnf.m17s.net/2015/06/30/the-criminally-underrated-last-action-hero-1993.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/06/30/the-criminally-underrated-last-action-hero-1993.200.jpg"

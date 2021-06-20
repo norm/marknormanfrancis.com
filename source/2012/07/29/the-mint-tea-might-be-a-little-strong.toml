@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Powder Keg Diplomacy"
 tag = [ "powder-keg-diplomacy",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/07/29/the-mint-tea-might-be-a-little-strong.200.jpg"

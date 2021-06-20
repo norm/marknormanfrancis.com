@@ -3,3 +3,6 @@ published = 2013-01-31T18:01:16Z
 image = "https://mnf.m17s.net/2013/01/31/why-i-hate-web-fonts-staring-at-this-instead-of-reading-for-over-a-minute.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/01/31/why-i-hate-web-fonts-staring-at-this-instead-of-reading-for-over-a-minute.200.jpg"

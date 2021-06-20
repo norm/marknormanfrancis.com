@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Alderney Airport"
 tag = [ "alderney-airport",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/03/11/flight-home-cancelled-for-some-reason.200.jpg"

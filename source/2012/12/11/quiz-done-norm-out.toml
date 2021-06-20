@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Civil Service Club"
 tag = [ "civil-service-club",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/12/11/quiz-done-norm-out.200.jpg"

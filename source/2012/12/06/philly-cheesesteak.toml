@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Meat Market"
 tag = [ "meat-market",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/12/06/philly-cheesesteak.200.jpg"

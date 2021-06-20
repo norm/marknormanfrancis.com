@@ -3,3 +3,6 @@ published = 2012-10-31T16:12:33Z
 image = "https://mnf.m17s.net/2012/10/31/ouzon-ouzo-flavoured-soda-not-as-mental-as-it-sounds.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/10/31/ouzon-ouzo-flavoured-soda-not-as-mental-as-it-sounds.200.jpg"

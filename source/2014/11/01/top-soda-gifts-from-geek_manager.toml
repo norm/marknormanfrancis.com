@@ -3,3 +3,6 @@ published = 2014-11-01T12:12:44Z
 image = "https://mnf.m17s.net/2014/11/01/top-soda-gifts-from-geek_manager.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/11/01/top-soda-gifts-from-geek_manager.200.jpg"

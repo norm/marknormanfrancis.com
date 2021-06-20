@@ -3,3 +3,6 @@ published = 2015-08-15T18:38:19Z
 image = "https://mnf.m17s.net/2015/08/15/the-incredibles-2004.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/08/15/the-incredibles-2004.200.jpg"

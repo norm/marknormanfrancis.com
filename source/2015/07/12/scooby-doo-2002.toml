@@ -3,3 +3,6 @@ published = 2015-07-12T21:09:51Z
 image = "https://mnf.m17s.net/2015/07/12/scooby-doo-2002.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/07/12/scooby-doo-2002.200.jpg"

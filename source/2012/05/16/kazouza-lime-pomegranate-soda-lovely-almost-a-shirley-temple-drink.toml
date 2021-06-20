@@ -3,3 +3,6 @@ published = 2012-05-16T14:19:24Z
 image = "https://mnf.m17s.net/2012/05/16/kazouza-lime-pomegranate-soda-lovely-almost-a-shirley-temple-drink.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/05/16/kazouza-lime-pomegranate-soda-lovely-almost-a-shirley-temple-drink.200.jpg"

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Now would be a good time to get my appetite back #steaknight"
 tag = [ "steaknight",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/02/12/now-would-be-a-good-time-to-get-my-appetite-back.200.jpg"

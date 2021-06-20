@@ -3,3 +3,6 @@ published = 2012-09-28T15:31:15Z
 image = "https://mnf.m17s.net/2012/09/28/the-lonely-island-of-mattsheret.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/09/28/the-lonely-island-of-mattsheret.200.jpg"

@@ -3,3 +3,6 @@ published = 2014-09-30T08:46:10Z
 image = "https://mnf.m17s.net/2014/09/30/what-innovation-means-for-ms.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/09/30/what-innovation-means-for-ms.200.jpg"

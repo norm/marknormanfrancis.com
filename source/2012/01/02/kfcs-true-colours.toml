@@ -3,3 +3,6 @@ published = 2012-01-02T15:16:38Z
 image = "https://mnf.m17s.net/2012/01/02/kfcs-true-colours.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/01/02/kfcs-true-colours.200.jpg"

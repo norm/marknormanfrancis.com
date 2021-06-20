@@ -3,3 +3,6 @@ published = 2011-11-11T15:17:25Z
 image = "https://mnf.m17s.net/2011/11/11/subtle-detail-the-right-bud-has-a-red-case.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2011/11/11/subtle-detail-the-right-bud-has-a-red-case.200.jpg"

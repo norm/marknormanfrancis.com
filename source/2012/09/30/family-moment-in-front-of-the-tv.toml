@@ -3,3 +3,6 @@ published = 2012-09-30T20:01:56Z
 image = "https://mnf.m17s.net/2012/09/30/family-moment-in-front-of-the-tv.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/09/30/family-moment-in-front-of-the-tv.200.jpg"

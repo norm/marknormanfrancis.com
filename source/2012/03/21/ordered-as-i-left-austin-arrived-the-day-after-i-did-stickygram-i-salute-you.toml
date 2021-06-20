@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2012/03/21/ordered-as-i-left-austin-arrived-the-da
 origin = "instagram"
 type = "photo"
 tag = [ "stickygram",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/03/21/ordered-as-i-left-austin-arrived-the-day-after-i-did-stickygram-i-salute-you.200.jpg"

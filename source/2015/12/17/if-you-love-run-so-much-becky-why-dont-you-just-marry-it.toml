@@ -3,3 +3,6 @@ published = 2015-12-17T18:43:23Z
 image = "https://mnf.m17s.net/2015/12/17/if-you-love-run-so-much-becky-why-dont-you-just-marry-it.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/12/17/if-you-love-run-so-much-becky-why-dont-you-just-marry-it.200.jpg"

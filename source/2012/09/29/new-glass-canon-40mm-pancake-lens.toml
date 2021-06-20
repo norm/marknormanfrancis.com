@@ -3,3 +3,6 @@ published = 2012-09-29T08:36:15Z
 image = "https://mnf.m17s.net/2012/09/29/new-glass-canon-40mm-pancake-lens.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/09/29/new-glass-canon-40mm-pancake-lens.200.jpg"

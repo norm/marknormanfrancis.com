@@ -7,3 +7,6 @@ location = "Inner Temple"
 text_markdown = "\n\nPlease do not leave rubbish here"
 original_caption = "Morning\n\nPlease do not leave rubbish here"
 tag = [ "inner-temple",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/10/20/morning.200.jpg"

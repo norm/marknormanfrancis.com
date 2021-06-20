@@ -3,3 +3,6 @@ published = 2016-09-30T17:54:15Z
 image = "https://mnf.m17s.net/2016/09/30/smells-so-good.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/09/30/smells-so-good.200.jpg"

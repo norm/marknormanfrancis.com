@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "The Northall at Corinthia Hotel"
 tag = [ "the-northall-at-corinthia-hotel",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/01/20/bottle-of-glenlivet-with-my-meal.200.jpg"

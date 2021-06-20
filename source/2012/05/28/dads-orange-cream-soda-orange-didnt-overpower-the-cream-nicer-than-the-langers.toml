@@ -3,3 +3,6 @@ published = 2012-05-28T12:20:45Z
 image = "https://mnf.m17s.net/2012/05/28/dads-orange-cream-soda-orange-didnt-overpower-the-cream-nicer-than-the-langers.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/05/28/dads-orange-cream-soda-orange-didnt-overpower-the-cream-nicer-than-the-langers.200.jpg"

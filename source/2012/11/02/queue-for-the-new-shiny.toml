@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Apple Store"
 tag = [ "apple-store",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/11/02/queue-for-the-new-shiny.200.jpg"

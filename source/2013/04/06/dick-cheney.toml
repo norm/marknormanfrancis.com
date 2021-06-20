@@ -3,3 +3,6 @@ published = 2013-04-06T20:41:02Z
 image = "https://mnf.m17s.net/2013/04/06/dick-cheney.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/04/06/dick-cheney.200.jpg"

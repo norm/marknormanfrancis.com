@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "You're right, no human being would stack dice like this #ghostbusters #boardgames"
 tag = [ "boardgames", "ghostbusters",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/02/27/youre-right-no-human-being-would-stack-dice-like-this.200.jpg"

@@ -3,3 +3,6 @@ published = 2012-05-23T12:57:02Z
 image = "https://mnf.m17s.net/2012/05/23/unusual-soda-month-2-is-about-to-start.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/05/23/unusual-soda-month-2-is-about-to-start.200.jpg"

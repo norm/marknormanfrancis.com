@@ -3,3 +3,6 @@ published = 2012-11-28T19:29:09Z
 image = "https://mnf.m17s.net/2012/11/28/the-one-where-jboyman-is-attacked-by-flowers.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/11/28/the-one-where-jboyman-is-attacked-by-flowers.200.jpg"

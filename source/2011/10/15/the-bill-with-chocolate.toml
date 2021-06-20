@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Peter Jones Sloane Square"
 tag = [ "peter-jones-sloane-square",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2011/10/15/the-bill-with-chocolate.200.jpg"

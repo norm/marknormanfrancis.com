@@ -3,3 +3,6 @@ published = 2014-08-04T16:46:04Z
 image = "https://mnf.m17s.net/2014/08/04/sennheiser-didnt-make-any-bluetooth-headphones-i-liked-the-look-of-so-i-made-my-own.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/08/04/sennheiser-didnt-make-any-bluetooth-headphones-i-liked-the-look-of-so-i-made-my-own.200.jpg"

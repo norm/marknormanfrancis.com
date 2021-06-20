@@ -7,3 +7,6 @@ location = "Plantation Wharf"
 text_markdown = "\n\nJanine, moored at Plantation Wharf."
 original_caption = "Morning\n\nJanine, moored at Plantation Wharf."
 tag = [ "plantation-wharf",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/09/27/morning.200.jpg"

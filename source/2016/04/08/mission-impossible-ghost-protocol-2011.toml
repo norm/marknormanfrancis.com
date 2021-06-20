@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Mission: Impossible - Ghost Protocol (2011) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/04/08/mission-impossible-ghost-protocol-2011.200.jpg"

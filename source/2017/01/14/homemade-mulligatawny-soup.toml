@@ -3,3 +3,6 @@ published = 2017-01-14T14:04:23Z
 image = "https://mnf.m17s.net/2017/01/14/homemade-mulligatawny-soup.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2017/01/14/homemade-mulligatawny-soup.200.jpg"

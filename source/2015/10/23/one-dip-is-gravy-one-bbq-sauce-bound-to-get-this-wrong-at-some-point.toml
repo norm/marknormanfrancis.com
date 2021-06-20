@@ -3,3 +3,6 @@ published = 2015-10-23T18:03:40Z
 image = "https://mnf.m17s.net/2015/10/23/one-dip-is-gravy-one-bbq-sauce-bound-to-get-this-wrong-at-some-point.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/10/23/one-dip-is-gravy-one-bbq-sauce-bound-to-get-this-wrong-at-some-point.200.jpg"

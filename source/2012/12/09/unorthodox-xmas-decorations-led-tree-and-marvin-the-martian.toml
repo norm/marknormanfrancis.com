@@ -3,3 +3,6 @@ published = 2012-12-09T17:35:23Z
 image = "https://mnf.m17s.net/2012/12/09/unorthodox-xmas-decorations-led-tree-and-marvin-the-martian.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/12/09/unorthodox-xmas-decorations-led-tree-and-marvin-the-martian.200.jpg"

@@ -3,3 +3,6 @@ published = 2013-02-13T09:44:37Z
 image = "https://mnf.m17s.net/2013/02/13/the-gds-solution-to-not-having-meeting-rooms.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/02/13/the-gds-solution-to-not-having-meeting-rooms.200.jpg"

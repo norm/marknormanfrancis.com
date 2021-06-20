@@ -6,3 +6,6 @@ type = "photo"
 location = "SXSW Interactive"
 original_caption = "Joss Whedon #josswhedon"
 tag = [ "josswhedon", "sxsw-interactive",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/03/10/joss-whedon.200.jpg"

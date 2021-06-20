@@ -3,3 +3,6 @@ published = 2012-03-13T19:48:37Z
 image = "https://mnf.m17s.net/2012/03/13/frost-bank-tower-the-owl-building.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/03/13/frost-bank-tower-the-owl-building.200.jpg"

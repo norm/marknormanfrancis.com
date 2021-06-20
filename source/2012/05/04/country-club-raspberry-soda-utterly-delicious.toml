@@ -3,3 +3,6 @@ published = 2012-05-04T10:31:35Z
 image = "https://mnf.m17s.net/2012/05/04/country-club-raspberry-soda-utterly-delicious.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/05/04/country-club-raspberry-soda-utterly-delicious.200.jpg"

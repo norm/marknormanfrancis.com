@@ -3,3 +3,6 @@ published = 2015-11-30T13:13:26Z
 image = "https://mnf.m17s.net/2015/11/30/basically-the-coolest-kickstarter-project-ive-backed-so-far.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/11/30/basically-the-coolest-kickstarter-project-ive-backed-so-far.200.jpg"

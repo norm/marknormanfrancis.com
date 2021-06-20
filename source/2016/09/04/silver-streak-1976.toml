@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Silver Streak (1976) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/09/04/silver-streak-1976.200.jpg"

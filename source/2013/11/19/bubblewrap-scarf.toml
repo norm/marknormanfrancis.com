@@ -3,3 +3,6 @@ published = 2013-11-19T10:18:05Z
 image = "https://mnf.m17s.net/2013/11/19/bubblewrap-scarf.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/11/19/bubblewrap-scarf.200.jpg"

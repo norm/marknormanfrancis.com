@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "British Museum"
 tag = [ "british-museum",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/06/13/reflected-pen-and-elbow.200.jpg"

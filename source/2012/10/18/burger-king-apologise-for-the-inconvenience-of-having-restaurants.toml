@@ -3,3 +3,6 @@ published = 2012-10-18T16:10:15Z
 image = "https://mnf.m17s.net/2012/10/18/burger-king-apologise-for-the-inconvenience-of-having-restaurants.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/10/18/burger-king-apologise-for-the-inconvenience-of-having-restaurants.200.jpg"

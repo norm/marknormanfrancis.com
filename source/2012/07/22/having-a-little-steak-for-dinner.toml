@@ -3,3 +3,6 @@ published = 2012-07-22T18:28:41Z
 image = "https://mnf.m17s.net/2012/07/22/having-a-little-steak-for-dinner.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/07/22/having-a-little-steak-for-dinner.200.jpg"

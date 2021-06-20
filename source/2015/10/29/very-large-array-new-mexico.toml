@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Very Large Array, New Mexico #2009roadtrip #muchlatergram"
 tag = [ "2009roadtrip", "muchlatergram",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/10/29/very-large-array-new-mexico.200.jpg"

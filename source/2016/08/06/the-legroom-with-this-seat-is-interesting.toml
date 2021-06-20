@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Royal Albert Hall"
 tag = [ "royal-albert-hall",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/08/06/the-legroom-with-this-seat-is-interesting.200.jpg"

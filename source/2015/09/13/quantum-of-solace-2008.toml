@@ -3,3 +3,6 @@ published = 2015-09-13T13:02:19Z
 image = "https://mnf.m17s.net/2015/09/13/quantum-of-solace-2008.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/09/13/quantum-of-solace-2008.200.jpg"

@@ -3,3 +3,6 @@ published = 2013-03-28T12:24:55Z
 image = "https://mnf.m17s.net/2013/03/28/kinder-instructions-1-feed-streamer-2-bend-back-3-done-4-chuck-away.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/03/28/kinder-instructions-1-feed-streamer-2-bend-back-3-done-4-chuck-away.200.jpg"

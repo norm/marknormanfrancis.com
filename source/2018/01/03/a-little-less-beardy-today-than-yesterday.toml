@@ -3,3 +3,6 @@ published = 2018-01-03T11:23:44Z
 image = "https://mnf.m17s.net/2018/01/03/a-little-less-beardy-today-than-yesterday.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2018/01/03/a-little-less-beardy-today-than-yesterday.200.jpg"

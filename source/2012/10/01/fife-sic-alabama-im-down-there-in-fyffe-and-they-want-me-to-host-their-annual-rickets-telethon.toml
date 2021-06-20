@@ -3,3 +3,6 @@ published = 2012-10-01T06:43:16Z
 image = "https://mnf.m17s.net/2012/10/01/fife-sic-alabama-im-down-there-in-fyffe-and-they-want-me-to-host-their-annual-rickets-telethon.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/10/01/fife-sic-alabama-im-down-there-in-fyffe-and-they-want-me-to-host-their-annual-rickets-telethon.200.jpg"

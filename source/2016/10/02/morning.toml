@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 text_markdown = "\n\nNew iMac means new microfibre cloth for cleaning my glasses."
 original_caption = "Morning\n\nNew iMac means new microfibre cloth for cleaning my glasses."
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/10/02/morning.200.jpg"

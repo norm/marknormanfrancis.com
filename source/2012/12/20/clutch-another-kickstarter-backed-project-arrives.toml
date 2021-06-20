@@ -3,3 +3,6 @@ published = 2012-12-20T13:25:33Z
 image = "https://mnf.m17s.net/2012/12/20/clutch-another-kickstarter-backed-project-arrives.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/12/20/clutch-another-kickstarter-backed-project-arrives.200.jpg"

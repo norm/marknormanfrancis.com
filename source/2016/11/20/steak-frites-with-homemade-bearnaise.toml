@@ -3,3 +3,6 @@ published = 2016-11-20T18:53:07Z
 image = "https://mnf.m17s.net/2016/11/20/steak-frites-with-homemade-bearnaise.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2016/11/20/steak-frites-with-homemade-bearnaise.200.jpg"

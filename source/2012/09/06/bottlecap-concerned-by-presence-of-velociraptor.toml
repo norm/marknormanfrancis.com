@@ -3,3 +3,6 @@ published = 2012-09-06T16:12:02Z
 image = "https://mnf.m17s.net/2012/09/06/bottlecap-concerned-by-presence-of-velociraptor.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/09/06/bottlecap-concerned-by-presence-of-velociraptor.200.jpg"

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Visit Paleto Point #gtav #snapmatic"
 tag = [ "gtav", "snapmatic",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/08/10/visit-paleto-point.200.jpg"

@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2013/02/01/my-kung-fu-is-best-ydn-daily-tshirt-tsh
 origin = "instagram"
 type = "photo"
 tag = [ "daily", "tshirt",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/02/01/my-kung-fu-is-best-ydn-daily-tshirt-tshirts-with-the-design-on-the-back-annoy-me.200.jpg"

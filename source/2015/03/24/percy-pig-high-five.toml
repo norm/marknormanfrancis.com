@@ -3,3 +3,6 @@ published = 2015-03-24T11:32:59Z
 image = "https://mnf.m17s.net/2015/03/24/percy-pig-high-five.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/03/24/percy-pig-high-five.200.jpg"

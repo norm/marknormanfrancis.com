@@ -3,3 +3,6 @@ published = 2014-06-09T08:55:09Z
 image = "https://mnf.m17s.net/2014/06/09/i-feel-like-im-being-judged.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/06/09/i-feel-like-im-being-judged.200.jpg"

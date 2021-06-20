@@ -3,3 +3,6 @@ published = 2012-08-21T14:36:51Z
 image = "https://mnf.m17s.net/2012/08/21/filberts-fruit-punch-strangely-bitter-and-unpleasant-not-fruit-flavour.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/08/21/filberts-fruit-punch-strangely-bitter-and-unpleasant-not-fruit-flavour.200.jpg"

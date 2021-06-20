@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Afraid of your own shadow #daily #tshirt #new"
 tag = [ "daily", "new", "tshirt",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/08/28/afraid-of-your-own-shadow.200.jpg"

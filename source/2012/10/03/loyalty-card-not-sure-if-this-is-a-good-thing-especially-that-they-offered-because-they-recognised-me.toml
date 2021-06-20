@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "The Diner"
 tag = [ "the-diner",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/10/03/loyalty-card-not-sure-if-this-is-a-good-thing-especially-that-they-offered-because-they-recognised-me.200.jpg"

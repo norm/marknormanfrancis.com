@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Betrayal at House on the Hill #tabletop #boardgames"
 tag = [ "boardgames", "tabletop",]
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2015/12/29/betrayal-at-house-on-the-hill.200.jpg"

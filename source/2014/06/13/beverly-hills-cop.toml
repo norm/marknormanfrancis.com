@@ -3,3 +3,6 @@ published = 2014-06-13T17:46:33Z
 image = "https://mnf.m17s.net/2014/06/13/beverly-hills-cop.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2014/06/13/beverly-hills-cop.200.jpg"

@@ -3,3 +3,6 @@ published = 2013-04-17T21:32:47Z
 image = "https://mnf.m17s.net/2013/04/17/cleaned-my-whiteboards-this-evening-these-are-the-only-trinkets-to-make-the-cut.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2013/04/17/cleaned-my-whiteboards-this-evening-these-are-the-only-trinkets-to-make-the-cut.200.jpg"

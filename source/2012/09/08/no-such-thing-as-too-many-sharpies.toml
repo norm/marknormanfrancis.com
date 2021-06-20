@@ -3,3 +3,6 @@ published = 2012-09-08T08:51:40Z
 image = "https://mnf.m17s.net/2012/09/08/no-such-thing-as-too-many-sharpies.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/09/08/no-such-thing-as-too-many-sharpies.200.jpg"

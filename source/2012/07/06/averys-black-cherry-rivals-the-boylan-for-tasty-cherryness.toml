@@ -3,3 +3,6 @@ published = 2012-07-06T18:39:26Z
 image = "https://mnf.m17s.net/2012/07/06/averys-black-cherry-rivals-the-boylan-for-tasty-cherryness.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/07/06/averys-black-cherry-rivals-the-boylan-for-tasty-cherryness.200.jpg"

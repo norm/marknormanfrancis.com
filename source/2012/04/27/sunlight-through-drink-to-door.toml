@@ -3,3 +3,6 @@ published = 2012-04-27T16:59:01Z
 image = "https://mnf.m17s.net/2012/04/27/sunlight-through-drink-to-door.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2012/04/27/sunlight-through-drink-to-door.200.jpg"
