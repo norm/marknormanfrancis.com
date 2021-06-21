@@ -1,40 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Completing the Game — Banuk Figures”"
 published = 2021-05-31T08:07:40Z
-video_id = "9Uea43n_r8c"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/9Uea43n_r8c/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/9Uea43n_r8c/default.jpg"
+medium = "https://i.ytimg.com/vi/9Uea43n_r8c/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/9Uea43n_r8c/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/9Uea43n_r8c/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/9Uea43n_r8c/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/9Uea43n_r8c/maxresdefault.480.jpg"
+
+[youtube]
+id = "9Uea43n_r8c"
+title = "Horizon Zero Dawn — Completing the Game — Banuk Figures"
 description = "In this extra content which helps complete the game, Aloy finds all of the Banuk Figures.\n\n0:00 Opening titles\n0:21 Recap\n1:09 Cantarah\n3:49 Banuk Artifact: I Name You\n6:19 Banuk Artifact: My Claim\n11:22 Banuk Artifact: Punishment\n14:37 Banuk Artifact: I Cannot Confess\n15:47 Banuk Artifact: The Vision\n19:02 Banuk Artifact: Mother\n22:05 Back to Cantarah\n23:15 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "7"
 likes = "0"
 dislikes = "0"
 comments = "0"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
-video_title = "Horizon Zero Dawn — Completing the Game — Banuk Figures"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/9Uea43n_r8c/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/9Uea43n_r8c/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/9Uea43n_r8c/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/9Uea43n_r8c/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/9Uea43n_r8c/maxresdefault.jpg"
 width = 1280
 height = 720

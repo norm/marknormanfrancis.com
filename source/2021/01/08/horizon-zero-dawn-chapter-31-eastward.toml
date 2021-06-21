@@ -1,40 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 31 — Eastward”"
 published = 2021-01-08T08:15:02Z
-video_id = "dSZOAfLm9JA"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/dSZOAfLm9JA/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/dSZOAfLm9JA/default.jpg"
+medium = "https://i.ytimg.com/vi/dSZOAfLm9JA/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/dSZOAfLm9JA/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/dSZOAfLm9JA/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/dSZOAfLm9JA/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/dSZOAfLm9JA/maxresdefault.480.jpg"
+
+[youtube]
+id = "dSZOAfLm9JA"
+title = "Horizon Zero Dawn — Chapter 31 — Eastward"
 description = "In Chapter 31, Aloy heads back into the Sacred Land, on her way towards the Grave-Hoard.\n\n0:00 Opening titles\n0:21 From Maker's End onwards\n14:25 Acquired Taste, part 3\n16:54 Onwards\n22:00 An attempt at a Thunderjaw\n29:30 Back through Daytower\n34:10 Two Teeth bandit camp\n41:40 Onwards\n56:30 Valleymeet Hunting Ground\n1:07:22 Map\n1:07:48 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "21"
 likes = "0"
 dislikes = "0"
 comments = "0"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
-video_title = "Horizon Zero Dawn — Chapter 31 — Eastward"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/dSZOAfLm9JA/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/dSZOAfLm9JA/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/dSZOAfLm9JA/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/dSZOAfLm9JA/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/dSZOAfLm9JA/maxresdefault.jpg"
 width = 1280
 height = 720

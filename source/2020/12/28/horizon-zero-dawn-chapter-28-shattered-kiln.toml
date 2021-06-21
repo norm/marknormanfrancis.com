@@ -1,40 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 28 — Shattered Kiln”"
 published = 2020-12-28T08:15:00Z
-video_id = "Vbro-ubpYes"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/Vbro-ubpYes/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/Vbro-ubpYes/default.jpg"
+medium = "https://i.ytimg.com/vi/Vbro-ubpYes/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/Vbro-ubpYes/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/Vbro-ubpYes/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/Vbro-ubpYes/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/Vbro-ubpYes/maxresdefault.480.jpg"
+
+[youtube]
+id = "Vbro-ubpYes"
+title = "Horizon Zero Dawn — Chapter 28 — Shattered Kiln"
 description = "In Chapter 28, Aloy deals with some criminals, and heads towards Maker's End.\n\n0:00 Opening titles\n0:22 Towards Meridian\n13:10 Fernund\n14:21 Towards Maker's End\n24:02 A conversation with the unknown caller\n25:04 Onward\n25:55 Shattered Kiln bandit camp\n42:51 Map\n43:17 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "9"
 likes = "0"
 dislikes = "0"
 comments = "0"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
-video_title = "Horizon Zero Dawn — Chapter 28 — Shattered Kiln"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/Vbro-ubpYes/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/Vbro-ubpYes/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/Vbro-ubpYes/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/Vbro-ubpYes/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/Vbro-ubpYes/maxresdefault.jpg"
 width = 1280
 height = 720

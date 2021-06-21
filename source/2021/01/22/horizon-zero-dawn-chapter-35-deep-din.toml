@@ -1,40 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 35 — Deep Din”"
-views = "25"
 published = 2021-01-22T08:15:01Z
-video_id = "rsWc2w7Dd6s"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/rsWc2w7Dd6s/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/rsWc2w7Dd6s/default.jpg"
+medium = "https://i.ytimg.com/vi/rsWc2w7Dd6s/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/rsWc2w7Dd6s/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/rsWc2w7Dd6s/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/rsWc2w7Dd6s/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/rsWc2w7Dd6s/maxresdefault.480.jpg"
+
+[youtube]
+id = "rsWc2w7Dd6s"
+title = "Horizon Zero Dawn — Chapter 35 — Deep Din"
 description = "In Chapter 35, Aloy finds the source of the floodwaters affecting Deep Din.\n\n0:00 Opening titles\n0:21 Recap\n0:59 Waterlogged\n53:27 Datapoint: Compensatory Damages\n55:24 Datapoint: Farewell Tour\n56:43 Datapoint: Final Performance\n59:05 Map\n59:23 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
+views = "25"
 likes = "0"
 dislikes = "0"
 comments = "0"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
-video_title = "Horizon Zero Dawn — Chapter 35 — Deep Din"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/rsWc2w7Dd6s/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/rsWc2w7Dd6s/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/rsWc2w7Dd6s/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/rsWc2w7Dd6s/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/rsWc2w7Dd6s/maxresdefault.jpg"
 width = 1280
 height = 720

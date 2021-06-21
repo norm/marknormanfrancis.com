@@ -1,40 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 39 — For the Werak”"
 published = 2021-02-05T08:15:00Z
-video_id = "VyZAsw_Y0jg"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/VyZAsw_Y0jg/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/VyZAsw_Y0jg/default.jpg"
+medium = "https://i.ytimg.com/vi/VyZAsw_Y0jg/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/VyZAsw_Y0jg/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/VyZAsw_Y0jg/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/VyZAsw_Y0jg/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/VyZAsw_Y0jg/maxresdefault.480.jpg"
+
+[youtube]
+id = "VyZAsw_Y0jg"
+title = "Horizon Zero Dawn — Chapter 39 — For the Werak"
 description = "In Chapter 39, Aloy challenges Aratak for the position of chieftain of his werak.\n\n0:00 Opening titles\n0:21 Recap\n1:18 Onwards\n12:21 A Secret Shared completed\n15:10 Gildun\n15:42 The legend of Banukai\n19:18 Sekuli\n24:18 For the werak\n52:27 Map\n52:53 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "14"
 likes = "1"
 dislikes = "0"
 comments = "3"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
-video_title = "Horizon Zero Dawn — Chapter 39 — For the Werak"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/VyZAsw_Y0jg/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/VyZAsw_Y0jg/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/VyZAsw_Y0jg/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/VyZAsw_Y0jg/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/VyZAsw_Y0jg/maxresdefault.jpg"
 width = 1280
 height = 720

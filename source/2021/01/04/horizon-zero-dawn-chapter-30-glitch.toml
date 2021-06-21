@@ -1,40 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 30 — Glitch”"
 published = 2021-01-04T08:15:01Z
-video_id = "uICcLf1tNcw"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/uICcLf1tNcw/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/uICcLf1tNcw/default.jpg"
+medium = "https://i.ytimg.com/vi/uICcLf1tNcw/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/uICcLf1tNcw/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/uICcLf1tNcw/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/uICcLf1tNcw/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/uICcLf1tNcw/maxresdefault.480.jpg"
+
+[youtube]
+id = "uICcLf1tNcw"
+title = "Horizon Zero Dawn — Chapter 30 — Glitch"
 description = "In Chapter 30, Aloy explores the tower at Maker's End.\n\n0:00 Opening titles\n0:21 Maker's End: Faro Automated Solutions\n3:30 Datapoint: Entangled Waveforms\n6:13 Datapoint: Welcome to FAS\n8:22 Datapoint: Definition: Corporation\n8:58 Datapoint: Reception Log\n10:07 Datapoint: History: FAS\n11:49 Datapoint: Bio: Ted Faro\n12:51 Datapoint: Bio: Elisabet Sobeck\n15:19 Datapoint: R&D/Lab Retooling\n18:17 Datapoint: Re: Complaint\n22:46 Datapoint: FAS-FPS5 Khopesh\n23:49 Datapoint: FAS-BOR7 Horus\n25:02 Datapoint: FAS-ACA3 Scarab\n26:30 Datapoint: Spiritual Summit\n28:08 Datapoint: FAS Campus Log\n34:22 Datapoint: Regarding the Rumors\n37:50 Datapoint: All Hands on Deck\n41:08 Datapoint: Banda Sea Incident\n42:45 Ted Faro's office\n46:35 Datapoint: Record: 31 Oct 2064\n47:52 Datapoint: Record: 1 Nov 2064\n49:28 Datapoint: Record: 3 Nov 2064\n51:18 \"Got a name to go with it?\"\n1:00:30 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "17"
 likes = "0"
 dislikes = "0"
 comments = "0"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
-video_title = "Horizon Zero Dawn — Chapter 30 — Glitch"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/uICcLf1tNcw/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/uICcLf1tNcw/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/uICcLf1tNcw/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/uICcLf1tNcw/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/uICcLf1tNcw/maxresdefault.jpg"
 width = 1280
 height = 720

@@ -1,40 +1,51 @@
 title = "Published YouTube video “Assassin's Creed II — Chapter 7 — Pazzi Conspiracy (Part 2)”"
 published = 2021-05-14T15:52:21Z
-video_id = "SKzF0O1Fljs"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "assassins-creed-ii", "assassins-creed", "ezio-collection", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/SKzF0O1Fljs/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/SKzF0O1Fljs/default.jpg"
+medium = "https://i.ytimg.com/vi/SKzF0O1Fljs/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/SKzF0O1Fljs/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/SKzF0O1Fljs/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/SKzF0O1Fljs/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/SKzF0O1Fljs/maxresdefault.480.jpg"
+
+[youtube]
+id = "SKzF0O1Fljs"
+title = "Assassin's Creed II — Chapter 7 — Pazzi Conspiracy (Part 2)"
 description = "In Chapter 7, Ezio tracks down the rest of the Pazzi conspirators.\n\n0:00 Opening titles\n0:22 The Cowl Does Not Make The Monk\n2:10 Glyph: Monte Oliveto Maggiore\n4:10 The Cowl Does Not Make The Monk\n9:40 Behind Closed Doors\n25:40 With Friends Like These\n36:40 Road Trip\n41:50 a pitstop in Monteriggioni\n47:10 Romagna Holiday\n53:54 database entries\n57:01 End card\n\nA play through of the game Assassin's Creed II. All of the main story, some of the side missions. No tedious commentary.\n\n"
 views = "4"
 likes = "0"
 dislikes = "0"
 comments = "0"
-tag = [ "assassins-creed-ii", "assassins-creed", "ezio-collection", "game-shows",]
-theme = "game-shows"
-video_title = "Assassin's Creed II — Chapter 7 — Pazzi Conspiracy (Part 2)"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/SKzF0O1Fljs/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/SKzF0O1Fljs/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/SKzF0O1Fljs/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/SKzF0O1Fljs/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/SKzF0O1Fljs/maxresdefault.jpg"
 width = 1280
 height = 720

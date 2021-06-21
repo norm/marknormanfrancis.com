@@ -22,12 +22,14 @@ width = int(sys.argv[1])
 flourish = Flourish()
 for source in flourish.sources.filter(image__set=''):
     if 'thumbnail' not in source:
+    width_key = 'w%s' % width
+    if 'thumbnail' not in source or width_key not in source['thumbnail']:
         req = requests.get(source['image'])
         original = BytesIO(req.content)
 
         image = Image.open(original)
         image.thumbnail(
-            (width,width),
+            (width, width),
             resample=Image.LANCZOS,
             reducing_gap=3.0,
         )
@@ -47,15 +49,15 @@ for source in flourish.sources.filter(image__set=''):
         _, source_ext = os.path.splitext(source_file)
         if source_ext == '.toml':
             data = toml.load(source_file)
-            data['thumbnail'] = {
-                '%s' % width: dest_url
-            }
+            if 'thumbnail' not in data:
+                data['thumbnail'] = {}
+            data['thumbnail'][width_key] = dest_url
             update_content(source_file, toml.dumps(data))
         elif source_ext == '.markdown':
             data, body = get_markdown_data(source_file)
-            data['thumbnail'] = {
-                '%s' % width: dest_url
-            }
+            if 'thumbnail' not in data:
+                data['thumbnail'] = {}
+            data['thumbnail'][width_key] = dest_url
             update_content(
                 source_file,
                 '```\n%s```\n\n%s' % (toml.dumps(data), body),

@@ -1,40 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 14 — Hunting”"
 published = 2020-11-06T08:15:00Z
-video_id = "JznC6TII07c"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/JznC6TII07c/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/JznC6TII07c/default.jpg"
+medium = "https://i.ytimg.com/vi/JznC6TII07c/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/JznC6TII07c/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/JznC6TII07c/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/JznC6TII07c/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/JznC6TII07c/maxresdefault.480.jpg"
+
+[youtube]
+id = "JznC6TII07c"
+title = "Horizon Zero Dawn — Chapter 14 — Hunting"
 description = "In Chapter 14, Aloy goes hunting for some trophies.\n\n0:00 Opening titles\n0:21 Recap\n0:42 Leaving Meridian\n8:05 Hunting for the Lodge: Stalker trophy\n22:35 Onwards\n26:12 Hunting for the Lodge: Sawtooth trophies\n41:00 Onwards\n49:00 A Daughter's Vengeance\n1:03:11 Map\n1:03:29 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "16"
 likes = "1"
 dislikes = "0"
 comments = "0"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
-video_title = "Horizon Zero Dawn — Chapter 14 — Hunting"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/JznC6TII07c/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/JznC6TII07c/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/JznC6TII07c/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/JznC6TII07c/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/JznC6TII07c/maxresdefault.jpg"
 width = 1280
 height = 720

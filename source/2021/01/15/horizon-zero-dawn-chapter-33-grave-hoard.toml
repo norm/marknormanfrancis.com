@@ -1,40 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 33 — Grave-Hoard”"
 published = 2021-01-15T08:15:01Z
-video_id = "3u2gsqa1W8E"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/3u2gsqa1W8E/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/3u2gsqa1W8E/default.jpg"
+medium = "https://i.ytimg.com/vi/3u2gsqa1W8E/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/3u2gsqa1W8E/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/3u2gsqa1W8E/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/3u2gsqa1W8E/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/3u2gsqa1W8E/maxresdefault.480.jpg"
+
+[youtube]
+id = "3u2gsqa1W8E"
+title = "Horizon Zero Dawn — Chapter 33 — Grave-Hoard"
 description = "In Chapter 33, Aloy delves into the Grave-Hoard.\n\n0:00 Opening titles\n0:21 Recap\n0:50 The Grave-Hoard\n9:58 Datapoint: Comms Log: Sgt. Guliyev\n10:42 Datapoint: Comms Log: Cpl. Mills\n12:05 Datapoint: Comms Log: Lt. Murell\n12:28 Datapoint: Comms Log: Sgt. Wandari\n16:12 Datapoint: Log: Cpl. Acosta (A)\n17:09 Datapoint: Log: Cpl. Acosta (B)\n18:34 Datapoint: Reminder. Again.\n19:18 Datapoint: Just a Little Longer\n20:05 Datapoint: So Sorry!\n22:18 Datapoint: Log: Cpl. Sarai (A)\n23:43 Datapoint: Log: Cpl. Sarai (B)\n27:07 Datapoint: Code Nexus Reminder\n30:00 The Armoury\n37:17 Datapoint: Edited and Approved 1\n37:46 Datapoint: Edited and Approved 2\n38:10 Datapoint: Unit Status Report\n39:20 Datapoint: Please Reply!\n40:12 Datapoint: I Believe in You\n41:37 Datapoint: USRC Deployment Records\n43:26 Map room\n46:33 Main hall\n57:50 Control room\n59:35 Datapoint: Biosphere Degradation\n1:02:10 War room\n1:07:50 Leaving the Grave-Hoard\n1:10:17 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "28"
 likes = "1"
 dislikes = "0"
 comments = "0"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
-video_title = "Horizon Zero Dawn — Chapter 33 — Grave-Hoard"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/3u2gsqa1W8E/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/3u2gsqa1W8E/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/3u2gsqa1W8E/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/3u2gsqa1W8E/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/3u2gsqa1W8E/maxresdefault.jpg"
 width = 1280
 height = 720

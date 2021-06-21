@@ -38,6 +38,8 @@ Keys that classify and the content of the entry:
       * `mnf` for original content on this site
       * `foursquare` for checkins syndicated from Foursquare
       * `instagram` for content originally posted to Instagram
+  * **origin_link_text** — Text to use in a link back to the original content.
+  * **origin_link_url** — URL pointing to the original content.
   * **type** — What kind of content to expect (ie how to render the page).
     The value for this is the third Sectile dimension. Some example values:
       * `article` for prose
@@ -101,3 +103,13 @@ contains_tweet = [ "1404318463091478528",]
 retweets = 0
 favourites = 1
 ```
+
+### Content-specific keys
+
+Where content is being pulled from a service that provides a lot of data
+that we would want stored (as opposed to Twitter, where we look up the
+tweets from the IDs as they are used to generate content), that should be
+stored in a source-specific table. Some in use, include:
+
+  * **foursquare**
+  * **youtube**

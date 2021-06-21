@@ -1,40 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 43 — A Sorry Mess”"
 published = 2021-02-19T08:15:00Z
-video_id = "Qy28ySFDnNI"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/Qy28ySFDnNI/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/Qy28ySFDnNI/default.jpg"
+medium = "https://i.ytimg.com/vi/Qy28ySFDnNI/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/Qy28ySFDnNI/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/Qy28ySFDnNI/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/Qy28ySFDnNI/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/Qy28ySFDnNI/maxresdefault.480.jpg"
+
+[youtube]
+id = "Qy28ySFDnNI"
+title = "Horizon Zero Dawn — Chapter 43 — A Sorry Mess"
 description = "In Chapter 43, Aloy goes after Inatut, then leaves The Cut.\n\n0:00 Opening titles\n0:21 Recap\n1:15 Frontier Justice, concluded\n30:49 Leaving The Cut\n39:00 Hollow Fort bandit camp\n51:49 Map\n52:14 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "17"
 likes = "1"
 dislikes = "0"
 comments = "1"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
-video_title = "Horizon Zero Dawn — Chapter 43 — A Sorry Mess"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/Qy28ySFDnNI/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/Qy28ySFDnNI/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/Qy28ySFDnNI/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/Qy28ySFDnNI/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/Qy28ySFDnNI/maxresdefault.jpg"
 width = 1280
 height = 720

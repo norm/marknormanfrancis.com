@@ -1,40 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 20 — Blood”"
 published = 2020-11-27T08:15:02Z
-video_id = "tACqg9R53A0"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/tACqg9R53A0/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/tACqg9R53A0/default.jpg"
+medium = "https://i.ytimg.com/vi/tACqg9R53A0/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/tACqg9R53A0/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/tACqg9R53A0/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/tACqg9R53A0/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/tACqg9R53A0/maxresdefault.480.jpg"
+
+[youtube]
+id = "tACqg9R53A0"
+title = "Horizon Zero Dawn — Chapter 20 — Blood"
 description = "In Chapter 20, Aloy meets an ex-Banuk Shaman with a strange penchant.\n\n0:00 Opening titles\n0:22 Sun-Steps Tallneck\n16:30 Onwards\n26:30 Acquired Taste, part 1\n41:20 Acquired Taste, part 2\n1:03:23 Datapoint: Observer Log US-W-19\n1:04:13 Map\n1:04:31 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "16"
 likes = "0"
 dislikes = "0"
 comments = "0"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
-video_title = "Horizon Zero Dawn — Chapter 20 — Blood"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/tACqg9R53A0/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/tACqg9R53A0/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/tACqg9R53A0/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/tACqg9R53A0/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/tACqg9R53A0/maxresdefault.jpg"
 width = 1280
 height = 720

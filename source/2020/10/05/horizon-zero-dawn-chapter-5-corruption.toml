@@ -1,40 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 5 — Corruption”"
 published = 2020-10-05T07:15:01Z
-video_id = "4cuE6pNeqNs"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/4cuE6pNeqNs/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/4cuE6pNeqNs/default.jpg"
+medium = "https://i.ytimg.com/vi/4cuE6pNeqNs/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/4cuE6pNeqNs/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/4cuE6pNeqNs/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/4cuE6pNeqNs/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/4cuE6pNeqNs/maxresdefault.480.jpg"
+
+[youtube]
+id = "4cuE6pNeqNs"
+title = "Horizon Zero Dawn — Chapter 5 — Corruption"
 description = "A play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nIn Chapter 5 Aloy learns something about her mother, and prepares to leave Nora lands.\n\n00:00 Opening titles\n00:21 Recap\n00:44 The Womb of the Mountain\n32:09 It's not home anymore\n40:09 A Seeker at the Gates\n49:25 Map\n49:43 End screen\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "50"
 likes = "4"
 dislikes = "0"
 comments = "2"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
-video_title = "Horizon Zero Dawn — Chapter 5 — Corruption"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/4cuE6pNeqNs/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/4cuE6pNeqNs/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/4cuE6pNeqNs/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/4cuE6pNeqNs/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/4cuE6pNeqNs/maxresdefault.jpg"
 width = 1280
 height = 720

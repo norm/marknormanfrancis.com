@@ -1,40 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 37 — The Spirit”"
 published = 2021-01-29T08:15:00Z
-video_id = "dA2KpDzKDVs"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/dA2KpDzKDVs/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/dA2KpDzKDVs/default.jpg"
+medium = "https://i.ytimg.com/vi/dA2KpDzKDVs/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/dA2KpDzKDVs/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/dA2KpDzKDVs/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/dA2KpDzKDVs/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/dA2KpDzKDVs/maxresdefault.480.jpg"
+
+[youtube]
+id = "dA2KpDzKDVs"
+title = "Horizon Zero Dawn — Chapter 37 — The Spirit"
 description = "In Chapter 37, Aloy first meets the Sprit of the blue light and\ntakes part in the Banuk hunting trials.\n\n0:00 Opening titles\n0:21 Recap\n1:07 The Shaman's Path, part 3\n21:00 Onwards\n26:20 Snowchants Hunting Ground\n43:20 Onwards\n46:15 Datapoint: Last Request\n47:16 Datapoint: Stage 2 Complete\n48:18 Datapoint: Menu Prank\n49:16 Datapoint: Incommensurable\n50:13 Map\n50:31 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "17"
 likes = "1"
 dislikes = "0"
 comments = "0"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
-video_title = "Horizon Zero Dawn — Chapter 37 — The Spirit"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/dA2KpDzKDVs/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/dA2KpDzKDVs/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/dA2KpDzKDVs/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/dA2KpDzKDVs/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/dA2KpDzKDVs/maxresdefault.jpg"
 width = 1280
 height = 720

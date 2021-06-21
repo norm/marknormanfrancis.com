@@ -1,40 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 8 — The Ring of Metal”"
 published = 2020-10-16T07:15:01Z
-video_id = "H3rZthNNo8g"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/H3rZthNNo8g/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/H3rZthNNo8g/default.jpg"
+medium = "https://i.ytimg.com/vi/H3rZthNNo8g/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/H3rZthNNo8g/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/H3rZthNNo8g/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/H3rZthNNo8g/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/H3rZthNNo8g/maxresdefault.480.jpg"
+
+[youtube]
+id = "H3rZthNNo8g"
+title = "Horizon Zero Dawn — Chapter 8 — The Ring of Metal"
 description = "A play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nIn Chapter 8, the Nora attack the Cultists in the Ring of Metal.\n\n00:00 Opening titles\n00:21 Recap\n00:52 Revenge of the Nora\n36:39 Back to Red Echoes\n47:57 Corrupted Zone\n1:00:48 Map\n1:01:08 End screen\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "29"
 likes = "3"
 dislikes = "0"
 comments = "1"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
-video_title = "Horizon Zero Dawn — Chapter 8 — The Ring of Metal"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/H3rZthNNo8g/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/H3rZthNNo8g/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/H3rZthNNo8g/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/H3rZthNNo8g/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/H3rZthNNo8g/maxresdefault.jpg"
 width = 1280
 height = 720

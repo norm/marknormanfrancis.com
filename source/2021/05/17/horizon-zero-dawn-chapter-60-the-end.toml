@@ -1,40 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 60 — The End”"
 published = 2021-05-17T15:30:10Z
-video_id = "ZChVl5RnMHA"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/ZChVl5RnMHA/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/ZChVl5RnMHA/default.jpg"
+medium = "https://i.ytimg.com/vi/ZChVl5RnMHA/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/ZChVl5RnMHA/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/ZChVl5RnMHA/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/ZChVl5RnMHA/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/ZChVl5RnMHA/maxresdefault.480.jpg"
+
+[youtube]
+id = "ZChVl5RnMHA"
+title = "Horizon Zero Dawn — Chapter 60 — The End"
 description = "In Chapter 60, Aloy battles Hades.\n\n0:00 Opening titles\n0:21 Recap\n1:10 The Face of Extinction\n32:07 End credits\n42:10 Sylens\n43:26 Full credits\n1:08:22 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "7"
 likes = "0"
 dislikes = "0"
 comments = "0"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
-video_title = "Horizon Zero Dawn — Chapter 60 — The End"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/ZChVl5RnMHA/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/ZChVl5RnMHA/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/ZChVl5RnMHA/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/ZChVl5RnMHA/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/ZChVl5RnMHA/maxresdefault.jpg"
 width = 1280
 height = 720

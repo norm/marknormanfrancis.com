@@ -1,34 +1,44 @@
 title = "Published YouTube video “/dev/fort: cohort 4 ideation”"
 published = 2010-07-17T21:43:24Z
-video_id = "MwejLGvho5I"
 origin = "youtube-mnf"
 origin_link_text = "Mark Norman Francis channel"
 origin_link_url = "https://www.youtube.com/channel/UChCfyxtJP1e4eO0v7L1CUJw"
 type = "video"
-views = "190"
+tag = [ "devfort", "devfort-4",]
+image = "https://i.ytimg.com/vi/MwejLGvho5I/hqdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/MwejLGvho5I/default.jpg"
+medium = "https://i.ytimg.com/vi/MwejLGvho5I/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/MwejLGvho5I/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/MwejLGvho5I/sddefault.jpg"
+w480 = "https://mnf.m17s.net/vi/MwejLGvho5I/hqdefault.480.jpg"
+
+[youtube]
+id = "MwejLGvho5I"
+title = "/dev/fort: cohort 4 ideation"
 description = "Coming up with ideas, features and suggestions for the fourth devfort.com project.\r\n\r\nCreated with iTimeLapse.\n\n"
+views = "183"
 likes = "1"
 dislikes = "1"
 comments = "0"
-tag = [ "devfort", "devfort-4",]
-video_title = "/dev/fort: cohort 4 ideation"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/MwejLGvho5I/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/MwejLGvho5I/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/MwejLGvho5I/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/MwejLGvho5I/sddefault.jpg"
 width = 640
 height = 480

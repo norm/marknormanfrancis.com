@@ -1,40 +1,51 @@
 title = "Published YouTube video “Behind the Scenes — Horizon Zero Dawn — Edits in the Sun Ring”"
 published = 2021-04-08T09:39:18Z
-video_id = "t65w8tDQn-g"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "behind-the-scenes", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/t65w8tDQn-g/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/t65w8tDQn-g/default.jpg"
+medium = "https://i.ytimg.com/vi/t65w8tDQn-g/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/t65w8tDQn-g/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/t65w8tDQn-g/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/t65w8tDQn-g/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/t65w8tDQn-g/maxresdefault.480.jpg"
+
+[youtube]
+id = "t65w8tDQn-g"
+title = "Behind the Scenes — Horizon Zero Dawn — Edits in the Sun Ring"
 description = "In Chapter 54 of my Horizon Zero Dawn playthrough, I make some changes to cinematic sequences. Find the chapter at https://www.youtube.com/watch?v=xF2poDHo0hA\u200b\n\nIn this video I explain how and why I have made the changes.\n\n"
 views = "23"
 likes = "1"
 dislikes = "0"
 comments = "0"
-tag = [ "horizon-zero-dawn", "behind-the-scenes", "game-shows",]
-theme = "game-shows"
-video_title = "Behind the Scenes — Horizon Zero Dawn — Edits in the Sun Ring"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/t65w8tDQn-g/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/t65w8tDQn-g/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/t65w8tDQn-g/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/t65w8tDQn-g/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/t65w8tDQn-g/maxresdefault.jpg"
 width = 1280
 height = 720

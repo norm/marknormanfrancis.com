@@ -1,40 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 21 — Ersa”"
 published = 2020-11-30T08:15:01Z
-video_id = "JhgbOyelU2M"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/JhgbOyelU2M/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/JhgbOyelU2M/default.jpg"
+medium = "https://i.ytimg.com/vi/JhgbOyelU2M/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/JhgbOyelU2M/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/JhgbOyelU2M/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/JhgbOyelU2M/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/JhgbOyelU2M/maxresdefault.480.jpg"
+
+[youtube]
+id = "JhgbOyelU2M"
+title = "Horizon Zero Dawn — Chapter 21 — Ersa"
 description = "In Chapter 21, Aloy goes to Pitchcliff to investigate Ersa's kidnapping.\n\n0:00 Opening titles\n0:22 Recap\n0:55 Towards Pitchcliff\n11:00 Into the Borderlands\n40:30 Towards Meridian\n50:53 Datapoint: Dervahl's Journal\n51:37 Map\n52:02 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "16"
 likes = "0"
 dislikes = "0"
 comments = "0"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
-video_title = "Horizon Zero Dawn — Chapter 21 — Ersa"
 
-[thumbnails.default]
+[youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/JhgbOyelU2M/default.jpg"
 width = 120
 height = 90
 
-[thumbnails.medium]
+[youtube.thumbnails.medium]
 url = "https://i.ytimg.com/vi/JhgbOyelU2M/mqdefault.jpg"
 width = 320
 height = 180
 
-[thumbnails.high]
+[youtube.thumbnails.high]
 url = "https://i.ytimg.com/vi/JhgbOyelU2M/hqdefault.jpg"
 width = 480
 height = 360
 
-[thumbnails.standard]
+[youtube.thumbnails.standard]
 url = "https://i.ytimg.com/vi/JhgbOyelU2M/sddefault.jpg"
 width = 640
 height = 480
 
-[thumbnails.maxres]
+[youtube.thumbnails.maxres]
 url = "https://i.ytimg.com/vi/JhgbOyelU2M/maxresdefault.jpg"
 width = 1280
 height = 720
