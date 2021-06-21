@@ -5,8 +5,9 @@ origin = "mnf"
 type = "article"
 subject = "weeknotes"
 tag = [ "weekchips",]
-
-fixme = "wrong URL"
+previous_slug = [
+    '/2020/08/22/my-weekchips-markers',
+]
 
 [twitter]
 contains_tweet = [

@@ -5,6 +5,9 @@ origin = "mnf"
 type = "article"
 subject = "weeknotes"
 tag = [ "weekchips",]
+previous_slug = [
+    '/2021/04/26/chips-for-week-16-2021',
+]
 
 [twitter]
 contains_tweet = [

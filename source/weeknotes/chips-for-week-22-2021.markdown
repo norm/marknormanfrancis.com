@@ -5,6 +5,9 @@ origin = "mnf"
 type = "article"
 subject = "weeknotes"
 tag = [ "weekchips",]
+previous_slug = [
+    '/2021/06/07/chips-for-week-22-2021',
+]
 
 [twitter]
 contains_tweet = [

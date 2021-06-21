@@ -5,6 +5,9 @@ origin = "mnf"
 type = "article"
 subject = "weeknotes"
 tag = ['weekchips',]
+previous_slug = [
+    '/2020/06/19/my-week-in-poker-chips',
+]
 
 [twitter]
 first_tweet = '1274053355615277056'

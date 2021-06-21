@@ -5,6 +5,9 @@ origin = "mnf"
 type = "article"
 subject = "weeknotes"
 tag = [ "weekchips", "repo-flourish", "repo-sectile", ]
+previous_slug = [
+    '/2021/06/14/chips-for-week-23-2021',
+]
 
 [twitter]
 contains_tweet = [ "1404318463091478528",]

@@ -5,6 +5,9 @@ origin = "mnf"
 type = "article"
 subject = "weeknotes"
 tag = [ "weekchips",]
+previous_slug = [
+    '/2020/06/26/chips-for-week-26-2020',
+]
 
 [twitter]
 first_tweet = '1276512616387686400'

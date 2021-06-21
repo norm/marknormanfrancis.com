@@ -4,8 +4,10 @@ published = 2021-04-06T05:03:42Z
 origin = "mnf"
 type = "article"
 subject = "weeknotes"
-fixme = "wrong URL"
 tag = [ "weekchips",]
+previous_slug = [
+    '/2021/04/06/my-weekchips-for-week-13-2021',
+]
 
 [twitter]
 contains_tweet = [
