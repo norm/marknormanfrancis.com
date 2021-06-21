@@ -4,10 +4,15 @@ published = 2021-05-31T06:48:47Z
 origin = "mnf"
 type = "article"
 subject = "weeknotes"
+image = "https://mnf.m17s.net/2021/05/31/E2soXxvWEAAhe6q.jpg"
 tag = [ "weekchips",]
 previous_slug = [
     '/2021/05/31/chips-for-week-21-2021',
 ]
+summary = """
+  I tidied up and committed the @eurovisiondrink code after the rush of
+  getting ready for Eurovision. And made some GIFs.
+"""
 
 [twitter]
 contains_tweet = [
@@ -15,6 +20,10 @@ contains_tweet = [
 ]
 retweets = 0
 favourites = 2
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2021/05/31/E2soXxvWEAAhe6q.200.jpg"
+chips = "https://mnf.m17s.net/2021/05/31/E2soXxvWEAAhe6q.chips.jpg"
 ```
 
 Another week, and I’m still [stacking chips][chips]. Last week’s

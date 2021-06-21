@@ -4,10 +4,15 @@ published = 2021-05-24T05:12:40Z
 origin = "mnf"
 type = "article"
 subject = "weeknotes"
+image = "https://mnf.m17s.net/2021/05/24/E2IPQd8XoAEk3Ob.jpg"
 tag = [ "weekchips",]
 previous_slug = [
     '/2021/05/24/chips-for-week-20-2021',
 ]
+summary = """
+  I brought my old control panel for running @eurovisiondrink up to date,
+  and added a bunch of features before the Eurovision weekend.
+"""
 
 [twitter]
 contains_tweet = [
@@ -15,6 +20,10 @@ contains_tweet = [
 ]
 retweets = 0
 favourites = 1
+
+[thumbnail]
+200 = "https://mnf.m17s.net/2021/05/24/E2IPQd8XoAEk3Ob.200.jpg"
+chips = "https://mnf.m17s.net/2021/05/24/E2IPQd8XoAEk3Ob.chips.jpg"
 ```
 
 Another week, and I’m still [stacking chips][chips]. Last week’s
