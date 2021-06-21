@@ -1,16 +1,28 @@
 ```
 title = "Chips for Week 34, 2020"
 published = 2020-08-22T09:45:23Z
-origin = "twitter-cackhanded"
-type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/1297107590644727808"
-twitter_account = "cackhanded"
-tweet_id = "1297107590644727808"
+origin = "mnf"
+type = "article"
+subject = "weeknotes"
+tag = [ "weekchips",]
+
+[twitter]
+first_tweet = '1297107590644727808'
+last_tweet = '1297129383791075328'
+contains_tweet = [
+    '1297107590644727808',
+    '1297108014361653248',
+    '1297108758909407233',
+    '1297109021099466752',
+    '1297109897750949888',
+    '1297110730400047104',
+    '1297111008771805185',
+    '1297111608167211008',
+    '1297111995318231042',
+    '1297129383791075328',
+]
 retweets = 0
 favourites = 13
-tag = [ "weekchips",]
-updated = 2020-08-22T11:11:59Z
-thread_tweet_ids = [ 1297107590644727808, 1297108014361653248, 1297108758909407233, 1297109021099466752, 1297109897750949888, 1297110730400047104, 1297111008771805185, 1297111608167211008, 1297111995318231042, 1297129383791075328,]
 ```
 
 Another week, and I’m back to

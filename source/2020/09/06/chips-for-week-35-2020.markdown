@@ -1,16 +1,24 @@
 ```
 title = "Chips for week 35, 2020"
 published = 2020-09-06T15:00:22Z
-origin = "twitter-cackhanded"
-type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/1302622677417459712"
-twitter_account = "cackhanded"
-tweet_id = "1302622677417459712"
+origin = "mnf"
+type = "article"
+subject = "weeknotes"
+tag = [ "weekchips",]
+
+[twitter]
+first_tweet = '1302622677417459712'
+last_tweet = '1302624575604371457'
+contains_tweet = [
+    '1302622677417459712',
+    '1302622974135107585',
+    '1302623299806076928',
+    '1302623913860575232',
+    '1302624266790350848',
+    '1302624575604371457',
+]
 retweets = 0
 favourites = 3
-tag = [ "weekchips",]
-updated = 2020-09-06T15:07:55Z
-thread_tweet_ids = [ 1302622677417459712, 1302622974135107585, 1302623299806076928, 1302623913860575232, 1302624266790350848, 1302624575604371457,]
 ```
 
 > My #weekchips markers https://t.co/3zYNHQdhQh

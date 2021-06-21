@@ -3,12 +3,13 @@ title = "Nice."
 published = 2018-03-23T13:48:57Z
 origin = "twitter-cackhanded"
 type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/977180401277067264"
-twitter_account = "cackhanded"
-tweet_id = "977180401277067264"
+tag = []
+
+[twitter]
+account = "cackhanded"
+first_tweet = "977180401277067264"
 retweets = 0
 favourites = 0
-tag = []
 ```
 
 > Also (if I got this right) the ladies outnumber the men by three acts. So that’s nice.

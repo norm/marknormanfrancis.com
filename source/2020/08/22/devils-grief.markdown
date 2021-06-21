@@ -3,12 +3,13 @@ title = "Devil's Grief"
 published = 2020-08-22T21:43:20Z
 origin = "twitter-norms_ps4"
 type = "tweet"
-original_url = "https://twitter.com/norms_ps4/status/1297288267260399617"
-twitter_account = "norms_ps4"
-tweet_id = "1297288267260399617"
+tag = [ "horizon-zero-dawn", "ps4share",]
+
+[twitter]
+account = "norms_ps4"
+first_tweet = "1297288267260399617"
 retweets = 0
 favourites = 0
-tag = [ "horizon-zero-dawn", "ps4share",]
 ```
 
 <p class='image'><img src='https://mnf.m17s.net/2020/08/22/EgDkzSpWoAIeSc8.jpg' alt=''></p>

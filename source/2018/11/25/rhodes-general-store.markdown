@@ -3,12 +3,13 @@ title = "Rhodes General Store"
 published = 2018-11-25T15:09:17Z
 origin = "twitter-norms_ps4"
 type = "tweet"
-original_url = "https://twitter.com/norms_ps4/status/1066710419472072705"
-twitter_account = "norms_ps4"
-tweet_id = "1066710419472072705"
+tag = [ "ps4share", "red-dead-redemption-2",]
+
+[twitter]
+account = "norms_ps4"
+first_tweet = "1066710419472072705"
 retweets = 0
 favourites = 0
-tag = [ "ps4share", "red-dead-redemption-2",]
 ```
 
 <p class='image'><img src='https://mnf.m17s.net/2018/11/25/Ds23ePHXgAEflca.jpg' alt=''></p>

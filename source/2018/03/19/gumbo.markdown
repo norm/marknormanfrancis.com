@@ -3,12 +3,13 @@ title = "Gumbo"
 published = 2018-03-19T17:54:11Z
 origin = "twitter-cackhanded"
 type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/975792563994152961"
-twitter_account = "cackhanded"
-tweet_id = "975792563994152961"
+tag = [ "gumbo",]
+
+[twitter]
+account = "cackhanded"
+first_tweet = "975792563994152961"
 retweets = 0
 favourites = 3
-tag = [ "gumbo",]
 ```
 
 Hey! Internet! Guess what?!?

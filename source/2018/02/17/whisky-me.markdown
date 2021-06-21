@@ -3,14 +3,21 @@ title = "Whisky, Me"
 published = 2018-02-17T08:08:08Z
 origin = "twitter-cackhanded"
 type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/964773445279117312"
-twitter_account = "cackhanded"
-tweet_id = "964773445279117312"
-retweets = 1
-favourites = 6
 tag = [ "boozecase", "scapa", "whisky",]
 updated = 2018-02-17T08:14:47Z
-thread_tweet_ids = [ 964773445279117312, 964773786930249728, 964774175637372928, 964775118105907201,]
+
+[twitter]
+account = "cackhanded"
+first_tweet = '964773445279117312'
+retweets = 1
+favourites = 6
+contains_tweet = [ 
+    '964773445279117312',
+    '964773786930249728',
+    '964774175637372928',
+    '964775118105907201',
+]
+last_tweet = '964775118105907201'
 ```
 
 Although I suspect I won’t like this month’s [`@whisky_me_`](https://twitter.com/whisky_me_) whisky, I love the little flavour icons on the sticker.

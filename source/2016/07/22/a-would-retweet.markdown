@@ -3,12 +3,13 @@ title = "A+ would retweet"
 published = 2016-07-22T14:23:13Z
 origin = "twitter-cackhanded"
 type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/756494816347840512"
-twitter_account = "cackhanded"
-tweet_id = "756494816347840512"
+tag = []
+
+[twitter]
+account = "cackhanded"
+first_tweet = "756494816347840512"
 retweets = 3
 favourites = 3
-tag = []
 ```
 
 Totes.

@@ -1,16 +1,26 @@
 ```
 title = "Chips for week 36, 2020"
 published = 2020-09-06T15:09:09Z
-origin = "twitter-cackhanded"
-type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/1302624888306495489"
-twitter_account = "cackhanded"
-tweet_id = "1302624888306495489"
+origin = "mnf"
+type = "article"
+subject = "weeknotes"
+tag = [ "weekchips",]
+
+[twitter]
+first_tweet = '1302624888306495489'
+last_tweet = '1302629784636321792'
+contains_tweet = [
+    '1302624888306495489',
+    '1302625328863555585',
+    '1302626448050663424',
+    '1302626780868759553',
+    '1302627096439795712',
+    '1302627995719475201',
+    '1302628482221039621',
+    '1302629784636321792',
+]
 retweets = 0
 favourites = 4
-tag = [ "weekchips",]
-updated = 2020-09-06T15:28:37Z
-thread_tweet_ids = [ 1302624888306495489, 1302625328863555585, 1302626448050663424, 1302626780868759553, 1302627096439795712, 1302627995719475201, 1302628482221039621, 1302629784636321792,]
 ```
 
 > My #weekchips markers https://t.co/3zYNHQdhQh

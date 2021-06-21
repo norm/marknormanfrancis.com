@@ -1,14 +1,19 @@
 ```
 title = "My weekchips markers"
 published = 2020-08-22T09:44:03Z
-origin = "twitter-cackhanded"
-type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/1297107256354504704"
-twitter_account = "cackhanded"
-tweet_id = "1297107256354504704"
+origin = "mnf"
+type = "article"
+subject = "weeknotes"
+tag = [ "weekchips",]
+
+fixme = "wrong URL"
+
+[twitter]
+contains_tweet = [
+    '1297107256354504704',
+]
 retweets = 0
 favourites = 2
-tag = [ "weekchips",]
 ```
 
 My markers for

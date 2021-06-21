@@ -1,14 +1,17 @@
 ```
 title = "Chips for week 22, 2021"
 published = 2021-06-07T10:30:54Z
-origin = "twitter-cackhanded"
-type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/1401849138761850883"
-twitter_account = "cackhanded"
-tweet_id = "1401849138761850883"
+origin = "mnf"
+type = "article"
+subject = "weeknotes"
+tag = [ "weekchips",]
+
+[twitter]
+contains_tweet = [
+    '1401849138761850883',
+]
 retweets = 0
 favourites = 1
-tag = [ "weekchips",]
 ```
 
 Another week, and I’m still [stacking chips][chips]. Last week’s
