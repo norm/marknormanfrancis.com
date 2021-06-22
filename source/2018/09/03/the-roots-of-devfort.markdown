@@ -2,15 +2,25 @@
 title = "The roots of /dev/fort"
 published = 2018-09-03T09:10:49Z
 origin = "twitter-cackhanded"
-type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/1036542017256480768"
-twitter_account = "cackhanded"
-tweet_id = "1036542017256480768"
+type = "thread"
+tag = [ "devfort",]
+
+[twitter]
+account = "cackhanded"
+first_tweet = "1036542017256480768"
 retweets = 0
 favourites = 9
-tag = [ "devfort",]
-updated = 2018-09-03T09:28:45Z
-thread_tweet_ids = [ 1036542017256480768, 1036542512951910400, 1036543353243033600, 1036543872799830016, 1036544417358905350, 1036545065043279872, 1036545755971047424, 1036546528545054720,]
+contains_tweet = [
+    '1036542017256480768',
+    '1036542512951910400',
+    '1036543353243033600',
+    '1036543872799830016',
+    '1036544417358905350',
+    '1036545065043279872',
+    '1036545755971047424',
+    '1036546528545054720',
+]
+last_tweet = '1036546528545054720'
 ```
 
 Tidying up a stack of old notebooks (as I narrowed down exactly the right type of notebook, I created strata by putting them all in one pile, going through it is like archeology). I’m back at 2007 and found my Yahoo work notebook.
@@ -29,5 +39,5 @@ And the fort part of [`@devfort`](https://twitter.com/devfort) is entirely down 
 
 
 
-<p class='image'><img src='https://mnf.m17s.net/2018/09/03/DmKNj-dXoAATVDP.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/1036542017256480768/DmKNj-dXoAATVDP.jpg' alt=''></p>
 

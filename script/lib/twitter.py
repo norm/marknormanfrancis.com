@@ -194,7 +194,8 @@ class Twitter:
             if new:
                 print('++', thumb)
 
-        post['tag'] = sorted(tags)
+        if tags:
+            post['tag'] = sorted(tags)
         post['twitter'] = {
                 'account': tweets[0].author.screen_name,
                 'first_tweet': tweets[0].id_str,
@@ -202,13 +203,16 @@ class Twitter:
                 'favourites': favourites,
             }
 
-        if created != updated:
+        if created != updated and updated - created > timedelta(hours=1):
             post['updated'] = updated
         if len(tweets) > 1:
-            post['thread_tweet_ids'] = sorted([
-                tweet.id
-                for tweet in tweets
+            sorted_tweets = sorted([
+                tweet.id_str
+                    for tweet in tweets
             ])
+            if len(sorted_tweets) > 2:
+                post['twitter']['contains_tweet'] = sorted_tweets
+            post['twitter']['last_tweet'] = sorted_tweets[-1]
 
         output = '```\n%s```\n\n%s' % (toml.dumps(post), body)
         update_content(output_file, output)

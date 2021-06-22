@@ -2,8 +2,12 @@
 title = "Snow selfie"
 published = 2018-02-28T12:31:59Z
 origin = "twitter-cackhanded"
-type = "tweet"
+type = "photo"
+image = "https://mnf.m17s.net/twitter/968826110233505792/DXH2NMTX0AAElOk.jpg"
 tag = [ "me", "selfie", "snowfie",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/968826110233505792/DXH2NMTX0AAElOk.200.jpg"
 
 [twitter]
 account = "cackhanded"
@@ -12,5 +16,5 @@ retweets = 0
 favourites = 11
 ```
 
-<p class='image'><img src='https://mnf.m17s.net/2018/02/28/DXH2NMTX0AAElOk.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/968826110233505792/DXH2NMTX0AAElOk.jpg' alt=''></p>
 

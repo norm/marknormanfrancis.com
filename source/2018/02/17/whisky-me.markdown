@@ -2,9 +2,8 @@
 title = "Whisky, Me"
 published = 2018-02-17T08:08:08Z
 origin = "twitter-cackhanded"
-type = "tweet"
+type = "thread"
 tag = [ "boozecase", "scapa", "whisky",]
-updated = 2018-02-17T08:14:47Z
 
 [twitter]
 account = "cackhanded"
@@ -22,7 +21,7 @@ last_tweet = '964775118105907201'
 
 Although I suspect I won’t like this month’s [`@whisky_me_`](https://twitter.com/whisky_me_) whisky, I love the little flavour icons on the sticker.
 
-<p class='image'><img src='https://mnf.m17s.net/2018/02/17/DWOQUZmXUAAJ-w-.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/964773445279117312/DWOQUZmXUAAJ-w-.jpg' alt=''></p>
 
 For years I didn’t think I liked whisky. Until (thanks to [`@rnalexander`](https://twitter.com/rnalexander)) I tried a non-peated whisky made into an old fashioned.
 
@@ -30,5 +29,5 @@ And even if I don’t like this month’s whisky, I am still a fan of [`@whisky_
 
 My previous favourite was this puppy, which was stopped and replaced with something somewhat unpleasant. And now I have less than half a bottle left, for special occasions only.
 
-<p class='image'><img src='https://mnf.m17s.net/2018/02/17/DWOR1bOX4AAJhuG.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/964773445279117312/DWOR1bOX4AAJhuG.jpg' alt=''></p>
 

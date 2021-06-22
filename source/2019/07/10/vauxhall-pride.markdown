@@ -2,16 +2,21 @@
 title = "Vauxhall pride"
 published = 2019-07-10T08:16:52Z
 origin = "twitter-cackhanded"
-type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/1148868679083409408"
-twitter_account = "cackhanded"
-tweet_id = "1148868679083409408"
+type = "photo"
+image = "https://mnf.m17s.net/twitter/1148868679083409408/D_GZ9_rXkAA-TFT.jpg"
+tag = [ "pride", "rainbow", "tfl",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1148868679083409408/D_GZ9_rXkAA-TFT.200.jpg"
+
+[twitter]
+account = "cackhanded"
+first_tweet = "1148868679083409408"
 retweets = 0
 favourites = 2
-tag = [ "pride", "rainbow", "tfl",]
 ```
 
 💖
 
-<p class='image'><img src='https://mnf.m17s.net/2019/07/10/D_GZ9_rXkAA-TFT.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/1148868679083409408/D_GZ9_rXkAA-TFT.jpg' alt=''></p>
 

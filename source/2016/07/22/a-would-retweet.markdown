@@ -2,8 +2,11 @@
 title = "A+ would retweet"
 published = 2016-07-22T14:23:13Z
 origin = "twitter-cackhanded"
-type = "tweet"
-tag = []
+type = "photo"
+image = "https://mnf.m17s.net/twitter/756494816347840512/Cn-cA_CWIAAACnh.jpg"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/756494816347840512/Cn-cA_CWIAAACnh.200.jpg"
 
 [twitter]
 account = "cackhanded"
@@ -14,5 +17,5 @@ favourites = 3
 
 Totes.
 
-<p class='image'><img src='https://mnf.m17s.net/2016/07/22/Cn-cA_CWIAAACnh.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/756494816347840512/Cn-cA_CWIAAACnh.jpg' alt=''></p>
 

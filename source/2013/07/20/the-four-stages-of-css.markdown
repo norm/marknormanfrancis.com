@@ -3,7 +3,6 @@ title = "The four stages of CSS"
 published = 2013-07-20T22:52:38Z
 origin = "twitter-cackhanded"
 type = "tweet"
-tag = []
 
 [twitter]
 account = "cackhanded"

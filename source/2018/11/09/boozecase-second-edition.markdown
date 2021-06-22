@@ -2,8 +2,12 @@
 title = "Boozecase, second edition"
 published = 2018-11-09T14:55:32Z
 origin = "twitter-cackhanded"
-type = "tweet"
+type = "photo"
+image = "https://mnf.m17s.net/twitter/1060908754152161282/Drka4M-WkAAjPfk.jpg"
 tag = [ "boozecase", "gin", "rum", "whisky",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1060908754152161282/Drka4M-WkAAjPfk.200.jpg"
 
 [twitter]
 account = "cackhanded"
@@ -12,5 +16,5 @@ retweets = 0
 favourites = 8
 ```
 
-<p class='image'><img src='https://mnf.m17s.net/2018/11/09/Drka4M-WkAAjPfk.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/1060908754152161282/Drka4M-WkAAjPfk.jpg' alt=''></p>
 

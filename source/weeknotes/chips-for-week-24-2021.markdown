@@ -4,19 +4,22 @@ published = 2021-06-21T06:31:40Z
 origin = "mnf"
 type = "article"
 subject = "weeknotes"
-original_url = "https://twitter.com/cackhanded/status/1406862363383537665"
-twitter_account = "cackhanded"
-tweet_id = "1406862363383537665"
-retweets = 0
-favourites = 1
 tag = [ "weekchips", "repo-flourish", "repo-marknormanfrancis-com", ]
-image = 'https://mnf.m17s.net/2021/06/21/E4Yt2rdWUAYyf4a.jpg'
+image = "https://mnf.m17s.net/twitter/1406862363383537665/E4Yt2rdWUAYyf4a.jpg"
 summary = """
-  I did stuff.
+  A couple of bug fixes to Flourish, a buncha work integrating my oldest
+  content, and some ongoing improvements to this site.
 """
 
 [thumbnail]
-chips = 'https://mnf.m17s.net/2021/06/21/E4Yt2rdWUAYyf4a.chips.jpg'
+w200 = "https://mnf.m17s.net/twitter/1406862363383537665/E4Yt2rdWUAYyf4a.200.jpg"
+chips = "https://mnf.m17s.net/twitter/1406862363383537665/E4Yt2rdWUAYyf4a.chips.jpg"
+
+[twitter]
+account = "cackhanded"
+first_tweet = "1406862363383537665"
+retweets = 0
+favourites = 1
 ```
 
 Another week, and I’m still [stacking chips][chips]. Last week’s

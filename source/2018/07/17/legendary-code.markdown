@@ -3,7 +3,6 @@ title = "Legendary code"
 published = 2018-07-17T13:43:54Z
 origin = "twitter-cackhanded"
 type = "tweet"
-tag = []
 
 [twitter]
 account = "cackhanded"

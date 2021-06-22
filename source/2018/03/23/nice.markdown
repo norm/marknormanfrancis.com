@@ -2,8 +2,11 @@
 title = "Nice."
 published = 2018-03-23T13:48:57Z
 origin = "twitter-cackhanded"
-type = "tweet"
-tag = []
+type = "photo"
+image = "https://mnf.m17s.net/twitter/977180401277067264/DY-kZJUXcAAhl5T.jpg"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/977180401277067264/DY-kZJUXcAAhl5T.200.jpg"
 
 [twitter]
 account = "cackhanded"
@@ -18,5 +21,5 @@ favourites = 0
 
  
 
-<p class='image'><img src='https://mnf.m17s.net/2018/03/23/DY-kZJUXcAAhl5T.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/977180401277067264/DY-kZJUXcAAhl5T.jpg' alt=''></p>
 

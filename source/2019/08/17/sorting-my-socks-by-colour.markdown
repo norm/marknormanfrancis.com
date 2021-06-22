@@ -2,19 +2,20 @@
 title = "Sorting my socks by colour"
 published = 2019-08-17T10:38:00Z
 origin = "twitter-cackhanded"
-type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/1162674933245390848"
-twitter_account = "cackhanded"
-tweet_id = "1162674933245390848"
-retweets = 1
-favourites = 11
+type = "thread"
+image = "https://mnf.m17s.net/twitter/1162674933245390848/ECKmreUX4AEj37F.jpg"
 tag = [ "rainbow", "socks",]
-updated = 2019-08-17T11:36:55Z
-thread_tweet_ids = [ 1162674933245390848, 1162679428721389568, 1162681349662224384, 1162682444845371392, 1162684258709843968, 1162684350355443713, 1162685599616311297, 1162686992431403009, 1162687561166401536, 1162688423230156803, 1162689160299339776, 1162689759954853889,]
-image = 'https://mnf.m17s.net/2019/08/17/ECKmreUX4AEj37F.jpg'
 
 [thumbnail]
-200 = 'https://mnf.m17s.net/2019/08/17/ECKmreUX4AEj37F.200.jpg'
+w200 = "https://mnf.m17s.net/twitter/1162674933245390848/ECKmreUX4AEj37F.200.jpg"
+
+[twitter]
+account = "cackhanded"
+first_tweet = "1162674933245390848"
+retweets = 1
+favourites = 11
+contains_tweet = [ "1162674933245390848", "1162679428721389568", "1162681349662224384", "1162682444845371392", "1162684258709843968", "1162684350355443713", "1162685599616311297", "1162686992431403009", "1162687561166401536", "1162688423230156803", "1162689160299339776", "1162689759954853889",]
+last_tweet = "1162689759954853889"
 ```
 
 Saturday is laundry day for me. And so while all of my socks are clean I’m sorting them into pairs by colour.
@@ -23,37 +24,37 @@ This could take a while.
 
 This is “blues” organised from most fun (left) to least fun (right). That’s not a gap on the end, just socks that match the duvet cover.
 
-<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKmreUX4AEj37F.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/1162674933245390848/ECKmreUX4AEj37F.jpg' alt=''></p>
 
 Reds and maroons, still most fun to least fun
 
-<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKqxHTWwAEtpw0.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/1162674933245390848/ECKqxHTWwAEtpw0.jpg' alt=''></p>
 
 Oranges (are not the only socks)
 
-<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKsg9UW4AEjrxj.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/1162674933245390848/ECKsg9UW4AEjrxj.jpg' alt=''></p>
 
 Pinks
 
-<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKtgyNXkAA0F_E.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/1162674933245390848/ECKtgyNXkAA0F_E.jpg' alt=''></p>
 
 Greens
 
-<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKvKNNXkAAcK-f.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/1162674933245390848/ECKvKNNXkAAcK-f.jpg' alt=''></p>
 
 Purples
 
-<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKvPtYXYAApsRf.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/1162674933245390848/ECKvPtYXYAApsRf.jpg' alt=''></p>
 
 And yellows.
 
-<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKwYSoXkAAGTEM.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/1162674933245390848/ECKwYSoXkAAGTEM.jpg' alt=''></p>
 
 These are all the result of buying solid colour multipacks from [`@marksandspencer`](https://twitter.com/marksandspencer) over many years.
 
 Now, what can we tell from this set of photos? Other than that I have too many socks of course. (Not kidding, part of this exercise was to put half of each colour into storage.)
 
-<p class='image'><img src='https://mnf.m17s.net/2019/08/17/ECKxpkwX4AM8b2b.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/1162674933245390848/ECKxpkwX4AM8b2b.jpg' alt=''></p>
 
 Well, we can tell that M&amp;S don’t recycle colours even when producing a new set … EXCEPT for yellow. I have three different sets that are basically the same colour but have different detailing at the elastic.
 

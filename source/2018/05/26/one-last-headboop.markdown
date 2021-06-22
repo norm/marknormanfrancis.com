@@ -14,5 +14,5 @@ favourites = 16
 
 One last headboop before going to sleep for the last time. Thomas Palmer, 2001–2018. A most excellent cat. Dormit in pace.
 
-<p class='image'><img src='https://mnf.m17s.net/2018/05/26/DeHntasWkAAWJbb.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/1000335378501591040/DeHntasWkAAWJbb.jpg' alt=''></p>
 
