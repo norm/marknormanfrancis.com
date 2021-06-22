@@ -5,6 +5,10 @@ origin = "twitter-cackhanded"
 type = "thread"
 tag = [ "itsy", "roxy",]
 updated = 2020-04-19T17:22:21Z
+summary = """
+  In which a stray shaft of light from outside the house causes instant
+  narcolepsy for my two cats.
+"""
 
 [twitter]
 account = "cackhanded"

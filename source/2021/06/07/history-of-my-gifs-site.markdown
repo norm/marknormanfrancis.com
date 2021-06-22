@@ -4,7 +4,19 @@ published = 2021-06-07T09:57:14Z
 origin = 'mnf'
 type = 'article'
 thread = 'making-gifs'
+image = 'https://mnf.m17s.net/2021/06/07/gifscackhandednet.jpg'
+summary = """
+    Back in 2014, I put up a little website with about 20 GIFs on it.
+    For the next five years, I only added one more GIF. Then last year, I
+    started adding GIFs on a regular basis. Today, I've got over 350 GIFs
+    published, and another 300 in the queue. But why?
+"""
+
+[thumbnail]
+200 = 'https://mnf.m17s.net/2021/06/07/gifscackhandednet.200.jpg'
 ```
+
+<p class='image'><img src='https://mnf.m17s.net/2021/06/07/gifscackhandednet.jpg' alt=''></p>
 
 The original idea behind my [GIFs site][gifs] was that there were a bunch of
 GIFs I wanted to use that were bad quality — low resolution, had janky

@@ -3,6 +3,11 @@ title = "A new start"
 published = 2020-06-02T15:37:52Z
 origin = "twitter-cackhanded"
 type = "thread"
+summary = """
+  In part to combat the COVID-19 blues, I revived my website from a five-year
+  slumber of inactivity and occasional extended downtime. I wonder how long
+  it will last this time.
+"""
 
 [twitter]
 account = "cackhanded"
