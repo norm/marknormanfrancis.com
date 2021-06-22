@@ -5,7 +5,12 @@ from flourish.generators import calendar
 from flourish.generators import sass
 
 from django.utils.html import linebreaks, urlize
-from django.template.defaultfilters import pluralize
+from django.template.defaultfilters import (
+    capfirst,
+    pluralize,
+    striptags,
+    truncatewords_html,
+)
 
 
 class AllTagsIndex(base.IndexGenerator):
@@ -31,7 +36,70 @@ class TagIndex(MostRecentFirstMixin, base.IndexGenerator):
 class Homepage(MostRecentFirstMixin, base.IndexGenerator):
     template_name = 'homepage.html'
     sources_exclude = {'noindex': True}
-    # limit = 20
+
+    def get_context_data(self):
+        context = super().get_context_data()
+
+        # software packages -- get just one entry for each package
+        rel = self.flourish.sources\
+                    .filter(type='release').order_by('published')
+        context['releases'] = {}
+        for src in rel:
+            context['releases'][src.package] = src
+
+        # youtube videos -- get just one entry per channel
+        yt = self.flourish.sources\
+                    .filter(origin__contains='youtube').order_by('published')
+        context['youtube_videos'] = {}
+        for src in yt:
+            context['youtube_videos'][src.origin_link_url] = src
+
+        context['latest_photos'] = self.flourish.sources\
+                    .filter(type='photo').order_by('-published')[:8]
+
+        context['latest_weeknote'] = self.flourish.sources\
+                    .filter(subject='weeknotes').order_by('-published')[0]
+
+        context['github_activities'] = self.flourish.sources\
+                    .filter(
+                        origin='github', type='repository_activity'
+                    ).order_by('-published')[:10]
+
+        context['latest_gifs'] = self.flourish.sources\
+                    .filter(origin='gifs').order_by('-published')[:6]
+
+        context['latest_writing'] = self.flourish.sources\
+                    .filter(
+                        type__in=['article','thread']
+                    ).exclude(
+                        subject='weeknotes',
+                        draft__set='',
+                    ).order_by('-published')[:8]
+
+        context['latest_tweets'] = self.flourish.sources\
+                    .filter(
+                        origin='twitter-cackhanded',
+                    ).exclude(
+                        type__in=['photo','thread'],
+                    ).order_by('-published')[:12]
+
+        context['everything_else'] = self.flourish.sources\
+                    .exclude(
+                        type__in=['article', 'recipe', 'timeless', 'index-splash'],
+                    ).exclude(
+                        origin__in=['gifs', 'foursquare', 'instagram', 'github',],
+                    ).exclude(
+                        origin__contains='youtube',
+                    ).exclude(
+                        origin__contains='twitter',
+                    ).order_by('-published')
+
+        context['fixmes'] = self.flourish.sources\
+                    .filter(fixme__set='', draft__unset='')
+        context['drafts'] = self.flourish.sources\
+                    .filter(draft__set='')
+
+        return context
 
 
 class NewPosts(base.IndexGenerator):
@@ -90,6 +158,9 @@ TEMPLATE_FILTERS = {
     'linebreaks': linebreaks,
     'urlise': urlize,
     'pluralise': pluralize,
+    'truncate': truncatewords_html,
+    'strip': striptags,
+    'capfirst': capfirst,
 }
 
 

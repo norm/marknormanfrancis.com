@@ -1,41 +1,254 @@
-<div id='body_rebuilding'>
-  <strong>Please hold…</strong>
-  <span>
-    This website is being rebuilt,
-    <a href='/about-the-rebuild'>find out more</a>.
-  </span>
+{# FIXME 2021 hardcoded #}
+<p>
+  I'm Mark Norman Francis.
+
+  I am a software developer and development manager who builds things of and
+  for the internet.
+
+  I use this website to collect my thoughts and ideas, and to collect 
+  the parts of me that I leave lying around on other parts of the internet.
+</p>
+
+{% if fixmes %}
+<div id='fixmes'>
+  {% if fixmes|length > 5 %}
+  <details>
+    <summary><h2>// FIX ME ({{fixmes|length}})</h2></summary>
+  {% else %}
+  <details open>
+    <summary><h2>// FIX ME</h2></summary>
+  {% endif %}
+    <ul>
+    {% for src in fixmes %}
+      <li><a href='{{src.slug}}'>{{src.title}}</a></li>
+    {% endfor %}
+    </ul>
+  </details>
+</div>
+{% endif %}
+
+{% if drafts %}
+<div id='drafts'>
+  {% if drafts|length > 5 %}
+  <details>
+    <summary><h2>// WRITE ME ({{drafts|length}})</h2></summary>
+  {% else %}
+  <details open>
+    <summary><h2>// WRITE ME</h2></summary>
+  {% endif %}
+    <ul>
+    {% for src in drafts %}
+      <li><a href='{{src.slug}}'>{{src.title}}</a></li>
+    {% endfor %}
+    </ul>
+  </details>
+</div>
+{% endif %}
+
+<div id='gifs'>
+  <h2><b>Latest GIFs — </b>I make GIFs, like it's <a href='https://www.theatlantic.com/technology/archive/2012/08/are-we-approaching-peak-gif/324460/'>2010</a>.</h2>
+  <p>
+    You can read more about <a href='/'>the how and the why</a>.
+  </p>
+  <ol>
+    {% for src in latest_gifs %}
+    <li>
+      {{src.published.strftime('%B %d')}}
+      <a href='{{src.url}}'>
+        <img src='{{src.thumbnail}}' width='150'>
+        <span>{{src.original_title}}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
 </div>
 
+<div id='youtube_videos'>
+  <h2><b>Latest YouTube videos — </b>I also make videos for YouTube.</h2>
+  <p>
+    Mostly video game content, where I try and make them more
+    watchable and less erratic by judicious use of repeated attempts
+    to get the best footage and a lot of editing.
+  </p>
+  <ol>
+    {% for v in youtube_videos %}{% with video = youtube_videos[v] %}
+    <li>
+      <span>
+        Latest
+          {% if video.origin_link_url != 'https://www.youtube.com/channel/UChCfyxtJP1e4eO0v7L1CUJw' %}
+            <a href='{{video.origin_link_url}}' class='channel'>Game Shows</a>
+          {% endif %}
+        video <b>—</b>
+        {% if video.published.year == 2021 %}
+          <span>{{video.published.strftime('%B %d')}}</span>
+        {% else %}
+          <span>{{video.published.strftime('%B %d, %y')}}</span>
+        {% endif %}
+      </span>
+      <a href='{{video.slug}}'>
+        {% if video.thumbnail.w480 %}
+          <img src="{{video.thumbnail.w480}}" width=480 height=270>
+        {% elif video.thumbnail.maxres %}
+          <img src="{{video.thumbnail.maxres}}" width=480 height=270>
+        {% else %}
+          <img src='{{video.thumbnail.high}}'>
+        {% endif %}
+        {{video.youtube.title}}
+      </a>
+    </li>
+    {% endwith %}{% endfor %}
+  </ol>
+</div>
 
-<h1>Most recent entries</h1>
-{% for page in pages %}
-
-  {% if loop.index < 21 %}
-
-  {% if loop.changed(page.published.month) %}
-    {% if not loop.first %}
-        </li>
-      </ul>
-    {% endif %}
-      <li>
-        <h2>{{page.published.strftime('%B %Y')}}</h2>
-        <ul>
-  {% endif %}
-
+<div id='software'>
+  <h2><b>Latest programming activities — </b>I semi-regularly write software (mostly for “fun”).</h2>
+  <div class='weeknote'>
+    <h3>Latest weeknote</h3>
+    <p class='latest'>
+      <a href='{{latest_weeknote.slug}}'>
+        {% if latest_weeknote.thumbnail.chips %}
+          <img src='{{latest_weeknote.thumbnail.chips}}' width=400 height=150>
+          <span>{{latest_weeknote.title}}</span>
+        {% endif %}
+      </a>
+      {% if latest_weeknote.published.year == 2021 %}
+        <em>{{latest_weeknote.published.strftime('%B %d')}}</em>
+      {% else %}
+        <em>{{latest_weeknote.published.strftime('%B %d, %Y')}}</em>
+      {% endif %}
+      —
+      {{latest_weeknote.summary}}
+    </p>
+    <p class='all-link'><a href='/weeknotes/'>All weeknotes.</a><p>
+  </div>
+  <div class='github'>
+    <h3>GitHub activity</h3>
+    <ol>
+      {% for source in github_activities %}
+        <li><a href='{{source.slug}}'>{{source.published.strftime('%A %B %d, %Y')}}</a></li>
+      {% endfor %}
+    </ol>
+  </div>
+  <div class='releases'>
+    <h3>Latest releases</h3>
+    <ol>
+      {% for r in releases %}{% with release = releases[r] %}
         <li>
-          {{page.published.day}}{{page.published.day|ordinal}}
-          {{page.published.strftime('%H:%M')}} <a href='{{page.path}}'>{{page.title}}</a>
+          {% if release.published.year == 2021 %}
+            <em>{{release.published.strftime('%B %d')}}</em>
+          {% else %}
+            <em>{{release.published.strftime('%B %d, %Y')}}</em>
+          {% endif %}
+          <a href='{{release.slug}}'><i>{{release.package}}</i> version {{release.version}}</a>
+          {{release}}
         </li>
+      {% endwith %}{% endfor %}
+    </ol>
+  </div>
+</div>
 
-  {% if loop.last %}
-      </ul>
+<div id='writing'>
+  <h2>I occasionally write words.</h2>
+  <ol>
+    {% for src in latest_writing %}
+    <li>
+      <h3>
+        <span class='date'>
+          {% with up=src.updated, pub=src.published %}
+            {% if pub.year == 2021 %}
+              {{pub.strftime('%B %d')}}
+            {% else %}
+              {{pub.strftime('%B %d, %Y')}}
+            {% endif %}
+            {% if up and up.date() != pub.date() %}
+              {% if pub.year == 2021 %}
+                (updated {{up.strftime('%B %d')}})
+              {% else %}
+                (updated {{up.strftime('%B %d, %Y')}})
+              {% endif %}
+            {% endif %}
+          {% endwith %}
+        </span>
+        <a href='{{src.slug}}'>
+          {{src.title}}
+        </a>
+      </h3>
+      <p>
+        {% if src.thumbnail and src.thumbnail['200'] %}
+          <img src='{{src.thumbnail["200"]}}' alt=''>
+        {% elif src.image %}
+          <img src='{{src.image}}' alt=''>
+        {% endif %}
+        {{src.summary}}
+      </p>
     </li>
-  {% endif %}
+    {% endfor %}
+  </ol>
+</div>
 
-  {% endif %}
-
-{% endfor %}
-      </ul>
+<div id='tweets'>
+  <h2>
+    I <a href='https://twitter.com/cackhanded'>tweet</a> a fair amount,
+    and want to preserve some of my favourites.
+  </h2>
+  <ol>
+    {% for src in latest_tweets %}
+    <li>
+      <span>
+        {% if src.published.year == 2021 %}
+          {{src.published.strftime('%B %d')}}
+        {% else %}
+          {{src.published.strftime('%B %d, %Y')}}
+        {% endif %}
+      </span>
+      <a href='{{src.slug}}'>
+        {% if src.thumbnail and src.thumbnail.w200 %}
+          <img src='{{src.thumbnail.w200}}' width=80>
+        {% endif %}
+        {{src.title}}
+      </a>
+      {{src.body|strip|truncate(12)}}
     </li>
+    {% endfor %}
+  </ol>
+</div>
 
-<p>There are <a href='/archives'>{{pages.count()}}</a> total entries.</p>
+<div id='photos'>
+  <h2>And I take photos. Many will be of cats.</h2>
+  <ol>
+    {% for photo in latest_photos %}
+    <li>
+      <a href='{{photo.slug}}'>
+        <img src='{{photo.thumbnail["w200"]}}' width='200'>
+        {{photo.title}}
+      </a>
+      {% if photo.tag|length == 1 %}
+        <a href='{{ path("tags-tag-index", tag=photo.tag[0]) }}'>{{photo.tag[0]|capfirst}}</a> —
+      {% endif %}
+      {% if photo.published.year == 2021 %}
+        {{photo.published.strftime('%B %d')}}
+      {% else %}
+        {{photo.published.strftime('%B %d, %Y')}}
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</div>
+
+<p>
+  In total, there are <a href='/archives'>{{pages.count()}}</a>
+  pieces of content in this site.
+</p>
+
+{% if everything_else %}
+  <h2>Everything else</h2>
+  <ul>
+    {% for src in everything_else %}
+      <li>
+        <a href='{{src.slug}}'>
+          {{src.title}}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
