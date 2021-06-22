@@ -179,7 +179,11 @@
         {% elif src.image %}
           <img src='{{src.image}}' alt=''>
         {% endif %}
-        {{src.summary}}
+        {% if src.summary %}
+          {{src.summary}}
+        {% else %}
+          {{src.body|strip|truncate(35)}}
+        {% endif %}
       </p>
     </li>
     {% endfor %}
