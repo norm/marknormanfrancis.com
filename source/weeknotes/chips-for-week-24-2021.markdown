@@ -12,8 +12,8 @@ summary = """
 """
 
 [thumbnail]
-w200 = "https://mnf.m17s.net/twitter/1406862363383537665/E4Yt2rdWUAYyf4a.200.jpg"
 chips = "https://mnf.m17s.net/twitter/1406862363383537665/E4Yt2rdWUAYyf4a.chips.jpg"
+w200 = "https://mnf.m17s.net/twitter/1406862363383537665/E4Yt2rdWUAYyf4a.200.jpg"
 
 [twitter]
 account = "cackhanded"

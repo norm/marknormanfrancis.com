@@ -7,4 +7,4 @@ location = "Vauxhall Bus Station"
 tag = [ "vauxhall-bus-station",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/11/24/misty-morning-vauxhall-cross.200.jpg"
+w200 = "https://mnf.m17s.net/2012/11/24/misty-morning-vauxhall-cross.200.jpg"

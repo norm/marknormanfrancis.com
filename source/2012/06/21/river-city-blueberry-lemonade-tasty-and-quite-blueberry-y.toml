@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/06/21/river-city-blueberry-lemonade-tasty-and-quite-blueberry-y.200.jpg"
+w200 = "https://mnf.m17s.net/2012/06/21/river-city-blueberry-lemonade-tasty-and-quite-blueberry-y.200.jpg"

@@ -7,4 +7,4 @@ original_caption = "This is stirred #daily #tshirt #new"
 tag = [ "daily", "new", "tshirt",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2015/07/28/this-is-stirred.200.jpg"
+w200 = "https://mnf.m17s.net/2015/07/28/this-is-stirred.200.jpg"

@@ -6,4 +6,4 @@ type = "photo"
 tag = [ "techsmas",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/12/20/summing-up-thayers-techsmas-prizes-photography-tablets-jelly-beans-shots-and-xkcd.200.jpg"
+w200 = "https://mnf.m17s.net/2012/12/20/summing-up-thayers-techsmas-prizes-photography-tablets-jelly-beans-shots-and-xkcd.200.jpg"

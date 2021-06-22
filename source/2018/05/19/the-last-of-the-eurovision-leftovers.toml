@@ -6,4 +6,4 @@ type = "photo"
 tag = [ "eurovision",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2018/05/19/the-last-of-the-eurovision-leftovers.200.jpg"
+w200 = "https://mnf.m17s.net/2018/05/19/the-last-of-the-eurovision-leftovers.200.jpg"

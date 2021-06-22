@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/05/04/record-breaking-levels-of-recycling-from-our-house-this-morning.200.jpg"
+w200 = "https://mnf.m17s.net/2016/05/04/record-breaking-levels-of-recycling-from-our-house-this-morning.200.jpg"

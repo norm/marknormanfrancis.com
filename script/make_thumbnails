@@ -4,6 +4,7 @@ from flourish import Flourish
 import os
 import sys
 import toml
+from urllib.parse import urlparse
 
 from lib import update_content, get_markdown_data, make_thumbnail
 from lib.bucket import Bucket
@@ -16,9 +17,9 @@ width = int(sys.argv[1])
 
 flourish = Flourish()
 for source in flourish.sources.filter(image__set=''):
-    if 'thumbnail' not in source:
     width_key = 'w%s' % width
     if 'thumbnail' not in source or width_key not in source['thumbnail']:
+        destination, _ = os.path.splitext(urlparse(source['image']).path)
         uploaded, dest_url = make_thumbnail(
                 source['image'],
                 width,

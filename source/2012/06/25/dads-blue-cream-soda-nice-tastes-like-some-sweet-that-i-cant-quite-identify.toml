@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/06/25/dads-blue-cream-soda-nice-tastes-like-some-sweet-that-i-cant-quite-identify.200.jpg"
+w200 = "https://mnf.m17s.net/2012/06/25/dads-blue-cream-soda-nice-tastes-like-some-sweet-that-i-cant-quite-identify.200.jpg"

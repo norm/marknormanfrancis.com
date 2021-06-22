@@ -7,4 +7,4 @@ location = "Kebab Feast"
 tag = [ "kebab-feast",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2010/11/18/kebab-shop.200.jpg"
+w200 = "https://mnf.m17s.net/2010/11/18/kebab-shop.200.jpg"

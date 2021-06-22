@@ -6,4 +6,4 @@ type = "photo"
 tag = [ "daily", "tshirt",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2013/01/27/barcamp-london-daily-tshirt-the-only-barcamp-tshirt-i-still-wear.200.jpg"
+w200 = "https://mnf.m17s.net/2013/01/27/barcamp-london-daily-tshirt-the-only-barcamp-tshirt-i-still-wear.200.jpg"

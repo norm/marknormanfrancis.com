@@ -7,4 +7,4 @@ original_caption = "This evening's work #shazam #spotify"
 tag = [ "shazam", "spotify",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/01/05/this-evenings-work.200.jpg"
+w200 = "https://mnf.m17s.net/2016/01/05/this-evenings-work.200.jpg"

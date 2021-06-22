@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/10/19/i-have-a-theory-that-no-one-can-look-bad-in-my-shady-brady.200.jpg"
+w200 = "https://mnf.m17s.net/2012/10/19/i-have-a-theory-that-no-one-can-look-bad-in-my-shady-brady.200.jpg"

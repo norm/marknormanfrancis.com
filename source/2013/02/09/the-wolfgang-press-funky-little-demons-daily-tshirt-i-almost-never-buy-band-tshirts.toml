@@ -6,4 +6,4 @@ type = "photo"
 tag = [ "daily", "tshirt",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2013/02/09/the-wolfgang-press-funky-little-demons-daily-tshirt-i-almost-never-buy-band-tshirts.200.jpg"
+w200 = "https://mnf.m17s.net/2013/02/09/the-wolfgang-press-funky-little-demons-daily-tshirt-i-almost-never-buy-band-tshirts.200.jpg"

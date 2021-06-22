@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/05/12/the-mostly-easter-egg-mugs-of-my-childhood-holding-rejected-whiteboard-pens.200.jpg"
+w200 = "https://mnf.m17s.net/2016/05/12/the-mostly-easter-egg-mugs-of-my-childhood-holding-rejected-whiteboard-pens.200.jpg"

@@ -7,4 +7,4 @@ location = "The Theatre Royal"
 tag = [ "the-theatre-royal",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/09/06/theatre-royal-drury-lane.200.jpg"
+w200 = "https://mnf.m17s.net/2012/09/06/theatre-royal-drury-lane.200.jpg"

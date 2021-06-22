@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2014/01/21/trying-my-new-whitelines-link-notebook-app-capture-even-liked-the-grey-ink.200.jpg"
+w200 = "https://mnf.m17s.net/2014/01/21/trying-my-new-whitelines-link-notebook-app-capture-even-liked-the-grey-ink.200.jpg"

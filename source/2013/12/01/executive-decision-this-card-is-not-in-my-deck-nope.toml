@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2013/12/01/executive-decision-this-card-is-not-in-my-deck-nope.200.jpg"
+w200 = "https://mnf.m17s.net/2013/12/01/executive-decision-this-card-is-not-in-my-deck-nope.200.jpg"

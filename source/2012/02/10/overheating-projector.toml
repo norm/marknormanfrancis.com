@@ -7,4 +7,4 @@ location = "Cineworld Wandsworth"
 tag = [ "cineworld-wandsworth",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/02/10/overheating-projector.200.jpg"
+w200 = "https://mnf.m17s.net/2012/02/10/overheating-projector.200.jpg"

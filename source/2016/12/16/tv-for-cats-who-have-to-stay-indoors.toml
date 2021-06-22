@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/12/16/tv-for-cats-who-have-to-stay-indoors.200.jpg"
+w200 = "https://mnf.m17s.net/2016/12/16/tv-for-cats-who-have-to-stay-indoors.200.jpg"

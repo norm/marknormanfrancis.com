@@ -6,4 +6,4 @@ type = "photo"
 tag = [ "daily", "tshirt",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/10/04/rekall-daily-tshirt-you-are-not-you-youre-me.200.jpg"
+w200 = "https://mnf.m17s.net/2012/10/04/rekall-daily-tshirt-you-are-not-you-youre-me.200.jpg"

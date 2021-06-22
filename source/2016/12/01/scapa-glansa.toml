@@ -6,4 +6,4 @@ type = "photo"
 tag = [ "boozecase",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/12/01/image.200.jpg"
+w200 = "https://mnf.m17s.net/2016/12/01/image.200.jpg"

@@ -7,4 +7,4 @@ text_markdown = "\n\nRed and green leaves"
 original_caption = "Morning\n\nRed and green leaves"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/10/14/morning.200.jpg"
+w200 = "https://mnf.m17s.net/2016/10/14/morning.200.jpg"

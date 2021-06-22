@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/05/17/jelly-belly-sour-cherry-much-more-sour-and-cherry.200.jpg"
+w200 = "https://mnf.m17s.net/2012/05/17/jelly-belly-sour-cherry-much-more-sour-and-cherry.200.jpg"

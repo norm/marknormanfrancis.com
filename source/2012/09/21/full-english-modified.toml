@@ -7,4 +7,4 @@ location = "Becks Cafe"
 tag = [ "becks-cafe",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/09/21/full-english-modified.200.jpg"
+w200 = "https://mnf.m17s.net/2012/09/21/full-english-modified.200.jpg"

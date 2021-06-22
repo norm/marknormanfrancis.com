@@ -7,4 +7,4 @@ location = "Hoffbrau Steak"
 tag = [ "hoffbrau-steak",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/03/10/proper-steakhouse-menu.200.jpg"
+w200 = "https://mnf.m17s.net/2012/03/10/proper-steakhouse-menu.200.jpg"

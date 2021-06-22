@@ -7,4 +7,4 @@ location = "Expedia"
 tag = [ "expedia",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/09/05/sunset-over-balcony.200.jpg"
+w200 = "https://mnf.m17s.net/2012/09/05/sunset-over-balcony.200.jpg"

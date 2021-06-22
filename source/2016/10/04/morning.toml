@@ -7,4 +7,4 @@ text_markdown = "\n\nObligatory rust photo"
 original_caption = "Morning\n\nObligatory rust photo"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/10/04/morning.200.jpg"
+w200 = "https://mnf.m17s.net/2016/10/04/morning.200.jpg"

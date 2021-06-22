@@ -7,4 +7,4 @@ location = "Clapham Junction"
 tag = [ "clapham-junction",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/04/04/sunlight-on-rails.200.jpg"
+w200 = "https://mnf.m17s.net/2012/04/04/sunlight-on-rails.200.jpg"

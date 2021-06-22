@@ -6,4 +6,4 @@ type = "photo"
 original_caption = "Cuff links made out of a decommissioned  Supermarine Spitfire. A SPITFIRE."
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2015/12/25/cuff-links-made-out-of-a-decommissioned-supermarine-spitfire-a-spitfire.200.jpg"
+w200 = "https://mnf.m17s.net/2015/12/25/cuff-links-made-out-of-a-decommissioned-supermarine-spitfire-a-spitfire.200.jpg"

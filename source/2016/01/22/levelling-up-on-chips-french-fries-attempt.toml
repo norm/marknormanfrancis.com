@@ -6,4 +6,4 @@ type = "photo"
 original_caption = "Levelling up on chips — French fries attempt #1"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/01/22/levelling-up-on-chips-french-fries-attempt.200.jpg"
+w200 = "https://mnf.m17s.net/2016/01/22/levelling-up-on-chips-french-fries-attempt.200.jpg"

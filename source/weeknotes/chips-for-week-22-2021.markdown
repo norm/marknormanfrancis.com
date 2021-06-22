@@ -22,8 +22,8 @@ retweets = 0
 favourites = 1
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2021/06/07/E3ReV5eXoAArHxg.200.jpg"
 chips = "https://mnf.m17s.net/2021/06/07/E3ReV5eXoAArHxg.chips.jpg"
+w200 = "https://mnf.m17s.net/2021/06/07/E3ReV5eXoAArHxg.200.jpg"
 ```
 
 Another week, and I’m still [stacking chips][chips]. Last week’s

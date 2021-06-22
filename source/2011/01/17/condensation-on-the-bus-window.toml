@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2011/01/17/condensation-on-the-bus-window.200.jpg"
+w200 = "https://mnf.m17s.net/2011/01/17/condensation-on-the-bus-window.200.jpg"

@@ -7,4 +7,4 @@ text_markdown = "\n\nDesire line."
 original_caption = "Morning\n\nDesire line."
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/09/29/morning.200.jpg"
+w200 = "https://mnf.m17s.net/2016/09/29/morning.200.jpg"

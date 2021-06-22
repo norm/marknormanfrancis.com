@@ -6,4 +6,4 @@ type = "photo"
 tag = [ "daily", "tshirt",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/12/11/court-symbol-daily-tshirt-and-thats-100-in-a-row.200.jpg"
+w200 = "https://mnf.m17s.net/2012/12/11/court-symbol-daily-tshirt-and-thats-100-in-a-row.200.jpg"

@@ -8,4 +8,4 @@ original_caption = "Explaining git rebase #whiteboard"
 tag = [ "the-money-advice-service", "whiteboard",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2017/03/02/explaining-git-rebase.200.jpg"
+w200 = "https://mnf.m17s.net/2017/03/02/explaining-git-rebase.200.jpg"

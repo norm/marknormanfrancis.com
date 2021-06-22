@@ -7,4 +7,4 @@ location = "Covent Garden Market"
 tag = [ "covent-garden-market",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/05/31/promethean-vehicle.200.jpg"
+w200 = "https://mnf.m17s.net/2012/05/31/promethean-vehicle.200.jpg"

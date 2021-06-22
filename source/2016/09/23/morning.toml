@@ -7,4 +7,4 @@ location = "Waterloo Bridge"
 tag = [ "waterloo-bridge",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/09/23/morning.200.jpg"
+w200 = "https://mnf.m17s.net/2016/09/23/morning.200.jpg"

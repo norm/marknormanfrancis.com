@@ -7,4 +7,4 @@ location = "Hayward Gallery"
 tag = [ "hayward-gallery",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/03/26/art-exhibition.200.jpg"
+w200 = "https://mnf.m17s.net/2012/03/26/art-exhibition.200.jpg"

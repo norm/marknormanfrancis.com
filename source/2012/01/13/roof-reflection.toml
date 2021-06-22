@@ -7,4 +7,4 @@ location = "British Museum"
 tag = [ "british-museum",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/01/13/roof-reflection.200.jpg"
+w200 = "https://mnf.m17s.net/2012/01/13/roof-reflection.200.jpg"

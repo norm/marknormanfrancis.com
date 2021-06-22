@@ -6,4 +6,4 @@ type = "photo"
 tag = [ "eurovision",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/05/14/pre-mixing-the-eurovision-punch.200.jpg"
+w200 = "https://mnf.m17s.net/2016/05/14/pre-mixing-the-eurovision-punch.200.jpg"

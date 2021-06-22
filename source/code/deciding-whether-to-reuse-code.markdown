@@ -9,7 +9,7 @@ repost = true
 subject = 'code'
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/01/21/reuse.200.jpg"
+w200 = "https://mnf.m17s.net/2016/01/21/reuse.200.jpg"
 ```
 
 ![reuse matrix](https://mnf.m17s.net/2016/01/21/reuse.jpg)

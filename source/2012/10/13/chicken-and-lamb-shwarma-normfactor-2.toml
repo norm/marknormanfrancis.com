@@ -6,4 +6,4 @@ type = "photo"
 tag = [ "normfactor",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/10/13/chicken-and-lamb-shwarma-normfactor-2.200.jpg"
+w200 = "https://mnf.m17s.net/2012/10/13/chicken-and-lamb-shwarma-normfactor-2.200.jpg"

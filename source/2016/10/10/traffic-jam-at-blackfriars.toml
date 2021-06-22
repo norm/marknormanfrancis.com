@@ -7,4 +7,4 @@ location = "Blackfriars Pier"
 tag = [ "blackfriars-pier",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/10/10/traffic-jam-at-blackfriars.200.jpg"
+w200 = "https://mnf.m17s.net/2016/10/10/traffic-jam-at-blackfriars.200.jpg"

@@ -7,4 +7,4 @@ location = "Ben's Canteen"
 tag = [ "bens-canteen",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/01/21/in-a-glass-of-its-own.200.jpg"
+w200 = "https://mnf.m17s.net/2012/01/21/in-a-glass-of-its-own.200.jpg"

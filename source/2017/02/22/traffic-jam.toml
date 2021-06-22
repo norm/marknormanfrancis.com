@@ -7,4 +7,4 @@ location = "Battersea Bridge"
 tag = [ "battersea-bridge",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2017/02/22/traffic-jam.200.jpg"
+w200 = "https://mnf.m17s.net/2017/02/22/traffic-jam.200.jpg"

@@ -7,4 +7,4 @@ location = "Le Pain Quotidien"
 tag = [ "le-pain-quotidien",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/05/16/finished.200.jpg"
+w200 = "https://mnf.m17s.net/2012/05/16/finished.200.jpg"

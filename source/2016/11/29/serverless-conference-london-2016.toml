@@ -7,4 +7,4 @@ original_caption = "Serverless conference London 2016 #daily #tshirt #new"
 tag = [ "daily", "new", "tshirt",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/11/29/serverless-conference-london-2016.200.jpg"
+w200 = "https://mnf.m17s.net/2016/11/29/serverless-conference-london-2016.200.jpg"

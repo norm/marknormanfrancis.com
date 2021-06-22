@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/06/17/avery-melon-soda-more-honeydew-than-watermelon-quite-nice.200.jpg"
+w200 = "https://mnf.m17s.net/2012/06/17/avery-melon-soda-more-honeydew-than-watermelon-quite-nice.200.jpg"

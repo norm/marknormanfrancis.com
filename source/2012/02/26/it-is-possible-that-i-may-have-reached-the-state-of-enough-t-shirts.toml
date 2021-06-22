@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/02/26/it-is-possible-that-i-may-have-reached-the-state-of-enough-t-shirts.200.jpg"
+w200 = "https://mnf.m17s.net/2012/02/26/it-is-possible-that-i-may-have-reached-the-state-of-enough-t-shirts.200.jpg"

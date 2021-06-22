@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2014/12/20/accidental-extra-booze-in-my-ocado-shop-how-terrible.200.jpg"
+w200 = "https://mnf.m17s.net/2014/12/20/accidental-extra-booze-in-my-ocado-shop-how-terrible.200.jpg"

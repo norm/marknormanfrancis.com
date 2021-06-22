@@ -6,4 +6,4 @@ type = "photo"
 tag = [ "daily", "tshirt",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/09/26/amity-island-daily-tshirt-youre-gonna-need-a-bigger-boat.200.jpg"
+w200 = "https://mnf.m17s.net/2012/09/26/amity-island-daily-tshirt-youre-gonna-need-a-bigger-boat.200.jpg"

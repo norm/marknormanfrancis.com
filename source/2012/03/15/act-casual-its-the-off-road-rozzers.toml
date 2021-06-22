@@ -6,4 +6,4 @@ type = "photo"
 tag = [ "act-casual",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/03/15/act-casual-its-the-off-road-rozzers.200.jpg"
+w200 = "https://mnf.m17s.net/2012/03/15/act-casual-its-the-off-road-rozzers.200.jpg"

@@ -7,4 +7,4 @@ location = "Byron Waterloo"
 tag = [ "byron-waterloo",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/07/24/proper-hamburgers.200.jpg"
+w200 = "https://mnf.m17s.net/2012/07/24/proper-hamburgers.200.jpg"

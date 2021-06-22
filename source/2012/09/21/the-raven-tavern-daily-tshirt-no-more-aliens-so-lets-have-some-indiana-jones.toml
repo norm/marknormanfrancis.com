@@ -6,4 +6,4 @@ type = "photo"
 tag = [ "daily", "tshirt",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/09/21/the-raven-tavern-daily-tshirt-no-more-aliens-so-lets-have-some-indiana-jones.200.jpg"
+w200 = "https://mnf.m17s.net/2012/09/21/the-raven-tavern-daily-tshirt-no-more-aliens-so-lets-have-some-indiana-jones.200.jpg"

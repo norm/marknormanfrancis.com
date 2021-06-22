@@ -103,6 +103,8 @@ def make_thumbnail(url, width, destination, bucket):
 
     file, ext = os.path.splitext(os.path.basename(url))
     dest = '%s.%s%s' % (destination, width, ext)
+    if dest.startswith('/'):
+        dest = dest[1:]
     uploaded = bucket.upload_file(temp.name, dest)
     dest_url = 'https://%s/%s' % (bucket.bucket_name, dest)
     return(uploaded, dest_url)

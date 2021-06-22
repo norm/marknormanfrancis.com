@@ -7,4 +7,4 @@ location = "Austin Convention Center"
 tag = [ "austin-convention-center",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/03/10/not-joss-whedon.200.jpg"
+w200 = "https://mnf.m17s.net/2012/03/10/not-joss-whedon.200.jpg"

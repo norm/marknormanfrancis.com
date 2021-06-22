@@ -7,4 +7,4 @@ location = "Bankside Pier"
 tag = [ "bankside-pier",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/12/30/i-like-memes.200.jpg"
+w200 = "https://mnf.m17s.net/2016/12/30/i-like-memes.200.jpg"

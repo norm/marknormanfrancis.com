@@ -7,4 +7,4 @@ location = "SXSW Interactive"
 tag = [ "sxsw-interactive",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2012/03/11/empty-stage.200.jpg"
+w200 = "https://mnf.m17s.net/2012/03/11/empty-stage.200.jpg"

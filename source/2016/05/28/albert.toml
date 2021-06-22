@@ -7,4 +7,4 @@ location = "Albert Memorial"
 tag = [ "albert-memorial",]
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2016/05/28/albert.200.jpg"
+w200 = "https://mnf.m17s.net/2016/05/28/albert.200.jpg"

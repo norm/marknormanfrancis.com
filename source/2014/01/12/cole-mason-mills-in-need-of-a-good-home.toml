@@ -5,4 +5,4 @@ origin = "instagram"
 type = "photo"
 
 [thumbnail]
-200 = "https://mnf.m17s.net/2014/01/12/cole-mason-mills-in-need-of-a-good-home.200.jpg"
+w200 = "https://mnf.m17s.net/2014/01/12/cole-mason-mills-in-need-of-a-good-home.200.jpg"
