@@ -1,16 +1,11 @@
 #!/usr/bin/env python
 
 from flourish import Flourish
-from io import BytesIO, StringIO
 import os
-import requests
-from PIL import Image
 import sys
-from tempfile import NamedTemporaryFile
 import toml
-from urllib.parse import urlparse
 
-from lib import update_content, get_markdown_data
+from lib import update_content, get_markdown_data, make_thumbnail
 from lib.bucket import Bucket
 
 BUCKET = 'mnf.m17s.net'
@@ -24,24 +19,12 @@ for source in flourish.sources.filter(image__set=''):
     if 'thumbnail' not in source:
     width_key = 'w%s' % width
     if 'thumbnail' not in source or width_key not in source['thumbnail']:
-        req = requests.get(source['image'])
-        original = BytesIO(req.content)
-
-        image = Image.open(original)
-        image.thumbnail(
-            (width, width),
-            resample=Image.LANCZOS,
-            reducing_gap=3.0,
-        )
-
-        temp = NamedTemporaryFile(suffix='.jpg')
-        with open(temp.name, 'w') as handle:
-            image.save(handle)
-
-        file, ext = os.path.splitext(urlparse(source['image']).path)
-        dest = '%s.%s%s' % (file, width, ext)
-        uploaded = bucket.upload_file(temp.name, dest)
-        dest_url = 'https://%s%s' % (BUCKET, dest)
+        uploaded, dest_url = make_thumbnail(
+                source['image'],
+                width,
+                destination,
+                bucket,
+            )
         if uploaded:
             print('++', dest_url)
 

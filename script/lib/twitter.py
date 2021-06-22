@@ -13,6 +13,7 @@ from lib import (
     strip_trailing_hashtags,
     update_content,
     tagify,
+    make_thumbnail,
 )
 from lib.bucket import Bucket
 
@@ -78,6 +79,7 @@ class Twitter:
         # FIXME add original data as attachment
 
         body = ''
+        content = 'tweet'
         tags = set()
         if 'tag' in extra:
             for tag in extra['tag']:
@@ -128,13 +130,24 @@ class Twitter:
             except AttributeError:
                 pass
 
+            # is it a photo?
+            if 'type' in extra and extra['type'] == 'photo':
+                content = 'photo'
+            else:
+                if 'media' in tweets[0].entities and len(text.split()) < 10:
+                    content = 'photo'
+        else:
+            content = 'thread'
+
         previous_time = created
+        images_dir = 'twitter/%s' % tweets[0].id_str
+
         for tweet in tweets:
             time = timestamped(tweet.created_at)
             if time - previous_time > timedelta(hours=1):
                 body += timestamp_header(time, previous_time)
             previous_time = time
-            body += self.tweet_to_markdown(tweet, date)
+            body += self.tweet_to_markdown(tweet, images_dir)
 
         if 'edited_body' in extra and extra['edited_body']:
             body = get_body_from_markdown(output_file)
@@ -156,17 +169,38 @@ class Twitter:
             'title': title,
             'published': created,
             'origin': 'twitter-%s' % tweets[-1].author.screen_name,
-            'type': 'tweet',
-            'original_url': 'https://twitter.com/%s/status/%s' % (
-                tweets[0].author.screen_name,
-                tweets[0].id_str,
-            ),
-            'twitter_account': tweets[0].author.screen_name,
-            'tweet_id': tweets[0].id_str,
-            'retweets': retweets,
-            'favourites': favourites,
-            'tag': sorted(tags),
+            'type': content,
         }
+
+        if content == 'photo':
+            photo = tweets[0].extended_entities['media'][0]['media_url_https']
+            filename, _ = os.path.splitext(os.path.basename(photo))
+            post['image'] = 'https://%s/%s/%s.jpg' % (
+                self.bucket.bucket_name,
+                images_dir,
+                filename,
+            )
+            new, thumb = make_thumbnail(
+                    photo,
+                    200,
+                    '%s/%s' % (images_dir, filename),
+                    self.bucket,
+                )
+            if 'thumbnail' in extra:
+                post['thumbnail'] = extra['thumbnail']
+            else:
+                post['thumbnail'] = {}
+            post['thumbnail']['w200'] = thumb
+            if new:
+                print('++', thumb)
+
+        post['tag'] = sorted(tags)
+        post['twitter'] = {
+                'account': tweets[0].author.screen_name,
+                'first_tweet': tweets[0].id_str,
+                'retweets': retweets,
+                'favourites': favourites,
+            }
 
         if created != updated:
             post['updated'] = updated
@@ -286,7 +320,7 @@ class Twitter:
                     check_digest = False,
                 )
                 if uploaded:
-                    print('++', destination)
+                    print('++ https://%s/%s' % (BUCKET, destination))
                 markdown += "<p class='image'><img src='%s' alt=''></p>\n\n" % (
                     'https://%s/%s' % (BUCKET, destination)
                 )

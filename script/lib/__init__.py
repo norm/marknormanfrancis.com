@@ -1,5 +1,9 @@
+from io import BytesIO
 import os
+from PIL import Image
 import re
+import requests
+from tempfile import NamedTemporaryFile
 import toml
 
 from django.utils.text import slugify
@@ -79,3 +83,26 @@ def tagify(text):
     text = re.sub(r'([a-z\W])([A-Z0-9])', r'\1-\2', text)
     text = slugify(text)
     return text.replace('_', '-')
+
+
+def make_thumbnail(url, width, destination, bucket):
+    width_key = 'w%s' % width
+    req = requests.get(url)
+    original = BytesIO(req.content)
+
+    image = Image.open(original)
+    image.thumbnail(
+        (width, width),
+        resample=Image.LANCZOS,
+        reducing_gap=3.0,
+    )
+
+    temp = NamedTemporaryFile(suffix='.jpg')
+    with open(temp.name, 'w') as handle:
+        image.save(handle)
+
+    file, ext = os.path.splitext(os.path.basename(url))
+    dest = '%s.%s%s' % (destination, width, ext)
+    uploaded = bucket.upload_file(temp.name, dest)
+    dest_url = 'https://%s/%s' % (bucket.bucket_name, dest)
+    return(uploaded, dest_url)

@@ -9,6 +9,7 @@ mimetypes.init()
 
 class Bucket(object):
     def __init__(self, bucket_name):
+        self.bucket_name = bucket_name
         self.bucket = boto3.resource('s3').Bucket(bucket_name)
         self.bucket_objects = dict()
         self.get_bucket_content()
