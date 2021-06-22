@@ -7,6 +7,7 @@ image = "https://mnf.m17s.net/twitter/1062607589459066881/Dr8j9zGWwAA2Myh.jpg"
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/1062607589459066881/Dr8j9zGWwAA2Myh.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/1062607589459066881/Dr8j9zGWwAA2Myh.80.jpg"
 
 [twitter]
 account = "cackhanded"

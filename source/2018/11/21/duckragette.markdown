@@ -8,6 +8,7 @@ tag = [ "rubberduck",]
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/1065361408811048963/Dsjsi7kWsAEC9gZ.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/1065361408811048963/Dsjsi7kWsAEC9gZ.80.jpg"
 
 [twitter]
 account = "cackhanded"

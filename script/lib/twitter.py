@@ -196,19 +196,20 @@ class Twitter:
             )
 
         if 'image' in post:
-            new, thumb = make_thumbnail(
-                    photo,
-                    200,
-                    '%s/%s' % (images_dir, filename),
-                    self.bucket,
-                )
             if 'thumbnail' in extra:
                 post['thumbnail'] = extra['thumbnail']
             else:
                 post['thumbnail'] = {}
-            post['thumbnail']['w200'] = thumb
-            if new:
-                print('++', thumb)
+            for width in [200, 80]:
+                new, thumb = make_thumbnail(
+                        photo,
+                        width,
+                        '%s/%s' % (images_dir, filename),
+                        self.bucket,
+                    )
+                post['thumbnail']['w%s' % width] = thumb
+                if new:
+                    print('++', thumb)
 
         if tags:
             post['tag'] = sorted(tags)

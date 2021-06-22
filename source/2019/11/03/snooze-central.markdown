@@ -8,6 +8,7 @@ tag = [ "itsy",]
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/1190907787875934208/EIb0T1eWkAAPCkZ.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/1190907787875934208/EIb0T1eWkAAPCkZ.80.jpg"
 
 [twitter]
 account = "cackhanded"

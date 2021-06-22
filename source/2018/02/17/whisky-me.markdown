@@ -8,6 +8,7 @@ tag = [ "boozecase", "scapa", "whisky",]
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/964773445279117312/DWOQUZmXUAAJ-w-.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/964773445279117312/DWOQUZmXUAAJ-w-.80.jpg"
 
 [twitter]
 account = "cackhanded"

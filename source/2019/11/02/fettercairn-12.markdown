@@ -8,6 +8,7 @@ tag = [ "board-games", "boozecase", "fettercairn", "whisky",]
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/1190694638350471169/EIYycfeX0AIA0zL.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/1190694638350471169/EIYycfeX0AIA0zL.80.jpg"
 
 [twitter]
 account = "cackhanded"

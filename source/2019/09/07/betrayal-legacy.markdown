@@ -8,6 +8,7 @@ tag = [ "board-games",]
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/1170338576774701056/ED3guXjXoAcMY4F.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/1170338576774701056/ED3guXjXoAcMY4F.80.jpg"
 
 [twitter]
 account = "cackhanded"

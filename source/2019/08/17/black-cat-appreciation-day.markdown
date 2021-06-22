@@ -8,6 +8,7 @@ tag = [ "black-cat-appreciation-day",]
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/1162644178502934529/ECKKtTuXkAApTa2.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/1162644178502934529/ECKKtTuXkAApTa2.80.jpg"
 
 [twitter]
 account = "cackhanded"

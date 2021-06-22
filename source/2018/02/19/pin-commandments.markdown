@@ -8,6 +8,7 @@ tag = [ "pincommandments",]
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/965504349601521664/DWYpE1JX0AAIqjd.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/965504349601521664/DWYpE1JX0AAIqjd.80.jpg"
 
 [twitter]
 account = "cackhanded"

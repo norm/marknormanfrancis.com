@@ -9,6 +9,7 @@ updated = 2019-07-07T06:01:35Z
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/1147171205100769280/D-uSHWBWwAUulLe.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/1147171205100769280/D-uSHWBWwAUulLe.80.jpg"
 
 [twitter]
 account = "cackhanded"

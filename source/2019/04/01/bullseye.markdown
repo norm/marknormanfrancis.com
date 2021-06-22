@@ -8,6 +8,7 @@ tag = [ "axe-throwing",]
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/1112790397674250240/D3Fs9wwX4AAutRd.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/1112790397674250240/D3Fs9wwX4AAutRd.80.jpg"
 
 [twitter]
 account = "cackhanded"

@@ -8,6 +8,7 @@ tag = [ "eurovision",]
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/1129733850362515458/D62e70-XsAA-VcR.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/1129733850362515458/D62e70-XsAA-VcR.80.jpg"
 
 [twitter]
 account = "cackhanded"

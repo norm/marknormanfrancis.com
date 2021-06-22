@@ -8,6 +8,7 @@ tag = [ "rainbow", "socks",]
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/1162674933245390848/ECKmreUX4AEj37F.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/1162674933245390848/ECKmreUX4AEj37F.80.jpg"
 
 [twitter]
 account = "cackhanded"

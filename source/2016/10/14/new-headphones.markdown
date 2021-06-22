@@ -8,6 +8,7 @@ tag = [ "headphones",]
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/786875109608914944/CuuKu9yXEAAaXZj.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/786875109608914944/CuuKu9yXEAAaXZj.80.jpg"
 
 [twitter]
 account = "cackhanded"

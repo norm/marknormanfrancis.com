@@ -8,6 +8,7 @@ tag = [ "hickies", "lifewithoutlaces", "rainbow",]
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/1137990355062853632/D8r0LvbWsAI-kN2.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/1137990355062853632/D8r0LvbWsAI-kN2.80.jpg"
 
 [twitter]
 account = "cackhanded"

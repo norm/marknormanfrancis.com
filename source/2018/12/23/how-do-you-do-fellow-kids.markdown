@@ -8,6 +8,7 @@ tag = [ "daily", "tshirt",]
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/1076780557726556160/DvF-r_BX0AATwlj.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/1076780557726556160/DvF-r_BX0AATwlj.80.jpg"
 
 [twitter]
 account = "cackhanded"

@@ -8,6 +8,7 @@ tag = [ "me", "selfie", "snowfie",]
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/968826110233505792/DXH2NMTX0AAElOk.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/968826110233505792/DXH2NMTX0AAElOk.80.jpg"
 
 [twitter]
 account = "cackhanded"
