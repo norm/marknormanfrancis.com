@@ -53,6 +53,8 @@ Keys that classify and the content of the entry:
     needed.
   * **map** — A rendered map when the content refers to a location (eg
     a foursquare venue checkin).
+  * **theme** — Like a tag, a way of joining disparate content together,
+    but is then paired with a page to explain the narrative behind it.
 
 ```toml
 origin = "mnf"
