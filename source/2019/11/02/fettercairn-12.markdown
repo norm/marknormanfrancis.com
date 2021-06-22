@@ -3,7 +3,11 @@ title = "Fettercairn 12"
 published = 2019-11-02T18:18:18Z
 origin = "twitter-cackhanded"
 type = "tweet"
+image = "https://mnf.m17s.net/twitter/1190694638350471169/EIYycfeX0AIA0zL.jpg"
 tag = [ "board-games", "boozecase", "fettercairn", "whisky",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1190694638350471169/EIYycfeX0AIA0zL.200.jpg"
 
 [twitter]
 account = "cackhanded"

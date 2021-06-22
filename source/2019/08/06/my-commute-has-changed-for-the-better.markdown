@@ -3,6 +3,10 @@ title = "My commute has changed for the better"
 published = 2019-08-06T06:14:47Z
 origin = "twitter-cackhanded"
 type = "tweet"
+image = "https://mnf.m17s.net/twitter/1158622426919591936/EBRA86WXoAEZ6zo.jpg"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1158622426919591936/EBRA86WXoAEZ6zo.200.jpg"
 
 [twitter]
 account = "cackhanded"

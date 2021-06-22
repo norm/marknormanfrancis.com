@@ -3,7 +3,11 @@ title = "Welcome to the top deck"
 published = 2019-04-16T06:19:54Z
 origin = "twitter-cackhanded"
 type = "tweet"
+image = "https://mnf.m17s.net/twitter/1118036273942413312/D4QQD_jW0AAD3OU.jpg"
 tag = [ "travel-animals",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1118036273942413312/D4QQD_jW0AAD3OU.200.jpg"
 
 [twitter]
 account = "cackhanded"

@@ -3,7 +3,11 @@ title = "Black cat appreciation day"
 published = 2019-08-17T08:35:47Z
 origin = "twitter-cackhanded"
 type = "tweet"
+image = "https://mnf.m17s.net/twitter/1162644178502934529/ECKKtTuXkAApTa2.jpg"
 tag = [ "black-cat-appreciation-day",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1162644178502934529/ECKKtTuXkAApTa2.200.jpg"
 
 [twitter]
 account = "cackhanded"

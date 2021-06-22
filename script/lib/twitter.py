@@ -113,6 +113,7 @@ class Twitter:
             for tag in extra['tags']:
                 tags.add(tag)
 
+        first_photo = False
         if len(tweets) == 1:
             # strip text before converting to Markdown if the title and
             # the body will match, so there's no unnecessary repetition,
@@ -134,10 +135,15 @@ class Twitter:
             if 'type' in extra and extra['type'] == 'photo':
                 content = 'photo'
             else:
-                if 'media' in tweets[0].entities and len(text.split()) < 10:
-                    content = 'photo'
+                if 'media' in tweets[0].entities:
+                    if len(text.split()) < 10:
+                        content = 'photo'
+                    else:
+                        first_photo = True
         else:
             content = 'thread'
+            if 'media' in tweets[0].entities:
+                first_photo = True
 
         previous_time = created
         images_dir = 'twitter/%s' % tweets[0].id_str
@@ -165,6 +171,9 @@ class Twitter:
             for tag in extra['remove_tags']:
                 tags.remove(tag)
 
+        if 'type' in extra:
+            content = extra['type']
+
         post = {
             'title': title,
             'published': created,
@@ -172,7 +181,12 @@ class Twitter:
             'type': content,
         }
 
-        if content == 'photo':
+        if 'image' in extra:
+            if extra['image']:
+                post['image'] = extra['image']
+                photo = extra['image']
+                filename, _ = os.path.splitext(os.path.basename(extra['image']))
+        elif content == 'photo' or first_photo:
             photo = tweets[0].extended_entities['media'][0]['media_url_https']
             filename, _ = os.path.splitext(os.path.basename(photo))
             post['image'] = 'https://%s/%s/%s.jpg' % (
@@ -180,6 +194,8 @@ class Twitter:
                 images_dir,
                 filename,
             )
+
+        if 'image' in post:
             new, thumb = make_thumbnail(
                     photo,
                     200,

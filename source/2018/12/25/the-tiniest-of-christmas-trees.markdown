@@ -3,7 +3,11 @@ title = "The tiniest of Christmas trees"
 published = 2018-12-25T09:02:07Z
 origin = "twitter-cackhanded"
 type = "tweet"
+image = "https://mnf.m17s.net/twitter/1077489658165112833/DvQDHxNX0AA7-zl.jpg"
 tag = [ "christmas",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1077489658165112833/DvQDHxNX0AA7-zl.200.jpg"
 
 [twitter]
 account = "cackhanded"

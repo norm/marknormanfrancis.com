@@ -3,8 +3,12 @@ title = "Itsy and Roxy"
 published = 2019-07-05T15:51:43Z
 origin = "twitter-cackhanded"
 type = "thread"
+image = "https://mnf.m17s.net/twitter/1147171205100769280/D-uSHWBWwAUulLe.jpg"
 tag = [ "itsy", "roxy",]
 updated = 2019-07-07T06:01:35Z
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1147171205100769280/D-uSHWBWwAUulLe.200.jpg"
 
 [twitter]
 account = "cackhanded"

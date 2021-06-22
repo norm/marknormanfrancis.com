@@ -3,7 +3,11 @@ title = "Pin commandments"
 published = 2018-02-19T08:32:29Z
 origin = "twitter-cackhanded"
 type = "tweet"
+image = "https://mnf.m17s.net/twitter/965504349601521664/DWYpE1JX0AAIqjd.jpg"
 tag = [ "pincommandments",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/965504349601521664/DWYpE1JX0AAIqjd.200.jpg"
 
 [twitter]
 account = "cackhanded"

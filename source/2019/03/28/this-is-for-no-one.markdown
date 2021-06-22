@@ -3,6 +3,10 @@ title = "This is for no-one"
 published = 2019-03-28T10:02:58Z
 origin = "twitter-cackhanded"
 type = "tweet"
+image = "https://mnf.m17s.net/twitter/1111207042482614274/D2vM6IzXQAAEXua.jpg"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1111207042482614274/D2vM6IzXQAAEXua.200.jpg"
 
 [twitter]
 account = "cackhanded"

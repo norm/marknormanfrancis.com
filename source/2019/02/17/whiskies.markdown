@@ -3,7 +3,11 @@ title = "Whiskies"
 published = 2019-02-17T08:37:16Z
 origin = "twitter-cackhanded"
 type = "tweet"
+image = "https://mnf.m17s.net/twitter/1097052348319449089/DzmDSjbW0AA9FR7.jpg"
 tag = [ "boozecase", "game-of-thrones", "whisky",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1097052348319449089/DzmDSjbW0AA9FR7.200.jpg"
 
 [twitter]
 account = "cackhanded"

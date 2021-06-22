@@ -3,7 +3,11 @@ title = "New lanyard"
 published = 2019-09-12T10:48:10Z
 origin = "twitter-cackhanded"
 type = "tweet"
+image = "https://mnf.m17s.net/twitter/1172099577446580224/EEQiWc_W4AAHxz5.jpg"
 tag = [ "rainbow",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1172099577446580224/EEQiWc_W4AAHxz5.200.jpg"
 
 [twitter]
 account = "cackhanded"

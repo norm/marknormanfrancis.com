@@ -3,7 +3,11 @@ title = "Snooze central"
 published = 2019-11-03T08:25:17Z
 origin = "twitter-cackhanded"
 type = "tweet"
+image = "https://mnf.m17s.net/twitter/1190907787875934208/EIb0T1eWkAAPCkZ.jpg"
 tag = [ "itsy",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1190907787875934208/EIb0T1eWkAAPCkZ.200.jpg"
 
 [twitter]
 account = "cackhanded"

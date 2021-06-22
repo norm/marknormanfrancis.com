@@ -3,6 +3,10 @@ title = "Tidying my whiteboard"
 published = 2020-08-27T10:29:36Z
 origin = "twitter-cackhanded"
 type = "thread"
+image = "https://mnf.m17s.net/twitter/1298930656316198912/Ega6ih0WAAAUIt3.jpg"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1298930656316198912/Ega6ih0WAAAUIt3.200.jpg"
 
 [twitter]
 account = "cackhanded"

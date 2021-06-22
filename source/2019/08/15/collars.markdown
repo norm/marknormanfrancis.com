@@ -3,7 +3,11 @@ title = "Collars"
 published = 2019-08-15T08:31:04Z
 origin = "twitter-cackhanded"
 type = "thread"
+image = "https://mnf.m17s.net/twitter/1161918214143696896/EB_2cl0XoAEfB4y.jpg"
 updated = 2019-08-15T10:23:19Z
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1161918214143696896/EB_2cl0XoAEfB4y.200.jpg"
 
 [twitter]
 account = "cackhanded"

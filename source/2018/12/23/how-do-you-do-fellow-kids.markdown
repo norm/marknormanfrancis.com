@@ -3,7 +3,11 @@ title = "How do you do, fellow kids?"
 published = 2018-12-23T10:04:25Z
 origin = "twitter-cackhanded"
 type = "thread"
+image = "https://mnf.m17s.net/twitter/1076780557726556160/DvF-r_BX0AATwlj.jpg"
 tag = [ "daily", "tshirt",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1076780557726556160/DvF-r_BX0AATwlj.200.jpg"
 
 [twitter]
 account = "cackhanded"

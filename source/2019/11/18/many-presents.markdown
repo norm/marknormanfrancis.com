@@ -3,7 +3,11 @@ title = "Many presents"
 published = 2019-11-18T15:43:15Z
 origin = "twitter-cackhanded"
 type = "tweet"
+image = "https://mnf.m17s.net/twitter/1196453823549788162/EJqoZT2XkAAkNqA.jpg"
 tag = [ "boozecase", "scapa",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1196453823549788162/EJqoZT2XkAAkNqA.200.jpg"
 
 [twitter]
 account = "cackhanded"

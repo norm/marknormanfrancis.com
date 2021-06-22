@@ -76,6 +76,7 @@ tags = [ "rubberduck",]
 
 [1076781091216916480]
 title = "How do you do, fellow kids?"
+image = "https://mnf.m17s.net/twitter/1076780557726556160/DvF-r_BX0AATwlj.jpg"
 stop_at = "1076780557726556160"
 
 [1077489658165112833]
@@ -163,6 +164,8 @@ title = "Black cat appreciation day"
 
 [1162689759954853889]
 title = "Sorting my socks by colour"
+type = "thread"
+image = "https://mnf.m17s.net/twitter/1162674933245390848/ECKmreUX4AEj37F.jpg"
 tags = [ "socks", "rainbow",]
 
 [1168121794844344325]
@@ -183,6 +186,7 @@ title = "Act casual"
 [1181254913772400640]
 title = "Apple Messages"
 tags = [ "my-name-is",]
+image = false
 
 [1185543485555953665]
 title = "Sunbeam"
@@ -225,9 +229,11 @@ title = "Poorly timed cat photo"
 
 [1251924107375054849]
 title = "Caught by a sunbeam"
+image = false
 
 [1266999062055788547]
 title = "Flashbacks"
+type = "photo"
 
 [1267850330164912128]
 title = "A new start"

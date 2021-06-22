@@ -3,7 +3,11 @@ title = "Rainbow Christmas"
 published = 2018-10-23T18:53:27Z
 origin = "twitter-cackhanded"
 type = "tweet"
+image = "https://mnf.m17s.net/twitter/1054808033224806400/DqNuQWTXgAAyR8p.jpg"
 tag = [ "christmas", "rainbow",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1054808033224806400/DqNuQWTXgAAyR8p.200.jpg"
 
 [twitter]
 account = "cackhanded"

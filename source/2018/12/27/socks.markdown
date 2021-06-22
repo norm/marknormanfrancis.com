@@ -3,7 +3,11 @@ title = "Socks"
 published = 2018-12-27T11:30:11Z
 origin = "twitter-cackhanded"
 type = "tweet"
+image = "https://mnf.m17s.net/twitter/1078251692574101504/Dva4LwTW0AAEwSc.jpg"
 tag = [ "rainbow", "socks",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/1078251692574101504/Dva4LwTW0AAEwSc.200.jpg"
 
 [twitter]
 account = "cackhanded"

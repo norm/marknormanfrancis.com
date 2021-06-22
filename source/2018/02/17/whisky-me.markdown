@@ -3,7 +3,11 @@ title = "Whisky, Me"
 published = 2018-02-17T08:08:08Z
 origin = "twitter-cackhanded"
 type = "thread"
+image = "https://mnf.m17s.net/twitter/964773445279117312/DWOQUZmXUAAJ-w-.jpg"
 tag = [ "boozecase", "scapa", "whisky",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/964773445279117312/DWOQUZmXUAAJ-w-.200.jpg"
 
 [twitter]
 account = "cackhanded"

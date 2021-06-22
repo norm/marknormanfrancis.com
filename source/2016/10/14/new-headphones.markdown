@@ -3,7 +3,11 @@ title = "New headphones"
 published = 2016-10-14T10:23:40Z
 origin = "twitter-cackhanded"
 type = "tweet"
+image = "https://mnf.m17s.net/twitter/786875109608914944/CuuKu9yXEAAaXZj.jpg"
 tag = [ "headphones",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/786875109608914944/CuuKu9yXEAAaXZj.200.jpg"
 
 [twitter]
 account = "cackhanded"
