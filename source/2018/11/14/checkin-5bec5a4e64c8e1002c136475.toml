@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/3f52687a78131f9a53e769cc0201dfd6ac078c9f6391ca913557141f1c119886.png"
 tag = [ "kerridges-bar-grill",]
 
-[data]
+[checkin]
 id = "5bec5a4e64c8e1002c136475"
 createdAt = 1542216270
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "5bb51d8a1acf11002c3943f1"
 name = "Kerridge’s Bar & Grill"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1c4941735"
 name = "Restaurant"
 pluralName = "Restaurants"
 shortName = "Restaurant"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "10 Northumberland Ave"
 lat = 51.506728
 lng = -0.12452
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "10 Northumberland Ave", "London", "Greater London", "WC2N 5AE",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.506728
 lng = -0.12452

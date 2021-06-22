@@ -5,41 +5,41 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/e98d745e227d4d5e96c2ee5e856fe170537fbdbe038af523ce8730c27f5751a3.png"
 tag = [ "roundhouse", "scott-bradlees-postmodern-jukebox-and-postmodern-jukebox", "concert",]
 
-[data]
+[checkin]
 id = "56e32013498e803d465fb787"
 createdAt = 1457725459
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518e9f964a520daab20e3"
 name = "Roundhouse"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1e5931735"
 name = "Music Venue"
 pluralName = "Music Venues"
 shortName = "Music Venue"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
 suffix = ".png"
 
-[data.event]
+[checkin.event]
 id = "5538a1b0498e5212cc2a2e07"
 name = "Scott Bradlee's Postmodern Jukebox and Postmodern Jukebox"
-[[data.event.categories]]
+[[checkin.event.categories]]
 id = "4e0a4b91bd41eda0d6092f89"
 name = "Concert"
 pluralName = "Concerts"
 shortName = "Concert"
 primary = true
 
-[data.event.categories.icon]
+[checkin.event.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Chalk Farm Rd"
 lat = 51.543198
 lng = -0.151874
@@ -50,10 +50,10 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Chalk Farm Rd", "London", "Greater London", "NW1 8EH",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.543198
 lng = -0.151874
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "33920132"

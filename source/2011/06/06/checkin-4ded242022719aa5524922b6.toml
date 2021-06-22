@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/a457f83b6c37e7d2a7146b23b87ac904bcc7adb722fbe48
 tag = [ "the-golden-heart",]
 local_timestamp = 2011-06-06T21:01:52Z
 
-[data]
+[checkin]
 id = "4ded242022719aa5524922b6"
 createdAt = 1307386912
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b5f70caf964a5207fba29e3"
 name = "The Golden Heart"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "110 Commercial St"
 lat = 51.52015568921397
 lng = -0.07454340656292219
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "110 Commercial St", "London", "Greater London", "E1 6LZ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.52015568921397
 lng = -0.07454340656292219

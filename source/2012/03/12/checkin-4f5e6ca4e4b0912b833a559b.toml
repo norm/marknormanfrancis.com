@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/d59f644323dde289bedb6fe75c271e0dfc0d86a3b2a39c6
 tag = [ "acc-exhibit-hall-5",]
 local_timestamp = 2012-03-12T16:37:40Z
 
-[data]
+[checkin]
 id = "4f5e6ca4e4b0912b833a559b"
 createdAt = 1331588260
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "4dab6f79fa8cc764974d3087"
 name = "ACC Exhibit Hall 5"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d173941735"
 name = "Auditorium"
 pluralName = "Auditoriums"
 shortName = "Auditorium"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/auditorium_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "500 E Cesar Chavez St"
 crossStreet = "btwn Trinity St & Red River St"
 lat = 30.264352156792377
@@ -37,7 +37,7 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "500 E Cesar Chavez St (btwn Trinity St & Red River St)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.264352156792377
 lng = -97.7386545745786

@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/6850c4ac4273f394de9861df319ecb6bbeedb1b30dc770223b585f8e361ddfc7.png"
 tag = [ "draft-house-chancery",]
 
-[data]
+[checkin]
 id = "58b066b651d19e71e18a4943"
 createdAt = 1487955638
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "571f9c28498e2e6dddfd3fc3"
 name = "Draft House Chancery"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "56aa371ce4b08b9a8d57356c"
 name = "Beer Bar"
 pluralName = "Beer Bars"
 shortName = "Beer Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "1 Plough Pl"
 lat = 51.516517285015546
 lng = -0.10897507419132328
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "1 Plough Pl", "London", "Greater London", "EC4A 1DE",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.516517285015546
 lng = -0.10897507419132328

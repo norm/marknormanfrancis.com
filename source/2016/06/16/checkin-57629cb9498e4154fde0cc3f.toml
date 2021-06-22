@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/2f3d588cbf86a9fee0600259c95576ba2e2608ad110081c
 tag = [ "the-fountain-head",]
 local_timestamp = 2016-06-16T14:34:01Z
 
-[data]
+[checkin]
 id = "57629cb9498e4154fde0cc3f"
 createdAt = 1466080441
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b05c7a5f964a52015e322e3"
 name = "The Fountain Head"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "101-103 North Rd"
 crossStreet = "Cheltenham Pl"
 lat = 50.82546688688966
@@ -37,7 +37,7 @@ city = "Brighton"
 state = "East Sussex"
 country = "United Kingdom"
 formattedAddress = [ "101-103 North Rd (Cheltenham Pl)", "Brighton", "East Sussex", "BN1 1YE",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 50.82546688688966
 lng = -0.13723036886375256

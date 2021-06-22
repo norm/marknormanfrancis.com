@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/e755977d2b1d3dd36b4b73db54b416138bce13c481a91c8
 tag = [ "bear-staff",]
 local_timestamp = 2011-05-21T17:48:41Z
 
-[data]
+[checkin]
 id = "4dd7ded97d8b322663fa1e74"
 createdAt = 1305992921
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4aeca283f964a520b4c921e3"
 name = "Bear & Staff"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d155941735"
 name = "Gastropub"
 pluralName = "Gastropubs"
 shortName = "Gastropub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/gastropub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Bear St."
 lat = 51.51084584676071
 lng = -0.12859046459197998
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Bear St.", "London", "Greater London", "WC2H 7AR",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51084584676071
 lng = -0.12859046459197998

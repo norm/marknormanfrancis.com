@@ -6,32 +6,32 @@ map = "https://mnf.m17s.net/maps/52f95bc890d2e98415c74e011577dec24a2cc9825bfa503
 tag = [ "courtyard-by-marriott-austin-downtown-convention-center", "online-personality-disorder-resumes-profiles",]
 local_timestamp = 2012-03-12T10:48:04Z
 
-[data]
+[checkin]
 id = "4f5e1ab4e4b026f4c7be11c5"
 createdAt = 1331567284
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "47d14b4cf964a520134e1fe3"
 name = "Courtyard by Marriott Austin Downtown/Convention Center"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1fa931735"
 name = "Hotel"
 pluralName = "Hotels"
 shortName = "Hotel"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/hotel_"
 suffix = ".png"
 
-[data.event]
+[checkin.event]
 id = "4f3ef97233bda6be7c0e232b"
 name = "Online Personality Disorder: Resumes & Profiles"
 categories = []
 
-[data.venue.location]
+[checkin.venue.location]
 address = "300 E 4th St"
 crossStreet = "at Trinity St"
 lat = 30.2656742
@@ -42,10 +42,10 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "300 E 4th St (at Trinity St)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.2656742
 lng = -97.7404885
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "33106633"

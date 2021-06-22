@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/39f3dea8dc995307f1257100a329695e906808c5c1c56f3708da7ff79c094304.png"
 tag = [ "m-s-simply-food",]
 
-[data]
+[checkin]
 id = "58b0537e18fd2b3d19b3b951"
 createdAt = 1487950718
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4b7d4059f964a520bab42fe3"
 name = "M&S Simply Food"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d118951735"
 name = "Grocery Store"
 pluralName = "Grocery Stores"
 shortName = "Grocery Store"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "323-324 High Holborn"
 crossStreet = "Heron House"
 lat = 51.51812117
@@ -36,10 +36,10 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "323-324 High Holborn (Heron House)", "London", "Greater London", "WC1V 7PD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51812117
 lng = -0.11231016
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "568864893"

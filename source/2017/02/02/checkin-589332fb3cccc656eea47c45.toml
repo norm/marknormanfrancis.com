@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/b4e034e97db9f9d43caccce603700a1d819c9387569252b3274787c2bee07b84.png"
 tag = [ "shake-shack-tottenham-court-road",]
 
-[data]
+[checkin]
 id = "589332fb3cccc656eea47c45"
 createdAt = 1486041851
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "5665def9498eedf4e68ef1bd"
 name = "Shake Shack Tottenham Court Road"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16c941735"
 name = "Burger Joint"
 pluralName = "Burger Joints"
 shortName = "Burgers"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "80 New Oxford St"
 lat = 51.51676370061302
 lng = -0.1279567346884598
@@ -35,10 +35,10 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "80 New Oxford St", "London", "Greater London", "WC1A 1HB",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51676370061302
 lng = -0.1279567346884598
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "565992086"

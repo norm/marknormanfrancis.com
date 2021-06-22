@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/253876d6ec969787e738b4272205ef8267af4eed8a00f25
 tag = [ "duke-of-york",]
 local_timestamp = 2011-10-13T19:11:21Z
 
-[data]
+[checkin]
 id = "4e971bb97ee65b1674d2626d"
 createdAt = 1318525881
 type = "checkin"
 timeZoneOffset = 60
 shout = "Pub Standards, I AM IN YOU."
 
-[data.venue]
+[checkin.venue]
 id = "4b0c0652f964a520d53523e3"
 name = "Duke of York"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "47 Rathbone St"
 crossStreet = "Percy Passage"
 lat = 51.51873642243601
@@ -38,7 +38,7 @@ city = "Fitzrovia"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "47 Rathbone St (Percy Passage)", "Fitzrovia", "Greater London", "W1T 1NW",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51873642243601
 lng = -0.13568141618908058

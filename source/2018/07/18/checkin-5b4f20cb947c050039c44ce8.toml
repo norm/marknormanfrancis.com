@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/0529cbd4f8a8b9bbd7a9e22b09b95b48cdf971ec1ebb859
 tag = [ "bar-block-steakhouse",]
 local_timestamp = 2018-07-18T13:13:15Z
 
-[data]
+[checkin]
 id = "5b4f20cb947c050039c44ce8"
 createdAt = 1531912395
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "583d448cc9602771b1452756"
 name = "Bar + Block Steakhouse"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1cc941735"
 name = "Steakhouse"
 pluralName = "Steakhouses"
 shortName = "Steakhouse"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "26-30 York Way"
 lat = 51.5318264
 lng = -0.1223087
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "26-30 York Way", "London", "Greater London", "N1 9AA",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.5318264
 lng = -0.1223087

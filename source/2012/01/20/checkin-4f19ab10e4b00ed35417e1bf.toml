@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/af52d754872c67f1d47cb1af0025f6a2b1066286493beb3c6ff7affffc2cc036.png"
 tag = [ "powder-keg-diplomacy",]
 
-[data]
+[checkin]
 id = "4f19ab10e4b00ed35417e1bf"
 createdAt = 1327082256
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4e7cf87ab8f751603b36f775"
 name = "Powder Keg Diplomacy"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11e941735"
 name = "Cocktail Bar"
 pluralName = "Cocktail Bars"
 shortName = "Cocktail"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "145 St. John's Hill"
 lat = 51.46040330606372
 lng = -0.17644342405391353
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "145 St. John's Hill", "London", "Greater London", "SW11 1TQ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.46040330606372
 lng = -0.17644342405391353

@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/b5683335219913f721f256d8fdf2db9c6810ac7fafc45d11ab444d19e80840bd.png"
 tag = [ "the-lamb",]
 
-[data]
+[checkin]
 id = "509be677e4b09c7ac95cfb61"
 createdAt = 1352394359
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ada5c8ef964a520dd2121e3"
 name = "The Lamb"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "94 Lamb's Conduit St"
 lat = 51.52308013264982
 lng = -0.1192343775797372
@@ -35,7 +35,7 @@ city = "Bloomsbury"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "94 Lamb's Conduit St", "Bloomsbury", "Greater London", "WC1N 3LZ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.52308013264982
 lng = -0.1192343775797372

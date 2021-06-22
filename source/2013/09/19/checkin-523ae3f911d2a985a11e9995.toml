@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/064ca71eb6df77c6139690c8d534fdb6776b49886f0c17f
 tag = [ "tate-britain",]
 local_timestamp = 2013-09-19T13:46:01Z
 
-[data]
+[checkin]
 id = "523ae3f911d2a985a11e9995"
 createdAt = 1379591161
 type = "checkin"
 timeZoneOffset = 60
 shout = "Getting my Lowry on — with S-J"
 
-[data.venue]
+[checkin.venue]
 id = "4ac51183f964a52049a020e3"
 name = "Tate Britain"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d18f941735"
 name = "Art Museum"
 pluralName = "Art Museums"
 shortName = "Art Museum"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_art_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Millbank"
 lat = 51.49119040859932
 lng = -0.12787195475539193
@@ -38,7 +38,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Millbank", "London", "Greater London", "SW1P 4RG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.49119040859932
 lng = -0.12787195475539193

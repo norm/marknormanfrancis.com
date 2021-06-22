@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/b66c403a6f056bb06a4706a1863ad168d696d96811019509b5900f971018a1bc.png"
 tag = [ "the-royal-standard-pub",]
 
-[data]
+[checkin]
 id = "5a298629a2a6ce3ad5028fcb"
 createdAt = 1512670761
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4b86ca7af964a520989d31e3"
 name = "The Royal Standard Pub"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Wandsworth"
 lat = 51.460852335050056
 lng = -0.18535908116037092
@@ -35,7 +35,7 @@ city = "Wandsworth"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Wandsworth", "Wandsworth", "Greater London", "S W18",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.460852335050056
 lng = -0.18535908116037092

@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/f4637f1ba1d93630ca735edbcd2beccaf489a3b2a393988
 tag = [ "isolabella",]
 local_timestamp = 2011-10-21T13:56:29Z
 
-[data]
+[checkin]
 id = "4ea15ded61af76b39c11ef10"
 createdAt = 1319198189
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4de8cc53d1648c97963aca76"
 name = "Isolabella"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d110941735"
 name = "Italian Restaurant"
 pluralName = "Italian Restaurants"
 shortName = "Italian"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/italian_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "45-46 Red Lion Street"
 crossStreet = "Theobalds Road"
 lat = 51.52005130173656
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "45-46 Red Lion Street (Theobalds Road)", "London", "Greater London", "WC1R 4PF",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.52005130173656
 lng = -0.11745480418535845

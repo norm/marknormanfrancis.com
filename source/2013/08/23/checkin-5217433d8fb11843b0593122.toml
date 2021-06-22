@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/6d056a6df16d635a62656855bd6a10fe72021d0646107b8
 tag = [ "pizza-express",]
 local_timestamp = 2013-08-23T13:10:53Z
 
-[data]
+[checkin]
 id = "5217433d8fb11843b0593122"
 createdAt = 1377256253
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4d43007e32d5236a9b86bda5"
 name = "PizzaExpress"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1ca941735"
 name = "Pizza Place"
 pluralName = "Pizza Places"
 shortName = "Pizza"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/pizza_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "7 St Georges Way"
 crossStreet = "intu Eldon Square"
 lat = 54.97478694262756
@@ -38,7 +38,7 @@ city = "Newcastle upon Tyne"
 state = "Newcastle upon Tyne"
 country = "United Kingdom"
 formattedAddress = [ "7 St Georges Way (intu Eldon Square)", "Newcastle upon Tyne", "NE1 7JD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 54.97478694262756
 lng = -1.615164204513828

@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/c28ca70d41c7c2772b8a01677d7d6d71f54453670161af74fef3be9a44d73b07.png"
 tag = [ "elizabeth-street-veterinary-clinic",]
 
-[data]
+[checkin]
 id = "52b6c243498e97c92fedab63"
 createdAt = 1387708995
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4b97ec67f964a520ad1f35e3"
 name = "Elizabeth Street Veterinary Clinic"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4d954af4a243a5684765b473"
 name = "Veterinarian"
 pluralName = "Veterinarians"
 shortName = "Veterinarians"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/medical_veterinarian_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "55 Elizabeth Street"
 lat = 51.49369776248932
 lng = -0.150854
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "55 Elizabeth Street", "London", "Greater London", "SW1W 9PP",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.49369776248932
 lng = -0.150854

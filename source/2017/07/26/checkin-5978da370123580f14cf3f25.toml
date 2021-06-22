@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/0c48c428344eabbe8b25382c0041a23fd570f2d5cbb4a70
 tag = [ "maze-grill",]
 local_timestamp = 2017-07-26T20:06:47Z
 
-[data]
+[checkin]
 id = "5978da370123580f14cf3f25"
 createdAt = 1501092407
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ac518e4f964a520dbaa20e3"
 name = "Maze Grill"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1cc941735"
 name = "Steakhouse"
 pluralName = "Steakhouses"
 shortName = "Steakhouse"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "10-13 Grosvenor Sq"
 lat = 51.51229990375752
 lng = -0.1507375782729058
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "10-13 Grosvenor Sq", "London", "Greater London", "W1K 6JP",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51229990375752
 lng = -0.1507375782729058

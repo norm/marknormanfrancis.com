@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/cafce465751ef7b8de397d47e704513b2e512accfdf190a
 tag = [ "hoffbrau-steak",]
 local_timestamp = 2012-03-10T13:48:15Z
 
-[data]
+[checkin]
 id = "4f5bafffe4b0695cba646230"
 createdAt = 1331408895
 type = "checkin"
 timeZoneOffset = -360
 
-[data.venue]
+[checkin.venue]
 id = "49c134b5f964a52091551fe3"
 name = "Hoffbrau Steak"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1cc941735"
 name = "Steakhouse"
 pluralName = "Steakhouses"
 shortName = "Steakhouse"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "613 W 6th St"
 crossStreet = "Rio Grande St"
 lat = 30.269751407460117
@@ -37,19 +37,19 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "613 W 6th St (Rio Grande St)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.269751407460117
 lng = -97.74918396622874
 
-[data.venue.delivery]
+[checkin.venue.delivery]
 id = "1581653"
 url = "https://www.grubhub.com/restaurant/the-original-hoffbrau-613-west-6th-street-austin/1581653?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1581653"
 
-[data.venue.delivery.provider]
+[checkin.venue.delivery.provider]
 name = "grubhub"
 
-[data.venue.delivery.provider.icon]
+[checkin.venue.delivery.provider.icon]
 prefix = "https://fastly.4sqi.net/img/general/cap/"
 sizes = [ 40, 50,]
 name = "/delivery_provider_grubhub_20180129.png"

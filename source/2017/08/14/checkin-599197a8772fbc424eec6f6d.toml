@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/29f9fcb906e93c2ad1f1e1b4cbb86ae311bc553de7f35d1
 tag = [ "m-s-simply-food",]
 local_timestamp = 2017-08-14T14:29:28Z
 
-[data]
+[checkin]
 id = "599197a8772fbc424eec6f6d"
 createdAt = 1502713768
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4d9f5f9a0ea841bd6265dbd7"
 name = "M&S Simply Food"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d118951735"
 name = "Grocery Store"
 pluralName = "Grocery Stores"
 shortName = "Grocery Store"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "289-291 Fulham Road"
 lat = 51.48721821
 lng = -0.1786305
@@ -36,10 +36,10 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "289-291 Fulham Road", "London", "Greater London", "SW10 9PZ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.48721821
 lng = -0.1786305
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "572059832"

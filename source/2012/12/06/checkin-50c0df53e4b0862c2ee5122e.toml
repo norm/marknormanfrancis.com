@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/bfaf248a3c943445cfbe34ab57bec5af10038e988bf5832889caae8c57ce95bf.png"
 tag = [ "meatmarket",]
 
-[data]
+[checkin]
 id = "50c0df53e4b0862c2ee5122e"
 createdAt = 1354817363
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4f966afbe4b03217df20a47e"
 name = "MEATmarket"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16c941735"
 name = "Burger Joint"
 pluralName = "Burger Joints"
 shortName = "Burgers"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Jubilee Market Hall"
 crossStreet = "Tavistock St"
 lat = 51.51180490119846
@@ -36,7 +36,7 @@ city = "Covent Garden"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Jubilee Market Hall (Tavistock St)", "Covent Garden", "Greater London", "WC2E 8BD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51180490119846
 lng = -0.12211269547450206

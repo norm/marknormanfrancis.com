@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/ec77ea15a271ff2f604ecabbf215b9831149c127d4a71d98f0c588f34a854469.png"
 tag = [ "north-terminal",]
 
-[data]
+[checkin]
 id = "52f5bc5211d2a4ef4efbfa85"
 createdAt = 1391836242
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ba5a27bf964a5204f1839e3"
 name = "North Terminal"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1eb931735"
 name = "Airport Terminal"
 pluralName = "Airport Terminals"
 shortName = "Terminal"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/airport_gate_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "LGW Airport"
 lat = 51.16045373357745
 lng = -0.17720446063760262
@@ -36,5 +36,5 @@ state = "West Sussex"
 country = "United Kingdom"
 formattedAddress = [ "LGW Airport", "Crawley", "West Sussex", "RH6 0PJ",]
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "34844577"

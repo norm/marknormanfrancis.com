@@ -7,28 +7,28 @@ tag = [ "artfinder",]
 photos = [ "https://mnf.m17s.net/2011/07/11/checkin-4e1aa63952b123a586eb679a-0.jpg",]
 local_timestamp = 2011-07-11T09:28:57Z
 
-[data]
+[checkin]
 id = "4e1aa63952b123a586eb679a"
 createdAt = 1310369337
 type = "checkin"
 timeZoneOffset = 60
 shout = "Back in the office after two weeks off. But at least there was a welcome back waiting for me."
 
-[data.venue]
+[checkin.venue]
 id = "4d7777000bae236a70bd6914"
 name = "Artfinder"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d125941735"
 name = "Tech Startup"
 pluralName = "Tech Startups"
 shortName = "Tech Startup"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/technology_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "198 High Holborn"
 lat = 51.516743911672656
 lng = -0.12287296978820685
@@ -38,7 +38,7 @@ city = "Camden Town"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "198 High Holborn", "Camden Town", "Greater London", "WC1V 7BD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.516743911672656
 lng = -0.12287296978820685

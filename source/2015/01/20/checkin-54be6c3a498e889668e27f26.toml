@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/d35608c9c6e75e7fefca622aef52d080e8fcadeb29d5b00958b950758bab92a9.png"
 tag = [ "natural-history-museum",]
 
-[data]
+[checkin]
 id = "54be6c3a498e889668e27f26"
 createdAt = 1421765690
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518cdf964a520e8a520e3"
 name = "Natural History Museum"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d191941735"
 name = "Science Museum"
 pluralName = "Science Museums"
 shortName = "Science Museum"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_science_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Cromwell Rd"
 crossStreet = "at Queen's Gate"
 lat = 51.49652085547838
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Cromwell Rd (at Queen's Gate)", "London", "Greater London", "SW7 5BD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.49652085547838
 lng = -0.17653226852416992

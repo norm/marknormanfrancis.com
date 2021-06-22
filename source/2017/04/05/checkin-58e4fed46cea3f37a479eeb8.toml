@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/c4ad5c373c3fd9b8554dfd134ef823b9c2011a14e44b7bb
 tag = [ "ce-x",]
 local_timestamp = 2017-04-05T16:27:32Z
 
-[data]
+[checkin]
 id = "58e4fed46cea3f37a479eeb8"
 createdAt = 1491402452
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "570a2d15498e72d56cae8217"
 name = "CeX"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4f04afc02fb6e1c99f3db0bc"
 name = "Mobile Phone Shop"
 pluralName = "Mobile Phone Shops"
 shortName = "Mobile Phones"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/mobilephoneshop_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "31 St Johns Road, Battersea"
 lat = 51.462633
 lng = -0.1674812
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "31 St Johns Road, Battersea", "London", "Greater London", "SW11 1QN",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.462633
 lng = -0.1674812

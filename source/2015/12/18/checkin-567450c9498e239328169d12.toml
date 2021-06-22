@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/125bd6ccce42af14d1e7844127f479bf9f9b494a67a0498576c1fa3162c2a11e.png"
 tag = [ "the-rose-crown",]
 
-[data]
+[checkin]
 id = "567450c9498e239328169d12"
 createdAt = 1450463433
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4bf686f394b2a593e092adee"
 name = "The Rose & Crown"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "65 Union St"
 lat = 51.5038411
 lng = -0.0947961
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "65 Union St", "Bridge", "Greater London", "SE1 1SG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.5038411
 lng = -0.0947961

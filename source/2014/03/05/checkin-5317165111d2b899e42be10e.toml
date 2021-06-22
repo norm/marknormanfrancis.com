@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/6ec1d231f0284a3760d3ca34e5fd40ff1d1cb4967fc9b3fe87dcd67a2190528a.png"
 tag = [ "sophies-steakhouse-bar",]
 
-[data]
+[checkin]
 id = "5317165111d2b899e42be10e"
 createdAt = 1394021969
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ad7144ff964a5209c0821e3"
 name = "Sophie's Steakhouse & Bar"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1cc941735"
 name = "Steakhouse"
 pluralName = "Steakhouses"
 shortName = "Steakhouse"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "29-31 Wellington St"
 lat = 51.51194584877762
 lng = -0.12039105765947321
@@ -36,10 +36,10 @@ city = "Covent Garden"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "29-31 Wellington St", "Covent Garden", "Greater London", "WC2E 7DB",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51194584877762
 lng = -0.12039105765947321
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "54448216"

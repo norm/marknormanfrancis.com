@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/6201a2c6df0f73022be8e756cdebb36901b7522f9740fe0
 tag = [ "pizza-express",]
 local_timestamp = 2016-07-22T14:34:42Z
 
-[data]
+[checkin]
 id = "579212e2498e3d34faf8a26b"
 createdAt = 1469190882
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b5e09fef964a520747a29e3"
 name = "Pizza Express"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1ca941735"
 name = "Pizza Place"
 pluralName = "Pizza Places"
 shortName = "Pizza"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/pizza_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "85 Victoria Street"
 lat = 51.4974582
 lng = -0.1351035
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "85 Victoria Street", "London", "Greater London", "SW1H 0HW",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.4974582
 lng = -0.1351035

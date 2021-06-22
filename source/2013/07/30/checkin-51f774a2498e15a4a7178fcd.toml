@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/b19391f722c25c8c3de86616304800fc392b6967e61c442
 tag = [ "london-euston-railway-station-eus",]
 local_timestamp = 2013-07-30T10:09:06Z
 
-[data]
+[checkin]
 id = "51f774a2498e15a4a7178fcd"
 createdAt = 1375171746
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4acbc300f964a52058c520e3"
 name = "London Euston Railway Station (EUS)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d129951735"
 name = "Train Station"
 pluralName = "Train Stations"
 shortName = "Train Station"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Euston Rd"
 lat = 51.52825031980595
 lng = -0.13385796681864853

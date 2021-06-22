@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/357a6e78e22b12bb015f3ea74249a6509cee64ec60ca2fd8d623e368f7754826.png"
 tag = [ "b-q",]
 
-[data]
+[checkin]
 id = "5a01e7d3c0cacb6d9369ce92"
 createdAt = 1510074323
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4bb5e6cf46d4a593b16bc5c0"
 name = "B&Q"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d112951735"
 name = "Hardware Store"
 pluralName = "Hardware Stores"
 shortName = "Hardware"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/hardware_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Smugglers Way, Wandsworth"
 lat = 51.46143530606265
 lng = -0.19118726037136158
@@ -36,7 +36,7 @@ city = "Wandsworth"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Smugglers Way, Wandsworth", "Wandsworth", "Greater London", "SW18 1EG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.46143530606265
 lng = -0.19118726037136158

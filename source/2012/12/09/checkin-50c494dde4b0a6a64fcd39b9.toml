@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/af2490e321ca05d0821b6a27a383525df591add4115e599b4e784fa64cf4630b.png"
 tag = [ "apsleys",]
 
-[data]
+[checkin]
 id = "50c494dde4b0a6a64fcd39b9"
 createdAt = 1355060445
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518e0f964a5203eaa20e3"
 name = "Apsleys"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1c4941735"
 name = "Restaurant"
 pluralName = "Restaurants"
 shortName = "Restaurant"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "The Lanesborough, Hyde Park Corner"
 lat = 51.50276184668336
 lng = -0.1526007177701829

@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/0075a7f29ebd2f8656068583a899c7438e191d5cc5d5eb2
 tag = [ "four-seasons-hotel-austin",]
 local_timestamp = 2012-03-10T19:19:49Z
 
-[data]
+[checkin]
 id = "4f5bfdb5e4b075ad7a19a0b1"
 createdAt = 1331428789
 type = "checkin"
 timeZoneOffset = -360
 
-[data.venue]
+[checkin.venue]
 id = "45f02c8af964a520b9431fe3"
 name = "Four Seasons Hotel Austin"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1fa931735"
 name = "Hotel"
 pluralName = "Hotels"
 shortName = "Hotel"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/hotel_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "98 San Jacinto Blvd"
 crossStreet = "at E Cesar Chavez St"
 lat = 30.261916562502826
@@ -37,12 +37,12 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "98 San Jacinto Blvd (at E Cesar Chavez St)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.261916562502826
 lng = -97.74242088489866
 
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "entrance"
 lat = 30.261927
 lng = -97.742195

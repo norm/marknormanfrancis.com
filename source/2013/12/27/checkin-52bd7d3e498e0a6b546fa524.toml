@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/0d720b3b8badbc7e841148c9bf9d4b9751729831f447dfa2d7b5a26a072b515f.png"
 tag = [ "grantham-railway-station-gra",]
 
-[data]
+[checkin]
 id = "52bd7d3e498e0a6b546fa524"
 createdAt = 1388150078
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "506999653d7cfe42e733a903"
 name = "Grantham Railway Station (GRA)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d129951735"
 name = "Train Station"
 pluralName = "Train Stations"
 shortName = "Train Station"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Station Rd"
 lat = 52.90661470184147
 lng = -0.6431787917634512
@@ -35,7 +35,7 @@ city = "Grantham"
 state = "Lincolnshire"
 country = "United Kingdom"
 formattedAddress = [ "Station Rd", "Grantham", "Lincolnshire", "NG31 6BT",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 52.90661470184147
 lng = -0.6431787917634512

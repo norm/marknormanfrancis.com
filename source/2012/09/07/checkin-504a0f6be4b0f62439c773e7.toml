@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/4e493b3ce33d12ee0d073927a36143e955153f05d2d2214
 tag = [ "the-marwood",]
 local_timestamp = 2012-09-07T17:14:51Z
 
-[data]
+[checkin]
 id = "504a0f6be4b0f62439c773e7"
 createdAt = 1347030891
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4bd2f7e4caff9521ddb0d3f0"
 name = "The Marwood"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1e0931735"
 name = "Coffee Shop"
 pluralName = "Coffee Shops"
 shortName = "Coffee Shop"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "52 Ship St"
 lat = 50.82244961894487
 lng = -0.14160810784832922
@@ -36,7 +36,7 @@ city = "Brighton"
 state = "East Sussex"
 country = "United Kingdom"
 formattedAddress = [ "52 Ship St", "Brighton", "East Sussex", "BN1 1AF",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 50.82244961894487
 lng = -0.14160810784832922

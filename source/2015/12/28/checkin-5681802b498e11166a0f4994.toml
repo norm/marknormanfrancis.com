@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/fd99edd0ed15d68eba4867b26f6d4298d75e24a269cda54dcc8d4d3171766579.png"
 tag = [ "fulham-broadway",]
 
-[data]
+[checkin]
 id = "5681802b498e11166a0f4994"
 createdAt = 1451327531
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4bd943c911dcc928ee59f933"
 name = "Fulham Broadway"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4f2a25ac4b909258e854f55f"
 name = "Neighborhood"
 pluralName = "Neighborhoods"
 shortName = "Neighborhood"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 51.480429075286985
 lng = -0.1989010698046769
 cc = "GB"

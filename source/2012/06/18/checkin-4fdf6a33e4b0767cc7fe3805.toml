@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/7f3618f5c3164f3f92cf6b8a54428db1b596401145ebb32
 tag = [ "the-white-hart",]
 local_timestamp = 2012-06-18T19:49:39Z
 
-[data]
+[checkin]
 id = "4fdf6a33e4b0767cc7fe3805"
 createdAt = 1340041779
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b1d3fb8f964a5209c0d24e3"
 name = "The White Hart"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "191 Drury Ln"
 lat = 51.51618137789048
 lng = -0.12433652415337336
@@ -36,7 +36,7 @@ city = "Holborn"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "191 Drury Ln", "Holborn", "Greater London", "WC2B 5QD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51618137789048
 lng = -0.12433652415337336

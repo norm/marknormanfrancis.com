@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/1f3a74ef4e820ff3234c6128bfbc32c117aa3d29831689462cb2cf9623da4894.png"
 tag = [ "the-frog-covent-garden",]
 
-[data]
+[checkin]
 id = "5c019eabe65d0c00390b6a3a"
 createdAt = 1543610027
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "59b6f95a2a7ab60501a5667f"
 name = "The Frog Covent Garden"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1c4941735"
 name = "Restaurant"
 pluralName = "Restaurants"
 shortName = "Restaurant"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "34-38 Southampton St"
 crossStreet = "Maiden Lane"
 lat = 51.51084775182632
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "34-38 Southampton St (Maiden Lane)", "London", "Greater London", "WC2E 7HG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51084775182632
 lng = -0.12196040538369123

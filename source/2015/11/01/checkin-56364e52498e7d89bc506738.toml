@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/694450282a74c8c9fea5d9f41d49355453b9ef2c90f445964120bc1a6ca954d2.png"
 tag = [ "byron",]
 
-[data]
+[checkin]
 id = "56364e52498e7d89bc506738"
 createdAt = 1446399570
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4b8009caf964a520d44c30e3"
 name = "Byron"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16c941735"
 name = "Burger Joint"
 pluralName = "Burger Joints"
 shortName = "Burgers"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "222 Kensington High St"
 lat = 51.499343504607694
 lng = -0.19844506466245093
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "222 Kensington High St", "London", "Greater London", "W8 7RG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.499343504607694
 lng = -0.19844506466245093

@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/bb5280192efd39df2f22df76435c5705ad7bd78a122775b
 tag = [ "dsa",]
 local_timestamp = 2013-06-11T11:51:23Z
 
-[data]
+[checkin]
 id = "51b6f31b498ed797f0163d0b"
 createdAt = 1370944283
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4e423652aeb79367c7e53b16"
 name = "DSA"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d130941735"
 name = "Building"
 pluralName = "Buildings"
 shortName = "Building"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 52.95450453836256
 lng = -1.1514310050162788
 cc = "GB"
@@ -34,7 +34,7 @@ city = "Nottingham"
 state = "Nottinghamshire"
 country = "United Kingdom"
 formattedAddress = [ "Nottingham", "Nottinghamshire",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 52.95450453836256
 lng = -1.1514310050162788

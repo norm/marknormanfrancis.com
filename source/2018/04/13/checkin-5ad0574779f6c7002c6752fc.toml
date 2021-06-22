@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/3488495a52350ee37f3336405ef2ca5d3d431bd5e7c1fc5
 tag = [ "cafe-uni-n",]
 local_timestamp = 2018-04-13T09:07:51Z
 
-[data]
+[checkin]
 id = "5ad0574779f6c7002c6752fc"
 createdAt = 1523603271
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4c8a2f142e333704071cc141"
 name = "Cafe Uni-N"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16d941735"
 name = "Café"
 pluralName = "Cafés"
 shortName = "Café"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/cafe_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "201 kings cross road"
 lat = 51.530914767747625
 lng = -0.11924791842959359
@@ -35,7 +35,7 @@ city = "Camden Town"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "201 kings cross road", "Camden Town", "Greater London",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.530914767747625
 lng = -0.11924791842959359

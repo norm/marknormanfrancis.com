@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/9ff5802b597890aa4267cfd62f252df636e09319896d0578a5877cfeeeea7936.png"
 tag = [ "chez-bruce",]
 
-[data]
+[checkin]
 id = "4edbcd408b8173160e03a039"
 createdAt = 1323027776
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518d6f964a52039a820e3"
 name = "Chez Bruce"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d10c941735"
 name = "French Restaurant"
 pluralName = "French Restaurants"
 shortName = "French"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/french_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "2 Bellevue Rd"
 lat = 51.44614985184142
 lng = -0.16573530932284003
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "2 Bellevue Rd", "London", "Greater London", "SW17 7EG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.44614985184142
 lng = -0.16573530932284003

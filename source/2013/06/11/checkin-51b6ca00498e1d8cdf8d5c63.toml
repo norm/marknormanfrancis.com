@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/73119022f94ee9c336c88346b7005db9919f46c6d97454a
 tag = [ "london-st-pancras-international-railway-station-stp",]
 local_timestamp = 2013-06-11T08:56:00Z
 
-[data]
+[checkin]
 id = "51b6ca00498e1d8cdf8d5c63"
 createdAt = 1370933760
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ac518f7f964a520c6af20e3"
 name = "London St Pancras International Railway Station (STP)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d129951735"
 name = "Train Station"
 pluralName = "Train Stations"
 shortName = "Train Station"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Pancras Rd"
 crossStreet = "Euston Rd"
 lat = 51.531981871826716

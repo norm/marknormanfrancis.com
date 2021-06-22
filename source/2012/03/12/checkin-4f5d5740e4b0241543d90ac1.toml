@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/c04117a00b0b8921ceb430e4340251950d4405735b01c16
 tag = [ "the-parish-underground",]
 local_timestamp = 2012-03-11T20:54:08Z
 
-[data]
+[checkin]
 id = "4f5d5740e4b0241543d90ac1"
 createdAt = 1331517248
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "4d6ea141451c41bd39102845"
 name = "The Parish Underground"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1e5931735"
 name = "Music Venue"
 pluralName = "Music Venues"
 shortName = "Music Venue"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "214 E 6th St"
 lat = 30.26767660731929
 lng = -97.74071870166749
@@ -36,7 +36,7 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "214 E 6th St", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.26767660731929
 lng = -97.74071870166749

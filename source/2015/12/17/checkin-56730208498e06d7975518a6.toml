@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/5a56ababd5385353896bb6330a4b0701f3b09b7fe002b203fdc013cc01165cf8.png"
 tag = [ "manhattans-project",]
 
-[data]
+[checkin]
 id = "56730208498e06d7975518a6"
 createdAt = 1450377736
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "505c67a2e412fe07de979c6d"
 name = "Manhattans Project"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1d4941735"
 name = "Speakeasy"
 pluralName = "Speakeasies"
 shortName = "Speakeasy"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/secretbar_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Unit G2, Stamford Works"
 lat = 51.54916391558116
 lng = -0.07676482200622559
@@ -36,10 +36,10 @@ city = "Dalston"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Unit G2, Stamford Works", "Dalston", "Greater London", "N16 8JH",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.54916391558116
 lng = -0.07676482200622559
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "40055782"

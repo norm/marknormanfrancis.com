@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/32819677ab0b57faec858ac9ea9029ba75923cc083c1e7f26dee5a80dd5ffb9b.png"
 tag = [ "byron",]
 
-[data]
+[checkin]
 id = "50dd9a50e4b0ec80ad2e8282"
 createdAt = 1356700240
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4d33fa60b5c78eec6b4d4cbf"
 name = "Byron"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16c941735"
 name = "Burger Joint"
 pluralName = "Burger Joints"
 shortName = "Burgers"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "24-28 Charing Cross Rd"
 lat = 51.51077765127515
 lng = -0.12837888773719924
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "24-28 Charing Cross Rd", "London", "Greater London", "WC2H 0HX",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51077765127515
 lng = -0.12837888773719924

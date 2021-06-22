@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/27364d89133eea8d376e105a9f9e4bc6475cd7b21b226f7
 tag = [ "kings-cross",]
 local_timestamp = 2013-08-04T17:55:50Z
 
-[data]
+[checkin]
 id = "51fe7986498ec3169936104f"
 createdAt = 1375631750
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4f60c409e4b0490588514404"
 name = "King's Cross"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4f2a25ac4b909258e854f55f"
 name = "Neighborhood"
 pluralName = "Neighborhoods"
 shortName = "Neighborhood"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 51.53241410381835
 lng = -0.12505947146648633
 cc = "GB"

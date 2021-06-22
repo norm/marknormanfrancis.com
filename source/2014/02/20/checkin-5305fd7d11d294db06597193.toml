@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/2598ff18eefc4824559d1482cca2a0f7f80dbef779e7cab8a9beaec7aca161e0.png"
 tag = [ "shake-shack-covent-garden",]
 
-[data]
+[checkin]
 id = "5305fd7d11d294db06597193"
 createdAt = 1392901501
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4f159a54e4b01eeff24c6408"
 name = "Shake Shack Covent Garden"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16c941735"
 name = "Burger Joint"
 pluralName = "Burger Joints"
 shortName = "Burgers"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "24 The Market"
 crossStreet = "The Piazza"
 lat = 51.51181643188896
@@ -36,10 +36,10 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "24 The Market (The Piazza)", "London", "Greater London", "WC2E 8RD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51181643188896
 lng = -0.12259807566829153
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "567738965"

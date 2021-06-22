@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/b5eb6ad48a21493578cbda4f155a333957ecdf6e5f0f67f
 tag = [ "crown-and-anchor",]
 local_timestamp = 2014-07-11T18:20:07Z
 
-[data]
+[checkin]
 id = "53c00eb711d2260164718b96"
 createdAt = 1405095607
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b958124f964a52054a634e3"
 name = "Crown and Anchor"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "137 Drummond St"
 lat = 51.52692002544765
 lng = -0.13719697820243001
@@ -36,10 +36,10 @@ city = "Euston"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "137 Drummond St", "Euston", "Greater London", "NW1 2HL",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.52692002544765
 lng = -0.13719697820243001
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "40847312"

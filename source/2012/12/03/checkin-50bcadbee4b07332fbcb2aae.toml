@@ -5,41 +5,41 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/1dd1af2421c5dccd68e4e93d06374e0258f08ba235d6ef25251d4e5dc0616c89.png"
 tag = [ "cineworld", "end-of-watch", "movie",]
 
-[data]
+[checkin]
 id = "50bcadbee4b07332fbcb2aae"
 createdAt = 1354542526
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4adb5f4af964a520912621e3"
 name = "Cineworld"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d180941735"
 name = "Multiplex"
 pluralName = "Multiplexes"
 shortName = "Cineplex"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
 suffix = ".png"
 
-[data.event]
+[checkin.event]
 id = "50ac4ccfd438de0ca6c28a47"
 name = "End of Watch"
-[[data.event.categories]]
+[[checkin.event.categories]]
 id = "4dfb90c6bd413dd705e8f897"
 name = "Movie"
 pluralName = "Movies"
 shortName = "Movie"
 primary = true
 
-[data.event.categories.icon]
+[checkin.event.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Southside Shopping Centre"
 crossStreet = "High St"
 lat = 51.4541378290051
@@ -51,7 +51,7 @@ city = "Wandsworth"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Southside Shopping Centre (High St)", "Wandsworth", "Greater London", "SW18 4TF",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.4541378290051
 lng = -0.19308159316362275

@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/0bc50c003bfd0f483c2fe49403162df299af3ad74422ab1
 tag = [ "il-gusto",]
 local_timestamp = 2014-08-27T13:13:48Z
 
-[data]
+[checkin]
 id = "53fdbd6c498ecfb2dfedf502"
 createdAt = 1409138028
 type = "checkin"
 timeZoneOffset = 60
 shout = "Lunch with Meri"
 
-[data.venue]
+[checkin.venue]
 id = "4c82468fd8086dcbbd937452"
 name = "Il Gusto"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d110941735"
 name = "Italian Restaurant"
 pluralName = "Italian Restaurants"
 shortName = "Italian"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/italian_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "11 Craven Rd"
 lat = 51.51499991187685
 lng = -0.1767730022251498
@@ -37,7 +37,7 @@ city = "Paddington"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "11 Craven Rd", "Paddington", "Greater London", "W2 3BP",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51499991187685
 lng = -0.1767730022251498

@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/ccc95e7d904a73fa0050af8c069ba9757d9bd52975d1e5fc93607705c57721c6.png"
 tag = [ "byron",]
 
-[data]
+[checkin]
 id = "5644ce79498ed09b049a4008"
 createdAt = 1447349881
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "512c9bb3e412e6f9c06483ee"
 name = "Byron"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16c941735"
 name = "Burger Joint"
 pluralName = "Burger Joints"
 shortName = "Burgers"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "11 Bank Buildings"
 crossStreet = "Fulham Broadway"
 lat = 51.4799675471375
@@ -36,7 +36,7 @@ city = "Fulham Broadway"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "11 Bank Buildings (Fulham Broadway)", "Fulham Broadway", "Greater London", "SW6 1EP",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.4799675471375
 lng = -0.19556364061070172

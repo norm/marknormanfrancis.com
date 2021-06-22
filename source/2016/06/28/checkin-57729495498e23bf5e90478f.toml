@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/b4b7aff022937f90618d357ee95c089b4b34bdb6d2945a0
 tag = [ "hixter-bankside",]
 local_timestamp = 2016-06-28T17:15:33Z
 
-[data]
+[checkin]
 id = "57729495498e23bf5e90478f"
 createdAt = 1467126933
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "53e3c30b498e6cb1fd05ad83"
 name = "Hixter Bankside"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1cc941735"
 name = "Steakhouse"
 pluralName = "Steakhouses"
 shortName = "Steakhouse"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "16 Great Guildford St"
 lat = 51.504942941472756
 lng = -0.09747835031943054
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "16 Great Guildford St", "London", "Greater London", "SE1 0HS",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.504942941472756
 lng = -0.09747835031943054

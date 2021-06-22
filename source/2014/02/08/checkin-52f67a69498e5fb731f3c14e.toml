@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/7ae17c61c97634229a7b1dbc68c33fbc5313f5941149800
 tag = [ "big-als-burger-bar",]
 local_timestamp = 2014-02-08T19:41:45Z
 
-[data]
+[checkin]
 id = "52f67a69498e5fb731f3c14e"
 createdAt = 1391884905
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "50352fbbe4b002981d14da61"
 name = "Big Al's Burger Bar"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16c941735"
 name = "Burger Joint"
 pluralName = "Burger Joints"
 shortName = "Burgers"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Carrer de Francesc Gumà, 21"
 lat = 41.238362937351454
 lng = 1.8100649013916867
@@ -36,7 +36,7 @@ city = "Sitges"
 state = "Catalonia"
 country = "Spain"
 formattedAddress = [ "Carrer de Francesc Gumà, 21", "08870 Sitges Cataluña", "España",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 41.238362937351454
 lng = 1.8100649013916867

@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/8001be0a9d69c86d94a645c9601e0acf733d2a63205f47b19792ff364ca32e8b.png"
 tag = [ "london-kings-cross-railway-station-kgx",]
 
-[data]
+[checkin]
 id = "52bd578d498e0a6b546e0b9f"
 createdAt = 1388140429
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4af33684f964a520c7eb21e3"
 name = "London King's Cross Railway Station (KGX)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d129951735"
 name = "Train Station"
 pluralName = "Train Stations"
 shortName = "Train Station"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Euston Rd"
 crossStreet = "York Way"
 lat = 51.53151679659481

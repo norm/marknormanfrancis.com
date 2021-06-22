@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/b66373ceb83d1f7e14b6a7a9f7271c8ac0835aa6a123848
 tag = [ "costa-coffee",]
 local_timestamp = 2011-09-19T16:14:24Z
 
-[data]
+[checkin]
 id = "4e774e40a809582dd6bf4089"
 createdAt = 1316441664
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4d6b72da2bf054818e68cfed"
 name = "Costa Coffee"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1e0931735"
 name = "Coffee Shop"
 pluralName = "Coffee Shops"
 shortName = "Coffee Shop"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Southside Shopping Centre"
 crossStreet = "Unit 115"
 lat = 51.45690672924334
@@ -37,7 +37,7 @@ city = "Wandsworth"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Southside Shopping Centre (Unit 115)", "Wandsworth", "Greater London", "SW18 4TQ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.45690672924334
 lng = -0.19426577109314414

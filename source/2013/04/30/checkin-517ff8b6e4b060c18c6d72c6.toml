@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/a9ffef3ce4ce5b135c0d7ca2439ef80cad2c1b5f6353c32
 tag = [ "the-george",]
 local_timestamp = 2013-04-30T19:00:38Z
 
-[data]
+[checkin]
 id = "517ff8b6e4b060c18c6d72c6"
 createdAt = 1367341238
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b461607f964a520ed1526e3"
 name = "The George"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "8 Great Queen St"
 lat = 51.516042358276096
 lng = -0.12047327237300758
@@ -36,7 +36,7 @@ city = "Holborn"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "8 Great Queen St", "Holborn", "Greater London", "WC2B 5DG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.516042358276096
 lng = -0.12047327237300758

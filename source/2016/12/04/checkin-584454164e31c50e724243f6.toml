@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/1b438a91ec7276ceea7b3c5813f42a1b775101fa30878d1be8c044be46cb35c1.png"
 tag = [ "harry-potter-and-the-cursed-child-parts-one-and-two",]
 
-[data]
+[checkin]
 id = "584454164e31c50e724243f6"
 createdAt = 1480872982
 type = "checkin"
 timeZoneOffset = 0
 shout = "with S-J"
 
-[data.venue]
+[checkin.venue]
 id = "57755494498e03e651737bf0"
 name = "Harry Potter and the Cursed Child - Parts One and Two"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1f1931735"
 name = "General Entertainment"
 pluralName = "General Entertainment"
 shortName = "Entertainment"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "109-113 Shaftesbury Ave"
 lat = 51.513172602358274
 lng = -0.12936803068658387
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "109-113 Shaftesbury Ave", "London", "Greater London", "W1D 5AY",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.513172602358274
 lng = -0.12936803068658387

@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/2a62c8bd858bc96592e821ec2ebc3c8d3acab1fbefddcd2b12b55dde00df1f61.png"
 tag = [ "cambridge-theatre",]
 
-[data]
+[checkin]
 id = "5862b2ffa370b917c018f244"
 createdAt = 1482863359
 type = "checkin"
 timeZoneOffset = 0
 shout = "with S-J"
 
-[data.venue]
+[checkin.venue]
 id = "4ac518e9f964a520ceab20e3"
 name = "Cambridge Theatre"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d137941735"
 name = "Theater"
 pluralName = "Theaters"
 shortName = "Theater"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Seven Dials, 32-34 Earlham St"
 lat = 51.513678
 lng = -0.126704
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Seven Dials, 32-34 Earlham St", "London", "Greater London", "WC2 9HU",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.513678
 lng = -0.126704

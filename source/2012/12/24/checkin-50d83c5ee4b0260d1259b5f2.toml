@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/f8ba9b5af6241645b273683cc95d58e53ea6a4488abc33edac58885c1e984b05.png"
 tag = [ "hamleys",]
 
-[data]
+[checkin]
 id = "50d83c5ee4b0260d1259b5f2"
 createdAt = 1356348510
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518ecf964a52078ac20e3"
 name = "Hamleys"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1f3941735"
 name = "Toy / Game Store"
 pluralName = "Toy / Game Stores"
 shortName = "Toys & Games"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/toys_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "188-196 Regent St"
 lat = 51.51281546465188
 lng = -0.1401427925156895
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "188-196 Regent St", "London", "Greater London", "W1B 5BT",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51281546465188
 lng = -0.1401427925156895

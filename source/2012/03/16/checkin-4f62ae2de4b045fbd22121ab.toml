@@ -6,43 +6,43 @@ map = "https://mnf.m17s.net/maps/284235ab41e9d049b8a017a858b1169402845099674a461
 tag = [ "haven", "tenacious-d", "concert",]
 local_timestamp = 2012-03-15T22:06:21Z
 
-[data]
+[checkin]
 id = "4f62ae2de4b045fbd22121ab"
 createdAt = 1331867181
 type = "checkin"
 timeZoneOffset = -300
 shout = "Or, as the sign outside read \"Tenacious Fucking D\""
 
-[data.venue]
+[checkin.venue]
 id = "4e557937483b7ae46dab321e"
 name = "Haven"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11f941735"
 name = "Nightclub"
 pluralName = "Nightclubs"
 shortName = "Nightclub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/nightclub_"
 suffix = ".png"
 
-[data.event]
+[checkin.event]
 id = "4f5a4fb733bd1478e6e2c63d"
 name = "Tenacious D"
-[[data.event.categories]]
+[[checkin.event.categories]]
 id = "4e0a4b91bd41eda0d6092f89"
 name = "Concert"
 pluralName = "Concerts"
 shortName = "Concert"
 primary = true
 
-[data.event.categories.icon]
+[checkin.event.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "409 Colorado St"
 crossStreet = "5th St."
 lat = 30.266921

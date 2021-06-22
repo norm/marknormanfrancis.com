@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/d4293650c7d1afa6415aca2eb5426624beb978eebfce2e4
 tag = [ "toy-joy",]
 local_timestamp = 2012-03-17T14:45:51Z
 
-[data]
+[checkin]
 id = "4f64e9efe4b0cded5ceb5fa1"
 createdAt = 1332013551
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "49971353f964a52088521fe3"
 name = "Toy Joy"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1f3941735"
 name = "Toy / Game Store"
 pluralName = "Toy / Game Stores"
 shortName = "Toys & Games"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/toys_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "403 W 2nd St"
 crossStreet = "Guadalupe St."
 lat = 30.265434967378678
@@ -37,15 +37,15 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "403 W 2nd St (Guadalupe St.)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.265434967378678
 lng = -97.74794386741246
 
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "entrance"
 lat = 30.265246
 lng = -97.747892
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "67382349"

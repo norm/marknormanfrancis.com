@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/36c05e53a37b18f3c979957823eef8b88c90e9a434182617822fc3ae684de5ef.png"
 tag = [ "edgware-road-london-underground-station-circle-district-and-h-c-lines",]
 
-[data]
+[checkin]
 id = "5281142a498eb33714559691"
 createdAt = 1384191018
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4b2d3d66f964a52001d224e3"
 name = "Edgware Road London Underground Station (Circle, District and H&C lines)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1fd931735"
 name = "Metro Station"
 pluralName = "Metro Stations"
 shortName = "Metro"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/subway_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Chapel St"
 lat = 51.520183720645
 lng = -0.1670254119362918
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Chapel St", "London", "Greater London", "NW1 5DH",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.520183720645
 lng = -0.1670254119362918

@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/91e6889c809e7819b6bd26fe2ef94ba75773f67c64e0667
 tag = [ "acc-room-18abcd",]
 local_timestamp = 2012-03-10T15:09:25Z
 
-[data]
+[checkin]
 id = "4f5bc305e4b0ea8598e8ef85"
 createdAt = 1331413765
 type = "checkin"
 timeZoneOffset = -360
 shout = "Meat is Might"
 
-[data.venue]
+[checkin.venue]
 id = "4f5b752ce4b07fef007ed894"
 name = "ACC Room 18ABCD"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d100941735"
 name = "Meeting Room"
 pluralName = "Meeting Rooms"
 shortName = "Meeting Room"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/conventioncenter_meetingroom_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "500 E Cesar Chavez St"
 crossStreet = "btwn Trinity St & Red River St"
 lat = 30.264302668622356
@@ -36,7 +36,7 @@ cc = "US"
 state = "Texas"
 country = "United States"
 formattedAddress = [ "500 E Cesar Chavez St (btwn Trinity St & Red River St)", "Texas", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.264302668622356
 lng = -97.7386938300773

@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/65f1367fce0619edd72b49ea3eed9feb903a093a68a054b70ba7fd616f98b432.png"
 tag = [ "despatch-box-coffee-shop",]
 
-[data]
+[checkin]
 id = "50d85504e4b0db4f40aa8398"
 createdAt = 1356354820
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4cac1b4d36fa6dcb80e6db78"
 name = "Despatch Box Coffee Shop"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1e0931735"
 name = "Coffee Shop"
 pluralName = "Coffee Shops"
 shortName = "Coffee Shop"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Portcullis House"
 lat = 51.50111406437572
 lng = -0.12474325755695803
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Portcullis House", "London", "Greater London", "SW1 A 2",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.50111406437572
 lng = -0.12474325755695803

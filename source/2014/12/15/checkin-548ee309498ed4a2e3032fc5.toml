@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/5dbedf4a34e07fbead075926b4c65fdcb09efea331bca50f6dfa83d46355c3ac.png"
 tag = [ "nandos",]
 
-[data]
+[checkin]
 id = "548ee309498ed4a2e3032fc5"
 createdAt = 1418650377
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ec6abe02c5b532d05aa85b2"
 name = "Nando's"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4def73e84765ae376e57713a"
 name = "Portuguese Restaurant"
 pluralName = "Portuguese Restaurants"
 shortName = "Portuguese"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/portuguese_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "108 Stamford Street"
 crossStreet = "Coin St"
 lat = 51.50626884
@@ -36,10 +36,10 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "108 Stamford Street (Coin St)", "London", "Greater London", "SE1 9NH",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.50626884
 lng = -0.1105591
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "561217051"

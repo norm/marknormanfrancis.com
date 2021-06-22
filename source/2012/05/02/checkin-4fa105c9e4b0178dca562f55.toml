@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/1f58e0fc61f221b88b0eb99f0a4ac21fed2a14589400c4b
 tag = [ "cafe-verona",]
 local_timestamp = 2012-05-02T12:00:41Z
 
-[data]
+[checkin]
 id = "4fa105c9e4b0178dca562f55"
 createdAt = 1335952841
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b9641b2f964a520a6c234e3"
 name = "Café Verona"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d110941735"
 name = "Italian Restaurant"
 pluralName = "Italian Restaurants"
 shortName = "Italian"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/italian_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "184 Drury Lane"
 crossStreet = "Stuckley Street"
 lat = 51.51584156696677
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "184 Drury Lane (Stuckley Street)", "London", "Greater London", "WC2B 5QD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51584156696677
 lng = -0.12387113776233637

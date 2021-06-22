@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/45033ee34f021d7a7fb687e582e6e860b80191df6a087e9bcdb4dec41abf76be.png"
 tag = [ "young-vic",]
 
-[data]
+[checkin]
 id = "56b45b11498e24618d68ba5d"
 createdAt = 1454660369
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518e7f964a52062ab20e3"
 name = "Young Vic"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d137941735"
 name = "Theater"
 pluralName = "Theaters"
 shortName = "Theater"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "66 The Cut"
 crossStreet = "Greet St"
 lat = 51.503035994714295
@@ -37,7 +37,7 @@ city = "Southwark"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "66 The Cut (Greet St)", "Southwark", "Greater London", "SE1 8LZ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.503035994714295
 lng = -0.10746042968216699

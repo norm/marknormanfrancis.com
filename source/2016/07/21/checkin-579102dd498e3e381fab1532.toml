@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/0d092f19ca48b8d3878ddc88539080c4f3402fcd4c5fa7b
 tag = [ "the-green-man",]
 local_timestamp = 2016-07-21T19:14:05Z
 
-[data]
+[checkin]
 id = "579102dd498e3e381fab1532"
 createdAt = 1469121245
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ace17cdf964a5205fce20e3"
 name = "The Green Man"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "36 Riding House St"
 lat = 51.519021272537664
 lng = -0.1396115134285917
@@ -36,7 +36,7 @@ city = "Fitzrovia"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "36 Riding House St", "Fitzrovia", "Greater London", "W1W 7EP",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.519021272537664
 lng = -0.1396115134285917

@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/8c1f7a898211399038f02e9baea3f00e7dfbf9cda3367b6
 tag = [ "the-four-lanterns",]
 local_timestamp = 2014-06-20T13:17:55Z
 
-[data]
+[checkin]
 id = "53a41863498e138d782e8e65"
 createdAt = 1403263075
 type = "checkin"
 timeZoneOffset = 60
 shout = "Meri"
 
-[data.venue]
+[checkin.venue]
 id = "4bf1a24899d02d7f385ec948"
 name = "The Four Lanterns"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d10e941735"
 name = "Greek Restaurant"
 pluralName = "Greek Restaurants"
 shortName = "Greek"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/greek_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "96 Cleveland St"
 lat = 51.522583876243196
 lng = -0.1413173902018286
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "96 Cleveland St", "London", "Greater London", "W1T 6NP",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.522583876243196
 lng = -0.1413173902018286

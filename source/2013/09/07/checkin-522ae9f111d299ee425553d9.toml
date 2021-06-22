@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/3f3568be3cf9c73871f26a11533419b607e54ede07273e9
 tag = [ "king-georges-park",]
 local_timestamp = 2013-09-07T10:55:13Z
 
-[data]
+[checkin]
 id = "522ae9f111d299ee425553d9"
 createdAt = 1378544113
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ae4c5c6f964a520029e21e3"
 name = "King George's Park"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d163941735"
 name = "Park"
 pluralName = "Parks"
 shortName = "Park"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Burr Rd"
 lat = 51.45276174271085
 lng = -0.194734571066702
@@ -36,7 +36,7 @@ city = "Wandsworth"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Burr Rd", "Wandsworth", "Greater London", "SW18 1HX",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.45276174271085
 lng = -0.194734571066702

@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/48c09494b5316a557551e0133ffc853a9ea326a1d85f04ea1b4b4805fb97f035.png"
 tag = [ "london-heathrow-airport-lhr",]
 
-[data]
+[checkin]
 id = "4f684a8ee4b0cdd88f79b5e5"
 createdAt = 1332234894
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ad7a112f964a520050d21e3"
 name = "London Heathrow Airport (LHR)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1ed931735"
 name = "Airport"
 pluralName = "Airports"
 shortName = "Airport"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/airport_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Nelson Rd"
 lat = 51.469407923261336
 lng = -0.46234846115112305
@@ -35,7 +35,7 @@ city = "Hounslow"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Nelson Rd", "Hounslow", "Greater London", "TW6 2GW",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.469407923261336
 lng = -0.46234846115112305

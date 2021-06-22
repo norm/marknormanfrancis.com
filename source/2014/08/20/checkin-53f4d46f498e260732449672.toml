@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/c8dee0abe0ea28c610272d40773327fcc53ff5495569132
 tag = [ "hawksmoor-air-street",]
 local_timestamp = 2014-08-20T19:01:35Z
 
-[data]
+[checkin]
 id = "53f4d46f498e260732449672"
 createdAt = 1408554095
 type = "checkin"
 timeZoneOffset = 60
 shout = "Pre-theatre steaks with S-J"
 
-[data.venue]
+[checkin.venue]
 id = "5060af30e4b05cb4c6f51de2"
 name = "Hawksmoor Air Street"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1cc941735"
 name = "Steakhouse"
 pluralName = "Steakhouses"
 shortName = "Steakhouse"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "5A Air Street"
 crossStreet = "Regent St"
 lat = 51.509721
@@ -38,7 +38,7 @@ city = "Soho"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "5A Air Street (Regent St)", "Soho", "Greater London", "W1J 0AD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.509721
 lng = -0.136162

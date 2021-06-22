@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/a20260371163e043d87f9c9ecf04aff7907996d19ecfd599cefd5f28514eb025.png"
 tag = [ "southfields-london-underground-station",]
 
-[data]
+[checkin]
 id = "512b8388e4b0466f6130adfa"
 createdAt = 1361806216
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ad36e2ef964a5205ee420e3"
 name = "Southfields London Underground Station"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1fd931735"
 name = "Metro Station"
 pluralName = "Metro Stations"
 shortName = "Metro"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/subway_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Wimbledon Park Rd"
 crossStreet = "at Augustus Rd"
 lat = 51.445390555801474
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Wimbledon Park Rd (at Augustus Rd)", "London", "Greater London", "SW18 5RL",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.445390555801474
 lng = -0.20655565203597215

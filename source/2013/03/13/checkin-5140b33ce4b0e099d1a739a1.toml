@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/4d0b9b97deecb5fb4901353935bbf4898b5ee0ad4c7b7837f0a47967f3b72dc4.png"
 tag = [ "southampton-airport-sou",]
 
-[data]
+[checkin]
 id = "5140b33ce4b0e099d1a739a1"
 createdAt = 1363194684
 type = "checkin"
 timeZoneOffset = 0
 shout = "Made it!"
 
-[data.venue]
+[checkin.venue]
 id = "4b4eee67f964a52046f726e3"
 name = "Southampton Airport (SOU)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1ed931735"
 name = "Airport"
 pluralName = "Airports"
 shortName = "Airport"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/airport_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Mitchell Way, Wide Ln."
 lat = 50.950589544302034
 lng = -1.361167647992305
@@ -37,5 +37,5 @@ state = "Hampshire"
 country = "United Kingdom"
 formattedAddress = [ "Mitchell Way, Wide Ln.", "Eastleigh", "Hampshire", "SO18 2NL",]
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "584197629"

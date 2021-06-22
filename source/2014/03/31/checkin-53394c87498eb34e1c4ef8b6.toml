@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/8001be0a9d69c86d94a645c9601e0acf733d2a63205f47b
 tag = [ "london-kings-cross-railway-station-kgx",]
 local_timestamp = 2014-03-31T13:07:51Z
 
-[data]
+[checkin]
 id = "53394c87498eb34e1c4ef8b6"
 createdAt = 1396264071
 type = "checkin"
 timeZoneOffset = 60
 shout = "Two days ooop naarff"
 
-[data.venue]
+[checkin.venue]
 id = "4af33684f964a520c7eb21e3"
 name = "London King's Cross Railway Station (KGX)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d129951735"
 name = "Train Station"
 pluralName = "Train Stations"
 shortName = "Train Station"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Euston Rd"
 crossStreet = "York Way"
 lat = 51.53151679659481

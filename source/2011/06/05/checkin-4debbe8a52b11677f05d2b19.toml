@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/7b84a711a1b922c0f9c110dead87b0be8dc8a6fc15c27de
 tag = [ "out-of-the-blue-bar-and-kitchen",]
 local_timestamp = 2011-06-05T19:36:10Z
 
-[data]
+[checkin]
 id = "4debbe8a52b11677f05d2b19"
 createdAt = 1307295370
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ac518c1f964a520baa320e3"
 name = "Out of the Blue Bar and Kitchen"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d116941735"
 name = "Bar"
 pluralName = "Bars"
 shortName = "Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "140 St Johns Hill"
 lat = 51.460127
 lng = -0.177785

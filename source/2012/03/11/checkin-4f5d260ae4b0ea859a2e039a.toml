@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/36b219443c8fae7e5e8a1d16ba742e1fb67167875dbc8b0
 tag = [ "maggie-maes",]
 local_timestamp = 2012-03-11T17:24:10Z
 
-[data]
+[checkin]
 id = "4f5d260ae4b0ea859a2e039a"
 createdAt = 1331504650
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "40b13b00f964a520c5f31ee3"
 name = "Maggie Mae's"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d116941735"
 name = "Bar"
 pluralName = "Bars"
 shortName = "Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "323 E 6th St"
 crossStreet = "at Trinity"
 lat = 30.267099365967386
@@ -37,10 +37,10 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "323 E 6th St (at Trinity)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.267099365967386
 lng = -97.73976190730701
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "71132947"

@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/7523ecad772cd02539b12bf5d96206b7c3227b802393f56
 tag = [ "st-jamess-park",]
 local_timestamp = 2016-07-08T13:52:20Z
 
-[data]
+[checkin]
 id = "577f93f4498eb91bf399ae7d"
 createdAt = 1467978740
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ac518cdf964a520f2a520e3"
 name = "St James's Park"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d163941735"
 name = "Park"
 pluralName = "Parks"
 shortName = "Park"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "The Mall"
 crossStreet = "Horse Guards Rd"
 lat = 51.50325316049429
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "The Mall (Horse Guards Rd)", "London", "Greater London", "SW1A 2BJ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.50325316049429
 lng = -0.1329946517944336

@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/54e94433626b12070fe3766b5599cf4ff59ace1d77a2081051fd741c654506ab.png"
 tag = [ "greggs",]
 
-[data]
+[checkin]
 id = "58b99bb1abb86a699985c2be"
 createdAt = 1488559025
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "51b9c486498ed30012c2e874"
 name = "Greggs"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16a941735"
 name = "Bakery"
 pluralName = "Bakeries"
 shortName = "Bakery"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/bakery_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "41-43 Ludgate Hill"
 lat = 51.514046546325844
 lng = -0.10242545152347961
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "41-43 Ludgate Hill", "London", "Greater London", "EC4M 7JN",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.514046546325844
 lng = -0.10242545152347961

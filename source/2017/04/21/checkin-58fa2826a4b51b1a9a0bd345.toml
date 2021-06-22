@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/24d8e2909f41b6968190a39d317002ce5498d5d0aebda6b
 tag = [ "norman-shaw-north",]
 local_timestamp = 2017-04-21T17:41:26Z
 
-[data]
+[checkin]
 id = "58fa2826a4b51b1a9a0bd345"
 createdAt = 1492789286
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4dde2cc6ae60c6eb2a53c396"
 name = "Norman Shaw North"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d126941735"
 name = "Government Building"
 pluralName = "Government Buildings"
 shortName = "Government"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/government_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "35 Victoria Embankment"
 lat = 51.5024223030797
 lng = -0.12477849901375726
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "35 Victoria Embankment", "London", "Greater London", "SW1A 2JL",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.5024223030797
 lng = -0.12477849901375726

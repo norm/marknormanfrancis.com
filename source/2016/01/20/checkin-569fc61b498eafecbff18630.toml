@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/cf058457cf2263e5ada3c7d8d42ec0a92dbf170de0c03a5b1e5fa136502124b1.png"
 tag = [ "browns",]
 
-[data]
+[checkin]
 id = "569fc61b498eafecbff18630"
 createdAt = 1453311515
 type = "checkin"
 timeZoneOffset = 0
 shout = "with S-J"
 
-[data.venue]
+[checkin.venue]
 id = "4b64647af964a52098af2ae3"
 name = "Browns"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d116941735"
 name = "Bar"
 pluralName = "Bars"
 shortName = "Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "82 St Martin's Ln"
 lat = 51.51135336947993
 lng = -0.1271948362141733
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "82 St Martin's Ln", "London", "Greater London", "WC2N 4AG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51135336947993
 lng = -0.1271948362141733

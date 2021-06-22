@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/e5a254d8d95e2ce6e379396b13f0a41d8c2cad3a99e1b19
 tag = [ "casa-chapala-mexican",]
 local_timestamp = 2012-03-09T12:28:21Z
 
-[data]
+[checkin]
 id = "4f5a4bc5e4b02c05da89dfa5"
 createdAt = 1331317701
 type = "checkin"
 timeZoneOffset = -360
 
-[data.venue]
+[checkin.venue]
 id = "4b998db0f964a520218335e3"
 name = "Casa Chapala Mexican"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1c1941735"
 name = "Mexican Restaurant"
 pluralName = "Mexican Restaurants"
 shortName = "Mexican"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/mexican_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "101 San Jacinto Blvd"
 crossStreet = "at E Cesar Chavez St"
 lat = 30.26303343937794

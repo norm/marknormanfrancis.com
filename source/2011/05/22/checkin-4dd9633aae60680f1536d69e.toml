@@ -6,29 +6,29 @@ map = "https://mnf.m17s.net/maps/a4f0af80d64be503dbb3fc0a13390c7502cad1c86046594
 tag = [ "giraffe",]
 local_timestamp = 2011-05-22T21:25:46Z
 
-[data]
+[checkin]
 id = "4dd9633aae60680f1536d69e"
 createdAt = 1306092346
 type = "checkin"
 timeZoneOffset = 60
 shout = "Goin' for ribs..."
 
-[data.venue]
+[checkin.venue]
 id = "4aec241ef964a52062c521e3"
 name = "Giraffe"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16d941735"
 name = "Café"
 pluralName = "Cafés"
 shortName = "Café"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/cafe_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "27 Battersea Rise"
 lat = 51.460965
 lng = -0.163596

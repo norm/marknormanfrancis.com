@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/4ec9ff36b7a0b3b6c6945ad5dc797b801a5efa44256cc11
 tag = [ "austin-bergstrom-international-airport-aus",]
 local_timestamp = 2012-03-19T12:07:11Z
 
-[data]
+[checkin]
 id = "4f6767bfe4b06b308af82ba3"
 createdAt = 1332176831
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "440da2cbf964a52091301fe3"
 name = "Austin Bergstrom International Airport (AUS)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1ed931735"
 name = "Airport"
 pluralName = "Airports"
 shortName = "Airport"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/airport_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "3600 Presidential Blvd"
 crossStreet = "at Texas Hwy 71"
 lat = 30.20223737349762

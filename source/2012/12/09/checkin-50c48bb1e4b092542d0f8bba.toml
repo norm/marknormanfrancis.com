@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/e32d29126fac3e013c121e4044a6fcf6d885ce3560f856c84a11b5eb750ff105.png"
 tag = [ "the-lanesborough-a-st-regis-hotel",]
 
-[data]
+[checkin]
 id = "50c48bb1e4b092542d0f8bba"
 createdAt = 1355058097
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518b4f964a5206fa020e3"
 name = "The Lanesborough, a St. Regis Hotel"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1fa931735"
 name = "Hotel"
 pluralName = "Hotels"
 shortName = "Hotel"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/hotel_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Hyde Park Corner"
 lat = 51.50251352382579
 lng = -0.15244334936141968

@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/9a4704bfa126d1b99e009b2ee97de8ab9176cb5f046cb41
 tag = [ "vivo",]
 local_timestamp = 2012-03-17T12:30:09Z
 
-[data]
+[checkin]
 id = "4f64ca21e4b0eae10aa44d0b"
 createdAt = 1332005409
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "48359c8ff964a520e94f1fe3"
 name = "Vivo"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1c1941735"
 name = "Mexican Restaurant"
 pluralName = "Mexican Restaurants"
 shortName = "Mexican"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/mexican_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "2015 Manor Rd"
 crossStreet = "at Poquito St."
 lat = 30.283825756488273

@@ -6,42 +6,42 @@ map = "https://mnf.m17s.net/maps/a8e490b5335fe48dfd504b824130cc5a00c1fad48c4e9e0
 tag = [ "royal-albert-hall", "proms", "concert",]
 local_timestamp = 2016-08-06T19:57:00Z
 
-[data]
+[checkin]
 id = "57a624ec498e997f229be07a"
 createdAt = 1470506220
 type = "checkin"
 timeZoneOffset = 60
 shout = "with S-J"
 
-[data.venue]
+[checkin.venue]
 id = "4ac518e8f964a52075ab20e3"
 name = "Royal Albert Hall"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "5032792091d4c4b30a586d5c"
 name = "Concert Hall"
 pluralName = "Concert Halls"
 shortName = "Concert Hall"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
 suffix = ".png"
 
-[data.event]
+[checkin.event]
 id = "57133d94498ea298d9abfb67"
 name = "Proms"
-[[data.event.categories]]
+[[checkin.event.categories]]
 id = "4e0a4b91bd41eda0d6092f89"
 name = "Concert"
 pluralName = "Concerts"
 shortName = "Concert"
 primary = true
 
-[data.event.categories.icon]
+[checkin.event.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Kensington Gore"
 lat = 51.50112169476231
 lng = -0.17741730766218888
@@ -52,10 +52,10 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Kensington Gore", "London", "Greater London", "SW7 2AP",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.50112169476231
 lng = -0.17741730766218888
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "66554972"

@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/2c63ef3c9e49413d41910ae5a29592d18af1ad9e62f383e27cda7288628ddfa4.png"
 tag = [ "burrito-cafe",]
 
-[data]
+[checkin]
 id = "5ab4ed4cdd8442333f19fbdb"
 createdAt = 1521806668
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4e3d84171fc7f3d8d475e417"
 name = "Burrito Café"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d153941735"
 name = "Burrito Place"
 pluralName = "Burrito Places"
 shortName = "Burritos"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/burrito_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "10 Caledonian Rd"
 crossStreet = "at Omega Pl"
 lat = 51.531282323532224
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "10 Caledonian Rd (at Omega Pl)", "London", "Greater London", "N1 9DU",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.531282323532224
 lng = -0.1209288340266967

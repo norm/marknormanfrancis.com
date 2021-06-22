@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/191c4ce38b50f0a660c3a77b9e9ea99e9c426f5d4c1eb15
 tag = [ "the-ginger-man",]
 local_timestamp = 2012-03-10T00:10:17Z
 
-[data]
+[checkin]
 id = "4f5af049e4b026f4c4e26882"
 createdAt = 1331359817
 type = "checkin"
 timeZoneOffset = -360
 
-[data.venue]
+[checkin.venue]
 id = "40b13b00f964a520aaf31ee3"
 name = "The Ginger Man"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "301 Lavaca St"
 crossStreet = "at W 3rd St"
 lat = 30.266231223175375

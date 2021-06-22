@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/9a45c567c17bd74b5ec2434f4392130a031a7d1de3ea60141ba06f2c18b1e0aa.png"
 tag = [ "pizza-express",]
 
-[data]
+[checkin]
 id = "527941c211d2f6afb633e68b"
 createdAt = 1383678402
 type = "checkin"
 timeZoneOffset = 0
 shout = "with S-J"
 
-[data.venue]
+[checkin.venue]
 id = "4b16c598f964a52037bd23e3"
 name = "Pizza Express"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1ca941735"
 name = "Pizza Place"
 pluralName = "Pizza Places"
 shortName = "Pizza"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/pizza_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "25 Millbank"
 lat = 51.49198098695869
 lng = -0.1259089270009781
@@ -36,7 +36,7 @@ city = "Millbank"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "25 Millbank", "Millbank", "Greater London", "SW1P 4QP",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.49198098695869
 lng = -0.1259089270009781

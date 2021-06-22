@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/6aa06c22bade03569c390d981fa935e6537f5d2b7ffd51bcb426bc2c0566537c.png"
 tag = [ "the-parcel-yard",]
 
-[data]
+[checkin]
 id = "5aa02975b3c9616ff86c9e45"
 createdAt = 1520445813
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4f634969e4b0ce431bfee234"
 name = "The Parcel Yard"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "King's Cross Station"
 lat = 51.532374
 lng = -0.123933
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "King's Cross Station", "Camden", "Greater London", "N1C 4AH",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.532374
 lng = -0.123933

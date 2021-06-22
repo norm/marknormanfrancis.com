@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/d2faac178eba2d97eb6767655573707b9c10e0f0a44fc2a28d79c2b8d28e06cf.png"
 tag = [ "bassoon-bar",]
 
-[data]
+[checkin]
 id = "54be877e498ecfc003785466"
 createdAt = 1421772670
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4de0262922713271e2ace83f"
 name = "Bassoon Bar"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1d5941735"
 name = "Hotel Bar"
 pluralName = "Hotel Bars"
 shortName = "Hotel Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/hotel_bar_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "10 Whitehall Pl"
 lat = 51.506414793599966
 lng = -0.12404580869630003
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "10 Whitehall Pl", "London", "Greater London", "SW1A 2BD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.506414793599966
 lng = -0.12404580869630003

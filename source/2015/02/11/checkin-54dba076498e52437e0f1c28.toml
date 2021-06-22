@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/05c04e83edc8d6d90cba55d1550ab85db8eca62c4789d897ae24c9b7856c47e1.png"
 tag = [ "draughts",]
 
-[data]
+[checkin]
 id = "54dba076498e52437e0f1c28"
 createdAt = 1423679606
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "53c8427e498e31473d09003b"
 name = "Draughts"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d18d941735"
 name = "Gaming Cafe"
 pluralName = "Gaming Cafes"
 shortName = "Gaming Cafe"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/gamingcafe_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "337 Acton Mews"
 crossStreet = "Dunston St"
 lat = 51.53702007987583
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "337 Acton Mews (Dunston St)", "London", "Greater London", "E8 4EF",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.53702007987583
 lng = -0.07583584637380379

@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/8b83c414ddefae68a6997d227000e025531a9c67f4b5989058ca84b9489ddb82.png"
 tag = [ "bounce",]
 
-[data]
+[checkin]
 id = "5151d574e4b026975907b85b"
 createdAt = 1364317556
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "5057807b7ab4a2c8e935af22"
 name = "Bounce"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11d941735"
 name = "Sports Bar"
 pluralName = "Sports Bars"
 shortName = "Sports Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/sportsbar_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "121 Holborn"
 lat = 51.517779982176265
 lng = -0.10842972449684715
@@ -36,10 +36,10 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "121 Holborn", "London", "Greater London", "EC1N 2TD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.517779982176265
 lng = -0.10842972449684715
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "37549205"

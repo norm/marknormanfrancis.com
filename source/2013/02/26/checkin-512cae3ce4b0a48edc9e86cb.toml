@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/9b4d3616eb3687eff89f1c0152ba53e113a66543ce9ff9355d9b73b9a421f012.png"
 tag = [ "chilango",]
 
-[data]
+[checkin]
 id = "512cae3ce4b0a48edc9e86cb"
 createdAt = 1361882684
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4afee58af964a520553122e3"
 name = "Chilango"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d153941735"
 name = "Burrito Place"
 pluralName = "Burrito Places"
 shortName = "Burritos"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/burrito_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "27 Upper St"
 lat = 51.53433113301236
 lng = -0.10523199413717098
@@ -35,7 +35,7 @@ city = "Islington"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "27 Upper St", "Islington", "Greater London", "N1 0PN",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.53433113301236
 lng = -0.10523199413717098

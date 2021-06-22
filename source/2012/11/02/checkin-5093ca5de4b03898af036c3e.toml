@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/63b2b276d5cbab90617da094d3fb2f83511ea4050f4d90d375a0e07556ee7cb3.png"
 tag = [ "the-rock-sole-plaice",]
 
-[data]
+[checkin]
 id = "5093ca5de4b03898af036c3e"
 createdAt = 1351862877
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4b0f105af964a520b65e23e3"
 name = "The Rock & Sole Plaice"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4edd64a0c7ddd24ca188df1a"
 name = "Fish & Chips Shop"
 pluralName = "Fish & Chips Shops"
 shortName = "Fish & Chips"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/fishandchips_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "47 Endell St"
 lat = 51.514901080296795
 lng = -0.12508700486791494
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "47 Endell St", "London", "Greater London", "WC2H 9AJ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.514901080296795
 lng = -0.12508700486791494

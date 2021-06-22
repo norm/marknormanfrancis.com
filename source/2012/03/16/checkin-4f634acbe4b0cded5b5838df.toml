@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/5154c2720e91bb6a9570ef0604d31d48bd8ae98cbd6e43e
 tag = [ "jos-coffee",]
 local_timestamp = 2012-03-16T09:14:35Z
 
-[data]
+[checkin]
 id = "4f634acbe4b0cded5b5838df"
 createdAt = 1331907275
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "45f29b61f964a520df431fe3"
 name = "Jo's Coffee"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1e0931735"
 name = "Coffee Shop"
 pluralName = "Coffee Shops"
 shortName = "Coffee Shop"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "242 W 2nd St"
 crossStreet = "at Lavaca St"
 lat = 30.26491067119834
@@ -37,19 +37,19 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "242 W 2nd St (at Lavaca St)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.26491067119834
 lng = -97.74610054923775
 
-[data.venue.delivery]
+[checkin.venue.delivery]
 id = "2036054"
 url = "https://www.grubhub.com/restaurant/jos-downtown-242-w-2nd-st-austin/2036054?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=2036054"
 
-[data.venue.delivery.provider]
+[checkin.venue.delivery.provider]
 name = "grubhub"
 
-[data.venue.delivery.provider.icon]
+[checkin.venue.delivery.provider.icon]
 prefix = "https://fastly.4sqi.net/img/general/cap/"
 sizes = [ 40, 50,]
 name = "/delivery_provider_grubhub_20180129.png"

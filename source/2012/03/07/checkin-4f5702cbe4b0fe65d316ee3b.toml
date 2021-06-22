@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/9d3eaf58578a982a36661fcafda2cc4f50668b862fbb4f12cff1b50439d5b3b2.png"
 tag = [ "terminal-4",]
 
-[data]
+[checkin]
 id = "4f5702cbe4b0fe65d316ee3b"
 createdAt = 1331102411
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ad8af64f964a520b81321e3"
 name = "Terminal 4"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1eb931735"
 name = "Airport Terminal"
 pluralName = "Airport Terminals"
 shortName = "Terminal"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/airport_gate_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "LHR Airport"
 lat = 51.45934170346915
 lng = -0.44732809066772455
@@ -34,7 +34,7 @@ cc = "GB"
 city = "Hounslow"
 country = "United Kingdom"
 formattedAddress = [ "LHR Airport", "Hounslow", "TW6 3XA",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.45934170346915
 lng = -0.44732809066772455

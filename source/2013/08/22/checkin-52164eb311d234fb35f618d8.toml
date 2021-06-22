@@ -6,29 +6,29 @@ map = "https://mnf.m17s.net/maps/67fd31c2304a5e909572f394d4b6922706a7be1f08f5c19
 tag = [ "premier-inn-newcastle-city-centre-new-bridge-street",]
 local_timestamp = 2013-08-22T19:47:31Z
 
-[data]
+[checkin]
 id = "52164eb311d234fb35f618d8"
 createdAt = 1377193651
 type = "checkin"
 timeZoneOffset = 60
 shout = "with S-J"
 
-[data.venue]
+[checkin.venue]
 id = "4bd097ef1f89ce727ab667ea"
 name = "Premier Inn Newcastle City Centre (New Bridge Street)"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1fa931735"
 name = "Hotel"
 pluralName = "Hotels"
 shortName = "Hotel"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/hotel_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Newbridge Street"
 lat = 54.974856
 lng = -1.607768
@@ -38,7 +38,7 @@ city = "Newcastle upon Tyne"
 state = "Newcastle upon Tyne"
 country = "United Kingdom"
 formattedAddress = [ "Newbridge Street", "Newcastle upon Tyne", "NE1 8BS",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 54.974856
 lng = -1.607768

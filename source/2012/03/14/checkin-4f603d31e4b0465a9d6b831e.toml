@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/5f33e594bc8c950bbc1955c3c1dc80c3243c6155f7b401d
 tag = [ "hampton-inn-suites",]
 local_timestamp = 2012-03-14T01:39:45Z
 
-[data]
+[checkin]
 id = "4f603d31e4b0465a9d6b831e"
 createdAt = 1331707185
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "45f05745f964a520bf431fe3"
 name = "Hampton Inn & Suites"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1fa931735"
 name = "Hotel"
 pluralName = "Hotels"
 shortName = "Hotel"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/hotel_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "200 San Jacinto Blvd"
 lat = 30.263943890376353
 lng = -97.74195358157158
@@ -36,10 +36,10 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "200 San Jacinto Blvd", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.263943890376353
 lng = -97.74195358157158
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "45029009"

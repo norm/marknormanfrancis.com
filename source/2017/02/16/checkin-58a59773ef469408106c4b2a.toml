@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/2abf51a816c5fa8210f79c0a1fd04a73d391d1dbdfa52469f3f62d863aafefd8.png"
 tag = [ "grays-inn-gardens",]
 
-[data]
+[checkin]
 id = "58a59773ef469408106c4b2a"
 createdAt = 1487247219
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4bbdcf1d07809521ddf4da91"
 name = "Gray's Inn Gardens"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d15a941735"
 name = "Garden"
 pluralName = "Gardens"
 shortName = "Garden"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/garden_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "19-20 High Holborn"
 lat = 51.520335040836784
 lng = -0.1138905874180336
@@ -35,7 +35,7 @@ city = "Holborn"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "19-20 High Holborn", "Holborn", "Greater London", "WC1V 6BS",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.520335040836784
 lng = -0.1138905874180336

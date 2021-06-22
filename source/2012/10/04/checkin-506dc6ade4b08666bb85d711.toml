@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/7182d3c04ceb7cc0092b0f10022986b5a83c1ebd9b07c04
 tag = [ "the-old-fountain",]
 local_timestamp = 2012-10-04T19:26:05Z
 
-[data]
+[checkin]
 id = "506dc6ade4b08666bb85d711"
 createdAt = 1349371565
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4acf5df2f964a52042d320e3"
 name = "The Old Fountain"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "3 Baldwin St"
 lat = 51.5270589702815
 lng = -0.08903088522976492
@@ -37,7 +37,7 @@ city = "Hoxton"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "3 Baldwin St", "Hoxton", "Greater London", "EC1V 9NU",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.5270589702815
 lng = -0.08903088522976492

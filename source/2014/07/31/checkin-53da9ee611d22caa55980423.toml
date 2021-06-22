@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/36005611e5dacafd4521669e5d5a8942771cc5b556824f9
 tag = [ "fleming-court",]
 local_timestamp = 2014-07-31T21:54:14Z
 
-[data]
+[checkin]
 id = "53da9ee611d22caa55980423"
 createdAt = 1406836454
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "526b993d11d2ef13bf5b5cc5"
 name = "Fleming Court"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4d954b06a243a5684965b473"
 name = "Residential Building (Apartment / Condo)"
 pluralName = "Residential Buildings (Apartments / Condos)"
 shortName = "Residential"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/apartment_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Fleming Court"
 lat = 51.520344683646684
 lng = -0.1761302391882084
@@ -36,7 +36,7 @@ city = "City of Westminster"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Fleming Court", "City of Westminster", "Greater London", "W2 1SE",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.520344683646684
 lng = -0.1761302391882084

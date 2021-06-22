@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/43c6b92183310fb9537c05d76bc34cd7eab5faffcef43bf40d70cae43a6d7174.png"
 tag = [ "dstl",]
 
-[data]
+[checkin]
 id = "5672ac77498e14777af5a87c"
 createdAt = 1450355831
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4e312180d4c0b2aebf6d5f87"
 name = "Dstl"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4d4b7105d754a06375d81259"
 name = "Professional & Other Places"
 pluralName = "Professional & Other Places"
 shortName = "Professional"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Porton Down"
 lat = 51.12453779516188
 lng = -1.7070409004773883
@@ -35,7 +35,7 @@ city = "Salisbury"
 state = "Wiltshire"
 country = "United Kingdom"
 formattedAddress = [ "Porton Down", "Salisbury", "Wiltshire", "SP4 0JQ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.12453779516188
 lng = -1.7070409004773883

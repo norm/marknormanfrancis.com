@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/0712e5e21d41479c2cb2bed8753a477c10565beebea2be8
 tag = [ "the-montagu-pyke-wetherspoon",]
 local_timestamp = 2013-05-09T20:54:32Z
 
-[data]
+[checkin]
 id = "518bf0e8498e404498c0a32f"
 createdAt = 1368125672
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b7daaeff964a52075cd2fe3"
 name = "The Montagu Pyke (Wetherspoon)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "105-107 Charing Cross Rd"
 crossStreet = "Greek St"
 lat = 51.514012579980886
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "105-107 Charing Cross Rd (Greek St)", "West End", "Greater London", "WC2H 0BP",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.514012579980886
 lng = -0.1300116481986646

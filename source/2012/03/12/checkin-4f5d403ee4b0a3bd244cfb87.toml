@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/2fe000f829c8f2910a80965d0a50ef194838f6a4e4b4c95
 tag = [ "mekong-river",]
 local_timestamp = 2012-03-11T19:15:58Z
 
-[data]
+[checkin]
 id = "4f5d403ee4b0a3bd244cfb87"
 createdAt = 1331511358
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "47d02442f964a5200c4e1fe3"
 name = "Mekong River"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d14a941735"
 name = "Vietnamese Restaurant"
 pluralName = "Vietnamese Restaurants"
 shortName = "Vietnamese"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/vietnamese_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "215 E 6th St"
 crossStreet = "btwn Brazos & San Jacinto"
 lat = 30.26749989672916
@@ -38,10 +38,10 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "215 E 6th St (btwn Brazos & San Jacinto)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.26749989672916
 lng = -97.74080157279968
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "36585517"

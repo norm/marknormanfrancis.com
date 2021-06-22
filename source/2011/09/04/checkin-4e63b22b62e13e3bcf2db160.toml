@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/bedd8abcc277dc4e21ce9e586fc8a102aef7d471db5f639
 tag = [ "kfc",]
 local_timestamp = 2011-09-04T19:15:23Z
 
-[data]
+[checkin]
 id = "4e63b22b62e13e3bcf2db160"
 createdAt = 1315156523
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4bd41164caff95210b2bd6f0"
 name = "KFC"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16e941735"
 name = "Fast Food Restaurant"
 pluralName = "Fast Food Restaurants"
 shortName = "Fast Food"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/fastfood_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "244 Lavender Hill"
 lat = 51.4640364
 lng = -0.1661142
@@ -36,10 +36,10 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "244 Lavender Hill", "London", "Greater London", "SW11 1LJ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.4640364
 lng = -0.1661142
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "584731284"

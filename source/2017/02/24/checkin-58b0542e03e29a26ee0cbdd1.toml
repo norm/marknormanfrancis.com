@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/3051e9d98c6b2fc3d30e76435514d101cbe13b9479ef1bffa0bf901de70de1d1.png"
 tag = [ "greggs",]
 
-[data]
+[checkin]
 id = "58b0542e03e29a26ee0cbdd1"
 createdAt = 1487950894
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ff6f6b4e4b0903668230348"
 name = "Greggs"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16a941735"
 name = "Bakery"
 pluralName = "Bakeries"
 shortName = "Bakery"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/bakery_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "5 High Holborn"
 lat = 51.51823531167234
 lng = -0.11161431157344791
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "5 High Holborn", "London", "Greater London", "WC1V 6DR",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51823531167234
 lng = -0.11161431157344791

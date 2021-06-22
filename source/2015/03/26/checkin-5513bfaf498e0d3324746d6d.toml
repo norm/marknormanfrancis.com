@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/6645a748cc8977a90ae19e60ba9e708f00fc4fbe9b407316ad1da647583a35f4.png"
 tag = [ "luigis-sandwich-bar",]
 
-[data]
+[checkin]
 id = "5513bfaf498e0d3324746d6d"
 createdAt = 1427357615
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4fba2865e4b0eca653b652c0"
 name = "Luigi's Sandwich Bar"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1c5941735"
 name = "Sandwich Place"
 pluralName = "Sandwich Places"
 shortName = "Sandwiches"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/deli_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Spring Street"
 lat = 51.51467107727676
 lng = -0.1755684542407939
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Spring Street", "London", "Greater London", "W2 3RA",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51467107727676
 lng = -0.1755684542407939

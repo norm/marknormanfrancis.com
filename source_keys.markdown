@@ -51,6 +51,8 @@ Keys that classify and the content of the entry:
   * **tag** — A list of concepts/subjects that appear in the entry (eg
     keywords, people). A way of linking disparate content together if
     needed.
+  * **map** — A rendered map when the content refers to a location (eg
+    a foursquare venue checkin).
 
 ```toml
 origin = "mnf"

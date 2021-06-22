@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/5f472f6a53f79ddd3e84aeec1d0f5579ca0228bc6edcbad
 tag = [ "royal-festival-hall",]
 local_timestamp = 2014-10-15T20:22:04Z
 
-[data]
+[checkin]
 id = "543ebb4c498e8792c8c7f018"
 createdAt = 1413397324
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b0bf426f964a5200e3523e3"
 name = "Royal Festival Hall"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "5032792091d4c4b30a586d5c"
 name = "Concert Hall"
 pluralName = "Concert Halls"
 shortName = "Concert Hall"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Belvedere Rd"
 lat = 51.50583775382899
 lng = -0.11666729376884177
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Belvedere Rd", "London", "Greater London", "SE1 8XX",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.50583775382899
 lng = -0.11666729376884177

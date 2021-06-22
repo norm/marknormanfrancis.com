@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/752493602a14b5b7d2cc0059817986a6a2717aaaf88d09d
 tag = [ "becks-cafe",]
 local_timestamp = 2012-09-21T13:15:07Z
 
-[data]
+[checkin]
 id = "505c4c3be4b027df9b60a6b3"
 createdAt = 1348226107
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4c7ffd8cd8086dcbf3bb5f52"
 name = "Becks Cafe"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16d941735"
 name = "Café"
 pluralName = "Cafés"
 shortName = "Café"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/cafe_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "28 Red Lion St"
 lat = 51.51967
 lng = -0.117121
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "28 Red Lion St", "London", "Greater London", "WC1R 4PS",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51967
 lng = -0.117121

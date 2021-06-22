@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/2c2d879326fc7502c69ce0552a960b95244354ec187192c
 tag = [ "pizza-express",]
 local_timestamp = 2013-07-02T19:33:08Z
 
-[data]
+[checkin]
 id = "51d30ed4498e0e17a7e3e55d"
 createdAt = 1372786388
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b58dd13f964a5207c6f28e3"
 name = "PizzaExpress"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1ca941735"
 name = "Pizza Place"
 pluralName = "Pizza Places"
 shortName = "Pizza"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/pizza_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "26 Panton House"
 crossStreet = "26 Haymarket"
 lat = 51.5094695363257
@@ -37,7 +37,7 @@ city = "Greater London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "26 Panton House (26 Haymarket)", "Greater London", "SW1Y 4EN",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.5094695363257
 lng = -0.13231546068982425

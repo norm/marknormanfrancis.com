@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/8c70df7579042c17fd8ce9a81352f23d131b2157d4f1aae6907071993022664a.png"
 tag = [ "the-alma",]
 
-[data]
+[checkin]
 id = "56f5474b498ef6e23190b239"
 createdAt = 1458915147
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4acde81df964a52083cd20e3"
 name = "The Alma"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "499 Old York Rd"
 lat = 51.46077206878576
 lng = -0.1877907889577166
@@ -35,7 +35,7 @@ city = "Wandsworth"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "499 Old York Rd", "Wandsworth", "Greater London", "SW18 1TF",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.46077206878576
 lng = -0.1877907889577166

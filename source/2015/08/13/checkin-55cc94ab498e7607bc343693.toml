@@ -6,41 +6,41 @@ map = "https://mnf.m17s.net/maps/eede0c0eef29d6e8dff92421dcec0cedf5629105a7a3cca
 tag = [ "vue", "inside-out", "movie",]
 local_timestamp = 2015-08-13T14:59:23Z
 
-[data]
+[checkin]
 id = "55cc94ab498e7607bc343693"
 createdAt = 1439470763
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b5b426bf964a5202cef28e3"
 name = "Vue"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d180941735"
 name = "Multiplex"
 pluralName = "Multiplexes"
 shortName = "Cineplex"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
 suffix = ".png"
 
-[data.event]
+[checkin.event]
 id = "55a9d164498e892ec498efd7"
 name = "Inside Out"
-[[data.event.categories]]
+[[checkin.event.categories]]
 id = "4dfb90c6bd413dd705e8f897"
 name = "Movie"
 pluralName = "Movies"
 shortName = "Movie"
 primary = true
 
-[data.event.categories.icon]
+[checkin.event.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Fulham Broadway Retail Centre"
 crossStreet = "Fulham Rd"
 lat = 51.480300183123965
@@ -51,7 +51,7 @@ city = "Fulham Broadway"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Fulham Broadway Retail Centre (Fulham Rd)", "Fulham Broadway", "Greater London", "SW6 1BW",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.480300183123965
 lng = -0.19445343443224616

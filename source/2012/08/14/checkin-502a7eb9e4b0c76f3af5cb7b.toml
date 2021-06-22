@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/bd03f301d3689afee56af30f5ef42aed6a1c8d829f7f272
 tag = [ "st-john-bar-and-restaurant",]
 local_timestamp = 2012-08-14T18:37:13Z
 
-[data]
+[checkin]
 id = "502a7eb9e4b0c76f3af5cb7b"
 createdAt = 1344962233
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ad5c5cef964a5206f0321e3"
 name = "St. John Bar and Restaurant"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "52e81612bcbc57f1066b7a05"
 name = "English Restaurant"
 pluralName = "English Restaurants"
 shortName = "English"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "26 St. John St"
 lat = 51.520437
 lng = -0.101382
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "26 St. John St", "London", "Greater London", "EC1M 4AY",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.520437
 lng = -0.101382

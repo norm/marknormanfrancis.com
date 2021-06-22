@@ -3,36 +3,36 @@ published = 2012-03-11T15:50:54Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/57dbae2739ef57dbdde1375e187d0fc517ccd58195b9f8befc3365d1304416d1.png"
-tag = [ "vimeo-theater", "a-conversation-with-seth-macfarlane", "seth-macfarlane",]
+tag = [ "vimeo-theater", "a-conversation-with-seth-mac-farlane",]
 local_timestamp = 2012-03-11T10:50:54Z
 
-[data]
+[checkin]
 id = "4f5cc9dee4b053fd68eb74c0"
 createdAt = 1331481054
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "4d6e9cd5451c41bd01042845"
 name = "Vimeo Theater"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d17f941735"
 name = "Movie Theater"
 pluralName = "Movie Theaters"
 shortName = "Movie Theater"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
 suffix = ".png"
 
-[data.event]
+[checkin.event]
 id = "4f3eefc233bd83343748bbe5"
 name = "A Conversation with Seth MacFarlane"
 categories = []
 
-[data.venue.location]
+[checkin.venue.location]
 address = "501 East 4th St"
 lat = 30.263708738213236
 lng = -97.74007620044877

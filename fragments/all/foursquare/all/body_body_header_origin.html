@@ -1,9 +1,9 @@
       <dt>source</dt>
       <dd>Foursquare (Swarm)</dd>
       <dt>venue id</dt>
-      <dd>{{data.venue.id}}</dd>
-      {% if data.event %}
-        {% for category in data.event.categories %}
+      <dd>{{checkin.venue.id}}</dd>
+      {% if checkin.event %}
+        {% for category in checkin.event.categories %}
           <dt>category</dt>
           <dd>{{category.name}}</dd>
         {% endfor %}

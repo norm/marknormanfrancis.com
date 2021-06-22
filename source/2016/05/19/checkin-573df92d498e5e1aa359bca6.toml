@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/bb72d8f244bea3b7f1bbc973df7630a44ab832d3f19f7d1
 tag = [ "tgi-fridays",]
 local_timestamp = 2016-05-19T19:34:37Z
 
-[data]
+[checkin]
 id = "573df92d498e5e1aa359bca6"
 createdAt = 1463679277
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4c111929ce640f4714fc3a52"
 name = "TGI Fridays"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d14e941735"
 name = "American Restaurant"
 pluralName = "American Restaurants"
 shortName = "American"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "25 Coventry St"
 lat = 51.510254274116356
 lng = -0.13254954584647827
@@ -37,7 +37,7 @@ city = "Leicester Square"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "25 Coventry St", "Leicester Square", "Greater London", "W1D 7AG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.510254274116356
 lng = -0.13254954584647827

@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/e0d5eb343f2ab9ab2e313b40d3921de87e048a9eda79c79
 tag = [ "blackfriars-pier",]
 photos = [ "https://mnf.m17s.net/2017/03/01/checkin-58b6fa7c24f611068bc29d50-0.jpg",]
 
-[data]
+[checkin]
 id = "58b6fa7c24f611068bc29d50"
 createdAt = 1488386684
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "582202bda8383d505bd6de9f"
 name = "Blackfriars Pier"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4e74f6cabd41c4836eac4c31"
 name = "Pier"
 pluralName = "Piers"
 shortName = "Piers"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/ferry_pier_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "White Lion Hill"
 lat = 51.51063128626056
 lng = -0.10083969135845293
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "White Lion Hill", "London", "Greater London", "EC4V 3QR",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51063128626056
 lng = -0.10083969135845293
