@@ -11,6 +11,7 @@ from django.template.defaultfilters import (
     striptags,
     truncatewords_html,
 )
+import markdown2
 
 
 class AllTagsIndex(base.IndexGenerator):
@@ -142,6 +143,10 @@ class NotFound(base.StaticGenerator):
     template_name = 'base_template.html'
 
 
+def markdown(text):
+    return markdown2.markdown(text)
+
+
 def global_context(self):
     return {
         'publication_range': helpers.publication_range(self),
@@ -158,6 +163,7 @@ TEMPLATE_FILTERS = {
     'linebreaks': linebreaks,
     'urlise': urlize,
     'pluralise': pluralize,
+    'markdown': markdown,
     'truncate': truncatewords_html,
     'strip': striptags,
     'capfirst': capfirst,

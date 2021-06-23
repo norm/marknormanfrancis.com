@@ -1,0 +1,32 @@
+// generator:source page
+
+body.source {
+    figure img,
+    p.image img {
+        max-width: 100%;
+    }
+
+    #updated {
+        @include body_font;
+        color: $limed_spruce;
+        border: solid $limed_spruce;
+        border-width: 0 5px 0;
+        padding: 0.25em 20px;
+        margin: 0 $side_outdent 2em;
+
+        strong {
+            @include headline_font;
+        }
+
+        p:first-child {
+            margin-top: 0;
+        }
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        @include larger_width {
+            margin: 0 1em 3em;
+        }
+    }
+}

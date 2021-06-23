@@ -1,12 +1,24 @@
 ```
-title = 'About the rebuild'
+title = 'About the 2020 rebuild'
+published = 2020-06-02T13:58:51Z
+updated = 2021-06-23T05:15:00Z
 origin = 'mnf'
-noindex = true
-page_class = 'about article'
-type = 'timeless'
+type = 'article'
+page_class = 'about'
+updated_explanation = """
+  This was originally an explanation linked from the header of every
+  page of this site as I started work redeveloping it in 2020. I've turned
+  it into an article and posted it under the date it was first written.
+  I won't be keeping the todo list updated, but it is correct as of
+  June 23, 2021.
+"""
+previous_slug = [
+    '/about-the-rebuild',
+]
+tag = [
+    'colophon',
+]
 ```
-
-# About the rebuild
 
 [![Sketches of how to do CSS on a whiteboard](https://mnf.m17s.net/2012/07/31/dropping-a-css-knowledge-bomb-on-rujmah.jpg)][img] Hello world.
 
@@ -47,8 +59,8 @@ And I have more words to write.
   * ❌ document the rebuild well for future-norm and other curious people
 
 * Old posts:
-  * ❌ restore (some of) the old posts from the database backup
-  * ❌ restore even older posts not in that database, but in archives
+  * ✅ <del>restore (some of) the old posts from the database backup</del>
+  * ✅ <del>restore even older posts not in that database, but in archives</del>
 
 * Instagram:
   * ✅ <del>write a script to create pages for instagram posts
@@ -65,7 +77,7 @@ And I have more words to write.
 * Other data:
   * ✅ <del>write a script to import my YouTube videos</del>
   * ✅ <del>write a script to import my GIFs</del>
-  * ❌ write a script to import public github activity
+  * ✅ <del>write a script to import public github activity</del>
   * ❌ write a script to import tshirt wearings
   * ❌ write a script to import/easily add movie watching
   * ❌ write a script to import/easily add bookmarks
@@ -73,7 +85,7 @@ And I have more words to write.
 * ❌ Then do everything else...
   * ✅ <del>Add SSL</del>
   * ✅ <del>Add logging to the S3 bucket/cloudfront</del>
-  * ❌ Analyse said logs
+  * ✅ <del>Analyse said logs</del>
   * ❌ New post on the minimum amount of terraform needed to get a static site
     on S3 with SSL behind CloudFront
 
