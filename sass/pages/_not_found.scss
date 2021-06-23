@@ -1,37 +1,54 @@
 // The 404 page
 
-body.not-found #splash {
-    position: relative;
-
-    h1 {
-        text-align: right;
-        margin: 0;
-        position: absolute;
-        bottom: 0.1em;
-        right: 0;
-        font-size: 2em;
-        font-size: 10vw;
-        color: $desert_storm;
-        @include outline_text(2px);
+body.not-found {
+    #body {
+        max-width: 1800px;
+        margin: 0 auto;
+    }
+    #text {
+        max-width: 1024px;
+        margin: 0 auto;
     }
 
-    img {
-        margin: 0 $side_outdent;
-        max-width: 100%;
-        max-width: unquote("calc(100% +") $side_indent + $side_indent unquote(")");
-    }
+    #splash {
+        position: relative;
 
-    @include larger_width {
         h1 {
-            font-size: 4em;
+            text-align: right;
+            margin: 0;
+            position: absolute;
+            bottom: 0.1em;
+            right: 5%;
+            font-size: 2em;
             font-size: 10vw;
-            @include outline_text(5px);
+            color: $desert_storm;
+            @include outline_text(2px);
         }
 
         img {
-            margin: -1em $side_outdent_larger 0;
+            margin: 0 $side_outdent;
             max-width: 100%;
-            max-width: unquote("calc(100% +") $side_indent_larger + $side_indent_larger unquote(")");
+            max-width: unquote("calc(100% +") $side_indent + $side_indent unquote(")");
+        }
+
+        @include larger_width {
+            h1 {
+                font-size: 4em;
+                font-size: 10vw;
+                @include outline_text(5px);
+            }
+
+            img {
+                margin: 0 $side_outdent_larger 0;
+                max-width: 100%;
+                max-width: unquote("calc(100% +") $side_indent_larger + $side_indent_larger unquote(")");
+            }
+        }
+
+        @media only screen and (min-width: 1800px) {
+            h1 {
+                font-size: 180px;
+            }
         }
     }
 }
