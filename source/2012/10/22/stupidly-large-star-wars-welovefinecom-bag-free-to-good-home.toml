@@ -3,3 +3,6 @@ published = 2012-10-22T13:31:04Z
 image = "https://mnf.m17s.net/2012/10/22/stupidly-large-star-wars-welovefinecom-bag-free-to-good-home.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/10/22/stupidly-large-star-wars-welovefinecom-bag-free-to-good-home.200.jpg"

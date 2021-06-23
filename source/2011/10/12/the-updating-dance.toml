@@ -3,3 +3,6 @@ published = 2011-10-12T19:22:20Z
 image = "https://mnf.m17s.net/2011/10/12/the-updating-dance.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/10/12/the-updating-dance.200.jpg"

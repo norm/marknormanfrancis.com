@@ -3,3 +3,6 @@ published = 2012-11-05T20:05:23Z
 image = "https://mnf.m17s.net/2012/11/05/the-geekening-continues.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/11/05/the-geekening-continues.200.jpg"

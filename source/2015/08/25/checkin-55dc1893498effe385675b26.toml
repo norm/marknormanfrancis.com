@@ -6,33 +6,33 @@ map = "https://mnf.m17s.net/maps/3e4c7dd0c43979b4898f9938471a46232ba9f10273410dc
 tag = [ "six-physio",]
 local_timestamp = 2015-08-25T09:26:11Z
 
-[data]
+[checkin]
 id = "55dc1893498effe385675b26"
 createdAt = 1440487571
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "53a9a89d498e8a01e3af96df"
 name = "Six Physio"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d104941735"
 name = "Medical Center"
 pluralName = "Medical Centers"
 shortName = "Medical"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/medical_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 51.477202
 lng = -0.201486
 cc = "GB"
 country = "United Kingdom"
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.477202
 lng = -0.201486

@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/8b1a6dede187f4f5281f32f1686dffb675d2c2df8c765634bd2bc71297f403a0.png"
 tag = [ "apollo-theatre",]
 
-[data]
+[checkin]
 id = "56803291498ef63461eda789"
 createdAt = 1451242129
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518e7f964a5203eab20e3"
 name = "Apollo Theatre"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d137941735"
 name = "Theater"
 pluralName = "Theaters"
 shortName = "Theater"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "31 Shaftesbury Ave"
 crossStreet = "Rupert St"
 lat = 51.511674544474424
@@ -36,7 +36,7 @@ city = "Soho"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "31 Shaftesbury Ave (Rupert St)", "Soho", "Greater London", "W1D 7ES",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.511674544474424
 lng = -0.1335782592235009

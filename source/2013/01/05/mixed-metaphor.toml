@@ -3,3 +3,6 @@ published = 2013-01-05T18:26:05Z
 image = "https://mnf.m17s.net/2013/01/05/mixed-metaphor.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/01/05/mixed-metaphor.200.jpg"

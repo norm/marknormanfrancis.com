@@ -3,3 +3,6 @@ published = 2015-07-06T19:13:35Z
 image = "https://mnf.m17s.net/2015/07/06/the-blues-brothers-1980.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/07/06/the-blues-brothers-1980.200.jpg"

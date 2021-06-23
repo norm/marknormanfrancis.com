@@ -3,3 +3,6 @@ published = 2012-04-15T20:32:31Z
 image = "https://mnf.m17s.net/2012/04/15/loving-netflix-on-the-new-apple-tv.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/04/15/loving-netflix-on-the-new-apple-tv.200.jpg"

@@ -3,3 +3,6 @@ published = 2013-12-16T15:16:48Z
 image = "https://mnf.m17s.net/2013/12/16/norman-shaw-north-part-of-old-new-scotland-yard.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/12/16/norman-shaw-north-part-of-old-new-scotland-yard.200.jpg"

@@ -3,3 +3,6 @@ published = 2015-09-08T18:00:56Z
 image = "https://mnf.m17s.net/2015/09/08/goldeneye-1995.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/09/08/goldeneye-1995.200.jpg"

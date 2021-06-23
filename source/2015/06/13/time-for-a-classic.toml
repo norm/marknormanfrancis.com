@@ -3,3 +3,6 @@ published = 2015-06-13T13:17:22Z
 image = "https://mnf.m17s.net/2015/06/13/time-for-a-classic.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/06/13/time-for-a-classic.200.jpg"

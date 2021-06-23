@@ -3,3 +3,6 @@ published = 2013-02-01T12:37:01Z
 image = "https://mnf.m17s.net/2013/02/01/the-diner-is-mine-geek_manager.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/02/01/the-diner-is-mine-geek_manager.200.jpg"

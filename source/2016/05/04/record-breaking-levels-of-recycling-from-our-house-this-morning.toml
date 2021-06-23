@@ -3,3 +3,6 @@ published = 2016-05-04T07:22:19Z
 image = "https://mnf.m17s.net/2016/05/04/record-breaking-levels-of-recycling-from-our-house-this-morning.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/05/04/record-breaking-levels-of-recycling-from-our-house-this-morning.200.jpg"

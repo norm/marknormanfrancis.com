@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/f71815d0c85bc3e491c176118424e6c2eec99fe3078871559ea7923b2b33c990.png"
 tag = [ "h-club",]
 
-[data]
+[checkin]
 id = "50d49d79e4b0c5e2e34d9f51"
 createdAt = 1356111225
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ace3a62f964a52039cf20e3"
 name = "h Club"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1f2931735"
 name = "Performing Arts Venue"
 pluralName = "Performing Arts Venues"
 shortName = "Performing Arts"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "24 Endell St"
 crossStreet = "at Shorts Gardens"
 lat = 51.51485067719675
@@ -36,10 +36,10 @@ city = "Covent Garden"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "24 Endell St (at Shorts Gardens)", "Covent Garden", "Greater London", "WC2H 9HQ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51485067719675
 lng = -0.12480553268875572
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "57898694"

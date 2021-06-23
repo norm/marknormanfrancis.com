@@ -3,3 +3,6 @@ published = 2016-07-21T09:11:23Z
 image = "https://mnf.m17s.net/2016/07/21/mood-adjustment.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/07/21/mood-adjustment.200.jpg"

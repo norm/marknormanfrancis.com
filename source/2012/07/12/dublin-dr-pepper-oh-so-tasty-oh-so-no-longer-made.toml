@@ -3,3 +3,6 @@ published = 2012-07-12T13:02:12Z
 image = "https://mnf.m17s.net/2012/07/12/dublin-dr-pepper-oh-so-tasty-oh-so-no-longer-made.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/07/12/dublin-dr-pepper-oh-so-tasty-oh-so-no-longer-made.200.jpg"

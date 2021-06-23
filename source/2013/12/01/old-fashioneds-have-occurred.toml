@@ -3,3 +3,6 @@ published = 2013-12-01T18:41:23Z
 image = "https://mnf.m17s.net/2013/12/01/old-fashioneds-have-occurred.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/12/01/old-fashioneds-have-occurred.200.jpg"

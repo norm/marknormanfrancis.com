@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/f35050eaa06c74ee888d6f79f363f42f7054b643af4c1c0
 tag = [ "apple-covent-garden",]
 local_timestamp = 2016-09-30T18:08:31Z
 
-[data]
+[checkin]
 id = "57ee8dff498e8e7bd43f035f"
 createdAt = 1475251711
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4c48305e96abd13aa25e7301"
 name = "Apple Covent Garden"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d122951735"
 name = "Electronics Store"
 pluralName = "Electronics Stores"
 shortName = "Electronics"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/technology_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "No. 1-7 The Piazza"
 lat = 51.512214
 lng = -0.123568
@@ -36,7 +36,7 @@ neighborhood = "Covent Garden"
 city = "London"
 country = "United Kingdom"
 formattedAddress = [ "No. 1-7 The Piazza", "London", "WC2E 8HB",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.512214
 lng = -0.123568

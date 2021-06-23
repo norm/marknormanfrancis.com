@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/6c7ef41c2073a220a59a693d1c8366fce1e74699e8d01483c9633c51aea675da.png"
 tag = [ "hubbard-bell",]
 
-[data]
+[checkin]
 id = "5df9277d5af41f0008cf8765"
 createdAt = 1576609661
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "54240212498edd770947906b"
 name = "Hubbard & Bell"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1c4941735"
 name = "Restaurant"
 pluralName = "Restaurants"
 shortName = "Restaurant"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "199-206 High Holborn, Holborn, Covent Garden"
 lat = 51.5172222
 lng = -0.1222222
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "199-206 High Holborn, Holborn, Covent Garden", "London", "Greater London", "WC1V 7BD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.5172222
 lng = -0.1222222

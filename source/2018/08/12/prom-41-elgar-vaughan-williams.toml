@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Royal Albert Hall"
 tag = [ "royal-albert-hall",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2018/08/12/prom-41-elgar-vaughan-williams.200.jpg"

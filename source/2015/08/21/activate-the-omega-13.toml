@@ -3,3 +3,6 @@ published = 2015-08-21T17:04:47Z
 image = "https://mnf.m17s.net/2015/08/21/activate-the-omega-13.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/08/21/activate-the-omega-13.200.jpg"

@@ -3,3 +3,6 @@ published = 2012-08-19T15:21:02Z
 image = "https://mnf.m17s.net/2012/08/19/the-big-blue-room.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/08/19/the-big-blue-room.200.jpg"

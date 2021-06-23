@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/e8d3bfaaefc3f338ac75a5e185bb82f86341a02dcfebe81
 tag = [ "austin-city-limits-live",]
 local_timestamp = 2012-03-15T00:55:57Z
 
-[data]
+[checkin]
 id = "4f61846de4b024e6f7135b0a"
 createdAt = 1331790957
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "4c77cbe5947ca1cd90694837"
 name = "Austin City Limits Live"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1f2931735"
 name = "Performing Arts Venue"
 pluralName = "Performing Arts Venues"
 shortName = "Performing Arts"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "310 Willie Nelson Blvd"
 crossStreet = "at Guadalupe St"
 lat = 30.26528811463551
@@ -37,10 +37,10 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "310 Willie Nelson Blvd (at Guadalupe St)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.26528811463551
 lng = -97.7472595526079
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "33129530"

@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/4f8ebab0c1ed4bc49c738bf579f47e396eb4e9dbd18d782ec8e9ab2901dd79c5.png"
 tag = [ "covent-garden-market",]
 
-[data]
+[checkin]
 id = "4f181036e4b07e1b48cea318"
 createdAt = 1326977078
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ba6419bf964a520b23f39e3"
 name = "Covent Garden Market"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "5744ccdfe4b0c0459246b4dc"
 name = "Shopping Plaza"
 pluralName = "Shopping Plazas"
 shortName = "Shopping Plaza"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/mall_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "The Piazza"
 lat = 51.51197662809401
 lng = -0.12279871749342419
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "The Piazza", "London", "Greater London", "WC2E 8RF",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51197662809401
 lng = -0.12279871749342419

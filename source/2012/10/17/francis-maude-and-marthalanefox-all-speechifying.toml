@@ -3,3 +3,6 @@ published = 2012-10-17T12:41:09Z
 image = "https://mnf.m17s.net/2012/10/17/francis-maude-and-marthalanefox-all-speechifying.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/10/17/francis-maude-and-marthalanefox-all-speechifying.200.jpg"

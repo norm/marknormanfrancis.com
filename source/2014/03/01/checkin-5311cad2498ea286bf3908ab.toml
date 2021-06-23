@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/5dab94f133d6bb8f7303d392e03eac1f60aa93a8503796580fa62684b42ceef3.png"
 tag = [ "panchos-salsa-bistro-bar",]
 
-[data]
+[checkin]
 id = "5311cad2498ea286bf3908ab"
 createdAt = 1393674962
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4c025c3b0d0e0f4756fc009a"
 name = "Panchos Salsa Bistro Bar"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1c1941735"
 name = "Mexican Restaurant"
 pluralName = "Mexican Restaurants"
 shortName = "Mexican"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/mexican_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Court Sq."
 lat = 54.891093513688034
 lng = -2.9331186613303406
@@ -36,7 +36,7 @@ city = "Carlisle"
 state = "Cumbria"
 country = "United Kingdom"
 formattedAddress = [ "Court Sq.", "Carlisle", "Cumbria", "CA1 1QX",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 54.891093513688034
 lng = -2.9331186613303406

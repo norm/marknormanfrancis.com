@@ -3,3 +3,6 @@ published = 2014-07-11T11:50:52Z
 image = "https://mnf.m17s.net/2014/07/11/strawberry-splif.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2014/07/11/strawberry-splif.200.jpg"

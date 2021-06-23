@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/c78586b81ffbf7ec7008104fb3a2f73934bb29f4a62ef72
 tag = [ "bfi-southbank",]
 local_timestamp = 2016-06-23T20:31:47Z
 
-[data]
+[checkin]
 id = "576c2b13498e106c9b2c5c36"
 createdAt = 1466706707
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ac518e7f964a52067ab20e3"
 name = "BFI Southbank"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d17e941735"
 name = "Indie Movie Theater"
 pluralName = "Indie Movie Theaters"
 shortName = "Indie Movies"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Belvedere Rd"
 lat = 51.506538709288606
 lng = -0.11503007410473354
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Belvedere Rd", "London", "Greater London", "SE1 8XT",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.506538709288606
 lng = -0.11503007410473354

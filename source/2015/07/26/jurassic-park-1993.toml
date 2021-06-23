@@ -3,3 +3,6 @@ published = 2015-07-26T12:34:21Z
 image = "https://mnf.m17s.net/2015/07/26/jurassic-park-1993.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/07/26/jurassic-park-1993.200.jpg"

@@ -3,3 +3,6 @@ published = 2012-10-12T13:39:28Z
 image = "https://mnf.m17s.net/2012/10/12/got-myself-a-little-something.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/10/12/got-myself-a-little-something.200.jpg"

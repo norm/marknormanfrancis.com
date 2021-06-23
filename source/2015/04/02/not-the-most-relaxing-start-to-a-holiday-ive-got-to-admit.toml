@@ -3,3 +3,6 @@ published = 2015-04-02T07:51:07Z
 image = "https://mnf.m17s.net/2015/04/02/not-the-most-relaxing-start-to-a-holiday-ive-got-to-admit.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/04/02/not-the-most-relaxing-start-to-a-holiday-ive-got-to-admit.200.jpg"

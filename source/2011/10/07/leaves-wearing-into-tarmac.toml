@@ -3,3 +3,6 @@ published = 2011-10-07T11:23:02Z
 image = "https://mnf.m17s.net/2011/10/07/leaves-wearing-into-tarmac.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/10/07/leaves-wearing-into-tarmac.200.jpg"

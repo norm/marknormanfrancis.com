@@ -3,3 +3,6 @@ published = 2011-10-19T18:39:16Z
 image = "https://mnf.m17s.net/2011/10/19/when-come-back-bring-pie.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/10/19/when-come-back-bring-pie.200.jpg"

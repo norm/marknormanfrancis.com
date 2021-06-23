@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/a6b0e1eafa28250fb71b3964b76a4d0d352ae0361b27c63
 tag = [ "acc-ballroom-f",]
 local_timestamp = 2012-03-09T15:22:36Z
 
-[data]
+[checkin]
 id = "4f5a749ce4b0cfc5dfeafcab"
 createdAt = 1331328156
 type = "checkin"
 timeZoneOffset = -360
 shout = "Secret Life of the Brain"
 
-[data.venue]
+[checkin.venue]
 id = "4b9e837cf964a52097ea36e3"
 name = "ACC Ballroom F"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d173941735"
 name = "Auditorium"
 pluralName = "Auditoriums"
 shortName = "Auditorium"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/auditorium_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "500 E Cesar Chavez St"
 crossStreet = "btwn Trinity St & Red River St"
 lat = 30.264782511470905
@@ -38,7 +38,7 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "500 E Cesar Chavez St (btwn Trinity St & Red River St)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.264782511470905
 lng = -97.73977656545355

@@ -1,15 +1,51 @@
 title = "Published YouTube video “Assassin's Creed II — Chapter 5 — Francesco de' Pazzi”"
 published = 2021-04-30T15:30:40Z
-video_id = "XhlqKIGrWVk"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "assassins-creed-ii", "assassins-creed", "ezio-collection", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/XhlqKIGrWVk/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/XhlqKIGrWVk/default.jpg"
+medium = "https://i.ytimg.com/vi/XhlqKIGrWVk/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/XhlqKIGrWVk/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/XhlqKIGrWVk/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/XhlqKIGrWVk/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/XhlqKIGrWVk/maxresdefault.480.jpg"
+
+[youtube]
+id = "XhlqKIGrWVk"
+title = "Assassin's Creed II — Chapter 5 — Francesco de' Pazzi"
 description = "In Chapter 5, Ezio finds out more about the Pazzi.\n\n0:00 Opening titles\n0:22 Novella's Secret\n26:00 Wolves In Sheep's Clothing\n33:55 Farewell Francesco\n42:46 Four To The Floor\n52:41 A Blade With Bite\n58:11 Database entries\n1:01:46 End card\n\nA play through of the game Assassin's Creed II. All of the main story, some of the side missions. No tedious commentary.\n\n"
-thumbnail = "https://i.ytimg.com/vi/XhlqKIGrWVk/maxresdefault.jpg"
 views = "8"
 likes = "0"
 dislikes = "0"
 comments = "0"
-tag = [ "assassins-creed-ii", "assassins-creed", "ezio-collection", "game-shows",]
-theme = "game-shows"
+
+[youtube.thumbnails.default]
+url = "https://i.ytimg.com/vi/XhlqKIGrWVk/default.jpg"
+width = 120
+height = 90
+
+[youtube.thumbnails.medium]
+url = "https://i.ytimg.com/vi/XhlqKIGrWVk/mqdefault.jpg"
+width = 320
+height = 180
+
+[youtube.thumbnails.high]
+url = "https://i.ytimg.com/vi/XhlqKIGrWVk/hqdefault.jpg"
+width = 480
+height = 360
+
+[youtube.thumbnails.standard]
+url = "https://i.ytimg.com/vi/XhlqKIGrWVk/sddefault.jpg"
+width = 640
+height = 480
+
+[youtube.thumbnails.maxres]
+url = "https://i.ytimg.com/vi/XhlqKIGrWVk/maxresdefault.jpg"
+width = 1280
+height = 720

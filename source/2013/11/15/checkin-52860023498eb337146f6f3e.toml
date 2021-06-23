@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/052283219aa76167e96d8188ef34a1486f57e927900bdf64b9a370f980add8a6.png"
 tag = [ "hilton",]
 
-[data]
+[checkin]
 id = "52860023498eb337146f6f3e"
 createdAt = 1384513571
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518b6f964a520e5a020e3"
 name = "Hilton"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1fa931735"
 name = "Hotel"
 pluralName = "Hotels"
 shortName = "Hotel"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/hotel_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "225 Edgware Rd"
 lat = 51.519349875682856
 lng = -0.1696466511461561
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "225 Edgware Rd", "London", "Greater London", "W2 1JU",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.519349875682856
 lng = -0.1696466511461561

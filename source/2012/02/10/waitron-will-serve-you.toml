@@ -3,3 +3,6 @@ published = 2012-02-10T20:27:28Z
 image = "https://mnf.m17s.net/2012/02/10/waitron-will-serve-you.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/02/10/waitron-will-serve-you.200.jpg"

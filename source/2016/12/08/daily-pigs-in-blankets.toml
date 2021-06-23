@@ -3,3 +3,6 @@ published = 2016-12-08T12:43:56Z
 image = "https://mnf.m17s.net/2016/12/08/daily-pigs-in-blankets.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/12/08/daily-pigs-in-blankets.200.jpg"

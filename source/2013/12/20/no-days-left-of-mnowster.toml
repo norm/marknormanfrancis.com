@@ -3,3 +3,6 @@ published = 2013-12-20T16:38:23Z
 image = "https://mnf.m17s.net/2013/12/20/no-days-left-of-mnowster.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/12/20/no-days-left-of-mnowster.200.jpg"

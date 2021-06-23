@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/95a4eaadd2e31b61df51f00eaba5176c7e1b03846fc8cb8
 tag = [ "shakeaway",]
 local_timestamp = 2012-09-07T12:25:59Z
 
-[data]
+[checkin]
 id = "5049cbb7e4b08c48052db529"
 createdAt = 1347013559
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b9f57c4f964a5208a1d37e3"
 name = "Shakeaway"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "52f2ab2ebcbc57f1066b8b41"
 name = "Smoothie Shop"
 pluralName = "Smoothie Shops"
 shortName = "Smoothie Shop"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/juicebar_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "8 Bond St"
 crossStreet = "btw Church Street & North Street"
 lat = 50.82350869454389
@@ -37,7 +37,7 @@ city = "Brighton"
 state = "East Sussex"
 country = "United Kingdom"
 formattedAddress = [ "8 Bond St (btw Church Street & North Street)", "Brighton", "East Sussex", "BN1 1RD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 50.82350869454389
 lng = -0.140271123018361

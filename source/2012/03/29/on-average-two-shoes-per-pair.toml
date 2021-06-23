@@ -3,3 +3,6 @@ published = 2012-03-29T12:30:56Z
 image = "https://mnf.m17s.net/2012/03/29/on-average-two-shoes-per-pair.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/03/29/on-average-two-shoes-per-pair.200.jpg"

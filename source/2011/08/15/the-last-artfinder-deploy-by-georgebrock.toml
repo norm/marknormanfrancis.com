@@ -3,3 +3,6 @@ published = 2011-08-15T14:35:22Z
 image = "https://mnf.m17s.net/2011/08/15/the-last-artfinder-deploy-by-georgebrock.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/08/15/the-last-artfinder-deploy-by-georgebrock.200.jpg"

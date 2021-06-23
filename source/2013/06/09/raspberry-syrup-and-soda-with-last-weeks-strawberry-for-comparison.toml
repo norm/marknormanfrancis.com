@@ -3,3 +3,6 @@ published = 2013-06-09T10:41:19Z
 image = "https://mnf.m17s.net/2013/06/09/raspberry-syrup-and-soda-with-last-weeks-strawberry-for-comparison.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/06/09/raspberry-syrup-and-soda-with-last-weeks-strawberry-for-comparison.200.jpg"

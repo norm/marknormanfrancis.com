@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/8c0ddac73d23049761836682c1c66198d7f8beb6d9354d32241b4aafb1fd8762.png"
 tag = [ "princess-louise",]
 
-[data]
+[checkin]
 id = "53345996498e2fe26f8ea3df"
 createdAt = 1395939734
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518c5f964a520d5a420e3"
 name = "Princess Louise"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "208 High Holborn"
 lat = 51.517470434080224
 lng = -0.12162140178469247
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "208 High Holborn", "London", "Greater London", "WC1V 7BW",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.517470434080224
 lng = -0.12162140178469247

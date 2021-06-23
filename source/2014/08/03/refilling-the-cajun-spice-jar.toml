@@ -3,3 +3,6 @@ published = 2014-08-03T15:59:42Z
 image = "https://mnf.m17s.net/2014/08/03/refilling-the-cajun-spice-jar.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2014/08/03/refilling-the-cajun-spice-jar.200.jpg"

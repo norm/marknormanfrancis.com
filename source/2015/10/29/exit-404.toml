@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Exit 404 #muchlatergram #2009roadtrip"
 tag = [ "2009roadtrip", "muchlatergram",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/10/29/exit-404.200.jpg"

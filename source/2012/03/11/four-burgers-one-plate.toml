@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Champions Restaurant & Sports Bar"
 tag = [ "champions-restaurant-and-sports-bar",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/03/11/four-burgers-one-plate.200.jpg"

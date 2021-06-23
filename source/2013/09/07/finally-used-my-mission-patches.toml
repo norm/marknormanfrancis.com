@@ -3,3 +3,6 @@ published = 2013-09-07T10:19:28Z
 image = "https://mnf.m17s.net/2013/09/07/finally-used-my-mission-patches.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/09/07/finally-used-my-mission-patches.200.jpg"

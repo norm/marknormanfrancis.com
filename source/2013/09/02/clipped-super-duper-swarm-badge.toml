@@ -3,3 +3,6 @@ published = 2013-09-02T13:56:30Z
 image = "https://mnf.m17s.net/2013/09/02/clipped-super-duper-swarm-badge.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/09/02/clipped-super-duper-swarm-badge.200.jpg"

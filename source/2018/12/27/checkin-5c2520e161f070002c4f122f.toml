@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/b01f925467690d582e618ab7ace77c7dcb6737bb83eeab84a1a8c43252dac95b.png"
 tag = [ "apollo-victoria-theatre",]
 
-[data]
+[checkin]
 id = "5c2520e161f070002c4f122f"
 createdAt = 1545937121
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4b5b1c6df964a520dae328e3"
 name = "Apollo Victoria Theatre"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d137941735"
 name = "Theater"
 pluralName = "Theaters"
 shortName = "Theater"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "17 Wilton Rd"
 lat = 51.495621753996815
 lng = -0.14268941294802595
@@ -35,7 +35,7 @@ city = "Victoria"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "17 Wilton Rd", "Victoria", "Greater London", "SW1V 1LG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.495621753996815
 lng = -0.14268941294802595

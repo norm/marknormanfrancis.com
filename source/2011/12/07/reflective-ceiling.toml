@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Wolfe's"
 tag = [ "wolfes",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/12/07/reflective-ceiling.200.jpg"

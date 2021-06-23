@@ -3,3 +3,6 @@ published = 2013-05-16T12:16:04Z
 image = "https://mnf.m17s.net/2013/05/16/a-retrospective-format-i-can-get-behind.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/05/16/a-retrospective-format-i-can-get-behind.200.jpg"

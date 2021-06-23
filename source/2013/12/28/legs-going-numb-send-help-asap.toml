@@ -3,3 +3,6 @@ published = 2013-12-28T22:19:29Z
 image = "https://mnf.m17s.net/2013/12/28/legs-going-numb-send-help-asap.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/12/28/legs-going-numb-send-help-asap.200.jpg"

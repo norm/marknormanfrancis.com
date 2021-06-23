@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/12e724e8d918c6cbe678224a5384e2772f55203072c6d38
 tag = [ "jacob-schweppes-bar",]
 local_timestamp = 2018-08-25T19:33:32Z
 
-[data]
+[checkin]
 id = "5b8192ec234724002c994fd0"
 createdAt = 1535218412
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "5b5a217c2463d800447b65eb"
 name = "Jacob Schweppe’s Bar"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d116941735"
 name = "Bar"
 pluralName = "Bars"
 shortName = "Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Kensington Gore"
 lat = 51.500983
 lng = -0.177328
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Kensington Gore", "London", "Greater London", "SW7",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.500983
 lng = -0.177328

@@ -3,3 +3,6 @@ published = 2014-01-31T15:47:09Z
 image = "https://mnf.m17s.net/2014/01/31/now-even-transformation-are-getting-in-on-the-action.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2014/01/31/now-even-transformation-are-getting-in-on-the-action.200.jpg"

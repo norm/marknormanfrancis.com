@@ -5,41 +5,41 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/fa2c1885bc6dbee63b961fb3cc58c982f7bf5c86f6bbae8f8042cc033c0b8f3f.png"
 tag = [ "odeon-luxe", "star-wars-the-force-awakens", "movie",]
 
-[data]
+[checkin]
 id = "5690f9f0498eb3eb68c255d2"
 createdAt = 1452341744
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518e7f964a52070ab20e3"
 name = "ODEON Luxe"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d180941735"
 name = "Multiplex"
 pluralName = "Multiplexes"
 shortName = "Cineplex"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
 suffix = ".png"
 
-[data.event]
+[checkin.event]
 id = "564bf9fb498e06188bbc82e4"
 name = "Star Wars: The Force Awakens"
-[[data.event.categories]]
+[[checkin.event.categories]]
 id = "4dfb90c6bd413dd705e8f897"
 name = "Movie"
 pluralName = "Movies"
 shortName = "Movie"
 primary = true
 
-[data.event.categories.icon]
+[checkin.event.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "22-24 Leicester Sq"
 lat = 51.5104854
 lng = -0.129325
@@ -49,7 +49,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "22-24 Leicester Sq", "London", "Greater London", "WC2H 7LQ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.5104854
 lng = -0.129325

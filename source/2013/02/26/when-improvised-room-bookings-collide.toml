@@ -3,3 +3,6 @@ published = 2013-02-26T14:22:43Z
 image = "https://mnf.m17s.net/2013/02/26/when-improvised-room-bookings-collide.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/02/26/when-improvised-room-bookings-collide.200.jpg"

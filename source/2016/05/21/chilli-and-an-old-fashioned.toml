@@ -3,3 +3,6 @@ published = 2016-05-21T17:51:43Z
 image = "https://mnf.m17s.net/2016/05/21/chilli-and-an-old-fashioned.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/05/21/chilli-and-an-old-fashioned.200.jpg"

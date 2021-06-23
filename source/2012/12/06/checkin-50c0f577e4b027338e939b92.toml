@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/0cead0c1858e1d3983ff259f8dd9116fa7a69877cab26b43e27164cd27908f9b.png"
 tag = [ "detroit-bar",]
 
-[data]
+[checkin]
 id = "50c0f577e4b027338e939b92"
 createdAt = 1354823031
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ada0256f964a5202a1d21e3"
 name = "Detroit Bar"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d116941735"
 name = "Bar"
 pluralName = "Bars"
 shortName = "Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "35 Earlham Road"
 lat = 51.5138265
 lng = -0.126765

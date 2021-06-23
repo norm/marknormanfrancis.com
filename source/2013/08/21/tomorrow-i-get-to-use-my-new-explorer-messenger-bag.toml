@@ -3,3 +3,6 @@ published = 2013-08-21T20:53:34Z
 image = "https://mnf.m17s.net/2013/08/21/tomorrow-i-get-to-use-my-new-explorer-messenger-bag.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/08/21/tomorrow-i-get-to-use-my-new-explorer-messenger-bag.200.jpg"

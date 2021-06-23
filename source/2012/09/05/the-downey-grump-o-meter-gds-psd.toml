@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2012/09/05/the-downey-grump-o-meter-gds-psd.jpg"
 origin = "instagram"
 type = "photo"
 tag = [ "gds",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/09/05/the-downey-grump-o-meter-gds-psd.200.jpg"

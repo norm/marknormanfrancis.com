@@ -6,29 +6,29 @@ map = "https://mnf.m17s.net/maps/ca80efa8822878518f8faf8d173f71ac74e1480e22a3bde
 tag = [ "pitt-cue-co",]
 local_timestamp = 2013-08-27T20:20:17Z
 
-[data]
+[checkin]
 id = "521cede111d25077f2aefab5"
 createdAt = 1377627617
 type = "checkin"
 timeZoneOffset = 60
 shout = "with Steve"
 
-[data.venue]
+[checkin.venue]
 id = "4f0c8cf2e4b03e7495e87c79"
 name = "Pitt Cue Co"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1df931735"
 name = "BBQ Joint"
 pluralName = "BBQ Joints"
 shortName = "BBQ"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/bbqalt_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "1 Newburgh St"
 lat = 51.51327090436481
 lng = -0.13836520804680774

@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/6193e43809cdb8b66c62ea51c0723cd96e6ba4d58802d91
 tag = [ "elgar-room",]
 local_timestamp = 2017-10-20T18:40:18Z
 
-[data]
+[checkin]
 id = "59ea26f235d3fc2534166edd"
 createdAt = 1508517618
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ac518eaf964a52018ac20e3"
 name = "Elgar Room"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d116941735"
 name = "Bar"
 pluralName = "Bars"
 shortName = "Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Kensington Gore"
 lat = 51.501106054499814
 lng = -0.17777816826412896
@@ -36,7 +36,7 @@ city = "Greater London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Kensington Gore", "Greater London", "SW7 2AP",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.501106054499814
 lng = -0.17777816826412896

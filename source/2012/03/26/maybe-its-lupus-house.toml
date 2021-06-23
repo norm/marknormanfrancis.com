@@ -3,3 +3,6 @@ published = 2012-03-26T17:33:14Z
 image = "https://mnf.m17s.net/2012/03/26/maybe-its-lupus-house.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/03/26/maybe-its-lupus-house.200.jpg"

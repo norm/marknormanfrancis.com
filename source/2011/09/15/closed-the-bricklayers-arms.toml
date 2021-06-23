@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "The Bricklayer's Arms"
 tag = [ "the-bricklayers-arms",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/09/15/closed-the-bricklayers-arms.200.jpg"

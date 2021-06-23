@@ -3,3 +3,6 @@ published = 2015-09-05T14:19:43Z
 image = "https://mnf.m17s.net/2015/09/05/metal-gear-solid-v.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/09/05/metal-gear-solid-v.200.jpg"

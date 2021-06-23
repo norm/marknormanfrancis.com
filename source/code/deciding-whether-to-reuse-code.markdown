@@ -4,8 +4,12 @@ published = 2016-01-21T11:05:00Z
 origin = "digi2al"
 origin_url = "www.digi2al.co.uk/deciding-whether-to-reuse-code/"
 origin_note = "An article I wrote for the Digi2al blog when I was contracting there."
+image = "https://mnf.m17s.net/2016/01/21/reuse.jpg"
 repost = true
 subject = 'code'
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/01/21/reuse.200.jpg"
 ```
 
 ![reuse matrix](https://mnf.m17s.net/2016/01/21/reuse.jpg)

@@ -3,3 +3,6 @@ published = 2016-05-06T07:06:02Z
 image = "https://mnf.m17s.net/2016/05/06/280-tshirts-time-for-a-cull.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/05/06/280-tshirts-time-for-a-cull.200.jpg"

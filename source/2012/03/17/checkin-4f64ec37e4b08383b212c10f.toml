@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/2f3342b53a35410cc5f92fb5307d0111a31d949d6294029
 tag = [ "bullock-texas-state-history-museum",]
 local_timestamp = 2012-03-17T14:55:35Z
 
-[data]
+[checkin]
 id = "4f64ec37e4b08383b212c10f"
 createdAt = 1332014135
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "4a19de11f964a520627a1fe3"
 name = "Bullock Texas State History Museum"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d190941735"
 name = "History Museum"
 pluralName = "History Museums"
 shortName = "History Museum"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_history_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "1800 Congress Ave"
 crossStreet = "at Martin Luther King Jr Blvd"
 lat = 30.280279225791837
@@ -37,15 +37,15 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "1800 Congress Ave (at Martin Luther King Jr Blvd)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.280279225791837
 lng = -97.7387636181472
 
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "entrance"
 lat = 30.280212
 lng = -97.73872
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "39958431"

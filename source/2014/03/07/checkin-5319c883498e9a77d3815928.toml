@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/f8a26ee7d0f0aaa7e17a9d11afd6d73eaf34bf6bb1fe94266b3c2182205eee86.png"
 tag = [ "trunk",]
 
-[data]
+[checkin]
 id = "5319c883498e9a77d3815928"
 createdAt = 1394198659
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "51659d96e4b0203d5b1d5c6e"
 name = "Trunk"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d121941735"
 name = "Lounge"
 pluralName = "Lounges"
 shortName = "Lounge"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "6-7 Warren St"
 lat = 51.52445279942547
 lng = -0.13840275610624592
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "6-7 Warren St", "London", "Greater London", "W1T 5LB",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.52445279942547
 lng = -0.13840275610624592

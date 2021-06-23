@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/e7ad576aa2a9c92b3d2a5036091d870e58efa498fafde9508b984454daa1a903.png"
 tag = [ "annalect",]
 
-[data]
+[checkin]
 id = "5a8aa46dd033600f51745e96"
 createdAt = 1519035501
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "5098dd72e4b0200008305596"
 name = "Annalect"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d124941735"
 name = "Office"
 pluralName = "Offices"
 shortName = "Office"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "10 Regents Wharf"
 lat = 51.53499585463886
 lng = -0.11899185492066156
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "10 Regents Wharf", "London", "Greater London", "N1 9RL",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.53499585463886
 lng = -0.11899185492066156

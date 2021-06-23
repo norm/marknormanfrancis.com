@@ -6,29 +6,29 @@ map = "https://mnf.m17s.net/maps/831d7104935d674665232cf75be588168ec251dd884de90
 tag = [ "dudley-arms",]
 local_timestamp = 2014-08-13T13:18:33Z
 
-[data]
+[checkin]
 id = "53eb4989498e8bd45d79d960"
 createdAt = 1407928713
 type = "checkin"
 timeZoneOffset = 60
 shout = "Lunch with Meri, Jonathan and Pip"
 
-[data.venue]
+[checkin.venue]
 id = "4b994d18f964a5205a7135e3"
 name = "Dudley Arms"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 51.519423
 lng = -0.177679
 cc = "GB"

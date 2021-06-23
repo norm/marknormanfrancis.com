@@ -2,18 +2,24 @@
 title = "Gumbo"
 published = 2018-03-19T17:54:11Z
 origin = "twitter-cackhanded"
-type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/975792563994152961"
-twitter_account = "cackhanded"
-tweet_id = "975792563994152961"
+type = "photo"
+image = "https://mnf.m17s.net/twitter/975792563994152961/DYq2JzGXkAEpl__.jpg"
+tag = [ "gumbo",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/twitter/975792563994152961/DYq2JzGXkAEpl__.200.jpg"
+w80 = "https://mnf.m17s.net/twitter/975792563994152961/DYq2JzGXkAEpl__.80.jpg"
+
+[twitter]
+account = "cackhanded"
+first_tweet = "975792563994152961"
 retweets = 0
 favourites = 3
-tag = [ "gumbo",]
 ```
 
 Hey! Internet! Guess what?!?
 
 Guuuumbooooooooo
 
-<p class='image'><img src='https://mnf.m17s.net/2018/03/19/DYq2JzGXkAEpl__.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/975792563994152961/DYq2JzGXkAEpl__.jpg' alt=''></p>
 

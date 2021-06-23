@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2012/09/17/lv-426-hadleys-hope-daily-tshirt-the-st
 origin = "instagram"
 type = "photo"
 tag = [ "daily", "tshirt",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/09/17/lv-426-hadleys-hope-daily-tshirt-the-start-of-aliens-week.200.jpg"

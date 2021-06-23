@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Blazing Saddles (1974) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/07/24/blazing-saddles-1974.200.jpg"

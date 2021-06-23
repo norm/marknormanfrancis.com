@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/e0a5bfeab664652060754c7a895ec690aa11a2df7e70e0973901cb7ffaa8a9e3.png"
 tag = [ "alpha-books",]
 
-[data]
+[checkin]
 id = "58c197bbd98f360cac8d3fc8"
 createdAt = 1489082299
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4e26f09cd4c007d41a97512d"
 name = "Alpha Books"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d114951735"
 name = "Bookstore"
 pluralName = "Bookstores"
 shortName = "Bookstore"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/bookstore_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 51.51391
 lng = -0.116261
 cc = "GB"
@@ -33,7 +33,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "London", "Greater London",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51391
 lng = -0.116261

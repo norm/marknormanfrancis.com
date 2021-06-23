@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/fea9df2d065997fa31a2d60f033fc650ef166e2346511fb
 tag = [ "cleavers",]
 local_timestamp = 2012-06-24T13:49:38Z
 
-[data]
+[checkin]
 id = "4fe6fed2e4b0657298b069d2"
 createdAt = 1340538578
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4d726a303815f04d180d8d67"
 name = "Cleavers"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11d951735"
 name = "Butcher"
 pluralName = "Butchers"
 shortName = "Butcher"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/food_butcher_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "537 Old York Road"
 lat = 51.460397357130965
 lng = -0.18854825444231438
@@ -36,7 +36,7 @@ city = "Wandsworth"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "537 Old York Road", "Wandsworth", "Greater London", "SW18 1TG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.460397357130965
 lng = -0.18854825444231438

@@ -1,15 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 23 — Sunstone Rock”"
 published = 2020-12-07T08:15:03Z
-video_id = "hxaHpApCXoU"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/hxaHpApCXoU/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/hxaHpApCXoU/default.jpg"
+medium = "https://i.ytimg.com/vi/hxaHpApCXoU/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/hxaHpApCXoU/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/hxaHpApCXoU/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/hxaHpApCXoU/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/hxaHpApCXoU/maxresdefault.480.jpg"
+
+[youtube]
+id = "hxaHpApCXoU"
+title = "Horizon Zero Dawn — Chapter 23 — Sunstone Rock"
 description = "In Chapter 23, Aloy deals with some machines and some bandits.\n\n0:00 Opening titles\n0:22 Gathering Stalker blood\n8:25 Blackwing Snag bandit camp\n27:00 Sunstone Rock\n43:15 Sunstone Rock: Ullia\n47:09 Datapoint: What scares me…\n48:47 Map\n49:05 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "12"
 likes = "0"
 dislikes = "0"
 comments = "0"
-thumbnail = "https://i.ytimg.com/vi/hxaHpApCXoU/maxresdefault.jpg"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
+
+[youtube.thumbnails.default]
+url = "https://i.ytimg.com/vi/hxaHpApCXoU/default.jpg"
+width = 120
+height = 90
+
+[youtube.thumbnails.medium]
+url = "https://i.ytimg.com/vi/hxaHpApCXoU/mqdefault.jpg"
+width = 320
+height = 180
+
+[youtube.thumbnails.high]
+url = "https://i.ytimg.com/vi/hxaHpApCXoU/hqdefault.jpg"
+width = 480
+height = 360
+
+[youtube.thumbnails.standard]
+url = "https://i.ytimg.com/vi/hxaHpApCXoU/sddefault.jpg"
+width = 640
+height = 480
+
+[youtube.thumbnails.maxres]
+url = "https://i.ytimg.com/vi/hxaHpApCXoU/maxresdefault.jpg"
+width = 1280
+height = 720

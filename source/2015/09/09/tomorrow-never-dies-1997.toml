@@ -3,3 +3,6 @@ published = 2015-09-09T19:21:39Z
 image = "https://mnf.m17s.net/2015/09/09/tomorrow-never-dies-1997.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/09/09/tomorrow-never-dies-1997.200.jpg"

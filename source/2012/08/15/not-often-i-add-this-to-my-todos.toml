@@ -3,3 +3,6 @@ published = 2012-08-15T17:03:02Z
 image = "https://mnf.m17s.net/2012/08/15/not-often-i-add-this-to-my-todos.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/08/15/not-often-i-add-this-to-my-todos.200.jpg"

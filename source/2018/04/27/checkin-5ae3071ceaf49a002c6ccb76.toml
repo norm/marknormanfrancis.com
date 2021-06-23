@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/03e232c1c0f5a768ecdfa1f911100016cd991374369f629
 tag = [ "piebury-corner",]
 local_timestamp = 2018-04-27T13:18:52Z
 
-[data]
+[checkin]
 id = "5ae3071ceaf49a002c6ccb76"
 createdAt = 1524827932
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "593aaa80f62f2b6639bdfe91"
 name = "Piebury Corner"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "52e81612bcbc57f1066b7a0a"
 name = "Pie Shop"
 pluralName = "Pie Shops"
 shortName = "Pie Shop"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/pieshop_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "3 Caledonian Rd"
 lat = 51.53114725346085
 lng = -0.12100441033040944
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "3 Caledonian Rd", "London", "Greater London", "N1 9DX",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.53114725346085
 lng = -0.12100441033040944

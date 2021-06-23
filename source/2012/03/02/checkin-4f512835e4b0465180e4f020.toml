@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/17784ede46faac81ffbe52e00361984db2a84a08fc249f887a21b5cf530d1401.png"
 tag = [ "mint-leaf",]
 
-[data]
+[checkin]
 id = "4f512835e4b0465180e4f020"
 createdAt = 1330718773
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4b6f1249f964a5200bdb2ce3"
 name = "Mint Leaf"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d10f941735"
 name = "Indian Restaurant"
 pluralName = "Indian Restaurants"
 shortName = "Indian"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/indian_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Suffolk Place,"
 crossStreet = "Haymarket"
 lat = 51.50791462450797
@@ -37,10 +37,10 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Suffolk Place, (Haymarket)", "London", "Greater London", "SW1Y 4HX",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.50791462450797
 lng = -0.13079008580785234
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "33698309"

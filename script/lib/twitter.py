@@ -8,11 +8,12 @@ import toml
 import tweepy
 
 from lib import (
-    get_body_from_source,
+    get_body_from_markdown,
     strip_links,
     strip_trailing_hashtags,
     update_content,
     tagify,
+    make_thumbnail,
 )
 from lib.bucket import Bucket
 
@@ -78,6 +79,7 @@ class Twitter:
         # FIXME add original data as attachment
 
         body = ''
+        content = 'tweet'
         tags = set()
         if 'tag' in extra:
             for tag in extra['tag']:
@@ -111,6 +113,7 @@ class Twitter:
             for tag in extra['tags']:
                 tags.add(tag)
 
+        first_photo = False
         if len(tweets) == 1:
             # strip text before converting to Markdown if the title and
             # the body will match, so there's no unnecessary repetition,
@@ -128,16 +131,32 @@ class Twitter:
             except AttributeError:
                 pass
 
+            # is it a photo?
+            if 'type' in extra and extra['type'] == 'photo':
+                content = 'photo'
+            else:
+                if 'media' in tweets[0].entities:
+                    if len(text.split()) < 10:
+                        content = 'photo'
+                    else:
+                        first_photo = True
+        else:
+            content = 'thread'
+            if 'media' in tweets[0].entities:
+                first_photo = True
+
         previous_time = created
+        images_dir = 'twitter/%s' % tweets[0].id_str
+
         for tweet in tweets:
             time = timestamped(tweet.created_at)
             if time - previous_time > timedelta(hours=1):
                 body += timestamp_header(time, previous_time)
             previous_time = time
-            body += self.tweet_to_markdown(tweet, date)
+            body += self.tweet_to_markdown(tweet, images_dir)
 
         if 'edited_body' in extra and extra['edited_body']:
-            body = get_body_from_source(output_file)
+            body = get_body_from_markdown(output_file)
 
         retweets = 0
         favourites = 0
@@ -152,29 +171,65 @@ class Twitter:
             for tag in extra['remove_tags']:
                 tags.remove(tag)
 
+        if 'type' in extra:
+            content = extra['type']
+
         post = {
             'title': title,
             'published': created,
             'origin': 'twitter-%s' % tweets[-1].author.screen_name,
-            'type': 'tweet',
-            'original_url': 'https://twitter.com/%s/status/%s' % (
-                tweets[0].author.screen_name,
-                tweets[0].id_str,
-            ),
-            'twitter_account': tweets[0].author.screen_name,
-            'tweet_id': tweets[0].id_str,
-            'retweets': retweets,
-            'favourites': favourites,
-            'tag': sorted(tags),
+            'type': content,
         }
 
-        if created != updated:
+        if 'image' in extra:
+            if extra['image']:
+                post['image'] = extra['image']
+                photo = extra['image']
+                filename, _ = os.path.splitext(os.path.basename(extra['image']))
+        elif content == 'photo' or first_photo:
+            photo = tweets[0].extended_entities['media'][0]['media_url_https']
+            filename, _ = os.path.splitext(os.path.basename(photo))
+            post['image'] = 'https://%s/%s/%s.jpg' % (
+                self.bucket.bucket_name,
+                images_dir,
+                filename,
+            )
+
+        if 'image' in post:
+            if 'thumbnail' in extra:
+                post['thumbnail'] = extra['thumbnail']
+            else:
+                post['thumbnail'] = {}
+            for width in [200, 80]:
+                new, thumb = make_thumbnail(
+                        photo,
+                        width,
+                        '%s/%s' % (images_dir, filename),
+                        self.bucket,
+                    )
+                post['thumbnail']['w%s' % width] = thumb
+                if new:
+                    print('++', thumb)
+
+        if tags:
+            post['tag'] = sorted(tags)
+        post['twitter'] = {
+                'account': tweets[0].author.screen_name,
+                'first_tweet': tweets[0].id_str,
+                'retweets': retweets,
+                'favourites': favourites,
+            }
+
+        if created != updated and updated - created > timedelta(hours=1):
             post['updated'] = updated
         if len(tweets) > 1:
-            post['thread_tweet_ids'] = sorted([
-                tweet.id
-                for tweet in tweets
+            sorted_tweets = sorted([
+                tweet.id_str
+                    for tweet in tweets
             ])
+            if len(sorted_tweets) > 2:
+                post['twitter']['contains_tweet'] = sorted_tweets
+            post['twitter']['last_tweet'] = sorted_tweets[-1]
 
         output = '```\n%s```\n\n%s' % (toml.dumps(post), body)
         update_content(output_file, output)
@@ -286,7 +341,7 @@ class Twitter:
                     check_digest = False,
                 )
                 if uploaded:
-                    print('++', destination)
+                    print('++ https://%s/%s' % (BUCKET, destination))
                 markdown += "<p class='image'><img src='%s' alt=''></p>\n\n" % (
                     'https://%s/%s' % (BUCKET, destination)
                 )

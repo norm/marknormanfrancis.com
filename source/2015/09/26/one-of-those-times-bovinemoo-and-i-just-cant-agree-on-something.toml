@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "One of those times @bovinemoo and I just can't agree on something #teammintsauce"
 tag = [ "teammintsauce",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/09/26/one-of-those-times-bovinemoo-and-i-just-cant-agree-on-something.200.jpg"

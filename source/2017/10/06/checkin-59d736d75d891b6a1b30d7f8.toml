@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/45f86dad0f42256e266bc51f1208a75cc467c4cd8f15691
 tag = [ "the-debate",]
 local_timestamp = 2017-10-06T09:55:03Z
 
-[data]
+[checkin]
 id = "59d736d75d891b6a1b30d7f8"
 createdAt = 1507276503
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4cac512344a8224bbe1a3240"
 name = "The Debate"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16d941735"
 name = "Café"
 pluralName = "Cafés"
 shortName = "Café"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/cafe_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Portcullis House"
 lat = 51.50113791186581
 lng = -0.12478416977691376
@@ -35,7 +35,7 @@ city = "City of Westminster"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Portcullis House", "City of Westminster", "Greater London",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.50113791186581
 lng = -0.12478416977691376

@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/b334cc62ac7cbaf1046d08a607695cd9b5c240863b65460
 tag = [ "chilantro-bbq",]
 local_timestamp = 2012-03-15T18:16:47Z
 
-[data]
+[checkin]
 id = "4f62785fe4b0e30d1ed7147e"
 createdAt = 1331853407
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "4b7ae3b0f964a520ff432fe3"
 name = "Chi'lantro BBQ"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1cb941735"
 name = "Food Truck"
 pluralName = "Food Trucks"
 shortName = "Food Truck"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/streetfood_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "823 Congress Ave"
 crossStreet = "at E 9th St"
 lat = 30.27060045654416
@@ -37,19 +37,19 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "823 Congress Ave (at E 9th St)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.27060045654416
 lng = -97.74192753983313
 
-[data.venue.delivery]
+[checkin.venue.delivery]
 id = "1573192"
 url = "https://www.grubhub.com/restaurant/chilantro-bbq-823-congress-avenue-austin/1573192?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1573192"
 
-[data.venue.delivery.provider]
+[checkin.venue.delivery.provider]
 name = "grubhub"
 
-[data.venue.delivery.provider.icon]
+[checkin.venue.delivery.provider.icon]
 prefix = "https://fastly.4sqi.net/img/general/cap/"
 sizes = [ 40, 50,]
 name = "/delivery_provider_grubhub_20180129.png"

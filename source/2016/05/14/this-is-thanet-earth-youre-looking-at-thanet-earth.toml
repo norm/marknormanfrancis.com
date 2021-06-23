@@ -3,3 +3,6 @@ published = 2016-05-14T12:16:51Z
 image = "https://mnf.m17s.net/2016/05/14/this-is-thanet-earth-youre-looking-at-thanet-earth.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/05/14/this-is-thanet-earth-youre-looking-at-thanet-earth.200.jpg"

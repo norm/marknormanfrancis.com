@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/007010c77980810e9a16fc53af070ff33dc78900f467e3738f42ba4f8dfc75a2.png"
 tag = [ "wagamama",]
 
-[data]
+[checkin]
 id = "54a4012c498e268d24e7dc04"
 createdAt = 1420034348
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4f70b1d0e4b07d379ede4833"
 name = "wagamama"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d142941735"
 name = "Asian Restaurant"
 pluralName = "Asian Restaurants"
 shortName = "Asian"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/asian_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "unit 2, upper level, fulham broadway shopping centre, fulham broadway"
 lat = 51.4800112
 lng = -0.1943164
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "unit 2, upper level, fulham broadway shopping centre, fulham broadway", "London", "Greater London", "SW6 1BW",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.4800112
 lng = -0.1943164

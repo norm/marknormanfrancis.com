@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/dae3e8c4d0e65a067a6bb40984c2ae6fd5415480968c2dd
 tag = [ "forbes-hamilton-coffee-house",]
 local_timestamp = 2012-08-20T13:37:17Z
 
-[data]
+[checkin]
 id = "5032216de4b0543f9a6d63f4"
 createdAt = 1345462637
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ad57f7ef964a520110321e3"
 name = "Forbes & Hamilton Coffee House"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1e0931735"
 name = "Coffee Shop"
 pluralName = "Coffee Shops"
 shortName = "Coffee Shop"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "47 London Wall"
 lat = 51.517148
 lng = -0.088302
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "47 London Wall", "London", "Greater London", "EC2M 5TE",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.517148
 lng = -0.088302

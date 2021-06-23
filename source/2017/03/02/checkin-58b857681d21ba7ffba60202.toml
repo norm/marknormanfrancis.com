@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/7b702a89febe8d49d17a2458a4332f0da1367b8b09f9c713f889b4cecce8a096.png"
 tag = [ "morpeth-arms",]
 
-[data]
+[checkin]
 id = "58b857681d21ba7ffba60202"
 createdAt = 1488476008
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ad8db44f964a520561521e3"
 name = "Morpeth Arms"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "58 Millbank"
 crossStreet = "Ponsoby Pl"
 lat = 51.48930975867552
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "58 Millbank (Ponsoby Pl)", "Greenwich", "Greater London", "SW1P 4RW",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.48930975867552
 lng = -0.12862188852961842

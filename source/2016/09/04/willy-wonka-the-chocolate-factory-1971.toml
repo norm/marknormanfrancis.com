@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Willy Wonka & the Chocolate Factory (1971) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/09/04/willy-wonka-the-chocolate-factory-1971.200.jpg"

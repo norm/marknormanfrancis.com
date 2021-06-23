@@ -3,3 +3,6 @@ published = 2012-06-08T12:39:37Z
 image = "https://mnf.m17s.net/2012/06/08/invasion-of-the-white-wire-hangers.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/06/08/invasion-of-the-white-wire-hangers.200.jpg"

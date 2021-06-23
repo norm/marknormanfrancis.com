@@ -3,3 +3,6 @@ published = 2012-09-26T08:52:28Z
 image = "https://mnf.m17s.net/2012/09/26/ghosts-in-the-machine.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/09/26/ghosts-in-the-machine.200.jpg"

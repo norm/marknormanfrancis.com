@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/3c94900f13775b72057a368fb33050061ffd7ba4469fafd
 tag = [ "the-queen-charlotte",]
 local_timestamp = 2014-07-02T13:20:09Z
 
-[data]
+[checkin]
 id = "53b3eae911d225b339ce35f3"
 createdAt = 1404300009
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "50366bd1e4b0e6196dff6692"
 name = "The Queen Charlotte"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "56aa371ce4b08b9a8d57356c"
 name = "Beer Bar"
 pluralName = "Beer Bars"
 shortName = "Beer Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "43 Goodge St"
 lat = 51.51935548075681
 lng = -0.13579930044658842
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "43 Goodge St", "London", "Greater London", "W1T 1TA",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51935548075681
 lng = -0.13579930044658842

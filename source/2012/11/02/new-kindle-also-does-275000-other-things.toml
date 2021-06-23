@@ -3,3 +3,6 @@ published = 2012-11-02T09:26:23Z
 image = "https://mnf.m17s.net/2012/11/02/new-kindle-also-does-275000-other-things.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/11/02/new-kindle-also-does-275000-other-things.200.jpg"

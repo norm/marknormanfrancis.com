@@ -3,3 +3,6 @@ published = 2012-06-15T08:19:39Z
 image = "https://mnf.m17s.net/2012/06/15/taniya-dry-cleaners-for-best-qualtiy-spotted-by-bovinemoo.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/06/15/taniya-dry-cleaners-for-best-qualtiy-spotted-by-bovinemoo.200.jpg"

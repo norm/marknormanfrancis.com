@@ -3,3 +3,6 @@ published = 2011-12-02T10:13:05Z
 image = "https://mnf.m17s.net/2011/12/02/taste-the-rainbow.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/12/02/taste-the-rainbow.200.jpg"

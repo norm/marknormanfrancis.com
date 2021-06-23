@@ -3,3 +3,6 @@ published = 2016-10-26T16:00:55Z
 image = "https://mnf.m17s.net/2016/10/26/sun-setting-on-blackfriars-millennium-pier-literally-and-figuratively.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/10/26/sun-setting-on-blackfriars-millennium-pier-literally-and-figuratively.200.jpg"

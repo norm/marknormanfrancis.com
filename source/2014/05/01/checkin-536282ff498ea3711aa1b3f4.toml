@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/7598daee40e7276879ea42cd669c417465e0182a88d22c3
 tag = [ "the-euston-tap",]
 local_timestamp = 2014-05-01T19:23:11Z
 
-[data]
+[checkin]
 id = "536282ff498ea3711aa1b3f4"
 createdAt = 1398964991
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4cd450ca67adf04da9952691"
 name = "The Euston Tap"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "56aa371ce4b08b9a8d57356c"
 name = "Beer Bar"
 pluralName = "Beer Bars"
 shortName = "Beer Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "190 Euston Rd"
 lat = 51.52696192013927
 lng = -0.13253062963485718
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "190 Euston Rd", "London", "Greater London", "NW1 2EF",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.52696192013927
 lng = -0.13253062963485718

@@ -3,3 +3,6 @@ published = 2012-06-05T14:07:46Z
 image = "https://mnf.m17s.net/2012/06/05/coca-cola-this-one-seems-familiar.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/06/05/coca-cola-this-one-seems-familiar.200.jpg"

@@ -3,3 +3,6 @@ published = 2012-06-02T09:16:20Z
 image = "https://mnf.m17s.net/2012/06/02/jubilee-cupcakes-from-crumbsanddoilies.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/06/02/jubilee-cupcakes-from-crumbsanddoilies.200.jpg"

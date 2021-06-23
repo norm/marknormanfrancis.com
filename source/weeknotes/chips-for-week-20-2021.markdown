@@ -1,14 +1,29 @@
 ```
 title = "Chips for week 20, 2021"
 published = 2021-05-24T05:12:40Z
-origin = "twitter-cackhanded"
-type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/1396695621927583746"
-twitter_account = "cackhanded"
-tweet_id = "1396695621927583746"
+origin = "mnf"
+type = "article"
+subject = "weeknotes"
+image = "https://mnf.m17s.net/2021/05/24/E2IPQd8XoAEk3Ob.jpg"
+tag = [ "weekchips",]
+previous_slug = [
+    '/2021/05/24/chips-for-week-20-2021',
+]
+summary = """
+  I brought my old control panel for running @eurovisiondrink up to date,
+  and added a bunch of features before the Eurovision weekend.
+"""
+
+[twitter]
+contains_tweet = [
+    '1396695621927583746',
+]
 retweets = 0
 favourites = 1
-tag = [ "weekchips",]
+
+[thumbnail]
+chips = "https://mnf.m17s.net/2021/05/24/E2IPQd8XoAEk3Ob.chips.jpg"
+w200 = "https://mnf.m17s.net/2021/05/24/E2IPQd8XoAEk3Ob.200.jpg"
 ```
 
 Another week, and I’m still [stacking chips][chips]. Last week’s

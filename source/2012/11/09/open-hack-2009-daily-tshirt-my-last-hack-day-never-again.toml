@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2012/11/09/open-hack-2009-daily-tshirt-my-last-hac
 origin = "instagram"
 type = "photo"
 tag = [ "daily", "tshirt",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/11/09/open-hack-2009-daily-tshirt-my-last-hack-day-never-again.200.jpg"

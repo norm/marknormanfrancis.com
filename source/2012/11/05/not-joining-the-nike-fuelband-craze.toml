@@ -3,3 +3,6 @@ published = 2012-11-05T11:32:41Z
 image = "https://mnf.m17s.net/2012/11/05/not-joining-the-nike-fuelband-craze.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/11/05/not-joining-the-nike-fuelband-craze.200.jpg"

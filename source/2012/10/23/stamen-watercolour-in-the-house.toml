@@ -3,3 +3,6 @@ published = 2012-10-23T08:55:48Z
 image = "https://mnf.m17s.net/2012/10/23/stamen-watercolour-in-the-house.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/10/23/stamen-watercolour-in-the-house.200.jpg"

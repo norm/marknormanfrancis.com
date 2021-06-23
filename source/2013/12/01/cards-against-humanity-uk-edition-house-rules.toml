@@ -3,3 +3,6 @@ published = 2013-12-01T18:56:40Z
 image = "https://mnf.m17s.net/2013/12/01/cards-against-humanity-uk-edition-house-rules.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/12/01/cards-against-humanity-uk-edition-house-rules.200.jpg"

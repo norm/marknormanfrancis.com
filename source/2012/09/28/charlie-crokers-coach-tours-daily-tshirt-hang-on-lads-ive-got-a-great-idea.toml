@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2012/09/28/charlie-crokers-coach-tours-daily-tshir
 origin = "instagram"
 type = "photo"
 tag = [ "daily", "tshirt",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/09/28/charlie-crokers-coach-tours-daily-tshirt-hang-on-lads-ive-got-a-great-idea.200.jpg"

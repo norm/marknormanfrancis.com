@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/8a80322a17295a70119518e4aa367df2857bd0d39156a1aaafc036010522a25a.png"
 tag = [ "newcastle-central-railway-station-ncl",]
 
-[data]
+[checkin]
 id = "52bda965498e386effcd110f"
 createdAt = 1388161381
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4b549ea0f964a52019c327e3"
 name = "Newcastle Central Railway Station (NCL)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d129951735"
 name = "Train Station"
 pluralName = "Train Stations"
 shortName = "Train Station"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Neville St"
 lat = 54.96848569794475
 lng = -1.6173415167971168
@@ -35,7 +35,7 @@ city = "Newcastle upon Tyne"
 state = "Newcastle upon Tyne"
 country = "United Kingdom"
 formattedAddress = [ "Neville St", "Newcastle upon Tyne", "NE1 5DL",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 54.96848569794475
 lng = -1.6173415167971168

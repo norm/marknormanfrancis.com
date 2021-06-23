@@ -3,3 +3,6 @@ published = 2016-03-22T19:02:11Z
 image = "https://mnf.m17s.net/2016/03/22/homemade-ham-sweetcorn-and-pepperoni-pizza.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/03/22/homemade-ham-sweetcorn-and-pepperoni-pizza.200.jpg"

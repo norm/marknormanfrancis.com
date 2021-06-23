@@ -3,12 +3,12 @@ title = "I made myself a little something"
 published = 2021-03-30T13:26:53Z
 origin = "twitter-cackhanded"
 type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/1376888664383483906"
-twitter_account = "cackhanded"
-tweet_id = "1376888664383483906"
+
+[twitter]
+account = "cackhanded"
+first_tweet = "1376888664383483906"
 retweets = 0
 favourites = 7
-tag = []
 ```
 
 <p class='image'><img src='https://mnf.m17s.net/2021/03/30/Exuw8SkWUAY4NCi.jpg' alt=''></p>

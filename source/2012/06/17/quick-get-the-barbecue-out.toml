@@ -3,3 +3,6 @@ published = 2012-06-17T11:28:08Z
 image = "https://mnf.m17s.net/2012/06/17/quick-get-the-barbecue-out.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/06/17/quick-get-the-barbecue-out.200.jpg"

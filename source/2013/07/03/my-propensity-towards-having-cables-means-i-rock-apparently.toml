@@ -3,3 +3,6 @@ published = 2013-07-03T14:32:29Z
 image = "https://mnf.m17s.net/2013/07/03/my-propensity-towards-having-cables-means-i-rock-apparently.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/07/03/my-propensity-towards-having-cables-means-i-rock-apparently.200.jpg"

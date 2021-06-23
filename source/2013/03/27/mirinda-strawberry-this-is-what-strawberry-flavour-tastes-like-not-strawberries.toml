@@ -3,3 +3,6 @@ published = 2013-03-27T13:30:49Z
 image = "https://mnf.m17s.net/2013/03/27/mirinda-strawberry-this-is-what-strawberry-flavour-tastes-like-not-strawberries.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/03/27/mirinda-strawberry-this-is-what-strawberry-flavour-tastes-like-not-strawberries.200.jpg"

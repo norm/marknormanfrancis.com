@@ -3,3 +3,6 @@ published = 2013-04-24T13:44:59Z
 image = "https://mnf.m17s.net/2013/04/24/hdeform-stance.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/04/24/hdeform-stance.200.jpg"

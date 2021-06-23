@@ -3,3 +3,6 @@ published = 2013-08-13T15:52:28Z
 image = "https://mnf.m17s.net/2013/08/13/all-norms-colours.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/08/13/all-norms-colours.200.jpg"

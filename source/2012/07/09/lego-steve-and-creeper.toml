@@ -3,3 +3,6 @@ published = 2012-07-09T13:38:12Z
 image = "https://mnf.m17s.net/2012/07/09/lego-steve-and-creeper.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/07/09/lego-steve-and-creeper.200.jpg"

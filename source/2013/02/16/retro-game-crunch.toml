@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Retro game crunch #daily #tshirt"
 tag = [ "daily", "tshirt",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/02/16/retro-game-crunch.200.jpg"

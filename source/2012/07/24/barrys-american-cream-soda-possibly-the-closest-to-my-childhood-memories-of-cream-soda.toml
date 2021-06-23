@@ -3,3 +3,6 @@ published = 2012-07-24T11:36:46Z
 image = "https://mnf.m17s.net/2012/07/24/barrys-american-cream-soda-possibly-the-closest-to-my-childhood-memories-of-cream-soda.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/07/24/barrys-american-cream-soda-possibly-the-closest-to-my-childhood-memories-of-cream-soda.200.jpg"

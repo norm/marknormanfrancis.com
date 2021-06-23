@@ -6,3 +6,6 @@ type = "photo"
 location = "SXSW Interactive"
 original_caption = "Blue light #notjosswhedon"
 tag = [ "not-joss-whedon", "sxsw-interactive",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/03/10/blue-light.200.jpg"

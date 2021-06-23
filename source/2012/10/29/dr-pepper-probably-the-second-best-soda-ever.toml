@@ -3,3 +3,6 @@ published = 2012-10-29T14:12:51Z
 image = "https://mnf.m17s.net/2012/10/29/dr-pepper-probably-the-second-best-soda-ever.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/10/29/dr-pepper-probably-the-second-best-soda-ever.200.jpg"

@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/a5d26fe7d2b412e3faf76ae7d2916e07308c70f62aa5e15
 tag = [ "albert-memorial",]
 local_timestamp = 2016-05-28T19:22:28Z
 
-[data]
+[checkin]
 id = "5749d3d4498e91459c835f92"
 createdAt = 1464456148
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ac518cef964a5200fa620e3"
 name = "Albert Memorial"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d12d941735"
 name = "Monument / Landmark"
 pluralName = "Monuments / Landmarks"
 shortName = "Landmark"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/government_monument_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Kensington Gardens"
 lat = 51.502426
 lng = -0.177699
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Kensington Gardens", "London", "Greater London", "W2 2UH",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.502426
 lng = -0.177699

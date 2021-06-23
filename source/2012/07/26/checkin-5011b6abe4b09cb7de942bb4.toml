@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/1b3c618be811dafaf9b367802a2e7ae73033acbcc0b0468
 tag = [ "foundation",]
 local_timestamp = 2012-07-26T23:29:15Z
 
-[data]
+[checkin]
 id = "5011b6abe4b09cb7de942bb4"
 createdAt = 1343338155
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4d5707f0fb65236ac36a0db4"
 name = "Foundation"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d116941735"
 name = "Bar"
 pluralName = "Bars"
 shortName = "Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "5 Langley St"
 lat = 51.51309140185173
 lng = -0.12504297682051654
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "5 Langley St", "London", "Greater London", "WC2H 9JA",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51309140185173
 lng = -0.12504297682051654

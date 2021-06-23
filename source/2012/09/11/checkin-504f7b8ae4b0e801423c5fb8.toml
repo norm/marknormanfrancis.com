@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/3d88d892a630503ca3a3e73b10df3bef7379563056b80aa
 tag = [ "the-marquis-of-granby",]
 local_timestamp = 2012-09-11T19:57:30Z
 
-[data]
+[checkin]
 id = "504f7b8ae4b0e801423c5fb8"
 createdAt = 1347386250
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ad9c921f964a520da1a21e3"
 name = "The Marquis Of Granby"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "142 Shaftesbury Ave."
 crossStreet = "Charing Cross Rd."
 lat = 51.51333153247833

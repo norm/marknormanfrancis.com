@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/4c3c1efccee0905a1967a138dcfc503c3544082160b97ea
 tag = [ "the-star-of-kings",]
 local_timestamp = 2018-04-10T18:06:34Z
 
-[data]
+[checkin]
 id = "5acce10a9be522002b61d395"
 createdAt = 1523376394
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4cff51b16923721e82bfbe3b"
 name = "The Star Of Kings"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "126 York Way"
 lat = 51.53654389098843
 lng = -0.12231024982016614
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "126 York Way", "London", "Greater London", "N1 0AX",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.53654389098843
 lng = -0.12231024982016614

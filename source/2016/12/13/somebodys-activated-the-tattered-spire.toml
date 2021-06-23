@@ -6,3 +6,6 @@ type = "photo"
 location = "Embankment Pier"
 original_caption = "Somebody's activated the Tattered Spire #shard"
 tag = [ "embankment-pier", "shard",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/12/13/somebodys-activated-the-tattered-spire.200.jpg"

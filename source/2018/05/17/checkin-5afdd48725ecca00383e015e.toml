@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/8397a9c3c2af0d3f1a95c20f04606eca6aab6f91c83b477
 tag = [ "five-guys",]
 local_timestamp = 2018-05-17T21:14:15Z
 
-[data]
+[checkin]
 id = "5afdd48725ecca00383e015e"
 createdAt = 1526584455
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "57a8c2c9498e6ebdc0d72f2c"
 name = "Five Guys"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16c941735"
 name = "Burger Joint"
 pluralName = "Burger Joints"
 shortName = "Burgers"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "266 Tottenham Court Rd., Fitzrovia"
 lat = 51.5168783
 lng = -0.1304169
@@ -36,7 +36,7 @@ city = "Fitzrovia"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "266 Tottenham Court Rd., Fitzrovia", "Fitzrovia", "Greater London", "W1T 7RQ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.5168783
 lng = -0.1304169

@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/e0f0aaf2fcd0d43dda09b951d46012ff207fc6bf630af37eaf624efbb3c2167d.png"
 tag = [ "the-newton-arms",]
 
-[data]
+[checkin]
 id = "4f311ca6e4b0acb1eb7adf9c"
 createdAt = 1328618662
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4acf6ff1f964a520a5d320e3"
 name = "The Newton Arms"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "33 Newton St"
 crossStreet = "at Parker St"
 lat = 51.516225

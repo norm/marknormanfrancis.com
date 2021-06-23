@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Royal Albert Hall"
 tag = [ "movie", "royal-albert-hall",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/05/25/gladiator-2000-movie-in-concert.200.jpg"

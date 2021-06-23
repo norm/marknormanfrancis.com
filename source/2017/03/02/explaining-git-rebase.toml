@@ -6,3 +6,6 @@ type = "photo"
 location = "The Money Advice Service"
 original_caption = "Explaining git rebase #whiteboard"
 tag = [ "the-money-advice-service", "whiteboard",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2017/03/02/explaining-git-rebase.200.jpg"

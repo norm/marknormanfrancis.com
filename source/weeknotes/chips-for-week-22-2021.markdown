@@ -1,14 +1,29 @@
 ```
 title = "Chips for week 22, 2021"
 published = 2021-06-07T10:30:54Z
-origin = "twitter-cackhanded"
-type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/1401849138761850883"
-twitter_account = "cackhanded"
-tweet_id = "1401849138761850883"
+origin = "mnf"
+type = "article"
+subject = "weeknotes"
+image = "https://mnf.m17s.net/2021/06/07/E3ReV5eXoAArHxg.jpg"
+tag = [ "weekchips",]
+previous_slug = [
+    '/2021/06/07/chips-for-week-22-2021',
+]
+summary = """
+  I made my GIFs site better by fixing as many navigation bugs as I could
+  find, and added many Atom feeds. And made some GIFs.
+"""
+
+[twitter]
+contains_tweet = [
+    '1401849138761850883',
+]
 retweets = 0
 favourites = 1
-tag = [ "weekchips",]
+
+[thumbnail]
+chips = "https://mnf.m17s.net/2021/06/07/E3ReV5eXoAArHxg.chips.jpg"
+w200 = "https://mnf.m17s.net/2021/06/07/E3ReV5eXoAArHxg.200.jpg"
 ```
 
 Another week, and I’m still [stacking chips][chips]. Last week’s

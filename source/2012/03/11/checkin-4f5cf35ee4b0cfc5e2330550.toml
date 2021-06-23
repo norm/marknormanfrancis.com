@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/a40918a9df77cb6f25bdcc57ba079da6f1fdc9287ea3921
 tag = [ "mongolian-grill-san-jacinto",]
 local_timestamp = 2012-03-11T13:47:58Z
 
-[data]
+[checkin]
 id = "4f5cf35ee4b0cfc5e2330550"
 createdAt = 1331491678
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "45f29306f964a520de431fe3"
 name = "Mongolian Grill San Jacinto"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d142941735"
 name = "Asian Restaurant"
 pluralName = "Asian Restaurants"
 shortName = "Asian"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/asian_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "117 San Jacinto Blvd"
 crossStreet = "2nd St"
 lat = 30.26375315

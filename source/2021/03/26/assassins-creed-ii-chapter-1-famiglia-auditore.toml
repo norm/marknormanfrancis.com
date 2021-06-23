@@ -1,15 +1,51 @@
 title = "Published YouTube video “Assassin's Creed II — Chapter 1 — Famiglia Auditore”"
-thumbnail = "https://i.ytimg.com/vi/RLUAJTX6Zxg/maxresdefault.jpg"
 published = 2021-03-26T16:37:25Z
-video_id = "RLUAJTX6Zxg"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "assassins-creed-ii", "assassins-creed", "ezio-collection", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/RLUAJTX6Zxg/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/RLUAJTX6Zxg/default.jpg"
+medium = "https://i.ytimg.com/vi/RLUAJTX6Zxg/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/RLUAJTX6Zxg/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/RLUAJTX6Zxg/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/RLUAJTX6Zxg/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/RLUAJTX6Zxg/maxresdefault.480.jpg"
+
+[youtube]
+id = "RLUAJTX6Zxg"
+title = "Assassin's Creed II — Chapter 1 — Famiglia Auditore"
 description = "In Chapter 1, we meet Desmond Miles and some of his ancestors.\n\n0:00 Escaping Abstergo\n12:04 Hideout\n18:48 Boys will be boys\n25:26 You should see the other guy\n27:05 Sibling rivalry\n29:40 Nightcap\n37:00 Paperboy\n47:55 Beat a cheat\n52:05 Petruccio's secret\n55:55 Friend of the family\n1:00:45 Database entries\n1:13:20 End card\n\nA play through of the game Assassin's Creed II. All of the main story, some of the side missions. No tedious commentary.\n\n"
 views = "21"
 likes = "0"
 dislikes = "0"
 comments = "0"
-tag = [ "assassins-creed-ii", "assassins-creed", "ezio-collection", "game-shows",]
-theme = "game-shows"
+
+[youtube.thumbnails.default]
+url = "https://i.ytimg.com/vi/RLUAJTX6Zxg/default.jpg"
+width = 120
+height = 90
+
+[youtube.thumbnails.medium]
+url = "https://i.ytimg.com/vi/RLUAJTX6Zxg/mqdefault.jpg"
+width = 320
+height = 180
+
+[youtube.thumbnails.high]
+url = "https://i.ytimg.com/vi/RLUAJTX6Zxg/hqdefault.jpg"
+width = 480
+height = 360
+
+[youtube.thumbnails.standard]
+url = "https://i.ytimg.com/vi/RLUAJTX6Zxg/sddefault.jpg"
+width = 640
+height = 480
+
+[youtube.thumbnails.maxres]
+url = "https://i.ytimg.com/vi/RLUAJTX6Zxg/maxresdefault.jpg"
+width = 1280
+height = 720

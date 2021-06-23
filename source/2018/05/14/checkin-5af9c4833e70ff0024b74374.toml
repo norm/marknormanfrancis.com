@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/ed85ac8017c5e843719024df1e641cf5e4f9feb50163116
 tag = [ "aster",]
 local_timestamp = 2018-05-14T19:16:51Z
 
-[data]
+[checkin]
 id = "5af9c4833e70ff0024b74374"
 createdAt = 1526318211
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "588ba3324988da58528f4d9a"
 name = "Aster"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1c6941735"
 name = "Scandinavian Restaurant"
 pluralName = "Scandinavian Restaurants"
 shortName = "Scandinavian"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/scandinavian_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "150 Victoria Street"
 lat = 51.49669557706258
 lng = -0.143225356717805
@@ -36,10 +36,10 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "150 Victoria Street", "London", "Greater London", "SW1E 5LB",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.49669557706258
 lng = -0.143225356717805
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "475707791"

@@ -3,3 +3,6 @@ published = 2013-03-02T08:23:13Z
 image = "https://mnf.m17s.net/2013/03/02/i-am-complete-once-more-for-it-has-returned-to-the-uk.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/03/02/i-am-complete-once-more-for-it-has-returned-to-the-uk.200.jpg"

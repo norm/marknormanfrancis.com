@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/24a170fe75cb49128e93fef5ea26f23b693077cc809df25c9d864c28e3758192.png"
 tag = [ "lincolns-inn-fields",]
 
-[data]
+[checkin]
 id = "512e11a9e4b0011fa194e678"
 createdAt = 1361973673
 type = "checkin"
 timeZoneOffset = 0
 shout = "\"Fresh\" air"
 
-[data.venue]
+[checkin.venue]
 id = "4ad862b4f964a520291121e3"
 name = "Lincoln's Inn Fields"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d163941735"
 name = "Park"
 pluralName = "Parks"
 shortName = "Park"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Lincoln's Inn Fields"
 lat = 51.51611390655047
 lng = -0.11655807495117188
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Lincoln's Inn Fields", "London", "Greater London", "WC2A 3ED",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51611390655047
 lng = -0.11655807495117188

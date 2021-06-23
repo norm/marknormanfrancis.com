@@ -3,3 +3,6 @@ published = 2011-09-15T17:12:56Z
 image = "https://mnf.m17s.net/2011/09/15/temporary-two-way.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/09/15/temporary-two-way.200.jpg"

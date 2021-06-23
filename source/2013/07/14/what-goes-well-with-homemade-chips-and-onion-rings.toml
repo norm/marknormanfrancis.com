@@ -3,3 +3,6 @@ published = 2013-07-14T19:34:15Z
 image = "https://mnf.m17s.net/2013/07/14/what-goes-well-with-homemade-chips-and-onion-rings.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/07/14/what-goes-well-with-homemade-chips-and-onion-rings.200.jpg"

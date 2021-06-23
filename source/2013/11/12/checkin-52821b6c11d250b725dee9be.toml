@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/adcd69f8487566cf83240076677e890853cbce8e551c8559ae57254950dbafc7.png"
 tag = [ "satay-house",]
 
-[data]
+[checkin]
 id = "52821b6c11d250b725dee9be"
 createdAt = 1384258412
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518d5f964a520d1a720e3"
 name = "Satay House"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d156941735"
 name = "Malay Restaurant"
 pluralName = "Malay Restaurants"
 shortName = "Malay"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/malaysian_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "13 Sale Place"
 lat = 51.517638
 lng = -0.169428
@@ -35,10 +35,10 @@ city = "Paddington"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "13 Sale Place", "Paddington", "Greater London", "W2 1PX",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.517638
 lng = -0.169428
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "67117843"

@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/fcee6800a07d3241f0a0f32da0028e18c608a39d832bf86289e544f8a16898fa.png"
 tag = [ "expedia",]
 
-[data]
+[checkin]
 id = "5101b3fbe4b0ae12ace42cfc"
 createdAt = 1359066107
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4eae64109adf5c72deb1eb24"
 name = "Expedia"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d124941735"
 name = "Office"
 pluralName = "Offices"
 shortName = "Office"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "407 St John's St."
 crossStreet = "at The Angel Building"
 lat = 51.531317125794644
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "407 St John's St. (at The Angel Building)", "London", "Greater London", "EC1V 4EX",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.531317125794644
 lng = -0.10679167140629112

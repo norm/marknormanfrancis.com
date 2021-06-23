@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/432a2a09b0545dcc5a5b849527d90283a22f99a83840b45
 tag = [ "pizza-express",]
 local_timestamp = 2017-09-20T15:01:54Z
 
-[data]
+[checkin]
 id = "59c266c20a08ab52e6bc03db"
 createdAt = 1505912514
 type = "checkin"
 timeZoneOffset = 60
 shout = "with S-J"
 
-[data.venue]
+[checkin.venue]
 id = "4afc907ff964a520ea2322e3"
 name = "PizzaExpress"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1ca941735"
 name = "Pizza Place"
 pluralName = "Pizza Places"
 shortName = "Pizza"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/pizza_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "4 Fulham Broadway Retail Centre"
 lat = 51.4802997
 lng = -0.1944702
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "4 Fulham Broadway Retail Centre", "London", "Greater London", "SW6 1BW",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.4802997
 lng = -0.1944702

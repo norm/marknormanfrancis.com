@@ -3,3 +3,6 @@ published = 2012-08-02T10:00:39Z
 image = "https://mnf.m17s.net/2012/08/02/please-keep-this-space-free-of-clutter-as-this-is-the-route-used-to-collect-the-arrest-trolley.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/08/02/please-keep-this-space-free-of-clutter-as-this-is-the-route-used-to-collect-the-arrest-trolley.200.jpg"

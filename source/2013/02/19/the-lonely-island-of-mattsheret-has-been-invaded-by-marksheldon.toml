@@ -3,3 +3,6 @@ published = 2013-02-19T18:14:49Z
 image = "https://mnf.m17s.net/2013/02/19/the-lonely-island-of-mattsheret-has-been-invaded-by-marksheldon.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/02/19/the-lonely-island-of-mattsheret-has-been-invaded-by-marksheldon.200.jpg"

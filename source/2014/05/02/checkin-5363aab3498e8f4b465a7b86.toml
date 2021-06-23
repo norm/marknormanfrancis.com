@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/805de98f668b7d548334d2e5e83a4a0b618b2cdc2bdf532
 tag = [ "apple-regent-street",]
 local_timestamp = 2014-05-02T16:24:51Z
 
-[data]
+[checkin]
 id = "5363aab3498e8f4b465a7b86"
 createdAt = 1399040691
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ac518f4f964a520daae20e3"
 name = "Apple Regent Street"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d122951735"
 name = "Electronics Store"
 pluralName = "Electronics Stores"
 shortName = "Electronics"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/technology_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "235 Regent St"
 lat = 51.5142284
 lng = -0.1419788
@@ -35,7 +35,7 @@ cc = "GB"
 city = "London"
 country = "United Kingdom"
 formattedAddress = [ "235 Regent St", "London", "W1B 2EL",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.5142284
 lng = -0.1419788

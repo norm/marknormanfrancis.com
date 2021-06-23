@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/fc4e84de0752c426bfee05e8ba9a091cb67130d0d1ddda8
 tag = [ "cabana-brasilian-barbecue",]
 local_timestamp = 2013-08-30T13:36:02Z
 
-[data]
+[checkin]
 id = "522083a211d206fe78f83dce"
 createdAt = 1377862562
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ecb91fff790bc9a814d51f3"
 name = "Cabana Brasilian Barbecue"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16b941735"
 name = "Brazilian Restaurant"
 pluralName = "Brazilian Restaurants"
 shortName = "Brazilian"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/argentinian_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "7 Central St Giles Piazza, 1 St Giles High St"
 lat = 51.51592511474284
 lng = -0.1279048000983746
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "7 Central St Giles Piazza, 1 St Giles High St", "London", "Greater London", "WC2H 8AD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51592511474284
 lng = -0.1279048000983746

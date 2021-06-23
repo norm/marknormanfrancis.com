@@ -1,14 +1,38 @@
 title = "Published YouTube video “/dev/fort: cohort 4, fourth day of coding”"
 published = 2010-07-19T00:17:32Z
-video_id = "sYkxaCQ9Fp8"
 origin = "youtube-mnf"
 origin_link_text = "Mark Norman Francis channel"
 origin_link_url = "https://www.youtube.com/channel/UChCfyxtJP1e4eO0v7L1CUJw"
 type = "video"
+tag = [ "devfort", "devfort-4",]
+image = "https://i.ytimg.com/vi/sYkxaCQ9Fp8/hqdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/sYkxaCQ9Fp8/default.jpg"
+medium = "https://i.ytimg.com/vi/sYkxaCQ9Fp8/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/sYkxaCQ9Fp8/hqdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/sYkxaCQ9Fp8/hqdefault.480.jpg"
+
+[youtube]
+id = "sYkxaCQ9Fp8"
+title = "/dev/fort: cohort 4, fourth day of coding"
 description = "The fourth day of coding on the fourth devfort.com project.\r\n\r\nCreated with iTimeLapse.\n\n"
 views = "268"
 likes = "1"
 dislikes = "2"
 comments = "0"
-thumbnail = "https://i.ytimg.com/vi/sYkxaCQ9Fp8/default.jpg"
-tag = [ "devfort", "devfort-4",]
+
+[youtube.thumbnails.default]
+url = "https://i.ytimg.com/vi/sYkxaCQ9Fp8/default.jpg"
+width = 120
+height = 90
+
+[youtube.thumbnails.medium]
+url = "https://i.ytimg.com/vi/sYkxaCQ9Fp8/mqdefault.jpg"
+width = 320
+height = 180
+
+[youtube.thumbnails.high]
+url = "https://i.ytimg.com/vi/sYkxaCQ9Fp8/hqdefault.jpg"
+width = 480
+height = 360

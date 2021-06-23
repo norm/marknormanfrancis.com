@@ -3,3 +3,6 @@ published = 2013-06-15T10:48:21Z
 image = "https://mnf.m17s.net/2013/06/15/this-weekend-its-blackberry-syrup-homemade-ribena.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/06/15/this-weekend-its-blackberry-syrup-homemade-ribena.200.jpg"

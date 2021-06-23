@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/d8cd8174e0a1c04f676ae9dde1b70ddfd69b9df59b589d6
 tag = [ "glasgow-central-railway-station-glc",]
 local_timestamp = 2011-08-20T13:21:23Z
 
-[data]
+[checkin]
 id = "4e4f98b3b61cf637a4f6dd7a"
 createdAt = 1313839283
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b52f481f964a5204a8b27e3"
 name = "Glasgow Central Railway Station (GLC)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d129951735"
 name = "Train Station"
 pluralName = "Train Stations"
 shortName = "Train Station"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Gordon St"
 lat = 55.85986586566944
 lng = -4.257905146460043
@@ -36,7 +36,7 @@ city = "Glasgow"
 state = "Glasgow City"
 country = "United Kingdom"
 formattedAddress = [ "Gordon St", "Glasgow", "Glasgow City", "G1 3SL",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 55.85986586566944
 lng = -4.257905146460043

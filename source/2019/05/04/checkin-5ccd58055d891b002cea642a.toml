@@ -6,32 +6,32 @@ map = "https://mnf.m17s.net/maps/14781b66deaefdaf7bf5c31764d17a1c7da18219bd76e03
 tag = [ "putney-pantry",]
 local_timestamp = 2019-05-04T11:14:45Z
 
-[data]
+[checkin]
 id = "5ccd58055d891b002cea642a"
 createdAt = 1556961285
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "5193517b498e587ce34db372"
 name = "Putney Pantry"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16d941735"
 name = "Café"
 pluralName = "Cafés"
 shortName = "Café"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/cafe_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 51.46552879172941
 lng = -0.2140407019463866
 cc = "GB"
 country = "United Kingdom"
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.46552879172941
 lng = -0.2140407019463866

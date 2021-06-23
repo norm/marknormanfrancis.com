@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/70a8f5b805e99c996fd12d73ddccb4b494f3d46578092491dd28cc36823911d6.png"
 tag = [ "debenhams",]
 
-[data]
+[checkin]
 id = "50e18974e4b028f6653142e9"
 createdAt = 1356958068
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518ecf964a52070ac20e3"
 name = "Debenhams"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1f6941735"
 name = "Department Store"
 pluralName = "Department Stores"
 shortName = "Department Store"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/departmentstore_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "315 Lavender Hill"
 lat = 51.46336418465558
 lng = -0.16771653738831105
@@ -35,7 +35,7 @@ city = "Clapham Junction"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "315 Lavender Hill", "Clapham Junction", "Greater London", "SW11 1QL",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.46336418465558
 lng = -0.16771653738831105

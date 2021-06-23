@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/816cf7059e54696e6c59230972a026ea499c31c7c814c7f
 tag = [ "the-lord-nelson",]
 local_timestamp = 2016-10-06T17:58:10Z
 
-[data]
+[checkin]
 id = "57f67492498ea663f191c992"
 createdAt = 1475769490
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4c2b8978f7acef3bd051ed0c"
 name = "The Lord Nelson"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "243 Union St"
 lat = 51.50361001594017
 lng = -0.10254644121608915
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "243 Union St", "London", "Greater London", "SE1 0LR",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.50361001594017
 lng = -0.10254644121608915

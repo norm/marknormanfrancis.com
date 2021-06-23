@@ -3,3 +3,6 @@ published = 2013-02-09T20:10:10Z
 image = "https://mnf.m17s.net/2013/02/09/getting-my-bruckheimer-on-inspired-by-theoboggis.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/02/09/getting-my-bruckheimer-on-inspired-by-theoboggis.200.jpg"

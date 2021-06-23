@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/ab112bcbb088a57956353ac4b8986b6111c12e52be100526b0f947287c6d5913.png"
 tag = [ "long-bar",]
 
-[data]
+[checkin]
 id = "52daa163498e6ab903a9fa78"
 createdAt = 1390059875
 type = "checkin"
 timeZoneOffset = 0
 shout = "Getting my cocktails on — with S-J"
 
-[data.venue]
+[checkin.venue]
 id = "4ac518bff964a52025a320e3"
 name = "Long Bar"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1d5941735"
 name = "Hotel Bar"
 pluralName = "Hotel Bars"
 shortName = "Hotel Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/hotel_bar_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Sanderson Hotel"
 lat = 51.51751134833833
 lng = -0.13714213919225454
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Sanderson Hotel", "London", "Greater London", "W1T 3NG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51751134833833
 lng = -0.13714213919225454

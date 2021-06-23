@@ -3,3 +3,6 @@ published = 2013-10-08T21:21:26Z
 image = "https://mnf.m17s.net/2013/10/08/an-ellywilliams-annotated-version-of-my-three-parts-of-css.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/10/08/an-ellywilliams-annotated-version-of-my-three-parts-of-css.200.jpg"

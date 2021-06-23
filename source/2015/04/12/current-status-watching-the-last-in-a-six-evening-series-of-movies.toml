@@ -3,3 +3,6 @@ published = 2015-04-12T18:48:41Z
 image = "https://mnf.m17s.net/2015/04/12/current-status-watching-the-last-in-a-six-evening-series-of-movies.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/04/12/current-status-watching-the-last-in-a-six-evening-series-of-movies.200.jpg"

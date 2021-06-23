@@ -3,3 +3,6 @@ published = 2012-07-03T08:20:49Z
 image = "https://mnf.m17s.net/2012/07/03/aggressive-bus-window-grafitti.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/07/03/aggressive-bus-window-grafitti.200.jpg"

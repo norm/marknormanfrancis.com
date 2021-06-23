@@ -3,3 +3,6 @@ published = 2012-05-24T12:07:28Z
 image = "https://mnf.m17s.net/2012/05/24/squamscot-maple-cream-tastes-like-maple-syrup-made-fizzy-i-may-not-survive-the-entire-bottle.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/05/24/squamscot-maple-cream-tastes-like-maple-syrup-made-fizzy-i-may-not-survive-the-entire-bottle.200.jpg"

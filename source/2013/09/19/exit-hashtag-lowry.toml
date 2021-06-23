@@ -3,3 +3,6 @@ published = 2013-09-19T14:01:34Z
 image = "https://mnf.m17s.net/2013/09/19/exit-hashtag-lowry.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/09/19/exit-hashtag-lowry.200.jpg"

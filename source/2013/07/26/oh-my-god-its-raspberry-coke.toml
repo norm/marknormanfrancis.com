@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Five Guys"
 tag = [ "five-guys",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/07/26/oh-my-god-its-raspberry-coke.200.jpg"

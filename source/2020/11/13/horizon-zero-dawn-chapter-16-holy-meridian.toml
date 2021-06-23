@@ -1,15 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 16 — Holy Meridian”"
 published = 2020-11-13T07:15:00Z
-video_id = "1WkcAeld60Y"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/1WkcAeld60Y/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/1WkcAeld60Y/default.jpg"
+medium = "https://i.ytimg.com/vi/1WkcAeld60Y/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/1WkcAeld60Y/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/1WkcAeld60Y/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/1WkcAeld60Y/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/1WkcAeld60Y/maxresdefault.480.jpg"
+
+[youtube]
+id = "1WkcAeld60Y"
+title = "Horizon Zero Dawn — Chapter 16 — Holy Meridian"
 description = "In Chapter 16, Aloy sees more of Meridian.\n\n00:00 Opening titles\n00:21 Entering Meridian\n03:20 Hunters Lodge\n07:55 Vilgund\n10:55 Temple of the Sun\n17:10 The Mournful Namman\n23:00 A wander around Meridian\n35:15 Meeting Sun-King Avad\n46:38 Datapoint: Bylaws of the Lodge\n51:43 Datapoint: Founding of Meridian\n54:25 Map\n54:43 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "16"
 likes = "0"
 dislikes = "0"
 comments = "0"
-thumbnail = "https://i.ytimg.com/vi/1WkcAeld60Y/maxresdefault.jpg"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
+
+[youtube.thumbnails.default]
+url = "https://i.ytimg.com/vi/1WkcAeld60Y/default.jpg"
+width = 120
+height = 90
+
+[youtube.thumbnails.medium]
+url = "https://i.ytimg.com/vi/1WkcAeld60Y/mqdefault.jpg"
+width = 320
+height = 180
+
+[youtube.thumbnails.high]
+url = "https://i.ytimg.com/vi/1WkcAeld60Y/hqdefault.jpg"
+width = 480
+height = 360
+
+[youtube.thumbnails.standard]
+url = "https://i.ytimg.com/vi/1WkcAeld60Y/sddefault.jpg"
+width = 640
+height = 480
+
+[youtube.thumbnails.maxres]
+url = "https://i.ytimg.com/vi/1WkcAeld60Y/maxresdefault.jpg"
+width = 1280
+height = 720

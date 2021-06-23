@@ -3,3 +3,6 @@ published = 2013-12-25T12:25:29Z
 image = "https://mnf.m17s.net/2013/12/25/birds-ready-for-the-great-ovening.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/12/25/birds-ready-for-the-great-ovening.200.jpg"

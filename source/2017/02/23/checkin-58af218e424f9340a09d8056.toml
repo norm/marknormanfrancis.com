@@ -5,32 +5,32 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/e0d317b4e45e42cb135310c4cfb147ae8a1e33e48f263e728ae0c6fb3d0ded5d.png"
 tag = [ "imperial-wharf",]
 
-[data]
+[checkin]
 id = "58af218e424f9340a09d8056"
 createdAt = 1487872398
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4eda6a1db8f7fcd0404c5cc2"
 name = "Imperial Wharf"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4d954b06a243a5684965b473"
 name = "Residential Building (Apartment / Condo)"
 pluralName = "Residential Buildings (Apartments / Condos)"
 shortName = "Residential"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/apartment_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 51.473430080201425
 lng = -0.1828286286326379
 cc = "GB"
 country = "United Kingdom"
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.473430080201425
 lng = -0.1828286286326379

@@ -3,3 +3,6 @@ published = 2016-11-22T12:15:54Z
 image = "https://mnf.m17s.net/2016/11/22/left-over-gumbo-for-lunch.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/11/22/left-over-gumbo-for-lunch.200.jpg"

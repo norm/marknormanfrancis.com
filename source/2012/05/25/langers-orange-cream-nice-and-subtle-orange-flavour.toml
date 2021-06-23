@@ -3,3 +3,6 @@ published = 2012-05-25T16:33:33Z
 image = "https://mnf.m17s.net/2012/05/25/langers-orange-cream-nice-and-subtle-orange-flavour.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/05/25/langers-orange-cream-nice-and-subtle-orange-flavour.200.jpg"

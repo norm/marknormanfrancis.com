@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/ec8968b51340572820dc88c8d0a995a9ed2ac12d24c89f4
 tag = [ "acc-ballroom-bc",]
 local_timestamp = 2012-03-10T16:33:39Z
 
-[data]
+[checkin]
 id = "4f5bd6c3e4b01014ba36bd9a"
 createdAt = 1331418819
 type = "checkin"
 timeZoneOffset = -360
 
-[data.venue]
+[checkin.venue]
 id = "4f5a5c7ae4b0ecd606fa84c2"
 name = "ACC Ballroom BC"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d173941735"
 name = "Auditorium"
 pluralName = "Auditoriums"
 shortName = "Auditorium"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/auditorium_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "500 E Cesar Chavez St"
 crossStreet = "btwn Trinity St & Red River St"
 lat = 30.26257500684189
@@ -37,7 +37,7 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "500 E Cesar Chavez St (btwn Trinity St & Red River St)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.26257500684189
 lng = -97.73953093873058

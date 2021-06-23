@@ -3,3 +3,6 @@ published = 2014-11-24T15:01:53Z
 image = "https://mnf.m17s.net/2014/11/24/talking-about-how-to-style-the-beta-message.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2014/11/24/talking-about-how-to-style-the-beta-message.200.jpg"

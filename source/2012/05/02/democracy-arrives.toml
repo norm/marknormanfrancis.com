@@ -3,3 +3,6 @@ published = 2012-05-02T08:59:01Z
 image = "https://mnf.m17s.net/2012/05/02/democracy-arrives.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/05/02/democracy-arrives.200.jpg"

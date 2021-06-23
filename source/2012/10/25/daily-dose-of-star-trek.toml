@@ -3,3 +3,6 @@ published = 2012-10-25T15:13:08Z
 image = "https://mnf.m17s.net/2012/10/25/daily-dose-of-star-trek.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/10/25/daily-dose-of-star-trek.200.jpg"

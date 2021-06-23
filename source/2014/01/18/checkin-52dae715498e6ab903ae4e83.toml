@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/bee210b7d9f1b9c31f591231c41a1505869c7b686277f238a452203c8ea9cba0.png"
 tag = [ "duke-of-yorks-theatre",]
 
-[data]
+[checkin]
 id = "52dae715498e6ab903ae4e83"
 createdAt = 1390077717
 type = "checkin"
 timeZoneOffset = 0
 shout = "Jeeves and Wooster — with S-J"
 
-[data.venue]
+[checkin.venue]
 id = "4babe997f964a520c2d43ae3"
 name = "Duke of York's Theatre"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d137941735"
 name = "Theater"
 pluralName = "Theaters"
 shortName = "Theater"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "105 St. Martin's Ln"
 lat = 51.51020368311992
 lng = -0.12692795568424692
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "105 St. Martin's Ln", "London", "Greater London", "WC2N 4BG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51020368311992
 lng = -0.12692795568424692

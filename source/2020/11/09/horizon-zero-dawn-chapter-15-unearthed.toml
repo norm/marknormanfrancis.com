@@ -1,15 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 15 — Unearthed”"
 published = 2020-11-09T07:15:01Z
-video_id = "j2KuYSTBqPM"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/j2KuYSTBqPM/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/j2KuYSTBqPM/default.jpg"
+medium = "https://i.ytimg.com/vi/j2KuYSTBqPM/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/j2KuYSTBqPM/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/j2KuYSTBqPM/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/j2KuYSTBqPM/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/j2KuYSTBqPM/maxresdefault.480.jpg"
+
+[youtube]
+id = "j2KuYSTBqPM"
+title = "Horizon Zero Dawn — Chapter 15 — Unearthed"
 description = "In Chapter 15, some things are uncovered.\n\n00:00 Opening titles\n00:21 Recap\n00:54 The City of the Sun — Excavation site\n23:50 The Field of the Fallen\n41:20 Dimmed Bones\n46:45 Back to Meridian\n55:42 Map\n56:00 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "15"
 likes = "0"
 dislikes = "0"
 comments = "0"
-thumbnail = "https://i.ytimg.com/vi/j2KuYSTBqPM/maxresdefault.jpg"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
+
+[youtube.thumbnails.default]
+url = "https://i.ytimg.com/vi/j2KuYSTBqPM/default.jpg"
+width = 120
+height = 90
+
+[youtube.thumbnails.medium]
+url = "https://i.ytimg.com/vi/j2KuYSTBqPM/mqdefault.jpg"
+width = 320
+height = 180
+
+[youtube.thumbnails.high]
+url = "https://i.ytimg.com/vi/j2KuYSTBqPM/hqdefault.jpg"
+width = 480
+height = 360
+
+[youtube.thumbnails.standard]
+url = "https://i.ytimg.com/vi/j2KuYSTBqPM/sddefault.jpg"
+width = 640
+height = 480
+
+[youtube.thumbnails.maxres]
+url = "https://i.ytimg.com/vi/j2KuYSTBqPM/maxresdefault.jpg"
+width = 1280
+height = 720

@@ -3,3 +3,6 @@ published = 2011-12-07T18:43:58Z
 image = "https://mnf.m17s.net/2011/12/07/passive-aggressive-notes-in-5-4.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/12/07/passive-aggressive-notes-in-5-4.200.jpg"

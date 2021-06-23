@@ -1,15 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 50 — Bounty”"
 published = 2021-03-15T08:15:00Z
-video_id = "_5ixM9yGL5w"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/_5ixM9yGL5w/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/_5ixM9yGL5w/default.jpg"
+medium = "https://i.ytimg.com/vi/_5ixM9yGL5w/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/_5ixM9yGL5w/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/_5ixM9yGL5w/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/_5ixM9yGL5w/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/_5ixM9yGL5w/maxresdefault.480.jpg"
+
+[youtube]
+id = "_5ixM9yGL5w"
+title = "Horizon Zero Dawn — Chapter 50 — Bounty"
 description = "In Chapter 50, Aloy helps Uthid and discovers another Cauldron.\n\n0:00 Opening titles\n0:21 Recap\n1:24 Traitor's Bounty, concluded\n25:30 Cauldron Zeta\n42:00 Onwards\n52:44 Datapoint: M/XI Core Log 231L\n53:42 Datapoint: M/All-US-W CM Log 329G\n54:29 Map\n54:47 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
-thumbnail = "https://i.ytimg.com/vi/_5ixM9yGL5w/maxresdefault.jpg"
 views = "11"
 likes = "0"
 dislikes = "0"
 comments = "0"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
+
+[youtube.thumbnails.default]
+url = "https://i.ytimg.com/vi/_5ixM9yGL5w/default.jpg"
+width = 120
+height = 90
+
+[youtube.thumbnails.medium]
+url = "https://i.ytimg.com/vi/_5ixM9yGL5w/mqdefault.jpg"
+width = 320
+height = 180
+
+[youtube.thumbnails.high]
+url = "https://i.ytimg.com/vi/_5ixM9yGL5w/hqdefault.jpg"
+width = 480
+height = 360
+
+[youtube.thumbnails.standard]
+url = "https://i.ytimg.com/vi/_5ixM9yGL5w/sddefault.jpg"
+width = 640
+height = 480
+
+[youtube.thumbnails.maxres]
+url = "https://i.ytimg.com/vi/_5ixM9yGL5w/maxresdefault.jpg"
+width = 1280
+height = 720

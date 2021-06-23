@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/39b3597c8336327db3fee029e11c88050c6044a27a5cd9f8baf7f5e832d0ff93.png"
 tag = [ "bloomsbury-tavern",]
 
-[data]
+[checkin]
 id = "5321a1a4498e18436c4cc3c4"
 createdAt = 1394712996
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4acdb102f964a520b1cc20e3"
 name = "Bloomsbury Tavern"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "236 Shaftesbury Ave"
 lat = 51.516944344401885
 lng = -0.12589947364501186
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "236 Shaftesbury Ave", "London", "Greater London", "WC2H 8EG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.516944344401885
 lng = -0.12589947364501186

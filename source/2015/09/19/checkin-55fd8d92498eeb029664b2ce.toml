@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/ff69a271fabad662f6a6637ec0d277b171ab03e26bdbd84
 tag = [ "rowleys",]
 local_timestamp = 2015-09-19T18:30:10Z
 
-[data]
+[checkin]
 id = "55fd8d92498eeb029664b2ce"
 createdAt = 1442680210
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ac518ddf964a52060a920e3"
 name = "Rowley's"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1cc941735"
 name = "Steakhouse"
 pluralName = "Steakhouses"
 shortName = "Steakhouse"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "113 Jermyn St"
 crossStreet = "near Eagle Pl"
 lat = 51.50899408360916
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "113 Jermyn St (near Eagle Pl)", "London", "Greater London", "SW1Y 6HJ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.50899408360916
 lng = -0.13502956160365956

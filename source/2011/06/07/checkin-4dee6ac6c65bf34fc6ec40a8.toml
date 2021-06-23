@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/2dc64348d3ae88aa8ca00a7ba0124cf48495a118606f509
 tag = [ "the-rake",]
 local_timestamp = 2011-06-07T20:15:34Z
 
-[data]
+[checkin]
 id = "4dee6ac6c65bf34fc6ec40a8"
 createdAt = 1307470534
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ace2e9ef964a520e1ce20e3"
 name = "The Rake"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "14a Winchester Walk"
 lat = 51.50612335281753
 lng = -0.0910899352289138
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "14a Winchester Walk", "London", "Greater London", "SE1 9AG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.50612335281753
 lng = -0.0910899352289138

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Police Squad (in color) #series"
 tag = [ "series",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/02/14/police-squad-in-color.200.jpg"

@@ -3,3 +3,6 @@ published = 2012-08-14T13:04:44Z
 image = "https://mnf.m17s.net/2012/08/14/filberts-cherry-tastes-like-liquid-cocktail-cherries-pleasant-but-slightly-disturbing.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/08/14/filberts-cherry-tastes-like-liquid-cocktail-cherries-pleasant-but-slightly-disturbing.200.jpg"

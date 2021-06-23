@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Ben's Canteen"
 tag = [ "bens-canteen",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/09/09/sipsmith-booth.200.jpg"

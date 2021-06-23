@@ -3,3 +3,6 @@ published = 2012-06-02T17:15:05Z
 image = "https://mnf.m17s.net/2012/06/02/faygo-redpop-strawberry-very-tasty-nicer-than-the-squamscot.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/06/02/faygo-redpop-strawberry-very-tasty-nicer-than-the-squamscot.200.jpg"

@@ -3,3 +3,6 @@ published = 2014-06-07T12:00:07Z
 image = "https://mnf.m17s.net/2014/06/07/lego-ghostbusters.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2014/06/07/lego-ghostbusters.200.jpg"

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "The Great Wave off Kanagawa #whiteboardart #the100dayproject #100daysofwhiteboards"
 tag = [ "100-days-of-whiteboards", "the-100-day-project", "whiteboard", "whiteboard-art",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2017/04/05/the-great-wave-off-kanagawa.200.jpg"

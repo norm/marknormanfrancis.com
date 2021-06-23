@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Good cop, bad cop, bad cop, good cop #lego"
 tag = [ "lego",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2014/04/05/good-cop-bad-cop-bad-cop-good-cop.200.jpg"

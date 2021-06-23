@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/81874b12a548c23766dcd48e7667975773b3ab70dc74366
 tag = [ "shakespeares-pub",]
 local_timestamp = 2012-03-11T14:54:00Z
 
-[data]
+[checkin]
 id = "4f5d02d8e4b053fd6927666d"
 createdAt = 1331495640
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "40b13b00f964a520e4f31ee3"
 name = "Shakespeare's Pub"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "314 E 6th St"
 crossStreet = "at San Jacinto Blvd"
 lat = 30.26745937419012
@@ -37,10 +37,10 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "314 E 6th St (at San Jacinto Blvd)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.26745937419012
 lng = -97.73983958387846
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "49728720"

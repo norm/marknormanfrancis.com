@@ -3,3 +3,6 @@ published = 2016-07-29T15:07:41Z
 image = "https://mnf.m17s.net/2016/07/29/my-team-avatar-is-not-nearly-grumpy-enough.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/07/29/my-team-avatar-is-not-nearly-grumpy-enough.200.jpg"

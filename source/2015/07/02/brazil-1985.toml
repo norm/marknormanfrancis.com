@@ -3,3 +3,6 @@ published = 2015-07-02T19:06:17Z
 image = "https://mnf.m17s.net/2015/07/02/brazil-1985.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/07/02/brazil-1985.200.jpg"

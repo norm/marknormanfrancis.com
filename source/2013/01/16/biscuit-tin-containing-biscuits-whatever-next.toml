@@ -3,3 +3,6 @@ published = 2013-01-16T14:00:26Z
 image = "https://mnf.m17s.net/2013/01/16/biscuit-tin-containing-biscuits-whatever-next.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/01/16/biscuit-tin-containing-biscuits-whatever-next.200.jpg"

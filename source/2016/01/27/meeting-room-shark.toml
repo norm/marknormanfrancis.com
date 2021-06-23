@@ -6,3 +6,6 @@ type = "photo"
 location = "Metal Box Factory"
 original_caption = "Meeting room shark "
 tag = [ "metal-box-factory",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/01/27/meeting-room-shark.200.jpg"

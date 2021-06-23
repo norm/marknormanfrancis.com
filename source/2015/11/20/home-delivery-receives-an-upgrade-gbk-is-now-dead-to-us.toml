@@ -3,3 +3,6 @@ published = 2015-11-20T20:57:29Z
 image = "https://mnf.m17s.net/2015/11/20/home-delivery-receives-an-upgrade-gbk-is-now-dead-to-us.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/11/20/home-delivery-receives-an-upgrade-gbk-is-now-dead-to-us.200.jpg"

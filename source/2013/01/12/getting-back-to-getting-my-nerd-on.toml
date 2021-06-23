@@ -3,3 +3,6 @@ published = 2013-01-12T13:02:02Z
 image = "https://mnf.m17s.net/2013/01/12/getting-back-to-getting-my-nerd-on.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/01/12/getting-back-to-getting-my-nerd-on.200.jpg"

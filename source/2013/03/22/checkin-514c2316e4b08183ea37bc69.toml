@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/d09b75e004cfe0c6c8ed5273eb5c053b106bcc880a8ebea7af829d0f8d86baf5.png"
 tag = [ "neo-canteen",]
 
-[data]
+[checkin]
 id = "514c2316e4b08183ea37bc69"
 createdAt = 1363944214
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "50531a66e4b01eeee4c38911"
 name = "neo canteen"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16d941735"
 name = "Café"
 pluralName = "Cafés"
 shortName = "Café"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/cafe_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Aviation House"
 crossStreet = "Kingsway"
 lat = 51.5171041426601

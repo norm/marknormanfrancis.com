@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/31b17d6917da57ad2a492feeb81bca8917174fef95fa25c4fa18f413fc337e65.png"
 tag = [ "the-craft-beer-co",]
 
-[data]
+[checkin]
 id = "58d17e1eb12d9f6930d8e0f8"
 createdAt = 1490124318
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "536cd46e11d29fe6210957cf"
 name = "The Craft Beer Co."
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "56aa371ce4b08b9a8d57356c"
 name = "Beer Bar"
 pluralName = "Beer Bars"
 shortName = "Beer Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "168 High Holborn"
 lat = 51.51575827252237
 lng = -0.12619345122012288
@@ -35,7 +35,7 @@ city = "Covent Garden"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "168 High Holborn", "Covent Garden", "Greater London", "WC1V 7AA",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51575827252237
 lng = -0.12619345122012288

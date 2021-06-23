@@ -3,3 +3,6 @@ published = 2015-08-30T19:42:17Z
 image = "https://mnf.m17s.net/2015/08/30/from-russia-with-love-1963.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/08/30/from-russia-with-love-1963.200.jpg"

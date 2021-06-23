@@ -3,3 +3,6 @@ published = 2013-07-23T07:52:48Z
 image = "https://mnf.m17s.net/2013/07/23/comedy-timebomb-location-based-reminder.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/07/23/comedy-timebomb-location-based-reminder.200.jpg"

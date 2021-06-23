@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/d753c09418b0db8a5e406ce9a78e8a4ba55ef01d5eaf487
 tag = [ "tongue-brisket",]
 local_timestamp = 2016-08-15T13:41:07Z
 
-[data]
+[checkin]
 id = "57b1aa53498e8186b200e747"
 createdAt = 1471261267
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "533c04dc498eea8fb064a8b9"
 name = "Tongue & Brisket"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1c5941735"
 name = "Sandwich Place"
 pluralName = "Sandwich Places"
 shortName = "Sandwiches"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/deli_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "24-26 Leather Ln"
 lat = 51.519734
 lng = -0.109046
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "24-26 Leather Ln", "London", "Greater London", "EC1N 7SU",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.519734
 lng = -0.109046

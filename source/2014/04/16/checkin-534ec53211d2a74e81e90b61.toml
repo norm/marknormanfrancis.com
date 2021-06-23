@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/12ab7a45f84d331f95e33d62346a86c706e15d6c96b00d4
 tag = [ "harold-pinter-theatre",]
 local_timestamp = 2014-04-16T20:00:18Z
 
-[data]
+[checkin]
 id = "534ec53211d2a74e81e90b61"
 createdAt = 1397671218
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ac518e7f964a52042ab20e3"
 name = "Harold Pinter Theatre"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d137941735"
 name = "Theater"
 pluralName = "Theaters"
 shortName = "Theater"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "6 Panton St"
 lat = 51.50944290457376
 lng = -0.1316437366790659
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "6 Panton St", "London", "Greater London", "SW1Y 4DN",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.50944290457376
 lng = -0.1316437366790659

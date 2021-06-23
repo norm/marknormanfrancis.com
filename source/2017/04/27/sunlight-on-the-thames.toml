@@ -3,3 +3,6 @@ published = 2017-04-27T07:31:56Z
 image = "https://mnf.m17s.net/2017/04/27/sunlight-on-the-thames.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2017/04/27/sunlight-on-the-thames.200.jpg"

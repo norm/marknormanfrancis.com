@@ -1,15 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 3 — The Embrace”"
 published = 2020-09-28T09:15:01Z
-video_id = "fwY8UWzm4ug"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/fwY8UWzm4ug/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/fwY8UWzm4ug/default.jpg"
+medium = "https://i.ytimg.com/vi/fwY8UWzm4ug/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/fwY8UWzm4ug/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/fwY8UWzm4ug/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/fwY8UWzm4ug/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/fwY8UWzm4ug/maxresdefault.480.jpg"
+
+[youtube]
+id = "fwY8UWzm4ug"
+title = "Horizon Zero Dawn — Chapter 3 — The Embrace"
 description = "A play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nIn Chapter 3 Aloy spends a day in the Embrace, and helps some people.\n\n00:00 Opening titles\n00:21 Recap\n00:44 Last day as an outcast\n05:57 The Forgotten\n25:08 Towards Mother's Heart\n28:43 In Her Mother's Footsteps\n50:30 Map\n50:49 End screen\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "57"
 likes = "2"
 dislikes = "0"
 comments = "1"
-thumbnail = "https://i.ytimg.com/vi/fwY8UWzm4ug/maxresdefault.jpg"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
+
+[youtube.thumbnails.default]
+url = "https://i.ytimg.com/vi/fwY8UWzm4ug/default.jpg"
+width = 120
+height = 90
+
+[youtube.thumbnails.medium]
+url = "https://i.ytimg.com/vi/fwY8UWzm4ug/mqdefault.jpg"
+width = 320
+height = 180
+
+[youtube.thumbnails.high]
+url = "https://i.ytimg.com/vi/fwY8UWzm4ug/hqdefault.jpg"
+width = 480
+height = 360
+
+[youtube.thumbnails.standard]
+url = "https://i.ytimg.com/vi/fwY8UWzm4ug/sddefault.jpg"
+width = 640
+height = 480
+
+[youtube.thumbnails.maxres]
+url = "https://i.ytimg.com/vi/fwY8UWzm4ug/maxresdefault.jpg"
+width = 1280
+height = 720

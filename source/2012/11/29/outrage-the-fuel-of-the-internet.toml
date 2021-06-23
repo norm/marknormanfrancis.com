@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Outrage! The fuel of the Internet #daily #tshirt"
 tag = [ "daily", "tshirt",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/11/29/outrage-the-fuel-of-the-internet.200.jpg"

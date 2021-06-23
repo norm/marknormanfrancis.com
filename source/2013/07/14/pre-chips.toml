@@ -3,3 +3,6 @@ published = 2013-07-14T17:54:23Z
 image = "https://mnf.m17s.net/2013/07/14/pre-chips.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/07/14/pre-chips.200.jpg"

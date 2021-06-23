@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/ccb53fa1211950815cfd4f776fe5b21869a4b8f4bbf3cf9
 tag = [ "manningtree-railway-station-mng",]
 local_timestamp = 2011-07-23T17:55:53Z
 
-[data]
+[checkin]
 id = "4e2aef0918a80bb0585300c1"
 createdAt = 1311436553
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4e7386aa483b4dd0be403692"
 name = "Manningtree Railway Station (MNG)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d129951735"
 name = "Train Station"
 pluralName = "Train Stations"
 shortName = "Train Station"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Station App."
 lat = 51.949132169355515
 lng = 1.045376224799872
@@ -36,7 +36,7 @@ city = "Manningtree"
 state = "Essex"
 country = "United Kingdom"
 formattedAddress = [ "Station App.", "Manningtree", "Essex", "CO11 2HH",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.949132169355515
 lng = 1.045376224799872

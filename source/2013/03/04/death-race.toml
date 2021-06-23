@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Death Race #daily #tshirt"
 tag = [ "daily", "tshirt",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/03/04/death-race.200.jpg"

@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/5a5981df6acb4652b455ac3e548335cb969fcec83758576
 tag = [ "roppolos-pizzeria",]
 local_timestamp = 2012-03-14T19:30:26Z
 
-[data]
+[checkin]
 id = "4f613822e4b0448e9ab71ce7"
 createdAt = 1331771426
 type = "checkin"
 timeZoneOffset = -300
 shout = "Food Truck"
 
-[data.venue]
+[checkin.venue]
 id = "44184f60f964a5201c311fe3"
 name = "Roppolo's Pizzeria"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1ca941735"
 name = "Pizza Place"
 pluralName = "Pizza Places"
 shortName = "Pizza"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/pizza_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "316 E 6th St"
 crossStreet = "btwn San Jacinto Blvd. & Trinity St."
 lat = 30.26726912462565
@@ -38,24 +38,24 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "316 E 6th St (btwn San Jacinto Blvd. & Trinity St.)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.26726912462565
 lng = -97.7398111762608
 
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "entrance"
 lat = 30.267318
 lng = -97.739729
 
-[data.venue.delivery]
+[checkin.venue.delivery]
 id = "1002959"
 url = "https://www.grubhub.com/restaurant/roppolos-pizzeria-316-e-6th-st-austin/1002959?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1002959"
 
-[data.venue.delivery.provider]
+[checkin.venue.delivery.provider]
 name = "grubhub"
 
-[data.venue.delivery.provider.icon]
+[checkin.venue.delivery.provider.icon]
 prefix = "https://fastly.4sqi.net/img/general/cap/"
 sizes = [ 40, 50,]
 name = "/delivery_provider_grubhub_20180129.png"

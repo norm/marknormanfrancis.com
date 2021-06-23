@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/02bbd6715f5bf476e3e6dfb5cf41217e3aea4646d6359dc
 tag = [ "victoria",]
 local_timestamp = 2018-07-12T19:24:44Z
 
-[data]
+[checkin]
 id = "5b478edc805e3f002cba4190"
 createdAt = 1531416284
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "510bb09de4b01d3ae22bb38b"
 name = "Victoria"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4f2a25ac4b909258e854f55f"
 name = "Neighborhood"
 pluralName = "Neighborhoods"
 shortName = "Neighborhood"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 51.49623591275324
 lng = -0.1412916908157058
 cc = "GB"
@@ -34,7 +34,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "London", "Greater London",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.49623591275324
 lng = -0.1412916908157058

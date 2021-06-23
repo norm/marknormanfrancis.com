@@ -5,33 +5,33 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/ad133581f31dd767e92e015ab52f0e9b187a7f1775e3acba29cf3887393a6e44.png"
 tag = [ "fort-clonque",]
 
-[data]
+[checkin]
 id = "513dbcc2e4b02357ef6bfffd"
 createdAt = 1363000514
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4d42c1e9b6e7370415728809"
 name = "Fort Clonque"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d165941735"
 name = "Scenic Lookout"
 pluralName = "Scenic Lookouts"
 shortName = "Scenic Lookout"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 49.70879700646825
 lng = -2.2148750000000064
 cc = "GG"
 country = "Guernsey"
 formattedAddress = [ "Guernsey",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 49.70879700646825
 lng = -2.2148750000000064

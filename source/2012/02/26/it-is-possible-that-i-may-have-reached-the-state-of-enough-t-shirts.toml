@@ -3,3 +3,6 @@ published = 2012-02-26T11:12:29Z
 image = "https://mnf.m17s.net/2012/02/26/it-is-possible-that-i-may-have-reached-the-state-of-enough-t-shirts.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/02/26/it-is-possible-that-i-may-have-reached-the-state-of-enough-t-shirts.200.jpg"

@@ -3,3 +3,6 @@ published = 2014-04-17T17:24:57Z
 image = "https://mnf.m17s.net/2014/04/17/todo-rip-and-encode-42-dvds-of-babylon-5-good-job-i-wrote-some-software-for-this.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2014/04/17/todo-rip-and-encode-42-dvds-of-babylon-5-good-job-i-wrote-some-software-for-this.200.jpg"

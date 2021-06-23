@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/b6374d336049a4ef138e0a7a9f15f0b848d52f503c3314f
 tag = [ "buffalo-billiards",]
 local_timestamp = 2012-03-07T20:18:07Z
 
-[data]
+[checkin]
 id = "4f5816dfe4b0e48a874e2dcc"
 createdAt = 1331173087
 type = "checkin"
 timeZoneOffset = -360
 
-[data.venue]
+[checkin.venue]
 id = "43e5cda9f964a520f92e1fe3"
 name = "Buffalo Billiards"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11d941735"
 name = "Sports Bar"
 pluralName = "Sports Bars"
 shortName = "Sports Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/sportsbar_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "201 E 6th St"
 crossStreet = "Brazos St"
 lat = 30.26755759282207
@@ -37,10 +37,10 @@ city = "Austin"
 state = "TX"
 country = "United States"
 formattedAddress = [ "201 E 6th St (Brazos St)", "Austin, TX 78701", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.26755759282207
 lng = -97.74119194934842
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "105357105"

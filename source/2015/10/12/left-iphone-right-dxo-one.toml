@@ -3,3 +3,6 @@ published = 2015-10-12T16:57:59Z
 image = "https://mnf.m17s.net/2015/10/12/left-iphone-right-dxo-one.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/10/12/left-iphone-right-dxo-one.200.jpg"

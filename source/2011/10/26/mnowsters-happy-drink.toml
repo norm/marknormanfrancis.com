@@ -3,3 +3,6 @@ published = 2011-10-26T11:38:26Z
 image = "https://mnf.m17s.net/2011/10/26/mnowsters-happy-drink.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/10/26/mnowsters-happy-drink.200.jpg"

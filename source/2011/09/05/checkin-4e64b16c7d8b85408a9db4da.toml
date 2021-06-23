@@ -7,27 +7,27 @@ tag = [ "lowlander-grand-cafe",]
 photos = [ "https://mnf.m17s.net/2011/09/05/checkin-4e64b16c7d8b85408a9db4da-0.jpg",]
 local_timestamp = 2011-09-05T13:24:28Z
 
-[data]
+[checkin]
 id = "4e64b16c7d8b85408a9db4da"
 createdAt = 1315221868
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b5b2169f964a5204fe528e3"
 name = "Lowlander Grand Cafe"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "56aa371ce4b08b9a8d57356c"
 name = "Beer Bar"
 pluralName = "Beer Bars"
 shortName = "Beer Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "36 Drury Ln"
 lat = 51.51490679847883
 lng = -0.1223824150685712
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "36 Drury Ln", "London", "Greater London", "WC2B 5RR",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51490679847883
 lng = -0.1223824150685712

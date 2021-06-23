@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "No. 65 & King"
 tag = [ "no-65-king",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2014/11/21/intimidating-burger-presentation.200.jpg"

@@ -3,3 +3,6 @@ published = 2013-12-31T09:51:39Z
 image = "https://mnf.m17s.net/2013/12/31/last-lie-in-of-the-year.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/12/31/last-lie-in-of-the-year.200.jpg"

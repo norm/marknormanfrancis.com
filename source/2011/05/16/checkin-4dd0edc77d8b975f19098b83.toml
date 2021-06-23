@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/a40fb33c021bd59ca00c655059b82648bbc8cdda8b34885
 tag = [ "shakespeares-head-wetherspoon",]
 local_timestamp = 2011-05-16T11:26:31Z
 
-[data]
+[checkin]
 id = "4dd0edc77d8b975f19098b83"
 createdAt = 1305537991
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4afd6abff964a520b62722e3"
 name = "Shakespeare's Head (Wetherspoon)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "64-68 Kingsway"
 lat = 51.51675611115309
 lng = -0.11968916165935206
@@ -36,7 +36,7 @@ city = "Holborn"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "64-68 Kingsway", "Holborn", "Greater London", "WC2B 6BG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51675611115309
 lng = -0.11968916165935206

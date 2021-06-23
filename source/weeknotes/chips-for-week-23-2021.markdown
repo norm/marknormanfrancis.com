@@ -1,14 +1,27 @@
 ```
 title = "Chips for week 23, 2021"
 published = 2021-06-14T06:03:07Z
-origin = "twitter-cackhanded"
-type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/1404318463091478528"
-twitter_account = "cackhanded"
-tweet_id = "1404318463091478528"
+origin = "mnf"
+type = "article"
+subject = "weeknotes"
+image = "https://mnf.m17s.net/2021/06/14/E30kMQYXoAU19Eg.jpg"
+tag = [ "weekchips", "repo-flourish", "repo-sectile", ]
+previous_slug = [
+    '/2021/06/14/chips-for-week-23-2021',
+]
+summary = """
+  I improved the development experience behind the templating library that
+  builds this website, and started restoring the last of the missing content.
+"""
+
+[twitter]
+contains_tweet = [ "1404318463091478528",]
 retweets = 0
 favourites = 1
-tag = [ "weekchips", "repo-flourish", "repo-sectile", ]
+
+[thumbnail]
+chips = "https://mnf.m17s.net/2021/06/14/E30kMQYXoAU19Eg.chips.jpg"
+w200 = "https://mnf.m17s.net/2021/06/14/E30kMQYXoAU19Eg.200.jpg"
 ```
 
 Another week, and I’m still [stacking chips][chips]. Last week’s

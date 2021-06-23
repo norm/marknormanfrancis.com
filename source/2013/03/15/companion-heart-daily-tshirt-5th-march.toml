@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2013/03/15/companion-heart-daily-tshirt-5th-march.
 origin = "instagram"
 type = "photo"
 tag = [ "daily", "tshirt",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/03/15/companion-heart-daily-tshirt-5th-march.200.jpg"

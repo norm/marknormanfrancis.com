@@ -3,3 +3,6 @@ published = 2011-08-15T14:39:17Z
 image = "https://mnf.m17s.net/2011/08/15/reflected-concentration.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/08/15/reflected-concentration.200.jpg"

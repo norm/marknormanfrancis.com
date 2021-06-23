@@ -7,3 +7,6 @@ location = "Wandsworth Bridge"
 text_markdown = "\n\nWandsworth Bridge and the buildings on Smuggler's Way lit up by sunrise"
 original_caption = "Morning\n\nWandsworth Bridge and the buildings on Smuggler's Way lit up by sunrise"
 tag = [ "wandsworth-bridge",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/10/05/morning.200.jpg"

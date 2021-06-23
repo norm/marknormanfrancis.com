@@ -3,3 +3,6 @@ published = 2012-02-03T16:08:16Z
 image = "https://mnf.m17s.net/2012/02/03/one-hundred-and-twenty-hairbands-should-tide-me-over.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/02/03/one-hundred-and-twenty-hairbands-should-tide-me-over.200.jpg"

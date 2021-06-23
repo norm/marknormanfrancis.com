@@ -3,3 +3,6 @@ published = 2012-04-04T06:45:50Z
 image = "https://mnf.m17s.net/2012/04/04/naked-against-the-sky.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/04/04/naked-against-the-sky.200.jpg"

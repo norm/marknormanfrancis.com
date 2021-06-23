@@ -3,3 +3,6 @@ published = 2012-10-19T12:44:29Z
 image = "https://mnf.m17s.net/2012/10/19/i-have-a-theory-that-no-one-can-look-bad-in-my-shady-brady.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/10/19/i-have-a-theory-that-no-one-can-look-bad-in-my-shady-brady.200.jpg"

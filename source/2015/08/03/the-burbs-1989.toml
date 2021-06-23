@@ -3,3 +3,6 @@ published = 2015-08-03T19:54:18Z
 image = "https://mnf.m17s.net/2015/08/03/the-burbs-1989.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/08/03/the-burbs-1989.200.jpg"

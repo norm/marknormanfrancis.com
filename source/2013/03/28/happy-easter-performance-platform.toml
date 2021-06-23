@@ -3,3 +3,6 @@ published = 2013-03-28T09:42:42Z
 image = "https://mnf.m17s.net/2013/03/28/happy-easter-performance-platform.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/03/28/happy-easter-performance-platform.200.jpg"

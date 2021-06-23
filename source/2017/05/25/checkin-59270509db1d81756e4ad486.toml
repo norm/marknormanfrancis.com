@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/210512be258969f8f86d85a609c2a59a15cff1de149b0b2
 tag = [ "the-george-and-dragon",]
 local_timestamp = 2017-05-25T18:23:37Z
 
-[data]
+[checkin]
 id = "59270509db1d81756e4ad486"
 createdAt = 1495729417
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ad5c7c6f964a520770321e3"
 name = "The George and Dragon"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "151 Cleveland St"
 lat = 51.523101699303275
 lng = -0.14201940698949492
@@ -36,7 +36,7 @@ cc = "GB"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "151 Cleveland St", "Regent's Park", "Greater London", "W1T 6QN",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.523101699303275
 lng = -0.14201940698949492

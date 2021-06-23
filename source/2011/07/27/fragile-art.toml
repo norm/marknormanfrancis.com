@@ -3,3 +3,6 @@ published = 2011-07-27T11:03:38Z
 image = "https://mnf.m17s.net/2011/07/27/fragile-art.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/07/27/fragile-art.200.jpg"

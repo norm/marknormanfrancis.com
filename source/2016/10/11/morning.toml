@@ -7,3 +7,6 @@ location = "Coopers Sandwich Bar"
 text_markdown = "\n\nAny new place I work means a search for a good sandwich place to get breakfast. This one's okay."
 original_caption = "Morning\n\nAny new place I work means a search for a good sandwich place to get breakfast. This one's okay."
 tag = [ "coopers-sandwich-bar",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/10/11/morning.200.jpg"

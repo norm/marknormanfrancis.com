@@ -3,3 +3,6 @@ published = 2013-04-04T16:25:15Z
 image = "https://mnf.m17s.net/2013/04/04/0-to-3-whiteboards-in-one-day.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/04/04/0-to-3-whiteboards-in-one-day.200.jpg"

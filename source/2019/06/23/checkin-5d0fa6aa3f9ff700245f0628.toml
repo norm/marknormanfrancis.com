@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/e7aebead978441f3e1e5eadf3b337781138772f66554fb1
 tag = [ "accident-and-emergency",]
 local_timestamp = 2019-06-23T18:19:54Z
 
-[data]
+[checkin]
 id = "5d0fa6aa3f9ff700245f0628"
 createdAt = 1561306794
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "552ab145498ea8f3dc71aa94"
 name = "Accident and Emergency"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d194941735"
 name = "Emergency Room"
 pluralName = "Emergency Rooms"
 shortName = "Emergency Room"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/medical_ems_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "St George's Hospital"
 crossStreet = "Blackshaw Rd"
 lat = 51.425649
@@ -37,7 +37,7 @@ city = "Tooting"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "St George's Hospital (Blackshaw Rd)", "Tooting", "Greater London", "SW17 0QT",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.425649
 lng = -0.174516

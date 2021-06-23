@@ -3,3 +3,6 @@ published = 2012-05-07T19:31:48Z
 image = "https://mnf.m17s.net/2012/05/07/ubuntu-cola-unusually-for-a-non-coke-cola-very-tasty.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/05/07/ubuntu-cola-unusually-for-a-non-coke-cola-very-tasty.200.jpg"

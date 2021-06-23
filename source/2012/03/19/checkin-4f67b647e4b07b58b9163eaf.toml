@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/c426196dd71ab73ab6015083063724b81321ba86e4c9141
 tag = [ "george-bush-intercontinental-airport-iah",]
 local_timestamp = 2012-03-19T17:42:15Z
 
-[data]
+[checkin]
 id = "4f67b647e4b07b58b9163eaf"
 createdAt = 1332196935
 type = "checkin"
 timeZoneOffset = -300
 
-[data.venue]
+[checkin.venue]
 id = "44d1efc9f964a52032361fe3"
 name = "George Bush Intercontinental Airport (IAH)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1ed931735"
 name = "Airport"
 pluralName = "Airports"
 shortName = "Airport"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/airport_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "2800 N Terminal Rd"
 crossStreet = "at John F Kennedy Blvd"
 lat = 29.986479016260077
@@ -38,10 +38,10 @@ city = "Houston"
 state = "TX"
 country = "United States"
 formattedAddress = [ "2800 N Terminal Rd (at John F Kennedy Blvd)", "Houston, TX 77032", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 29.986479016260077
 lng = -95.34154415130615
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "38685624"

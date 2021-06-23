@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/4556b301edc774ed4ddfe8192fd9a99a8bb578ca4395e86
 tag = [ "sainsburys",]
 local_timestamp = 2017-07-16T13:42:02Z
 
-[data]
+[checkin]
 id = "596b510ae55d8b06c50ebcbb"
 createdAt = 1500205322
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ad8c98cf964a520a31421e3"
 name = "Sainsbury's"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "52f2ab2ebcbc57f1066b8b46"
 name = "Supermarket"
 pluralName = "Supermarkets"
 shortName = "Supermarket"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "45 Garratt Ln"
 lat = 51.45442437553618
 lng = -0.191674053927946
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "45 Garratt Ln", "London", "Greater London", "SW18 4AD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.45442437553618
 lng = -0.191674053927946

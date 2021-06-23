@@ -3,3 +3,6 @@ published = 2011-11-09T09:55:45Z
 image = "https://mnf.m17s.net/2011/11/09/whiteboard-pens.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/11/09/whiteboard-pens.200.jpg"

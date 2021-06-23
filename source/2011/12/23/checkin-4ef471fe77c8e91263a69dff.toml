@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/848a4c063982dfaf2e49c0db4cd95f78c892c9b8a6492906256e581223a6f5c2.png"
 tag = [ "pizza-express",]
 
-[data]
+[checkin]
 id = "4ef471fe77c8e91263a69dff"
 createdAt = 1324642814
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4bcdb201b6c49c74beb99591"
 name = "Pizza Express"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1ca941735"
 name = "Pizza Place"
 pluralName = "Pizza Places"
 shortName = "Pizza"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/pizza_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "99 High Holborn"
 lat = 51.51789903845762
 lng = -0.1187012754630814
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "99 High Holborn", "London", "Greater London", "WC1V 6LF",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51789903845762
 lng = -0.1187012754630814

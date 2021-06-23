@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/7b784da25ce0e025b6bb293fb9135071ac7844bbe86fb945218e860e5d52e89c.png"
 tag = [ "st-george-wharf-pier",]
 
-[data]
+[checkin]
 id = "58b85435d8b0ed0cd9fafd38"
 createdAt = 1488475189
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4e5e73b118a8c46e0835d07b"
 name = "St George Wharf Pier"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4e74f6cabd41c4836eac4c31"
 name = "Pier"
 pluralName = "Piers"
 shortName = "Piers"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/ferry_pier_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Riverside Walk"
 crossStreet = "St George Wharf"
 lat = 51.48606285175553
@@ -37,7 +37,7 @@ city = "Vauxhall"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Riverside Walk (St George Wharf)", "Vauxhall", "Greater London", "SW8 2LU",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.48606285175553
 lng = -0.12646075861676337

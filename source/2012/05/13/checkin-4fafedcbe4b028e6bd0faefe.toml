@@ -6,41 +6,41 @@ map = "https://mnf.m17s.net/maps/bd1b68f92c26b74e8068354b2aad7de40b6a7b5bb5aa5ec
 tag = [ "vue", "the-avengers", "movie",]
 local_timestamp = 2012-05-13T19:22:19Z
 
-[data]
+[checkin]
 id = "4fafedcbe4b028e6bd0faefe"
 createdAt = 1336929739
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ac518e9f964a520c4ab20e3"
 name = "Vue"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d180941735"
 name = "Multiplex"
 pluralName = "Multiplexes"
 shortName = "Cineplex"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
 suffix = ".png"
 
-[data.event]
+[checkin.event]
 id = "4f8e4b726aa363da309e2fbe"
 name = "The Avengers"
-[[data.event.categories]]
+[[checkin.event.categories]]
 id = "4dfb90c6bd413dd705e8f897"
 name = "Movie"
 pluralName = "Movies"
 shortName = "Movie"
 primary = true
 
-[data.event.categories.icon]
+[checkin.event.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "3 Cranbourn St"
 crossStreet = "Leicester Sq"
 lat = 51.51133864587725
@@ -51,7 +51,7 @@ city = "Leicester Square"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "3 Cranbourn St (Leicester Sq)", "Leicester Square", "Greater London", "WC2H 7AL",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51133864587725
 lng = -0.12931733306303878

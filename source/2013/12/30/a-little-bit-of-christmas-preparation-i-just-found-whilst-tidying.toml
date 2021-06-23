@@ -3,3 +3,6 @@ published = 2013-12-30T09:19:41Z
 image = "https://mnf.m17s.net/2013/12/30/a-little-bit-of-christmas-preparation-i-just-found-whilst-tidying.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/12/30/a-little-bit-of-christmas-preparation-i-just-found-whilst-tidying.200.jpg"

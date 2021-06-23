@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Gate 3"
 tag = [ "gate-3",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/03/07/loading-up-the-delicious-airline-foods.200.jpg"

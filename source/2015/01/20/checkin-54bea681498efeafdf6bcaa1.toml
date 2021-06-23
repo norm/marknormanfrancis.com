@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/926c07eade74635c7078059da10d23eb349786eb5339148551c9d678fe5ca383.png"
 tag = [ "the-northall",]
 
-[data]
+[checkin]
 id = "54bea681498efeafdf6bcaa1"
 createdAt = 1421780609
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4e13812ecc3f2ee5189898dc"
 name = "The Northall"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "52e81612bcbc57f1066b7a05"
 name = "English Restaurant"
 pluralName = "English Restaurants"
 shortName = "English"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "10A Northumberland Ave"
 crossStreet = "Whitehall Pl"
 lat = 51.50659890641054
@@ -36,10 +36,10 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "10A Northumberland Ave (Whitehall Pl)", "London", "Greater London", "WC2N 5AE",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.50659890641054
 lng = -0.12382149696350099
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "54330125"

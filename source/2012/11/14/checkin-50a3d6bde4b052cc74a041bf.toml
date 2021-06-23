@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/eae2404042b272ae53650985076c1d6b56eaced078f2f1fc18f0daa3b8e853b8.png"
 tag = [ "the-yorkshire-grey",]
 
-[data]
+[checkin]
 id = "50a3d6bde4b052cc74a041bf"
 createdAt = 1352914621
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518c0f964a5208ba320e3"
 name = "The Yorkshire Grey"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "2 Theobalds Rd"
 crossStreet = "Gray's Inn Rd"
 lat = 51.5215941
@@ -36,7 +36,7 @@ city = "Holborn"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "2 Theobalds Rd (Gray's Inn Rd)", "Holborn", "Greater London", "WC1X 8PN",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.5215941
 lng = -0.1135327

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "The Diner"
 tag = [ "the-diner",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/10/03/corned-beef-hash.200.jpg"

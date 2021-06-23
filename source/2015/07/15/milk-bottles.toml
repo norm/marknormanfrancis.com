@@ -3,3 +3,6 @@ published = 2015-07-15T10:52:30Z
 image = "https://mnf.m17s.net/2015/07/15/milk-bottles.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/07/15/milk-bottles.200.jpg"

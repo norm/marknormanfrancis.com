@@ -1,15 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 6 — The War Party”"
 published = 2020-10-09T07:15:02Z
-video_id = "S-sszZssMQw"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/S-sszZssMQw/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/S-sszZssMQw/default.jpg"
+medium = "https://i.ytimg.com/vi/S-sszZssMQw/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/S-sszZssMQw/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/S-sszZssMQw/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/S-sszZssMQw/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/S-sszZssMQw/maxresdefault.480.jpg"
+
+[youtube]
+id = "S-sszZssMQw"
+title = "Horizon Zero Dawn — Chapter 6 — The War Party"
 description = "A play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nIn Chapter 6, Aloy tries to find War Chief Sona.\n\n00:00 Opening titles\n00:21 Recap\n01:02 Mother's Rise\n10:50 Tutorial: Sharpshot Bow\n12:49 Tutoria: Carja Sharpshot Bow\n15:00 The War Party Massacre site\n20:35 Tallneck: Devil's Thirst\n29:12 The War-Chief's Trail\n47:45 Back to Devil's Thirst\n1:09:50 Map\n1:10:08 End screen\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "51"
 likes = "4"
 dislikes = "0"
 comments = "1"
-thumbnail = "https://i.ytimg.com/vi/S-sszZssMQw/maxresdefault.jpg"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
+
+[youtube.thumbnails.default]
+url = "https://i.ytimg.com/vi/S-sszZssMQw/default.jpg"
+width = 120
+height = 90
+
+[youtube.thumbnails.medium]
+url = "https://i.ytimg.com/vi/S-sszZssMQw/mqdefault.jpg"
+width = 320
+height = 180
+
+[youtube.thumbnails.high]
+url = "https://i.ytimg.com/vi/S-sszZssMQw/hqdefault.jpg"
+width = 480
+height = 360
+
+[youtube.thumbnails.standard]
+url = "https://i.ytimg.com/vi/S-sszZssMQw/sddefault.jpg"
+width = 640
+height = 480
+
+[youtube.thumbnails.maxres]
+url = "https://i.ytimg.com/vi/S-sszZssMQw/maxresdefault.jpg"
+width = 1280
+height = 720

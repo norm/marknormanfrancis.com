@@ -3,3 +3,6 @@ published = 2016-04-16T09:01:20Z
 image = "https://mnf.m17s.net/2016/04/16/new-glasses-pair-1-ray-ban-liteforce.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/04/16/new-glasses-pair-1-ray-ban-liteforce.200.jpg"

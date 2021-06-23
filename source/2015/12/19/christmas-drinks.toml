@@ -6,3 +6,6 @@ type = "photo"
 location = "Rose and Crown"
 original_caption = "Christmas drinks #latergram"
 tag = [ "latergram", "rose-and-crown",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/12/19/christmas-drinks.200.jpg"

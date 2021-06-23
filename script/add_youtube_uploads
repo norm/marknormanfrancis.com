@@ -54,32 +54,41 @@ while next_token is not None:
         slug = slugify(video['snippet']['title'])
         path = '%s/%s' % (subdir, slug)
         toml_file = 'source/%s.toml' % path
-        source = {}
-
         try:
             with open(toml_file, 'r') as handle:
                 source = toml.load(handle)
         except FileNotFoundError:
-            pass
+            source = {}
 
-        # if the source file already exists, don't replace any
-        # content except the stats counts
-        if 'video_id' not in source:
-            source = {
-                'title': 'Published YouTube video “%s”' %
-                    video['snippet']['title'].replace(' ', ' '),
-                'published': timestamp,
-                'video_id': item['contentDetails']['videoId'],
-                'origin': ORIGIN_MAPPING[video['snippet']['channelId']],
-                'origin_link_text': '%s channel' % video['snippet']['channelTitle'],
-                'origin_link_url': 'https://www.youtube.com/channel/%s' % video['snippet']['channelId'],
-                'type': 'video',
-                'description': video['snippet']['description'].replace(' ', ' '),
-            }
+        # nothing in these posts should be edited by hand,
+        # so updating the entire thing is fair game
+        source['title'] = 'Published YouTube video “%s”' % \
+                            video['snippet']['title'].replace(' ', ' ')
+        source['published'] = timestamp
+        source['origin'] = ORIGIN_MAPPING[video['snippet']['channelId']]
+        source['origin_link_text'] = '%s channel' % \
+                            video['snippet']['channelTitle']
+        source['origin_link_url'] = 'https://www.youtube.com/channel/%s' % \
+                            video['snippet']['channelId']
+        source['type'] = 'video'
+        if 'thumbnail' not in source:
+            source['thumbnail'] = {}
+        for size in video['snippet']['thumbnails']:
+            source['thumbnail'][size] = \
+                video['snippet']['thumbnails'][size]['url']
+
+        if 'image' not in source:
             try:
-                source['thumbnail'] = video['snippet']['thumbnails']['maxres']['url']
-            except KeyError:
-                source['thumbnail'] = video['snippet']['thumbnails']['default']['url']
+                source['image'] = video['snippet']['thumbnails']['maxres']['url']
+            except:
+                source['image'] = video['snippet']['thumbnails']['high']['url']
+
+        source['youtube'] ={
+            'id': item['contentDetails']['videoId'],
+            'title': video['snippet']['title'].replace(' ', ' '),
+            'description': video['snippet']['description'].replace(' ', ' '),
+            'thumbnails': video['snippet']['thumbnails'],
+        }
 
         # use trailing hashtags from the description
         source['tag'] = [
@@ -87,17 +96,17 @@ while next_token is not None:
                 for word in video['snippet']['description'].split()
                     if word.startswith('#')
         ]
-        source['description'] = re.sub(
+        source['youtube']['description'] = re.sub(
                 r'(#[\w]+\s*)+\s*$',
                 r'',
-                source['description']
+                source['youtube']['description']
             )
 
         if video['snippet']['channelTitle'] != 'Mark Norman Francis':
             source['tag'].append(tagify(video['snippet']['channelTitle']))
             source['theme'] = tagify(video['snippet']['channelTitle'])
 
-        source.update({
+        source['youtube'].update({
             'views': video['statistics']['viewCount'],
             'likes': video['statistics']['likeCount'],
             'dislikes': video['statistics']['dislikeCount'],

@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/75da6a9668d522f75881e00cebeff7eb4cbbf4866e478bf76b52b3df1581e905.png"
 tag = [ "alderney-airport-aci",]
 
-[data]
+[checkin]
 id = "513dbccde4b07fb439edeee0"
 createdAt = 1363000525
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4c6927c1c946e21e025ae98e"
 name = "Alderney Airport (ACI)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1ed931735"
 name = "Airport"
 pluralName = "Airports"
 shortName = "Airport"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/airport_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 49.708690049172866
 lng = -2.2148224092320605
 cc = "GG"
@@ -33,7 +33,7 @@ city = "Alderney"
 state = "Channel Islands"
 country = "Guernsey"
 formattedAddress = [ "Alderney", "Guernsey",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 49.708690049172866
 lng = -2.2148224092320605

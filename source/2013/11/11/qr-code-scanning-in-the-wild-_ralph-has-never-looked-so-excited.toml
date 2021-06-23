@@ -3,3 +3,6 @@ published = 2013-11-11T14:04:42Z
 image = "https://mnf.m17s.net/2013/11/11/qr-code-scanning-in-the-wild-_ralph-has-never-looked-so-excited.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/11/11/qr-code-scanning-in-the-wild-_ralph-has-never-looked-so-excited.200.jpg"

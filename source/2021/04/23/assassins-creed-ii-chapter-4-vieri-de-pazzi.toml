@@ -1,15 +1,51 @@
 title = "Published YouTube video “Assassin's Creed II — Chapter 4 — Vieri de' Pazzi”"
 published = 2021-04-23T15:31:03Z
-video_id = "_OilEmPhTSE"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "assassins-creed-ii", "assassins-creed", "ezio-collection", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/_OilEmPhTSE/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/_OilEmPhTSE/default.jpg"
+medium = "https://i.ytimg.com/vi/_OilEmPhTSE/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/_OilEmPhTSE/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/_OilEmPhTSE/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/_OilEmPhTSE/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/_OilEmPhTSE/maxresdefault.480.jpg"
+
+[youtube]
+id = "_OilEmPhTSE"
+title = "Assassin's Creed II — Chapter 4 — Vieri de' Pazzi"
 description = "In Chapter 4, Ezio takes care of Vieri.\n\n0:00 Opening titles\n0:22 What Goes Around\n13:30 A Change Of Plans\n42:48 Practice What You Preach\n51:00 Glyph: Mercato Vecchio\n53:53 Fox Hunt\n58:40 See You There\n1:01:46 Database entries\n1:06:06 End card\n\nA play through of the game Assassin's Creed II. All of the main story, some of the side missions. No tedious commentary.\n\n"
-thumbnail = "https://i.ytimg.com/vi/_OilEmPhTSE/maxresdefault.jpg"
 views = "6"
 likes = "0"
 dislikes = "0"
 comments = "0"
-tag = [ "assassins-creed-ii", "assassins-creed", "ezio-collection", "game-shows",]
-theme = "game-shows"
+
+[youtube.thumbnails.default]
+url = "https://i.ytimg.com/vi/_OilEmPhTSE/default.jpg"
+width = 120
+height = 90
+
+[youtube.thumbnails.medium]
+url = "https://i.ytimg.com/vi/_OilEmPhTSE/mqdefault.jpg"
+width = 320
+height = 180
+
+[youtube.thumbnails.high]
+url = "https://i.ytimg.com/vi/_OilEmPhTSE/hqdefault.jpg"
+width = 480
+height = 360
+
+[youtube.thumbnails.standard]
+url = "https://i.ytimg.com/vi/_OilEmPhTSE/sddefault.jpg"
+width = 640
+height = 480
+
+[youtube.thumbnails.maxres]
+url = "https://i.ytimg.com/vi/_OilEmPhTSE/maxresdefault.jpg"
+width = 1280
+height = 720

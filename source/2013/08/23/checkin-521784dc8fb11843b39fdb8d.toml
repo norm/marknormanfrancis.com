@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/d0c2d165af1eb09086d5871a4cafc0585c94912cd828459
 tag = [ "platform-4",]
 local_timestamp = 2013-08-23T17:50:52Z
 
-[data]
+[checkin]
 id = "521784dc8fb11843b39fdb8d"
 createdAt = 1377273052
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4cfa1ffed8468cfa32afeb6b"
 name = "Platform 4"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4f4531504b9074f6e4fb0102"
 name = "Platform"
 pluralName = "Platforms"
 shortName = "Platform"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Newcastle Central Station (NCL)"
 lat = 54.968116055576694
 lng = -1.6165692872501791
@@ -35,7 +35,7 @@ neighborhood = "grainger"
 city = "Newcastle upon Tyne"
 country = "United Kingdom"
 formattedAddress = [ "Newcastle Central Station (NCL)", "Newcastle upon Tyne",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 54.968116055576694
 lng = -1.6165692872501791

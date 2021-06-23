@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "WarGames (1983) #movie #latergram"
 tag = [ "latergram", "movie",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/12/20/wargames-1983.200.jpg"

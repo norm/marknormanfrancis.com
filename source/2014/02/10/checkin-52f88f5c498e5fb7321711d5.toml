@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/a76364129b96a850115d43014713fea62adcc5e3e38baba
 tag = [ "barcelona-el-prat-josep-tarradellas-airport-bcn-aeropuerto-josep-tarradellas-barcelona-el-prat",]
 local_timestamp = 2014-02-10T09:35:40Z
 
-[data]
+[checkin]
 id = "52f88f5c498e5fb7321711d5"
 createdAt = 1392021340
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b7980a2f964a5202bfd2ee3"
 name = "Barcelona–El Prat Josep Tarradellas Airport (BCN) (Aeropuerto Josep Tarradellas Barcelona-El Prat)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1ed931735"
 name = "Airport"
 pluralName = "Airports"
 shortName = "Airport"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/airport_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Ctra. de El Prat de Llobregat"
 lat = 41.29560699312263
 lng = 2.0762228965759277
@@ -37,7 +37,7 @@ city = "El Prat de Llobregat"
 state = "Catalonia"
 country = "Spain"
 formattedAddress = [ "Ctra. de El Prat de Llobregat", "08820 El Prat de Llobregat Cataluña", "España",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 41.29560699312263
 lng = 2.0762228965759277

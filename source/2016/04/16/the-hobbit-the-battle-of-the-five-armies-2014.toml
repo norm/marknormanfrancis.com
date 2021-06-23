@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "The Hobbit: The Battle of the Five Armies (2014) #extended #movie"
 tag = [ "extended", "movie",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/04/16/the-hobbit-the-battle-of-the-five-armies-2014.200.jpg"

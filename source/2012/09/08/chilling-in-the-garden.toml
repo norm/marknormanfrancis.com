@@ -3,3 +3,6 @@ published = 2012-09-08T14:58:00Z
 image = "https://mnf.m17s.net/2012/09/08/chilling-in-the-garden.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/09/08/chilling-in-the-garden.200.jpg"

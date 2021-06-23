@@ -3,3 +3,6 @@ published = 2013-09-05T22:43:19Z
 image = "https://mnf.m17s.net/2013/09/05/think-somethings-happening-tomorrow.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/09/05/think-somethings-happening-tomorrow.200.jpg"

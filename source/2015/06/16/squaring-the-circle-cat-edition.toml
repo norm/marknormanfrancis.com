@@ -3,3 +3,6 @@ published = 2015-06-16T14:04:06Z
 image = "https://mnf.m17s.net/2015/06/16/squaring-the-circle-cat-edition.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/06/16/squaring-the-circle-cat-edition.200.jpg"

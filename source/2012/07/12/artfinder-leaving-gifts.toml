@@ -3,3 +3,6 @@ published = 2012-07-12T06:17:21Z
 image = "https://mnf.m17s.net/2012/07/12/artfinder-leaving-gifts.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/07/12/artfinder-leaving-gifts.200.jpg"

@@ -5,28 +5,28 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/f492ce968080cf492a9a18dc8b9a3881c25e53f8c10217519ee1c6b80e578dae.png"
 tag = [ "foxlow-balham",]
 
-[data]
+[checkin]
 id = "58c44bc5102f47695bfd3251"
 createdAt = 1489259461
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "5638b4d7cd10318028f0b4c3"
 name = "Foxlow Balham"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "52e81612bcbc57f1066b7a05"
 name = "English Restaurant"
 pluralName = "English Restaurants"
 shortName = "English"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "15-19 Bedford Hill"
 lat = 51.444657218543846
 lng = -0.150806134360827
@@ -36,7 +36,7 @@ city = "Balham"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "15-19 Bedford Hill", "Balham", "Greater London", "SW12 9EX",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.444657218543846
 lng = -0.150806134360827

@@ -1,15 +1,15 @@
       <dt>source</dt>
-      <dd>Originally posted to <a href='{{original_url}}'>Twitter</a>
-          {% if twitter_account != 'cackhanded' %}
+      <dd>Originally posted to <a href='https://twitter.com/{{twitter.account}}/status/{{twitter.first_tweet}}'>Twitter</a>
+          {% if twitter.account != 'cackhanded' %}
             by
-            <a href='https://twitter.com/{{twitter_account}}'>@{{twitter_account}}</a>
+            <a href='https://twitter.com/{{twitter.account}}'>@{{twitter.account}}</a>
           {% endif %}
       </dd>
-      {% if retweets %}
+      {% if twitter.retweets %}
         <dt>retweets</dt>
-        <dd>{{retweets}}</dd>
+        <dd>{{twitter.retweets}}</dd>
       {% endif %}
-      {% if favourites %}
+      {% if twitter.favourites %}
         <dt>favourites</dt>
-        <dd>{{favourites}}</dd>
+        <dd>{{twitter.favourites}}</dd>
       {% endif %}

@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/fcfcee4eea11a1c0a2ad4fe56584edb53a53fd964b1e926
 tag = [ "british-museum",]
 local_timestamp = 2012-06-26T13:14:26Z
 
-[data]
+[checkin]
 id = "4fe99992e4b0c55bde96a5ac"
 createdAt = 1340709266
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ac518d2f964a5203da720e3"
 name = "British Museum"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d190941735"
 name = "History Museum"
 pluralName = "History Museums"
 shortName = "History Museum"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_history_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Great Russell St"
 crossStreet = "btwn Montague & Bloomsbury St"
 lat = 51.51900874337275
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Great Russell St (btwn Montague & Bloomsbury St)", "London", "Greater London", "WC1B 3DG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51900874337275
 lng = -0.12643718771869317

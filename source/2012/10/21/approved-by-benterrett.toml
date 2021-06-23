@@ -3,3 +3,6 @@ published = 2012-10-21T08:12:44Z
 image = "https://mnf.m17s.net/2012/10/21/approved-by-benterrett.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/10/21/approved-by-benterrett.200.jpg"

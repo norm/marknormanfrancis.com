@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/73f87c095441f6f7c4ef7036332b1b78bbb147dd7b07125
 tag = [ "eventim-apollo",]
 local_timestamp = 2019-10-05T20:56:30Z
 
-[data]
+[checkin]
 id = "5d98e75e7effdb00087536dc"
 createdAt = 1570301790
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ae19e32f964a520708621e3"
 name = "Eventim Apollo"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "5032792091d4c4b30a586d5c"
 name = "Concert Hall"
 pluralName = "Concert Halls"
 shortName = "Concert Hall"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "45 Queen Caroline St"
 lat = 51.49118747845862
 lng = -0.22468370488266876
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "45 Queen Caroline St", "London", "Greater London", "W6 9QH",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.49118747845862
 lng = -0.22468370488266876

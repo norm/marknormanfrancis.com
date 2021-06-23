@@ -3,3 +3,6 @@ published = 2018-01-18T13:06:41Z
 image = "https://mnf.m17s.net/2018/01/18/socks-to-the-left-to-be-added-to-the-collection-socks-to-the-right-not-blue-undecided.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2018/01/18/socks-to-the-left-to-be-added-to-the-collection-socks-to-the-right-not-blue-undecided.200.jpg"

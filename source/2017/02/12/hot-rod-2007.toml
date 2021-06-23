@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Hot Rod (2007) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2017/02/12/hot-rod-2007.200.jpg"

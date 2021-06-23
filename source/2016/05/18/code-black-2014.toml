@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Code Black (2014) #documentary #movie"
 tag = [ "documentary", "movie",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/05/18/code-black-2014.200.jpg"

@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/997e9516f632f297455fdabed356763dd38902e2fddfbcf
 tag = [ "somerset-house",]
 local_timestamp = 2017-08-23T17:41:03Z
 
-[data]
+[checkin]
 id = "599da20f840fc268da28b305"
 createdAt = 1503502863
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ac518cff964a52063a620e3"
 name = "Somerset House"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d171941735"
 name = "Event Space"
 pluralName = "Event Spaces"
 shortName = "Event Space"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/eventspace_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Strand"
 lat = 51.51078575130956
 lng = -0.11789917945861816
@@ -36,10 +36,10 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Strand", "London", "Greater London", "WC2R 1LA",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51078575130956
 lng = -0.11789917945861816
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "45884508"

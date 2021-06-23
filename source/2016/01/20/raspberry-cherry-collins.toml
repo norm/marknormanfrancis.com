@@ -6,3 +6,6 @@ type = "photo"
 location = "Browns Covent Garden"
 original_caption = "Raspberry Cherry Collins "
 tag = [ "browns-covent-garden",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/01/20/raspberry-cherry-collins.200.jpg"

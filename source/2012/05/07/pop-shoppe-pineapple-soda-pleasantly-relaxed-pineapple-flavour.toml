@@ -3,3 +3,6 @@ published = 2012-05-07T19:22:20Z
 image = "https://mnf.m17s.net/2012/05/07/pop-shoppe-pineapple-soda-pleasantly-relaxed-pineapple-flavour.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/05/07/pop-shoppe-pineapple-soda-pleasantly-relaxed-pineapple-flavour.200.jpg"

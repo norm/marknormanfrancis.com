@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/a7378728b8e612d41eb6c459b5ca57bb5e97841b7dd953a1a5bdc66c97e1ee71.png"
 tag = [ "corinthia-hotel",]
 
-[data]
+[checkin]
 id = "5bec5a36fd9d73002ce64a24"
 createdAt = 1542216246
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4d274945d86aa09024d41dc0"
 name = "Corinthia Hotel"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1fa931735"
 name = "Hotel"
 pluralName = "Hotels"
 shortName = "Hotel"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/hotel_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Whitehall Pl"
 lat = 51.506606723475606
 lng = -0.12446016991110907
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Whitehall Pl", "London", "Greater London", "SW1A 2BD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.506606723475606
 lng = -0.12446016991110907

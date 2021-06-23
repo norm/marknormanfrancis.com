@@ -3,3 +3,6 @@ published = 2012-02-06T14:55:30Z
 image = "https://mnf.m17s.net/2012/02/06/progressive-enhancement.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/02/06/progressive-enhancement.200.jpg"

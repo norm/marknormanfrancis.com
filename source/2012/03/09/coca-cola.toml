@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Hut's Hamburgers"
 tag = [ "huts-hamburgers",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/03/09/coca-cola.200.jpg"

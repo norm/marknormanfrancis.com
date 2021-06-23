@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/0471dd1321a85a33fa8dcee1f2d9ea3118c3847ec165c2a
 tag = [ "hawksmoor-spitalfields",]
 local_timestamp = 2012-07-11T20:41:36Z
 
-[data]
+[checkin]
 id = "4ffdc8e0e4b0401071623ffa"
 createdAt = 1342032096
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ac518c0f964a520aba320e3"
 name = "Hawksmoor Spitalfields"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1cc941735"
 name = "Steakhouse"
 pluralName = "Steakhouses"
 shortName = "Steakhouse"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "157A Commercial Street"
 lat = 51.521438
 lng = -0.075844
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "157A Commercial Street", "London", "Greater London", "E1 6BJ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.521438
 lng = -0.075844

@@ -3,3 +3,6 @@ published = 2014-01-31T14:50:02Z
 image = "https://mnf.m17s.net/2014/01/31/badge-now-in-transport.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2014/01/31/badge-now-in-transport.200.jpg"

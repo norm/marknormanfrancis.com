@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Central Intelligence (2016) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/12/16/central-intelligence-2016.200.jpg"

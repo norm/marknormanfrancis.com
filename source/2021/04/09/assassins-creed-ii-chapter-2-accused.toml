@@ -1,15 +1,51 @@
 title = "Published YouTube video “Assassin's Creed II — Chapter 2 — Accused”"
 published = 2021-04-09T15:33:11Z
-video_id = "P5wHTbpQe_U"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "assassins-creed-ii", "assassins-creed", "ezio-collection", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/P5wHTbpQe_U/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/P5wHTbpQe_U/default.jpg"
+medium = "https://i.ytimg.com/vi/P5wHTbpQe_U/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/P5wHTbpQe_U/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/P5wHTbpQe_U/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/P5wHTbpQe_U/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/P5wHTbpQe_U/maxresdefault.480.jpg"
+
+[youtube]
+id = "P5wHTbpQe_U"
+title = "Assassin's Creed II — Chapter 2 — Accused"
 description = "In Chapter 2, Ezio attends a trial.\n\n0:00 Opening titles\n0:22 Special Delivery\n5:40 Jailbird\n15:00 Family heirloom\n23:20 Last man standing\n32:06 Glyph: La Rosa Colta\n37:10 Fitting in\n42:40 Ace up my sleeve\n54:18 Database entries\n58:12 End card\n\nA play through of the game Assassin's Creed II. All of the main story, some of the side missions. No tedious commentary.\n\n"
-thumbnail = "https://i.ytimg.com/vi/P5wHTbpQe_U/maxresdefault.jpg"
 views = "6"
 likes = "0"
 dislikes = "0"
 comments = "0"
-tag = [ "assassins-creed-ii", "assassins-creed", "ezio-collection", "game-shows",]
-theme = "game-shows"
+
+[youtube.thumbnails.default]
+url = "https://i.ytimg.com/vi/P5wHTbpQe_U/default.jpg"
+width = 120
+height = 90
+
+[youtube.thumbnails.medium]
+url = "https://i.ytimg.com/vi/P5wHTbpQe_U/mqdefault.jpg"
+width = 320
+height = 180
+
+[youtube.thumbnails.high]
+url = "https://i.ytimg.com/vi/P5wHTbpQe_U/hqdefault.jpg"
+width = 480
+height = 360
+
+[youtube.thumbnails.standard]
+url = "https://i.ytimg.com/vi/P5wHTbpQe_U/sddefault.jpg"
+width = 640
+height = 480
+
+[youtube.thumbnails.maxres]
+url = "https://i.ytimg.com/vi/P5wHTbpQe_U/maxresdefault.jpg"
+width = 1280
+height = 720

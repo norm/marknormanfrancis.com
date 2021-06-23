@@ -3,30 +3,30 @@ published = 2016-12-14T18:11:39Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/61e75902e31e1668be593c84f5716d26dae5538c609ddc879e8960e67fe653b5.png"
-tag = [ "mcdonalds",]
+tag = [ "mc-donalds",]
 
-[data]
+[checkin]
 id = "58518b5b2896a250b766571c"
 createdAt = 1481739099
 type = "checkin"
 timeZoneOffset = 0
 shout = "with S-J"
 
-[data.venue]
+[checkin.venue]
 id = "4b8d96a8f964a520c60233e3"
 name = "McDonald's"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16e941735"
 name = "Fast Food Restaurant"
 pluralName = "Fast Food Restaurants"
 shortName = "Fast Food"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/fastfood_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "1 Marl Rd"
 lat = 51.46229384967831
 lng = -0.18675780585555776
@@ -36,7 +36,7 @@ city = "Wandsworth"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "1 Marl Rd", "Wandsworth", "Greater London", "SW18 1JT",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.46229384967831
 lng = -0.18675780585555776

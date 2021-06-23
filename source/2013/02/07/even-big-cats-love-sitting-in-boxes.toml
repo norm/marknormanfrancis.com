@@ -3,3 +3,6 @@ published = 2013-02-07T19:46:51Z
 image = "https://mnf.m17s.net/2013/02/07/even-big-cats-love-sitting-in-boxes.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/02/07/even-big-cats-love-sitting-in-boxes.200.jpg"

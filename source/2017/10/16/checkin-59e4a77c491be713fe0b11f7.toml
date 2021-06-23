@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/87b067f6543de52bd633e1fd9a92c485e30b0d29928dd0e
 tag = [ "lanesborough-wing",]
 local_timestamp = 2017-10-16T14:35:08Z
 
-[data]
+[checkin]
 id = "59e4a77c491be713fe0b11f7"
 createdAt = 1508157308
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "51505357e4b0dab64127c8fd"
 name = "Lanesborough Wing"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d196941735"
 name = "Hospital"
 pluralName = "Hospitals"
 shortName = "Hospital"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/medical_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "St George's Hospital"
 lat = 51.42719342899129
 lng = -0.17266898841978684
@@ -35,7 +35,7 @@ city = "Tooting"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "St George's Hospital", "Tooting", "Greater London",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.42719342899129
 lng = -0.17266898841978684

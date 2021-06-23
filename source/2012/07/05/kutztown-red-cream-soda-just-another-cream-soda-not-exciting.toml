@@ -3,3 +3,6 @@ published = 2012-07-05T12:11:20Z
 image = "https://mnf.m17s.net/2012/07/05/kutztown-red-cream-soda-just-another-cream-soda-not-exciting.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/07/05/kutztown-red-cream-soda-just-another-cream-soda-not-exciting.200.jpg"

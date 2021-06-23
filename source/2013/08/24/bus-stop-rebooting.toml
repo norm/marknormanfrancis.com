@@ -3,3 +3,6 @@ published = 2013-08-24T08:04:37Z
 image = "https://mnf.m17s.net/2013/08/24/bus-stop-rebooting.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/08/24/bus-stop-rebooting.200.jpg"

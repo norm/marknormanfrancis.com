@@ -3,3 +3,6 @@ published = 2015-07-31T17:31:36Z
 image = "https://mnf.m17s.net/2015/07/31/restoring-from-icloud-backup.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/07/31/restoring-from-icloud-backup.200.jpg"

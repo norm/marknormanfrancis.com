@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/e7f4f691cdefa9977657e53f2e0d7119d5e3b4517b0c271
 tag = [ "etc-venues",]
 local_timestamp = 2016-10-27T09:50:25Z
 
-[data]
+[checkin]
 id = "5811b1c138fa45dfd37048df"
 createdAt = 1477554625
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4f183b92e4b062dab9bcb6af"
 name = "etc Venues"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d171941735"
 name = "Event Space"
 pluralName = "Event Spaces"
 shortName = "Event Space"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/eventspace_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "200 Aldersgate St"
 lat = 51.51766121179891
 lng = -0.09765742431632782
@@ -35,7 +35,7 @@ cc = "GB"
 city = "London"
 country = "United Kingdom"
 formattedAddress = [ "200 Aldersgate St", "London", "8UE",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51766121179891
 lng = -0.09765742431632782

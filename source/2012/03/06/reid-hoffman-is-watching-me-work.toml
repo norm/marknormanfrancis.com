@@ -3,3 +3,6 @@ published = 2012-03-06T15:53:05Z
 image = "https://mnf.m17s.net/2012/03/06/reid-hoffman-is-watching-me-work.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/03/06/reid-hoffman-is-watching-me-work.200.jpg"

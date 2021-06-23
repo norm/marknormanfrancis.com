@@ -3,3 +3,6 @@ published = 2012-08-11T18:02:33Z
 image = "https://mnf.m17s.net/2012/08/11/imma-gonna-drive-some-boy.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/08/11/imma-gonna-drive-some-boy.200.jpg"

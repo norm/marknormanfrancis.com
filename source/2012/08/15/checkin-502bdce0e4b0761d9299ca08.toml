@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/ce4c6776790d54292db37be19a6780182d6cbbbd6c455dd
 tag = [ "t-m-lewin",]
 local_timestamp = 2012-08-15T19:31:12Z
 
-[data]
+[checkin]
 id = "502bdce0e4b0761d9299ca08"
 createdAt = 1345051872
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4d5cec00590b224b0f1aa66d"
 name = "T.M. Lewin"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d106951735"
 name = "Men's Store"
 pluralName = "Men's Stores"
 shortName = "Men's Store"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/apparel_men_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "1 Southampton Row"
 lat = 51.51806340159923
 lng = -0.12078523635864258
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "1 Southampton Row", "London", "Greater London", "WC1B 5HA",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51806340159923
 lng = -0.12078523635864258

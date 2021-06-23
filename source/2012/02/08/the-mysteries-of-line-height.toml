@@ -3,3 +3,6 @@ published = 2012-02-08T15:16:52Z
 image = "https://mnf.m17s.net/2012/02/08/the-mysteries-of-line-height.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/02/08/the-mysteries-of-line-height.200.jpg"

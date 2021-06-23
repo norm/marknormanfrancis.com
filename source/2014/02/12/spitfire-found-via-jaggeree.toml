@@ -3,3 +3,6 @@ published = 2014-02-12T15:44:09Z
 image = "https://mnf.m17s.net/2014/02/12/spitfire-found-via-jaggeree.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2014/02/12/spitfire-found-via-jaggeree.200.jpg"

@@ -3,3 +3,6 @@ published = 2012-06-22T07:53:04Z
 image = "https://mnf.m17s.net/2012/06/22/the-row-of-music.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/06/22/the-row-of-music.200.jpg"

@@ -1,15 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 7 — Outcasts”"
 published = 2020-10-12T07:15:01Z
-video_id = "mUbfI71cQZ0"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/mUbfI71cQZ0/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/mUbfI71cQZ0/default.jpg"
+medium = "https://i.ytimg.com/vi/mUbfI71cQZ0/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/mUbfI71cQZ0/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/mUbfI71cQZ0/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/mUbfI71cQZ0/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/mUbfI71cQZ0/maxresdefault.480.jpg"
+
+[youtube]
+id = "mUbfI71cQZ0"
+title = "Horizon Zero Dawn — Chapter 7 — Outcasts"
 description = "A play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nIn Chapter 7, Aloy defends a gang of outcasts.\n\n00:00 Opening titles\n00:21 Recap\n00:54 Insult to Injury\n30:08 To Mother's Crown\n38:40 Mother's Crown\n48:18 To Red Echoes\n52:46 Map\n53:05 End screen\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "35"
 likes = "3"
 dislikes = "0"
 comments = "1"
-thumbnail = "https://i.ytimg.com/vi/mUbfI71cQZ0/maxresdefault.jpg"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
+
+[youtube.thumbnails.default]
+url = "https://i.ytimg.com/vi/mUbfI71cQZ0/default.jpg"
+width = 120
+height = 90
+
+[youtube.thumbnails.medium]
+url = "https://i.ytimg.com/vi/mUbfI71cQZ0/mqdefault.jpg"
+width = 320
+height = 180
+
+[youtube.thumbnails.high]
+url = "https://i.ytimg.com/vi/mUbfI71cQZ0/hqdefault.jpg"
+width = 480
+height = 360
+
+[youtube.thumbnails.standard]
+url = "https://i.ytimg.com/vi/mUbfI71cQZ0/sddefault.jpg"
+width = 640
+height = 480
+
+[youtube.thumbnails.maxres]
+url = "https://i.ytimg.com/vi/mUbfI71cQZ0/maxresdefault.jpg"
+width = 1280
+height = 720

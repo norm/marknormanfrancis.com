@@ -3,3 +3,6 @@ published = 2015-07-20T14:04:53Z
 image = "https://mnf.m17s.net/2015/07/20/just-delivered-a-little-light-reading.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/07/20/just-delivered-a-little-light-reading.200.jpg"

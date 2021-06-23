@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/5355f8a417e2ae55311c2e7b1a98d056077a861cbbef78d
 tag = [ "hamilton-the-musical",]
 local_timestamp = 2018-05-14T20:20:22Z
 
-[data]
+[checkin]
 id = "5af9d366805e3f002cb90001"
 createdAt = 1526322022
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "5ac61bc961e53b3252e34b86"
 name = "Hamilton The Musical"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d137941735"
 name = "Theater"
 pluralName = "Theaters"
 shortName = "Theater"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 51.496550606702066
 lng = -0.14257782402355137
 postalCode = "SW1E 5LA"
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "London", "Greater London", "SW1E 5LA",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.496550606702066
 lng = -0.14257782402355137

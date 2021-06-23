@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/8608d76585ccd76599f4559c3edf2b9ba45294c6662520a
 tag = [ "hm-treasury",]
 local_timestamp = 2012-06-19T13:35:08Z
 
-[data]
+[checkin]
 id = "4fe063ece4b0442971efff5a"
 createdAt = 1340105708
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b7be589f964a52096722fe3"
 name = "HM Treasury"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d126941735"
 name = "Government Building"
 pluralName = "Government Buildings"
 shortName = "Government"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/government_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "1 Horse Guards Rd"
 lat = 51.50174643415555
 lng = -0.12912389652846362
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "1 Horse Guards Rd", "London", "Greater London", "SW1A 2HQ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.50174643415555
 lng = -0.12912389652846362

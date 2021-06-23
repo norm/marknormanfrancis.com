@@ -3,3 +3,6 @@ published = 2013-04-30T08:00:59Z
 image = "https://mnf.m17s.net/2013/04/30/amazon-dont-test-their-emails.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/04/30/amazon-dont-test-their-emails.200.jpg"

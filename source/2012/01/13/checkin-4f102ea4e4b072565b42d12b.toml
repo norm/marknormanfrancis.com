@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/fd6b867bb18fa18e3b119e8dac101cf6780606a87827e3cdc5468dbef2dbc6d3.png"
 tag = [ "bodeans",]
 
-[data]
+[checkin]
 id = "4f102ea4e4b072565b42d12b"
 createdAt = 1326460580
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4acdd0fbf964a5201acd20e3"
 name = "Bodean's"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1df931735"
 name = "BBQ Joint"
 pluralName = "BBQ Joints"
 shortName = "BBQ"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/bbqalt_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "10 Poland St"
 lat = 51.51444795914719
 lng = -0.13682428750085965
@@ -35,7 +35,7 @@ city = "Soho"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "10 Poland St", "Soho", "Greater London", "W1F 8PZ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51444795914719
 lng = -0.13682428750085965

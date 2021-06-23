@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Five gold and a party #daily #tshirt #new #tabletop #titansgrave"
 tag = [ "daily", "new", "tabletop", "titansgrave", "tshirt",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/07/30/five-gold-and-a-party.200.jpg"

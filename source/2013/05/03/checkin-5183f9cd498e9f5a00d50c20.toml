@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/5c919e415b1f025ab99763beac83b386276326d149a5244
 tag = [ "star-of-india",]
 local_timestamp = 2013-05-03T19:54:21Z
 
-[data]
+[checkin]
 id = "5183f9cd498e9f5a00d50c20"
 createdAt = 1367603661
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4dfa5482d22d964c6b9cae75"
 name = "Star Of India"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d10f941735"
 name = "Indian Restaurant"
 pluralName = "Indian Restaurants"
 shortName = "Indian"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/indian_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 55.00025162610421
 lng = -1.4251005748323984
 cc = "GB"
@@ -34,7 +34,7 @@ city = "South Tyneside"
 state = "South Tyneside"
 country = "United Kingdom"
 formattedAddress = [ "South Tyneside",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 55.00025162610421
 lng = -1.4251005748323984

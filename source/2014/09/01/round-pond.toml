@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "The Round Pond"
 tag = [ "the-round-pond",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2014/09/01/round-pond.200.jpg"

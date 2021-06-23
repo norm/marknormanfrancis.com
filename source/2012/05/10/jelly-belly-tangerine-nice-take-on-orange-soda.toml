@@ -3,3 +3,6 @@ published = 2012-05-10T14:08:04Z
 image = "https://mnf.m17s.net/2012/05/10/jelly-belly-tangerine-nice-take-on-orange-soda.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/05/10/jelly-belly-tangerine-nice-take-on-orange-soda.200.jpg"

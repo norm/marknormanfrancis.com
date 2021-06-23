@@ -3,3 +3,6 @@ published = 2015-03-21T13:28:13Z
 image = "https://mnf.m17s.net/2015/03/21/proof-my-wife-loves-me.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/03/21/proof-my-wife-loves-me.200.jpg"

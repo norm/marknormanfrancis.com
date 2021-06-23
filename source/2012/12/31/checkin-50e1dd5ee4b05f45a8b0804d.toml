@@ -5,32 +5,32 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/4e9d9705305da99fbd0f90215f78c5d074fc8fbefee6d3039436f2d2259b1c23.png"
 tag = [ "kittens-with-jetpacks-hq",]
 
-[data]
+[checkin]
 id = "50e1dd5ee4b05f45a8b0804d"
 createdAt = 1356979550
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "502e21e7e4b04de6f2f6659d"
 name = "Kittens With Jetpacks HQ"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d125941735"
 name = "Tech Startup"
 pluralName = "Tech Startups"
 shortName = "Tech Startup"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/technology_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 51.49214993953885
 lng = 0.013808417718670807
 cc = "GB"
 country = "United Kingdom"
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.49214993953885
 lng = 0.013808417718670807

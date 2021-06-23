@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Back to the Future (1985) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/10/21/back-to-the-future-1985.200.jpg"

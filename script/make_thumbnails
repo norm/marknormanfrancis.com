@@ -1,0 +1,50 @@
+#!/usr/bin/env python
+
+from flourish import Flourish
+import os
+import sys
+import toml
+from urllib.parse import urlparse
+
+from lib import update_content, get_markdown_data, make_thumbnail
+from lib.bucket import Bucket
+
+BUCKET = 'mnf.m17s.net'
+bucket = Bucket(BUCKET)
+
+
+width = int(sys.argv[1])
+
+flourish = Flourish()
+for source in flourish.sources.filter(image__set=''):
+    width_key = 'w%s' % width
+    if 'thumbnail' not in source or width_key not in source['thumbnail']:
+        destination, _ = os.path.splitext(urlparse(source['image']).path)
+        uploaded, dest_url = make_thumbnail(
+                source['image'],
+                width,
+                destination,
+                bucket,
+            )
+        if uploaded:
+            print('++', dest_url)
+
+        source_file = 'source/%s' % source._source
+        _, source_ext = os.path.splitext(source_file)
+        if source_ext == '.toml':
+            data = toml.load(source_file)
+            if 'thumbnail' not in data:
+                data['thumbnail'] = {}
+            data['thumbnail'][width_key] = dest_url
+            update_content(source_file, toml.dumps(data))
+        elif source_ext == '.markdown':
+            data, body = get_markdown_data(source_file)
+            if 'thumbnail' not in data:
+                data['thumbnail'] = {}
+            data['thumbnail'][width_key] = dest_url
+            update_content(
+                source_file,
+                '```\n%s```\n\n%s' % (toml.dumps(data), body),
+            )
+        else:
+            print('**  ??', source_ext, source._source)

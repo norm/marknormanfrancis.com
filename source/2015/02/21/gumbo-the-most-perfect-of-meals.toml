@@ -3,3 +3,6 @@ published = 2015-02-21T19:04:45Z
 image = "https://mnf.m17s.net/2015/02/21/gumbo-the-most-perfect-of-meals.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/02/21/gumbo-the-most-perfect-of-meals.200.jpg"

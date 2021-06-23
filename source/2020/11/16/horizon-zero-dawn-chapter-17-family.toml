@@ -1,15 +1,51 @@
 title = "Published YouTube video “Horizon Zero Dawn — Chapter 17 — Family”"
 published = 2020-11-16T07:15:01Z
-video_id = "m_0pa_3wGeE"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "horizon-zero-dawn", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/m_0pa_3wGeE/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/m_0pa_3wGeE/default.jpg"
+medium = "https://i.ytimg.com/vi/m_0pa_3wGeE/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/m_0pa_3wGeE/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/m_0pa_3wGeE/sddefault.jpg"
+maxres = "https://i.ytimg.com/vi/m_0pa_3wGeE/maxresdefault.jpg"
+w480 = "https://mnf.m17s.net/vi/m_0pa_3wGeE/maxresdefault.480.jpg"
+
+[youtube]
+id = "m_0pa_3wGeE"
+title = "Horizon Zero Dawn — Chapter 17 — Family"
 description = "In Chapter 17, Aloy helps some people.\n\n0:00 Opening titles\n0:21 Recap\n1:11 Honor the Fallen\n24:45 Towards the Spurflints\n28:08 Collateral\n38:00 Heading north\n46:00 Copper Deeps Tallneck\n58:22 Datapoint: Observer Log US-W-18\n59:10 Map\n59:28 End screen\n\nA play through of the game Horizon Zero Dawn. Including all of the main quest and many of the more interesting side quests. No tedious commentary.\n\nMap by StreetPiet. https://www.thingiverse.com/thing:3355191\n\n"
 views = "13"
 likes = "2"
 dislikes = "0"
 comments = "0"
-thumbnail = "https://i.ytimg.com/vi/m_0pa_3wGeE/maxresdefault.jpg"
-tag = [ "horizon-zero-dawn", "game-shows",]
-theme = "game-shows"
+
+[youtube.thumbnails.default]
+url = "https://i.ytimg.com/vi/m_0pa_3wGeE/default.jpg"
+width = 120
+height = 90
+
+[youtube.thumbnails.medium]
+url = "https://i.ytimg.com/vi/m_0pa_3wGeE/mqdefault.jpg"
+width = 320
+height = 180
+
+[youtube.thumbnails.high]
+url = "https://i.ytimg.com/vi/m_0pa_3wGeE/hqdefault.jpg"
+width = 480
+height = 360
+
+[youtube.thumbnails.standard]
+url = "https://i.ytimg.com/vi/m_0pa_3wGeE/sddefault.jpg"
+width = 640
+height = 480
+
+[youtube.thumbnails.maxres]
+url = "https://i.ytimg.com/vi/m_0pa_3wGeE/maxresdefault.jpg"
+width = 1280
+height = 720

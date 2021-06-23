@@ -3,3 +3,6 @@ published = 2011-11-15T09:38:03Z
 image = "https://mnf.m17s.net/2011/11/15/is-it-hometime-yet.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/11/15/is-it-hometime-yet.200.jpg"

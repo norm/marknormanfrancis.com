@@ -6,32 +6,32 @@ map = "https://mnf.m17s.net/maps/dbc95527b524e4f8cc0b4bc21b59d7ad9357cc49e91d45a
 tag = [ "suppa",]
 local_timestamp = 2017-03-30T12:49:11Z
 
-[data]
+[checkin]
 id = "58dce2a745005e3d2ccae80c"
 createdAt = 1490870951
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "5775113038fa3597aa6a6a7e"
 name = "Suppa"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1dd931735"
 name = "Soup Place"
 pluralName = "Soup Places"
 shortName = "Soup"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/soup_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 51.516937
 lng = -0.10433961
 cc = "GB"
 country = "United Kingdom"
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.516937
 lng = -0.10433961

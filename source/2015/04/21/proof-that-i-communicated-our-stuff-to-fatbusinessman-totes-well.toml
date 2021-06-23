@@ -3,3 +3,6 @@ published = 2015-04-21T09:18:40Z
 image = "https://mnf.m17s.net/2015/04/21/proof-that-i-communicated-our-stuff-to-fatbusinessman-totes-well.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/04/21/proof-that-i-communicated-our-stuff-to-fatbusinessman-totes-well.200.jpg"

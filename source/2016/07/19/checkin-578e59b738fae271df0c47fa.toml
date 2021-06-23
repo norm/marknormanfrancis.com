@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/4176d4dc92435f6d238d87cbc52c6108fe24c7ff55c5311
 tag = [ "slug-lettuce",]
 local_timestamp = 2016-07-19T18:47:51Z
 
-[data]
+[checkin]
 id = "578e59b738fae271df0c47fa"
 createdAt = 1468946871
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4aeb1852f964a5203dbe21e3"
 name = "Slug & Lettuce"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d116941735"
 name = "Bar"
 pluralName = "Bars"
 shortName = "Bar"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "North Block (1–63)"
 crossStreet = "County Hall"
 lat = 51.502611572233256
@@ -37,10 +37,10 @@ city = "Waterloo"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "North Block (1–63) (County Hall)", "Waterloo", "Greater London", "SE1 7PJ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.502611572233256
 lng = -0.11680758895488452
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "86511201"

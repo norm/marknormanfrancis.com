@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/61244c6625f3507cfaca62b94e6cf4d92af33227af1575b
 tag = [ "byron",]
 local_timestamp = 2011-09-27T20:01:23Z
 
-[data]
+[checkin]
 id = "4e820f7302d5a4273c2502f0"
 createdAt = 1317146483
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4c051045f56c2d7f720d1f66"
 name = "Byron"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16c941735"
 name = "Burger Joint"
 pluralName = "Burger Joints"
 shortName = "Burgers"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/burger_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "33-35 Wellington St"
 lat = 51.51207646760474
 lng = -0.1205654130010481
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "33-35 Wellington St", "London", "Greater London", "WC2E 7BN",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51207646760474
 lng = -0.1205654130010481

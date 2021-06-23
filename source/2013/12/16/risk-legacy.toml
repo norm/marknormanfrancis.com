@@ -3,3 +3,6 @@ published = 2013-12-16T13:31:16Z
 image = "https://mnf.m17s.net/2013/12/16/risk-legacy.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/12/16/risk-legacy.200.jpg"

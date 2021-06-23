@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/faa3fb1f82ebfeb394d262e8e1ea017f776d4f10cef2097
 tag = [ "bricklayers-arms",]
 local_timestamp = 2018-05-17T18:48:44Z
 
-[data]
+[checkin]
 id = "5afdb26c25ecca0038f85882"
 createdAt = 1526575724
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ac5e10af964a52087b220e3"
 name = "Bricklayers Arms"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "31 Gresse St"
 lat = 51.51759527965574
 lng = -0.1334339549238772
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "31 Gresse St", "London", "Greater London", "W1T 1QS",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51759527965574
 lng = -0.1334339549238772

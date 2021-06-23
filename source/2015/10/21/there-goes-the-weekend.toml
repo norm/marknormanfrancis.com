@@ -3,3 +3,6 @@ published = 2015-10-21T16:35:35Z
 image = "https://mnf.m17s.net/2015/10/21/there-goes-the-weekend.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/10/21/there-goes-the-weekend.200.jpg"

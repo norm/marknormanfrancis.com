@@ -3,3 +3,6 @@ published = 2012-09-09T14:02:06Z
 image = "https://mnf.m17s.net/2012/09/09/feel-free-to-enjoy-a-nice-sit-down.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/09/09/feel-free-to-enjoy-a-nice-sit-down.200.jpg"

@@ -3,3 +3,6 @@ published = 2012-09-21T15:12:39Z
 image = "https://mnf.m17s.net/2012/09/21/urls-how-do-they-work.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/09/21/urls-how-do-they-work.200.jpg"

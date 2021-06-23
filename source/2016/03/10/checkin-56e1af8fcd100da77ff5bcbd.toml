@@ -3,29 +3,29 @@ published = 2016-03-10T17:31:59Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/fc1ef0e5de3a98fca910b789853d4b728e909a56af2b5d41034fadc9a7541259.png"
-tag = [ "mcdonalds",]
+tag = [ "mc-donalds",]
 
-[data]
+[checkin]
 id = "56e1af8fcd100da77ff5bcbd"
 createdAt = 1457631119
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4b94cdf4f964a520d88334e3"
 name = "McDonald's"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16e941735"
 name = "Fast Food Restaurant"
 pluralName = "Fast Food Restaurants"
 shortName = "Fast Food"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/fastfood_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "108/110 SUNDIAL HOUSE"
 lat = 51.501153
 lng = -0.193066
@@ -35,10 +35,10 @@ city = "Kensington"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "108/110 SUNDIAL HOUSE", "Kensington", "Greater London", "W8 4SG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.501153
 lng = -0.193066
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "554975872"

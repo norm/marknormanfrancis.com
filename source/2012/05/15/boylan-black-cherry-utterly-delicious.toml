@@ -3,3 +3,6 @@ published = 2012-05-15T15:19:12Z
 image = "https://mnf.m17s.net/2012/05/15/boylan-black-cherry-utterly-delicious.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/05/15/boylan-black-cherry-utterly-delicious.200.jpg"

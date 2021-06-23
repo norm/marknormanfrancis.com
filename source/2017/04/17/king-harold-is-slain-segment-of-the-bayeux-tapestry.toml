@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "King Harold is slain; segment of the Bayeux Tapestry #whiteboard #whiteboardart #the100dayproject #100daysofwhiteboards #day9of100"
 tag = [ "100-days-of-whiteboards", "the-100-day-project", "whiteboard", "whiteboard-art",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2017/04/17/king-harold-is-slain-segment-of-the-bayeux-tapestry.200.jpg"

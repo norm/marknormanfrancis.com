@@ -3,3 +3,6 @@ published = 2016-10-25T14:24:32Z
 image = "https://mnf.m17s.net/2016/10/25/this-is-for-everyone.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/10/25/this-is-for-everyone.200.jpg"

@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/6a6b10c76b67b1bf42cff1ea255c76acc5b0fde3e8cdba0
 tag = [ "frankie-bennys",]
 local_timestamp = 2016-04-03T16:39:14Z
 
-[data]
+[checkin]
 id = "57012b12cd10ea60910ae49e"
 createdAt = 1459694354
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "56338222498e5e231811ba0d"
 name = "Frankie & Benny's"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d14e941735"
 name = "American Restaurant"
 pluralName = "American Restaurants"
 shortName = "American"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Units 200/201, Southside Shopping Centre"
 crossStreet = "High St"
 lat = 51.4543094
@@ -37,7 +37,7 @@ city = "Wandsworth"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Units 200/201, Southside Shopping Centre (High St)", "Wandsworth", "Greater London", "SW18 4TF",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.4543094
 lng = -0.1934085

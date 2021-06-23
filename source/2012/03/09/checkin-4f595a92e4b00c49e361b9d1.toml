@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/c186f32aec5ecab2e82c072828442cac9a2b4ccbf8b9277
 tag = [ "the-salt-lick",]
 local_timestamp = 2012-03-08T19:19:14Z
 
-[data]
+[checkin]
 id = "4f595a92e4b00c49e361b9d1"
 createdAt = 1331255954
 type = "checkin"
 timeZoneOffset = -360
 
-[data.venue]
+[checkin.venue]
 id = "4a0c4c4af964a5201a751fe3"
 name = "The Salt Lick"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1df931735"
 name = "BBQ Joint"
 pluralName = "BBQ Joints"
 shortName = "BBQ"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/bbqalt_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "3350 E Palm Valley Blvd"
 crossStreet = "at Harrell Pkwy"
 lat = 30.525505484546567
@@ -37,12 +37,12 @@ city = "Round Rock"
 state = "TX"
 country = "United States"
 formattedAddress = [ "3350 E Palm Valley Blvd (at Harrell Pkwy)", "Round Rock, TX 78665", "United States",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 30.525505484546567
 lng = -97.63264811626742
 
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "entrance"
 lat = 30.525331
 lng = -97.632556

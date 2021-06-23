@@ -3,3 +3,6 @@ published = 2016-01-30T12:51:11Z
 image = "https://mnf.m17s.net/2016/01/30/mountain-of-meatballs.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/01/30/mountain-of-meatballs.200.jpg"

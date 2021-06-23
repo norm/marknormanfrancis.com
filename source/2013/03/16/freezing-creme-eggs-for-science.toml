@@ -3,3 +3,6 @@ published = 2013-03-16T11:11:24Z
 image = "https://mnf.m17s.net/2013/03/16/freezing-creme-eggs-for-science.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/03/16/freezing-creme-eggs-for-science.200.jpg"

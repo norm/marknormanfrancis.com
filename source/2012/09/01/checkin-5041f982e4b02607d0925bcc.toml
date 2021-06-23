@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/152e587fc82320d9084cbe1e87b91a200d25f9431a8fa14
 tag = [ "black-blue",]
 local_timestamp = 2012-09-01T14:03:14Z
 
-[data]
+[checkin]
 id = "5041f982e4b02607d0925bcc"
 createdAt = 1346500994
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4c2f6a5d3896e21e18dae390"
 name = "Black & Blue"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1cc941735"
 name = "Steakhouse"
 pluralName = "Steakhouses"
 shortName = "Steakhouse"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "37 Berners St"
 crossStreet = "Mortimer St"
 lat = 51.518489360000004
@@ -38,7 +38,7 @@ city = "Paddington"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "37 Berners St (Mortimer St)", "Paddington", "Greater London", "W1T 3NB",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.518489360000004
 lng = -0.137799

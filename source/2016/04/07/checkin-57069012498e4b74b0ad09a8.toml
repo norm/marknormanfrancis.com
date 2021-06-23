@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/9ad09562cfef4fe35f0b129049666fbc6b393c503a319c5
 tag = [ "the-union-jack",]
 local_timestamp = 2016-04-07T18:51:30Z
 
-[data]
+[checkin]
 id = "57069012498e4b74b0ad09a8"
 createdAt = 1460047890
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b744df5f964a520e3d32de3"
 name = "The Union Jack"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "225 Union St"
 lat = 51.5036307795845
 lng = -0.10158018144925686
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "225 Union St", "London", "Greater London", "SE1 0LR",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.5036307795845
 lng = -0.10158018144925686

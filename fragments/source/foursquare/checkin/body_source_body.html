@@ -1,12 +1,12 @@
 <figure>
   <a href='{{map}}'><img src='{{map}}' alt=''></a>
   <figcaption>
-    {{ data.venue.location.formattedAddress|join(', ') }}
+    {{ checkin.venue.location.formattedAddress|join(', ') }}
   </figcaption>
 </figure>
 
-{% if data.shout %}
-  <p>{{data.shout}}</p>
+{% if checkin.shout %}
+  <p>{{checkin.shout}}</p>
 {% endif %}
 {% if photos %}
   {% for photo in photos %}

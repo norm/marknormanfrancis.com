@@ -3,3 +3,6 @@ published = 2013-01-12T22:03:11Z
 image = "https://mnf.m17s.net/2013/01/12/chicken-sausage-and-chorizo-gumbo.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/01/12/chicken-sausage-and-chorizo-gumbo.200.jpg"

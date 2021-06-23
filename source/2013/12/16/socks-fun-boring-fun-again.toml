@@ -3,3 +3,6 @@ published = 2013-12-16T11:00:19Z
 image = "https://mnf.m17s.net/2013/12/16/socks-fun-boring-fun-again.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/12/16/socks-fun-boring-fun-again.200.jpg"

@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/6313ef318516e8b4d422bad2a8a6d088313f0ac254b22cd
 tag = [ "criterion-theatre",]
 local_timestamp = 2014-08-20T20:50:36Z
 
-[data]
+[checkin]
 id = "53f4edfc498e09fa165c9c5e"
 createdAt = 1408560636
 type = "checkin"
 timeZoneOffset = 60
 shout = "Seeing The 39 Steps with S-J"
 
-[data.venue]
+[checkin.venue]
 id = "4ac518e7f964a52043ab20e3"
 name = "Criterion Theatre"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d137941735"
 name = "Theater"
 pluralName = "Theaters"
 shortName = "Theater"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "2 Jermyn St."
 lat = 51.509963163898696
 lng = -0.13433262642173932
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "2 Jermyn St.", "London", "Greater London", "SW1Y 4XA",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.509963163898696
 lng = -0.13433262642173932

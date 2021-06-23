@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/7ac3f8b08105adc2fd95c13b06ea19650e2563301d19625
 tag = [ "st-marys-church",]
 local_timestamp = 2019-05-04T11:14:24Z
 
-[data]
+[checkin]
 id = "5ccd57f049cf93002b48b786"
 createdAt = 1556961264
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ca840c1f47ea143dd787321"
 name = "St Mary's Church"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d132941735"
 name = "Church"
 pluralName = "Churches"
 shortName = "Church"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/religious_church_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Putney High S"
 crossStreet = "Church Sq"
 lat = 51.465603482398514
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Putney High S (Church Sq)", "London", "Greater London", "SW15 1SN",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.465603482398514
 lng = -0.21413683891296387

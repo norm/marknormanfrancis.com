@@ -3,3 +3,6 @@ published = 2013-02-24T10:12:29Z
 image = "https://mnf.m17s.net/2013/02/24/fruity-malt-loaf.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/02/24/fruity-malt-loaf.200.jpg"

@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/663d628e17b1f788e8a5d7facade1362a25a2c05aea48aa0283564ca7a8d2c33.png"
 tag = [ "stage-door",]
 
-[data]
+[checkin]
 id = "56ec3876498ec5f98db6fb5b"
 createdAt = 1458321526
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ae5f83af964a520a3a321e3"
 name = "Stage Door"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Webber St."
 lat = 51.501313034828634
 lng = -0.10728997667188683
@@ -35,7 +35,7 @@ city = "Waterloo"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Webber St.", "Waterloo", "Greater London", "SE1 8QA",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.501313034828634
 lng = -0.10728997667188683

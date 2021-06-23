@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Becks Cafe"
 tag = [ "becks-cafe",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/09/21/full-english-modified.200.jpg"

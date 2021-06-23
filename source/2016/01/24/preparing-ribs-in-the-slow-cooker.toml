@@ -3,3 +3,6 @@ published = 2016-01-24T12:10:02Z
 image = "https://mnf.m17s.net/2016/01/24/preparing-ribs-in-the-slow-cooker.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/01/24/preparing-ribs-in-the-slow-cooker.200.jpg"

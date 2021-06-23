@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "The Rock (1996) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/12/31/the-rock-1996.200.jpg"

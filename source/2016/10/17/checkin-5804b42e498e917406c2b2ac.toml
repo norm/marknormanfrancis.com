@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/6829a95dc22ba6fa8365b93a65bc34c3a97f7d1d615c878
 tag = [ "wasabi",]
 local_timestamp = 2016-10-17T13:21:18Z
 
-[data]
+[checkin]
 id = "5804b42e498e917406c2b2ac"
 createdAt = 1476703278
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b2a3766f964a5202ba624e3"
 name = "Wasabi"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1d2941735"
 name = "Sushi Restaurant"
 pluralName = "Sushi Restaurants"
 shortName = "Sushi"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/sushi_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "14-18 Holborn"
 lat = 51.518164
 lng = -0.110263
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "14-18 Holborn", "London", "Greater London", "EC1N 2LE",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.518164
 lng = -0.110263

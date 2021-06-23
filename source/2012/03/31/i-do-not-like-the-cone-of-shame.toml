@@ -3,3 +3,6 @@ published = 2012-03-31T12:07:36Z
 image = "https://mnf.m17s.net/2012/03/31/i-do-not-like-the-cone-of-shame.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/03/31/i-do-not-like-the-cone-of-shame.200.jpg"

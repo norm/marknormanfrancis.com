@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/338f6b359ba4647d8c725b336316fcbacf39530aee793ae
 tag = [ "the-lucas-arms",]
 local_timestamp = 2018-06-12T17:42:46Z
 
-[data]
+[checkin]
 id = "5b1fe9f686bc49002c2908f0"
 createdAt = 1528818166
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4baa192ef964a5208d4a3ae3"
 name = "The Lucas Arms"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "245a Gray's Inn Rd"
 lat = 51.528408
 lng = -0.11952393
@@ -36,7 +36,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "245a Gray's Inn Rd", "Camden", "Greater London", "WC1X 8QY",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.528408
 lng = -0.11952393

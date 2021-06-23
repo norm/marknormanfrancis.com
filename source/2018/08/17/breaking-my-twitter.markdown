@@ -2,15 +2,26 @@
 title = "Breaking my Twitter"
 published = 2018-08-17T08:17:00Z
 origin = "twitter-cackhanded"
-type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/1030367880905457664"
-twitter_account = "cackhanded"
-tweet_id = "1030367880905457664"
+type = "thread"
+tag = [ "breaking-my-twitter",]
+
+[twitter]
+account = "cackhanded"
+first_tweet = "1030367880905457664"
 retweets = 23
 favourites = 56
-tag = [ "breaking-my-twitter",]
-updated = 2018-08-17T08:52:36Z
-thread_tweet_ids = [ 1030367880905457664, 1030368530225659904, 1030369212215308288, 1030369739753906176, 1030371287305281536, 1030372323021529088, 1030375368958590976, 1030376409854824448, 1030376837845864448,]
+contains_tweet = [
+    '1030367880905457664',
+    '1030368530225659904',
+    '1030369212215308288',
+    '1030369739753906176',
+    '1030371287305281536',
+    '1030372323021529088',
+    '1030375368958590976',
+    '1030376409854824448',
+    '1030376837845864448',
+]
+last_tweet = '1030376837845864448'
 ```
 
 > We’ve heard feedback (#breakingmytwitter) from our customers about the pain this causes. We’re committed to understanding why people hire 3rd party clients over our own apps, and we’re going to do better with communicating changes
@@ -37,9 +48,9 @@ But really it’s not about us, what some might call power users. Or early adopt
 
  Compare my timeline in [`@tweetbot`](https://twitter.com/tweetbot) with that of [`@Twitter`](https://twitter.com/Twitter). One has tweets. One has a single tweet unhelpfully unfurling a URL, an ad that is entirely useless (don’t have a mortgage) and the start of a block of in case you missed its. Which, incidentally, I hadn’t.
 
-<p class='image'><img src='https://mnf.m17s.net/2018/08/17/Dkyg49KX0AEz4Al.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/1030367880905457664/Dkyg49KX0AEz4Al.jpg' alt=''></p>
 
-<p class='image'><img src='https://mnf.m17s.net/2018/08/17/Dkyg5AfXoAA4PY2.jpg' alt=''></p>
+<p class='image'><img src='https://mnf.m17s.net/twitter/1030367880905457664/Dkyg5AfXoAA4PY2.jpg' alt=''></p>
 
 Let me pay for a proper user timeline API [`@robjohnson`](https://twitter.com/robjohnson). I’ll pay you at least 50c over the average you make per user per month with these shitty ads and awful attempts to make me engage more. Per account. I have several and I’ll pay for each of them.
 

@@ -3,3 +3,6 @@ published = 2013-02-04T13:12:13Z
 image = "https://mnf.m17s.net/2013/02/04/homemade-watermelon-soda.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/02/04/homemade-watermelon-soda.200.jpg"

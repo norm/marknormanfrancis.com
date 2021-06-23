@@ -1,5 +1,10 @@
+from io import BytesIO
 import os
+from PIL import Image
 import re
+import requests
+from tempfile import NamedTemporaryFile
+import toml
 
 from django.utils.text import slugify
 
@@ -54,12 +59,23 @@ def strip_links(text):
     return ' '.join(words)
 
 
-def get_body_from_source(file):
+def get_markdown_data(file):
     with open(file) as handle:
         content = handle.read()
     marker = content[0:3]
-    end_marker = content[4:].find(marker) + 9   # two markers, one newline
-    return content[end_marker:]
+    end_marker = content[4:].find(marker) + 4
+    markdown_start = end_marker + 5
+    return (toml.loads(content[4:end_marker]), content[markdown_start:])
+
+
+def get_frontmatter_from_markdown(file):
+    front, body = get_markdown_data(file)
+    return front
+
+
+def get_body_from_markdown(file):
+    front, body = get_markdown_data(file)
+    return body
 
 
 def tagify(text):
@@ -67,3 +83,28 @@ def tagify(text):
     text = re.sub(r'([a-z\W])([A-Z0-9])', r'\1-\2', text)
     text = slugify(text)
     return text.replace('_', '-')
+
+
+def make_thumbnail(url, width, destination, bucket):
+    width_key = 'w%s' % width
+    req = requests.get(url)
+    original = BytesIO(req.content)
+
+    image = Image.open(original)
+    image.thumbnail(
+        (width, width),
+        resample=Image.LANCZOS,
+        reducing_gap=3.0,
+    )
+
+    temp = NamedTemporaryFile(suffix='.jpg')
+    with open(temp.name, 'w') as handle:
+        image.save(handle)
+
+    file, ext = os.path.splitext(os.path.basename(url))
+    dest = '%s.%s%s' % (destination, width, ext)
+    if dest.startswith('/'):
+        dest = dest[1:]
+    uploaded = bucket.upload_file(temp.name, dest)
+    dest_url = 'https://%s/%s' % (bucket.bucket_name, dest)
+    return(uploaded, dest_url)

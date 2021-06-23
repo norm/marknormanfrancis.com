@@ -3,3 +3,6 @@ published = 2012-06-28T19:12:32Z
 image = "https://mnf.m17s.net/2012/06/28/deploying-in-watercolour.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/06/28/deploying-in-watercolour.200.jpg"

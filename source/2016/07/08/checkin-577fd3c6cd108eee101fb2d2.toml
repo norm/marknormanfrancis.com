@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/d331941a9d919355f8c1416194048437258fd6367c638c8
 tag = [ "the-speaker",]
 local_timestamp = 2016-07-08T18:24:38Z
 
-[data]
+[checkin]
 id = "577fd3c6cd108eee101fb2d2"
 createdAt = 1467995078
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b4b74d3f964a5206e9c26e3"
 name = "The Speaker"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "46 Great Peter St"
 crossStreet = "at Perkin's Rents"
 lat = 51.496876
@@ -37,7 +37,7 @@ city = "City of Westminster"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "46 Great Peter St (at Perkin's Rents)", "City of Westminster", "Greater London", "SW1P 2HA",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.496876
 lng = -0.132207

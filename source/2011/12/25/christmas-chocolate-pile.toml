@@ -3,3 +3,6 @@ published = 2011-12-25T15:15:16Z
 image = "https://mnf.m17s.net/2011/12/25/christmas-chocolate-pile.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/12/25/christmas-chocolate-pile.200.jpg"

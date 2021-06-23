@@ -3,3 +3,6 @@ published = 2012-07-05T12:17:45Z
 image = "https://mnf.m17s.net/2012/07/05/blueberry-breese-quite-blueberry-y-nice.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/07/05/blueberry-breese-quite-blueberry-y-nice.200.jpg"

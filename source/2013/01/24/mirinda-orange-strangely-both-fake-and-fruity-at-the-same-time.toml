@@ -3,3 +3,6 @@ published = 2013-01-24T12:57:11Z
 image = "https://mnf.m17s.net/2013/01/24/mirinda-orange-strangely-both-fake-and-fruity-at-the-same-time.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/01/24/mirinda-orange-strangely-both-fake-and-fruity-at-the-same-time.200.jpg"

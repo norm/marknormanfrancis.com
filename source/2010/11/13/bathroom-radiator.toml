@@ -3,3 +3,6 @@ published = 2010-11-13T12:52:25Z
 image = "https://mnf.m17s.net/2010/11/13/bathroom-radiator.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2010/11/13/bathroom-radiator.200.jpg"

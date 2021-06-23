@@ -3,3 +3,6 @@ published = 2012-10-31T14:54:42Z
 image = "https://mnf.m17s.net/2012/10/31/big-marthalanefox-little-marthalanefox.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/10/31/big-marthalanefox-little-marthalanefox.200.jpg"

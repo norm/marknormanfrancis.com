@@ -3,3 +3,6 @@ published = 2011-05-13T08:00:33Z
 image = "https://mnf.m17s.net/2011/05/13/screw-and-grafitti.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/05/13/screw-and-grafitti.200.jpg"

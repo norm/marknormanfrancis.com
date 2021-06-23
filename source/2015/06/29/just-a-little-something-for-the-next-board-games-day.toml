@@ -3,3 +3,6 @@ published = 2015-06-29T11:39:29Z
 image = "https://mnf.m17s.net/2015/06/29/just-a-little-something-for-the-next-board-games-day.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/06/29/just-a-little-something-for-the-next-board-games-day.200.jpg"

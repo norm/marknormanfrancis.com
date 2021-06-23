@@ -3,3 +3,6 @@ published = 2015-07-24T18:20:11Z
 image = "https://mnf.m17s.net/2015/07/24/the-running-man-1987.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/07/24/the-running-man-1987.200.jpg"

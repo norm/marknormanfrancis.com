@@ -3,5 +3,6 @@ django
 flourish>=0.10.2
 honcho
 libsass
+Pillow
 requests
 tweepy

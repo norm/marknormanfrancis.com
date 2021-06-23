@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Oblivion (2013) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/02/11/oblivion-2013.200.jpg"

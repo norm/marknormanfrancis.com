@@ -3,3 +3,6 @@ published = 2016-11-21T07:58:59Z
 image = "https://mnf.m17s.net/2016/11/21/i-wonder-what-recommendation-engines-would-make-of-this.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/11/21/i-wonder-what-recommendation-engines-would-make-of-this.200.jpg"

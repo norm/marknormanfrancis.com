@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 location = "Powder Keg Diplomacy"
 tag = [ "powder-keg-diplomacy",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/03/25/delicious-as-yet-unnamed-cocktail.200.jpg"

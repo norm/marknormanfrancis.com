@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/0e6e5238136a52a381a695317aa7ee35a7851b40fb6b9fb89007da6c19d58560.png"
 tag = [ "frankie-bennys",]
 
-[data]
+[checkin]
 id = "5dbb255747fd920008445557"
 createdAt = 1572545879
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "5736198f498ed7cf0fef23c1"
 name = "Frankie & Benny's"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d14e941735"
 name = "American Restaurant"
 pluralName = "American Restaurants"
 shortName = "American"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "1-4 Argyll Street"
 lat = 51.514316224586516
 lng = -0.14032244682312012
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "1-4 Argyll Street", "London", "Greater London", "W1F 7TB",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.514316224586516
 lng = -0.14032244682312012

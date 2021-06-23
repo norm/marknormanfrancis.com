@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/2295ed817cf10c8f385ce316d60c273b6e3acd5f63de9ddad7c7e1e77291b56b.png"
 tag = [ "hercules-pillars",]
 
-[data]
+[checkin]
 id = "52a20b25498eeff30ec6be97"
 createdAt = 1386351397
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4b3a03cff964a520456025e3"
 name = "Hercules Pillars"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "18 Great Queen St"
 lat = 51.51579391815337
 lng = -0.12077816513758327
@@ -35,7 +35,7 @@ city = "Holborn"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "18 Great Queen St", "Holborn", "Greater London", "WC2B 5DG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51579391815337
 lng = -0.12077816513758327

@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/d5c772f4cbd02d27cef69b649f875ddb397c3bc042bf6d1
 tag = [ "olleys",]
 local_timestamp = 2016-05-25T13:26:19Z
 
-[data]
+[checkin]
 id = "57458bdb498e02ac24d8d986"
 createdAt = 1464175579
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "5224e75c11d2d0ee53b46a53"
 name = "Olley's"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4edd64a0c7ddd24ca188df1a"
 name = "Fish & Chips Shop"
 pluralName = "Fish & Chips Shops"
 shortName = "Fish & Chips"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/fishandchips_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "101 Great Suffolk St"
 lat = 51.500842
 lng = -0.09841
@@ -36,7 +36,7 @@ city = "Greater London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "101 Great Suffolk St", "Greater London", "SE1 1PQ",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.500842
 lng = -0.09841

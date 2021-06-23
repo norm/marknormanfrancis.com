@@ -3,3 +3,6 @@ published = 2012-05-28T18:17:42Z
 image = "https://mnf.m17s.net/2012/05/28/sioux-city-cherries-n-mint-truly-awful-thrown-away-after-about-15th-consumed.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/05/28/sioux-city-cherries-n-mint-truly-awful-thrown-away-after-about-15th-consumed.200.jpg"

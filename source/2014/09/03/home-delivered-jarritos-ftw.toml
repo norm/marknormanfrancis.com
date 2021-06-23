@@ -3,3 +3,6 @@ published = 2014-09-03T18:33:02Z
 image = "https://mnf.m17s.net/2014/09/03/home-delivered-jarritos-ftw.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2014/09/03/home-delivered-jarritos-ftw.200.jpg"

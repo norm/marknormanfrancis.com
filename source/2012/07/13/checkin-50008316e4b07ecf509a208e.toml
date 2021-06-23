@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/8e9080d291f2dd80b7995f96f3c1d1c48a38ead5311dee9
 tag = [ "the-diner",]
 local_timestamp = 2012-07-13T22:20:38Z
 
-[data]
+[checkin]
 id = "50008316e4b07ecf509a208e"
 createdAt = 1342210838
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4f730570e4b05b6a68a07e1d"
 name = "The Diner"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d14e941735"
 name = "American Restaurant"
 pluralName = "American Restaurants"
 shortName = "American"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "190 Shaftesbury Ave"
 lat = 51.51517757125342
 lng = -0.12691646245055235
@@ -37,7 +37,7 @@ city = "Greater London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "190 Shaftesbury Ave", "Greater London", "WC2H 8JL",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51517757125342
 lng = -0.12691646245055235

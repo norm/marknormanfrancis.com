@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/38a8453405262eefc53215e830e7558dfde74c7635089d7
 tag = [ "mallaig-railway-station-mlg",]
 local_timestamp = 2013-10-11T14:37:52Z
 
-[data]
+[checkin]
 id = "5257f12011d2ce63b0999297"
 createdAt = 1381495072
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4bee9893d355a59305090b60"
 name = "Mallaig Railway Station (MLG)"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d129951735"
 name = "Train Station"
 pluralName = "Train Stations"
 shortName = "Train Station"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Main Street"
 lat = 57.005972094018
 lng = -5.829577445983887
@@ -36,7 +36,7 @@ city = "Mallaig"
 state = "Highland"
 country = "United Kingdom"
 formattedAddress = [ "Main Street", "Mallaig", "Highland", "PH41 4QA",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 57.005972094018
 lng = -5.829577445983887

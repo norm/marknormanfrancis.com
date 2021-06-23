@@ -3,3 +3,6 @@ published = 2012-07-05T12:12:46Z
 image = "https://mnf.m17s.net/2012/07/05/averys-peach-surprisingly-tasty-given-im-not-a-fan-of-peaches.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/07/05/averys-peach-surprisingly-tasty-given-im-not-a-fan-of-peaches.200.jpg"

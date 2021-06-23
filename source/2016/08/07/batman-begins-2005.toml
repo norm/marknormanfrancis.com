@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Batman Begins (2005) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/08/07/batman-begins-2005.200.jpg"

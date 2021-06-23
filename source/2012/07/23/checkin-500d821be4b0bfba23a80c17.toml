@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/9e423e5b8b7efacb9b365f2f4f0e36e4031e5953ac91c05
 tag = [ "the-kings-arms",]
 local_timestamp = 2012-07-23T18:55:55Z
 
-[data]
+[checkin]
 id = "500d821be4b0bfba23a80c17"
 createdAt = 1343062555
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ae9977bf964a5203eb521e3"
 name = "The King's Arms"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "25 Roupell St"
 lat = 51.504460819381706
 lng = -0.10906982155737777
@@ -36,7 +36,7 @@ city = "Waterloo"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "25 Roupell St", "Waterloo", "Greater London", "SE1 8TB",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.504460819381706
 lng = -0.10906982155737777

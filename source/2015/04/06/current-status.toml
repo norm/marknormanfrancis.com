@@ -3,3 +3,6 @@ published = 2015-04-06T16:57:47Z
 image = "https://mnf.m17s.net/2015/04/06/current-status.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/04/06/current-status.200.jpg"

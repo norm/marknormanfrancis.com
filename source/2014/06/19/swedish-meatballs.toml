@@ -3,3 +3,6 @@ published = 2014-06-19T11:23:58Z
 image = "https://mnf.m17s.net/2014/06/19/swedish-meatballs.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2014/06/19/swedish-meatballs.200.jpg"

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Cat, blanket, duvet #thomas"
 tag = [ "thomas",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/05/02/cat-blanket-duvet.200.jpg"

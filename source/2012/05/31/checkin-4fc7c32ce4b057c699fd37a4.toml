@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/4e71871952797353b51cf42d1ab1c109cc1be5d5ce7b04b
 tag = [ "prince-of-wales",]
 local_timestamp = 2012-05-31T21:14:52Z
 
-[data]
+[checkin]
 id = "4fc7c32ce4b057c699fd37a4"
 createdAt = 1338491692
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4b2e9f75f964a520c7e324e3"
 name = "Prince Of Wales"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "150-151 Drury Ln"
 crossStreet = "Long Acre"
 lat = 51.51470059791861
@@ -37,7 +37,7 @@ city = "Covent Garden"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "150-151 Drury Ln (Long Acre)", "Covent Garden", "Greater London", "WC2B 5TD",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51470059791861
 lng = -0.12205026356883274

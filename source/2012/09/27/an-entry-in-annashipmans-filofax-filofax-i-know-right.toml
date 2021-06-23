@@ -3,3 +3,6 @@ published = 2012-09-27T09:50:19Z
 image = "https://mnf.m17s.net/2012/09/27/an-entry-in-annashipmans-filofax-filofax-i-know-right.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/09/27/an-entry-in-annashipmans-filofax-filofax-i-know-right.200.jpg"

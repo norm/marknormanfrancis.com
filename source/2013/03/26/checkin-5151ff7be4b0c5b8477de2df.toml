@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/7672f66a20c3d010b118b41aaf61c209aea82f8c0c4f35340be0c6d37018df7c.png"
 tag = [ "the-bountiful-cow",]
 
-[data]
+[checkin]
 id = "5151ff7be4b0c5b8477de2df"
 createdAt = 1364328315
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ae06b5ff964a520267f21e3"
 name = "The Bountiful Cow"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1cc941735"
 name = "Steakhouse"
 pluralName = "Steakhouses"
 shortName = "Steakhouse"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "51 Eagle St"
 lat = 51.51860015326879
 lng = -0.11843096797174547
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "51 Eagle St", "London", "Greater London", "WC1R 4AP",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51860015326879
 lng = -0.11843096797174547

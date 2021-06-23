@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Predestination (2014) #movie"
 tag = [ "movie",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/10/23/predestination-2014.200.jpg"

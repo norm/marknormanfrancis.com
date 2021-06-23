@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/2c4cfe60dc584f81daaf5a4b15aafa2c16b7a82f1b28566ed6c21a9d946100c6.png"
 tag = [ "the-inn-of-court",]
 
-[data]
+[checkin]
 id = "58591f35e0adac5974daa7ec"
 createdAt = 1482235701
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4afeaabef964a520de2f22e3"
 name = "The Inn of Court"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "18 Holborn"
 lat = 51.51781441754725
 lng = -0.11014449875926857
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "18 Holborn", "London", "Greater London", "EC1N 2LE",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51781441754725
 lng = -0.11014449875926857

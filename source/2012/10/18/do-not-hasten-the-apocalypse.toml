@@ -3,3 +3,6 @@ published = 2012-10-18T07:27:33Z
 image = "https://mnf.m17s.net/2012/10/18/do-not-hasten-the-apocalypse.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/10/18/do-not-hasten-the-apocalypse.200.jpg"

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "Last of the new GTA tees — Trevor Philips Enterprises #daily #tshirt #new"
 tag = [ "daily", "new", "tshirt",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2014/01/16/last-of-the-new-gta-tees-trevor-philips-enterprises.200.jpg"

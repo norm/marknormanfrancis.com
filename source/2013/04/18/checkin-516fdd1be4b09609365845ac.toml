@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/1acdd0d2757310cab9f9af7e9f9abdf698adef09aea690f
 tag = [ "orchard",]
 local_timestamp = 2013-04-18T13:46:35Z
 
-[data]
+[checkin]
 id = "516fdd1be4b09609365845ac"
 createdAt = 1366285595
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4f352418e4b0e4d04f1d683d"
 name = "Orchard"
 closed = true
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1d3941735"
 name = "Vegetarian / Vegan Restaurant"
 pluralName = "Vegetarian / Vegan Restaurants"
 shortName = "Vegetarian / Vegan"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/vegetarian_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "11 Sicilian Ave"
 lat = 51.5184744596578
 lng = -0.12125195916818217

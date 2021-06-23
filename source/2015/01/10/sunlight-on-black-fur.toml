@@ -3,3 +3,6 @@ published = 2015-01-10T14:52:06Z
 image = "https://mnf.m17s.net/2015/01/10/sunlight-on-black-fur.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/01/10/sunlight-on-black-fur.200.jpg"

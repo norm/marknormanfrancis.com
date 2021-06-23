@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/19fa561c8ab750fbabbb4fcb3be6d6aa60a4e307898502a54e293a5ad42f8ba6.png"
 tag = [ "garrick-theatre",]
 
-[data]
+[checkin]
 id = "50dd9a47e4b03fcf41ee292e"
 createdAt = 1356700231
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518e7f964a52049ab20e3"
 name = "Garrick Theatre"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d137941735"
 name = "Theater"
 pluralName = "Theaters"
 shortName = "Theater"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Charing Cross Rd."
 lat = 51.51004445763588
 lng = -0.1280824570902142
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Charing Cross Rd.", "London", "Greater London", "WC2H 0HH",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51004445763588
 lng = -0.1280824570902142

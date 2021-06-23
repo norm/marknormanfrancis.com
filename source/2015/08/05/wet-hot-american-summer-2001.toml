@@ -3,3 +3,6 @@ published = 2015-08-05T17:31:16Z
 image = "https://mnf.m17s.net/2015/08/05/wet-hot-american-summer-2001.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/08/05/wet-hot-american-summer-2001.200.jpg"

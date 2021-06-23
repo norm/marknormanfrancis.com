@@ -4,3 +4,6 @@ image = "https://mnf.m17s.net/2018/05/19/the-last-of-the-eurovision-leftovers.jp
 origin = "instagram"
 type = "photo"
 tag = [ "eurovision",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2018/05/19/the-last-of-the-eurovision-leftovers.200.jpg"

@@ -3,3 +3,6 @@ published = 2012-03-16T20:01:42Z
 image = "https://mnf.m17s.net/2012/03/16/this-is-nascentguruism-rule-breaker.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/03/16/this-is-nascentguruism-rule-breaker.200.jpg"

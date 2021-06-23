@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/b5d3eb66c1eb43406ce4b1f6ee8cdae5c363df1a6782c53
 tag = [ "de-hems",]
 local_timestamp = 2013-09-26T19:33:23Z
 
-[data]
+[checkin]
 id = "52446fe311d295d5812a7cfe"
 createdAt = 1380216803
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4ad785bbf964a520bf0b21e3"
 name = "De Hems"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "11 Macclesfield St"
 lat = 51.51210919205341
 lng = -0.13137239361804323
@@ -36,7 +36,7 @@ city = "Soho"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "11 Macclesfield St", "Soho", "Greater London", "W1D 5BW",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51210919205341
 lng = -0.13137239361804323

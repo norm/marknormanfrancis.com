@@ -6,34 +6,34 @@ map = "https://mnf.m17s.net/maps/35e75a99c295777b75539fbaf83f0142e8d3d3dec3cf965
 tag = [ "glebe-barn-hostel",]
 local_timestamp = 2013-10-09T00:01:22Z
 
-[data]
+[checkin]
 id = "525480b211d230997c971c49"
 createdAt = 1381269682
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "51ac635e498e444270c55ea8"
 name = "Glebe Barn Hostel"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1f8931735"
 name = "Bed & Breakfast"
 pluralName = "Bed & Breakfasts"
 shortName = "B & B"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/bedandbreakfast_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Isle Of Eigg"
 lat = 56.890104
 lng = -6.133255
 cc = "GB"
 country = "United Kingdom"
 formattedAddress = [ "Isle Of Eigg",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 56.890104
 lng = -6.133255

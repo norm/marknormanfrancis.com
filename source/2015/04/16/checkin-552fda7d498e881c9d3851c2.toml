@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/0fa2892851bccdb94f4ce1a9f6e789245e2a1b5fceaac49
 tag = [ "twitter-uk",]
 local_timestamp = 2015-04-16T17:51:25Z
 
-[data]
+[checkin]
 id = "552fda7d498e881c9d3851c2"
 createdAt = 1429199485
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4eef3a840aaf1d45b3e2800b"
 name = "Twitter UK"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d124941735"
 name = "Office"
 pluralName = "Offices"
 shortName = "Office"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/building/default_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "20 Air St"
 lat = 51.51072502380502
 lng = -0.1361719407548004
@@ -37,10 +37,10 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "20 Air St", "London", "Greater London", "W1B 5AG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51072502380502
 lng = -0.1361719407548004
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "64526280"

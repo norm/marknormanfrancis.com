@@ -3,3 +3,6 @@ published = 2013-01-12T15:31:05Z
 image = "https://mnf.m17s.net/2013/01/12/second-best-of-the-franchise.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/01/12/second-best-of-the-franchise.200.jpg"

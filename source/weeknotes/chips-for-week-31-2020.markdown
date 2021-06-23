@@ -1,16 +1,28 @@
 ```
 title = "Chips for Week 31, 2020"
 published = 2020-07-31T16:34:01Z
-origin = "twitter-cackhanded"
-type = "tweet"
-original_url = "https://twitter.com/cackhanded/status/1289237896143110144"
-twitter_account = "cackhanded"
-tweet_id = "1289237896143110144"
+origin = "mnf"
+type = "article"
+subject = "weeknotes"
+tag = [ "weekchips",]
+previous_slug = [
+    '/2020/07/31/chips-for-week-31-2020',
+]
+
+[twitter]
+first_tweet = '1289237896143110144'
+last_tweet = '1289242485730840576'
+contains_tweet = [
+    '1289237896143110144',
+    '1289238031560347648',
+    '1289239000591421441',
+    '1289240196152664064',
+    '1289240800476315656',
+    '1289241274017443843',
+    '1289242485730840576',
+]
 retweets = 0
 favourites = 3
-tag = [ "weekchips",]
-updated = 2020-07-31T16:52:16Z
-thread_tweet_ids = [ 1289237896143110144, 1289238031560347648, 1289239000591421441, 1289240196152664064, 1289240800476315656, 1289241274017443843, 1289242485730840576,]
 ```
 
 Another week, another [stack of chips](/2020/06/19/my-week-in-poker-chips).

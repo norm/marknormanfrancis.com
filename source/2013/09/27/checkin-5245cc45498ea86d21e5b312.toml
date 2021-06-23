@@ -3,31 +3,31 @@ published = 2013-09-27T19:19:49Z
 origin = "foursquare"
 type = "checkin"
 map = "https://mnf.m17s.net/maps/b03a8f274277123ea809e4b9b2d0b8a77512adab1fbfb12fcc0a56780faac9e3.png"
-tag = [ "mcdonalds",]
+tag = [ "mc-donalds",]
 local_timestamp = 2013-09-27T20:19:49Z
 
-[data]
+[checkin]
 id = "5245cc45498ea86d21e5b312"
 createdAt = 1380305989
 type = "checkin"
 timeZoneOffset = 60
 shout = "with S-J"
 
-[data.venue]
+[checkin.venue]
 id = "4b74a98df964a52004eb2de3"
 name = "McDonald's"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d16e941735"
 name = "Fast Food Restaurant"
 pluralName = "Fast Food Restaurants"
 shortName = "Fast Food"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/fastfood_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "30/32 Saint John's Road"
 crossStreet = "St John's Hill"
 lat = 51.46289129
@@ -38,10 +38,10 @@ city = "Battersea"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "30/32 Saint John's Road (St John's Hill)", "Battersea", "Greater London", "SW11 1PW",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.46289129
 lng = -0.16785219
 
-[data.venue.venuePage]
+[checkin.venue.venuePage]
 id = "551720502"

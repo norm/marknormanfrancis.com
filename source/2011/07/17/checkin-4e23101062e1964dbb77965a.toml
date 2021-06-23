@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/0ac345fa6449b0004af37eed8578b9182091533a79d1a29
 tag = [ "mohawk-spur-steak-grill",]
 local_timestamp = 2011-07-17T18:38:40Z
 
-[data]
+[checkin]
 id = "4e23101062e1964dbb77965a"
 createdAt = 1310920720
 type = "checkin"
 timeZoneOffset = 60
 shout = "A most depressingly noisy restaurant. I bet the food is just as awesome, because the menu has pictures."
 
-[data.venue]
+[checkin.venue]
 id = "4bdebfecffdec9284c70e9a1"
 name = "Mohawk Spur Steak & Grill"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d1cc941735"
 name = "Steakhouse"
 pluralName = "Steakhouses"
 shortName = "Steakhouse"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Southside Shopping Centre, Wandsworth High St"
 lat = 51.454487126512426
 lng = -0.19300428497829158
@@ -38,7 +38,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Southside Shopping Centre, Wandsworth High St", "London", "Greater London", "SW18 4TF",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.454487126512426
 lng = -0.19300428497829158

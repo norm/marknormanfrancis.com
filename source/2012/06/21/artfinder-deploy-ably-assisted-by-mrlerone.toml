@@ -3,3 +3,6 @@ published = 2012-06-21T17:19:39Z
 image = "https://mnf.m17s.net/2012/06/21/artfinder-deploy-ably-assisted-by-mrlerone.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/06/21/artfinder-deploy-ably-assisted-by-mrlerone.200.jpg"

@@ -3,3 +3,6 @@ published = 2015-07-21T18:53:23Z
 image = "https://mnf.m17s.net/2015/07/21/an-american-werewolf-in-london-1981.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/07/21/an-american-werewolf-in-london-1981.200.jpg"

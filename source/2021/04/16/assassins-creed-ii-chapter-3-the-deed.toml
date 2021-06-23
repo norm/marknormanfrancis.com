@@ -1,15 +1,45 @@
 title = "Published YouTube video “Assassin's Creed II — Chapter 3 — The Deed”"
 published = 2021-04-16T15:30:00Z
-video_id = "Fv6oLwsWrJQ"
 origin = "youtube-gs"
 origin_link_text = "Game Shows channel"
 origin_link_url = "https://www.youtube.com/channel/UCI0KNfM-b2vXKPY4QwJ0_oQ"
 type = "video"
+tag = [ "assassins-creed-ii", "assassins-creed", "ezio-collection", "game-shows",]
+theme = "game-shows"
+image = "https://i.ytimg.com/vi/Fv6oLwsWrJQ/maxresdefault.jpg"
+
+[thumbnail]
+default = "https://i.ytimg.com/vi/Fv6oLwsWrJQ/default.jpg"
+medium = "https://i.ytimg.com/vi/Fv6oLwsWrJQ/mqdefault.jpg"
+high = "https://i.ytimg.com/vi/Fv6oLwsWrJQ/hqdefault.jpg"
+standard = "https://i.ytimg.com/vi/Fv6oLwsWrJQ/sddefault.jpg"
+w480 = "https://mnf.m17s.net/vi/Fv6oLwsWrJQ/maxresdefault.480.jpg"
+
+[youtube]
+id = "Fv6oLwsWrJQ"
+title = "Assassin's Creed II — Chapter 3 — The Deed"
 description = "In Chapter 3, Ezio takes care of business.\n\n0:00 Opening titles\n0:22 Onwards\n4:00 Judge, Jury, Executioner\n19:00 Laying Low\n21:30 Arrivederci\n28:20 Roadside Assistance\n32:50 Casa Dolce Casa\n41:45 Practice Makes Perfect\n50:50 Onwards\n54:19 Database entries\n56:25 End card\n\nA play through of the game Assassin's Creed II. All of the main story, some of the side missions. No tedious commentary.\n\n"
-thumbnail = "https://i.ytimg.com/vi/Fv6oLwsWrJQ/default.jpg"
 views = "4"
 likes = "0"
 dislikes = "0"
 comments = "0"
-tag = [ "assassins-creed-ii", "assassins-creed", "ezio-collection", "game-shows",]
-theme = "game-shows"
+
+[youtube.thumbnails.default]
+url = "https://i.ytimg.com/vi/Fv6oLwsWrJQ/default.jpg"
+width = 120
+height = 90
+
+[youtube.thumbnails.medium]
+url = "https://i.ytimg.com/vi/Fv6oLwsWrJQ/mqdefault.jpg"
+width = 320
+height = 180
+
+[youtube.thumbnails.high]
+url = "https://i.ytimg.com/vi/Fv6oLwsWrJQ/hqdefault.jpg"
+width = 480
+height = 360
+
+[youtube.thumbnails.standard]
+url = "https://i.ytimg.com/vi/Fv6oLwsWrJQ/sddefault.jpg"
+width = 640
+height = 480

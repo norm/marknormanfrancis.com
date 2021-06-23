@@ -6,3 +6,6 @@ type = "photo"
 location = "Vimeo Theater"
 original_caption = "Waiting for Seth MacFarlane #notsethmacfarlane #notjosswhedon"
 tag = [ "not-joss-whedon", "not-seth-macfarlane", "vimeo-theater",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/03/11/waiting-for-seth-macfarlane.200.jpg"

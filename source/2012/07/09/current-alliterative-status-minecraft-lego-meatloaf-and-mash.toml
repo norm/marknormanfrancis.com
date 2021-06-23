@@ -3,3 +3,6 @@ published = 2012-07-09T12:48:02Z
 image = "https://mnf.m17s.net/2012/07/09/current-alliterative-status-minecraft-lego-meatloaf-and-mash.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/07/09/current-alliterative-status-minecraft-lego-meatloaf-and-mash.200.jpg"

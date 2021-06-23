@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/8e6f2d1bcdaaef2baeb3dfe44df12c2a6ffe592264d3818
 tag = [ "gielgud-theatre",]
 local_timestamp = 2014-04-03T20:11:47Z
 
-[data]
+[checkin]
 id = "533da463498e09f6effc3fbf"
 createdAt = 1396548707
 type = "checkin"
 timeZoneOffset = 60
 shout = "Blithe Spirit with Angela Lansbury! — with S-J"
 
-[data.venue]
+[checkin.venue]
 id = "4ac518e8f964a520b4ab20e3"
 name = "Gielgud Theatre"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d137941735"
 name = "Theater"
 pluralName = "Theaters"
 shortName = "Theater"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Shaftesbury Ave"
 lat = 51.51184403647759
 lng = -0.13313716297366793
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Shaftesbury Ave", "London", "Greater London", "W1D 6AR",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.51184403647759
 lng = -0.13313716297366793

@@ -5,3 +5,6 @@ origin = "instagram"
 type = "photo"
 original_caption = "STOP Do not draw any more cards #boardgames #pandemiclegacy"
 tag = [ "boardgames", "pandemiclegacy",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/02/27/stop-do-not-draw-any-more-cards.200.jpg"

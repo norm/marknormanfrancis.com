@@ -3,3 +3,6 @@ published = 2012-11-27T14:06:00Z
 image = "https://mnf.m17s.net/2012/11/27/frostie-cherry-limeade-also-tastes-like-melted-slush-puppie.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/11/27/frostie-cherry-limeade-also-tastes-like-melted-slush-puppie.200.jpg"

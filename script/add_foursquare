@@ -227,9 +227,9 @@ def main():
         if photos:
             source['photos'] = photos
         if args.raw:
-            source['data'] = checkin
+            source['checkin'] = checkin
         else:
-            source['data'] = {}
+            source['checkin'] = {}
             copy_only_keys = [
                 'id',
                 'createdAt',
@@ -241,7 +241,7 @@ def main():
             ]
             for key in copy_only_keys:
                 try:
-                    source['data'][key] = checkin[key]
+                    source['checkin'][key] = checkin[key]
                 except KeyError:
                     pass
 

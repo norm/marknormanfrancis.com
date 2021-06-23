@@ -3,3 +3,6 @@ published = 2012-08-22T08:37:43Z
 image = "https://mnf.m17s.net/2012/08/22/these-sharpies-are-not-yours.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/08/22/these-sharpies-are-not-yours.200.jpg"

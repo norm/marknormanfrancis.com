@@ -3,3 +3,6 @@ published = 2012-06-02T11:38:54Z
 image = "https://mnf.m17s.net/2012/06/02/union-flags.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/06/02/union-flags.200.jpg"

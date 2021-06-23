@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/36d20be05727435b75196ab799cc6dd08eb68ca344cda5ecdbadcdc854f43bb3.png"
 tag = [ "rugby-tavern",]
 
-[data]
+[checkin]
 id = "53065b8511d223dc187d52e0"
 createdAt = 1392925573
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4b182dd6f964a52069ce23e3"
 name = "Rugby Tavern"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d11b941735"
 name = "Pub"
 pluralName = "Pubs"
 shortName = "Pub"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "19 Great James St"
 lat = 51.522006136421524
 lng = -0.11723494036232945
@@ -35,7 +35,7 @@ city = "Bloomsbury"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "19 Great James St", "Bloomsbury", "Greater London", "WC1N 3ES",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.522006136421524
 lng = -0.11723494036232945

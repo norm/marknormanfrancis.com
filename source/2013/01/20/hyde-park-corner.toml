@@ -3,3 +3,6 @@ published = 2013-01-20T15:03:01Z
 image = "https://mnf.m17s.net/2013/01/20/hyde-park-corner.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/01/20/hyde-park-corner.200.jpg"

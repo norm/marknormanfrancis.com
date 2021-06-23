@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/4877a982d487974752c6e9fb1e6650b68845d8221ba28a02e106ae9a42e81af3.png"
 tag = [ "oxford-tube-bus-stop",]
 
-[data]
+[checkin]
 id = "50ad4d0be4b048569bf973e6"
 createdAt = 1353534731
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4f4feaf24fc6504b6ef3e99b"
 name = "Oxford Tube Bus Stop"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "52f2ab2ebcbc57f1066b8b4f"
 name = "Bus Stop"
 pluralName = "Bus Stops"
 shortName = "Bus Stop"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/travel/busstation_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "Chain Alley"
 crossStreet = "Gloucester Green"
 lat = 51.75399879482361
@@ -36,7 +36,7 @@ city = "Oxford"
 state = "Oxfordshire"
 country = "United Kingdom"
 formattedAddress = [ "Chain Alley (Gloucester Green)", "Oxford", "Oxfordshire", "OX1 2BU",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.75399879482361
 lng = -1.262578072601431

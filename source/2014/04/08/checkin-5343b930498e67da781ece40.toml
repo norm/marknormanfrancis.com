@@ -6,28 +6,28 @@ map = "https://mnf.m17s.net/maps/bdfbb4e7b3b9ad6718b74dc1451c31db511a8b1de2012ff
 tag = [ "my-health-pal",]
 local_timestamp = 2014-04-08T10:54:08Z
 
-[data]
+[checkin]
 id = "5343b930498e67da781ece40"
 createdAt = 1396947248
 type = "checkin"
 timeZoneOffset = 60
 shout = "First day on the job"
 
-[data.venue]
+[checkin.venue]
 id = "5315d11d498efbe787083a20"
 name = "myHealthPal"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d125941735"
 name = "Tech Startup"
 pluralName = "Tech Startups"
 shortName = "Tech Startup"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/shops/technology_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "338 Euston Road"
 lat = 51.52438631905153
 lng = -0.14155815997711432
@@ -37,7 +37,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "338 Euston Road", "London", "Greater London", "NW1 3BT",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.52438631905153
 lng = -0.14155815997711432

@@ -3,3 +3,6 @@ published = 2014-01-12T16:08:58Z
 image = "https://mnf.m17s.net/2014/01/12/cole-mason-mills-in-need-of-a-good-home.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2014/01/12/cole-mason-mills-in-need-of-a-good-home.200.jpg"

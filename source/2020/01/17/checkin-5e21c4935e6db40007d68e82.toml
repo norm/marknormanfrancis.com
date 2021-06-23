@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/d26ec0a6e580e8799402664859b6ddafb5b10a0839dc823ab0e615772ef5959e.png"
 tag = [ "you-tube-space-london",]
 
-[data]
+[checkin]
 id = "5e21c4935e6db40007d68e82"
 createdAt = 1579271315
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "57b2e4a1498efa47effadfde"
 name = "YouTube Space London"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "56aa371be4b08b9a8d573523"
 name = "Film Studio"
 pluralName = "Film Studios"
 shortName = "Film Studio"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "6 Pancras Sq"
 lat = 51.53320920311558
 lng = -0.12582778930664062
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "6 Pancras Sq", "London", "Greater London", "N1C 4AG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.53320920311558
 lng = -0.12582778930664062

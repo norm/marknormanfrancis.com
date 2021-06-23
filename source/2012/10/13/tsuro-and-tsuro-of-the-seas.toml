@@ -3,3 +3,6 @@ published = 2012-10-13T21:21:00Z
 image = "https://mnf.m17s.net/2012/10/13/tsuro-and-tsuro-of-the-seas.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2012/10/13/tsuro-and-tsuro-of-the-seas.200.jpg"

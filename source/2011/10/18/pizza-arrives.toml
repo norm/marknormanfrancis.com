@@ -6,3 +6,6 @@ type = "photo"
 location = "Forward Internet Group"
 original_caption = "Pizza arrives #ldndevops"
 tag = [ "forward-internet-group", "ldndevops",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2011/10/18/pizza-arrives.200.jpg"

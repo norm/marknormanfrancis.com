@@ -3,3 +3,6 @@ published = 2015-08-01T12:40:55Z
 image = "https://mnf.m17s.net/2015/08/01/police-academy-1984.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/08/01/police-academy-1984.200.jpg"

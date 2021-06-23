@@ -6,27 +6,27 @@ map = "https://mnf.m17s.net/maps/903c1cd9751e904c447fad2842e9d87cbf2613cd6a31bed
 tag = [ "london",]
 local_timestamp = 2014-07-11T18:14:33Z
 
-[data]
+[checkin]
 id = "53c00d6911d26257659ee695"
 createdAt = 1405095273
 type = "checkin"
 timeZoneOffset = 60
 
-[data.venue]
+[checkin.venue]
 id = "4e10c02045dde6c62dcd8b19"
 name = "London"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "50aa9e094b90af0d42d5de0d"
 name = "City"
 pluralName = "Cities"
 shortName = "City"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 lat = 51.50767403407925
 lng = -0.12788772583007812
 cc = "GB"
@@ -34,7 +34,7 @@ city = "Greater London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "Greater London",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.50767403407925
 lng = -0.12788772583007812

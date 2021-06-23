@@ -5,27 +5,27 @@ type = "checkin"
 map = "https://mnf.m17s.net/maps/f0ecc3d9f8238fa870acb3eb840d54e03142a1cc98863aa4bad22c9f800cfcff.png"
 tag = [ "tate-modern",]
 
-[data]
+[checkin]
 id = "569e2c02498e54d467b4551c"
 createdAt = 1453206530
 type = "checkin"
 timeZoneOffset = 0
 
-[data.venue]
+[checkin.venue]
 id = "4ac518d3f964a52076a720e3"
 name = "Tate Modern"
-[[data.venue.categories]]
+[[checkin.venue.categories]]
 id = "4bf58dd8d48988d18f941735"
 name = "Art Museum"
 pluralName = "Art Museums"
 shortName = "Art Museum"
 primary = true
 
-[data.venue.categories.icon]
+[checkin.venue.categories.icon]
 prefix = "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_art_"
 suffix = ".png"
 
-[data.venue.location]
+[checkin.venue.location]
 address = "53 Bankside"
 lat = 51.50770408386703
 lng = -0.0994563102722168
@@ -35,7 +35,7 @@ city = "London"
 state = "Greater London"
 country = "United Kingdom"
 formattedAddress = [ "53 Bankside", "London", "Greater London", "SE1 9TG",]
-[[data.venue.location.labeledLatLngs]]
+[[checkin.venue.location.labeledLatLngs]]
 label = "display"
 lat = 51.50770408386703
 lng = -0.0994563102722168

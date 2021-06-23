@@ -3,3 +3,6 @@ published = 2013-06-18T18:18:34Z
 image = "https://mnf.m17s.net/2013/06/18/chilli-dogs.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2013/06/18/chilli-dogs.200.jpg"

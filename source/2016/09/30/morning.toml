@@ -6,3 +6,6 @@ type = "photo"
 text_markdown = "\n\nThe other power station near me"
 original_caption = "Morning\n\nThe other power station near me #lotsroadpowerstation"
 tag = [ "lotsroadpowerstation",]
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/09/30/morning.200.jpg"

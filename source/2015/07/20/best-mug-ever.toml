@@ -3,3 +3,6 @@ published = 2015-07-20T13:57:25Z
 image = "https://mnf.m17s.net/2015/07/20/best-mug-ever.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2015/07/20/best-mug-ever.200.jpg"

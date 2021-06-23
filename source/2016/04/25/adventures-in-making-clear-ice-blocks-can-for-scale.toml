@@ -3,3 +3,6 @@ published = 2016-04-25T16:38:15Z
 image = "https://mnf.m17s.net/2016/04/25/adventures-in-making-clear-ice-blocks-can-for-scale.jpg"
 origin = "instagram"
 type = "photo"
+
+[thumbnail]
+w200 = "https://mnf.m17s.net/2016/04/25/adventures-in-making-clear-ice-blocks-can-for-scale.200.jpg"
