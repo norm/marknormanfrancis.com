@@ -1,5 +1,5 @@
 ```
-title = "Will never not love being a pillow for"
+title = "Will never not love being a pillow for Itsy"
 published = 2020-09-01T20:31:04Z
 origin = "twitter-cackhanded"
 type = "photo"

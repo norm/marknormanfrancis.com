@@ -1,1 +1,8 @@
+{% if updated_explanation %}
+  <div id='updated'>
+    <p><strong>Updated: {{updated.strftime('%d %B, %Y')}}:</strong></p>
+    {{updated_explanation|markdown}}
+  </div>
+{% endif %}
+
 {{body}}

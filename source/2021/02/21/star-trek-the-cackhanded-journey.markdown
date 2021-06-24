@@ -4,6 +4,11 @@ published = 2021-02-21T15:13:38Z
 origin = "twitter-cackhanded"
 type = "thread"
 tag = [ "star-trek",]
+summary = """
+  An attempted troll of Star Trek nerds turns into a twitter thread,
+  turns into a short article summarising which Star Trek movies to
+  watch, and some background TV episodes.
+"""
 
 [twitter]
 account = "cackhanded"

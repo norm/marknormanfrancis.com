@@ -4,6 +4,7 @@ published = 2012-07-12T09:39:00Z
 origin = "artfinder"
 origin_url = "artfindertech.wordpress.com/2012/07/12/working-with-the-history-api/"
 origin_note = "An article I wrote for the now-retired Artfinder tech blog while I was working there."
+type = 'article'
 repost = true
 tag = ['history-api',]
 thread = 'artfinder-history-api'

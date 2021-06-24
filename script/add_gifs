@@ -21,6 +21,7 @@ fields = [
     'slug',
     'published',
     'title',
+    'original_title',
     'url',
     'gif',
     'thumbnail',
@@ -43,6 +44,7 @@ for row in reader:
     )
     row['origin'] = 'gifs'
     row['origin_link_url'] = row['url']
+    row['original_title'] = row['title']
     row['title'] = 'Published GIF “%s”' % row['title']
 
     # use the source/episode parts of the URL as tags too

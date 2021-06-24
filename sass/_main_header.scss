@@ -1,6 +1,14 @@
 // The introductory area to an article.
 
 main header {
+    margin-bottom: 1em;
+
+    @include larger_width {
+        margin-bottom: 2em;
+    }
+}
+
+body.source main header {
     @include body_font;
     color: $nevada;
 

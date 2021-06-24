@@ -10,6 +10,26 @@ $side_outdent_larger: -60px;
         @content;
     }
 }
+@mixin largest_width {
+    @media only screen and (min-width: 1144px) {
+        @content;
+    }
+}
+@mixin width_above($width) {
+    @media only screen and (min-width: $width) {
+        @content;
+    }
+}
+@mixin width_below($width) {
+    @media only screen and (max-width: $width) {
+        @content;
+    }
+}
+@mixin width_between($lower, $upper) {
+    @media only screen and (min-width: $lower) and (max-width: $upper) {
+        @content;
+    }
+}
 
 @mixin contain-floated-children {
     &:after {
@@ -19,13 +39,25 @@ $side_outdent_larger: -60px;
     }
 }
 
+@mixin screen-reader-text {
+    position: absolute;
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+    word-wrap: normal !important;
+}
+.screen-reader-text {
+    @include screen-reader-text;
+}
+
 html, body {
     margin: 0;
     padding: 0;
-}
-
-main {
-    max-width: 900px;
 }
 
 
@@ -35,6 +67,22 @@ main {
     @include larger_width {
         padding: 20px $side_indent_larger;
     }
+
+    header {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    h1 span {
+        padding-right: 6px;
+    }
+    h1 span.n {
+        color: $skeptic;
+    }
+    h1 span.dotcom {
+        color: $limed_spruce;
+        font-size: 0.6em;
+    }
 }
 
 #body,
@@ -42,6 +90,10 @@ main {
     margin: 0 $side_indent 2em;
 
     @include larger_width {
-        margin: 1em $side_indent_larger 3em;
+        margin: 0 $side_indent_larger 3em;
+    }
+    @include largest_width {
+        margin: 0 auto 3em;
+        max-width: 1024px;
     }
 }
