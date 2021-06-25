@@ -1,0 +1,42 @@
+#!/usr/bin/env -S bash -euo pipefail
+
+date="$1"
+url="$2"
+path="${3:-/}"
+
+base_dir="archive/${url}/${date}/"
+req_url="https://web.archive.org/web/${date}/http://${url}${path}"
+
+# get location of nearest backup
+mkdir -p "$base_dir"
+archive="$(curl -si $req_url | grep ^location | cut -c11- | tr -d '\r\n')"
+echo "$archive" | tee "$base_dir/fetched.txt"
+
+wget \
+    --convert-links \
+    --domains web.archive.org \
+    --page-requisites \
+    --adjust-extension \
+    --no-directories \
+    --directory-prefix="$base_dir" \
+    --no-parent \
+        "${archive}" || true
+
+# remove Wayback Machine banner files
+rm -f "$base_dir/banner-styles.css?v="*.css
+rm -f "$base_dir/iconochive.css?v="*.css
+rm -f "$base_dir/playback.bundle.js?v="*
+rm -f "$base_dir/wombat.js?v="*
+rm -f "$base_dir/web-screenshot.svg"
+rm -f "$base_dir/record.css"
+
+[[ "$path" == */ ]] && path="${path}index.html"
+if [[ "$path" == *.html ]]; then
+    # remove Wayback Machine banner from HTML
+
+    perl -i -0ne '
+        s#<script src=.https://archive.org.*End Wayback Rewrite JS Include -->##s;
+        s#<!-- BEGIN WAYBACK TOOLBAR INSERT.*END WAYBACK TOOLBAR INSERT -->##s;
+        print;
+    ' "$base_dir/$(basename $path)"
+fi

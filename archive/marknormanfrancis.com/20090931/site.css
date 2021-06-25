@@ -1,0 +1,279 @@
+@import url(https://web.archive.org/web/20100515230421cs_/http://marknormanfrancis.com/static/reset.css);
+/*
+@import url(/web/20100515230421cs_/http://marknormanfrancis.com/static/debug.css);
+*/
+@import url(https://web.archive.org/web/20100515230421cs_/http://marknormanfrancis.com/static/base.css);
+@import url(https://web.archive.org/web/20100515230421cs_/http://marknormanfrancis.com/static/article.css);
+@import url(https://web.archive.org/web/20100515230421cs_/http://marknormanfrancis.com/static/index.css);
+
+
+/*
+#sections {
+    padding: 0 2em 0.769em;
+    margin: 0 -2em;
+	background: #315a52;
+	background: #804000;
+	background: #422100;
+	color: #999;
+    color: #62b5a5;
+	color: #73d4c1;
+	color: #fc6;
+}
+#sections A {
+	color: #999;
+    color: #8affe8;
+    color: #62b5a5;
+	color: #73d4c1;
+	color: #fc6;
+}
+#sections A:hover,
+#sections A:active {
+	background: #fc6;
+	color: #422100;
+}
+
+#explore {
+	clear: both;
+	background: #315a52;
+	background: #804000;
+	background: #422100;
+	padding: 0em 2em 1.538em 2em;
+	margin-left: -2em;
+	margin-right: -2em;
+	margin-top: 3.076em;
+	margin-bottom: 0;
+	color: #fff;
+}
+#explore A {
+	color: #fff;
+}
+#explore A:hover {
+	background: #fff;
+	color: #422100;
+}
+#explore H1, #explore H2 {
+	font-family: "American Typewriter", 
+	             "Bookman Old Style",
+	             "Georgia", 
+	             "Courier New", 
+	             monospace;
+    color: #73d4c1;
+	color: #fc6;
+}
+#explore H1 {
+	font-size: 1.384em;
+	line-height: 2.222em;
+}
+#explore H2 {
+	font-size: 1.154em;   /* 15px / 13px * /
+	line-height: 1.333em; /* 20px / 15px * /	
+}
+
+#copyright {
+	margin-top: 1.538em;
+	padding-top: 1.538em;
+    color: #73d4c1;
+	color: #fc6;
+	font-size: 0.846em;
+}
+#copyright,
+#copyright * {
+	line-height: 1.818em;
+}
+#copyright A {
+    color: #73d4c1;
+	color: #fc6;
+}
+#copyright A:hover,
+#copyright A:active {
+    background: #73d4c1;
+	background: #fc6;
+	color: #315a52;
+	color: #804000;
+	color: #422100;
+}
+
+
+
+
+
+
+
+#content DIV.image {
+    font-family:        "American Typewriter", 
+                        "Bookman Old Style",
+                        "Georgia", 
+                        "Courier New", 
+                        monospace;
+    position:           relative;
+}
+#content DIV.image IMG {
+    display:            block;
+}
+#content DIV.image A.img {
+    display:            block;
+}
+#content DIV.image.landscape A.img {
+    margin-right:       -170px;
+    margin-left:        15px;
+    margin-bottom:      1em;
+    float:              right;
+}
+#content DIV.image SPAN {
+    display:            block;
+}
+#content DIV.image SPAN A {
+	color:              #000;
+}
+#content DIV.image.landscape SPAN {
+    text-align:         right;
+    margin-top:         -1em;
+}
+#content DIV.image.landscape SPAN {
+    float:              right;
+    clear:              right;
+    margin-right:       -170px;
+    width:              160px;
+}
+#content DIV.image.full SPAN {
+    position:           absolute;
+    bottom:             7px;
+    margin:             5px;
+    padding:            5px;
+    width:              480px;
+    background:         url(/web/20100515230421im_/http://marknormanfrancis.com/static/000000-40.png);
+    color:              #fff;
+}
+#content DIV.image.full Q {
+    padding-right:      1em;
+}
+#content DIV.image.full CITE {
+    display:            inline;
+	color:              #999;
+}
+#content DIV.image.full A {
+	color:              #999;
+}
+#content DIV.image.full A:hover,
+#content DIV.image.full A:hover {
+	color:              #333;
+	background:         #999;
+}
+
+#content DIV.image Q {
+    text-transform:     uppercase;
+}
+#content DIV.image Q:before,
+#content DIV.image Q:after {
+    content:            "";
+}
+#content DIV.image CITE {
+    display:            block;
+}        
+#content DIV.image.full {
+	padding-bottom:     7px;
+	font-size:          1.154em;        /* 15px / 13px * /
+	line-height:        1.333em;        /* 20px / 15px * /
+}
+
+
+
+
+
+/*
+#article {
+	margin-top: 1.538em;
+	margin-bottom: 1.538em;
+	margin-left: 0;
+}
+
+
+#article P.date {
+	width: 160px;
+	float: right;
+	font-family: "American Typewriter", 
+	             "Bookman Old Style",
+	             "Georgia", 
+	             "Courier New", 
+	             monospace;
+    margin-top: 0;
+	font-size: 1.154em;   /* 15px / 13px * /
+	line-height: 1.333em; /* 20px / 15px * /
+    color: #315a52;
+	color: #804000;
+	color: #422100;
+}
+
+#article P.date * {
+	line-height: 1.333em;
+}
+#article P.date .time {
+	display: block;
+}
+
+
+#article:after {
+    content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+/*
+#content P + P, 
+#content DIV.image.landscape + P, 
+#content DIV.image.portrait + P {
+    text-indent: 3em;
+    margin-top: 0;
+}
+* /
+
+#meta {
+	width: 160px;
+	float: right;
+}
+#meta H1 {
+	position: absolute;
+	left: -9999px;
+	width: 100px;
+}
+#meta H2 {
+	font-family: "American Typewriter", 
+	             "Bookman Old Style",
+	             "Georgia", 
+	             "Courier New", 
+	             monospace;
+	margin-top: 1.333em;
+	font-size: 1.154em;   /* 15px / 13px * /
+	line-height: 1.333em; /* 20px / 15px * /
+	
+/*	margin-top: 1.538em;
+	margin-top: 1.111em;
+* /  
+	color: #315a52;
+	color: #804000;
+	color: #422100;
+}
+
+/*
+     FILE ARCHIVED ON 23:04:21 May 15, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:32:38 Jun 24, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  CDXLines.iter: 20.998 (3)
+  load_resource: 63.749
+  exclusion.robots.policy: 0.141
+  RedisCDXSource: 0.751
+  esindex: 0.022
+  PetaboxLoader3.datanode: 73.443 (4)
+  captures_list: 107.356
+  exclusion.robots: 0.15
+  PetaboxLoader3.resolve: 38.156
+  LoadShardBlock: 82.813 (3)
+*/

@@ -1,0 +1,532 @@
+BLOCKQUOTE,
+BODY,
+DD,
+DIV,
+DL,
+DT,
+FIELDSET,
+FORM,
+H1,
+H2,
+H3,
+H4,
+H5,
+H6,
+INPUT,
+LI,
+OL,
+P,
+PRE,
+TD,
+TH,
+UL
+{
+	margin: 0;
+	padding: 0;
+}
+
+TABLE
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+FIELDSET,
+IMG
+{
+	border: 0;
+}
+
+ADDRESS,
+CAPTION,
+CITE,
+CODE,
+DFN,
+EM,
+STRONG,
+TH,
+VAR
+{
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+}
+
+OL,
+UL 
+{
+	list-style: none;
+}
+
+H1,
+H2,
+H3,
+H4,
+H5,
+H6
+{
+	font-size: 100%;
+	font-weight: normal;
+}
+
+Q:before,
+Q:after
+{
+	content: '';
+}
+
+ABBR,
+ACRONYM
+{
+	border-bottom: none;
+}
+
+DEL,
+INS
+{
+	text-decoration: none;
+}
+
+CODE,
+KBD,
+SAMP,
+VAR
+{
+	font-family: sans-serif;
+}
+/*  
+ * Copyright (c) 2006, Yahoo! Inc. All rights reserved.  
+ * Code licensed under the BSD License:  
+ * http://developer.yahoo.net/yui/license.txt  
+ * version: 0.10.0  
+ */  
+
+/*  
+ * 84.5% for !IE, keywords for IE  
+ * Percents could work for IE, but for backCompat purposes, we are using 
+ * keywords. Keyword x-small is for IE < 6 and IE6 quirks mode.  
+ */  
+
+BODY 
+{
+	font: 13px Arial, Helvetica, Clean, sans-serif;
+	* font-size: small;
+	* font: x-small;
+}
+
+TABLE 
+{
+	font-size: inherit;
+	font: 100%;
+}
+
+/*  
+ * 99% for safari; 100% is too large  
+ */  
+SELECT,
+INPUT,
+TEXTAREA 
+{
+	font: 99% Arial, Helvetica, Clean, sans-serif;
+}
+
+/*  
+ * Bump up !IE to get to 13px equivalent  
+ */  
+CODE,
+PRE
+{
+	font: 115% monospace;
+	* font-size: 100%;
+}
+
+/*  
+ * Default line-height based on font-size rather than "computed-value"
+ * see: http://www.w3.org/TR/CSS21/visudet.html#line-height  
+ */  
+BODY * 
+{
+	line-height: 1.22em;
+}
+
+A {
+	color: #cb4353;
+	border-bottom: 1px solid #cb4353;
+	text-decoration: none;
+}
+A:visited {
+	border-bottom-width: 0;
+	color: #872d37;
+}
+A:hover {
+	color: #fff;
+	background: #cb4353;
+}
+
+
+
+BODY { 
+	background: #343029;
+	width: 50em;
+	margin: 0 auto;
+	border-top-width: 0;
+}
+#body {
+	background: #fff;
+	width: 42em;
+	margin-left: 3em;
+	margin-right: 5em;
+	padding-top: 2em;
+}
+
+
+
+#head {
+	background: #315a52;
+	padding: 0.5em 1em;
+	color: #fff;
+	margin-left: -3em;
+	margin-right: -5em;
+	text-align: right;
+}
+#head ADDRESS {
+	font-family: "American Typewriter", "Bookman Old Style", "Georgia", "Courier New", monospace;
+	font-size: 95%;
+	width: 18em;
+	color: #fff;
+	display: block;
+	float: left;
+}
+#head ADDRESS A {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+#head ADDRESS A.home {
+	margin-right: 0.4em;
+}
+#head ADDRESS A.url {
+	margin-left: 0.4em;
+}
+#head ADDRESS A:hover {
+	background: #fff;
+	color: #315a52;
+}
+#search LABEL SPAN {
+	position: absolute;
+	left: -9999px;
+}
+
+
+
+#page .intro {
+	padding: 1.5em 3em;
+	color: #315a52;
+}
+#page .intro H1, #page .intro P {
+	font-weight: bold;
+	font-family: "American Typewriter", "Bookman Old Style", "Georgia", "Courier New", monospace;
+	line-height: 0.92;
+}
+#page .intro H1 {
+	font-size: 250%;
+	border-bottom: 0.06em solid #315a52;
+}
+#page .intro P {
+	margin-top: 0.2em;
+	text-transform: uppercase;
+}
+#page .content {
+	width: 30em;
+	padding: 1em 3em 2em;
+	float: left;
+	color: #444;
+}
+#page .meta {
+	width: 10em;
+	padding: 1em;
+	margin-right: -5em;
+	margin-left: -1em;
+	float: left;
+	background: #cbb189;
+        color: #343029;
+	text-align: right;
+}
+#page .meta .date {
+	letter-spacing: 1px;
+	margin-bottom: 2em;
+	font-family: "American Typewriter", "Bookman Old Style", "Georgia", "Courier New", monospace;
+	font-size: 107%;
+}
+#page .meta .date + .date {
+	margin-top: -1em;
+}
+#page .meta .about {
+	position: absolute;
+	left: -9999px;
+}
+#page .meta H2 {
+	font-size: 107%;
+	margin-top: 1em;
+	letter-spacing: 1px;
+	font-family: "American Typewriter", "Bookman Old Style", "Georgia", "Courier New", monospace;
+}
+#page .meta .tags LI {
+	display: inline;
+}
+#page .meta .tags LI:before {
+	content: ", ";
+}
+#page .meta .tags > LI:first-child:before {
+	content: '';
+}
+#page .meta .tags:after {
+	content: '.';
+}
+
+
+
+.article .content EM {
+	font-weight: bold;
+}
+.article .content H2, 
+.article .content H3,
+.article .content H4,
+.article .content H5,
+.article .content H6 {
+	font-family: "American Typewriter", "Bookman Old Style", "Georgia", "Courier New", monospace;
+	font-weight: bold;
+}
+.article .content H2 {
+	font-size: 122%;
+	margin: 1em 0 1em -1em;
+}
+.article .content H3 {
+	font-size: 114%;
+	margin: 1em 0;
+}
+.article .content P, .article .content BLOCKQUOTE, .article .content LI {
+	line-height: 1.4;
+}
+.article .content UL, .article .content OL {
+	margin-left: -1em;
+	padding-left: 1em;
+}
+.article .content LI UL, .article .content LI OL {
+	margin-left: 1em;
+}
+.article .content UL LI {
+	list-style-type: square;
+}
+.article .content OL LI {
+	list-style-type: decimal;
+}
+.article .content LI {
+	margin-bottom: 0.25em;
+}
+.article .content P, .article .content UL, .article .content OL {
+	margin-top: 0.5em;
+}
+.article .content P.summary,
+.article .content .hreview P,
+.article .content P + P {
+	text-indent: 1em;
+}
+.article .content .hreview H3 + P,
+.article .content P.photo + P {
+	text-indent: 0;
+}
+.article .content > P:first-child {
+	margin-top: 0;
+	font-weight: bold;
+}
+.article P.photo {
+	margin: 1em 0;
+}
+.article .photo A, .article .photo IMG, .article .photo EM {
+	width: 24em;
+	display: block;
+}
+.article .photo A {
+	margin: 0 auto;
+	border: 2px solid #343029;
+	position: relative;
+	padding: 4px;
+	color: #fff;
+}
+.article .photo A:hover {
+	background: #fff;
+	border: 2px solid #cbb189;
+	border: 2px solid #cb4353;
+	text-decoration: underline;
+}
+.article .photo EM {
+	position: absolute;
+	font-weight: normal;
+	bottom: 4px;
+	left: 4px;
+	background: url( 50-000.png );
+	font-family: "American Typewriter", "Bookman Old Style", "Georgia", "Courier New", monospace;
+}
+.article .photo A:hover EM {
+	background: #cb4353;
+}
+.article .photo SPAN {
+	padding: 5px 10px;
+	display: block;
+	text-align: center;
+}
+.article .content BLOCKQUOTE {
+	background: #ddd;
+	color: #444;
+	padding: 0.25em 1em 0.5em;
+	margin-bottom: 1em;
+}
+.article .content UL.summary-info LI {
+	list-style: none;
+}
+.article .hreview {
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #666;
+}
+.article Q {
+	font-style: italic;
+}
+.article CODE PRE {
+	font-size: 85%;
+	overflow: scroll;
+	margin: 1em 0;
+	background: #cbb189;
+}
+
+.articles LI {
+	margin-bottom: 1em;
+}
+.articles LI A {
+	font-weight: bold;
+	font-size: 122%;
+	font-family: "American Typewriter", "Bookman Old Style", "Georgia", "Courier New", monospace;
+}
+.articles LI P {
+	font-family: "American Typewriter", "Bookman Old Style", "Georgia", "Courier New", monospace;
+}
+UL.articles LI BLOCKQUOTE {
+	padding: 0.25em 0 0.25em 2em;
+	padding: 0.25em 0 0 2em;
+	color: #999;
+}
+.articles .meta .tag-navigation LI.tag {
+	float: left;
+}
+.articles .meta .tag-navigation A {
+	border-bottom: none;
+}
+
+
+
+#explore {
+	margin-top: 2em;
+        background: #315a52;        
+        color: #fff;
+        padding: 2em 0;
+}
+#explore HR {
+        display: none;                  
+}  
+#explore H1 {
+	width: 10em;
+	background: #cbb189;
+        color: #343029;
+	float: right;
+	padding: 1em;
+	margin-right: -5em;
+	font-family: "American Typewriter", "Bookman Old Style", "Georgia", "Courier New", monospace;
+	text-align: right;
+}
+#explore H2 {
+        color: #cbb189;     
+	font-family: "American Typewriter", "Bookman Old Style", "Georgia", "Courier New", monospace;
+}
+#explore LI {          
+        width: 9em;
+        margin-left: 2em;
+        float: left;
+}
+#explore LI LI {    
+        width: 100%;
+        list-style: square;
+        margin: 0 0 0.25em;
+        line-height: 1.4em;
+        float: none;
+}
+#explore A {
+        color: #fff;
+        border-bottom-color: #fff;
+}
+#explore A:visited {
+        border-bottom-width: 1px;
+}
+#explore A:hover {
+        background: #fff;
+        color: #315a52;
+}
+
+
+
+#foot {
+	color: #cbb189;
+	background: #343029;
+        padding: 2em 3em;
+}
+#foot HR {
+	display: none;
+}
+#foot P {
+        margin-bottom: 0.25em;
+	font-size: 92%;
+}
+#foot A {
+        color: #315a52;
+	color: #cbb189;
+        border-bottom-color: #315a52;
+	border-bottom-color: #cbb189;
+}
+#foot A:visited {
+        border-bottom-width: 1px;
+}
+#foot A:hover {
+        color: #343029;
+	background: #cbb189;
+}
+
+
+
+#head:after, #page:after, #tag-index:after, #explore:after {
+	content: '.';
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+/*
+     FILE ARCHIVED ON 00:20:46 Jul 03, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:51:44 Jun 24, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  esindex: 0.015
+  LoadShardBlock: 96.995 (3)
+  exclusion.robots.policy: 0.201
+  load_resource: 72.046
+  PetaboxLoader3.datanode: 100.746 (4)
+  PetaboxLoader3.resolve: 48.048
+  captures_list: 126.194
+  exclusion.robots: 0.216
+  RedisCDXSource: 7.816
+  CDXLines.iter: 18.061 (3)
+*/

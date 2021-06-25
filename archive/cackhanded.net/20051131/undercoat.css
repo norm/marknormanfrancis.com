@@ -1,0 +1,98 @@
+
+#body {
+	background: #f0f0f3;
+	font-family: Verdana;
+	padding-bottom: 1em;
+}
+
+
+H1,H2,H3,H4,H5,H6 {
+	font-family: Georgia;
+	margin: 1em 0;
+}
+H1 {
+	font-weight: bold;
+	font-size: 150%;
+}
+H2 {
+	font-weight: bold;
+	font-size: 122%;
+}
+H3 {
+	font-weight: bold;
+}
+H4,H5,H6 {
+	font-weight: bold;
+	font-size: 85%;
+}
+
+
+
+#masthead {
+	background: #435143;
+	padding: 15px 20px;
+}
+#masthead H1, #masthead A {
+	color: #fff;
+	font: bold 150% Georgia;
+	text-decoration: none;
+	margin: 0;
+	display: block;
+}
+
+
+#navigation {
+	background: #99a093;
+	color: #fff;
+	font-size: 85%;
+	padding: 8px 20px;
+}
+#navigation .main LI {
+	padding-top: 2px;
+	padding-right: 15px;
+}
+#navigation .main LI A {
+	color: #fff;
+	text-decoration: none;
+}
+#navigation .main LI STRONG {
+	color: #fff;	
+}
+#navigation .main LI A:hover {
+	text-decoration: underline;
+}
+
+
+#search {
+	float: right;
+}
+#search INPUT {
+	font-size: 85%;
+}
+
+
+#footer {
+	font-size: 85%;
+	margin: 0 20px;
+	padding: 8px 20px;
+	background: #fff;
+}
+
+
+#content {
+	padding: 1em 20px 2em;
+}
+
+#photopromo {
+	margin: 0 auto 1em auto;
+	width: 700px;
+}
+#photopromo CITE {
+	width: 670px;
+	padding: 7px 15px;
+	font-style: normal;
+	font-weight: bold;
+	font-family: Georgia;
+	color: #fff;
+	display: block;
+}

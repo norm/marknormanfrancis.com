@@ -1,0 +1,245 @@
+
+#masthead H1, #masthead A {
+	text-indent: -1000em;
+	background: url( masthead.gif );
+	background-attachment: scroll;
+	width: 321px;
+	height: 75px;
+}
+
+
+#navigation .main LI {
+	float: left;
+}
+
+
+#content {
+	color: #435143;
+}
+.col-before {
+}
+.col-one {
+	width: 32em;
+	padding-left: 2em;
+	float: right;
+}
+.col-two {
+	float: left;
+}
+.col-three {
+	float: left;
+}
+.col-after {
+	clear: both;
+}
+
+.even-twocol .col-one {
+	width: 49%;
+	padding-left: 0;
+	float: left;
+}
+.even-twocol .col-two {
+	width: 49%;
+	float: right;
+}
+
+
+DIV.styled * {
+	line-height: 1.35;
+}
+DIV.styled UL, DIV.styled OL {
+	margin: 0.6em 0;
+}
+DIV.styled LI {
+	margin-bottom: 0.25em;
+}
+DIV.styled UL LI {
+	list-style: disc;
+}
+DIV.styled UL UL LI {
+	list-style: square;
+}
+DIV.styled UL UL UL LI {
+	list-style: circle;
+}
+DIV.styled OL LI {
+	list-style: decimal;
+}
+DIV.styled OL OL LI {
+	list-style: lower-alpha;
+}
+DIV.styled OL OL OL LI {
+	list-style: lower-roman;
+}
+DIV.styled P {
+	margin: 0.6em 0;
+}
+DIV.styled P {
+	clear: right;
+}
+DIV.styled IMG {
+	float: right;
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+	border: 1px solid #666;
+}
+DIV.styled A IMG {
+	border: 2px solid #435143;
+}
+DIV.styled A:hover IMG {
+	border: 2px solid #fff;
+}
+
+
+UL.sidenav {
+	margin-top: 4em;
+	padding-left: 2em;
+}
+UL.sidenav LI {
+	background: url( page.gif ) no-repeat;
+	padding-bottom: 0.5em;
+}
+UL.sidenav LI A, UL.sidenav LI STRONG {
+	padding-left: 25px;
+	display: block;
+}
+
+
+UL.entries LI {
+	clear: both;
+	margin-bottom: 1.5em;
+}
+#content UL.entries LI {
+	list-style: none;
+}
+UL.entries H3 {
+	margin-bottom: 1.5em;
+}
+UL.entries H3 A {
+	background: url( page.gif ) no-repeat;
+	padding-left: 25px;
+	text-decoration: none;
+	color: #435143;
+}
+UL.entries H3 A:hover {
+	text-decoration: underline;
+}
+UL.entries BLOCKQUOTE {
+	margin-bottom: 0.5em;
+}
+.styled DL.meta {
+	margin-top: -1em;
+}
+UL.entries DL.meta {
+	margin-top: -2em;
+}
+.styled DL.meta .postdate {
+	background: url( page.gif ) no-repeat;
+	padding-left: 20px;
+}
+.styled DL.meta .comments {
+	background: url( comment.gif ) no-repeat;
+	padding-left: 20px;
+}
+UL.entries DL.meta {
+	font-size: 77%;
+	/*
+	text-align: right;
+	*/
+	padding-top: 0.33em;
+}
+UL.entries DL.meta A, UL.entries P.more A {
+	color: #435143;
+}
+/*
+UL.entries DL.meta A:hover, UL.entries P.more A:hover {
+	text-decoration: underline;
+}
+*/
+UL.entries P {
+	margin: 0.5em 0;
+}
+UL.entries P.more {
+	margin-top: 0;
+}
+DL.meta DT, DL.meta DD {
+	display: inline;
+	padding-right: 0.6em;
+}
+DL.meta DD {
+	margin-right: 0.6em;
+	border-right: 1px solid #000;
+}
+DL.meta DD.last {
+	margin-right: 0;
+	border-right: none;
+}
+DL.meta DT.explain {
+	position: absolute;
+	left: -999px;
+	width: 990px;
+}
+
+FORM#leave-comment LABEL {
+	float: left;
+	clear: both;
+	margin-top: 0.5em;
+}
+FORM#leave-comment TEXTAREA, FORM#leave-comment INPUT {
+	float: left;
+	margin-top: 0.5em;
+}
+FORM#leave-comment INPUT.submit {
+	clear: both;
+}
+
+
+.flickr LI {
+	float: left;
+	margin: 0 3px;
+	border: 2px solid #fff;
+}
+
+
+
+.heading {
+	text-align: right;
+}
+.heading H1, .heading H2, .heading H3, .heading H4, .heading H5, .heading H6 {
+	float: left;
+}
+.heading A {
+	display: block;
+	padding-top: 2.25em;
+	font-size: 77%;
+}
+.heading H1 A, .heading H2 A, .heading H3 A, .heading H4 A, .heading H5 A, .heading H6 A {
+	font: 100%;
+}
+
+
+
+
+
+
+#navigation:after, .heading:after {
+	visibility: hidden;
+	height: 0;
+	display: block;
+	content: ".";
+	clear: both;
+}
+/* hide from ie/mac \*/
+* html #navigation, * html .heading {
+	height: 1%;
+}
+/**/
+/* ie/mac \*//*/
+#navigation, .heading {
+	display: inline-table;
+}
+/**/
+
+
+
+

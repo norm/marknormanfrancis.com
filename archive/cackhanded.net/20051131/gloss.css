@@ -1,0 +1,38 @@
+
+#leftside {
+	margin: 0 auto;
+	width: 55.84em;
+	min-width: 752px;
+	padding-left: 12px;
+	background: url( shad_left.gif ) repeat-y top left;
+}
+#rightside {
+	padding-right: 12px;
+	background: url( shad_right.gif ) repeat-y top right;
+}
+
+BLOCKQUOTE {
+	margin: 1em;
+	border-left: 1px solid #435143;
+	padding-left: 0.5em;
+	font-style: italic;
+	font-size: 85%;
+}
+
+
+#photopromo {
+	position: relative;
+}
+#photopromo CITE {
+	position: absolute;
+	background: url( 60fff.png );
+	left: 0;
+	bottom: 0;
+}
+#photopromo CITE A {
+	color: #fff;
+	text-decoration: none;
+}
+#photopromo CITE A:hover {
+	text-decoration: underline;
+}
