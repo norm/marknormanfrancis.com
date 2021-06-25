@@ -1,1 +1,11 @@
-<h1>All {{tokens.subject}} posts</h1>
+{% if splash %}
+  <header>
+    <div id='splash'>
+      <h1>{{splash.title}}</h1>
+      <img src='{{splash.image}}' alt=''>
+    </div>
+    {{splash.body}}
+  </header>
+{% else %}
+  <h1>All {{tokens.subject}} posts</h1>
+{% endif %}

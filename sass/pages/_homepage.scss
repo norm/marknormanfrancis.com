@@ -17,7 +17,7 @@
             font-size: 10vw;
             color: $desert_storm;
             // color: rgba(239, 238, 236, 0.75);
-            @include outline_text(2px);
+            @include outlined_text(2px);
 
             @include larger_width {
                 left: 60px;

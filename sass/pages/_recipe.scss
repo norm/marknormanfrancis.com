@@ -1,12 +1,5 @@
 // The "recipe" page type.
 
-@mixin outline_text($blur: 1px, $colour: $eerie_black) {
-    text-shadow: 1px 1px $blur $colour,
-                 1px -1px $blur $colour,
-                 -1px 1px $blur $colour,
-                 -1px -1px $blur $colour;
-}
-
 body.recipe {
     #body p.image.hero {
         margin-left: -$side_indent;
@@ -27,7 +20,7 @@ body.recipe {
         h1,
         p.published {
             color: $desert_storm;
-            @include outline_text;
+            @include outlined_text;
         }
     }
 

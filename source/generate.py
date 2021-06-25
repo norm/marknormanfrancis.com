@@ -3,6 +3,7 @@ from flourish import helpers
 from flourish.generators import base
 from flourish.generators import calendar
 from flourish.generators import sass
+from flourish.source import SourceFile
 
 from django.utils.html import linebreaks, urlize
 from django.template.defaultfilters import (
@@ -103,6 +104,16 @@ class Homepage(MostRecentFirstMixin, base.IndexGenerator):
         return context
 
 
+class SourcePage(base.SourceGenerator):
+    def get_objects(self, tokens):
+        objects = super().get_objects(tokens)
+        # an "index-splash" page is a way of adding text to index pages
+        # without having to create endless template fragments
+        if objects[0].type == 'index-splash':
+            raise self.DoNotGenerate
+        return objects
+
+
 class NewPosts(base.IndexGenerator):
     template_name = 'base_template.html'
     order_by = 'published'
@@ -120,7 +131,14 @@ class BaseIndex(base.IndexGenerator):
 
 
 class Subject(BaseIndex):
-    pass
+    def get_context_data(self):
+        context = super().get_context_data()
+        try:
+            splash = self.current_path[1:] + '_splash'
+            context['splash'] = self.flourish.get(splash)
+        except SourceFile.DoesNotExist:
+            pass
+        return context
 
 
 class SubjectTopic(BaseIndex):
@@ -203,7 +221,7 @@ PATHS = (
         path = '/tags/#tag/',
         name = 'tags-tag-index',
     ),
-    base.SourceGenerator(
+    SourcePage(
         path = '/#slug',
         name = 'source',
     ),

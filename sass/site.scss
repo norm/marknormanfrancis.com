@@ -6,6 +6,9 @@
 @import "main_header";
 @import "footer";
 
+// common pieces of pages
+@import "pieces/splash";
+
 // page types
 @import "pages/about";
 @import "pages/article";

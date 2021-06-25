@@ -45,6 +45,13 @@
     font-weight: 700;
 }
 
+@mixin outlined_text($blur: 1px, $colour: $eerie_black) {
+    text-shadow: 1px 1px $blur $colour,
+                 1px -1px $blur $colour,
+                 -1px 1px $blur $colour,
+                 -1px -1px $blur $colour;
+}
+
 
 html, body {
     @include body_font;
