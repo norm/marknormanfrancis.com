@@ -1,0 +1,419 @@
+@charset "UTF-8";
+@import url("https://web.archive.org/web/20210110140636cs_/https://fonts.googleapis.com/css?family=Assistant:400,700&subset=latin") screen;
+@import url("https://web.archive.org/web/20210110140636cs_/https://fonts.googleapis.com/css?family=Vollkorn:900,i900&subset=latin") screen;
+@import url("https://web.archive.org/web/20210110140636cs_/https://fonts.googleapis.com/css?family=PT Serif:400,700,i400,i700&subset=latin") screen;
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 900px;
+}
+
+#masthead {
+  padding: 10px 20px;
+}
+
+@media only screen and (min-width: 640px) {
+  #masthead {
+    padding: 20px 60px;
+  }
+}
+
+#body,
+#footer {
+  margin: 0 20px 2em;
+}
+
+@media only screen and (min-width: 640px) {
+  #body,
+#footer {
+    margin: 1em 60px 3em;
+  }
+}
+
+html, body {
+  background: #efeeec;
+  color: #1e1b1d;
+}
+
+a {
+  color: #bf6b8d;
+}
+
+a:visited {
+  color: #7b3c58;
+}
+
+html, body {
+  font-family: "Assistant", "Helvetica", "Helmet", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+@media only screen and (min-width: 640px) {
+  html, body {
+    font-size: 19px;
+  }
+}
+
+#body h1, h2, h3 {
+  font-family: 'Vollkorn', 'Hoefler Text', 'Georgia', serif;
+  font-weight: 900;
+}
+
+main {
+  font-family: "PT Serif", "Helvetica", "Helmet", sans-serif;
+  font-weight: 400;
+}
+
+#masthead {
+  background: #5c7178;
+  color: #bfe3d5;
+}
+
+#masthead a {
+  color: #bfe3d5;
+}
+
+#masthead h1 {
+  font-family: 'Vollkorn', 'Hoefler Text', 'Georgia', serif;
+  font-weight: 900;
+  color: #efeeec;
+}
+
+#masthead h1 {
+  margin: 0;
+  line-height: 1;
+}
+
+#masthead nav {
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 640px) {
+  #masthead nav {
+    font-size: 16px;
+  }
+}
+
+#masthead ul {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+#masthead li {
+  display: inline;
+}
+
+#masthead li + li:before {
+  content: '·';
+}
+
+main header {
+  font-family: "Assistant", "Helvetica", "Helmet", sans-serif;
+  font-weight: 400;
+  color: #5c7178;
+  display: grid;
+  grid-template-areas: 'meta' 'h1';
+}
+
+main header a,
+main header h1,
+main header p.published {
+  color: #33484f;
+}
+
+main header a:visited {
+  color: #1e333a;
+}
+
+main header h1 {
+  line-height: 1;
+}
+
+main header p.published {
+  font-weight: 700;
+}
+
+main header p.published,
+main header dl {
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 640px) {
+  main header p.published,
+main header dl {
+    font-size: 16px;
+  }
+}
+
+main header dt {
+  font-weight: 700;
+}
+
+main header h1 {
+  margin: 0;
+  margin-top: 0.5em;
+  font-size: 2em;
+}
+
+main header p.published {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+main header h1 {
+  grid-area: h1;
+}
+
+main header dl {
+  grid-area: meta;
+}
+
+main header dl {
+  margin-left: 75px;
+}
+
+@media only screen and (min-width: 640px) {
+  main header dl {
+    margin-left: 125px;
+  }
+}
+
+main header dl li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+main header dl li:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+main header dt {
+  float: left;
+  clear: left;
+  min-width: 75px;
+  margin-left: -75px;
+}
+
+@media only screen and (min-width: 640px) {
+  main header dt {
+    min-width: 125px;
+    margin-left: -125px;
+  }
+}
+
+main header dd {
+  margin-left: 0;
+}
+
+main header dd.tag {
+  float: left;
+}
+
+main header dd.tag + dd.tag:before {
+  content: '·';
+  padding: 0 5px 0 2px;
+}
+
+#footer {
+  color: #5c7178;
+  border-top: 1px solid #5c7178;
+}
+
+#footer p {
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 640px) {
+  #footer p {
+    font-size: 16px;
+  }
+}
+
+#masthead #rebuilding {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+@media only screen and (min-width: 640px) {
+  #masthead #rebuilding {
+    margin-bottom: 2em;
+  }
+}
+
+#body #body_rebuilding {
+  display: inline-block;
+  background: #bea13e;
+  line-height: 2;
+  margin: 1em 0 2em;
+}
+
+#body #body_rebuilding strong {
+  display: inline-block;
+  padding: 0 10px;
+  background: #9f481b;
+  color: #fff;
+}
+
+#body #body_rebuilding span {
+  padding: 0 30px 0 20px;
+  white-space: nowrap;
+}
+
+#body #body_rebuilding a {
+  color: #000;
+}
+
+body.about #body p img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 640px) {
+  body.about #body p img {
+    float: right;
+    max-width: 50%;
+    margin-left: 20px;
+  }
+}
+
+body.article #body ol,
+body.article #body ul {
+  margin: 0;
+  padding: 0;
+}
+
+body.article #body ol li,
+body.article #body ul li {
+  margin-left: 1.2em;
+  padding-left: 0;
+  list-style-type: outside;
+}
+
+body.article #body ol p,
+body.article #body ul p {
+  margin: 0;
+}
+
+body.article #body ol p + ul,
+body.article #body ol p + ol,
+body.article #body ul p + ul,
+body.article #body ul p + ol {
+  margin-bottom: 10px;
+}
+
+body.instagram #body p.image img {
+  max-width: 100%;
+}
+
+body.tweet #body p.image img {
+  max-width: 100%;
+}
+
+body.tweet main blockquote {
+  border: 1px solid #7a7f8f;
+  border-radius: 15px;
+  color: #7a7f8f;
+  padding: 10px;
+  margin: 10px 5em 10px 1em;
+}
+
+body.tweet main blockquote p {
+  margin: 0;
+}
+
+body.tweet main blockquote p + p {
+  padding-left: 1em;
+}
+
+body.foursquare #body figure {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+body.foursquare #body figure img {
+  max-width: 100%;
+}
+
+body.foursquare #body figure figcaption {
+  font-family: "Assistant", "Helvetica", "Helmet", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5c7178;
+  text-align: right;
+}
+
+@media only screen and (min-width: 640px) {
+  body.foursquare #body figure figcaption {
+    font-size: 16px;
+  }
+}
+
+body.foursquare #body p.image img {
+  max-width: 100%;
+}
+
+body.recipe #body p.image.hero {
+  margin-left: -20px;
+  margin-top: -5em;
+  width: 1280px;
+  max-width: 100vw;
+  z-index: 1;
+}
+
+@media only screen and (min-width: 640px) {
+  body.recipe #body p.image.hero {
+    margin-left: -60px;
+  }
+}
+
+body.recipe main header {
+  position: relative;
+  z-index: 2;
+}
+
+body.recipe main header h1,
+body.recipe main header p.published {
+  color: #efeeec;
+  text-shadow: 1px 1px 1px #1e1b1d, 1px -1px 1px #1e1b1d, -1px 1px 1px #1e1b1d, -1px -1px 1px #1e1b1d;
+}
+
+body.recipe #body p.image img {
+  max-width: 100%;
+}
+
+body.recipe main ol li {
+  margin-bottom: 0.4em;
+}
+
+/*
+     FILE ARCHIVED ON 14:06:36 Jan 10, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:36:14 Jun 25, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  load_resource: 119.227
+  CDXLines.iter: 22.724 (3)
+  exclusion.robots: 0.28
+  RedisCDXSource: 1.122
+  captures_list: 182.216
+  PetaboxLoader3.datanode: 146.024 (4)
+  exclusion.robots.policy: 0.265
+  PetaboxLoader3.resolve: 87.913
+  LoadShardBlock: 154.19 (3)
+  esindex: 0.013
+*/
