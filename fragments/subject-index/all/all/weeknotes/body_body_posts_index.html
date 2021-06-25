@@ -1,0 +1,44 @@
+<h2>Latest weeknotes.</h2>
+<ol id='latest'>
+  {% for page in pages|reverse %}
+    {% if loop.index < 5 %}
+    <li>
+      <a href='{{page.path}}'>
+        <img src='{{page.thumbnail.chips}}' width=400 height=150>
+        <span>{{page.title}}</span>
+      </a>
+      {% if page.published.year == 2021 %}
+        <em>{{page.published.strftime('%B %d')}}</em>
+      {% else %}
+        <em>{{page.published.strftime('%B %d, %Y')}}</em>
+      {% endif %}
+      — {{page.summary}}
+    </li>
+    {% endif %}
+  {% endfor %}
+</ol>
+
+<h2>All weeknotes, in published order.</h2>
+<ol>
+  {% for page in pages %}
+    {% if loop.changed(page.published.month) %}
+      {% if not loop.first %}
+          </li>
+        </ol>
+      {% endif %}
+        <li>
+          <h3>{{page.published.strftime('%B %Y')}}</h3>
+          <ol>
+    {% endif %}
+
+          <li>
+            {{page.published.day}}{{page.published.day|ordinal}}
+            {{page.published.strftime('%H:%M')}} <a href='{{page.path}}'>{{page.title}}</a>
+          </li>
+
+    {% if loop.last %}
+        </ol>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ol>
