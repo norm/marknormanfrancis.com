@@ -119,8 +119,14 @@ for i, day in enumerate(sorted(day_events)):
                 pp(event)
                 raise UnknownEvent
         elif event['type'] == 'ForkEvent':
-            pp(event)
-            raise UnknownEvent
+            repos.add(event['repo']['name'])
+            update += '* %s — forked [`%s`](%s) to [`%s`](%s)\n' % (
+                    timestamp.strftime('%H:%M'),
+                    event['repo']['name'],
+                    api_to_website(event['repo']['url']),
+                    event['payload']['forkee']['full_name'],
+                    event['payload']['forkee']['html_url'],
+                )
         elif event['type'] == 'GollumEvent':    # update a wiki page
             pp(event)
             raise UnknownEvent
