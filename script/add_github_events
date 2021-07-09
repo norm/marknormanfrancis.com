@@ -262,19 +262,20 @@ for i, day in enumerate(sorted(day_events)):
             pp(event)
             raise UnknownEvent
 
-    front = {}
-    front['title'] = "Github activity on %s" \
-        % timestamp.strftime('%A %B %d, %Y')
-    front['published'] = date.replace(
-            hour=23, minute=59, second=59, tzinfo=timezone.utc)
-    front['origin'] = 'github'
-    front['type'] = 'repository_activity'
-    front['repository'] = sorted(repos)
-    front['tag'] = []
-    for repo in sorted(repos):
-        front['tag'].append(repo_to_tag(repo))
+    if update:
+        front = {}
+        front['title'] = "Github activity on %s" \
+            % timestamp.strftime('%A %B %d, %Y')
+        front['published'] = date.replace(
+                hour=23, minute=59, second=59, tzinfo=timezone.utc)
+        front['origin'] = 'github'
+        front['type'] = 'repository_activity'
+        front['repository'] = sorted(repos)
+        front['tag'] = []
+        for repo in sorted(repos):
+            front['tag'].append(repo_to_tag(repo))
 
-    update_content(
-            'source/%s/github_activity.markdown' % day,
-            '```\n%s```\n\n%s' % (toml.dumps(front), update),
-        )
+        update_content(
+                'source/%s/github_activity.markdown' % day,
+                '```\n%s```\n\n%s' % (toml.dumps(front), update),
+            )
