@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository ansible-role-osx-dnsmasq"
 published = 2015-07-30T09:44:58Z
-updated = 2021-04-04T08:30:40Z
+updated = 2021-07-14T02:40:45Z
 origin = "github"
 type = "repository"
 tag = [ "repo-ansible-role-osx-dnsmasq",]
@@ -57,7 +57,7 @@ labels_url = "https://api.github.com/repos/norm/ansible-role-osx-dnsmasq/labels{
 releases_url = "https://api.github.com/repos/norm/ansible-role-osx-dnsmasq/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/ansible-role-osx-dnsmasq/deployments"
 created_at = "2015-07-30T09:44:58Z"
-updated_at = "2021-04-04T08:30:40Z"
+updated_at = "2021-07-14T02:40:45Z"
 pushed_at = "2015-07-30T09:45:15Z"
 git_url = "git://github.com/norm/ansible-role-osx-dnsmasq.git"
 ssh_url = "git@github.com:norm/ansible-role-osx-dnsmasq.git"
@@ -65,8 +65,8 @@ clone_url = "https://github.com/norm/ansible-role-osx-dnsmasq.git"
 svn_url = "https://github.com/norm/ansible-role-osx-dnsmasq"
 homepage = ""
 size = 100
-stargazers_count = 3
-watchers_count = 3
+stargazers_count = 4
+watchers_count = 4
 has_issues = true
 has_projects = true
 has_downloads = true
@@ -78,7 +78,7 @@ disabled = false
 open_issues_count = 0
 forks = 1
 open_issues = 0
-watchers = 3
+watchers = 4
 default_branch = "master"
 
 [repository.owner]

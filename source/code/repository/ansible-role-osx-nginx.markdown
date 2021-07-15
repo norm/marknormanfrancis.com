@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository ansible-role-osx-nginx"
 published = 2015-07-30T09:20:15Z
-updated = 2021-04-04T08:30:40Z
+updated = 2021-07-14T02:39:19Z
 origin = "github"
 type = "repository"
 tag = [ "repo-ansible-role-osx-nginx",]
@@ -57,15 +57,15 @@ labels_url = "https://api.github.com/repos/norm/ansible-role-osx-nginx/labels{/n
 releases_url = "https://api.github.com/repos/norm/ansible-role-osx-nginx/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/ansible-role-osx-nginx/deployments"
 created_at = "2015-07-30T09:20:15Z"
-updated_at = "2021-04-04T08:30:40Z"
+updated_at = "2021-07-14T02:39:19Z"
 pushed_at = "2015-07-30T09:29:47Z"
 git_url = "git://github.com/norm/ansible-role-osx-nginx.git"
 ssh_url = "git@github.com:norm/ansible-role-osx-nginx.git"
 clone_url = "https://github.com/norm/ansible-role-osx-nginx.git"
 svn_url = "https://github.com/norm/ansible-role-osx-nginx"
 size = 116
-stargazers_count = 1
-watchers_count = 1
+stargazers_count = 2
+watchers_count = 2
 language = "Nginx"
 has_issues = true
 has_projects = true
@@ -78,7 +78,7 @@ disabled = false
 open_issues_count = 0
 forks = 0
 open_issues = 0
-watchers = 1
+watchers = 2
 default_branch = "master"
 
 [repository.owner]
