@@ -1,0 +1,12 @@
+{% if fixme or draft %}
+  <div id='fixme'>
+    {% if fixme %}
+      <h2>// FIX ME</h2>
+      {{fixme|string|markdown}}
+    {% endif %}
+    {% if draft %}
+      <h2>// WRITE ME</h2>
+      {{draft|string|markdown}}
+    {% endif %}
+  </div>
+{% endif %}
