@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository flourish"
 published = 2008-11-10T02:52:27Z
-updated = 2021-07-04T06:18:25Z
+updated = 2021-07-21T10:40:36Z
 origin = "github"
 type = "repository"
 tag = [ "repo-flourish",]
@@ -57,7 +57,7 @@ labels_url = "https://api.github.com/repos/norm/flourish/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/flourish/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/flourish/deployments"
 created_at = "2008-11-10T02:52:27Z"
-updated_at = "2021-07-04T06:18:25Z"
+updated_at = "2021-07-21T10:40:36Z"
 pushed_at = "2021-07-04T06:18:23Z"
 git_url = "git://github.com/norm/flourish.git"
 ssh_url = "git@github.com:norm/flourish.git"
@@ -65,8 +65,8 @@ clone_url = "https://github.com/norm/flourish.git"
 svn_url = "https://github.com/norm/flourish"
 homepage = ""
 size = 438
-stargazers_count = 11
-watchers_count = 11
+stargazers_count = 12
+watchers_count = 12
 language = "Python"
 has_issues = true
 has_projects = true
@@ -79,7 +79,7 @@ disabled = false
 open_issues_count = 12
 forks = 1
 open_issues = 12
-watchers = 11
+watchers = 12
 default_branch = "main"
 
 [repository.owner]
