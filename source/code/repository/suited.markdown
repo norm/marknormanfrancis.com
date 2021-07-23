@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository suited"
 published = 2016-08-25T14:37:25Z
-updated = 2021-05-23T19:54:50Z
+updated = 2021-07-22T21:13:11Z
 origin = "github"
 type = "repository"
 tag = [ "repo-suited",]
@@ -57,7 +57,7 @@ labels_url = "https://api.github.com/repos/norm/suited/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/suited/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/suited/deployments"
 created_at = "2016-08-25T14:37:25Z"
-updated_at = "2021-05-23T19:54:50Z"
+updated_at = "2021-07-22T21:13:11Z"
 pushed_at = "2018-05-05T06:05:43Z"
 git_url = "git://github.com/norm/suited.git"
 ssh_url = "git@github.com:norm/suited.git"
@@ -65,8 +65,8 @@ clone_url = "https://github.com/norm/suited.git"
 svn_url = "https://github.com/norm/suited"
 homepage = ""
 size = 123
-stargazers_count = 9
-watchers_count = 9
+stargazers_count = 8
+watchers_count = 8
 language = "Shell"
 has_issues = true
 has_projects = true
@@ -79,7 +79,7 @@ disabled = false
 open_issues_count = 14
 forks = 2
 open_issues = 14
-watchers = 9
+watchers = 8
 default_branch = "master"
 
 [repository.owner]
