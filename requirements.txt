@@ -1,6 +1,6 @@
 boto3
 django
-flourish>=0.10.2
+flourish>=0.10.3
 honcho
 libsass
 Pillow
