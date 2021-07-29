@@ -1,0 +1,51 @@
+```
+title = "Github activity on Wednesday July 28, 2021"
+published = 2021-07-28T23:59:59Z
+origin = "github"
+type = "repository_activity"
+repository = [ "norm/hasworn",]
+tag = [ "repo-hasworn",]
+```
+
+* 05:44 — Pushed 13 commits to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/b150037b940248071b584a95a472b06f0438a766..5647996d4bca2d56a004538f4ee423da3c8c4f4d))
+  * [django-admin startproject hasworn](https://github.com/norm/hasworn/commit/8fdd04a8a5ec1a9a0087803dffa30675ad4ec377)
+  * [Add a placeholder homepage](https://github.com/norm/hasworn/commit/99e335b51d7d61f5f7dc3f06f1a019adb15aa5d7)
+  * [Use docker-compose to run django](https://github.com/norm/hasworn/commit/faab53c65a15fc2e399fba72780640d2f6b22ae3)
+  * [Run a deploy script on push to main](https://github.com/norm/hasworn/commit/d07dfbb3e0b04860a5da91636c383e204433237c)
+  * [Introduce postgres](https://github.com/norm/hasworn/commit/0d15811e94ceb710590c9f4cd53dbe3f7b2871a8)
+  * [Django logs to stdout/stderr](https://github.com/norm/hasworn/commit/f1590ff33ff592ad0ce9850bdcd1837883d10327)
+  * [Separate the restart from the deploy script](https://github.com/norm/hasworn/commit/03233b7b1f0658aff765aa6ab62255e127603c5c)
+  * [Use a production environment file](https://github.com/norm/hasworn/commit/5722410f7ef41fb570af9dd784390e9a51ca27f2)
+  * [Add users and basic login/logout](https://github.com/norm/hasworn/commit/c97274ac617df99b69abecc9b8769ee1288c5f56)
+  * [Provide convenience scripts](https://github.com/norm/hasworn/commit/b390f08ecaeb4eff864bc58c9fa46ad7daba0c64)
+  * [Set up "baked" site serving](https://github.com/norm/hasworn/commit/905e00a8b413e785e5c5cb9af416cb432671dbea)
+  * [Serve django's static files in production](https://github.com/norm/hasworn/commit/51b7ca27d0bbd71eee658bb5f46c78f21dcb5b6e)
+  * [Add HTTPS using Let's Encrypt certificates](https://github.com/norm/hasworn/commit/5647996d4bca2d56a004538f4ee423da3c8c4f4d)
+* 06:20 — Pushed 6 commits to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/5647996d4bca2d56a004538f4ee423da3c8c4f4d..9d214aa8899a969b4e9e85af54e0ff758c1ecfba))
+  * [Add users and basic login/logout](https://github.com/norm/hasworn/commit/123aa795af6ed54cf260617d9f72e0aceb92dcf8)
+  * [Provide convenience scripts](https://github.com/norm/hasworn/commit/ca34616880f1819d5757fcef0d45b7c99122350a)
+  * [Set up "baked" site serving](https://github.com/norm/hasworn/commit/bb5e0c81141bdb37f5f85de4196f8c0ac7aab1b0)
+  * [Serve django's static files in production](https://github.com/norm/hasworn/commit/7a6330e723ac42ce47964a78a54dfa8c3f0bdd6d)
+  * [Add HTTPS using Let's Encrypt certificates](https://github.com/norm/hasworn/commit/b3acdc620514b5e08f868a67d2d6273ca1449dac)
+  * [Restart containers that fail/on server reboot](https://github.com/norm/hasworn/commit/9d214aa8899a969b4e9e85af54e0ff758c1ecfba)
+* 06:36 — Pushed 1 commit to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/9d214aa8899a969b4e9e85af54e0ff758c1ecfba..c6fadb57ad07c577eb1676bd89d4e0fea0d1ea26))
+  * [Clothing modelling](https://github.com/norm/hasworn/commit/c6fadb57ad07c577eb1676bd89d4e0fea0d1ea26)
+* 06:45 — Pushed 1 commit to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/c6fadb57ad07c577eb1676bd89d4e0fea0d1ea26..4b61a85d24d0935b601e33cc03931d1e83d60dbd))
+  * [Generate static site after adding Wearings](https://github.com/norm/hasworn/commit/4b61a85d24d0935b601e33cc03931d1e83d60dbd)
+* 14:44 — Pushed 16 commits to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/4b61a85d24d0935b601e33cc03931d1e83d60dbd..402c9952c86b353e41345267639d4b8b0cf43d47))
+  * [Generate static site after adding Wearings](https://github.com/norm/hasworn/commit/b498d50aa548a4aa89c1fc6a1fa3d05265ac57b0)
+  * [nope](https://github.com/norm/hasworn/commit/19679fe0d7f89c731caa9080bf46a2f73d50a231)
+  * [fixup](https://github.com/norm/hasworn/commit/f65c8c9a3aeba6b89f50b78b0cfba8362b283ae5)
+  * [fixup](https://github.com/norm/hasworn/commit/af5de763a2844af8789565b0f37ff80a580bd073)
+  * [import](https://github.com/norm/hasworn/commit/9bf9de566a1168c6d4cd04abe5aef880e9274664)
+  * [fixup](https://github.com/norm/hasworn/commit/f33cfa7083e7f9198eea99a64f06397ff7e70602)
+  * [fixup baked loc](https://github.com/norm/hasworn/commit/fd9fb2f91db1f7afba20df6df2b8602b8b0401c7)
+  * [data placeholder](https://github.com/norm/hasworn/commit/91e5254f995d32126cd316c5a095cb1d11b9ffed)
+  * [fixup](https://github.com/norm/hasworn/commit/976f43656829cb1d6d3eb45a8524b06b43d38da7)
+  * [fixup](https://github.com/norm/hasworn/commit/7f7d46161ecabda7d5345cbfad50bd96ac078235)
+  * [ignore local baked](https://github.com/norm/hasworn/commit/95e30fe005ac7ed9f631fbc905c6ffa414f4b5c1)
+  * [static dir is global setting](https://github.com/norm/hasworn/commit/a6b23c492653fad951713f48186220cc69d62dc4)
+  * [fixup](https://github.com/norm/hasworn/commit/c5ac319c477dff98cc2a8793ccac6e3cc268f249)
+  * [fixup data placeholder](https://github.com/norm/hasworn/commit/4829743ad80549a1ce72ee2dbb6d20a68cfbed48)
+  * [How to run in dev](https://github.com/norm/hasworn/commit/93a4e5dc1396b39a06d99836a6fd15aefd239666)
+  * [generate site mgmtcmd](https://github.com/norm/hasworn/commit/402c9952c86b353e41345267639d4b8b0cf43d47)
