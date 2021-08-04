@@ -115,6 +115,13 @@ for i, day in enumerate(sorted(day_events)):
                     event['repo']['name'],
                     api_to_website(event['repo']['url']),
                 )
+            elif event['payload']['ref_type'] == 'tag':
+                update += '* %s — deleted tag %s from [`%s`](%s)\n' % (
+                    timestamp.strftime('%H:%M'),
+                    event['payload']['ref'],
+                    event['repo']['name'],
+                    api_to_website(event['repo']['url']),
+                )
             else:
                 pp(event)
                 raise UnknownEvent
