@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository marknormanfrancis.com"
 published = 2020-06-03T05:36:31Z
-updated = 2021-08-09T01:33:19Z
+updated = 2021-08-10T01:34:45Z
 origin = "github"
 type = "repository"
 tag = [ "repo-marknormanfrancis-com",]
@@ -57,14 +57,14 @@ labels_url = "https://api.github.com/repos/norm/marknormanfrancis.com/labels{/na
 releases_url = "https://api.github.com/repos/norm/marknormanfrancis.com/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/marknormanfrancis.com/deployments"
 created_at = "2020-06-03T05:36:31Z"
-updated_at = "2021-08-09T01:33:19Z"
-pushed_at = "2021-08-09T01:33:16Z"
+updated_at = "2021-08-10T01:34:45Z"
+pushed_at = "2021-08-10T01:34:43Z"
 git_url = "git://github.com/norm/marknormanfrancis.com.git"
 ssh_url = "git@github.com:norm/marknormanfrancis.com.git"
 clone_url = "https://github.com/norm/marknormanfrancis.com.git"
 svn_url = "https://github.com/norm/marknormanfrancis.com"
 homepage = "https://marknormanfrancis.com"
-size = 19325
+size = 19368
 stargazers_count = 3
 watchers_count = 3
 language = "HTML"
@@ -104,7 +104,9 @@ site_admin = false
 
 [repository.permissions]
 admin = true
+maintain = true
 push = true
+triage = true
 pull = true
 ```
 

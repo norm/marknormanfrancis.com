@@ -109,7 +109,9 @@ node_id = "MDc6TGljZW5zZTEz"
 
 [repository.permissions]
 admin = true
+maintain = true
 push = true
+triage = true
 pull = true
 ```
 

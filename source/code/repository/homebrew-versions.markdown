@@ -102,7 +102,9 @@ site_admin = false
 
 [repository.permissions]
 admin = true
+maintain = true
 push = true
+triage = true
 pull = true
 ```
 
