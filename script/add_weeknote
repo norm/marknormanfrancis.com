@@ -1,0 +1,13 @@
+#!/usr/bin/env -S bash -euo pipefail
+
+export WEEK="$1"
+export IMAGE_BASE="${2:-placeholder/weeknote}"
+export PUBLISHED=$(TZ=UTC date +'%Y-%m-%dT%H:%M:%SZ')
+export YEAR=$(date +%Y)
+
+envsubst \
+    < script/templates/weeknote.markdown \
+    > source/weeknotes/chips-for-week-$WEEK-$YEAR.markdown
+
+subl source/weeknotes/chips-for-week-$WEEK-$YEAR.markdown
+open -a Safari http://localhost:3567/weeknotes/chips-for-week-$WEEK-$YEAR
