@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository hasworn"
 published = 2021-07-15T08:59:03Z
-updated = 2021-08-13T16:38:34Z
+updated = 2021-08-14T11:24:53Z
 origin = "github"
 type = "repository"
 tag = [ "repo-hasworn",]
@@ -57,13 +57,13 @@ labels_url = "https://api.github.com/repos/norm/hasworn/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/hasworn/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/hasworn/deployments"
 created_at = "2021-07-15T08:59:03Z"
-updated_at = "2021-08-13T16:38:34Z"
-pushed_at = "2021-08-13T16:38:32Z"
+updated_at = "2021-08-14T11:24:53Z"
+pushed_at = "2021-08-14T11:24:51Z"
 git_url = "git://github.com/norm/hasworn.git"
 ssh_url = "git@github.com:norm/hasworn.git"
 clone_url = "https://github.com/norm/hasworn.git"
 svn_url = "https://github.com/norm/hasworn"
-size = 126
+size = 154
 stargazers_count = 1
 watchers_count = 1
 language = "Python"
