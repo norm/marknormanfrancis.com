@@ -6,3 +6,4 @@ libsass
 Pillow
 requests
 tweepy
+yasha

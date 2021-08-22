@@ -1,0 +1,27 @@
+#!/usr/bin/env -S bash -euo pipefail
+
+export PUBLISHED=$(TZ=UTC date +'%Y-%m-%dT%H:%M:%SZ')
+export TITLE="${1:-}"
+export SUBJECT="${2:-}"
+export TOPIC="${3:-}"
+export SLUG="$(./bin/slugify "$TITLE")"
+
+if [ -z "$TITLE" ]; then
+    echo "Usage: new_post <title> [subject] [topic]"
+    exit 2
+fi
+
+                     path="$SLUG"
+[ -n "$TOPIC" ]   && path="$TOPIC/$path"
+[ -n "$SUBJECT" ] && path="$SUBJECT/$path"
+mkdir -p $(dirname source/$path)
+
+yasha \
+    -o source/$path.markdown \
+    --TITLE="$TITLE" \
+    --PUBLISHED="$PUBLISHED" \
+    --SUBJECT="$SUBJECT" \
+    --TOPIC="$TOPIC" \
+    script/templates/post.markdown
+subl source/$path.markdown
+open -a Safari http://localhost:3567/$path
