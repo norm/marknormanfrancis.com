@@ -5,6 +5,12 @@ export IMAGE_BASE="${2:-placeholder/weeknote}"
 export PUBLISHED=$(TZ=UTC date +'%Y-%m-%dT%H:%M:%SZ')
 export YEAR=$(date +%Y)
 
+if [ -z "$WEEK" ]; then
+    echo "Usage: new_weeknote <week> [image_base]"
+    exit 2
+fi
+
+
 envsubst \
     < script/templates/weeknote.markdown \
     > source/weeknotes/chips-for-week-$WEEK-$YEAR.markdown
