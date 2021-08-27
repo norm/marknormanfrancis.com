@@ -4,6 +4,7 @@ published = 2021-05-24T05:12:40Z
 origin = "mnf"
 type = "article"
 subject = "weeknotes"
+isoweek = [2021, 20]
 image = "https://mnf.m17s.net/2021/05/24/E2IPQd8XoAEk3Ob.jpg"
 tag = [ "weekchips",]
 previous_slug = [

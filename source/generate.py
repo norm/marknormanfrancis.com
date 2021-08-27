@@ -1,3 +1,4 @@
+from datetime import date
 from flourish import filters
 from flourish import helpers
 from flourish.generators import base
@@ -165,6 +166,14 @@ def markdown(text):
     return markdown2.markdown(text)
 
 
+def isoweek_start(isoweek):
+    return date.fromisocalendar(isoweek[0], isoweek[1], 1)
+
+
+def isoweek_end(isoweek):
+    return date.fromisocalendar(isoweek[0], isoweek[1], 7)
+
+
 def global_context(self):
     return {
         'publication_range': helpers.publication_range(self),
@@ -185,6 +194,8 @@ TEMPLATE_FILTERS = {
     'truncate': truncatewords_html,
     'strip': striptags,
     'capfirst': capfirst,
+    'isoweek_start': isoweek_start,
+    'isoweek_end': isoweek_end,
 }
 
 

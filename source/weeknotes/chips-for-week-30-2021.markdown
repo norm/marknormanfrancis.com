@@ -4,6 +4,7 @@ published = 2021-08-16T09:21:34Z
 origin = 'mnf'
 type = 'article'
 subject = 'weeknotes'
+isoweek = [2021, 30]
 tag = [
     'weekchips',
     'repo-flourish',

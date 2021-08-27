@@ -1,0 +1,9 @@
+{% if isoweek %}
+  {% with start=isoweek|isoweek_start, end=isoweek|isoweek_end %}
+    <p>
+      Week {{isoweek.1}}, {{isoweek.0}} ran from
+      {{start.strftime('%A %d %B, %Y')}} to
+      {{end.strftime('%A %d %B, %Y')}}.
+    </p>
+  {% endwith %}
+{% endif %}

@@ -4,6 +4,7 @@ published = 2021-06-28T06:05:41Z
 origin = 'mnf'
 type = 'article'
 subject = 'weeknotes'
+isoweek = [2021, 25]
 tag = [
     'weekchips',
     'repo-marknormanfrancis-com',

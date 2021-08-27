@@ -4,6 +4,7 @@ published = 2021-07-05T06:49:45Z
 origin = 'mnf'
 type = 'article'
 subject = 'weeknotes'
+isoweek = [2021, 26]
 tag = [
     'repo-flourish',
     'repo-gifs-cackhanded-net',

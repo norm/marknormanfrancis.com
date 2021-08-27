@@ -4,6 +4,7 @@ published = 2020-08-15T10:08:06Z
 origin = "mnf"
 type = "article"
 subject = "weeknotes"
+isoweek = [2020, 33]
 tag = [ "weekchips",]
 previous_slug = [
     '/2020/08/15/chips-for-week-33-2020',

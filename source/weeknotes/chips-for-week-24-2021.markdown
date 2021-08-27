@@ -4,6 +4,7 @@ published = 2021-06-21T06:31:40Z
 origin = "mnf"
 type = "article"
 subject = "weeknotes"
+isoweek = [2021, 24]
 tag = [ "weekchips", "repo-flourish", "repo-marknormanfrancis-com", ]
 image = "https://mnf.m17s.net/twitter/1406862363383537665/E4Yt2rdWUAYyf4a.jpg"
 summary = """

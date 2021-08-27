@@ -4,6 +4,7 @@ published = 2021-06-14T06:03:07Z
 origin = "mnf"
 type = "article"
 subject = "weeknotes"
+isoweek = [2021, 23]
 image = "https://mnf.m17s.net/2021/06/14/E30kMQYXoAU19Eg.jpg"
 tag = [ "weekchips", "repo-flourish", "repo-sectile", ]
 previous_slug = [

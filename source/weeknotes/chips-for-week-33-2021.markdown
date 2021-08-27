@@ -4,6 +4,7 @@ published = 2021-08-23T06:24:44Z
 origin = 'mnf'
 type = 'article'
 subject = 'weeknotes'
+isoweek = [2021, 33]
 tag = [
     'repo-hasworn',
     'repo-marknormanfrancis-com',
