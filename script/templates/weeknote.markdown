@@ -4,6 +4,7 @@ published = $PUBLISHED
 origin = 'mnf'
 type = 'article'
 subject = 'weeknotes'
+isoweek = [$YEAR, $WEEK]
 tag = [
     'weekchips',
 ]
