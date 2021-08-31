@@ -1,6 +1,7 @@
 from datetime import date
 from flourish import filters
 from flourish import helpers
+from flourish.generators import atom
 from flourish.generators import base
 from flourish.generators import calendar
 from flourish.generators import sass
@@ -162,6 +163,10 @@ class NotFound(base.StaticGenerator):
     template_name = 'base_template.html'
 
 
+class MnfArticlesFeed(atom.AtomGenerator):
+    sources_filter = {'origin': 'mnf', 'type': 'article',}
+
+
 def markdown(text):
     return markdown2.markdown(text)
 
@@ -243,6 +248,10 @@ PATHS = (
     SubjectTopic(
         path = '/#subject/#topic/',
         name = 'subject-topic-index',
+    ),
+    MnfArticlesFeed(
+        path = '/index.atom',
+        name = 'atom-feed',
     ),
     FixMe(
         path = '/fixme',
