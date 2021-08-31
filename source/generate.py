@@ -167,6 +167,10 @@ class MnfArticlesFeed(atom.AtomGenerator):
     sources_filter = {'origin': 'mnf', 'type': 'article',}
 
 
+class FirehoseFeed(atom.AtomGenerator):
+    pass
+
+
 def markdown(text):
     return markdown2.markdown(text)
 
@@ -252,6 +256,10 @@ PATHS = (
     MnfArticlesFeed(
         path = '/index.atom',
         name = 'atom-feed',
+    ),
+    FirehoseFeed(
+        path = '/firehose.atom',
+        name = 'firehose-feed',
     ),
     FixMe(
         path = '/fixme',
