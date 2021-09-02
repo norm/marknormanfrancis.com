@@ -166,9 +166,13 @@ class NotFound(base.StaticGenerator):
 class MnfArticlesFeed(atom.AtomGenerator):
     sources_filter = {'origin': 'mnf', 'type': 'article',}
 
+    def get_feed_title(self):
+        return 'marknormanfrancis.com articles'
+
 
 class FirehoseFeed(atom.AtomGenerator):
-    pass
+    def get_feed_title(self):
+        return 'everything marknormanfrancis.com'
 
 
 def markdown(text):
