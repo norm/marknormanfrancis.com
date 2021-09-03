@@ -2,7 +2,7 @@
     @import url("https://fonts.googleapis.com/css?family=#{$family}:#{$weights}&subset=latin") screen;
 }
 
-@include google_font('Assistant',   '400,700');
+@include google_font('Assistant',   '400,600,800');
 @include google_font('Vollkorn',    '900,i900');
 // @include google_font('Lato',        '400,700,i400,i700');
 @include google_font('PT Serif',    '400,700,i400,i700');
@@ -42,7 +42,7 @@
     }
 }
 @mixin body_font_bold {
-    font-weight: 700;
+    font-weight: 800;
 }
 
 @mixin outlined_text($blur: 1px, $colour: $eerie_black) {

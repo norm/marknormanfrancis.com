@@ -1,10 +1,11 @@
 ```
 title = 'The static pages of hasworn'
-published = 2021-09-03T10:43:56Z
+published = 2021-09-03T15:24:46Z
 origin = 'mnf'
 type = 'article'
 subject = 'projects'
 topic = 'hasworn'
+thread = 'hasworn'
 image = 'https://mnf.m17s.net/projects/hasworn/the-static-pages-of-hasworn.jpg'
 tag = [
     'repo-hasworn',
@@ -13,6 +14,17 @@ tag = [
 [thumbnail]
 200 = 'https://mnf.m17s.net/projects/hasworn/the-static-pages-of-hasworn.jpg'
 ```
+
+<img src='https://mnf.m17s.net/projects/hasworn/2021-08-22.hasworn.480.jpg'
+width='480' height='300' alt=''> This is the second [in a series of
+articles][th] about `hasworn` — the site I run to catalogue which tshirt I
+wear on any given day. The project is open-source and [published on
+Github][gh], and my wearings can be found at [norm.hasworn.com][nhw].
+
+[th]: /threads/hasworn
+[gh]: https://github.com/norm/hasworn/
+[nhw]: https://norm.hasworn.com/
+
 
 ## High level
 

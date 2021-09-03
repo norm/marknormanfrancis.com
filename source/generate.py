@@ -147,6 +147,14 @@ class SubjectTopic(BaseIndex):
     pass
 
 
+class Threads(BaseIndex):
+    sources_filter = {'thread__set': ''}
+
+
+class Thread(BaseIndex):
+    pass
+
+
 class FixMe(NewPosts):
     sources_filter = {'fixme__set': '', 'draft__unset': ''}
 
@@ -256,6 +264,14 @@ PATHS = (
     SubjectTopic(
         path = '/#subject/#topic/',
         name = 'subject-topic-index',
+    ),
+    Threads(
+        path = '/threads/',
+        name = 'threads',
+    ),
+    Thread(
+        path = '/threads/#thread',
+        name = 'thread-index',
     ),
     MnfArticlesFeed(
         path = '/index.atom',

@@ -3,7 +3,7 @@ title = 'My potted history of making GIFs'
 published = 2021-06-07T09:57:14Z
 origin = 'mnf'
 type = 'article'
-thread = 'making-gifs'
+threadx = 'making-gifs' # FIXME add thread after second article
 image = 'https://mnf.m17s.net/2021/06/07/gifscackhandednet.jpg'
 summary = """
     Back in 2014, I put up a little website with about 20 GIFs on it.

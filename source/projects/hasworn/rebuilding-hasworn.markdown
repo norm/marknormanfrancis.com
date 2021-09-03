@@ -3,6 +3,7 @@ title = 'Rebuilding hasworn'
 published = 2021-08-22T10:28:25Z
 subject = 'projects'
 topic = 'hasworn'
+thread = 'hasworn'
 origin = 'mnf'
 type = 'article'
 tag = [
@@ -15,6 +16,17 @@ image = 'https://mnf.m17s.net/projects/hasworn/2021-08-22.hasworn.1024.jpg'
 480 = 'https://mnf.m17s.net/projects/hasworn/2021-08-22.hasworn.480.jpg'
 200 = 'https://mnf.m17s.net/projects/hasworn/2021-08-22.hasworn.200.jpg'
 ```
+
+<img src='https://mnf.m17s.net/projects/hasworn/2021-08-22.hasworn.480.jpg'
+width='480' height='300' alt=''> This is the first [in a series of
+articles][th] about `hasworn` — the site I run to catalogue which tshirt I
+wear on any given day. The project is open-source and [published on
+Github][gh], and my wearings can be found at [norm.hasworn.com][nhw].
+
+[th]: /threads/hasworn
+[gh]: https://github.com/norm/hasworn/
+[nhw]: https://norm.hasworn.com/
+
 
 ## In the beginning…
 

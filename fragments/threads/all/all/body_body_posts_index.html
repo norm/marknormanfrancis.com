@@ -1,0 +1,7 @@
+  <ul>
+    {% for page in pages %}
+      {% if loop.changed(page.thread) %}
+        <li><a href='/threads/{{page.thread}}'>{{page.thread}}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>

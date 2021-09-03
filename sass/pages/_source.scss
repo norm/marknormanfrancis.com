@@ -53,3 +53,29 @@ body.source {
         }
     }
 }
+
+body.source.article.thread {
+    main header + p {
+        @include contain-floated-children;
+        @include body_font;
+        font-weight: 600;
+        font-size: 16px;
+        color: $limed_spruce;
+        background: $opal;
+        padding: 1em 20px;
+        margin: 0 -20px 2em;
+
+        @include larger_width {
+            font-size: 22px;
+        }
+
+        img {
+            float: right;
+            min-width: 150px;
+            max-width: 35%;
+            height: auto;
+            margin: 0 0 20px 20px;
+            outline: 1px solid $eerie_black;
+        }
+    }
+}

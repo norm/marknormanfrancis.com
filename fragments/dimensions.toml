@@ -6,6 +6,8 @@ month-index = 'calendar'
 day-index = 'calendar'
 subject-index = 'index-page'
 subject-topic-index = 'subject-index'
+threads = 'index-page'
+thread-index = 'threads'
 
 [origin]
 # where did the content come from?

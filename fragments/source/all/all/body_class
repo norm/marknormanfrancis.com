@@ -1,1 +1,1 @@
-source {{page_class}}
+source {{page_class}} {{type}} {% if thread %}thread{% endif %}
