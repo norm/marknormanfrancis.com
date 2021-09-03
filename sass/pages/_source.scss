@@ -13,9 +13,20 @@ body.source {
         }
     }
 
+    figure {
+        margin: 1.5em 20px;
+        @include width_below(500px) { margin: 1.5em -20px; }
+
+        figcaption {
+            margin: 0 20px;
+            @include headline_font;
+        }
+    }
+
     figure img,
     p.image img {
         max-width: 100%;
+        height: auto;
     }
 
     #updated {
