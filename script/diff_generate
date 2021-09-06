@@ -1,0 +1,4 @@
+#!/usr/bin/env -S bash -euo pipefail
+
+sha="${1:-$(curl --silent https://marknormanfrancis.com/last_generated)}"
+./script/generate_from_source $(git diff --name-only HEAD..$sha)

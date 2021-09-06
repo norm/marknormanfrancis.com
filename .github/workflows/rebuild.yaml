@@ -22,6 +22,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - name: Setup python
         uses: actions/setup-python@v2
@@ -41,26 +43,27 @@ jobs:
           pip install -r requirements.txt
           sudo apt-get install ripgrep
 
-      - name: Generate CSS
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        run: |
-          make clean baked_css upload
-
-      - name: Generate site
-        run: |
-          make clean generate
-
-      - name: Test for problems
-        run: |
-          make test
-
       - name: Setup tmate debugging session
         uses: mxschmitt/action-tmate@v3
         with:
           limit-access-to-actor: true
         if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.debug_enabled }}
+
+      - name: Quick generate and upload from changes
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          make clean
+          make baked_css
+          make diff_generate
+          make diff_test
+          make upload
+
+      - name: Generate entire site
+        run: |
+          make generate
+          make test
 
       - name: Upload site
         env:
@@ -75,3 +78,11 @@ jobs:
         if: failure()
         run: |
           echo "" | ./script/twist_post FAILURE: $(date +'%Y-%m-%d') Site rebuild
+
+      - name: Register sha on site
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          echo ${GITHUB_SHA::8} > /tmp/last_generated
+          aws s3 cp /tmp/last_generated s3://marknormanfrancis.com/last_generated

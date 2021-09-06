@@ -8,6 +8,7 @@ function error {
 
 errors=0
 files=0
+diff="${1:-}"
 
 # check filenames for "undefined" posts
 while IFS= read file; do
@@ -27,18 +28,23 @@ while IFS= read file; do
     error "Page title missing" $file
 done < <(rg -l 'SET PAGE TITLE' output || true)
 
-# check for the presence of indexes
-while IFS= read dir; do
-    [ "$dir" = 'output/css' ] && continue
-    [ ! -f "$dir/index.html" ] && error "Missing index: $dir/index.html"
-done < <(find output -type d)
-
 # check for default indexes
 while IFS= read file; do
     error "Default index page" $file
 done < <(rg -l 'INDEX PAGE' output || true)
 
+# check for the presence of indexes, but only if we are not testing a
+# "diff" build which is purposefully incomplete (shouldn't push broken
+# files, but the absence of an index is not a problem at this stage)
+if [ -z "$diff" ]; then
+    while IFS= read dir; do
+        [ "$dir" = 'output/css' ] && continue
+        [ ! -f "$dir/index.html" ] && error "Missing index: $dir/index.html"
+    done < <(find output -type d)
+fi
+
 # summary and exit status code
 echo ''
 echo "$files files, $errors errors"
+[ -z "$diff" ] && echo "skipped full testing for diff build"
 [ $errors == 0 ]
