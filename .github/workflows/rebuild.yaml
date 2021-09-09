@@ -43,6 +43,12 @@ jobs:
           pip install -r requirements.txt
           sudo apt-get install ripgrep
 
+      # getting errors with the v2 already installed on runners,
+      # yet v1 provided by pypi works just fine...
+      - name: Install AWS cli tool
+        run: |
+          pip install awscli
+
       - name: Setup tmate debugging session
         uses: mxschmitt/action-tmate@v3
         with:
