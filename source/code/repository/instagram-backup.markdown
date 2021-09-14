@@ -76,6 +76,7 @@ forks_count = 3
 archived = false
 disabled = false
 open_issues_count = 3
+allow_forking = true
 forks = 3
 open_issues = 3
 watchers = 12

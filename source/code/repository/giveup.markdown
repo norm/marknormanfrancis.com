@@ -76,6 +76,7 @@ forks_count = 0
 archived = true
 disabled = false
 open_issues_count = 0
+allow_forking = true
 forks = 0
 open_issues = 0
 watchers = 2
