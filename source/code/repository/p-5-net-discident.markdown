@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository p5-Net-Discident"
 published = 2011-04-25T23:12:48Z
-updated = 2021-04-04T08:30:43Z
+updated = 2021-09-17T12:50:52Z
 origin = "github"
 type = "repository"
 tag = [ "repo-p-5-net-discident",]
@@ -57,7 +57,7 @@ labels_url = "https://api.github.com/repos/norm/p5-Net-Discident/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/p5-Net-Discident/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/p5-Net-Discident/deployments"
 created_at = "2011-04-25T23:12:48Z"
-updated_at = "2021-04-04T08:30:43Z"
+updated_at = "2021-09-17T12:50:52Z"
 pushed_at = "2011-04-28T19:37:48Z"
 git_url = "git://github.com/norm/p5-Net-Discident.git"
 ssh_url = "git@github.com:norm/p5-Net-Discident.git"
@@ -65,8 +65,8 @@ clone_url = "https://github.com/norm/p5-Net-Discident.git"
 svn_url = "https://github.com/norm/p5-Net-Discident"
 homepage = ""
 size = 130
-stargazers_count = 2
-watchers_count = 2
+stargazers_count = 1
+watchers_count = 1
 language = "Perl"
 has_issues = true
 has_projects = true
@@ -80,7 +80,7 @@ open_issues_count = 0
 allow_forking = true
 forks = 1
 open_issues = 0
-watchers = 2
+watchers = 1
 default_branch = "master"
 
 [repository.owner]

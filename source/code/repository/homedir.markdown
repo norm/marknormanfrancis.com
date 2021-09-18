@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository homedir"
 published = 2008-11-10T02:28:59Z
-updated = 2021-04-04T08:30:42Z
+updated = 2021-09-17T12:51:46Z
 origin = "github"
 type = "repository"
 tag = [ "repo-homedir",]
@@ -57,7 +57,7 @@ labels_url = "https://api.github.com/repos/norm/homedir/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/homedir/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/homedir/deployments"
 created_at = "2008-11-10T02:28:59Z"
-updated_at = "2021-04-04T08:30:42Z"
+updated_at = "2021-09-17T12:51:46Z"
 pushed_at = "2017-08-13T06:59:28Z"
 git_url = "git://github.com/norm/homedir.git"
 ssh_url = "git@github.com:norm/homedir.git"
@@ -65,8 +65,8 @@ clone_url = "https://github.com/norm/homedir.git"
 svn_url = "https://github.com/norm/homedir"
 homepage = ""
 size = 363
-stargazers_count = 32
-watchers_count = 32
+stargazers_count = 31
+watchers_count = 31
 language = "Shell"
 has_issues = true
 has_projects = true
@@ -80,7 +80,7 @@ open_issues_count = 0
 allow_forking = true
 forks = 28
 open_issues = 0
-watchers = 32
+watchers = 31
 default_branch = "master"
 
 [repository.owner]

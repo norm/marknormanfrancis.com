@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository generic-media-site"
 published = 2008-11-19T11:04:22Z
-updated = 2021-04-04T08:30:41Z
+updated = 2021-09-17T12:51:42Z
 origin = "github"
 type = "repository"
 tag = [ "repo-generic-media-site",]
@@ -57,7 +57,7 @@ labels_url = "https://api.github.com/repos/norm/generic-media-site/labels{/name}
 releases_url = "https://api.github.com/repos/norm/generic-media-site/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/generic-media-site/deployments"
 created_at = "2008-11-19T11:04:22Z"
-updated_at = "2021-04-04T08:30:41Z"
+updated_at = "2021-09-17T12:51:42Z"
 pushed_at = "2008-11-19T11:08:53Z"
 git_url = "git://github.com/norm/generic-media-site.git"
 ssh_url = "git@github.com:norm/generic-media-site.git"
@@ -65,8 +65,8 @@ clone_url = "https://github.com/norm/generic-media-site.git"
 svn_url = "https://github.com/norm/generic-media-site"
 homepage = ""
 size = 76
-stargazers_count = 6
-watchers_count = 6
+stargazers_count = 5
+watchers_count = 5
 has_issues = true
 has_projects = true
 has_downloads = true
@@ -79,7 +79,7 @@ open_issues_count = 0
 allow_forking = true
 forks = 1
 open_issues = 0
-watchers = 6
+watchers = 5
 default_branch = "master"
 
 [repository.owner]

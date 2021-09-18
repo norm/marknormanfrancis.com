@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository content-febp"
 published = 2008-12-08T11:26:17Z
-updated = 2021-04-04T08:30:41Z
+updated = 2021-09-17T12:51:41Z
 origin = "github"
 type = "repository"
 tag = [ "repo-content-febp",]
@@ -57,7 +57,7 @@ labels_url = "https://api.github.com/repos/norm/content-febp/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/content-febp/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/content-febp/deployments"
 created_at = "2008-12-08T11:26:17Z"
-updated_at = "2021-04-04T08:30:41Z"
+updated_at = "2021-09-17T12:51:41Z"
 pushed_at = "2009-01-26T22:06:14Z"
 git_url = "git://github.com/norm/content-febp.git"
 ssh_url = "git@github.com:norm/content-febp.git"
@@ -65,21 +65,21 @@ clone_url = "https://github.com/norm/content-febp.git"
 svn_url = "https://github.com/norm/content-febp"
 homepage = "http://frontendbestpractices.com/"
 size = 96
-stargazers_count = 11
-watchers_count = 11
+stargazers_count = 10
+watchers_count = 10
 has_issues = true
 has_projects = true
 has_downloads = true
 has_wiki = true
 has_pages = false
-forks_count = 1
+forks_count = 0
 archived = false
 disabled = false
 open_issues_count = 0
 allow_forking = true
-forks = 1
+forks = 0
 open_issues = 0
-watchers = 11
+watchers = 10
 default_branch = "master"
 
 [repository.owner]

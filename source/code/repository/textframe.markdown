@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository textframe"
 published = 2008-11-10T02:57:28Z
-updated = 2021-04-04T08:30:43Z
+updated = 2021-09-17T12:51:45Z
 origin = "github"
 type = "repository"
 tag = [ "repo-textframe",]
@@ -57,7 +57,7 @@ labels_url = "https://api.github.com/repos/norm/textframe/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/textframe/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/textframe/deployments"
 created_at = "2008-11-10T02:57:28Z"
-updated_at = "2021-04-04T08:30:43Z"
+updated_at = "2021-09-17T12:51:45Z"
 pushed_at = "2009-08-03T14:25:49Z"
 git_url = "git://github.com/norm/textframe.git"
 ssh_url = "git@github.com:norm/textframe.git"
@@ -65,8 +65,8 @@ clone_url = "https://github.com/norm/textframe.git"
 svn_url = "https://github.com/norm/textframe"
 homepage = ""
 size = 212
-stargazers_count = 11
-watchers_count = 11
+stargazers_count = 10
+watchers_count = 10
 language = "Perl"
 has_issues = true
 has_projects = true
@@ -80,7 +80,7 @@ open_issues_count = 0
 allow_forking = true
 forks = 0
 open_issues = 0
-watchers = 11
+watchers = 10
 default_branch = "master"
 
 [repository.owner]

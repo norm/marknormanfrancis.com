@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository p5-Media"
 published = 2010-02-09T21:22:16Z
-updated = 2021-04-04T08:30:42Z
+updated = 2021-09-17T12:50:59Z
 origin = "github"
 type = "repository"
 tag = [ "repo-p-5-media",]
@@ -57,7 +57,7 @@ labels_url = "https://api.github.com/repos/norm/p5-Media/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/p5-Media/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/p5-Media/deployments"
 created_at = "2010-02-09T21:22:16Z"
-updated_at = "2021-04-04T08:30:42Z"
+updated_at = "2021-09-17T12:50:59Z"
 pushed_at = "2012-11-17T23:17:09Z"
 git_url = "git://github.com/norm/p5-Media.git"
 ssh_url = "git@github.com:norm/p5-Media.git"
@@ -65,22 +65,22 @@ clone_url = "https://github.com/norm/p5-Media.git"
 svn_url = "https://github.com/norm/p5-Media"
 homepage = ""
 size = 2271
-stargazers_count = 7
-watchers_count = 7
+stargazers_count = 6
+watchers_count = 6
 language = "Perl"
 has_issues = true
 has_projects = true
 has_downloads = true
 has_wiki = true
 has_pages = false
-forks_count = 2
+forks_count = 1
 archived = false
 disabled = false
 open_issues_count = 7
 allow_forking = true
-forks = 2
+forks = 1
 open_issues = 7
-watchers = 7
+watchers = 6
 default_branch = "master"
 
 [repository.owner]

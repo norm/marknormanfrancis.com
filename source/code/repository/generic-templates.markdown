@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository generic-templates"
 published = 2009-07-05T18:49:27Z
-updated = 2021-04-04T08:30:41Z
+updated = 2021-09-17T12:51:30Z
 origin = "github"
 type = "repository"
 tag = [ "repo-generic-templates",]
@@ -57,7 +57,7 @@ labels_url = "https://api.github.com/repos/norm/generic-templates/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/generic-templates/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/generic-templates/deployments"
 created_at = "2009-07-05T18:49:27Z"
-updated_at = "2021-04-04T08:30:41Z"
+updated_at = "2021-09-17T12:51:30Z"
 pushed_at = "2009-07-07T20:06:38Z"
 git_url = "git://github.com/norm/generic-templates.git"
 ssh_url = "git@github.com:norm/generic-templates.git"
@@ -65,8 +65,8 @@ clone_url = "https://github.com/norm/generic-templates.git"
 svn_url = "https://github.com/norm/generic-templates"
 homepage = ""
 size = 84
-stargazers_count = 2
-watchers_count = 2
+stargazers_count = 1
+watchers_count = 1
 has_issues = true
 has_projects = true
 has_downloads = true
@@ -79,7 +79,7 @@ open_issues_count = 0
 allow_forking = true
 forks = 0
 open_issues = 0
-watchers = 2
+watchers = 1
 default_branch = "master"
 
 [repository.owner]

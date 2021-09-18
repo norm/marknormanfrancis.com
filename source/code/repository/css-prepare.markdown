@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository CSS-Prepare"
 published = 2010-03-06T14:26:26Z
-updated = 2021-04-04T08:30:41Z
+updated = 2021-09-17T12:50:57Z
 origin = "github"
 type = "repository"
 tag = [ "repo-css-prepare",]
@@ -57,7 +57,7 @@ labels_url = "https://api.github.com/repos/norm/CSS-Prepare/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/CSS-Prepare/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/CSS-Prepare/deployments"
 created_at = "2010-03-06T14:26:26Z"
-updated_at = "2021-04-04T08:30:41Z"
+updated_at = "2021-09-17T12:50:57Z"
 pushed_at = "2011-06-02T12:17:37Z"
 git_url = "git://github.com/norm/CSS-Prepare.git"
 ssh_url = "git@github.com:norm/CSS-Prepare.git"
@@ -65,8 +65,8 @@ clone_url = "https://github.com/norm/CSS-Prepare.git"
 svn_url = "https://github.com/norm/CSS-Prepare"
 homepage = ""
 size = 427
-stargazers_count = 20
-watchers_count = 20
+stargazers_count = 19
+watchers_count = 19
 language = "Perl"
 has_issues = true
 has_projects = true
@@ -80,7 +80,7 @@ open_issues_count = 4
 allow_forking = true
 forks = 2
 open_issues = 4
-watchers = 20
+watchers = 19
 default_branch = "master"
 
 [repository.owner]

@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository loadstone"
 published = 2008-11-10T03:04:28Z
-updated = 2021-04-04T08:30:42Z
+updated = 2021-09-17T12:51:43Z
 origin = "github"
 type = "repository"
 tag = [ "repo-loadstone",]
@@ -57,7 +57,7 @@ labels_url = "https://api.github.com/repos/norm/loadstone/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/loadstone/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/loadstone/deployments"
 created_at = "2008-11-10T03:04:28Z"
-updated_at = "2021-04-04T08:30:42Z"
+updated_at = "2021-09-17T12:51:43Z"
 pushed_at = "2008-11-10T03:05:20Z"
 git_url = "git://github.com/norm/loadstone.git"
 ssh_url = "git@github.com:norm/loadstone.git"
@@ -65,8 +65,8 @@ clone_url = "https://github.com/norm/loadstone.git"
 svn_url = "https://github.com/norm/loadstone"
 homepage = ""
 size = 80
-stargazers_count = 5
-watchers_count = 5
+stargazers_count = 4
+watchers_count = 4
 has_issues = true
 has_projects = true
 has_downloads = true
@@ -79,7 +79,7 @@ open_issues_count = 0
 allow_forking = true
 forks = 0
 open_issues = 0
-watchers = 5
+watchers = 4
 default_branch = "master"
 
 [repository.owner]
