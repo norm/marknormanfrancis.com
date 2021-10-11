@@ -34,10 +34,10 @@ for arg in sys.argv[1:]:
             generate.add('/tags/%s/' % tag)
     if 'thread' in page:
         generate.add('/threads/%s' % page.thread)
-    if 'project' in page:
-        generate.add('/%s/' % page.project)
+    if 'subject' in page:
+        generate.add('/%s/' % page.subject)
         if 'topic' in page:
-            generate.add('/%s/%s/' % (page.project, page.topic))
+            generate.add('/%s/%s/' % (page.subject, page.topic))
 
 if len(generate):
     generate.add('/index.atom')
