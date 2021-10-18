@@ -1,6 +1,8 @@
 ```
 title = "Chips for Week 30, 2020"
 published = 2020-07-24T18:11:09Z
+updated = 2021-10-18T09:16:33Z
+updated_reason = 'Fixing GIF URL'
 origin = "mnf"
 type = "article"
 subject = "weeknotes"
@@ -60,5 +62,5 @@ So now I have a script to make a GIF from a config file. And that config file wi
 
 And to celebrate I remade [one of my favourite GIFs](http://gifs.cackhanded.net/invader-zim/not-now-son) and the whole reason I got into making them in the first place (because no-one else had and it’s just the best Invader Zim line). Ta-da!
 
-<p class='image'><a href='http://gifs.cackhanded.net/invader-zim/not-now-son'><img src='http://gifs.cackhanded.net/invader-zim/not-now-son.gif' alt='Membrane making toast'></a></p>
+<p class='image'><a href='http://gifs.cackhanded.net/invader-zim/the-nightmare-begins/not-now-son'><img src='http://gifs.cackhanded.net/invader-zim/the-nightmare-begins/not-now-son.gif' alt='Membrane making toast'></a></p>
 
