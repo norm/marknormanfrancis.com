@@ -33,6 +33,7 @@ fields = [
 writer = csv.DictWriter(gifs_output, fieldnames=fields)
 writer.writeheader()
 
+seen = set()
 for row in reader:
     timestamp = datetime.strptime(
             row['published'],
@@ -42,6 +43,14 @@ for row in reader:
         timestamp.strftime('%Y/%m/%d'),
         os.path.basename(row['url'])
     )
+    if row['slug'] in seen:
+        count = 2
+        while True:
+            row['slug'] = '%s-%d' % (row['slug'], count)
+            if row['slug'] not in seen:
+                break
+            count += 1
+    seen.add(row['slug'])
     row['origin'] = 'gifs'
     row['origin_link_url'] = row['url']
     row['original_title'] = row['title']
