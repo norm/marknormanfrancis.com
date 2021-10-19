@@ -1,9 +1,12 @@
 ```
-title = "Undefined 14:54:32"
+title = "Mortlach 12y review"
 published = 2021-10-16T14:54:32Z
 origin = "twitter-cackhanded"
 type = "tweet"
 image = "https://mnf.m17s.net/twitter/1449388293892739080/FB1C9rsWEAEkOQk.jpg"
+tag = [
+    'boozecase',
+]
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/twitter/1449388293892739080/FB1C9rsWEAEkOQk.200.jpg"

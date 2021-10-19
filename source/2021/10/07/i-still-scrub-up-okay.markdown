@@ -1,5 +1,5 @@
 ```
-title = "Undefined 09:02:30"
+title = "I still scrub up okay"
 published = 2021-10-07T09:02:30Z
 origin = "twitter-cackhanded"
 type = "tweet"
