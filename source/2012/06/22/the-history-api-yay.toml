@@ -8,3 +8,4 @@ thread = "artfinder-history-api"
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/2012/06/22/the-history-api-yay.200.jpg"
+w80 = "https://mnf.m17s.net/2012/06/22/the-history-api-yay.80.jpg"

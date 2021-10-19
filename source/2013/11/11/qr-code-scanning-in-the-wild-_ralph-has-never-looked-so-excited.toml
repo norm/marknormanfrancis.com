@@ -6,3 +6,4 @@ type = "photo"
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/2013/11/11/qr-code-scanning-in-the-wild-_ralph-has-never-looked-so-excited.200.jpg"
+w80 = "https://mnf.m17s.net/2013/11/11/qr-code-scanning-in-the-wild-_ralph-has-never-looked-so-excited.80.jpg"

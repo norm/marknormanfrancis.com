@@ -6,3 +6,4 @@ type = "photo"
 
 [thumbnail]
 w200 = "https://mnf.m17s.net/2012/04/03/tiny-justification.200.jpg"
+w80 = "https://mnf.m17s.net/2012/04/03/tiny-justification.80.jpg"
