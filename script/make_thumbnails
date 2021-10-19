@@ -16,7 +16,7 @@ bucket = Bucket(BUCKET)
 width = int(sys.argv[1])
 
 flourish = Flourish()
-for source in flourish.sources.filter(image__set=''):
+for source in flourish.sources.filter(image__set='', type='photo'):
     width_key = 'w%s' % width
     if 'thumbnail' not in source or width_key not in source['thumbnail']:
         destination, _ = os.path.splitext(urlparse(source['image']).path)
