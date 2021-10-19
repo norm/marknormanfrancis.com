@@ -30,9 +30,13 @@
     #latest {
         margin: 0;
         padding: 0;
-        display: grid;
-        grid-template-columns: auto auto;
-        column-gap: 30px;
+
+        @include width_above(519px) {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 30px;
+        }
 
         li {
             list-style: none;
