@@ -15,7 +15,7 @@
             left: 20px;
             font-size: 6em;
             font-size: 10vw;
-            color: $desert_storm;
+            color: $body_white;
             // color: rgba(239, 238, 236, 0.75);
             @include outlined_text(2px);
 
@@ -33,7 +33,7 @@
             }
 
             &.dotcom {
-                color: $limed_spruce;
+                color: $nevada;
                 // color: rgba(92, 113, 120, 0.75);
                 font-size: 3em;
                 font-size: 5vw;
@@ -55,9 +55,9 @@
             right: 40px;
 
             a {
-                color: $desert_storm;
+                color: $body_white;
                 padding: 5px 10px;
-                background: $eerie_black;
+                background: $body_black;
                 text-decoration: none;
                 background-color: rgba(0, 0, 0, 0.75);
                 text-transform: uppercase;
@@ -83,8 +83,8 @@
 
     #fixmes,
     #drafts {
-        outline: 5px solid red;
-        border: 5px solid orange;
+        outline: 5px solid #f00;
+        border: 5px solid #f90;
         background: #ffc;
         padding: 10px;
         margin-top: 2em;
@@ -110,7 +110,7 @@
         }
 
         h2 a {
-            color: $eerie_black;
+            color: $body_black;
         }
 
         ol {
@@ -152,7 +152,7 @@
                 position: relative;
                 display: block;
                 font-size: 12px;
-                color: $desert_storm;
+                color: $body_white;
                 text-decoration: none;
 
                 span {
@@ -288,7 +288,7 @@
             p.latest {
                 a {
                     position: relative;
-                    color: $desert_storm;
+                    color: $body_white;
                     text-decoration: none;
                     display: block;
 
@@ -300,7 +300,7 @@
                         padding: 2px 5px;
                         background: rgba(0, 0, 0, 0.5);
                         margin-bottom: 0;
-                        outline: 1px solid $eerie_black;
+                        outline: 1px solid $body_black;
                         position: absolute;
                         bottom: 10px;
                         left: 10px;
@@ -378,8 +378,8 @@
             float: left;
             width: 200px;
             margin: 0.5em 20px 10px 1px;
-            border: 2px solid $desert_storm;
-            outline: 1px solid $eerie_black;
+            border: 2px solid $body_white;
+            outline: 1px solid $body_black;
 
             @include width_below(500px) {
                 max-width: 50%;

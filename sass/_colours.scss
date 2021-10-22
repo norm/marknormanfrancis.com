@@ -1,30 +1,44 @@
+// black and white
+$eerie_black: #1e1b1d;
+$desert_storm: #efeeec;
+
+// greens
 $skeptic: #bfe3d5;
+$olivine: #93bf8a;
 $nevada: #5c7178;
 $limed_spruce: #33484f;
 $te_papa_green: #1e333a;
-$opal: #acc9c8;
 
-$roti: #bea13e;
-$cognac: #9f481b;
-$desert_storm: #efeeec;
-$eerie_black: #1e1b1d;
-
+// blue-purple
 $kimberly: #7373a9;
 $waterloo: #7a7f8f;
+$opal: #acc9c8;
 
+// yellow-orange
+$roti: #bea13e;
+$cognac: #9f481b;
+
+// purple-maroon
 $pearly_purple: #bf6b8d;
 $cosmic: #7b3c58;
 
 
+// allocate to common shorthands
+$body_black: $eerie_black;
+$body_white: $desert_storm;
+$new_anchor: $pearly_purple;
+$visited_anchor: $cosmic;
+
+
 html, body {
-    background: $desert_storm;
-    color: $eerie_black;
+    background: $body_white;
+    color: $body_black;
 }
 
 a {
-    color: $pearly_purple;
+    color: $new_anchor;
 
     &:visited {
-        color: $cosmic;
+        color: $visited_anchor;
     }
 }

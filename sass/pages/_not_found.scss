@@ -21,7 +21,7 @@ body.not-found {
             right: 5%;
             font-size: 2em;
             font-size: 10vw;
-            color: $desert_storm;
+            color: $body_white;
             @include outlined_text(2px);
         }
 

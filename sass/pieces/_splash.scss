@@ -14,7 +14,7 @@ main header #splash {
         font-size: 2em;
         font-size: 10vw;
         line-height: 1;
-        color: $desert_storm;
+        color: $body_white;
         @include outlined_text(2px);
     }
 

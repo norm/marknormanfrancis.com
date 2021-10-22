@@ -19,7 +19,7 @@ body.recipe {
 
         h1,
         p.published {
-            color: $desert_storm;
+            color: $body_white;
             @include outlined_text;
         }
     }
