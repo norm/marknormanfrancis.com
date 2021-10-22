@@ -1,0 +1,63 @@
+{% if updated_explanation %}
+  <div id='updated'>
+    <p><strong>Updated: {{updated.strftime('%d %B, %Y')}}:</strong></p>
+    {{updated_explanation|markdown}}
+  </div>
+{% endif %}
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Left</th>
+      <th>Right</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Sphere</th>
+      <td>{{optical_prescription.left.sphere}}</td>
+      <td>{{optical_prescription.right.sphere}}</td>
+    </tr>
+    <tr>
+      <th>Cylinder</th>
+      <td>{{optical_prescription.left.cylinder}}</td>
+      <td>{{optical_prescription.right.cylinder}}</td>
+    </tr>
+    <tr>
+      <th>Axis</th>
+      <td>{{optical_prescription.left.axis}}</td>
+      <td>{{optical_prescription.right.axis}}</td>
+    </tr>
+    <tr>
+      <th>Prism</th>
+      <td>{{optical_prescription.left.prism}}</td>
+      <td>{{optical_prescription.right.prism}}</td>
+    </tr>
+    <tr>
+      <th>Base</th>
+      <td>{{optical_prescription.left.base}}</td>
+      <td>{{optical_prescription.right.base}}</td>
+    </tr>
+    <tr>
+      <th>Near acuity</th>
+      <td>{{optical_prescription.left.near_acuity}}</td>
+      <td>{{optical_prescription.right.near_acuity}}</td>
+    </tr>
+    <tr>
+      <th>Distance acuity</th>
+      <td>{{optical_prescription.left.distance_acuity}}</td>
+      <td>{{optical_prescription.right.distance_acuity}}</td>
+    </tr>
+    <tr>
+      <th>Reading addition</th>
+      <td>{{optical_prescription.left.reading_addition}}</td>
+      <td>{{optical_prescription.right.reading_addition}}</td>
+    </tr>
+    <tr>
+      <th>Intermediate addition</th>
+      <td>{{optical_prescription.left.intermediate_addition}}</td>
+      <td>{{optical_prescription.right.intermediate_addition}}</td>
+    </tr>
+  </tbody>
+</table>

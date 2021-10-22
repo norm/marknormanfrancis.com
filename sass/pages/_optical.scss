@@ -1,0 +1,31 @@
+body.optical_prescription {
+    table {
+        @include body_font;
+        border-collapse: collapse;
+        text-align: center;
+
+        th {
+            font-weight: 400;
+        }
+
+        td {
+            font-weight: 600;
+        }
+
+        th, td {
+            border: 1px solid $waterloo;
+            padding: 0.66em;
+        }
+
+        thead th {
+            background: $nevada;
+            color: $body_white;
+        }
+
+        tbody th {
+            text-align: right;
+            color: $nevada;
+        }
+
+    }
+}
