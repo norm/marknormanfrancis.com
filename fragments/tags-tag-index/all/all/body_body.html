@@ -1,6 +1,6 @@
 <h1>Entries tagged {{tokens.tag}}</h1>
 {% for page in pages %}
-  {% if loop.changed(page.published.month) %}
+  {% if loop.changed(page.published.strftime('%B %Y')) %}
     {% if not loop.first %}
         </li>
       </ul>
