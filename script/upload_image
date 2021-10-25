@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+
+from datetime import date
+import os
+import sys
+from lib.bucket import Bucket
+
+today = date.today()
+BUCKET = 'mnf.m17s.net'
+
+bucket = Bucket(BUCKET)
+local_file = sys.argv[1]
+try:
+    bucket_path = sys.argv[2]
+except IndexError:
+    bucket_path = os.path.join(
+        today.strftime('%Y'),
+        today.strftime('%m'),
+        today.strftime('%d'),
+        os.path.basename(local_file),
+    )
+
+uploaded = bucket.upload_file(local_file, bucket_path)
+if uploaded:
+    print('++ https://%s%s' % (BUCKET, os.path.join('/', bucket_path)))

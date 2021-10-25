@@ -10,19 +10,23 @@ tag = [
 ]
 image = 'https://mnf.m17s.net/$IMAGE_BASE.jpg'
 summary = """
-  WRITE ME.
+    WRITE ME.
 """
 
 draft = """
   * write the update
   * add repo tags for any affected repo
+  * edit the chips pic in Pixelmator, and upload:
+
+      honcho run ./script/upload_image ~/Downloads/chips.chips.jpg /weeknotes/$YEAR/$WEEK/chips.chips.jpg
+
+      honcho run ./script/upload_image ~/Downloads/chips.1024.jpg /weeknotes/$YEAR/$WEEK/chips.jpg
+  * add chips pic to page
   * write the summary and preview on the homepage and weeknotes page
 """
 
 [thumbnail]
 chips = 'https://mnf.m17s.net/$IMAGE_BASE.chips.jpg'
-w200 = 'https://mnf.m17s.net/$IMAGE_BASE.200.jpg'
-w80 = 'https://mnf.m17s.net/$IMAGE_BASE.80.jpg'
 
 [twitter]
 account = "cackhanded"
