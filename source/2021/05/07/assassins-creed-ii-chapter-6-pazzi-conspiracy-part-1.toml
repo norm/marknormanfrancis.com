@@ -23,7 +23,7 @@ description = "In Chapter 6, Ezio tracks down some of the Pazzi conspirators.\n\
 views = "5"
 likes = "1"
 dislikes = "0"
-comments = "1"
+comments = "0"
 
 [youtube.thumbnails.default]
 url = "https://i.ytimg.com/vi/Z8Iv4MyPMuc/default.jpg"
