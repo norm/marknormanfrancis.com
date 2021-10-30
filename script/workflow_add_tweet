@@ -1,0 +1,9 @@
+#!/usr/bin/env -S bash -euo pipefail -x
+
+declare -a args
+
+[ -n "${INPUT_SUBJECT:-}" ] && args+=(--subject "$INPUT_SUBJECT")
+[ -n "${INPUT_TOPIC:-}"   ] && args+=(--topic "$INPUT_TOPIC")
+[ -n "${INPUT_TAGS:-}"    ] && args+=(--tags "$INPUT_TAGS")
+
+./script/add_tweet "${args[@]}" $INPUT_TWEET "${INPUT_TITLE:-}"
