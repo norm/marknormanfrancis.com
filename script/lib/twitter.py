@@ -100,7 +100,20 @@ class Twitter:
                     created.strftime('%H:%M:%S').lower()
                 tags.add('fixme')
 
-        output_file = 'source/%s/%s.markdown' % (date, slugify(title))
+        if 'subject' in extra:
+            if 'topic' in extra:
+                output_file = 'source/%s/%s/%s.markdown' % (
+                    extra['subject'],
+                    extra['topic'],
+                    slugify(title)
+                )
+            else:
+                output_file = 'source/%s/%s.markdown' % (
+                    extra['subject'],
+                    slugify(title)
+                )
+        else:
+            output_file = 'source/%s/%s.markdown' % (date, slugify(title))
         if 'slug' in extra:
             output_file = 'source/%s.markdown' % extra['slug']
 

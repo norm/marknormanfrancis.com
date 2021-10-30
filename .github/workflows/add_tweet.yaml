@@ -4,8 +4,19 @@ on:
   workflow_dispatch:
     inputs:
       tweet:
+        description: "URL to tweet"
         required: true
       title:
+        description: "Title of post"
+        required: false
+      tags:
+        description: "Tags (comma separated)"
+        required: false
+      subject:
+        description: "Subject"
+        required: false
+      topic:
+        description: "Topic"
         required: false
 
 jobs:
@@ -43,8 +54,12 @@ jobs:
           CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
           CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
         run: |
-          ./script/add_tweet ${{github.event.inputs.tweet}} "${{github.events.inputs.title}}"
-
+          ./script/add_tweet \
+              --tags "${{ github.event.inputs.tags }}" \
+              --subject "${{ github.event.inputs.subject }}" \
+              --topic "${{ github.event.inputs.topic }}" \
+              ${{github.event.inputs.tweet}} \
+              "${{github.event.inputs.title}}"
       - name: Commit and PR any changes
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
