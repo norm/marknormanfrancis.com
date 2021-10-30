@@ -19,7 +19,7 @@ contains_tweet = [ "1454022515425226755", "1454028843275235331", "14540303473945
 last_tweet = "1454030347394592772"
 ```
 
-Changing the decor in my study a little, with some [`@hellocanvas`](https://twitter.com/hellocanvas) shapes
+Changing the decor in my study a little, with some [hellocanvas shapes](https://www.hellocanvas.co.uk/custtomshapes).
 
 <p class='image'><img src='https://mnf.m17s.net/twitter/1454022515425226755/FC25w3HWQAMtWOW.jpg' alt=''></p>
 
