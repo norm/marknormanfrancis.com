@@ -3,6 +3,8 @@ title = "Updating the decor in my study"
 published = 2021-10-29T09:49:16Z
 origin = "twitter-cackhanded"
 type = "thread"
+subject = "home"
+topic = "study"
 image = "https://mnf.m17s.net/twitter/1454022515425226755/FC25w3HWQAMtWOW.jpg"
 tag = [ "hellocanvas", "hexagons", "pictures", "study",]
 

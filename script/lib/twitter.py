@@ -194,6 +194,11 @@ class Twitter:
             'type': content,
         }
 
+        if 'subject' in extra:
+            post['subject'] = extra['subject']
+            if 'topic' in extra:
+                post['topic'] = extra['topic']
+
         if 'image' in extra:
             if extra['image']:
                 post['image'] = extra['image']
