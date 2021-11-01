@@ -1,9 +1,9 @@
 #!/usr/bin/env -S bash -euo pipefail
 
-export WEEK="${1:-}"
+export WEEK="${1:-$(gdate +'%V' --date="now -4 days")}"
 export IMAGE_BASE="${2:-placeholder/weeknote}"
 export PUBLISHED=$(TZ=UTC date +'%Y-%m-%dT%H:%M:%SZ')
-export YEAR=$(date +%Y)
+export YEAR=$(gdate +%G --date="now -4 days")
 
 if [ -z "$WEEK" ]; then
     echo "Usage: new_weeknote <week> [image_base]"
