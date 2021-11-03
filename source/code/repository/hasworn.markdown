@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository hasworn"
 published = 2021-07-15T08:59:03Z
-updated = 2021-10-19T05:02:29Z
+updated = 2021-11-02T05:50:35Z
 origin = "github"
 type = "repository"
 tag = [ "repo-hasworn",]
@@ -57,8 +57,8 @@ labels_url = "https://api.github.com/repos/norm/hasworn/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/hasworn/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/hasworn/deployments"
 created_at = "2021-07-15T08:59:03Z"
-updated_at = "2021-10-19T05:02:29Z"
-pushed_at = "2021-10-19T05:02:26Z"
+updated_at = "2021-11-02T05:50:35Z"
+pushed_at = "2021-11-02T05:50:32Z"
 git_url = "git://github.com/norm/hasworn.git"
 ssh_url = "git@github.com:norm/hasworn.git"
 clone_url = "https://github.com/norm/hasworn.git"
