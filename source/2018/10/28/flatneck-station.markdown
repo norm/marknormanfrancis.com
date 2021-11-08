@@ -1,12 +1,12 @@
 ```
 title = "Flatneck Station"
 published = 2018-10-28T12:57:41Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1056530443984490496"
 retweets = 1
 favourites = 0

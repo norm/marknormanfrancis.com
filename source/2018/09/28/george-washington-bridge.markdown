@@ -1,12 +1,12 @@
 ```
 title = "George Washington Bridge"
 published = 2018-09-28T20:12:52Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "spider-man",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1045768325920423936"
 retweets = 0
 favourites = 0

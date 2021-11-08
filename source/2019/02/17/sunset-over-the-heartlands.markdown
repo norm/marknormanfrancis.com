@@ -1,12 +1,12 @@
 ```
 title = "Sunset over the Heartlands"
 published = 2019-02-17T15:13:52Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1097152155235090433"
 retweets = 0
 favourites = 0

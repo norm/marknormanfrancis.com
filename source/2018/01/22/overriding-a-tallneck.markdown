@@ -1,12 +1,12 @@
 ```
 title = "Overriding a Tallneck"
 published = 2018-01-22T22:17:04Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "955565000508178433"
 retweets = 0
 favourites = 0

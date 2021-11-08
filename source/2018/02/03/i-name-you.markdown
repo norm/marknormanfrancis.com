@@ -1,12 +1,12 @@
 ```
 title = "I Name You"
 published = 2018-02-03T19:55:39Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "959878069044633600"
 retweets = 0
 favourites = 0

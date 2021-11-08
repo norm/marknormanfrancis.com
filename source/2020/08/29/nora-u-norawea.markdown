@@ -1,12 +1,12 @@
 ```
 title = "Nora U Norawea"
 published = 2020-08-29T21:54:57Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1299827906126983168"
 retweets = 0
 favourites = 0

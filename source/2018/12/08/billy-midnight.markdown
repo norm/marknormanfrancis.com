@@ -1,12 +1,12 @@
 ```
 title = "Billy Midnight"
 published = 2018-12-08T09:35:02Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1071337348129013760"
 retweets = 0
 favourites = 0

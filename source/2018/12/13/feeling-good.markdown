@@ -1,12 +1,12 @@
 ```
 title = "Feeling good"
 published = 2018-12-13T21:13:06Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1073324961744457728"
 retweets = 0
 favourites = 1

@@ -1,12 +1,12 @@
 ```
 title = "Chimney"
 published = 2018-11-18T12:05:39Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1064127492485758977"
 retweets = 0
 favourites = 0

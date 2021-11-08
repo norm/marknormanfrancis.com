@@ -1,12 +1,12 @@
 ```
 title = "Seamus"
 published = 2018-12-13T21:07:57Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1073323663326359552"
 retweets = 0
 favourites = 1

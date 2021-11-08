@@ -1,12 +1,12 @@
 ```
 title = "Smokin'"
 published = 2018-11-09T20:33:08Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1060993716100440064"
 retweets = 0
 favourites = 0

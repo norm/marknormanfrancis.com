@@ -1,12 +1,12 @@
 ```
 title = "Traffic lights"
 published = 2020-08-22T19:48:11Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1297259291968143362"
 retweets = 0
 favourites = 0

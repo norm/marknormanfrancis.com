@@ -1,12 +1,12 @@
 ```
 title = "Elementary, my dear Bayek"
 published = 2017-12-29T18:24:31Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "946809168845070336"
 retweets = 0
 favourites = 0

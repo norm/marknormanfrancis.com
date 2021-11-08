@@ -1,12 +1,12 @@
 ```
 title = "Trigon"
 published = 2018-09-19T20:58:18Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "surviving-mars",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1042518268139978753"
 retweets = 0
 favourites = 0

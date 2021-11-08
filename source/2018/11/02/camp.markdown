@@ -1,12 +1,12 @@
 ```
 title = "Camp"
 published = 2018-11-02T19:34:11Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1058442165666353152"
 retweets = 0
 favourites = 0

@@ -1,12 +1,12 @@
 ```
 title = "Bow"
 published = 2020-08-13T14:24:25Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1293916321327935488"
 retweets = 1
 favourites = 0

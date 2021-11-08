@@ -1,12 +1,12 @@
 ```
 title = "Bridge"
 published = 2018-01-22T22:23:29Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "955566615642468353"
 retweets = 0
 favourites = 1

@@ -1,12 +1,12 @@
 ```
 title = "Witness a natural wonder"
 published = 2018-11-25T13:43:49Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1066688911949340673"
 retweets = 0
 favourites = 0

@@ -1,12 +1,12 @@
 ```
 title = "Leap of faith"
 published = 2018-01-28T16:58:28Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "957659149688541186"
 retweets = 0
 favourites = 0

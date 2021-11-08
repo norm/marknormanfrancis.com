@@ -1,12 +1,12 @@
 ```
 title = "Sunrise"
 published = 2018-01-17T18:32:45Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "953696611233824769"
 retweets = 1
 favourites = 1

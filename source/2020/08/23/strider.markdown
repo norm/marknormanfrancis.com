@@ -1,12 +1,12 @@
 ```
 title = "Strider"
 published = 2020-08-23T19:54:15Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1297623204387794956"
 retweets = 0
 favourites = 0

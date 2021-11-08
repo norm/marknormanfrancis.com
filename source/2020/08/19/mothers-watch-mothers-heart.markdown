@@ -1,12 +1,12 @@
 ```
 title = "Mother's Watch, Mother's Heart"
 published = 2020-08-19T14:32:07Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1296092587804307456"
 retweets = 0
 favourites = 0

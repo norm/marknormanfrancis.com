@@ -1,12 +1,12 @@
 ```
 title = "The worst part of the #RedDeadRedemption2 experience"
 published = 2018-11-10T16:01:12Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1061287666254336000"
 retweets = 0
 favourites = 0

@@ -1,12 +1,12 @@
 ```
 title = "Telegraph pole [alt]"
 published = 2018-10-31T21:40:18Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1057749124999725062"
 retweets = 0
 favourites = 0

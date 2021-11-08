@@ -1,12 +1,12 @@
 ```
 title = "Oops"
 published = 2018-12-09T10:03:16Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1071706839811796992"
 retweets = 0
 favourites = 1

@@ -1,12 +1,12 @@
 ```
 title = "Karen singing Lorena"
 published = 2019-02-10T12:01:47Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1094567098481823744"
 retweets = 0
 favourites = 1

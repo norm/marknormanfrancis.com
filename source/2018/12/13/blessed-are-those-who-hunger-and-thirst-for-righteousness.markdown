@@ -1,12 +1,12 @@
 ```
 title = "Blessed are those who hunger and thirst for righteousness"
 published = 2018-12-13T21:15:53Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1073325661182418946"
 retweets = 0
 favourites = 1

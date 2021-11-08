@@ -1,12 +1,12 @@
 ```
 title = "Frozen"
 published = 2018-11-16T22:17:27Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1063556681496494081"
 retweets = 0
 favourites = 0

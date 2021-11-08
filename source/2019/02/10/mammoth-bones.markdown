@@ -1,12 +1,12 @@
 ```
 title = "Mammoth bones"
 published = 2019-02-10T12:10:35Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1094569314194255874"
 retweets = 0
 favourites = 0

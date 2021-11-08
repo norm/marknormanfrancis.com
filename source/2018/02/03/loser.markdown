@@ -1,12 +1,12 @@
 ```
 title = "Loser."
 published = 2018-02-03T19:53:57Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "gtav",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "959877638587322368"
 retweets = 0
 favourites = 0

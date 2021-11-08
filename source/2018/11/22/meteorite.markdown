@@ -1,12 +1,12 @@
 ```
 title = "Meteorite"
 published = 2018-11-22T19:19:17Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1065686173610373120"
 retweets = 0
 favourites = 0

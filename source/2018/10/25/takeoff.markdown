@@ -1,12 +1,12 @@
 ```
 title = "Takeoff"
 published = 2018-10-25T17:20:28Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "surviving-mars",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1055509411840643073"
 retweets = 1
 favourites = 2

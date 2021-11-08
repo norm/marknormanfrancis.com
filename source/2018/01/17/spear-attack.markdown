@@ -1,12 +1,12 @@
 ```
 title = "Spear attack"
 published = 2018-01-17T19:36:46Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "953712719676497921"
 retweets = 0
 favourites = 0

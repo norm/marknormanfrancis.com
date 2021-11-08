@@ -1,12 +1,12 @@
 ```
 title = "Frontier Street"
 published = 2018-11-23T19:49:14Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1066056094961807367"
 retweets = 0
 favourites = 0

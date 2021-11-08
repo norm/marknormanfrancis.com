@@ -1,12 +1,12 @@
 ```
 title = "Not yours"
 published = 2018-11-11T14:08:42Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1061621745533288448"
 retweets = 0
 favourites = 0

@@ -1,12 +1,12 @@
 ```
 title = "Wisps"
 published = 2019-08-26T12:57:06Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "surviving-mars",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1165971430753939456"
 retweets = 0
 favourites = 0

@@ -1,12 +1,12 @@
 ```
 title = "Room"
 published = 2019-11-17T13:08:46Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "control-remedy", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1196052560446144512"
 retweets = 0
 favourites = 0

@@ -1,12 +1,12 @@
 ```
 title = "Tree face"
 published = 2019-02-01T20:17:44Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1091430419701092353"
 retweets = 0
 favourites = 2

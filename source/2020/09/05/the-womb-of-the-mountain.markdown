@@ -1,12 +1,12 @@
 ```
 title = "The womb of the mountain"
 published = 2020-09-05T15:19:16Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1302265047008321537"
 retweets = 0
 favourites = 0

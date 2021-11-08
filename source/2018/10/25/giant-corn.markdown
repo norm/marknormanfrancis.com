@@ -1,12 +1,12 @@
 ```
 title = "Giant corn"
 published = 2018-10-25T17:23:40Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "surviving-mars",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1055510217348263936"
 retweets = 3
 favourites = 28

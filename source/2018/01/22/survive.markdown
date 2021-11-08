@@ -1,12 +1,12 @@
 ```
 title = "Survive!"
 published = 2018-01-22T22:22:56Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "955566477242925062"
 retweets = 0
 favourites = 1

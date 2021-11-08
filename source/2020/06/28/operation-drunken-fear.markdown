@@ -1,12 +1,12 @@
 ```
 title = "Operation: Drunken Fear"
 published = 2020-06-28T17:32:47Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "xcom2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1277293883907624960"
 retweets = 0
 favourites = 0

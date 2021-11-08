@@ -1,12 +1,12 @@
 ```
 title = "Posea"
 published = 2019-02-10T16:01:36Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1094627453081931777"
 retweets = 1
 favourites = 3

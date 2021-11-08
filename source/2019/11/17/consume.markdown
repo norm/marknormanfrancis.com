@@ -1,12 +1,12 @@
 ```
 title = "Consume"
 published = 2019-11-17T13:07:58Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "control-remedy", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1196052358222032896"
 retweets = 1
 favourites = 0

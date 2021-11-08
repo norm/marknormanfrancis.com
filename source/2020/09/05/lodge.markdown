@@ -1,12 +1,12 @@
 ```
 title = "Lodge"
 published = 2020-09-05T13:36:49Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1302239261710786560"
 retweets = 0
 favourites = 0

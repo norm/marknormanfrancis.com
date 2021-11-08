@@ -1,12 +1,12 @@
 ```
 title = "Scrapper"
 published = 2020-09-05T13:21:19Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1302235362601861121"
 retweets = 0
 favourites = 0

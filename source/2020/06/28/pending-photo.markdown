@@ -1,12 +1,12 @@
 ```
 title = "Pending photo"
 published = 2020-06-28T17:33:29Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "xcom2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1277294060097679364"
 retweets = 0
 favourites = 0

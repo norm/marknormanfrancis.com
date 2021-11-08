@@ -1,12 +1,12 @@
 ```
 title = "Stormbird"
 published = 2018-01-28T16:57:42Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "horizon-zero-dawn", "ps4share",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "957658955496509440"
 retweets = 0
 favourites = 0

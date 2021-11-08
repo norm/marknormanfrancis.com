@@ -1,12 +1,12 @@
 ```
 title = "Train"
 published = 2019-02-01T20:15:29Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1091429851758776321"
 retweets = 0
 favourites = 1

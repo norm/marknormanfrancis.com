@@ -1,12 +1,12 @@
 ```
 title = "Camping"
 published = 2019-01-05T16:21:55Z
-origin = "twitter-norms_ps4"
+origin = "twitter-mnfvideogames"
 type = "tweet"
 tag = [ "ps4share", "red-dead-redemption-2",]
 
 [twitter]
-account = "norms_ps4"
+account = "mnfvideogames"
 first_tweet = "1081586603687112704"
 retweets = 0
 favourites = 0
