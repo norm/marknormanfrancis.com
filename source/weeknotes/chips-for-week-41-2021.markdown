@@ -1,6 +1,8 @@
 ```
 title = "Chips for week 41, 2021"
 published = 2021-10-18T09:16:33Z
+updated = 2021-11-15T07:05:06Z
+updated_reason = 'Fixing tshirt date typo'
 origin = 'mnf'
 type = 'article'
 subject = 'weeknotes'
@@ -87,7 +89,7 @@ This was inspired by not noticing that my long-time most worn tshirt
 (previously [Explorer][ex], most worn from 2014-07-28) changed in February to
 be [Firewatch][fw] (most worn from 2021-02-04 through today). Also, my first
 most worn was [Thunder-King][tk] (starting at a count of 5 wearings, it was
-most worn from 2021-10-25 through 2014-07-27).
+most worn from 2013-10-25 through 2014-07-27).
 
 Although, having said all that I **know** that my actual most worn tshirt is
 actually [Hard core pawn][hc] which I wore **a lot** in the 90s and 00s,
