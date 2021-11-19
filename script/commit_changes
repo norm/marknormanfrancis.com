@@ -13,17 +13,4 @@ if [ -n "$(git status --porcelain)" ]; then
     git add -A
     git commit --message "$message"
     git push
-
-    rev=$(git rev-parse HEAD)
-
-    # ... and send an update
-    (
-        echo "# Updated files"
-        echo ''
-        echo "[See diff on GitHub]($DIFF_BASE/$rev)"
-        echo ''
-        git show --pretty='' --name-only $rev | sed -e 's/^/* /'
-    ) \
-        | ./script/twist_post $(date +'%Y-%m-%d') $message
-
 fi
