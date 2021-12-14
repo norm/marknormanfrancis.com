@@ -1,8 +1,8 @@
 ```
 title = "About me"
 published = 2005-09-03T08:25:52Z
-updated = 2021-06-12T08:54:45Z
-updated_reason = 'Fixing broken links and updating facts'
+updated = 2021-12-14T05:30:44Z
+updated_reason = 'Updating my age'
 origin = "chnet"
 origin_url = "cackhanded.net/about/me"
 type = "article"
@@ -17,7 +17,7 @@ employers unless otherwise stated.
 
 ## Thirty random facts
 
-1.  In the words of [old flickr][of]: I am male, 48 and taken.
+1.  In the words of [old flickr][of]: I am male, 49 and taken.
 2.  I have mostly blue eyes (I say mostly because they have a subtle colour,
     which reflects a lot of the colour around them, so sometimes they’re more
     green, or grey).
