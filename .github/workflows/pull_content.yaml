@@ -48,16 +48,13 @@ jobs:
       - name: Commit and PR any changes
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          TWIST_URL: ${{secrets.TWIST_URL}}
         run: |
           ./script/commit_changes "Automatic content updates"
 
       - name: Notify on failure
         env:
-          TWIST_URL: ${{secrets.TWIST_URL}}
+          PUSHOVER_API_KEY: ${{secrets.PUSHOVER_API_KEY}}
+          PUSHOVER_USER_KEY: ${{secrets.PUSHOVER_USER_KEY}}
         if: failure()
         run: |
-          (
-            echo "# Pull content workflow failure"
-            echo "$(date +'%Y-%m-%d') - $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
-          ) | ./script/twist_post
+          echo "Pull content workflow failed" | ./script/pushover "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

@@ -60,7 +60,13 @@ while next_token is not None:
         except FileNotFoundError:
             source = {}
 
-        # nothing in these posts should be edited by hand,
+        # 2021-12 youtube is now hiding dislikes from public data,
+        # so we preserve what we already had
+        dislikes = 0
+        if 'youtube' in source and 'dislikes' in source['youtube']:
+            dislikes = source['youtube']['dislikes']
+
+        # nothing else in these posts should be edited by hand,
         # so updating the entire thing is fair game
         source['title'] = 'Published YouTube video “%s”' % \
                             video['snippet']['title'].replace(' ', ' ')
@@ -109,7 +115,7 @@ while next_token is not None:
         source['youtube'].update({
             'views': video['statistics']['viewCount'],
             'likes': video['statistics']['likeCount'],
-            'dislikes': video['statistics']['dislikeCount'],
+            'dislikes': dislikes,
             'comments': video['statistics']['commentCount'],
         })
 
