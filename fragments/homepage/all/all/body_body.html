@@ -1,4 +1,4 @@
-{# FIXME 2021 hardcoded #}
+{# FIXME 2022 hardcoded #}
 <p>
   I'm Mark Norman Francis,
 
@@ -81,7 +81,7 @@
             <a href='{{video.origin_link_url}}' class='channel'>Game Shows</a>
           {% endif %}
         video <b>—</b>
-        {% if video.published.year == 2021 %}
+        {% if video.published.year == 2022 %}
           <span>{{video.published.strftime('%B %d')}}</span>
         {% else %}
           <span>{{video.published.strftime('%B %d, %y')}}</span>
@@ -113,7 +113,7 @@
           <span>{{latest_weeknote.title}}</span>
         {% endif %}
       </a>
-      {% if latest_weeknote.published.year == 2021 %}
+      {% if latest_weeknote.published.year == 2022 %}
         <em>{{latest_weeknote.published.strftime('%B %d')}}</em>
       {% else %}
         <em>{{latest_weeknote.published.strftime('%B %d, %Y')}}</em>
@@ -136,7 +136,7 @@
     <ol>
       {% for r in releases %}{% with release = releases[r] %}
         <li>
-          {% if release.published.year == 2021 %}
+          {% if release.published.year == 2022 %}
             <em>{{release.published.strftime('%B %d')}}</em>
           {% else %}
             <em>{{release.published.strftime('%B %d, %Y')}}</em>
@@ -157,13 +157,13 @@
       <h3>
         <span class='date'>
           {% with up=src.updated, pub=src.published %}
-            {% if pub.year == 2021 %}
+            {% if pub.year == 2022 %}
               {{pub.strftime('%B %d')}}
             {% else %}
               {{pub.strftime('%B %d, %Y')}}
             {% endif %}
             {% if up and up.date() != pub.date() %}
-              {% if pub.year == 2021 %}
+              {% if pub.year == 2022 %}
                 (updated {{up.strftime('%B %d')}})
               {% else %}
                 (updated {{up.strftime('%B %d, %Y')}})
@@ -201,7 +201,7 @@
     {% for src in latest_tweets %}
     <li>
       <span>
-        {% if src.published.year == 2021 %}
+        {% if src.published.year == 2022 %}
           {{src.published.strftime('%B %d')}}
         {% else %}
           {{src.published.strftime('%B %d, %Y')}}
@@ -231,7 +231,7 @@
       {% if photo.tag|length == 1 %}
         <a href='{{ path("tags-tag-index", tag=photo.tag[0]) }}'>{{photo.tag[0]|capfirst}}</a> —
       {% endif %}
-      {% if photo.published.year == 2021 %}
+      {% if photo.published.year == 2022 %}
         {{photo.published.strftime('%B %d')}}
       {% else %}
         {{photo.published.strftime('%B %d, %Y')}}
