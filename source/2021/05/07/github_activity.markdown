@@ -7,7 +7,7 @@ repository = [ "norm/game_shows_support",]
 tag = [ "repo-game-shows-support",]
 ```
 
-* 07:54 — Pushed 20 commits to `main` on [`norm/game_shows_support`](https://github.com/norm/game_shows_support) ([diff](https://github.com/norm/game_shows_support/compare/6670f2a1ea9c8558c24dac57e3ff9a0311675b8b..02420a34543da6c52084f7684b55ba4585e3153a))
+* 07:54 — pushed 20 commits to `main` on [`norm/game_shows_support`](https://github.com/norm/game_shows_support) ([diff](https://github.com/norm/game_shows_support/compare/6670f2a1ea9c8558c24dac57e3ff9a0311675b8b..02420a34543da6c52084f7684b55ba4585e3153a))
   * [Annotate more raw footage](https://github.com/norm/game_shows_support/commit/b325ffb665b20d242dfa035c9260febd9baad75c)
   * [Include duration when showing annotation files](https://github.com/norm/game_shows_support/commit/a480ad4ba2b53600787d4625f660b4f88d8af8dc)
   * [Only add annotations to git if edited](https://github.com/norm/game_shows_support/commit/d7995aa0bdd3311a4b80d0c432e64e60baf9175c)

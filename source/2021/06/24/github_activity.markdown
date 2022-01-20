@@ -7,7 +7,7 @@ repository = [ "norm/marknormanfrancis.com",]
 tag = [ "repo-marknormanfrancis-com",]
 ```
 
-* 09:27 — Pushed 20 commits to `main` on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com) ([diff](https://github.com/norm/marknormanfrancis.com/compare/50853c4a74acd624a1a9cfd92e04384e36069fa3..4331b3e335c43d367b5fc788657780d1862cbe23))
+* 09:27 — pushed 20 commits to `main` on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com) ([diff](https://github.com/norm/marknormanfrancis.com/compare/50853c4a74acd624a1a9cfd92e04384e36069fa3..4331b3e335c43d367b5fc788657780d1862cbe23))
   * [Store more original details for YouTube sources](https://github.com/norm/marknormanfrancis.com/commit/d9e1c87495e36ab2d229c47d4c45bfbbe0c8cb93)
   * [Make 200px wide thumbnails](https://github.com/norm/marknormanfrancis.com/commit/5093dcc13cacb004bd07d58ffa8521c5a2b86f10)
   * [Change the twitter data structure](https://github.com/norm/marknormanfrancis.com/commit/9c52ab3795c8707b7fb192b0a80e886f38eaf947)
@@ -28,5 +28,5 @@ tag = [ "repo-marknormanfrancis-com",]
   * [Improve some articles homepage presentation](https://github.com/norm/marknormanfrancis.com/commit/0fc5ab78b50152eb191924ba5b694d15a55bf55d)
   * [Make the rebuild message into an article](https://github.com/norm/marknormanfrancis.com/commit/feff86f85e7caadc908ad0229e3c1b0f1efeca71)
   * [Preserve a GIFs original title](https://github.com/norm/marknormanfrancis.com/commit/1d57da6caa7b23edde6f1d734fa75ea76b78998e)
-* 10:52 — Pushed 1 commit to `main` on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com) ([diff](https://github.com/norm/marknormanfrancis.com/compare/39c58fc1eaae5bba2dce25fe2b94c25f54f7f27d..8f04283a1da93aa62523090e99d350839b6cdde1))
+* 10:52 — pushed 1 commit to `main` on [`norm/marknormanfrancis.com`](https://github.com/norm/marknormanfrancis.com) ([diff](https://github.com/norm/marknormanfrancis.com/compare/39c58fc1eaae5bba2dce25fe2b94c25f54f7f27d..8f04283a1da93aa62523090e99d350839b6cdde1))
   * [Fix for recent Chrome rendering](https://github.com/norm/marknormanfrancis.com/commit/8f04283a1da93aa62523090e99d350839b6cdde1)

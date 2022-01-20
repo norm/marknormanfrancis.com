@@ -7,7 +7,7 @@ repository = [ "norm/gifs.cackhanded.net",]
 tag = [ "repo-gifs-cackhanded-net",]
 ```
 
-* 05:53 — Pushed 15 commits to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/debedc355682467583847c08fe18b83c42b8da29..5e555e86603801379a4788fc0ffe79bbe4e8a827))
+* 05:53 — pushed 15 commits to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/debedc355682467583847c08fe18b83c42b8da29..5e555e86603801379a4788fc0ffe79bbe4e8a827))
   * [Adds option to list RGB values of chosen palette](https://github.com/norm/gifs.cackhanded.net/commit/125c52c474403fc1b1213f8362796815208b2620)
   * [Fix the URLs of the example fonts](https://github.com/norm/gifs.cackhanded.net/commit/fc4d87bbd00a63c8f06a37a26599a1ac201f6b4a)
   * [Be able to disable optimising GIFs](https://github.com/norm/gifs.cackhanded.net/commit/b8a5eaffa0919025b14e1ef73bb7ed4d7f8c3275)

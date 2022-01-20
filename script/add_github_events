@@ -206,7 +206,7 @@ for i, day in enumerate(sorted(day_events)):
         elif event['type'] == 'PushEvent':
             repos.add(event['repo']['name'])
             update += (
-                    '* %s — Pushed %d commit%s '
+                    '* %s — pushed %d commit%s '
                     'to `%s` on [`%s`](%s) ([diff](%s))\n'
                 ) % (
                     timestamp.strftime('%H:%M'),

@@ -7,7 +7,7 @@ repository = [ "norm/hasworn",]
 tag = [ "repo-hasworn",]
 ```
 
-* 06:15 — Pushed 9 commits to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/4abb46e4e93cee8bb3c2f6c2b9b5cb88080d9d0a..6b76499d078f769924b0e5649b3b8f06c433e064))
+* 06:15 — pushed 9 commits to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/4abb46e4e93cee8bb3c2f6c2b9b5cb88080d9d0a..6b76499d078f769924b0e5649b3b8f06c433e064))
   * [separate dev env from prod](https://github.com/norm/hasworn/commit/356a82343f59c0ce44c5abc0e345e40c4ea5c716)
   * [Add custom user model](https://github.com/norm/hasworn/commit/9402a5eec318a50fec8b0278dbfe5a887099eaf8)
   * [manage script](https://github.com/norm/hasworn/commit/b4f05f93a414ee9e833945bcb09fb571cbe399a5)
@@ -17,5 +17,5 @@ tag = [ "repo-hasworn",]
   * [fixup user model](https://github.com/norm/hasworn/commit/3b15b67a5cbac15065a0cf5cf72739f94b498660)
   * [Add compose script](https://github.com/norm/hasworn/commit/4ace64164d60b197ba87d7de441db4f1b4d209a6)
   * [Test baked websites volume](https://github.com/norm/hasworn/commit/6b76499d078f769924b0e5649b3b8f06c433e064)
-* 13:19 — Pushed 1 commit to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/6b76499d078f769924b0e5649b3b8f06c433e064..281484ccafe15f7047e729a509ae03d63610eea6))
+* 13:19 — pushed 1 commit to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/6b76499d078f769924b0e5649b3b8f06c433e064..281484ccafe15f7047e729a509ae03d63610eea6))
   * [nginx tweaks](https://github.com/norm/hasworn/commit/281484ccafe15f7047e729a509ae03d63610eea6)

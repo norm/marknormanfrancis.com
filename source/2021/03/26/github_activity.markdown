@@ -7,7 +7,7 @@ repository = [ "norm/game_shows_support", ]
 tag = [ "repo-game-shows-support", ]
 ```
 
-* 08:27 — Pushed 10 commits to `main` on [`norm/game_shows_support`](https://github.com/norm/game_shows_support) ([diff](https://github.com/norm/game_shows_support/compare/5e46c72276041195168c7b74178aab9fb2652783..f6f86e34d3b04a4ddf2e585750202e20ea82f724))
+* 08:27 — pushed 10 commits to `main` on [`norm/game_shows_support`](https://github.com/norm/game_shows_support) ([diff](https://github.com/norm/game_shows_support/compare/5e46c72276041195168c7b74178aab9fb2652783..f6f86e34d3b04a4ddf2e585750202e20ea82f724))
   * [Change the default show](https://github.com/norm/game_shows_support/commit/0133cc5cb11e31477b940ca0d3e296a274de1903)
   * [Allow audio to be generated in per-project voices](https://github.com/norm/game_shows_support/commit/1f9d2ee8efc8811fbddfbc77ffdcb757b5aa3831)
   * [Ensure the required directories exist](https://github.com/norm/game_shows_support/commit/c266ad56c56b564a177992d837366f2b82d93626)

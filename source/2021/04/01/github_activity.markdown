@@ -7,7 +7,7 @@ repository = [ "norm/game_shows_support",]
 tag = [ "repo-game-shows-support",]
 ```
 
-* 13:59 — Pushed 11 commits to `main` on [`norm/game_shows_support`](https://github.com/norm/game_shows_support) ([diff](https://github.com/norm/game_shows_support/compare/f6f86e34d3b04a4ddf2e585750202e20ea82f724..c6b037775f4429bc98d2e57893389a1f732bf33c))
+* 13:59 — pushed 11 commits to `main` on [`norm/game_shows_support`](https://github.com/norm/game_shows_support) ([diff](https://github.com/norm/game_shows_support/compare/f6f86e34d3b04a4ddf2e585750202e20ea82f724..c6b037775f4429bc98d2e57893389a1f732bf33c))
   * [Change the backup location](https://github.com/norm/game_shows_support/commit/01edc672eb8f88d1d7dd3e3e91c2ca95340ed8d4)
   * [Add tasks to Things](https://github.com/norm/game_shows_support/commit/1946adc5b89bb79965436027e11f1c549c28471c)
   * [Draft Ezio chapter 1 captions](https://github.com/norm/game_shows_support/commit/9bd1f1fe107e4b7d76d74d710443eec809c22641)
@@ -19,7 +19,7 @@ tag = [ "repo-game-shows-support",]
   * [Use a template for new footage annotations](https://github.com/norm/game_shows_support/commit/09ab7d94ab6620eb401e31c3463be8296e04d3eb)
   * [Improve the raw copy](https://github.com/norm/game_shows_support/commit/01f6185a0c7da12e625d3bc9ed9313ef5bec213a)
   * [Update Ezio Collection tasks](https://github.com/norm/game_shows_support/commit/c6b037775f4429bc98d2e57893389a1f732bf33c)
-* 14:16 — Pushed 3 commits to `main` on [`norm/game_shows_support`](https://github.com/norm/game_shows_support) ([diff](https://github.com/norm/game_shows_support/compare/c6b037775f4429bc98d2e57893389a1f732bf33c..d921f2c3d50fd0e0216409727b1cb5e04d4c1715))
+* 14:16 — pushed 3 commits to `main` on [`norm/game_shows_support`](https://github.com/norm/game_shows_support) ([diff](https://github.com/norm/game_shows_support/compare/c6b037775f4429bc98d2e57893389a1f732bf33c..d921f2c3d50fd0e0216409727b1cb5e04d4c1715))
   * [Script to copy/restore the game's save data](https://github.com/norm/game_shows_support/commit/63d06a7d10df47e5f8a9df29aa2d3d41214b9b8b)
   * [Add current Ezio footage annotations](https://github.com/norm/game_shows_support/commit/ec1f4042c295092a823711688e518c2927335244)
   * [The channel images are not specific to HZD](https://github.com/norm/game_shows_support/commit/d921f2c3d50fd0e0216409727b1cb5e04d4c1715)

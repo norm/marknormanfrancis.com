@@ -7,7 +7,7 @@ repository = [ "norm/hasworn",]
 tag = [ "repo-hasworn",]
 ```
 
-* 12:02 — Pushed 17 commits to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/402c9952c86b353e41345267639d4b8b0cf43d47..57f8e7393d872734b8e55535b12f8c3581a0d2b1))
+* 12:02 — pushed 17 commits to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/402c9952c86b353e41345267639d4b8b0cf43d47..57f8e7393d872734b8e55535b12f8c3581a0d2b1))
   * [fixup static](https://github.com/norm/hasworn/commit/e99a4ebd6fe96973e54c394297ca26050aa425b1)
   * [fixup readme](https://github.com/norm/hasworn/commit/09943929bfa403fb25a04dc92e43037370b9b5a4)
   * [worn](https://github.com/norm/hasworn/commit/8599c9e66e4d7c6a604006a85b80bd81fde0e68a)

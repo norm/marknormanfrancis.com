@@ -7,12 +7,12 @@ repository = [ "norm/hasworn",]
 tag = [ "repo-hasworn",]
 ```
 
-* 04:58 — Pushed 2 commits to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/9f53fe5600bfa01f5534dc04e1747f233e20c740..668959ed70004383fd0543a090c4ca9e5c7ef418))
+* 04:58 — pushed 2 commits to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/9f53fe5600bfa01f5534dc04e1747f233e20c740..668959ed70004383fd0543a090c4ca9e5c7ef418))
   * [worn](https://github.com/norm/hasworn/commit/100085ad7f2baf9af1dfdd8273a40d7bb15fc73b)
   * [Delete wearings](https://github.com/norm/hasworn/commit/668959ed70004383fd0543a090c4ca9e5c7ef418)
-* 05:16 — Pushed 1 commit to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/668959ed70004383fd0543a090c4ca9e5c7ef418..bbdb212441529abf6d7d70ef0dea4cfe488fc911))
+* 05:16 — pushed 1 commit to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/668959ed70004383fd0543a090c4ca9e5c7ef418..bbdb212441529abf6d7d70ef0dea4cfe488fc911))
   * [fixup](https://github.com/norm/hasworn/commit/bbdb212441529abf6d7d70ef0dea4cfe488fc911)
-* 06:42 — Pushed 17 commits to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/bbdb212441529abf6d7d70ef0dea4cfe488fc911..47067f455a311084eba3faf01f6c1c995299192b))
+* 06:42 — pushed 17 commits to `main` on [`norm/hasworn`](https://github.com/norm/hasworn) ([diff](https://github.com/norm/hasworn/compare/bbdb212441529abf6d7d70ef0dea4cfe488fc911..47067f455a311084eba3faf01f6c1c995299192b))
   * [Serve django's static files in production](https://github.com/norm/hasworn/commit/bb7958a93180a25e06362850ca1e73cb88650ab6)
   * [Add HTTPS using Let's Encrypt certificates](https://github.com/norm/hasworn/commit/dbc72b61c65a6651ae96921ddd06e3dd88db311f)
   * [Restart containers that fail/on server reboot](https://github.com/norm/hasworn/commit/31c0efdb5f79b50e6b22210e5a39ef4045b2f4dc)

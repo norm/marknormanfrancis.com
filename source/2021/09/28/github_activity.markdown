@@ -7,7 +7,7 @@ repository = [ "norm/gifs.cackhanded.net",]
 tag = [ "repo-gifs-cackhanded-net",]
 ```
 
-* 09:01 — Pushed 10 commits to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/3dcd1ab968872c5944271dba7fa6051823f3511b..debedc355682467583847c08fe18b83c42b8da29))
+* 09:01 — pushed 10 commits to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/3dcd1ab968872c5944271dba7fa6051823f3511b..debedc355682467583847c08fe18b83c42b8da29))
   * [Update Galaxy Quest settings](https://github.com/norm/gifs.cackhanded.net/commit/6ad6a74030632728ec790b56b907c2c9e2356c0d)
   * [Add a script to quickly look up previous content](https://github.com/norm/gifs.cackhanded.net/commit/f0c85baa443878e576bc15844a6de4c755d9482d)
   * [Add some dubious Nazis](https://github.com/norm/gifs.cackhanded.net/commit/109848e7f8cf14aed37b675fbbd464ed897fe70e)

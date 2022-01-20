@@ -7,7 +7,7 @@ repository = [ "norm/gifs.cackhanded.net", ]
 tag = [ "repo-gifs-cackhanded-net", ]
 ```
 
-* 16:49 — Pushed 6 commits to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/d53f9cf8a04423edb2db2776fed3cc0ca4133c9a..c1b5ce8ba1c87f6d668e47a0572e6baef4edeaf2))
+* 16:49 — pushed 6 commits to `main` on [`norm/gifs.cackhanded.net`](https://github.com/norm/gifs.cackhanded.net) ([diff](https://github.com/norm/gifs.cackhanded.net/compare/d53f9cf8a04423edb2db2776fed3cc0ca4133c9a..c1b5ce8ba1c87f6d668e47a0572e6baef4edeaf2))
   * [Add some Ted Lasso GIFs](https://github.com/norm/gifs.cackhanded.net/commit/71de402f2dd1fbc36fcc5e6156b2946917161226)
   * [Option to manually add colours to GIF palettes](https://github.com/norm/gifs.cackhanded.net/commit/7553ecc813c30a90bf4e274b772c3fe2dc3af76c)
   * [Add dither and FPS settings to the make output](https://github.com/norm/gifs.cackhanded.net/commit/00d54cd02793f79e86ecadb8004aea23dd99a3fc)
