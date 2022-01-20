@@ -198,11 +198,23 @@ for i, day in enumerate(sorted(day_events)):
                 pp(event)
                 raise UnknownEvent
         elif event['type'] == 'PullRequestReviewEvent':
-            pp(event)
-            raise UnknownEvent
+            repos.add(event['repo']['name'])
+            update += '* %s — requested review of [pull request %s](%s) on [`%s`](%s)\n' % (
+                timestamp.strftime('%H:%M'),
+                event['payload']['pull_request']['number'],
+                event['payload']['pull_request']['html_url'],
+                event['repo']['name'],
+                api_to_website(event['repo']['url']),
+            )
         elif event['type'] == 'PullRequestReviewCommentEvent':
-            pp(event)
-            raise UnknownEvent
+            repos.add(event['repo']['name'])
+            update += '* %s — added comment to review on [pull request %s](%s) on [`%s`](%s)\n' % (
+                timestamp.strftime('%H:%M'),
+                event['payload']['pull_request']['number'],
+                event['payload']['pull_request']['html_url'],
+                event['repo']['name'],
+                api_to_website(event['repo']['url']),
+            )
         elif event['type'] == 'PushEvent':
             repos.add(event['repo']['name'])
             update += (
