@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository bash-composition"
 published = 2013-11-16T08:08:28Z
-updated = 2021-04-04T08:30:40Z
+updated = 2022-01-31T11:26:52Z
 origin = "github"
 type = "repository"
 tag = [ "repo-bash-composition",]
@@ -57,13 +57,13 @@ labels_url = "https://api.github.com/repos/norm/bash-composition/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/bash-composition/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/bash-composition/deployments"
 created_at = "2013-11-16T08:08:28Z"
-updated_at = "2021-04-04T08:30:40Z"
-pushed_at = "2017-08-07T13:25:28Z"
+updated_at = "2022-01-31T11:26:52Z"
+pushed_at = "2022-01-31T18:58:59Z"
 git_url = "git://github.com/norm/bash-composition.git"
 ssh_url = "git@github.com:norm/bash-composition.git"
 clone_url = "https://github.com/norm/bash-composition.git"
 svn_url = "https://github.com/norm/bash-composition"
-size = 35
+size = 38
 stargazers_count = 5
 watchers_count = 5
 language = "Shell"
@@ -83,7 +83,7 @@ visibility = "public"
 forks = 0
 open_issues = 0
 watchers = 5
-default_branch = "master"
+default_branch = "main"
 
 [repository.owner]
 login = "norm"
