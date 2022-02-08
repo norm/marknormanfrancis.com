@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository macos_setup"
 published = 2021-09-12T13:00:46Z
-updated = 2021-09-12T14:54:59Z
+updated = 2022-02-07T16:03:25Z
 origin = "github"
 type = "repository"
 tag = [ "repo-macos-setup",]
@@ -57,13 +57,13 @@ labels_url = "https://api.github.com/repos/norm/macos_setup/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/macos_setup/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/macos_setup/deployments"
 created_at = "2021-09-12T13:00:46Z"
-updated_at = "2021-09-12T14:54:59Z"
-pushed_at = "2021-09-12T14:54:57Z"
+updated_at = "2022-02-07T16:03:25Z"
+pushed_at = "2022-02-07T16:03:20Z"
 git_url = "git://github.com/norm/macos_setup.git"
 ssh_url = "git@github.com:norm/macos_setup.git"
 clone_url = "https://github.com/norm/macos_setup.git"
 svn_url = "https://github.com/norm/macos_setup"
-size = 2
+size = 18
 stargazers_count = 0
 watchers_count = 0
 language = "Shell"

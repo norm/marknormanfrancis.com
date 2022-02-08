@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository kitout"
 published = 2021-09-11T05:29:13Z
-updated = 2021-09-14T05:00:32Z
+updated = 2022-02-07T07:54:38Z
 origin = "github"
 type = "repository"
 tag = [ "repo-kitout",]
@@ -56,13 +56,13 @@ labels_url = "https://api.github.com/repos/norm/kitout/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/kitout/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/kitout/deployments"
 created_at = "2021-09-11T05:29:13Z"
-updated_at = "2021-09-14T05:00:32Z"
-pushed_at = "2021-09-14T05:00:29Z"
+updated_at = "2022-02-07T07:54:38Z"
+pushed_at = "2022-02-07T07:54:34Z"
 git_url = "git://github.com/norm/kitout.git"
 ssh_url = "git@github.com:norm/kitout.git"
 clone_url = "https://github.com/norm/kitout.git"
 svn_url = "https://github.com/norm/kitout"
-size = 37
+size = 46
 stargazers_count = 0
 watchers_count = 0
 language = "Shell"
