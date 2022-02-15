@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository hammerspoon-config"
 published = 2018-03-08T13:27:34Z
-updated = 2021-04-04T08:30:41Z
+updated = 2022-02-14T05:43:29Z
 origin = "github"
 type = "repository"
 tag = [ "repo-hammerspoon-config",]
@@ -57,13 +57,13 @@ labels_url = "https://api.github.com/repos/norm/hammerspoon-config/labels{/name}
 releases_url = "https://api.github.com/repos/norm/hammerspoon-config/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/hammerspoon-config/deployments"
 created_at = "2018-03-08T13:27:34Z"
-updated_at = "2021-04-04T08:30:41Z"
-pushed_at = "2018-07-28T08:09:32Z"
+updated_at = "2022-02-14T05:43:29Z"
+pushed_at = "2022-02-14T06:35:16Z"
 git_url = "git://github.com/norm/hammerspoon-config.git"
 ssh_url = "git@github.com:norm/hammerspoon-config.git"
 clone_url = "https://github.com/norm/hammerspoon-config.git"
 svn_url = "https://github.com/norm/hammerspoon-config"
-size = 5
+size = 8
 stargazers_count = 0
 watchers_count = 0
 language = "Lua"
@@ -83,7 +83,7 @@ visibility = "public"
 forks = 0
 open_issues = 0
 watchers = 0
-default_branch = "master"
+default_branch = "main"
 
 [repository.owner]
 login = "norm"
