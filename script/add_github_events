@@ -169,8 +169,16 @@ for i, day in enumerate(sorted(day_events)):
             )
         elif event['type'] == 'PullRequestEvent':
             repos.add(event['repo']['name'])
-            if event['payload']['action'] == 'opened':
+            if event['payload']['action'] in 'opened':
                 update += '* %s — opened [pull request %s](%s) on [`%s`](%s)\n' % (
+                    timestamp.strftime('%H:%M'),
+                    event['payload']['number'],
+                    event['payload']['pull_request']['html_url'],
+                    event['repo']['name'],
+                    api_to_website(event['repo']['url']),
+                )
+            elif event['payload']['action'] in 'reopened':
+                update += '* %s — reopened [pull request %s](%s) on [`%s`](%s)\n' % (
                     timestamp.strftime('%H:%M'),
                     event['payload']['number'],
                     event['payload']['pull_request']['html_url'],
