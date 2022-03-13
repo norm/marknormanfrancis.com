@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository jobs_graph"
 published = 2018-05-18T07:50:05Z
-updated = 2021-04-04T08:30:42Z
+updated = 2022-03-12T06:02:00Z
 origin = "github"
 type = "repository"
 tag = [ "repo-jobs-graph",]
@@ -57,13 +57,13 @@ labels_url = "https://api.github.com/repos/norm/jobs_graph/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/jobs_graph/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/jobs_graph/deployments"
 created_at = "2018-05-18T07:50:05Z"
-updated_at = "2021-04-04T08:30:42Z"
-pushed_at = "2018-05-18T14:53:11Z"
+updated_at = "2022-03-12T06:02:00Z"
+pushed_at = "2022-03-12T06:01:54Z"
 git_url = "git://github.com/norm/jobs_graph.git"
 ssh_url = "git@github.com:norm/jobs_graph.git"
 clone_url = "https://github.com/norm/jobs_graph.git"
 svn_url = "https://github.com/norm/jobs_graph"
-size = 112
+size = 156
 stargazers_count = 0
 watchers_count = 0
 has_issues = false
@@ -82,7 +82,7 @@ visibility = "public"
 forks = 0
 open_issues = 0
 watchers = 0
-default_branch = "master"
+default_branch = "main"
 
 [repository.owner]
 login = "norm"
