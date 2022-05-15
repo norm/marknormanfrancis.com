@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository eurodrink"
 published = 2015-05-16T07:58:41Z
-updated = 2021-05-25T14:59:49Z
+updated = 2022-05-14T22:02:13Z
 origin = "github"
 type = "repository"
 tag = [ "repo-eurodrink",]
@@ -57,7 +57,7 @@ labels_url = "https://api.github.com/repos/norm/eurodrink/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/eurodrink/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/eurodrink/deployments"
 created_at = "2015-05-16T07:58:41Z"
-updated_at = "2021-05-25T14:59:49Z"
+updated_at = "2022-05-14T22:02:13Z"
 pushed_at = "2021-09-22T17:36:52Z"
 git_url = "git://github.com/norm/eurodrink.git"
 ssh_url = "git@github.com:norm/eurodrink.git"
@@ -65,8 +65,8 @@ clone_url = "https://github.com/norm/eurodrink.git"
 svn_url = "https://github.com/norm/eurodrink"
 homepage = "http://eurovisiondrinking.com"
 size = 2437
-stargazers_count = 1
-watchers_count = 1
+stargazers_count = 2
+watchers_count = 2
 language = "Python"
 has_issues = true
 has_projects = true
@@ -83,7 +83,7 @@ topics = []
 visibility = "public"
 forks = 0
 open_issues = 1
-watchers = 1
+watchers = 2
 default_branch = "main"
 
 [repository.owner]
