@@ -104,10 +104,11 @@ type = "User"
 site_admin = false
 
 [repository.license]
-key = "other"
-name = "Other"
-spdx_id = "NOASSERTION"
-node_id = "MDc6TGljZW5zZTA="
+key = "isc"
+name = "ISC License"
+spdx_id = "ISC"
+url = "https://api.github.com/licenses/isc"
+node_id = "MDc6TGljZW5zZTEw"
 
 [repository.permissions]
 admin = true

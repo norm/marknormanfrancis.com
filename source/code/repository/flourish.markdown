@@ -107,10 +107,11 @@ type = "User"
 site_admin = false
 
 [repository.license]
-key = "other"
-name = "Other"
-spdx_id = "NOASSERTION"
-node_id = "MDc6TGljZW5zZTA="
+key = "mit"
+name = "MIT License"
+spdx_id = "MIT"
+url = "https://api.github.com/licenses/mit"
+node_id = "MDc6TGljZW5zZTEz"
 
 [repository.permissions]
 admin = true
