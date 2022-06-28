@@ -1,7 +1,7 @@
 ```
 title = "Created GitHub repository homebrew-versions"
 published = 2016-12-18T10:22:37Z
-updated = 2021-04-04T08:30:41Z
+updated = 2022-06-27T10:16:59Z
 origin = "github"
 type = "repository"
 tag = [ "repo-homebrew-versions",]
@@ -56,13 +56,13 @@ labels_url = "https://api.github.com/repos/norm/homebrew-versions/labels{/name}"
 releases_url = "https://api.github.com/repos/norm/homebrew-versions/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/homebrew-versions/deployments"
 created_at = "2016-12-18T10:22:37Z"
-updated_at = "2021-04-04T08:30:41Z"
-pushed_at = "2017-04-12T10:30:46Z"
+updated_at = "2022-06-27T10:16:59Z"
+pushed_at = "2022-06-27T13:31:44Z"
 git_url = "git://github.com/norm/homebrew-versions.git"
 ssh_url = "git@github.com:norm/homebrew-versions.git"
 clone_url = "https://github.com/norm/homebrew-versions.git"
 svn_url = "https://github.com/norm/homebrew-versions"
-size = 1
+size = 6
 stargazers_count = 0
 watchers_count = 0
 language = "Ruby"
