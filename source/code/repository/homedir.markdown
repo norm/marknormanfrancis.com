@@ -79,6 +79,7 @@ disabled = false
 open_issues_count = 0
 allow_forking = true
 is_template = false
+web_commit_signoff_required = false
 topics = []
 visibility = "public"
 forks = 26

@@ -79,6 +79,7 @@ disabled = false
 open_issues_count = 14
 allow_forking = true
 is_template = false
+web_commit_signoff_required = false
 topics = [ "macos-setup",]
 visibility = "public"
 forks = 2

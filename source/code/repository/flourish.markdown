@@ -79,6 +79,7 @@ disabled = false
 open_issues_count = 13
 allow_forking = true
 is_template = false
+web_commit_signoff_required = false
 topics = [ "python", "static-site-generator",]
 visibility = "public"
 forks = 2
