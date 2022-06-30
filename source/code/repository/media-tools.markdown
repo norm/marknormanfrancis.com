@@ -58,13 +58,13 @@ releases_url = "https://api.github.com/repos/norm/media-tools/releases{/id}"
 deployments_url = "https://api.github.com/repos/norm/media-tools/deployments"
 created_at = "2016-11-13T11:30:27Z"
 updated_at = "2021-04-04T08:30:42Z"
-pushed_at = "2017-10-18T15:58:21Z"
+pushed_at = "2022-06-29T05:47:28Z"
 git_url = "git://github.com/norm/media-tools.git"
 ssh_url = "git@github.com:norm/media-tools.git"
 clone_url = "https://github.com/norm/media-tools.git"
 svn_url = "https://github.com/norm/media-tools"
 homepage = ""
-size = 448
+size = 439
 stargazers_count = 1
 watchers_count = 1
 language = "Shell"
@@ -85,7 +85,7 @@ visibility = "public"
 forks = 0
 open_issues = 0
 watchers = 1
-default_branch = "master"
+default_branch = "main"
 
 [repository.owner]
 login = "norm"
