@@ -1,5 +1,5 @@
 boto3==1.18.40
-Django==3.2.7
+Django==3.2.18
 flourish>=0.10.3
 honcho==1.0.1
 libsass==0.21.0
